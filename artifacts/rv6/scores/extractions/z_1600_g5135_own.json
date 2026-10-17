@@ -1,0 +1,85 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5135",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: country-by-country data is being enumerated with specific numeric values, establishing a template of country name followed by numeric figure.\n\nContinuation of country list: after \"United States\" and \"United Kingdom,\" more country entries are expected, following the established format of country name then numeric data.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numeric value or percentage (e.g., \"2.5\" or similar) to complete the numeric rate for the next country or a closing summary statistic.\n\"2 is\" likely contains a typo for \"2 is\" \u2014 the sentence is mid-clause, expecting a numeric figure or descriptor completing the hazard rating for a specific country.\n\"2 is\" ends abruptly, likely continuing with a decimal number or country name, constrained to match the established numeric format of the preceding sentence.\n\"2 is\" is the final token.",
+    "Film review format with structured sections (plot summary, cast, analysis) signals continuation of analytical commentary on specific characters and themes.\n\nThe review is mid-sentence describing visual/technical elements of the film, having just listed political figures; the pattern of naming characters with actor names in parentheses is established.\n\nFinal token \"5,\" is mid-sentence within a list of political figures, immediately requiring continuation of the enumeration or description of the scene's visual elements, likely \"5,\" completing a numerical reference to a specific score or rating.\n\"5,\" is part of \"45 was 5,\" \u2014 a numerical comparison or score is expected next, likely \"35\" or similar, completing the historical/political analysis of the film's scene.\n\"5,\" is mid-clause, part of a numerical description of the character's political position or scene count, requiring a number or descriptive phrase immediately.\n\"3.\"",
+    "Listicle/article format with bullet points and expert quotes establishing a pattern of practical dietary advice with specific statistics and recommendations.\n\nContinuation of a specific citation or recommendation: the article is mid-sentence discussing visual media examples, with \"2\" suggesting a numbered list or specific article reference is being completed.\n\nFinal token \"2\" is mid-sentence within a parenthetical citation or example reference, immediately requiring continuation of the visual media guidance, likely \"2\" completing a statistic or source reference like \"about 2 seconds\" or similar.\n\"2\" likely continues a specific measurement or list item, constrained to complete the \"about 2\" phrase with a noun or qualifier.\n\"2\" is part of an incomplete practical safety observation about visual media, likely \"2 seconds\" or similar, completing the scientific/health claim.\n\"2\" ends the sequence mid-thought, part of a specific numeric.",
+    "Continuation of a structured news article listing specific video metrics, following a pattern of citing sources and technical details about the film.\n\nThe review score/ranking pattern established earlier (e.g., \"10 out of 10\") suggests additional technical or analytical commentary about the video's content or ranking follows.\n\nFinal token \"200,000\" is mid-sentence within a statistical citation, part of a list of social media metrics; the next tokens must complete the numerical ranking or visual description, likely continuing with additional media platform counts or a concluding evaluative clause.\n\"200,000 200,000 5,000\" suggests a truncated list of view counts, with \"20,000\" or similar figures expected immediately next to complete the media coverage breakdown.\n\"400,000 views\" analysis.",
+    "Structured list pattern: document follows a formal technical standard format with numbered sections, bullet points, and standardized descriptions of visual guidance elements.\n\nAcademic/technical citation style: the text describes a visual standard's scope and methodology, expecting continued technical elaboration on test criteria, references, or supporting evidence.\n\nFinal token \"3.0\" ends a sentence describing the visual standard's content; the next tokens will likely continue with additional test criteria, a new numbered point, or a concluding analytical statement about the standard's recommendations.\n\"2,000\" or similar numerical specification is expected to complete the empirical claim about the 3.0 rule.\n\"250 3 people 3.0\" is mid-sentence, referencing a specific test count; \"30\" or a specific standard reference number is immediately expected to complete the empirical reference.\n\"2,500\" or similar.",
+    "Statistical list pattern: BLS data presented as bullet points with percentages, establishing a structured enumeration of BLS data categories with specific figures.\n\nContinuation of BLS data presentation: the text has been systematically listing BLS data categories with percentages; more percentage-based categories or a new data source section is expected next.\n\nFinal token \"69%\" closes a specific percentage figure within a sentence about BLS data, immediately expecting continuation of the statistical breakdown or a new sentence introducing another percentage or related BLS subcategory.\n\"69%\" ends a specific numerical claim about the 69% BLS data point, likely followed by a period or further elaboration on interpretation.\n\"69%\" is the final token, ending a percentage figure mid-sentence or at sentence boundary, strongly constraining next tokens to either a period, additional context, or a new related statistic.\n\"69%\" closes."
+  ],
+  "input_sha256": "c2164693b0ef547be9fa9098011034a9be73a07eb5fd8ac4e8d061dada309521",
+  "values": [
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "5,",
+      "value": "5"
+    },
+    {
+      "quote": "45 was 5",
+      "value": "45"
+    },
+    {
+      "quote": "3.",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "400,000 views",
+      "value": "400000"
+    },
+    {
+      "quote": "3.0",
+      "value": "3"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "3 people",
+      "value": "3"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "2,500",
+      "value": "2500"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes and truncated list items.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is\",\"value\":2},{\"quote\":\"5,\",\"value\":5},{\"quote\":\"45 was 5\",\"value\":45},{\"quote\":\"3.\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"5,000\",\"value\":5000},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"400,000 views\",\"value\":400000},{\"quote\":\"3.0\",\"value\":3},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"250\",\"value\":250},{\"quote\":\"3 people\",\"value\":3},{\"quote\":\"30\",\"value\":30},{\"quote\":\"2,500\",\"value\":2500},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes and truncated list items.\"}",
+  "prompt_sha256": "c4c90a8470cba79adad8080e73d60bf1ff274ac150fbebb3693b3aaf8d56de96"
+}

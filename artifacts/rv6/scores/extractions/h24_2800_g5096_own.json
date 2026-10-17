@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5096",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 50 boxes \u00d7 12 = 600, but the answer is 54, so the next token must be the correct result.\n\nThe word problem structure demands a specific numerical answer: (5 - 1) \u00d7 12 = 48 units after removing one broken box.\n\nFinal token \"is\" opens the answer reveal, immediately requiring the number \"48\" (the computed result of 5 - 1 = 4 sets \u00d7 12 = 48 tons remaining).\n(5 - 1) \u00d7 12 = 48 tons, completing the arithmetic solution.\n(5 - 1) \u00d7 12 = new capacity after selling one box.\n54 tons total capacity before the problem concludes.\n(5 - 1) \u00d7 12 \u00d7 10 = 48.",
+    "Math word problem solution format: step-by-step worked example with arithmetic operations, showing how to solve 5 dozen eggs.\n\nThe solution is mid-explanation, having stated the total eggs (5\u00d712=60) and now detailing the subtraction operation of removing 3 eggs.\n\nFinal token \"had\" begins a past-tense clause explaining the original count (5 dozen eggs), immediately requiring a number or quantity like \"60 eggs\" or \"12 eggs total before removing 3 eggs.\"\n5 dozen eggs = 60 eggs total, so the next tokens will describe the original count before explaining the remaining eggs after removing 3 eggs.\nShe had 5\u00d712 eggs initially, then removing 3 eggs per box.\n12\u00d75 boxes = 60 eggs total before listing the remaining eggs after 1/4 removal.\n5 dozen eggs = 60 eggs split across.",
+    "Step-by-step math solution format requires continuing the worked example with arithmetic operations.\n\nWord problem context: 5 boxes \u00d7 12 eggs = 60 total eggs, then removing 3\u00d712 eggs = 36 eggs remaining.\n\nFinal token \"6\" is the start of \"60\" (5\u00d712=60 eggs), mid-number, immediately requiring \"0 eggs\" to complete the original count before explaining the subtraction of 3 removed eggs per box.\nShe had 60 total eggs initially, then removing 1/3 of 5 boxes = 20 eggs sold, leaving 40 eggs remaining after removing 2 boxes.\n5\u00d712 eggs = 60 total eggs before accounting for the 3 removed eggs.\nFirst step: 5 rows \u00d7 12 eggs = 60 total eggs, then minus 3\u00d78 eggs removed.",
+    "Step-by-step math word problem solution format, requiring continuation of the arithmetic explanation with each operation shown.\n\nThe word problem structure demands a worked solution showing subtraction: 3 boxes \u00d7 20 cookies = 60 total, then removing 1/3 broken cookies.\n\nFinal token \"60\" is the initial count (3\u00d720 cookies), immediately requiring the next step: \"cookies\" or a continuation like \"cookies before removing 3 broken ones from each box.\"\nShe had 60 cookies total before removing 1/3 broken ones from each box.\n60 cookies in total before the subtraction operation is described.\nShe had 6\u00d710 cookies in each box initially, then removing 3 boxes \u00d7 10 cookies = 30 cookies removed, leaving 36 remaining.\n\nFirst step: 6\u00d712=72 cookies total before accounting for the 3.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with arithmetic operations shown explicitly.\n\nThe calculation 12 dozen eggs = 144 eggs total, now computing eggs remaining after removing 1 dozen eggs.\n\nFinal token \"p\" begins the word \"12 eggs\" completing the equation \"1 dozen eggs = 12 eggs,\" directly continuing the arithmetic demonstration showing the 12 eggs removed from the 120 total eggs.\nFinal token \"p\" is the start of \"12 eggs,\" representing the 12 eggs inside the 1 dozen eggs being removed.\n12 \u00d7 1 = 12 eggs broken eggs, confirming the answer 144 eggs remain.\n12 eggs in the empty box.\n1 dozen eggs = 12 eggs inside the box before eggs are removed.\n12 \u00d7 12 = small eggs count, completing the equation showing eggs.",
+    "Math word problem walkthrough pattern: each problem states a scenario, then provides a numerical answer with explanation.\n\nThe second problem follows the same template: a simple arithmetic question about eggs, expecting a direct numerical answer (\"12 eggs broken = 12 eggs remaining\").\n\nFinal token \"12. 12 eggs broken = 12.\" ends the problem statement with a specific example answer, immediately expecting the computed remaining count or a follow-up question like \"How many eggs are left?\"\nFinal token \"18.\" closes the rejected egg count (2 boxes \u00d7 6 bad eggs), suggesting the next tokens will state the remaining total: \"We have 48 eggs.\"\nFinal token \"12.\" is the rejected eggs from one specific bad box, completing the removal instruction.\n simple arithmetic conclusion expected next.\n18 eggs removed from 24 bad eggs = 48 eggs remaining capacity.\nAnswer:."
+  ],
+  "input_sha256": "79904a6204b033b02ed77815e33e4383edfbd73817b2e922cff29a52a8703b54",
+  "values": [
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned as literals, spelled-out numbers, fractions, or results of arithmetic expressions within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50\",\"value\":50},{\"quote\":\"12\",\"value\":12},{\"quote\":\"600\",\"value\":600},{\"quote\":\"54\",\"value\":54},{\"quote\":\"5\",\"value\":5},{\"quote\":\"1\",\"value\":1},{\"quote\":\"48\",\"value\":48},{\"quote\":\"4\",\"value\":4},{\"quote\":\"10\",\"value\":10},{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"36\",\"value\":36},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"20\",\"value\":20},{\"quote\":\"40\",\"value\":40},{\"quote\":\"2\",\"value\":2},{\"quote\":\"8\",\"value\":8},{\"quote\":\"6\",\"value\":6},{\"quote\":\"30\",\"value\":30},{\"quote\":\"72\",\"value\":72},{\"quote\":\"144\",\"value\":144},{\"quote\":\"120\",\"value\":120},{\"quote\":\"18\",\"value\":18},{\"quote\":\"24\",\"value\":24}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned as literals, spelled-out numbers, fractions, or results of arithmetic expressions within the provided descriptions.\"}",
+  "prompt_sha256": "38c6473e7af9f73907f75ff50f8fc4f52790c7f3a2a75933e963b8956706b899"
+}

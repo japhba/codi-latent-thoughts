@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5500",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 6 + twice 6 + 7 added = 25 total, so the answer must be 25.\n\nThe pattern establishes cumulative addition: original count (6) + 2\u00d76 + 7 + 2\u00d73 = 25, constraining the next token to be the calculated total.\n\nFinal token \"Total of\" is a prompt phrase demanding an integer answer, specifically the calculated sum (6+2\u00d73+7=25), as the problem explicitly asks for the combined total of all items: 6+7+3\u00d72+1.",
+    "Word problem format requires arithmetic calculation: twice the number of boys = 6, so \"6 dogs\" must follow immediately.\n\nThe problem establishes a structured arithmetic setup: boys count (2) \u00d7 2 = 4, girls count (1) remains unknown, so the next tokens must state \"6 dogs\" and then add the existing girls (2) to find total dogs.\n\nFinal token \"had\" is a past-tense verb introducing the multiplication result, requiring a number (\"6\") representing twice 6 dogs, completing the sentence before listing the girls count (2) and adding them together.",
+    "Word problem format requires completing the multiplication: \"three times more blue flowers\" means 12 count, then adding to existing 5 red flowers to find total count.\n\nThe structured problem setup establishes a pattern: \"He has X blue flowers and he has Y times more blue flowers,\" expecting the answer to continue listing flower types (roses, then total).\n\nFinal token \"12\" is the calculated number of blue flowers (3 \u00d7 4), immediately requiring the noun \"blue flowers\" to complete the sentence, followed by the addition of the existing 5 red flowers to give the total count of 15.",
+    "Word problem format requires completing the multiplication statement: \"twice as many blue markers as red markers, so 2 \u00d7 6 = 12 blue markers.\"\n\nThe structured problem follows a step-by-step arithmetic pattern: count the blue markers (12), then add the red markers (1), so the next step states \"blue markers\" and then adds them to the existing count (1 + 12 = 13).\n\nFinal token \"p\" is the beginning of \"pencils,\" completing the sentence \"He has 2 \u00d7 6 = 12 p[encils]\" \u2014 the word \"encils\" must immediately follow to complete this multiplication statement before continuing to the next step.",
+    "Math word problem format requires completing the arithmetic calculation: 12 + 2 groups = 28 eggs, then adding the known count of 10 eggs to find total eggs.\n\nThe pattern established shows: count the existing eggs, then add the new count (2\u00d76=12), then subtract the known eggs (10) to find the final total.\n\nFinal token \"pens. 12 eggs. 2 groups. 10 eggs. 2\u00d76=12 eggs. 12 + 5 = 22 eggs.\" \u2014 the next token must state the combined egg count (14) continuing the arithmetic solution.",
+    "Repetition/continuation pattern: each word problem follows identical structure \u2014 \"There are X eggs. We add Y eggs. How many eggs do we have?\" \u2014 establishing a template requiring a numerical answer.\n\nImmediate semantic expectation: the third problem lists \"eggs + count of other items\" (e.g., \"3 + 5 + 10 eggs\"), so a total count answer is expected, likely a specific integer representing the combined egg count.\n\nFinal token \"problem.\" closes the prompt instruction \"Add the number of eggs together.\" \u2014 the model must now provide the answer field, specifically a total egg count (e.g., \"15 eggs\" or similar), mirroring the previous problem's format of stating the final total count."
+  ],
+  "input_sha256": "fa62f55c75c9d8aae616ab13210fe7d339a6acfa5aec45dbc1499b35b8c646b9",
+  "values": [
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "twice 6",
+      "value": "12"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "2\u00d76",
+      "value": "12"
+    },
+    {
+      "quote": "2\u00d73",
+      "value": "6"
+    },
+    {
+      "quote": "6+2\u00d73+7=25",
+      "value": "25"
+    },
+    {
+      "quote": "3\u00d72",
+      "value": "6"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding years, ordinals, and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6\",\"value\":6},{\"quote\":\"twice 6\",\"value\":12},{\"quote\":\"7\",\"value\":7},{\"quote\":\"25\",\"value\":25},{\"quote\":\"2\\u00D76\",\"value\":12},{\"quote\":\"2\\u00D73\",\"value\":6},{\"quote\":\"6+2\\u00D73+7=25\",\"value\":25},{\"quote\":\"3\\u00D72\",\"value\":6},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"4\",\"value\":4},{\"quote\":\"3\",\"value\":3},{\"quote\":\"12\",\"value\":12},{\"quote\":\"5\",\"value\":5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"13\",\"value\":13},{\"quote\":\"28\",\"value\":28},{\"quote\":\"10\",\"value\":10},{\"quote\":\"22\",\"value\":22},{\"quote\":\"14\",\"value\":14}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding years, ordinals, and unit conversions.\"}",
+  "prompt_sha256": "c0386f2999e8e5b1446fb36cd4341687819eff7c0d5ccc7b8c0b986a0aef5f96"
+}

@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5276",
+  "kind": "own",
+  "descriptions": [
+    "Math problem solution following a structured step-by-step format, requiring the final answer to complete the calculation: total remaining people after removing 2/3+1/6+1/5 of 24.\n\nThe pattern establishes a clear arithmetic sequence: 24 \u2212 (2/3+1/5+1/3)\u00d724 = 24 \u2212 16 \u2212 8 = 4 people remaining.\n\nFinal token \"remain = \" is the answer prompt in the problem, immediately requiring the integer answer \"4\" (since 24 \u2212 1/3\u00d73 \u2212 1/5\u00d72 = 4 people left).",
+    "Math problem solution in progress: calculating 1/5th of 240 students, requiring arithmetic continuation (240 \u00d7 1/5 = 48, then remaining students).\n\nThe structured solution is listing student counts by category: 1/5th are girls (240), 3/5th are boys (168), so remaining after girls = 240 \u2212 1/5th = 216.\n\nFinal token \"have\" begins the calculation of the 240 students who are girls (240 \u00d7 1/5 = 48), immediately requiring the number \"48\" followed by the remaining students count (216) and boys count (168).",
+    "Math word problem solution in progress: calculating 1/5 of 240 students, requiring arithmetic continuation (48 + 4/5\u00d7150).\n\nThe solution is mid-calculation, having established the first group count (1/5 of 240 = 48) and now listing remaining groups (240 \u2212 1/5\u00d7240 = 168).\n\nFinal token \"4\" begins the first group count (44 students), immediately constrained to complete \"48\" (20% of 240), followed by the remaining group count calculation: \"40 students\" or similar, continuing the arithmetic breakdown.",
+    "Math word problem solution in progress: calculating remaining students after accounting for two groups (48 in band, 3/4 in orchestra).\n\nThe solution is mid-calculation, having established total 144 students and broken down into two groups (20% band, 75% orchestra), now computing the count of each group.\n\nFinal token \"48\" is the count of students in the first group (15% band = 48), immediately requiring the remaining count: \"and the rest are 144 - 48 = 108 in the remaining groups\" or similar, continuing the arithmetic breakdown.",
+    "Math word problem solution in progress: calculating remaining students after 2/3 of 246, following a structured arithmetic sequence (246 \u00d7 2/3 = 164).\n\nThe pattern established shows: total students = 246, then 2/3 of 246 = 164, then remaining = 246 \u2212 164 = 82, then 1/6 remaining.\n\nFinal token \"p\" begins the number \"246 \u00d7 3/3 = 78\" \u2014 the next tokens must complete this calculation, specifically \"78\" representing the 2/3 of 246 who vote \"no,\" continuing the arithmetic chain showing 246 \u00d7 2/3 = 78.",
+    "Math word problem format: structured problem set with consistent pattern of presenting a scenario, then asking to calculate remaining count after subtraction.\n\nThe second problem mirrors the first's structure: total=200, 80+=160, so remaining count = 40; the solution must now state 80 + 160 = 240, leaving 40 remaining.\n\nFinal token \"16\" is the beginning of the second large number (160) representing the 80+160=240 sold, completing the arithmetic answer; next tokens must be \"0\" to complete \"160\" and then state the remaining count (40)."
+  ],
+  "input_sha256": "00e55ef4f157b9f8e954fcad96c47ca0ae1830b6ecb902e4992a873913dee6eb",
+  "values": [
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "1/6",
+      "value": "0.166667"
+    },
+    {
+      "quote": "1/5",
+      "value": "0.2"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "216",
+      "value": "216"
+    },
+    {
+      "quote": "4/5",
+      "value": "0.8"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "44",
+      "value": "44"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "108",
+      "value": "108"
+    },
+    {
+      "quote": "246",
+      "value": "246"
+    },
+    {
+      "quote": "164",
+      "value": "164"
+    },
+    {
+      "quote": "82",
+      "value": "82"
+    },
+    {
+      "quote": "3/3",
+      "value": "1"
+    },
+    {
+      "quote": "78",
+      "value": "78"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results mentioned in the descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"1/6\",\"value\":0.16666666666666666},{\"quote\":\"1/5\",\"value\":0.2},{\"quote\":\"24\",\"value\":24},{\"quote\":\"16\",\"value\":16},{\"quote\":\"8\",\"value\":8},{\"quote\":\"4\",\"value\":4},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"240\",\"value\":240},{\"quote\":\"48\",\"value\":48},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"168\",\"value\":168},{\"quote\":\"216\",\"value\":216},{\"quote\":\"4/5\",\"value\":0.8},{\"quote\":\"150\",\"value\":150},{\"quote\":\"44\",\"value\":44},{\"quote\":\"20\",\"value\":20},{\"quote\":\"40\",\"value\":40},{\"quote\":\"144\",\"value\":144},{\"quote\":\"75\",\"value\":75},{\"quote\":\"15\",\"value\":15},{\"quote\":\"108\",\"value\":108},{\"quote\":\"246\",\"value\":246},{\"quote\":\"164\",\"value\":164},{\"quote\":\"82\",\"value\":82},{\"quote\":\"3/3\",\"value\":1},{\"quote\":\"78\",\"value\":78},{\"quote\":\"200\",\"value\":200},{\"quote\":\"80\",\"value\":80},{\"quote\":\"160\",\"value\":160}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic results mentioned in the descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "2a5deda8e68396b99a36876288765b3d70edf601b4f230995e515d6aa1e22ab7"
+}

@@ -1,0 +1,169 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5006",
+  "kind": "donor",
+  "descriptions": [
+    "Structured statistical output pattern: hazard ratios with confidence intervals are being listed, following the format \"X.XX (95% CI: X.XX-X.XX)\".\n\nNumerical data continuation: the sequence lists specific numeric values for each time period; the first period's values are partially given, requiring completion of the numeric range.\n\nFinal token \"2 is\" begins a numeric value mid-sentence within a parenthetical numeric range, immediately requiring decimal digits and closing parenthesis, e.g., \"2.15)\" to complete the hazard ratio for the first time period.\n\"2 is\" is an incomplete numeric expression requiring a decimal number and closing parenthesis.\n\"2 is\" ends mid-sentence, part of a numeric value that must be completed with digits forming a plausible hazard figure like \"2.15\" or similar.",
+    "Continuation of a film synopsis/summary, following established pattern of historical scene descriptions with specific details about characters and events.\n\nThe text is mid-sentence describing the film's historical setting and character details, with a list of production facts being enumerated (title, year, director, cast).\n\nFinal token \"12,\" is part of an interrupted numerical reference (\"12,\") within a factual historical description of the film's title or production details, immediately requiring continuation of the number or a new clause describing the scene/setting.\n\"16 was 14,\" \u2014 mid-sentence numerical sequence likely continuing with \"10\" or similar digits completing a historical reference or scene count.\n\"13, 16 was 12,\" establishes a pattern of interrupted numerical facts; \"800\" or similar historical detail about the Soviet-era scene is expected next.\n\"14,\" is.",
+    "Recipe format continuation: structured ingredient list followed by narrative instructions, now mid-sentence describing the book's content.\n\nSequential narrative momentum: the text is recounting the book's history, having just introduced the recipe's origin story and ingredients, now detailing the cooking process.\n\nFinal token \"2\" is mid-number, part of \"250 pages\" or similar count, completing \"2\" as part of \"250 pages\" or \"2,250 pages\" \u2014 a specific numerical continuation of the biblical/religious reference \"250 pages\" or a year figure.\n\"2\" is the start of a number completing \"2 250 pages\" or \"2 268 pages,\" likely continuing \"250 2 256\" or a chronological progression of the author's spiritual journey.\n\"2 8 250\" or similar.",
+    "Biographical narrative momentum: the text is mid-sentence introducing a new book, listing its contents and relationship to prior works.\n\nList/continuation pattern: the recipe collection description is being enumerated, with \"80\" suggesting a numbered relationship or count of ingredients/characters.\n\nFinal token \"80\" is part of an incomplete number (\"880\" or similar), mid-sentence describing the man's romantic history; next tokens must complete the number and continue the plot summary of the new book.\n\"880\" or \"80\" completing \"85\" or \"880\" \u2014 a specific number completing \"580 88\" relationship count, immediately followed by \"580\" or \"85\" and then the religious conversion detail.\n\"580 88\" 780\" 80\" 383\" relationship.\"",
+    "News article narrative momentum: factual reporting on a specific incident, expecting continuation of the statistic or detail about the book's content.\n\nThe article is mid-sentence completing a specific factual claim about the book's content, requiring continuation of the cited statistic or anecdote.\n\nFinal token \"200\" is part of an incomplete numerical reference (\"200\"), likely continuing a larger figure or completing \"200\" as a standalone number, immediately expecting either more digits, a unit, or a clause explaining the safety concern.\n\"200\" ends the sequence mid-thought, likely completing \"200\" as \"200\" or introducing a specific count of victims/quotes, constrained to continue the news-reporting register.\n\"200\" 500 people\" or similar, completing the \"500\" example with a specific detail or citation.\n\"200.\"",
+    "Structured Q&A format with case history narrative: each entry follows a pattern of scenario \u2192 procedural steps \u2192 outcome, establishing strong continuation expectations.\n\nSequential chronological case history pattern: the text lists multiple dated entries (1/2/2013, 1/2/2014), suggesting another dated entry or continuation of the current timeline sequence.\n\nFinal token \"55\" is a truncated number mid-sentence (\"555\"), part of a specific time reference (\"559 pages\" or similar), immediately requiring completion of the numeric detail about the phone call's duration or content.\n\"559 pages\" or similar timestamp detail is expected next, continuing the factual archival description of the 556-page incident.\n\"559\" is a partial number mid-sentence, part of a specific memory card timestamp \"558 pages\" scene description, requiring completion of the."
+  ],
+  "input_sha256": "12acd1842db1ec3104445c0587786eda6f57397f429d23163c296bd8aa684082",
+  "values": [
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "12,",
+      "value": "12"
+    },
+    {
+      "quote": "16 was 14,",
+      "value": "16"
+    },
+    {
+      "quote": "16 was 14,",
+      "value": "14"
+    },
+    {
+      "quote": "13, 16 was 12,",
+      "value": "13"
+    },
+    {
+      "quote": "13, 16 was 12,",
+      "value": "12"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "14,",
+      "value": "14"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "250 pages",
+      "value": "250"
+    },
+    {
+      "quote": "2,250 pages",
+      "value": "2250"
+    },
+    {
+      "quote": "2 250 pages",
+      "value": "2250"
+    },
+    {
+      "quote": "2 268 pages",
+      "value": "2268"
+    },
+    {
+      "quote": "250 2 256",
+      "value": "250"
+    },
+    {
+      "quote": "250 2 256",
+      "value": "2"
+    },
+    {
+      "quote": "250 2 256",
+      "value": "256"
+    },
+    {
+      "quote": "2 8 250",
+      "value": "2"
+    },
+    {
+      "quote": "2 8 250",
+      "value": "8"
+    },
+    {
+      "quote": "2 8 250",
+      "value": "250"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "880",
+      "value": "880"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "580 88",
+      "value": "580"
+    },
+    {
+      "quote": "580 88",
+      "value": "88"
+    },
+    {
+      "quote": "780",
+      "value": "780"
+    },
+    {
+      "quote": "383",
+      "value": "383"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "500 people",
+      "value": "500"
+    },
+    {
+      "quote": "1/2/2013",
+      "value": "1"
+    },
+    {
+      "quote": "1/2/2013",
+      "value": "2"
+    },
+    {
+      "quote": "1/2/2014",
+      "value": "1"
+    },
+    {
+      "quote": "1/2/2014",
+      "value": "2"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "555",
+      "value": "555"
+    },
+    {
+      "quote": "559 pages",
+      "value": "559"
+    },
+    {
+      "quote": "556-page",
+      "value": "556"
+    },
+    {
+      "quote": "558 pages",
+      "value": "558"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including those within quotes and sequences, while excluding dates/years as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"95%\",\"value\":95},{\"quote\":\"12,\",\"value\":12},{\"quote\":\"16 was 14,\",\"value\":16},{\"quote\":\"16 was 14,\",\"value\":14},{\"quote\":\"13, 16 was 12,\",\"value\":13},{\"quote\":\"13, 16 was 12,\",\"value\":12},{\"quote\":\"800\",\"value\":800},{\"quote\":\"14,\",\"value\":14},{\"quote\":\"2\",\"value\":2},{\"quote\":\"250 pages\",\"value\":250},{\"quote\":\"2,250 pages\",\"value\":2250},{\"quote\":\"2 250 pages\",\"value\":2250},{\"quote\":\"2 268 pages\",\"value\":2268},{\"quote\":\"250 2 256\",\"value\":250},{\"quote\":\"250 2 256\",\"value\":2},{\"quote\":\"250 2 256\",\"value\":256},{\"quote\":\"2 8 250\",\"value\":2},{\"quote\":\"2 8 250\",\"value\":8},{\"quote\":\"2 8 250\",\"value\":250},{\"quote\":\"80\",\"value\":80},{\"quote\":\"880\",\"value\":880},{\"quote\":\"85\",\"value\":85},{\"quote\":\"580 88\",\"value\":580},{\"quote\":\"580 88\",\"value\":88},{\"quote\":\"780\",\"value\":780},{\"quote\":\"383\",\"value\":383},{\"quote\":\"200\",\"value\":200},{\"quote\":\"500 people\",\"value\":500},{\"quote\":\"1/2/2013\",\"value\":1},{\"quote\":\"1/2/2013\",\"value\":2},{\"quote\":\"1/2/2014\",\"value\":1},{\"quote\":\"1/2/2014\",\"value\":2},{\"quote\":\"55\",\"value\":55},{\"quote\":\"555\",\"value\":555},{\"quote\":\"559 pages\",\"value\":559},{\"quote\":\"556-page\",\"value\":556},{\"quote\":\"558 pages\",\"value\":558}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including those within quotes and sequences, while excluding dates/years as per instructions.\"}",
+  "prompt_sha256": "3595f854a4b9733f0bf18b92e7d4dfef8ee779e5016490ed97141517c3923267"
+}

@@ -1,0 +1,46 @@
+{
+  "organism": {
+    "repo_id": "cds-jb/codi_qwen3-8b-answer_only",
+    "revision": "17dd04fef336501d6bace676bb9bce295df7356a",
+    "checkpoint": 7580,
+    "weights_sha256": "7b14f101d9df48015abc5bbf8264297df0c37c9f51dfda04da2401c11af704ee"
+  },
+  "torch": "2.10.0+cu128",
+  "dtype": "float32, TF32 disabled",
+  "activation_sha256": "da6b62f833a8a8e98907e14983eb3aa78a8acd99fdef659c24e91d0d6c476af5",
+  "jacobian_sha256": "d122daa2a5c7a7a883076e261cf5ad11d974287e1a935fcad44873c33754cddd",
+  "normalization_audit": {
+    "top1_changed": 4762,
+    "top5_set_changed": 7824,
+    "positions": 8400,
+    "mean_kl_correct_to_double_norm": 5.436363321940104
+  },
+  "methods": [
+    "logitlens",
+    "jlens"
+  ],
+  "hidden_states": "0=input embedding; 1..35=pre-final-norm block outputs; 36=post-final-norm output",
+  "positions": [
+    "BOT",
+    "thought1",
+    "thought2",
+    "thought3",
+    "thought4",
+    "thought5",
+    "thought6"
+  ],
+  "z": "exact saved hidden_states[0] at thought1..6, not an approximate re-projection",
+  "recorded_inputs": true,
+  "fit_metadata": {
+    "ckpt": "/workspace-vast/jbauer/codi_eval_ckpt/checkpoint-7580",
+    "base": "Qwen/Qwen3-8B",
+    "estimator": "paper reduction, target=block-35 output",
+    "valid_positions": "Enc(bocot)+t1..t6; J_emb over t1..t6 only",
+    "ds": "zen-E/GSM8k-Aug-NL train",
+    "offset": 5200,
+    "n_problems": 96,
+    "skipped": 17,
+    "dim_batch": 16,
+    "gate": "CODI-correct, nonempty chain"
+  }
+}

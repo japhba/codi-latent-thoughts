@@ -1,0 +1,29 @@
+{
+  "organism": {
+    "repo_id": "cds-jb/codi_qwen3-8b-answer_only",
+    "revision": "17dd04fef336501d6bace676bb9bce295df7356a",
+    "checkpoint": 7580,
+    "weights_sha256": "7b14f101d9df48015abc5bbf8264297df0c37c9f51dfda04da2401c11af704ee"
+  },
+  "prompt": "raw question + EOS + BOT",
+  "batch_size": 2,
+  "cached_padding_mask": true,
+  "torch": "2.10.0+cu128",
+  "stored_dtype": "float16",
+  "positions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hidden_states": [
+    0,
+    9,
+    18,
+    27,
+    35,
+    36
+  ]
+}

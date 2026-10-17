@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5151",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nAcademic/technical report structure: the text is presenting hazard ratio findings for the 2010\u20132019 dataset, with hazard ratio for \"all\" expected to follow the specific hazard ratio for the 2010\u20132019 period.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the 2010\u20132019 period; next tokens must be a numerical hazard ratio value (likely a decimal number, e.g., \"1.95\") followed by a confidence interval in parentheses.",
+    "Narrative momentum of character analysis: the review is recounting the film's plot and emotional themes, building toward explaining the personal connection between the couple's experiences and the film's themes.\n\nThe reviewer's interpretive thesis: the film's emotional complexity (family, marriage, personal history) is being explained through the character's perspective, with the reviewer's own personal reaction expected to follow.\n\nFinal token \"was\" opens a past-tense clause mid-sentence describing the wife's reaction to the husband's emotional response to the family's situation \u2014 a specific character observation or plot detail must immediately follow.",
+    "Q&A forum format with anecdotal advice structure: a reader question is followed by a practical, reflective answer with a personal anecdote, now concluding with a direct spiritual/medical reflection.\n\nThe narrative momentum of the anecdote is resolving into a practical takeaway \u2014 the author is mid-sentence explaining how the anecdote illustrates the advice to \"not be surprised,\" implying a concluding moral or practical conclusion is expected.\n\nFinal token \"2.0 0.2\" is a truncated fraction (\"0.2\" likely meaning \"2/6\" or \"2/10\"), part of a calculation about the 0.2% statistic, immediately requiring completion of the number and likely a follow-up sentence.",
+    "Q&A format with expert medical commentary establishes that the text is building a logical argument about legal/medical liability for medical professionals during COVID-19, with a concluding expert quote now providing authoritative evidence.\n\nThe rhetorical pattern of presenting a statistic (\"about 40,000 people\") to support a legal argument about medical risk \u2014 the expert is mid-explanation of why the statistic matters for liability.\n\nFinal token \"60,000, 40,000, 20,000, 10,000\" is a rhetorical question fragment mid-sentence, immediately requiring completion of the expert's calculation or conclusion about per-patient risk.",
+    "Q&A legal analysis format: question posed, answer given, now legal reasoning/explanation of the ruling is expected, following standard legal Q&A structure.\n\nThe question explicitly asks for \"the legal reasoning\" and \"how to answer,\" so the answer must address the legal standard (unlawful practice of law) and procedural basis for the priest's ruling.\n\nFinal token \"60.830.000.000.080.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000",
+    "Statistical/legal report pattern: article presents NHTSA data with precise percentages and figures, expecting continued quantitative analysis of crash rates.\n\nNarrative momentum: the sentence is mid-argument presenting a specific finding about the 67% increase in crash rates, with the statistical breakdown of the 10,000+ sample still being elaborated.\n\nFinal token \"67.6%\" ends a comparative clause (\"67.6% of the time\"), immediately requiring completion of the statistical statement \u2014 likely a period or continuation with additional breakdown figures or a qualifying clause."
+  ],
+  "input_sha256": "a08bcdd157d9e302c9321b3b63d1d6a70c5029b587b13e8d2a35a3174ed846ae",
+  "values": [
+    {
+      "quote": "2.0",
+      "value": "2"
+    },
+    {
+      "quote": "0.2",
+      "value": "0.2"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "60,000",
+      "value": "60000"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "67%",
+      "value": "67"
+    },
+    {
+      "quote": "67.6%",
+      "value": "67.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeric values and ignoring dates or identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2.0\",\"value\":2.0},{\"quote\":\"0.2\",\"value\":0.2},{\"quote\":\"40,000\",\"value\":40000.0},{\"quote\":\"60,000\",\"value\":60000.0},{\"quote\":\"20,000\",\"value\":20000.0},{\"quote\":\"10,000\",\"value\":10000.0},{\"quote\":\"67%\",\"value\":67.0},{\"quote\":\"67.6%\",\"value\":67.6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeric values and ignoring dates or identifiers.\"}",
+  "prompt_sha256": "47142341ef767ec236c03b7b47377deb83211127529b28f4a8b86a74b1b6d27d"
+}

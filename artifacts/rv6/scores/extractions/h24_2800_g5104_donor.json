@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5104",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires completing the total cost calculation: 3\u00d7$15 + 4\u00d7$8 = $150 total.\n\nThe word problem structure demands a numerical answer, likely \"$150\" or \"$150 total,\" following the established arithmetic setup.\n\nThe final token \"Total is\" opens a declarative answer clause, immediately requiring a dollar amount (likely \"$150\") representing the combined cost of eggs and flour.\n15*3 + 8*4 eggs = $150 original eggs, so the next tokens must state this total.\n15*8 + 4*7 = $150 small eggs already stated, confirming the combined total.\n15*3 + 8*7 = $150 total spent.\n$13 + 4*7 = $45 eggs from eggs already purchased, completing the arithmetic.",
+    "Math word problem format requires completing the arithmetic expression: 8 \u00d7 $4 = $32, then adding 11 \u00d7 $8.\n\nWord problem structure demands a step-by-step arithmetic walkthrough, expecting the computed result and then combining costs.\n\nThe final token \"have\" is part of the arithmetic result statement \"8 \u00d7 $4 = $32,\" immediately requiring the numeric answer \"$32\" before continuing with the remaining calculation.\n4 \u00d7 $8 = $32 total cost of eggs, then 11 \u00d7 $8 = $88 total.\nShe pays $8 \u00d7 $4 = $32 eggs, so next tokens must state this specific dollar amount.\n4 \u00d7 $8 = $32, then add 11 \u00d7 $75 cents.\n$32 eggs cost first, then 75 cents \u00d7 8 eggs = $60 remaining cost.\n straightforward arithmetic.",
+    "Math word problem walkthrough requiring arithmetic completion: 4 \u00d7 $8 = $32, then 6 \u00d7 $8 = $48.\n\nWord problem structure demands a step-by-step solution showing multiplication, then combining costs to find total.\n\nThe final token \"3\" is the start of the computed result \"$32\" (4 \u00d7 $8), immediately requiring \"2\" to complete the arithmetic answer before continuing with the remaining arithmetic operation (6 \u00d7 $8 + 4 \u00d7 $7).\n$32 total cost.\n4 \u00d7 $8 = $32, then 8 \u00d7 $7 = $56, so the next tokens must complete this arithmetic sequence.\n$32 is the first multiplication result, before adding $56.\n$8 \u00d7 $4 = $32 cost of eggs, leaving $56 remaining to complete the total $8 \u00d7 $7 = $56.",
+    "Math word problem walkthrough format expects step-by-step arithmetic solution with arithmetic operations shown.\n\nThe word problem setup requires completing the arithmetic: 4 pants \u00d7 $8 = $32, then 6 pants \u00d7 $15 = $90, then adding both totals.\n\nFinal token \"$32\" is the computed cost of 4 pants \u00d7 $8, immediately expecting continuation of the arithmetic expression or the next arithmetic step (adding $90 pants cost).\nShe spent $32 on pants and $90 on food items, so the next tokens will state the remaining arithmetic result.\n$32 and $90\" or \"and $30 \u00d7 3 pants = $90 food.\"\n$32 is the first arithmetic result, immediately requiring the addition of 3\u00d7$15 to complete the total.\n$32 and $6\u00d7$15 = $90 food.",
+    "Math word problem format requires completing the arithmetic expression: 3 \u00d7 $15 = $45, so the next token is almost certainly \"45\".\n\nWord problem context: arithmetic operations being listed sequentially (3 \u00d7 $15 = $45 total cost), expecting the arithmetic result and likely a question asking to find total or remaining.\n\nFinal token \"p\" is the start of the second arithmetic expression \"$3 \u00d7 $15 = $45\", immediately requiring the numeric result \"$45\" to complete the multiplication.\n15 \u00d7 3 = $45 eggs cost for 3 eggs, completing the eggs price list before asking for total.\n$15p\" is the incomplete second price (3 \u00d7 $15 = $45), so the next tokens must be \"45\".\n15p\" completing the 3\u00d7$35 cents value, then likely adding.",
+    "Math word problem format: simple arithmetic problems with word problems, expecting a numerical answer after each setup.\n\nSecond problem follows the same pattern: setup \u2192 arithmetic operation \u2192 answer, so a sum result is expected next.\n\nThe final token \"45\" is the second arithmetic result (5\u00d7$7=45), immediately expecting the answer \"45\" or a line break followed by the combined total \"$65\".\nFinal token \"45.\" ends the second problem's cost (7\u00d7$6=45), likely followed by a newline and the computed sum answer.\nFinal token \"45.\" is the second arithmetic value in the fruit cost problem.\n45 is the computed result of 7\u00d7$6 + $25, so next tokens are likely \"The cost is $65\" or similar closing statement.\n45\n45\n45\n45\n\n45."
+  ],
+  "input_sha256": "33fc40bba3ed2db0cae0532a5897c782f03331d6c532250f2d50269a375cd75a",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly stated in the descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"15\",\"value\":15},{\"quote\":\"4\",\"value\":4},{\"quote\":\"8\",\"value\":8},{\"quote\":\"150\",\"value\":150},{\"quote\":\"7\",\"value\":7},{\"quote\":\"13\",\"value\":45},{\"quote\":\"45\",\"value\":45},{\"quote\":\"32\",\"value\":32},{\"quote\":\"11\",\"value\":11},{\"quote\":\"88\",\"value\":88},{\"quote\":\"75\",\"value\":75},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"48\",\"value\":48},{\"quote\":\"2\",\"value\":2},{\"quote\":\"56\",\"value\":56},{\"quote\":\"90\",\"value\":90},{\"quote\":\"30\",\"value\":30},{\"quote\":\"35\",\"value\":35},{\"quote\":\"5\",\"value\":5},{\"quote\":\"65\",\"value\":65},{\"quote\":\"25\",\"value\":25}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly stated in the descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "0981988a98ec616579232a7f8c9b34380e1547e6999008b35432d58ba54e1e5e"
+}

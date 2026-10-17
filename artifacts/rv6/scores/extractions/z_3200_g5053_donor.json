@@ -1,0 +1,157 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5053",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating structure of \"city name + number + percentage.\"\n\nThe sentence ending mid-statistic (\"50% of the cities\") mirrors the earlier pattern of \"50% of the cities in the country,\" suggesting a parallel completion with a city name or regional qualifier.\n\nFinal token \"5 is the\" begins a specific city name (likely \"50\" or a city like \"50th\" or \"51st\"), completing the interrupted sentence about cities with the highest percentage, requiring a number or ordinal immediately next.\n\"4 is the\" or similar ranking detail follows.\n\"5 is the\" \u2014 mid-sentence, completing a parallel structure with \"4 is 101\" and \"5 is 51,\" demanding a city name or hazard rating descriptor next.\n\"41\" or comparative safety.",
+    "List continuation pattern: the text is mid-sentence listing article titles, requiring another title or closing punctuation to complete the enumeration.\n\nNarrative momentum: the article summary is wrapping up with a final recommendation or closing remark, consistent with the \"10 articles\" listicle format.\n\nFinal token \"10,\" is mid-sentence within a quoted article title, immediately requiring the rest of the title (likely a number or descriptor completing \"10,\" or a closing quotation mark).\n\"10,\" is a truncated number/title fragment, demanding numeric continuation or a closing quote.\n\"10,\" personal rating or quoted title element follows.\n\"10,\" is mid-sentence, likely completing a character rating or quoted phrase, constrained to numeric advice or emotional descriptor.\n\"10,\" time reference or character analysis \"101\" or similar 40-minute quote 101 \u2014 the 16.",
+    "List continuation pattern: numbered recipe entries follow a consistent format \u2014 title, description, ingredients, instructions \u2014 suggesting more recipe content follows.\n\nRecipe description momentum: the current entry \"Peanut Butter and Honey\" is mid-description, having introduced the dish and begun listing ingredients (\"4\" likely starts a quantity like \"4 cups\" or \"4 ingredients\").\n\nFinal token \"4\" is an incomplete number mid-sentence (\"4\" likely \"4 cups\" or \"4 ingredients\"), immediately requiring numeric continuation or a unit/ingredient quantity to complete the measurement or ingredient count.\n\"4\" is the start of a truncated number or quantity in a recipe context.\n\"40\" or \"40\" advice, or a new sentence beginning \"4\" \u2014 the next token completes this personal reference or recipe count \"40\" or \"4\" academic 61\" sequence 352\" religious film food.",
+    "List continuation pattern: \"10 most popular\" article promises a numbered list; the text has begun enumerating book recommendations, so more entries are expected.\n\nNarrative momentum: the article is mid-list, having introduced the first book with a brief description, implying additional book entries will follow in the same format.\n\nFinal token \"40\" is an incomplete number (likely \"40\" or \"40s\"), part of a sentence describing the first book's content count, immediately requiring completion of that number or a related detail.\n\"40\" is mid-sentence, likely \"60\" or a specific count, followed by more book details or a new list item.\n\"40\" or \"20\" \u2014 a specific number completing the anecdote or list count \"100\" food items.\n\"60\" ranking or category \"81 friends\" book reference \u2014 educational food.",
+    "Statistical summary pattern: the text is presenting a specific numerical finding, listing case counts and percentages, suggesting more data follows.\n\nThe article follows a structured investigative journalism format, presenting evidence and expert commentary, with the book's content being summarized sequentially.\n\nFinal token \"30 people\" completes a count of cases, part of a sentence enumerating the book's contents; the next tokens will likely continue with additional case details, a conjunction like \"and,\" or a new sentence elaborating on the book's scope.\n\"30 people\" is mid-sentence, requiring completion of the sentence with publication details or further enumeration.\n\"38,004 people\" or similar numeric continuation is \"260 people\" or a food service contact number completing the professional count.\n\"18,49\" is a truncated \"38 people\" disclosure instruction; food 26.5 dating \u2014 legal.",
+    "List continuation pattern: the text is mid-sentence in a numbered FAQ list, with question 2 partially answered, implying more numbered questions follow.\n\nLegal Q&A format: each entry follows \"question \u2192 answer\" structure, so the next tokens will complete the answer to question 2 about the phone call.\n\nFinal token \"30\" ends an incomplete sentence (\"30 minutes\" or similar time detail), requiring immediate completion of the incident description before the answer concludes.\n\"30\" is a truncated number mid-sentence, likely \"30 minutes\" or a specific time reference, demanding the sentence finish before the answer continues.\n\"30\" is a news report citation or legal detail; the procedural next step is completing \"30 minutes\" or similar 150 legal case reference.\n\"30\" 2013\" food\" instruction 300\" \u2014 18."
+  ],
+  "input_sha256": "e458eb4b861308b69fc83b53763bcc93f98afa0409672f37281a029ed3d741a8",
+  "values": [
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "5 is the",
+      "value": "5"
+    },
+    {
+      "quote": "4 is the",
+      "value": "4"
+    },
+    {
+      "quote": "4 is 101",
+      "value": "4"
+    },
+    {
+      "quote": "4 is 101",
+      "value": "101"
+    },
+    {
+      "quote": "5 is 51",
+      "value": "5"
+    },
+    {
+      "quote": "5 is 51",
+      "value": "51"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "10 articles",
+      "value": "10"
+    },
+    {
+      "quote": "10,",
+      "value": "10"
+    },
+    {
+      "quote": "101",
+      "value": "101"
+    },
+    {
+      "quote": "40-minute",
+      "value": "40"
+    },
+    {
+      "quote": "16.",
+      "value": "16"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "61",
+      "value": "61"
+    },
+    {
+      "quote": "352",
+      "value": "352"
+    },
+    {
+      "quote": "10 most popular",
+      "value": "10"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "81 friends",
+      "value": "81"
+    },
+    {
+      "quote": "30 people",
+      "value": "30"
+    },
+    {
+      "quote": "38,004 people",
+      "value": "38004"
+    },
+    {
+      "quote": "260 people",
+      "value": "260"
+    },
+    {
+      "quote": "18,49",
+      "value": "1849"
+    },
+    {
+      "quote": "18,49",
+      "value": "1849"
+    },
+    {
+      "quote": "38 people",
+      "value": "38"
+    },
+    {
+      "quote": "26.5",
+      "value": "26.5"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "2013",
+      "value": "2013"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "18.",
+      "value": "18"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is paired with a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50%\",\"value\":50},{\"quote\":\"5 is the\",\"value\":5},{\"quote\":\"4 is the\",\"value\":4},{\"quote\":\"4 is 101\",\"value\":4},{\"quote\":\"4 is 101\",\"value\":101},{\"quote\":\"5 is 51\",\"value\":5},{\"quote\":\"5 is 51\",\"value\":51},{\"quote\":\"41\",\"value\":41},{\"quote\":\"10 articles\",\"value\":10},{\"quote\":\"10,\",\"value\":10},{\"quote\":\"101\",\"value\":101},{\"quote\":\"40-minute\",\"value\":40},{\"quote\":\"16.\",\"value\":16},{\"quote\":\"4\",\"value\":4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"61\",\"value\":61},{\"quote\":\"352\",\"value\":352},{\"quote\":\"10 most popular\",\"value\":10},{\"quote\":\"60\",\"value\":60},{\"quote\":\"20\",\"value\":20},{\"quote\":\"100\",\"value\":100},{\"quote\":\"81 friends\",\"value\":81},{\"quote\":\"30 people\",\"value\":30},{\"quote\":\"38,004 people\",\"value\":38004},{\"quote\":\"260 people\",\"value\":260},{\"quote\":\"18,49\",\"value\":18},{\"quote\":\"18,49\",\"value\":49},{\"quote\":\"38 people\",\"value\":38},{\"quote\":\"26.5\",\"value\":26.5},{\"quote\":\"2\",\"value\":2},{\"quote\":\"150\",\"value\":150},{\"quote\":\"2013\",\"value\":2013},{\"quote\":\"300\",\"value\":300},{\"quote\":\"18.\",\"value\":18}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is paired with a unique quote.\"}",
+  "prompt_sha256": "e971cecd02498fbf9b411eeb823cfd61cb165345dc3b6c3969c889ed27b8fa1d"
+}

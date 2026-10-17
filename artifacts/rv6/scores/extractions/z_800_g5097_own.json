@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5097",
+  "kind": "own",
+  "descriptions": [
+    "Statistical data pattern: article consistently presents paired financial figures (total value + daily value), so a dollar amount completing the revenue statistic is expected.\n\nNarrative momentum of ranking/comparison: the text is mid-sentence presenting a specific record-breaking revenue figure, continuing the pattern of precise numerical data with units like \"$1.5 million\" and \"$1.2 million.\"\n\nFinal token \"is $12,000 is $50,000 is is $50,000 is\" \u2014 mid-sentence repetition of \"is $50,000\" suggests a formatting artifact; the immediate next token must complete the revenue figure, likely a dollar amount or unit.",
+    "Film metadata/description format: structured movie listing with cast, synopsis, and promotional copy, now in a \"About the Director\" biographical section.\n\nContinuation of cast/crew promotional description: the text is mid-sentence describing the film's cast and production, with \"is 100% new and fresh\" signaling a product description for a DVD/Blu-ray release.\n\nFinal token \"is 150 is\" (likely \"140 is 12 is\") mid-sentence describing the film's cast \u2014 \"12 is\" suggests a truncated phrase like \"100 is\" or \"150 is,\" immediately expecting continuation of the cast/crew description, likely naming more actors or production details.",
+    "E-commerce product listing page pattern: catalog-style navigation with category breadcrumbs, product counts, and filter options repeating throughout.\n\nContinuation of a structured list of navigation/filter elements \u2014 the page has been cycling through product categories, part numbers, and related items, suggesting more product listings or category links follow.\n\nFinal token \"Available\" ends a truncated phrase \"Find all the Parts Available,\" part of a \"Related Parts\" section header, immediately expecting continuation of the product description or a new category/section header.",
+    "Structured table pattern: parts listings follow consistent pipe-delimited format with part numbers, descriptions, and table rows, establishing strong continuation expectations.\n\nE-commerce/automotive parts catalog genre: the page lists shipping info, part numbers, and table rows for a specific vehicle, with the \"Part # | Vehicle | Price\" table still in progress.\n\nFinal token \"||$10.00|\" closes a table cell mid-row; the pipe-delimited structure and the \"Part # | Vehicle | Price\" pattern strongly constrain the next token to be a closing pipe \"|\" or a new table row beginning with \"|\".",
+    "Structured table pattern: pipe-delimited rows with consistent format `|Part||Price||Month|` repeating throughout, establishing strong continuation expectations.\n\nE-commerce/shipper database genre: the page lists shipping costs, part numbers, and table data in a structured format, with the table mid-sequence implying more rows or a closing section follows.\n\nFinal token \"$100|\" closes a table cell mid-row for \"Month||October|\"; the pipe-delimited structure and the incomplete table row strongly constrain the next token to be a closing pipe `|` or a new row beginning with `|`.",
+    "Structured table pattern: pipe-delimited rows with consistent format `|Month||Price||Value||` repeating throughout, establishing strong continuation expectations.\n\nFinancial data table momentum: the table lists monthly shipping costs and values for a specific item, with the final row mid-entry for \"January\" suggesting more rows (February, March, etc.) will follow.\n\nFinal token \"$100|\" closes a table cell value for \"January\" price, immediately requiring the next pipe-delimited cell to be a dollar amount (likely a value like \"$100|\") completing the row structure."
+  ],
+  "input_sha256": "a7e98a22fe017c584e898d0e5c974d794b666988448b3cdcdadabad176b7243e",
+  "values": [
+    {
+      "quote": "$1.5 million",
+      "value": "1.5"
+    },
+    {
+      "quote": "$1.2 million",
+      "value": "1.2"
+    },
+    {
+      "quote": "$12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "$50,000",
+      "value": "50000"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "$10.00",
+      "value": "10"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, including percentages and large unit values like millions, while ignoring dates or identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"$1.5 million\",\n      \"value\": 1.5\n    },\n    {\n      \"quote\": \"$1.2 million\",\n      \"value\": 1.2\n    },\n    {\n      \"quote\": \"$12,000\",\n      \"value\": 12000\n    },\n    {\n      \"quote\": \"$50,000\",\n      \"value\": 50000\n    },\n    {\n      \"quote\": \"100%\",\n      \"value\": 100\n    },\n    {\n      \"quote\": \"150\",\n      \"value\": 150\n    },\n    {\n      \"quote\": \"140\",\n      \"value\": 140\n    },\n    {\n      \"quote\": \"12\",\n      \"value\": 12\n    },\n    {\n      \"quote\": \"$10.00\",\n      \"value\": 10\n    },\n    {\n      \"quote\": \"$100\",\n      \"value\": 100\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals and currency values from the provided descriptions, including percentages and large unit values like millions, while ignoring dates or identifiers.\"\n}",
+  "prompt_sha256": "3180c2d680be495b265cec8511fb2d0d49dab53e0e575bfa512605c08e7f2ae3"
+}

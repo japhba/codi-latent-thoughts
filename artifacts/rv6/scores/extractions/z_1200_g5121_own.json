@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5121",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: price data being listed with specific figures (e.g., \"12.5%,\" \"12.7%,\" \"12.8%\"), suggesting continuation of financial comparison details.\n\nProduct description momentum: the text is mid-sentence describing the 2019 Ford F-150's market position, with product specs and sales context building toward completing the price comparison narrative.\n\nFinal token \"is is\" (double \"is\" suggests a typo/autocorrect artifact), part of a sentence about the F-150's price being \"is is\" \u2014 the next token must complete this price figure, likely a currency amount or comparative descriptor like \"available\" or a dollar amount.",
+    "Product specification/description format: structured e-commerce listing with technical specs, now transitioning to detailed prose description of the film.\n\nContinuation of film review/description content: the text is mid-sentence describing technical film attributes (format, aspect ratio, resolution), with more specifications expected (e.g., camera, lens, sound, runtime).\n\nFinal token \"25 is 47 is 53\" appears to be a garbled/OCR-corrupted fragment mid-sentence (\"is 47 is 53\"), likely continuing a product specification list; next tokens should complete the interrupted numerical product detail, probably \"3\" or continuing a product model number/weight specification like \"25 is 47 is 53\" completing a measurement or model reference.",
+    "Structured e-commerce product listing pattern: page follows consistent format of product categories, prices, and filter options, suggesting continuation of table/list entries.\n\nStructured table continuation: the \"Price Filter\" section lists product categories with subcategories; the pattern of \"Category > Subcategory\" entries implies more filter options or price table rows follow.\n\nFinal token \"Available\" ends a product availability notice (\"In stock\"), part of a product detail table row; next tokens likely continue with more filter options, pricing details, or a new product listing entry.",
+    "Structured price table pattern: each row follows \"City||Price||Product\" format, with city names and product names filling the table cells.\n\nProduct listing continuation: e-commerce product page with structured data sections; after price table, additional product details or table entries are expected, following the established pattern of city names and price values.\n\nFinal token \"Available\" ends a table cell mid-entry (\"Available\"), part of a product availability status field; next tokens likely continue with more price data, a currency symbol, or a new table row beginning with \"Available\" or a city name.",
+    "Structured table/list pattern: product price entries follow consistent format with brand, model, and price data, suggesting continuation of similar entries.\n\nE-commerce product listing conventions: the page follows a predictable template of price tables, shipping info, and e-commerce data fields, implying more price entries or table rows follow.\n\nFinal token \"Available\" ends a truncated sentence (\"Price Available\"), part of a table cell or product detail line, immediately expecting a currency symbol, numeric value, or continuation like \"Available\" or a table row with price data.",
+    "Structured price table pattern: each row follows \"Product Name | Size | Price\" format, with consistent pipe-delimited table syntax throughout.\n\nProduct listing continuation: e-commerce product page listing e-commerce items with prices, suggesting more product entries or related data (e.g., currency, shipping) may follow.\n\nFinal token \"Available\" ends a table cell mid-entry, part of a \"Price Available\" availability status field; next tokens likely continue with a currency symbol, numeric value, or the next table row's product name."
+  ],
+  "input_sha256": "57d63dc48dcb04930f48c794d7fce2636e0014eab9658defcf3d54e369970770",
+  "values": [
+    {
+      "quote": "12.5%",
+      "value": "12.5"
+    },
+    {
+      "quote": "12.7%",
+      "value": "12.7"
+    },
+    {
+      "quote": "12.8%",
+      "value": "12.8"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "53",
+      "value": "53"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including values from the garbled fragment '25 is 47 is 53' and the price data list.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"12.5%\", \"value\": 12.5}, {\"quote\": \"12.7%\", \"value\": 12.7}, {\"quote\": \"12.8%\", \"value\": 12.8}, {\"quote\": \"25\", \"value\": 25}, {\"quote\": \"47\", \"value\": 47}, {\"quote\": \"53\", \"value\": 53}], \"justification\": \"Extracted explicit numeric literals and percentages from the provided descriptions, including values from the garbled fragment '25 is 47 is 53' and the price data list.\"}",
+  "prompt_sha256": "29d8254f44b9eeeb1d30a2374dfe0ef9837ffc82ae752f7c44cbc641123e3955"
+}

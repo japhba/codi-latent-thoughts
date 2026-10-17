@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5492",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 30 days \u00d7 5 balls \u00d7 $2 = $300 total cost.\n\nThe structured word problem setup (30 days \u00d7 5 balls \u00d7 $2) demands a specific dollar amount as the solution.\n\nThe final token \"is\" opens a copular predicate requiring an immediate numerical value (likely \"$300\") representing the total cost of materials purchased.\n(30 \u00d7 2 = 60 \u00d7 $5 = $300).\n(2 \u00d7 5 \u00d7 30 days) = 300 \u00d7 1 = $300 cost over 30 days.\n(30 \u00d7 5 \u00d7 2 per day) = 30 \u00d7 2\u00d75 = 300 dollars total cost.\n(2 + 1) per ball \u00d7 30 weeks \u00d7 5 items.",
+    "Math word problem solution format: step-by-step calculation in progress, requiring arithmetic continuation (5 \u00d7 $2 = $10 total cost).\n\nThe structured solution pattern requires showing the arithmetic: 5 balls \u00d7 $2 per day = total cost calculation.\n\nFinal token \"has\" begins the mathematical expression showing daily cost calculation, immediately requiring \"5 \u00d7 $2 = $10\" or similar arithmetic result to complete the sentence.\n2. You spend 5 balls \u00d7 $1 per ball = total cost of eggs purchased per day before multiplying by total cost.\nyou have\" introduces the intermediate step before computing total cost.\n5 \u00d7 2 = 10 eggs \u00d7 $5 = $50 cost, leading to monthly total.\n\n(5 \u00d7 2 \u00d7 $1) before adding up total cost over 30 days.\nyou have 2 eggs \u00d7 5 balls = cost of eggs per day,.",
+    "Step-by-step math word problem solution format, requiring arithmetic continuation: 20 bread \u00d7 $0.50 = $10 daily cost.\n\nStructured solution walkthrough pattern: each step builds on the previous, with calculation showing total cost.\n\nThe final token \"10\" is the start of the arithmetic result in the solution, immediately requiring \"dollars\" or \"per day\" to complete the cost calculation for 20 bread \u00d7 2 items.\nFinal token \"10\" begins the per-batch cost expression, requiring \"dollars\" or \"per day\" to complete the sentence before proceeding to total weekly cost.\n$10 is the computed cost for 5 bread \u00d7 2, mid-sentence, requiring completion of the arithmetic explanation before summing total weekly expenses.\nShe spend 2 bread \u00d7 $2 = $10 on bread, so total cost for 5 days is.",
+    "Word problem solution format: step-by-step math walkthrough with structured calculations, following \"First...Then...\" pattern.\n\nArithmetic continuation: 20 tomatoes \u00d7 $2 = $40 daily cost, so the solution must state \"$40\" and then total cost over 5 days.\n\nFinal token \"$10p\" ends the cost-per-tomato calculation mid-sentence; the immediate next tokens must complete this sentence, likely \"per day\" or \"total,\" then proceed to total cost calculation.\nFinal token \"$10p\" is the result of 20 tomatoes \u00d7 $0.50, completing the cost statement before summing weekly totals.\nFinal token \"$1p\" closes the sentence fragment \"$10p,\" requiring \"per day\" to complete the cost-per-day expression before moving to total expenses.\nShe spend $2 \u00d7 30 tomatoes \u00d7 $2 = $.",
+    "Math word problem solution format: structured Q&A with calculation steps, expecting arithmetic continuation.\n\nThe problem requires computing total cost: 15 tickets \u00d7 $10 = $150 daily, then 30 days \u00d7 total.\n\nFinal token \"p. s. 15 s.\" ends the problem statement's per-unit cost expression, immediately requiring the arithmetic result or next step: \"150 \u00d7 $10 = $15,000 over 30 days.\"\nFinal token \"p. s. 10 s.\" is the established expression for per-unit cost, demanding the multiplication result and total cost calculation next.\nFinal token \"s. 15 s.\" closes the problem setup sentence, requiring the equation \"15 \u00d7 30 = $450\" or similar total cost calculation to follow.\n$10 + $15 = $25.",
+    "Math word problem format: structured solution walkthrough requires completing the arithmetic calculation (10 \u00d7 $15 = total cost).\n\nThe problem follows a clear template: question \u2192 explanation \u2192 calculation, so the next step is the numerical answer: total cost over 30 days.\n\nFinal token \"problem.\" closes the word problem prompt, immediately requiring the solution expression or calculation: \"$15 \u00d7 per ticket \u00d7 total cost\" or the numerical result \"$15 \u00d7 30 + $15 \u00d7 10 = $4500 monthly.\"\nFinal token \"problem.\" ends the setup sentence, which introduces the cost-per-day formula before computing the total cost over 30 days.\nFinal token \"problem.\" closes the problem statement, immediately requiring the solution walkthrough showing 115 \u00d7 $15 per day \u00d7 30 weeks."
+  ],
+  "input_sha256": "2fbb0a3861239f1229e7a7f0db1ba9baa641907cf579c67e7d8780fd97f399cd",
+  "values": [
+    {
+      "quote": "30 days",
+      "value": "30"
+    },
+    {
+      "quote": "5 balls",
+      "value": "5"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$300",
+      "value": "300"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2 \u00d7 5 \u00d7 30 days",
+      "value": "300"
+    },
+    {
+      "quote": "2 + 1",
+      "value": "3"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "2 eggs",
+      "value": "2"
+    },
+    {
+      "quote": "20 bread",
+      "value": "20"
+    },
+    {
+      "quote": "$0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "5 bread",
+      "value": "5"
+    },
+    {
+      "quote": "$40",
+      "value": "40"
+    },
+    {
+      "quote": "20 tomatoes",
+      "value": "20"
+    },
+    {
+      "quote": "30 tomatoes",
+      "value": "30"
+    },
+    {
+      "quote": "15 tickets",
+      "value": "15"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "150 \u00d7 $10 = $15,000",
+      "value": "15000"
+    },
+    {
+      "quote": "15 \u00d7 30 = $450",
+      "value": "450"
+    },
+    {
+      "quote": "$10 + $15 = $25",
+      "value": "25"
+    },
+    {
+      "quote": "$4500",
+      "value": "4500"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30 days\",\"value\":30},{\"quote\":\"5 balls\",\"value\":5},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$300\",\"value\":300},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2 \\u00D7 5 \\u00D7 30 days\",\"value\":300},{\"quote\":\"2 + 1\",\"value\":3},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"2 eggs\",\"value\":2},{\"quote\":\"20 bread\",\"value\":20},{\"quote\":\"$0.50\",\"value\":0.5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"5 bread\",\"value\":5},{\"quote\":\"$40\",\"value\":40},{\"quote\":\"20 tomatoes\",\"value\":20},{\"quote\":\"30 tomatoes\",\"value\":30},{\"quote\":\"15 tickets\",\"value\":15},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"150 \\u00D7 $10 = $15,000\",\"value\":15000},{\"quote\":\"15 \\u00D7 30 = $450\",\"value\":450},{\"quote\":\"$10 + $15 = $25\",\"value\":25},{\"quote\":\"$4500\",\"value\":4500},{\"quote\":\"115\",\"value\":115}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "c7abef3524c949ffaab7c0c0b5daf3fdc8f0cea6e865bf8941e26b0d0b3efdee"
+}

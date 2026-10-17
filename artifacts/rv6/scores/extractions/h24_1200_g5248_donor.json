@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5248",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem setup requiring a numerical answer: total weight calculation using 3x + 6x + 3x pattern.\n\nThe sequence establishes a chain multiplication pattern: total weight = 3 times 6 times original numbers, so the answer must be 3\u00d76\u00d7408 = 7200.\n\nFinal token \"is\" opens a declarative clause requiring a specific numerical value (likely \"7200\" or \"6000\") representing the total combined weight of all three chains.\nThe phrase \"The total weight of all these chains is\" demands an immediate numerical answer, constrained by the arithmetic chain: 3\u00d76\u00d740 + 6\u00d73\u00d7408.\n3\u00d76\u00d74\u00d732 + 6\u00d740 + original 60.\n3\u00d76\u00d74 times 32, completing the.",
+    "Mathematical problem-solving context: calculating total eggs across three boxes, requiring arithmetic progression (3x60 eggs for second box).\n\nThe pattern establishes a sequence: first box = 60 eggs, second box = 3 times that, third box = twice that \u2014 the model must continue this chain.\n\nFinal token \"has\" introduces the second box's egg count, immediately requiring the numerical value \"180\" (3\u00d760) as the next token, completing the arithmetic setup before continuing to the third box calculation.\n60\u00d73 = 180 eggs for second box, then doubling to 360 eggs for the third box.\n3 times 60 = 180, so the next tokens must state this intermediate result before applying the 2x multiplier.\n3\u00d760 = 180, establishing the second box's value before.",
+    "Math word problem solution in progress: structured arithmetic walkthrough requires continuing the sequence of calculations (second building's 3 times 60 = 180 rooms, then four times total).\n\nThe problem follows a step-by-step arithmetic progression: first building = 60 rooms, second building = 3 times 60 = 180 rooms, then four times total.\n\nFinal token \"18\" is the beginning of \"180\" (3\u00d760), mid-number, immediately requiring \"0\" to complete the second building's count, then continuing to the next step: four times the second building's total rooms.\n180 rooms in second building, then multiplying by 4.\n3 times 60 = 180, establishing the second building's total before adding 4 times total.\n3\u00d74 times 60 = 720.",
+    "Math word problem walkthrough requiring sequential arithmetic steps: total boxes (360) and first box (3 times 60) establish a pattern of calculating each box's count.\n\nThe solution is mid-calculation, having stated the second box count (180) as 3 times 60, so the next step must continue with the third box count (4 times 180).\n\nFinal token \"180\" is the second box's count (3 times 60), immediately requiring continuation of the arithmetic sequence \u2014 likely \"and 4 times that is...\" or the next box count calculation.\n180 birds, then 4 times larger third box.\n180 is the second box's value, mid-sentence, requiring the next step: total birds in second box plus third box.",
+    "Mathematical problem-solving context: calculating total balls by multiplication, establishing a pattern of 4 times 180 = 720.\n\nThe sequence lists three color groups (180 blue, 4 times next), requiring completion of the third group's count.\n\nFinal token \"p\" begins the third group's total number, constrained to continue as \"180\u00d74\" or \"720\" representing four times 180\u00d74, completing the arithmetic chain: 4\u00d7180\u00d73.\nThe next tokens must be \"720\" to complete the third group's count.\n18\u00d74 times 180.\n4\u00d7180\u00d73 = 720, representing the fourth group's total balls.\n18\u00d74 times 180.",
+    "Math word problem pattern: each step builds on prior arithmetic, showing multiplication of small groups (12\u00d712, then 3 times larger).\n\nThe sequence follows a clear progression: small group count \u2192 total \u2192 next larger group, with the final step representing the largest total (3 times 240).\n\nFinal token \"720.720\" is the incomplete number \"7200\" (720\u00d76), mid-number, requiring immediate completion of the digit sequence \"7200\" to finish the third step's total count.\nThe last token \"72\" is the beginning of \"7200,\" the final multiplication result in the series.\n720\u00d76 times 12\u00d772, completing the third large group's total count.\n7200 is the expected answer, representing the full combined total of all four."
+  ],
+  "input_sha256": "9bb5bd760a40f40168076860d10a6597318ab12fad9bbd0c73e0a8339379da35",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "408",
+      "value": "408"
+    },
+    {
+      "quote": "7200",
+      "value": "7200"
+    },
+    {
+      "quote": "6000",
+      "value": "6000"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "720",
+      "value": "720"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "720.720",
+      "value": "720.72"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results (like 3x60=180) from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"6\",\"value\":6},{\"quote\":\"408\",\"value\":408},{\"quote\":\"7200\",\"value\":7200},{\"quote\":\"6000\",\"value\":6000},{\"quote\":\"40\",\"value\":40},{\"quote\":\"32\",\"value\":32},{\"quote\":\"60\",\"value\":60},{\"quote\":\"180\",\"value\":180},{\"quote\":\"360\",\"value\":360},{\"quote\":\"18\",\"value\":18},{\"quote\":\"4\",\"value\":4},{\"quote\":\"720\",\"value\":720},{\"quote\":\"12\",\"value\":12},{\"quote\":\"720.720\",\"value\":720.72},{\"quote\":\"72\",\"value\":72}],\"justification\":\"Extracted explicit numeric literals and arithmetic results (like 3x60=180) from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "af2326795e7237a257a446b11041d80176790b35bd2e38b2038ef8baf4ee1e39"
+}

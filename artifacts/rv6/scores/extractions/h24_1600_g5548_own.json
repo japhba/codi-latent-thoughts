@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5548",
+  "kind": "own",
+  "descriptions": [
+    "Word problem setup requiring arithmetic calculation: 6 children \u00d7 2 pounds = 12, so the answer is 12.\n\nWord problem genre conventions: a numerical answer is expected immediately after the question prompt, likely formatted as a number or sentence.\n\n\"The answer is\" is a direct prompt/question stem, immediately requiring a numerical value or short declarative response (e.g., \"12\" or \"12 kg\") as the next token.\n6 \u00d7 2 = 12 is the core arithmetic operation, so the next token is almost certainly \"12\" or \"12 pounds.\"\n simply stated.\n6 \u00d7 2 = total weight calculation.\n6 children \u00d7 2 pounds = 12 pounds total weight, so the immediate next token is the numeric result.\n straightforward solution.\n simply stated.\nThe answer is 12.\ndirectly follows.",
+    "Math word problem format signals a simple arithmetic solution is expected, likely involving multiplication or addition.\n\nThe word problem setup (10 \u00d7 6 eggs) creates strong expectation for a numeric answer or calculation, possibly \"10 \u00d7 6 = 60 eggs.\"\n\n\"The answer is\" is an incomplete declarative sentence acting as a prompt/answer reveal, immediately requiring a numeric or explanatory continuation such as \"60 eggs\" or \"is 60 eggs.\"\n\"is\" demands a predicate complement \u2014 likely a number or short phrase completing the solution statement.\n simply \"is\" followed by a multiplication expression or direct answer.\n straightforward word problem resolution: each egg \u00d7 2 dollars = total sum.\nmultiply 6 eggs by 2 dollars = simple arithmetic, so next tokens should state the method or result.\n simply \"multiply each egg by 2\" or \"6 \u00d7 10 eggs.\"",
+    "Math word problem format signals a direct numerical answer is expected, likely a simple arithmetic calculation.\n\nThe question structure (\"How many eggs are needed?\") demands a solution showing multiplication: 4 boxes \u00d7 12 eggs = 48 eggs, or a worked example.\n\n\"Answerans:ans\" is a corrupted placeholder for \"Answer:\" \u2014 the final token is the beginning of the answer field, immediately requiring a direct numerical response like \"48\" or \"48 eggs total.\"\n\"ans\" suggests a corrupted template, so the next tokens should be the actual solution text.\n simply multiplication logic.\nUsing 4 \u00d7 12 = 48 eggs, the answer is 48.\n straightforward calculation.\n confirm each egg count.\n simple arithmetic verification expected.\nBy counting 4 boxes \u00d7 1 pound each, the answer is 48 pounds needed.\n straightforward solution.",
+    "Math word problem format signals a solution walkthrough is expected, likely showing arithmetic steps.\n\nThe word problem requires arithmetic multiplication: 4 apples \u00d7 3 pounds = 12, so the answer is 12, and the model must now present the solution.\n\nFinal token \"answion\" is a corrupted word (likely \"answer\"), immediately constraining the next tokens to be the actual solution text, e.g., \"12\" or \"multiply 4 \u00d7 3 = 12 eggs.\"\n\"answion\" is a placeholder/word error mid-token, so the next tokens should be the mathematical solution steps.\n straightforward multiplication logic.\nUsing 4 boxes \u00d7 1 egg each = simple arithmetic, so the next tokens should show the calculation or direct answer.\nmultiply 4 by 1 eggs = 4.\nUsing the egg-counting method, the model expects a simple arithmetic demonstration.",
+    "Math word problem format signals a direct arithmetic answer is expected, likely \"16\" or similar integer.\n\nThe word problem setup (4 apples \u00d7 3 pounds = 12) establishes a simple arithmetic calculation requiring a numeric solution.\n\n\"answerg\" is a misspelled word for \"answer,\" functioning as a prompt/label, immediately constraining the next token to be the actual solution text, likely \"16\" or \"4 \u00d7 3 = 12\" or a worked explanation.\n multiplication expression or direct numeric result follows.\nUsing the four children \u00d7 3 pounds = 12, the model must now state the arithmetic solution.\n simply multiplying 4 by 3.\nBy placing the four children each holding 1 apple, the model expects the multiplication result or explanation.\n straightforward solution.",
+    "Math word problem format requires a numerical answer, likely a multiplication (4 \u00d7 3 = 12) or arithmetic sum.\n\nThe word problem context (3 children \u00d7 9 balls = total) strongly predicts the answer will be \"12\" or \"120 grams,\" followed by a solution.\n\n\"answergen\" is a corrupted placeholder for \"answer,\" immediately constraining the next token to be the actual answer text, likely a number or direct response like \"120 grams total.\"\n simply requires a numeric or short declarative response.\n3 \u00d7 9 = 27 pounds, so the immediate next token should be the arithmetic result or confirmation.\nSince 4 girls each have 3 blue balls, the solution involves 4 \u00d7 9 = 36 pounds total weight carried.\n straightforward multiplication logic.\n confirming the correct answer.\n3 girls \u00d7 1 foot tall = ."
+  ],
+  "input_sha256": "897d1cee6a8242a4bdae708ab60fbe3bf6f57ffbdccfdb8b654fd7e51b74fb33",
+  "values": [
+    {
+      "quote": "6 children",
+      "value": "6"
+    },
+    {
+      "quote": "2 pounds",
+      "value": "2"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10 \u00d7 6 eggs",
+      "value": "60"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "4 boxes",
+      "value": "4"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "1 pound",
+      "value": "1"
+    },
+    {
+      "quote": "4 apples",
+      "value": "4"
+    },
+    {
+      "quote": "3 pounds",
+      "value": "3"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "9 balls",
+      "value": "9"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding duplicates and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6 children\",\"value\":6},{\"quote\":\"2 pounds\",\"value\":2},{\"quote\":\"12\",\"value\":12},{\"quote\":\"10 \\u0026#215; 6 eggs\",\"value\":60},{\"quote\":\"10\",\"value\":10},{\"quote\":\"6\",\"value\":6},{\"quote\":\"60\",\"value\":60},{\"quote\":\"4 boxes\",\"value\":4},{\"quote\":\"48\",\"value\":48},{\"quote\":\"1 pound\",\"value\":1},{\"quote\":\"4 apples\",\"value\":4},{\"quote\":\"3 pounds\",\"value\":3},{\"quote\":\"3\",\"value\":3},{\"quote\":\"16\",\"value\":16},{\"quote\":\"9 balls\",\"value\":9},{\"quote\":\"120\",\"value\":120},{\"quote\":\"27\",\"value\":27},{\"quote\":\"36\",\"value\":36}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding duplicates and unit conversions.\"}",
+  "prompt_sha256": "4b1103bdd310d03e4febb59736e929c8d570f41a81981e33c85e49074a862639"
+}

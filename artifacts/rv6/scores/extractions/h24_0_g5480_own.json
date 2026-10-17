@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5480",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 200 \u00d7 5 = 10,000, so the next token must be the computed result \"10,000.\"\n\nRepetition/continuation pattern: the text follows a structured formula with labeled steps (\"First,\" \"Next,\" \"Then\"), suggesting a third step or concluding statement follows.\n\nFinal token \"Then,\" is a transitional connector mid-calculation sequence, immediately requiring the numerical result of the arithmetic expression just computed.\n</explanation>",
+    "Mathematical calculation in progress: 4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total, now computing per-machine power (240 \u00f7 4 = 60 watts).\n\nMultiple-choice answer selection expected: options A\u2013D will be evaluated against the calculated result, guiding which is correct.\n\nFinal token \"is\" opens a predicate completing the sentence \"Each machine will use ___,\" requiring a specific numerical value (likely \"60 watts\") as the immediate next token.\n</explanation>",
+    "Math word problem solution in progress: structured step-by-step arithmetic walkthrough expected, showing multiplication of each machine's wattage.\n\nThe pattern established requires completing the calculation for each machine (16\u00d72, 20\u00d72, 24\u00d72) and then summing to 96 total watts.\n\nFinal token \"16\" is the result of 2 \u00d7 8, mid-calculation; next tokens must complete this arithmetic expression, likely \"watts\" or \"watts for the first machine,\" then continue to the second machine's contribution.\n</explanation>",
+    "Mathematical problem-solving context: calculating total shoe pairs (6 pairs \u00d7 2 = 12), now computing 6 pairs \u00d7 4 pairs = 24 pairs.\n\nStep-by-step arithmetic pattern: the solution is walking through each calculation sequentially, having established 6 pairs \u00d7 2, now completing the multiplication for the 4-pair condition.\n\nFinal token \"2\" begins the number 24 (6 \u00d7 4), immediately requiring \"4\" to complete the arithmetic result, continuing the pattern \"6 pairs \u00d7 4 pairs = 24 pairs.\"\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Find the Product,\" \"Write the Equation,\" \"Subtract the Numbers\").\n\nThe equation setup requires combining total (200) and known (80) to solve for unknown (x), so the next step must write and solve x + 80 = 200.\n\nFinal token \"80\" is the right-hand side of the equation x + 80 = 200, immediately requiring \"= 200\" to complete the equation, then solving for x.\n</explanation>",
+    "Math word problem format: structured Q&A with step-by-step arithmetic solutions, following a consistent pattern of calculation then explanation.\n\nThe second problem mirrors the first's structure: setup \u2192 calculation \u2192 explanation, so the next tokens must complete the arithmetic (36 \u00d7 25 = 900) and then provide the answer.\n\nFinal token \"25.\" ends the multiplication expression \"36 \u00d7 25,\" immediately requiring the computed result \"900\" followed by a sentence explaining the total distance traveled.\n</explanation>"
+  ],
+  "input_sha256": "cda45ab603f0ed948b386f733263dfddb3777658f7317ec7d68d1fcfefecf9a1",
+  "values": [
+    {
+      "quote": "200 \u00d7 5 = 10,000",
+      "value": "200"
+    },
+    {
+      "quote": "200 \u00d7 5 = 10,000",
+      "value": "5"
+    },
+    {
+      "quote": "200 \u00d7 5 = 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total",
+      "value": "4"
+    },
+    {
+      "quote": "4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total",
+      "value": "15"
+    },
+    {
+      "quote": "4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total",
+      "value": "240"
+    },
+    {
+      "quote": "240 \u00f7 4 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "16\u00d72",
+      "value": "16"
+    },
+    {
+      "quote": "16\u00d72",
+      "value": "2"
+    },
+    {
+      "quote": "20\u00d72",
+      "value": "20"
+    },
+    {
+      "quote": "24\u00d72",
+      "value": "24"
+    },
+    {
+      "quote": "summing to 96",
+      "value": "96"
+    },
+    {
+      "quote": "result of 2 \u00d7 8",
+      "value": "8"
+    },
+    {
+      "quote": "6 pairs \u00d7 2 = 12",
+      "value": "6"
+    },
+    {
+      "quote": "6 pairs \u00d7 2 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "6 pairs \u00d7 4 pairs = 24",
+      "value": "24"
+    },
+    {
+      "quote": "total (200)",
+      "value": "200"
+    },
+    {
+      "quote": "known (80)",
+      "value": "80"
+    },
+    {
+      "quote": "36 \u00d7 25 = 900",
+      "value": "36"
+    },
+    {
+      "quote": "36 \u00d7 25 = 900",
+      "value": "25"
+    },
+    {
+      "quote": "36 \u00d7 25 = 900",
+      "value": "900"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions found within the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200 \u00d7 5 = 10,000\",\"value\":200},{\"quote\":\"200 \u00d7 5 = 10,000\",\"value\":5},{\"quote\":\"200 \u00d7 5 = 10,000\",\"value\":10000},{\"quote\":\"4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total\",\"value\":4},{\"quote\":\"4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total\",\"value\":15},{\"quote\":\"4 machines \u00d7 4 hours \u00d7 15 watts = 240 watts total\",\"value\":240},{\"quote\":\"240 \u00f7 4 = 60\",\"value\":60},{\"quote\":\"16\u00d72\",\"value\":16},{\"quote\":\"16\u00d72\",\"value\":2},{\"quote\":\"20\u00d72\",\"value\":20},{\"quote\":\"24\u00d72\",\"value\":24},{\"quote\":\"summing to 96\",\"value\":96},{\"quote\":\"result of 2 \u00d7 8\",\"value\":8},{\"quote\":\"6 pairs \u00d7 2 = 12\",\"value\":6},{\"quote\":\"6 pairs \u00d7 2 = 12\",\"value\":12},{\"quote\":\"6 pairs \u00d7 4 pairs = 24\",\"value\":24},{\"quote\":\"total (200)\",\"value\":200},{\"quote\":\"known (80)\",\"value\":80},{\"quote\":\"36 \u00d7 25 = 900\",\"value\":36},{\"quote\":\"36 \u00d7 25 = 900\",\"value\":25},{\"quote\":\"36 \u00d7 25 = 900\",\"value\":900}],\"justification\":\"Extracted explicit numeric literals and results of arithmetic expressions found within the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "3b11f5a740b87099324a7ea8fc3b3a8229e5e7133633bd7ff15aa945468005d2"
+}

@@ -1,0 +1,153 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5300",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: $200 \u2212 $10 \u00d7 10 \u2212 $20 \u00d7 5 = $100 remaining.\n\nThe arithmetic setup demands a specific dollar amount completing the cost comparison between dog food and cat food.\n\nThe final token \"is\" opens the answer reveal, immediately requiring a number (likely \"$100\") representing the remaining available funds after accounting for costs.\n200 \u2212 10\u00d711 \u2212 20 = $100 net savings.\n$200 \u2212 $15\u00d710 \u2212 $20 small animals = $100 remaining change.\nAnswer must be \"$100\" or similar.\n200 \u2212 10\u00d711 \u2212 $20 \u2212 $95 small animals = $100 net available.\n$100 is the expected completion, representing.",
+    "Math word problem solution in progress: arithmetic requires completing 12\u00d7$10 = $120, then adding $2\u00d7$5 = $10.\n\nThe structured problem format demands a numerical answer showing the arithmetic steps, specifically \"$120 + $2\u00d7$5 = $130.\"\n\nFinal token \"have\" is part of the cost calculation sentence \"12 \u00d7 $10 = $120 plus $2 \u00d7 $5 = $10,\" immediately requiring the computed total \"$130\" to complete the arithmetic result.\n12\u00d7$10 + $2\u00d7$5 = $130 cost.\n12\u00d7$10 = $120, then minus $5\u00d7$1 = $50 small dogs, confirming the $130 total before adding $2 dogs.\n$120 + $2 =.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with structured arithmetic expression.\n\nThe problem requires computing 12\u00d7$5 + 10\u00d7$2 = $130 total cost, then subtracting from $200 budget to find remaining money.\n\nFinal token \"13\" is the beginning of the computed result \"$130\" (12\u00d7$10 + 5\u00d7$2), immediately requiring \"0\" to complete the number, followed by explanation of the remaining $50 budget calculation.\n130 = 12\u00d75 + 2\u00d710 = $130 spent on eggs.\n13 is the start of \"$130,\" completing the arithmetic expression 12\u00d75 + 10\u00d72 = $130 total eggs cost.\n130 = $13 + $20 small eggs,.",
+    "Step-by-step math word problem solution format, following a worked example with structured arithmetic progression.\n\nWord problem narrative momentum: the total cost calculation is mid-completion \u2014 8\u00d7$15 + 5\u00d7$11 = $130, so the answer \"She spent $130 total\" is expected next.\n\nFinal token \"$130\" is the computed result of 8\u00d7$15 + $10, immediately requiring the conclusion: change remaining change or \"She had $100 change left.\"\nFinal token \"$130\" is the total cost stated, immediately followed by a period or sentence about change remaining change.\nShe spent $130 total on books and candy, leaving $50 change.\n$130 = $8\u00d7$15 + 5\u00d7$11 = $130, so the remaining change calculation (\".",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with arithmetic operations shown explicitly.\n\nThe solution is completing the arithmetic expression: 10\u00d7$1.50 + 2\u00d7$5 = $130, confirming the total cost before stating change calculation.\n\nFinal token \"p\" is the truncated word \"pennies,\" completing the computed total \"$130\" ($10\u00d7$13 + $20), immediately requiring \"ennies\" to finish the word, then likely \"Change = $130 - $50 = $80.\"\nFinal token \"p\" is mid-word, part of \"$130,\" completing the arithmetic result statement.\n130 = $130 + 2\u00d7$50 small change = $80 total spent, confirming the remaining change calculation.\n$105 + 6\u00d7$1 =.",
+    "Word problem solution format: structured Q&A pattern with problem statement followed by arithmetic calculation, now requiring the change calculation.\n\nSecond problem mirrors first: arithmetic operation expected: $145 \u00d7 5 + $11 \u00d7 15 = $1150 total, then change = $115 change.\n\nFinal token \"dollars.\" ends the stated cost of the purchase ($75\u00d74+11\u00d75=850), immediately requiring the change amount and change calculation prompt, e.g., \"She received change of $850 change.\"\nFinal token \"dollars.\" closes the stated amount, immediately constraining next tokens to be \"She received change of $850 change.\"\n straightforward arithmetic answer expected next.\n$75 + $110 = paid amount, then change calculation.\nRemaining change: change = $800 change, then change in dollars."
+  ],
+  "input_sha256": "11c15e901f67a1b929a38d3558ae63920b46c16c79e57f212c654a943d03ced5",
+  "values": [
+    {
+      "quote": "$200",
+      "value": "200"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$95",
+      "value": "95"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$130",
+      "value": "130"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "$1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "$13",
+      "value": "13"
+    },
+    {
+      "quote": "$80",
+      "value": "80"
+    },
+    {
+      "quote": "$105",
+      "value": "105"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "$145",
+      "value": "145"
+    },
+    {
+      "quote": "$11",
+      "value": "11"
+    },
+    {
+      "quote": "$1150",
+      "value": "1150"
+    },
+    {
+      "quote": "$115",
+      "value": "115"
+    },
+    {
+      "quote": "$75",
+      "value": "75"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "850",
+      "value": "850"
+    },
+    {
+      "quote": "$850",
+      "value": "850"
+    },
+    {
+      "quote": "$110",
+      "value": "110"
+    },
+    {
+      "quote": "$800",
+      "value": "800"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned in the text, including those within arithmetic expressions and currency formats, while avoiding duplicates and non-numeric identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$200\",\"value\":200},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"10\",\"value\":10},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"5\",\"value\":5},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"11\",\"value\":11},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$95\",\"value\":95},{\"quote\":\"12\",\"value\":12},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$130\",\"value\":130},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"13\",\"value\":13},{\"quote\":\"0\",\"value\":0},{\"quote\":\"8\",\"value\":8},{\"quote\":\"$1.50\",\"value\":1.5},{\"quote\":\"$13\",\"value\":13},{\"quote\":\"$80\",\"value\":80},{\"quote\":\"$105\",\"value\":105},{\"quote\":\"6\",\"value\":6},{\"quote\":\"$145\",\"value\":145},{\"quote\":\"$11\",\"value\":11},{\"quote\":\"$1150\",\"value\":1150},{\"quote\":\"$115\",\"value\":115},{\"quote\":\"$75\",\"value\":75},{\"quote\":\"4\",\"value\":4},{\"quote\":\"850\",\"value\":850},{\"quote\":\"$850\",\"value\":850},{\"quote\":\"$110\",\"value\":110},{\"quote\":\"$800\",\"value\":800}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned in the text, including those within arithmetic expressions and currency formats, while avoiding duplicates and non-numeric identifiers.\"}",
+  "prompt_sha256": "6906ba0624a641bb544e0ffcc8ad29810aa6238749f7fe7db97d165caccd37f1"
+}

@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5416",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring algebraic solution: equation x + 10x = 130 must be solved for x.\n\nThe answer must be a specific integer representing the number of $100 tickets sold, completing the logical setup about total revenue matching $130.\n\nFinal token \"is\" introduces the answer reveal, immediately requiring a number (likely \"10\" or similar integer) representing the difference between 130 tickets and 10x tickets from the cheaper price.\nFinal token \"is\" demands a numerical value completing the equation's unknown quantity.\n(130-10x) / $10 = number of cheaper tickets needed to complete the equation.\n(1300-15\u00d710) / 10 = 50, so the answer is 50 tickets less for the cheaper price.\nThe remaining tickets must be calculated.",
+    "Mathematical problem-solving context: calculating total points, then finding minimum number of students needed to reach 150.\n\nThe solution is building toward setting up an equation where 15 students \u00d7 $10 points = $150, then accounting for remaining students below 15.\n\nFinal token \"have\" begins a clause explaining the maximum possible contribution from the 15 full students, immediately requiring a number or expression like \"15 \u00d7 10\" or \"150 points\" representing the maximum score from the first 15 students before accounting for remaining students.\n150 points from all 15 cars \u00d7 $10 per car, then adding remaining points from lower cars below 15.\nThe equation structure requires completing the comparison: 15 \u00d7 10 minus (15 - remaining) \u00d7 lower points.",
+    "Math problem-solving walkthrough: algebraic equation solving for integer n, requiring substitution steps and verification.\n\nThe equation setup requires completing the arithmetic expression: total points (150) minus known points (100) must equal remaining points scored by other students.\n\nFinal token \"15\" begins a numeric value mid-sentence (\"we know that 15...\"), immediately requiring completion of the arithmetic expression, likely \"150 \u00d7 10 students\" or similar, representing the maximum possible score from 100 students scoring minimum points.\n150 points from the first 100 students (10\u00d715) must be accounted for before solving for remaining students scoring below 150.\nSince all 150 students already scored maximum points, the equation will show remaining points needed to complete the constraint.\n150 \u00d7 10 for the first 1.",
+    "Math problem-solving walkthrough: solving x + y = 1500 using total coins and average value equations.\n\nThe solution is mid-explanation, having established that all 150 coins must sum to $1500, now setting up the equation where total coins minus 10x = remaining amount.\n\nFinal token \"150\" is the calculated value of 10x for full coins, immediately requiring continuation of the equation setup, likely \"for the remaining coins\" or a contrast showing the remaining coins must be less than 1500.\nFinal token \"1500\" ends a logical constraint statement about maximum coins from one category, requiring completion of the equation showing the remaining coins plus (x-y) \u00d7 $10 = $0.\nSince all 10x coins at $10 each = $1500 already satisfied, implying the.",
+    "Mathematical problem-solving pattern: solving for x using total revenue equation (1300 = 150x + 1500, so x = 20).\n\nThe equation setup requires completing the algebraic expression showing the difference between total revenue and known revenue: ($1300 \u2212 $1500 = $200 excess profit).\n\nFinal token \"p\" begins the variable expression \"$p = 300\" or similar, continuing the equation showing the missing amount must equal the difference between total and known profit contributions.\nFinal token \"p\" is mid-sentence in a mathematical derivation showing ($1300\u22121500\u00d7100) must be resolved into a specific numerical result about per-unit difference.\n(300) completing the equation showing the missing amount for 130-150x = 1.",
+    "Structured math problem walkthrough following a consistent pattern: equation \u2192 solve \u2192 verify, now completing the second verification step.\n\nThe equation (x + 10x = 800) has been solved and verified, now the final answer must be stated explicitly, mirroring the first problem's format (\"Therefore, the number of tickets sold is 80\").\n\nFinal token \"0.80.\" ends the remainder calculation showing excess total must equal zero, immediately requiring the conclusion: \"Therefore, the number of tickets sold in the cheaper category is 100 / $10 = 10.\"\nFinal token \"80.\" closes the equation showing the remaining difference, leading to the solution for x.\nFinal token \"0.\" ends the equation expressing the unknown remainder constraint, requiring the next line to state solving for x.\nFinal token \"0\" concludes the algebraic reasoning about the remaining 1."
+  ],
+  "input_sha256": "429a787e5bb119b0d40904d83b212bfa0dd4a34c927900bb64c67b4730bb0a8a",
+  "values": [
+    {
+      "quote": "10x",
+      "value": "10"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "(130-10x)",
+      "value": "120"
+    },
+    {
+      "quote": "(1300-15\u00d710) / 10 = 50",
+      "value": "50"
+    },
+    {
+      "quote": "1300",
+      "value": "1300"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "0.80",
+      "value": "0.8"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, arithmetic results, and spelled-out numbers from the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10x\",\"value\":10},{\"quote\":\"130\",\"value\":130},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"(130-10x)\",\"value\":120},{\"quote\":\"(1300-15\\u00D710) / 10 = 50\",\"value\":50},{\"quote\":\"1300\",\"value\":1300},{\"quote\":\"15\",\"value\":15},{\"quote\":\"150\",\"value\":150},{\"quote\":\"1\",\"value\":1},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"300\",\"value\":300},{\"quote\":\"800\",\"value\":800},{\"quote\":\"80\",\"value\":80},{\"quote\":\"0.80\",\"value\":0.8},{\"quote\":\"0\",\"value\":0}],\"justification\":\"Extracted all distinct numeric literals, arithmetic results, and spelled-out numbers from the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "8d6313f5c121d4e746a9687131ad3821239104ffd20fdb01489d58d7374831a3"
+}

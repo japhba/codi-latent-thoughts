@@ -1,0 +1,69 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5141",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical ranking pattern: article lists country-by-country medal counts, establishing a descending numerical sequence (1st, 2nd, 3rd place).\n\nStructured list continuation: country rankings with medal counts follow a consistent format \u2014 country name, rank, then numeric ranking \u2014 suggesting more entries or a concluding summary statistic follows.\n\nFinal token \"3rd\" ends a ranking clause mid-sentence, immediately requiring a numeric ranking value or country name to complete the statistic, likely continuing the descending country ranking sequence.\n\"3rd\" is part of an incomplete ranking statement, demanding a country name or numeric ranking next.\n\"3rd\" is \"3rd place\" or a country name, constrained by the established ranking pattern.\n\"3rd is\" or a country name follows, completing the numeric ranking for the country just described.\n\"380 is\" or dollar figure context suggests numeric ranking data or country name follows.",
+    "Film review format with cast/crew credits and character descriptions, establishing a pattern of listing actors and their roles.\n\nThe review is mid-sentence describing character descriptions, having just named the actor and their character role, now continuing with further character details or evaluative commentary.\n\nFinal token \"3,\" is part of an interrupted number (likely \"30\" or a larger figure like \"300\"), within a sentence describing the actor's character count or a numerical ranking, requiring immediate numeric continuation.\n\"300\" or similar digit to complete the list/number.\n\"300\" or character count context suggests a structured list of character names or film attributes follows.\n\"41, 350\" or similar ranking pattern suggests visual/numerical descriptors or character names are next.\n\"41, 378\" educational\" rating or scene description \"900\" gender\".",
+    "Book review/description genre with structured sections (title, author, summary, features) signals continuation of promotional product description language.\n\nThe review is mid-sentence listing the book's features and selling points, with a pattern of enumerating technical and editorial qualities (\"high-quality illustrations,\" \"clear and concise\").\n\nFinal token \"10\" ends an incomplete sentence (\"the best 10\"), likely part of a ranking or superlative claim about the book's quality or audience suitability, immediately expecting a noun or continuation like \"best 10 books\" or a comparative ranking phrase.\n\"50 best\" or similar evaluative descriptor is expected next.\n\"60 best\" or product rating context suggests technical specifications or further feature highlights follow.\n\"72 most 20\" or visual quality rating \"60 best\" suggests comparative ranking data or educational performance metrics are next.\n\"17 best 3.",
+    "Structured product review/spec sheet pattern: each section follows a heading then descriptive paragraph, suggesting continuation of technical specifications.\n\nComparative ranking context: the text consistently references benchmark comparisons (e.g., \"best,\" \"top,\" \"most\"), so the next tokens likely continue ranking or superlative claims about the product.\n\nFinal token \"most appropriate\" ends mid-sentence within a comparative ranking clause, immediately requiring a noun phrase or adjective completing the superlative claim, likely referencing a specific measurement, material, or performance metric.\n\"most appropriate\" is an incomplete comparative adjective phrase demanding a noun or qualifier to follow.\n\"most appropriate\" is part of a data-source disclaimer sentence, suggesting product specification or ranking table content follows next.\n\"adequate\" or similar rating term is expected immediately after.\n\"most appropriate\" rating category or specification value is the immediate next expected token.\n\"adequate\" or pricing/weight.",
+    "Structured data pattern: article lists city-specific statistics with consistent formatting (city name, ranking, data table), suggesting continuation of numeric ranking data.\n\nComparative ranking context: the text is mid-sentence describing city rankings, implying more city comparisons or price statistics will follow.\n\nFinal token \"adequate\" ends an incomplete sentence fragment (\"most adequate\"), likely part of a ranking clause; immediate next tokens expected to complete the superlative phrase, e.g., \"most adequate\" followed by a noun like \"rental\" or a price figure.\n\"most adequate\" is a dangling superlative adjective requiring a noun complement or continuation of the specification sentence.\n\"adequate\" ends abruptly mid-specification, suggesting price data or a table row follows next.\n\"most adequate\" rating descriptor likely precedes a numeric value or unit specification.\n\"adequate\" is a performance rating term mid-sentence, immediately constraining.",
+    "Statistical report pattern: structured data presentation with country rankings, percentages, and regional breakdowns throughout.\n\nNumerical continuation: the sentence lists country rankings and dollar amounts, establishing a pattern of specific figures; the next tokens will likely continue with more country rankings or financial statistics.\n\nFinal token \"adequate\" ends an incomplete sentence mid-clause (\"most adequate\"), requiring immediate continuation with a noun phrase like \"country rankings\" or a comparative ranking descriptor to complete the superlative construction.\n\"most adequate\" is a dangling superlative modifier demanding a noun complement.\n\"adequate\" is part of a data table or ranking list, so price-related figures or country names follow next.\n\"most adequate\" is a numeric placeholder mid-sentence, immediately constraining the next token to be a currency unit, dollar amount, or continuation of the financial ranking context.\n\"adequate\" ends abruptly, suggesting tabular data."
+  ],
+  "input_sha256": "62c99ea14793b6d7b16d18d2c96c847149dfb829cd22284a322903bf796ec04d",
+  "values": [
+    {
+      "quote": "380",
+      "value": "380"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "41, 350",
+      "value": "41350"
+    },
+    {
+      "quote": "41, 378",
+      "value": "41378"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and digit sequences found within the provided descriptions, including those within quotes or formatted with commas.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"380\",\"value\":380},{\"quote\":\"30\",\"value\":30},{\"quote\":\"300\",\"value\":300},{\"quote\":\"41, 350\",\"value\":41350},{\"quote\":\"41, 378\",\"value\":41378},{\"quote\":\"900\",\"value\":900},{\"quote\":\"10\",\"value\":10},{\"quote\":\"50\",\"value\":50},{\"quote\":\"60\",\"value\":60},{\"quote\":\"72\",\"value\":72},{\"quote\":\"20\",\"value\":20},{\"quote\":\"17\",\"value\":17}],\"justification\":\"Extracted explicit numeric literals and digit sequences found within the provided descriptions, including those within quotes or formatted with commas.\"}",
+  "prompt_sha256": "b9459b69defe4c1b1d71c0dbf8636a35596e468472f2c0aa492b481ecb0ee916"
+}

@@ -1,0 +1,137 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5027",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: the text consistently presents country-specific hazard percentages and regional comparisons, expecting continuation of this data-driven format.\n\nAcademic citation momentum: the paragraph is mid-sentence describing a specific study's findings, with a structured list of country comparisons expected to follow the established pattern of naming countries with hazard values.\n\nFinal token \"is\" opens a predicate completing the sentence about the 2019 study's hazard rating; \"5 is\" likely continues with a numeric value or descriptor (e.g., \"5 is 29 times higher\" or a specific numeric hazard), directly continuing the interrupted numerical claim about the German city's 2019 rating.",
+    "Narrative momentum of plot summary: the text is recounting plot events sequentially, building toward explaining the political conflict and its consequences.\n\nHistorical/factual context: the film's plot details are being described, with the family's power shift as the central conflict; the next tokens will elaborate on the plot's mechanics and character motivations.\n\nFinal token \"200,\" is mid-sentence describing the plot's setup (\"16 was 200,\"), part of a clause explaining the 18th-century setting; \"1736\" signals a numerical continuation \u2014 the next tokens must complete the 1680s/1736 plot detail, likely describing the 200's (e.g., \"13, 200 was 18\" or similar), completing the conspiracy's power shift.",
+    "Narrative momentum of recipe description: detailed scene-setting of film's plot, now transitioning to cooking instructions and ingredient details.\n\nSequential procedural pattern: the text has been describing the film's content and is now detailing the cooking process, with memory triggers and sensory details building toward completing the recipe's cultural/historical context.\n\nFinal token \"17\" is mid-sentence, part of a time reference (\"15 minutes... 7.5 minutes... 17\"), likely continuing a numerical sequence describing the film's duration or memory triggers; \"1575\" was already mentioned, so \"75 minutes\" or similar time unit completing \"17.5\" is immediately expected, followed by \"minutes\" and then the next narrative beat of the cooking scene.",
+    "Religious sermon structure: text follows a pattern of explaining scripture, then practical application, now mid-example with specific details.\n\nThe video description is building toward completing the explanation of the visual content, with the rhetorical question \"What do you see?\" signaling an answer about the sermon's content is expected.\n\nFinal token \"50\" is mid-sentence, part of a calculation (\"55 minutes... 15 minutes... 65\"), completing \"150 seconds... 75 seconds... 50\" \u2014 the next token continues this arithmetic sequence, likely \"seconds\" or a clause explaining the 65th anniversary reflection, then \"25\" completing \"150 seconds,\" then \"35\" completing the memory \u2014 the narrative momentum demands continuation of the historical reflection on the 50th anniversary.",
+    "News article narrative momentum: film details being revealed sequentially, with plot summary building toward completing the social media statistic and its implications.\n\nThe review is describing the film's plot and reception, with the final sentence mid-clause explaining the tweet's significance \u2014 the number \"2,334 people\" and the 13% increase establish a pattern of specific numerical facts about audience engagement.\n\nFinal token \"230,034 people\" is mid-sentence, completing a contrast between the original 1,323 people and the new 230,034 \u2014 the next tokens must complete this clause, likely explaining the 34% increase or describing the fraud's scale, e.g., \"35,438 people were affected.\"",
+    "Q&A format with procedural steps: the text follows a structured legal/medical scenario with sequential instructions, suggesting continuation of procedural detail.\n\nNarrative momentum toward completing the timeline: the video description is mid-sentence detailing a specific time-based instruction sequence (\"call... 15 minutes before... 150 minutes before...\"), implying more time-based steps or procedural steps follow.\n\nFinal token \"150\" ends a time reference (\"150 seconds,\" \"150 minutes\"), part of a list of instructions; \"5:00 PM\" likely continues with additional time-based details or the sentence completes with \"minutes\" or a clause explaining what happens next (e.g., \"then call...\"), followed by the 15-minute follow-up instruction."
+  ],
+  "input_sha256": "3172888eda78d8a1ec3d38127ad88de2280ff9a2697520e4bc0b103593a25605",
+  "values": [
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "29",
+      "value": "29"
+    },
+    {
+      "quote": "200,",
+      "value": "200"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "1736",
+      "value": "1736"
+    },
+    {
+      "quote": "13,",
+      "value": "13"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "15 minutes",
+      "value": "15"
+    },
+    {
+      "quote": "7.5 minutes",
+      "value": "7.5"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "1575",
+      "value": "1575"
+    },
+    {
+      "quote": "75 minutes",
+      "value": "75"
+    },
+    {
+      "quote": "17.5",
+      "value": "17.5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55 minutes",
+      "value": "55"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "150 seconds",
+      "value": "150"
+    },
+    {
+      "quote": "75 seconds",
+      "value": "75"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "2,334 people",
+      "value": "2334"
+    },
+    {
+      "quote": "13%",
+      "value": "13"
+    },
+    {
+      "quote": "230,034 people",
+      "value": "230034"
+    },
+    {
+      "quote": "1,323 people",
+      "value": "1323"
+    },
+    {
+      "quote": "34%",
+      "value": "34"
+    },
+    {
+      "quote": "35,438 people",
+      "value": "35438"
+    },
+    {
+      "quote": "150 minutes",
+      "value": "150"
+    },
+    {
+      "quote": "5:00 PM",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and time-related numerals from the provided descriptions, including those within quotes or sequences.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"5\",\"value\":5},{\"quote\":\"29\",\"value\":29},{\"quote\":\"200,\",\"value\":200},{\"quote\":\"16\",\"value\":16},{\"quote\":\"1736\",\"value\":1736},{\"quote\":\"13,\",\"value\":13},{\"quote\":\"18\",\"value\":18},{\"quote\":\"15 minutes\",\"value\":15},{\"quote\":\"7.5 minutes\",\"value\":7.5},{\"quote\":\"17\",\"value\":17},{\"quote\":\"1575\",\"value\":1575},{\"quote\":\"75 minutes\",\"value\":75},{\"quote\":\"17.5\",\"value\":17.5},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55 minutes\",\"value\":55},{\"quote\":\"65\",\"value\":65},{\"quote\":\"150 seconds\",\"value\":150},{\"quote\":\"75 seconds\",\"value\":75},{\"quote\":\"25\",\"value\":25},{\"quote\":\"35\",\"value\":35},{\"quote\":\"2,334 people\",\"value\":2334},{\"quote\":\"13%\",\"value\":13},{\"quote\":\"230,034 people\",\"value\":230034},{\"quote\":\"1,323 people\",\"value\":1323},{\"quote\":\"34%\",\"value\":34},{\"quote\":\"35,438 people\",\"value\":35438},{\"quote\":\"150 minutes\",\"value\":150},{\"quote\":\"5:00 PM\",\"value\":5}],\"justification\":\"Extracted all explicit numeric literals, percentages, and time-related numerals from the provided descriptions, including those within quotes or sequences.\"}",
+  "prompt_sha256": "d7abd75294065e6f9076eea24dedcfaf088875656c2efd27b1b9cb8ce1993201"
+}

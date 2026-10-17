@@ -1,0 +1,69 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5316",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer, likely a decimal or whole number representing total area.\n\nThe problem establishes a word problem with two equations: x + 2x = total area, so the solution must express x = (7.5) - (x).\n\n\"The length of the side is\" is an incomplete sentence mid-answer, immediately requiring a numerical value (e.g., \"7.5 units\") to complete the solution statement.\n7.5 units is the expected answer, as the equation x + x/2 = 7.5 demands a specific numerical result.\n\"The length of the side is\" demands a direct numerical response, likely \"7.5\" or \"7.5 units\" to complete the algebraic solution.\n7.5 - 25 = the other side's length, so the total is 7.5 units minus the smaller side.\n7.5 -.",
+    "Math word problem solution format: algebraic expression setup expected, likely \"x + 2x = 36\" or similar equation.\n\nThe problem establishes a constraint: the sum of two values equals 25, so the next tokens must express this relationship mathematically.\n\nFinal token \"has\" begins a clause explaining the arithmetic relationship, immediately requiring a continuation like \"2 times the value of the average\" or \"the minimum value of the female population\" \u2014 completing the explanation of the equation's components.\nFinal token \"has\" is mid-sentence, part of a mathematical justification, expecting a noun phrase describing the known base value (e.g., \"25\" or \"the female population\").\n25 = 2 \u00d7 25 = the known value, so the next tokens will complete this arithmetic reasoning.\n\"25 has\" introduces the equation's left-hand side, likely \"2.",
+    "Math word problem solution in progress: algebraic equation solving for variable x, following step-by-step instructional format.\n\nThe solution is mid-explanation, having stated the equation and begun solving it; next tokens must show the arithmetic reasoning or verification.\n\nFinal token \"5 is the 5 the equation is the 5 the\" \u2014 garbled/typo text mid-sentence, immediately expecting continuation of the explanation, likely \"twice the width\" or \"value of x\" completing the logical statement about the sum 2x + x = 36.\nFinal token \"the\" begins a phrase completing \"2 times the width of the first\" or similar, referencing the established relationship.\n\"the 25 average\" suggests a numeric verification step follows, likely \"2 x 10 = 20 inches\" confirming the answer.\n\"the 5 is the value of x\" or similar completion.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-explanation, having established the equation x + 2x = 36, now solving for x using the equation.\n\nFinal token \"Answer: 0.0: Answer: 0\\n\\nAnswer: 0\\n\\nExplanation: 0\\nAnswer: the explanation of the solution steps is expected next, likely showing the numerical substitution: x = twice the width, confirming x = 12.\nFinal token \"Answer:1\\n\\0\\n\\n\\0\\n\" suggests formatting artifacts; next tokens continue the explanation of why x = 36/2 = the third side's length.\n verification of x + x = 36 is expected next.\nTotal: 36 units established, confirming the solution steps.\n difference between the two sides:.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-calculation, having established x = 2x + 3x = 5x, now solving for x using the equation x + x = 12.\n\nFinal token \"ans:12\\n\\answonaut\\n\\footnote\" is a footnote marker mid-expression, immediately requiring the mathematical equation or numerical result showing the solution steps, likely \"x = 6\" or \"x = half of the difference.\"\nFinal token \"answonaut\" is part of a footnote/separator delimiter, suggesting the next tokens continue the equation or state the derived value x = 6 units.\n(2x = 3x) = total 5x = 12, confirming the solution.\n2x + x = 12, confirming the.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-explanation, having established the equation x + 2x = 12, now requiring the next logical step: solving for x using the equation.\n\nFinal token \"answergonautonaut\" is a garbled placeholder/escape artifact mid-expression, immediately requiring the mathematical continuation showing the equation result, likely \"x = 2x\" or \"x = 12 - x\" completing the logical chain.\nFinal token \"equation\" closes a label \"answergonaut\" indicating a formatted equation display, expecting the next step showing the numerical substitution or solving process.\n(2x = half of total).\nTotal = x + 2x = 12, confirming x = 6, so the next tokens will show the verification or conclusion."
+  ],
+  "input_sha256": "57249616c66579991b5c0ff1d35c26ce9f4641afc00ab70bc6306ed2141ceb38",
+  "values": [
+    {
+      "quote": "7.5",
+      "value": "7.5"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "0.0",
+      "value": "0"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 0.0 to 0) explicitly mentioned in the descriptions, excluding years, ordinals, and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7.5\",\"value\":7.5},{\"quote\":\"25\",\"value\":25},{\"quote\":\"2\",\"value\":2},{\"quote\":\"5\",\"value\":5},{\"quote\":\"36\",\"value\":36},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"0.0\",\"value\":0},{\"quote\":\"1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"12\",\"value\":12},{\"quote\":\"6\",\"value\":6}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 0.0 to 0) explicitly mentioned in the descriptions, excluding years, ordinals, and identifiers.\"}",
+  "prompt_sha256": "fc6103285a2d9cf0ce864500c75d9ae007119446eefa0ffcbc1cf05fda0bd037"
+}

@@ -1,0 +1,137 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5448",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: total 20 boxes \u00d7 (3/4) = 15 remaining boxes, each with 15 chips.\n\nThe solution structure demands completing the calculation: (180 \u00d7 (3/4)).\n\nFinal token \"be:\" is a prompt for the answer, immediately requiring the number \"150\" representing the residual small chip counts per box, completing the question's final clause.\n(20 \u00d7 (1-3/4)).\n\n(180 - 3/4) \u00d7 75 = 150 small remainder, so the answer must be \"150 small chips.\"\n(20 \u00d7 (75/4)).\n\n(1-3/4) \u00d7 180 \u00d7 75 = 150 residual small chips left over.\n\n(1-3/4) \u00d7.",
+    "Step-by-step math word problem solution format requires continuing the calculation: 180 total \u2212 3/4 = 45 small fraction remaining.\n\nThe structured solution pattern established requires showing the arithmetic: 180 \u2212 (3/4) \u00d7 180 = 45 per box.\n\nFinal token \"had\" begins the second step's calculation, immediately requiring the small fraction remainder: \"45 per box\" or \"180 small fraction remaining per box.\"\n180 \u2212 3/4 = 45 residual, so the next tokens must state this intermediate value before describing the total small fraction calculation.\n(180) \u00d7 (3/4) = residual per box, then summing to total small fraction.\n remainder = 1/4 of 180 = 45, describing the small fraction per box not covered by the 3.",
+    "Math word problem solution in progress: answer requires computing 180 \u00d7 (3/4) = 45, so the next tokens must state \"45 square inches per box.\"\n\nStep-by-step solution format established: calculation of remaining volume per box is the logical next step.\n\nThe final token \"4\" is the start of the number 45, representing the remainder of 180 minus 3/4 of 180, immediately requiring \"5\" to complete \"45\" (the per-box loss).\n(3/4) \u00d7 180 = 45 small squares per box.\n(180 - 3/4) = 45, so the next tokens must state this result.",
+    "Math word problem solution in progress: calculation of remaining apples after 3/4 \u00d7 240 = 60 per box.\n\nStep-by-step arithmetic explanation pattern: each step shows the operation and result, requiring the final numerical answer.\n\nThe last token \"45\" is the computed remainder per box (60 - 3/4 = 45), immediately requiring \"apples\" or \"per box\" to complete the sentence, then the total remaining apples calculation.\nFinal token \"45\" is the numerical result mid-sentence, requiring \"apples\" and likely \"per box\" to complete the explanation.\n45 is the waste per box, completing the arithmetic result of 240 \u00d7 (1-85%).\n(1-3/4) \u00d7 85 = 45 apples per tree, confirming the total 45\u00d78 boxes =.",
+    "Math problem walkthrough in progress: step-by-step arithmetic explanation requires completing the calculation of total bad balls per box.\n\nThe formula pattern established: \"45 \u00d7 (1 - 3/4) = 30 per box\" is being demonstrated, requiring the arithmetic result to be stated.\n\nFinal token \"p\" is mid-word, part of \"per box\" completing the per-box calculation; immediately expects \"er box\" or similar closing of the arithmetic expression showing the remaining 75 bad light balls per box.\nFinal token \"p\" is mid-sentence within a mathematical explanation showing 45 \u00d7 (1 - 3/4) \u00d7 85, continuing the breakdown of total removal.\n45*18 minus 75*18 per light ball removal.\nFinal token \"p\" is the truncated word \"per,\" completing the per-box deficit calculation before summing to total.",
+    "Math problem-solving walkthrough pattern: each step builds toward a numerical answer, with calculation expected next.\n\nThe arithmetic result (45 \u00d7 10% = 4.5) must be stated, completing the logical chain of reasoning about total rejected green balls.\n\nFinal token \"15 s. s points.\" ends the per-bullet calculation sentence, immediately requiring the total rejection count: \"45 \u00d7 (1-35%) = 45 \u00d7 0.35 = total rejected per row.\"\nFinal token \"s. s points.\" closes the formula statement, demanding the numerical answer \"450 total rejected balls\" as the conclusion.\nFinal token \"40 s. s points.\" ends the per-row formula, so the next tokens must state the total sum: \"45 \u00d7 6 = 270.\"\nFinal token \"69 points.\" closes the problem's answer."
+  ],
+  "input_sha256": "6cdc7c4672126ad60ad7bba83275c2a7ddb01d39a8c730a350cd4649732dabe2",
+  "values": [
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "1-3/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "35%",
+      "value": "35"
+    },
+    {
+      "quote": "0.35",
+      "value": "0.35"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "69",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, fractions, percentages, and arithmetic results explicitly stated in the descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"20\",\"value\":20},{\"quote\":\"3/4\",\"value\":0.75},{\"quote\":\"15\",\"value\":15},{\"quote\":\"180\",\"value\":180},{\"quote\":\"150\",\"value\":150},{\"quote\":\"75\",\"value\":75},{\"quote\":\"1-3/4\",\"value\":0.25},{\"quote\":\"45\",\"value\":45},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"3\",\"value\":3},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"240\",\"value\":240},{\"quote\":\"60\",\"value\":60},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"85\",\"value\":85},{\"quote\":\"8\",\"value\":8},{\"quote\":\"30\",\"value\":30},{\"quote\":\"18\",\"value\":18},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"35%\",\"value\":35},{\"quote\":\"0.35\",\"value\":0.35},{\"quote\":\"450\",\"value\":450},{\"quote\":\"40\",\"value\":40},{\"quote\":\"6\",\"value\":6},{\"quote\":\"270\",\"value\":270},{\"quote\":\"69\",\"value\":69}],\"justification\":\"Extracted all distinct numeric literals, fractions, percentages, and arithmetic results explicitly stated in the descriptions.\"}",
+  "prompt_sha256": "c01d5462b411f5087428e93718052aa9852e94312b90cefc15639d49b7ddb632"
+}

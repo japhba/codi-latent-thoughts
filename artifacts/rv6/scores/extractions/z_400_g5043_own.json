@@ -1,0 +1,33 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5043",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: each metric follows a structured format with numerical values, comparisons, and parenthetical context (e.g., \"1.59 per 100,000,\" \"1.59 per 100,000\").\n\nContinuation of hazard rate data: the sentence is mid-clause reporting the hazard rate for the 2019\u20132020 period, requiring a specific numerical value with units to complete the statistic.\n\nFinal token \"is\" opens a predicate completing \"The hazard rate...is,\" immediately requiring a numerical hazard rate value (likely a decimal figure with units like \"per 100,000\") to follow.",
+    "Film review genre with character-by-character analysis pattern: the text systematically evaluates romantic pairings, moving from plot summary to personal critique to character analysis.\n\nThe review is building toward a character comparison/contrast, having just described the film's emotional tone and character dynamics, now pivoting to personal character analysis of the male lead.\n\nFinal token \"was\" opens a relative clause describing the character's qualities or relationship with the female lead \u2014 the sentence \"was\" requires a predicate adjective or verb phrase completing the character assessment, likely describing the romantic dynamic or personal connection.",
+    "Product review/spec article pattern: structured tech review with specs, then prose analysis, now returning to technical evaluation of the film's quality and performance.\n\nContinuation of a list of technical assessment criteria: the review has been evaluating the film's technical merits (sound, image quality, 4K performance), suggesting further technical specifications or performance ratings follow.\n\nFinal token \"highest\" ends an incomplete superlative phrase (\"best quality and most reliable performance in the highest\"), requiring a noun completing the comparative \u2014 likely \"quality\" or a specific technical category like \"quality\" or \"resolution.\"",
+    "Structured spec-sheet pattern: each section follows \"Category: Value\" format with technical data, establishing strong continuation expectations.\n\nProduct review/spec page genre: detailed technical specifications for a camera are being systematically listed, with performance and pricing data still expected to follow.\n\nFinal token \"adequate\" ends a sentence fragment mid-thought within the \"Price and Performance\" section, immediately requiring completion of the performance specification clause, likely continuing with \"performance\" or a qualifying phrase about the camera's capabilities.",
+    "Statistical data pattern: structured comparison of performance metrics (speed, distance, time) with specific numerical values throughout, establishing expectation for continued data.\n\nContinuation of the \"per year\" ranking table: the text is mid-sentence describing annual performance statistics, with the 2019 ranking already stated, implying further year-over-year comparisons or additional ranking context follows.\n\nFinal token \"adequate\" ends an incomplete sentence (\"The statistic is adequate\"), likely part of a qualifying clause; next tokens will complete this thought, probably with a specific dollar figure or percentage for the 2019 ranking.",
+    "Statistical report pattern: each metric follows a structured format with numerical data, comparisons, and year-over-year figures throughout.\n\nContinuation of a specific numerical data sequence: the text is mid-sentence presenting a rate statistic (\"rate of 1.79 per 100,000\"), requiring completion with a time period or qualifying clause (e.g., \"per year\" or \"in 2023\").\n\nFinal token \"is\" opens a predicate completing the sentence about the rate of 1.79 per 100,000, immediately requiring a time reference or comparative phrase like \"per year\" or \"in the year.\""
+  ],
+  "input_sha256": "bbea25ea1cc3eeb25433950977b280cad8b65506734fb978c9f47ccb58d5a687",
+  "values": [
+    {
+      "quote": "1.59 per 100,000",
+      "value": "1.59"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "1.79 per 100,000",
+      "value": "1.79"
+    }
+  ],
+  "justification": "Extracted explicit decimal and integer literals found within the statistical report descriptions, specifically hazard rates and population denominators.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.59 per 100,000\",\"value\":1.59},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"1.79 per 100,000\",\"value\":1.79}],\"justification\":\"Extracted explicit decimal and integer literals found within the statistical report descriptions, specifically hazard rates and population denominators.\"}",
+  "prompt_sha256": "8bbdf8c3e7cabfb2637c07b57b7c0a2843cd20f9bc5133a653aa35b4dc0b8308"
+}

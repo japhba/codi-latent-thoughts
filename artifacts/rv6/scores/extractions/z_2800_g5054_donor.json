@@ -1,0 +1,173 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5054",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: the text consistently presents hazard statistics with specific percentages, so a precise numerical value is expected next.\n\nStudy results narrative momentum: the paragraph is mid-sentence reporting a specific hazard reduction figure, continuing the pattern of quantified findings (e.g., \"60 percent,\" \"65 percent\").\n\nFinal token \"60 percent\" is an incomplete numerical claim mid-sentence (\"reduced the risk of being struck by a train by 6\"), requiring immediate continuation with the remaining digit(s) of the percentage, likely \"percent\" or a decimal like \"6.3 percent.\"\n\"6\" is the start of a percentage figure.\n\"6\" is \"23 percent\" or \"23 percent\" \u2014 the numeric value must be completed before the sentence continues with additional context.\n\"63.4 percent\" or similar hazard figure follows.\n\"2\" is the final token,.",
+    "Narrative momentum: biographical summary of the film's plot, systematically covering character introductions and their relationships.\n\nThe sentence structure \"The story begins with...\" signals a chronological plot summary, with character details and events being enumerated sequentially.\n\nFinal token \"3,\" is mid-sentence within a quoted character name (\"3,\"), part of a list of characters introduced; the immediate next token must complete or continue this name/number, likely \"333\" or a new character detail continuing the enumeration.\n\"333\" or \"3333\" \u2014 the social media handle \"333\" is being repeated, suggesting \"390\" or \"3900\" follows, completing the advice about the Twitter account.\n\"3833\" is \"390\" \u2014 historical photo reference \"2633\" is \"345 minutes,\" so romantic conflict \".",
+    "Review structure momentum: the text is mid-sentence in a plot summary, describing the film's narrative arc and character development.\n\nReview genre conventions: the text follows a standard movie review format \u2014 synopsis, then personal reaction, then recommendation \u2014 suggesting a concluding evaluative statement or rating follows.\n\nFinal token \"2\" is the start of an incomplete number (likely \"22\" or \"25\"), part of a sentence describing the film's runtime or rating, requiring immediate numeric continuation of that digit sequence.\n\"2\" is \"22\" or \"2500\" \u2014 foodie callout box or rating number completing \"24.2 million\" or similar quantity.\n\"223\" or spiritual \"2,365 days\" \u2014 dietary restriction \"262 days\" is \"415\" \u2014 the product \"234\" is \"12.5 million.",
+    "Review structure momentum: book summary is mid-sentence, continuing to describe the protagonist's spiritual journey and book's themes.\n\nNarrative continuation: the review is transitioning from plot summary to personal recommendation, likely segueing into author credentials or book details.\n\nFinal token \"22\" is an incomplete number (likely \"225\" or \"222\"), part of a sentence about the book's publication date or edition number, requiring immediate numeric continuation.\n\"22\" is truncated mid-word/number, so the next tokens must complete this digit sequence before continuing the sentence.\n\"2252\" or similar numeric completion is \"2225\" \u2014 dietary label or publication year \"2212\" is \"52.12 months\" \u2014 the dating advice section header \"2643\" membership tag suggests \"1125\" nutritional label; religious book \"2.",
+    "Narrative momentum: article is mid-sentence completing a statistic about the author's social media activity, likely continuing with more personal details or a call-to-action.\n\nThe article follows a listicle/advice format, building toward a recommendation or resource link for readers seeking help.\n\nFinal token \"22\" ends an incomplete sentence (\"222\" or similar number), part of a quoted statistic about the author's social media presence; next tokens must complete this number and likely close the quote.\n\"222\" or \"222%\" or similar publication reference follows.\n\"222\" is a typo for \"222\" \u2014 the advice column source citation is being completed, so the next tokens will finish the disclosure statement.\n\"222\" is public health advocacy; the review \"60%\" or similar complaint rating follows personal disclosure advice.\n\"210.3\" news.",
+    "Q&A format established: question posed, answer begun, explanation of legal reasoning expected to continue with more detail.\n\nLegal analysis momentum: the answer has introduced the questioner's concern and the church's response; next tokens will elaborate on the church's legal reasoning or the complaint's merits.\n\nFinal token \"2\" closes \"8 people\" \u2014 the sentence is complete, so next tokens will likely begin a new sentence continuing the answer, possibly addressing the complaint's legal basis or procedural steps.\n\"2\" ends the questioner's stated concern, so \"8 people\" or a new clause follows.\n\"289.8\" list pattern suggests structured legal reference formatting continues.\n\"29.6 meeting\" rule citation signals the answer is transitioning to procedural guidance or ruling details.\n\"8,389 members\" is \"29.6 meeting\" \u2014 \"1147\" is garbled."
+  ],
+  "input_sha256": "6ec95127eb04c205843f2e82bdea1ab69c8f8031221c250a935423cfdf368616",
+  "values": [
+    {
+      "quote": "60 percent",
+      "value": "60"
+    },
+    {
+      "quote": "65 percent",
+      "value": "65"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "23 percent",
+      "value": "23"
+    },
+    {
+      "quote": "63.4 percent",
+      "value": "63.4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "333",
+      "value": "333"
+    },
+    {
+      "quote": "3333",
+      "value": "3333"
+    },
+    {
+      "quote": "390",
+      "value": "390"
+    },
+    {
+      "quote": "3900",
+      "value": "3900"
+    },
+    {
+      "quote": "3833",
+      "value": "3833"
+    },
+    {
+      "quote": "2633",
+      "value": "2633"
+    },
+    {
+      "quote": "345",
+      "value": "345"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "2500",
+      "value": "2500"
+    },
+    {
+      "quote": "24.2 million",
+      "value": "24200000"
+    },
+    {
+      "quote": "223",
+      "value": "223"
+    },
+    {
+      "quote": "2,365",
+      "value": "2365"
+    },
+    {
+      "quote": "262",
+      "value": "262"
+    },
+    {
+      "quote": "415",
+      "value": "415"
+    },
+    {
+      "quote": "234",
+      "value": "234"
+    },
+    {
+      "quote": "12.5 million",
+      "value": "12500000"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "222",
+      "value": "222"
+    },
+    {
+      "quote": "2252",
+      "value": "2252"
+    },
+    {
+      "quote": "2225",
+      "value": "2225"
+    },
+    {
+      "quote": "2212",
+      "value": "2212"
+    },
+    {
+      "quote": "52.12",
+      "value": "52.12"
+    },
+    {
+      "quote": "2643",
+      "value": "2643"
+    },
+    {
+      "quote": "1125",
+      "value": "1125"
+    },
+    {
+      "quote": "210.3",
+      "value": "210.3"
+    },
+    {
+      "quote": "8 people",
+      "value": "8"
+    },
+    {
+      "quote": "289.8",
+      "value": "289.8"
+    },
+    {
+      "quote": "29.6",
+      "value": "29.6"
+    },
+    {
+      "quote": "8,389",
+      "value": "8389"
+    },
+    {
+      "quote": "1147",
+      "value": "1147"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, including those within quotes and decimal values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"60 percent\",\"value\":60},{\"quote\":\"65 percent\",\"value\":65},{\"quote\":\"6\",\"value\":6},{\"quote\":\"23 percent\",\"value\":23},{\"quote\":\"63.4 percent\",\"value\":63.4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"333\",\"value\":333},{\"quote\":\"3333\",\"value\":3333},{\"quote\":\"390\",\"value\":390},{\"quote\":\"3900\",\"value\":3900},{\"quote\":\"3833\",\"value\":3833},{\"quote\":\"2633\",\"value\":2633},{\"quote\":\"345\",\"value\":345},{\"quote\":\"22\",\"value\":22},{\"quote\":\"25\",\"value\":25},{\"quote\":\"2500\",\"value\":2500},{\"quote\":\"24.2 million\",\"value\":24200000},{\"quote\":\"223\",\"value\":223},{\"quote\":\"2,365\",\"value\":2365},{\"quote\":\"262\",\"value\":262},{\"quote\":\"415\",\"value\":415},{\"quote\":\"234\",\"value\":234},{\"quote\":\"12.5 million\",\"value\":12500000},{\"quote\":\"225\",\"value\":225},{\"quote\":\"222\",\"value\":222},{\"quote\":\"2252\",\"value\":2252},{\"quote\":\"2225\",\"value\":2225},{\"quote\":\"2212\",\"value\":2212},{\"quote\":\"52.12\",\"value\":52.12},{\"quote\":\"2643\",\"value\":2643},{\"quote\":\"1125\",\"value\":1125},{\"quote\":\"210.3\",\"value\":210.3},{\"quote\":\"8 people\",\"value\":8},{\"quote\":\"289.8\",\"value\":289.8},{\"quote\":\"29.6\",\"value\":29.6},{\"quote\":\"8,389\",\"value\":8389},{\"quote\":\"1147\",\"value\":1147}],\"justification\":\"Extracted all explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, including those within quotes and decimal values.\"}",
+  "prompt_sha256": "0d5420d4b1b2dfc2ff91a50aaed8ab3d975f7e09b4219592c10f0d83e59f2c35"
+}

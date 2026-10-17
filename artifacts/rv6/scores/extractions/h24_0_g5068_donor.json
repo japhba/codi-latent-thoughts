@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5068",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating 30% of 80, requiring the arithmetic result 24.\n\nThe sentence structure \"The answer is\" directly promises a numerical answer, with no ambiguity \u2014 the next token must be the computed value.\n\nFinal token \"is\" opens a copular clause requiring an immediate numerical answer (likely \"24\"), possibly followed by a period or brief explanatory phrase like \"24 people.\"\n</explanation>",
+    "Mathematical problem-solving context: calculating total yes/no votes, requiring arithmetic completion of 36 + 18 = 54.\n\nStep-by-step solution structure: the text is walking through a worked example, so the next tokens must show the arithmetic result (54) and then explain how to use it to find the ratio 36:18.\n\nFinal token \"got\" is a past-tense verb mid-sentence, immediately requiring a numerical result (e.g., \"54\") followed by explanation of how to use that total to compute the ratio.\n</explanation>",
+    "Math word problem solution in progress: arithmetic sequence showing step-by-step calculation of remaining people after departure.\n\nThe solution is mid-calculation, having established initial count (40) and subtracted 15 who left, now adding 25 who joined \u2014 the next step must complete this arithmetic chain.\n\nFinal token \"4\" is the start of the number \"40\" (or \"40 + 25 = 65\"), mid-numeral, requiring immediate digit continuation to complete the arithmetic expression showing the new total count.\n</explanation>",
+    "Step-by-step math word problem solution format, with each step showing arithmetic operations and intermediate results.\n\nThe solution is mid-calculation, tracking the number of people in the elevator (40 after adding 10), requiring the next step to show the subtraction: 40 \u2212 15 = 25.\n\nThe final token \"40\" is the intermediate result of adding 10 to 30, immediately requiring the next arithmetic operation (subtraction of 15) and its result, e.g., \"people were in the elevator.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with arithmetic operations, showing intermediate calculations.\n\nThe solution is mid-calculation, having established total passengers (100) and removed passengers (17), now computing the remaining count (83) to answer the question.\n\nFinal token \"p\" is the start of \"passengers\" (or \"people\"), completing the arithmetic expression \"100 - 17 = 83 passengers/people,\" directly continuing the sentence \"There were 83 passengers.\"\n</explanation>",
+    "Mathematical problem-solving structure: a step-by-step arithmetic walkthrough is underway, requiring the next calculation step (28 \u2212 14 = 14).\n\nThe established pattern of showing intermediate steps with explanations (\"First... Next...\") signals the next token continues this pedagogical sequence, likely showing the subtraction result.\n\nThe final token \"14\" is the result of the first arithmetic operation, immediately constraining the next tokens to be the next step: subtracting 14 from 28 to yield the final answer of 14.\n</explanation>"
+  ],
+  "input_sha256": "14983d6c5324a99169cbc01da0d64365887bd8c36089707218c75ce306d0b543",
+  "values": [
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "83",
+      "value": "83"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and arithmetic results mentioned within the provided descriptions, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30%\",\"value\":30},{\"quote\":\"80\",\"value\":80},{\"quote\":\"24\",\"value\":24},{\"quote\":\"36\",\"value\":36},{\"quote\":\"18\",\"value\":18},{\"quote\":\"54\",\"value\":54},{\"quote\":\"40\",\"value\":40},{\"quote\":\"15\",\"value\":15},{\"quote\":\"25\",\"value\":25},{\"quote\":\"10\",\"value\":10},{\"quote\":\"30\",\"value\":30},{\"quote\":\"100\",\"value\":100},{\"quote\":\"17\",\"value\":17},{\"quote\":\"83\",\"value\":83},{\"quote\":\"28\",\"value\":28},{\"quote\":\"14\",\"value\":14}],\"justification\":\"Extracted all explicit numeric literals, percentages, and arithmetic results mentioned within the provided descriptions, excluding years and ordinals.\"}",
+  "prompt_sha256": "79ccd683766755aff23aa3e5874a57898263872fef5f17d946b8b1001489c861"
+}

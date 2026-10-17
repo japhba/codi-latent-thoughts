@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: 400 tickets \u00d7 40 cents = 16,000 cents, so the next token must be the dollar amount \"$16,000\" or similar.\n\nMultiple-choice answer selection expected: after computing the total, the model must identify the closest option (likely \"A\" or \"16,000\").\n\nThe final token \"$\" opens a currency expression, immediately requiring a numeric value (e.g., \"16,000\") followed by a period or comma and likely a lettered answer choice.\n</explanation>",
+    "Mathematical calculation in progress: 4 packs \u00d7 4 items = 16, so the next tokens must state the total cost (16 \u00d7 $0.25 = $4).\n\nRepetition/continuation pattern: structured step-by-step math problem walkthrough, following \"multiply X by Y\" formula.\n\nFinal token \"a\" is an indefinite article beginning a noun phrase, immediately requiring a number (likely \"total of $4\") to complete the arithmetic expression.\n</explanation>",
+    "Math word problem solution in progress: structured step-by-step algebraic reasoning with variable substitution expected.\n\nThe solution is mid-calculation, having established the pattern of computing daily cost (12 \u00d7 5 = 60) and then scaling to total cost (60 \u00d7 14 = 840), following the established formula.\n\nFinal token \"12\" is the result of \"12 \u00d7 5\" inside a sentence stating daily cost; the next token must complete this arithmetic expression, likely \"dollars\" or \"per day\" to finish the sentence before proceeding to total cost calculation.\n</explanation>",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with labeled stages (e.g., \"First,\" \"Second,\" \"Third\") and structured calculations.\n\nThe solution is mid-calculation, having established daily cost ($2.50 \u00d7 4 = $10) and now computing weekly total cost (10 \u00d7 7 = $70), following the established pattern of showing intermediate steps.\n\nFinal token \"$10\" is the daily cost result, immediately requiring the weekly total calculation: \"\u00d7 7 = $70\" to complete the arithmetic chain.\n</explanation>",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough with labeled stages (e.g., \"First,\" \"Second,\" \"Third\").\n\nThe solution is mid-calculation, having established daily cost (25 cents \u00d7 4 = 100 cents) and now computing weekly cost (100 \u00d7 7 = 700 cents), mirroring the earlier stated answer.\n\nFinal token \"700 cents\" is the computed result of the weekly cost calculation, immediately requiring the next step: dividing 700 by 25 to find how many days, yielding the final answer.\n</explanation>",
+    "Mathematical problem-solving pattern: structured step-by-step calculation with formula application, following \"First... Next... Finally\" sequence.\n\nThe \"Finally\" step is mid-completion, having established the formula and substituted values (10,000 miles \u00f7 12 months), requiring the arithmetic result to be stated next.\n\nThe last token \"Finally\" closes the three-part solution sequence; it directly precedes the computed numerical answer, which must be \"$833.33\" (10,000 \u00f7 12 \u2248 833.33), completing the solution.\n</explanation>"
+  ],
+  "input_sha256": "3e9b44677523a135345a583497fae3435ea3448c9cc95b037505f41c50d7a2f2",
+  "values": [
+    {
+      "quote": "400 tickets",
+      "value": "400"
+    },
+    {
+      "quote": "40 cents",
+      "value": "40"
+    },
+    {
+      "quote": "16,000 cents",
+      "value": "16000"
+    },
+    {
+      "quote": "$16,000",
+      "value": "16000"
+    },
+    {
+      "quote": "4 packs",
+      "value": "4"
+    },
+    {
+      "quote": "4 items",
+      "value": "4"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "$0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "$4",
+      "value": "4"
+    },
+    {
+      "quote": "12 \u00d7 5 = 60",
+      "value": "12"
+    },
+    {
+      "quote": "12 \u00d7 5 = 60",
+      "value": "5"
+    },
+    {
+      "quote": "12 \u00d7 5 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "60 \u00d7 14 = 840",
+      "value": "14"
+    },
+    {
+      "quote": "60 \u00d7 14 = 840",
+      "value": "840"
+    },
+    {
+      "quote": "$2.50",
+      "value": "2.5"
+    },
+    {
+      "quote": "$2.50 \u00d7 4 = $10",
+      "value": "10"
+    },
+    {
+      "quote": "10 \u00d7 7 = $70",
+      "value": "7"
+    },
+    {
+      "quote": "10 \u00d7 7 = $70",
+      "value": "70"
+    },
+    {
+      "quote": "25 cents",
+      "value": "25"
+    },
+    {
+      "quote": "100 cents",
+      "value": "100"
+    },
+    {
+      "quote": "700 cents",
+      "value": "700"
+    },
+    {
+      "quote": "10,000 miles",
+      "value": "10000"
+    },
+    {
+      "quote": "12 months",
+      "value": "12"
+    },
+    {
+      "quote": "$833.33",
+      "value": "833.33"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, currency values, and arithmetic components from the provided descriptions, including results of stated equations like 12 \u00d7 5 = 60.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"400 tickets\",\"value\":400},{\"quote\":\"40 cents\",\"value\":40},{\"quote\":\"16,000 cents\",\"value\":16000},{\"quote\":\"$16,000\",\"value\":16000},{\"quote\":\"4 packs\",\"value\":4},{\"quote\":\"4 items\",\"value\":4},{\"quote\":\"16\",\"value\":16},{\"quote\":\"$0.25\",\"value\":0.25},{\"quote\":\"$4\",\"value\":4},{\"quote\":\"12 \\u00D7 5 = 60\",\"value\":12},{\"quote\":\"12 \\u00D7 5 = 60\",\"value\":5},{\"quote\":\"12 \\u00D7 5 = 60\",\"value\":60},{\"quote\":\"60 \\u00D7 14 = 840\",\"value\":14},{\"quote\":\"60 \\u00D7 14 = 840\",\"value\":840},{\"quote\":\"$2.50\",\"value\":2.5},{\"quote\":\"$2.50 \\u00D7 4 = $10\",\"value\":10},{\"quote\":\"10 \\u00D7 7 = $70\",\"value\":7},{\"quote\":\"10 \\u00D7 7 = $70\",\"value\":70},{\"quote\":\"25 cents\",\"value\":25},{\"quote\":\"100 cents\",\"value\":100},{\"quote\":\"700 cents\",\"value\":700},{\"quote\":\"10,000 miles\",\"value\":10000},{\"quote\":\"12 months\",\"value\":12},{\"quote\":\"$833.33\",\"value\":833.33}],\"justification\":\"Extracted explicit numeric literals, currency values, and arithmetic components from the provided descriptions, including results of stated equations like 12 \\u00D7 5 = 60.\"}",
+  "prompt_sha256": "279407cb45a74b8775f89408fd5e9fa09bfc4d50a74e04b86f1130cba386cd73"
+}

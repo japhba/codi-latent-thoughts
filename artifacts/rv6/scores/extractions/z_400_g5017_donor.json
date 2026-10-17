@@ -1,0 +1,73 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5017",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in \"HR = 1.999, 95% CI = 1.000 to 3.999.\"\n\nAcademic/technical report structure: the text is presenting hazard analysis findings with specific numerical results, requiring continuation of the statistical outcome for the \"first two years\" hazard ratio.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the first two years, immediately requiring a numerical value (likely a decimal hazard ratio, e.g., \"1.5\" or similar) followed by statistical qualifiers.",
+    "Narrative momentum: personal backstory of family history and character relationships being traced, explaining the family's emotional connection to the film's themes of memory and love.\n\nCharacter analysis pattern: the text is explaining how the family's backstory connects to the plot's themes of family, memory, and emotional history \u2014 the next tokens will elaborate on the mother's personal experience with the father.\n\nFinal token \"was\" opens a past-tense clause mid-sentence, requiring a predicate describing what the mother's memory of the father's relationship with the family was or represented \u2014 likely a verb phrase completing the personal reflection.",
+    "Personal testimony/reflective essay pattern: author shares faith-based advice, now shifting to a specific anecdote about a friend's medical advice about gendered health.\n\nNarrative momentum toward a personal confession or lesson: the friend's advice about women's health is being introduced as a concrete example illustrating the essay's theme of gendered health advice and personal experience.\n\nFinal token \"12\" completes \"now I am 12 years old but I am now 12\" \u2014 a self-deprecating pivot mid-sentence, immediately requiring continuation of the friend's advice or the author's personal reflection on it.",
+    "Narrative momentum: anecdote about the legal anecdote is being recounted, building toward a conclusion about the story's implications for the news story's credibility.\n\nNarrative payoff expected: the story's punchline or lesson about police liability and media sensationalism is being established, with the anecdote's consequence still being revealed.\n\nFinal token \"20,000,000 people, 2020, 200 people\" is a dramatic statistic mid-sentence, immediately requiring completion of the consequence clause \u2014 likely \"to report\" or similar phrasing describing the anecdote's impact on the news story.",
+    "Q&A legal case narrative format: each question is followed by a detailed procedural answer, establishing strong continuation pattern.\n\nThe scenario describes a phone call incident with specific procedural details (time, location, conversation content), building toward a legal question about the phone call's admissibility as evidence.\n\nFinal token \"24\" is mid-sentence within a time-based procedural detail (\"24 hours later\"), immediately requiring completion of the time reference and then the legal question about whether the phone call constitutes actionable evidence.",
+    "Legal Q&A format: a case analysis question was posed, and the answer is now being provided step-by-step, following a structured legal reasoning pattern.\n\nNarrative momentum: the answer has established the procedural facts (hearing, motion, procedural history) and is now transitioning to the legal analysis of the specific legal question \u2014 \"Was the church justified in denying the request?\" \u2014 requiring explanation of the legal basis.\n\nFinal token \"60 is 30.80% of 50,000,000 is 60,000\" is a garbled numerical error mid-sentence, but the sentence continues with \"the court found the church's request was 0.6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "input_sha256": "8dfa9a2928d436499df92b1a2342df4ac20472f43b032b2b3310f8192b6bdb1d",
+  "values": [
+    {
+      "quote": "1.999",
+      "value": "1.999"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "1.000",
+      "value": "1"
+    },
+    {
+      "quote": "3.999",
+      "value": "3.999"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "20,000,000",
+      "value": "20000000"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "30.80%",
+      "value": "30.8"
+    },
+    {
+      "quote": "50,000,000",
+      "value": "50000000"
+    },
+    {
+      "quote": "60,000",
+      "value": "60000"
+    },
+    {
+      "quote": "0.6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "0.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including statistical results, ages, counts, and legal procedural details.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.999\",\"value\":1.999},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"1.000\",\"value\":1},{\"quote\":\"3.999\",\"value\":3.999},{\"quote\":\"12\",\"value\":12},{\"quote\":\"20,000,000\",\"value\":20000000},{\"quote\":\"200\",\"value\":200},{\"quote\":\"24\",\"value\":24},{\"quote\":\"60\",\"value\":60},{\"quote\":\"30.80%\",\"value\":30.8},{\"quote\":\"50,000,000\",\"value\":50000000},{\"quote\":\"60,000\",\"value\":60000},{\"quote\":\"0.6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":0.6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including statistical results, ages, counts, and legal procedural details.\"}",
+  "prompt_sha256": "e52f0cf732cf1921b45866a83f9294bd92b40eb093472ce25fa1be2bff6d707e"
+}

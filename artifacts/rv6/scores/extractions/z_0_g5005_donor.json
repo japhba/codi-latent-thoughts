@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5005",
+  "kind": "donor",
+  "descriptions": [
+    "Academic paper abstract following IMRaD structure: \"Results\" section is mid-sentence, requiring completion of the statistical finding about the 100% CI for the first group.\n\nThe pattern established by the first group's result (100% CI, p-value, effect size) must be mirrored for the second group, creating a parallel structure.\n\nFinal token \"100% CI\" is mid-sentence within the Results section, immediately requiring a numerical range (e.g., \"0.000 to 0.000\") and likely a p-value, mirroring the first group's format exactly.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically detailing the mother's situation after her husband's death, requiring continuation of that story.\n\nRepetition/continuation pattern: the review has been summarizing plot points in sequence (\"The story begins...\"), suggesting further plot details about the mother's journey and the film's themes will follow.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, immediately requiring a noun phrase or adjective describing what happened to the mother (e.g., \"left alone,\" \"forced to...\").\n</explanation>",
+    "Narrative momentum: the text is mid-sentence recounting the husband's realization, building toward the husband's reaction to the \"12\" \u2014 likely \"12 times\" or a specific count of incidents, completing the thought about his growing awareness of the wife's behavior.\n\nRepetition/continuation pattern: the article repeatedly references \"12 times\" and \"12 years\" as key figures, suggesting the next tokens will echo or elaborate on this specific number.\n\nFinal token \"12\" is an incomplete numerical phrase mid-sentence, directly requiring a noun or continuation (e.g., \"times,\" \"incidents,\" \"occasions\") to complete the husband's realization about the wife's behavior.\n</explanation>",
+    "The article follows a structured legal/medical explainer format, systematically covering definition, symptoms, and now legal implications \u2014 the next section will address liability, insurance, or legal consequences for victims.\n\nThe narrative momentum builds toward legal liability: the text has established the condition's danger and is now transitioning to how it affects victims' rights, insurance coverage, or legal remedies available.\n\nThe final token \"1,000\" is mid-sentence completing a specific statistic about the 1,000+ people affected, immediately requiring continuation of the sentence \u2014 likely a clause explaining the legal significance of this large number (e.g., \"making it one of the most dangerous...\").\n</explanation>",
+    "The text is a news article about a legal case, following journalistic structure with quotes and factual reporting throughout.\n\nThe article has been building toward explaining the legal reasoning \u2014 the \"unlawful practice of law\" claim \u2014 and is now mid-explanation of the specific legal violation, requiring completion of the legal analysis.\n\nThe final token \"1,000\" is mid-sentence within a legal explanation of the 1,000% increase calculation, immediately requiring continuation of the legal consequence or ruling (e.g., \"and the court ruled this was an unlawful practice of law\").\n</explanation>",
+    "Narrative momentum: the text is mid-explanation of the \"reversal\" concept, having just stated the 1990s belief (100% of women), now requiring the contrasting modern finding to complete the comparison.\n\nRepetition/continuation pattern: the passage follows a structured format alternating between historical beliefs and modern research findings, with \"1990s\" belief stated, so \"modern\" research conclusion is expected next.\n\nFinal token \"100%\" closes the 1990s belief clause; the sentence is syntactically incomplete, immediately requiring a contrasting modern statistic or finding (e.g., \"but research now shows...\").\n</explanation>"
+  ],
+  "input_sha256": "334511f3d6fa6d58e4576ea79b61303446090774bfb7f061bd239d98217dc0ca",
+  "values": [
+    {
+      "quote": "100% CI",
+      "value": "100"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "1,000%",
+      "value": "1000"
+    },
+    {
+      "quote": "100% of women",
+      "value": "100"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeral values as instructed.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100% CI\",\"value\":100},{\"quote\":\"12\",\"value\":12},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"1,000%\",\"value\":1000},{\"quote\":\"100% of women\",\"value\":100},{\"quote\":\"100%\",\"value\":100}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeral values as instructed.\"}",
+  "prompt_sha256": "102090d5af6fe1544357030a3c8ff3f5932b961446f1cd47d2b8d01f1ebe46e6"
+}

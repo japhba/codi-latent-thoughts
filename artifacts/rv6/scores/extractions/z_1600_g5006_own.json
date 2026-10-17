@@ -1,0 +1,109 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5006",
+  "kind": "own",
+  "descriptions": [
+    "Statistical pattern continuation: article lists specific city-by-city data with percentages, establishing a template of city name + percentage + comparison figure.\n\nAcademic citation format: the text is mid-sentence presenting a specific numerical finding from the dataset, requiring completion of the hazard rating description.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numerical value or descriptive phrase completing the city's specific percentage or ranking, consistent with prior data like \"2 is 2 is 2.\"\n\"2 is\" likely continues with a numeric value or comparative descriptor completing the hazard rating statement.\n\"2 is\" ends the sequence mid-sentence, strongly constraining the next token to a number or adjective completing the quantitative finding.\n\"2 is\" is the final token, part of a list of city-specific statistics, immediately expecting a numeric value or descriptive qualifier to complete the hazard rating.",
+    "Continuation of a structured analytical summary of the film's themes, systematically covering character, politics, and now religion \u2014 the next tokens will elaborate on the religious/political tension.\n\nThe sentence is mid-thought, listing specific character traits and their implications, following a pattern of naming a trait then explaining its significance.\n\nFinal token \"400,\" is mid-sentence within a numerical statistic (\"400,\") describing the number of years Jesus lived, immediately requiring completion of the numerical value or continuation of the political analysis clause.\n\"400 was 1,634\" or similar numerical contrast completing the \"1,634\" reference to the 2008 election year.\n\"400 was 1,638\" or similar personal anecdote completing the factual historical comparison \u2014 \"2.8 700\" is a truncated numerical value requiring.",
+    "Q&A format pattern: article alternates between bold questions and explanatory answers, establishing strong structural continuation expectations.\n\nStatistical/numerical continuation: the text is mid-sentence presenting a specific statistic (\"about 20 percent\"), requiring completion of the scientific finding or expert commentary.\n\nFinal token \"2\" is the start of a percentage figure (\"about 20 percent\" or similar), mid-sentence within a religious news article, immediately requiring numeric continuation of the statistic or a clarifying phrase completing the percentage.\n\"about 2.2\" or similar fraction completing the ~20 percent estimate, likely followed by contextual commentary or a new sentence.\n\"2 0 about 2 0 25\" or similar appears to be garbled text, suggesting the next tokens complete the truncated decimal \"2.2\" or similar safety-related statistic.\n\"2 about 25\" or similar.",
+    "Statistical/numerical pattern: article presents survey data with percentages and statistics, expecting continuation of the same analytical framing.\n\nThe text is mid-sentence completing a factual claim about the statistic \"about 40 per cent,\" requiring completion of the medical/health implication or policy recommendation.\n\nFinal token \"40\" is part of an incomplete percentage figure (\"about 100,000 per 40,000\"), likely continuing with a unit or explanatory clause such as \"per 100,000\" or transitioning to a concluding expert commentary.\n\"40 per 16.4 per 100,000\" or similar restatement of the ~1.4 per day rate, immediately followed by a period or further elaboration on the frequency statistic.\n\"40,000\" ends the sentence fragment, likely followed by.",
+    "Structured Bible study format with numbered questions and bullet points signals continuation of theological analysis, likely expanding on the answer.\n\nThe question \"What does this mean?\" has been posed and answered with a legal/interpretive framework; the pattern suggests additional clarifying questions or practical implications may follow.\n\nThe final token \"4.30 per cent.\" ends the legal standard answer, likely followed by a period or further elaboration on the specific rule, possibly citing additional scripture or practical guidance.\n\"4.30 per cent.\" is a numerical legal standard mid-explanation, immediately expecting continuation of the legal analysis or a new numbered question.\n\"295,000 1.49 per cent.\" is a truncated decimal number (likely \"295,000 1.43 per cent\"), suggesting the next tokens complete this figure or continue the case reference.\n\"63.\"",
+    "Statistical/data pattern: BLS BLS data is being cited with specific percentages and survey years, establishing a structured list of BLS statistics.\n\nContinuation of BLS survey methodology explanation: the text is mid-sentence explaining BLS survey methodology, with more bullet-point findings or percentage breakdowns expected.\n\nFinal token \"69%\" closes a specific percentage claim about BLS survey responses; the sentence structure and list pattern strongly suggest additional bullet points or a new percentage/statistic follows next.\n\"69% of those who reported...\" is an incomplete analytical clause requiring completion, likely with a specific question or topic category.\n\"69% of those who reported...\" ends mid-thought, immediately requiring a noun phrase specifying what respondents reported (e.g., \"69% of those who reported...\").\n\"69% of those who reported 69%\" suggests a formatting artifact; the next token."
+  ],
+  "input_sha256": "71f0428021e97e2e5e98eebb48dd8c37d761ab6935f6e8e5023942700f82a6e6",
+  "values": [
+    {
+      "quote": "2 is 2 is 2.",
+      "value": "2"
+    },
+    {
+      "quote": "400,",
+      "value": "400"
+    },
+    {
+      "quote": "1,634",
+      "value": "1634"
+    },
+    {
+      "quote": "1,638",
+      "value": "1638"
+    },
+    {
+      "quote": "2.8",
+      "value": "2.8"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "about 20 percent",
+      "value": "20"
+    },
+    {
+      "quote": "2 0 about 2 0 25",
+      "value": "2"
+    },
+    {
+      "quote": "2 0 about 2 0 25",
+      "value": "0"
+    },
+    {
+      "quote": "2 0 about 2 0 25",
+      "value": "25"
+    },
+    {
+      "quote": "about 25",
+      "value": "25"
+    },
+    {
+      "quote": "about 40 per cent",
+      "value": "40"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "16.4",
+      "value": "16.4"
+    },
+    {
+      "quote": "1.4",
+      "value": "1.4"
+    },
+    {
+      "quote": "4.30 per cent.",
+      "value": "4.3"
+    },
+    {
+      "quote": "295,000",
+      "value": "295000"
+    },
+    {
+      "quote": "1.49 per cent.",
+      "value": "1.49"
+    },
+    {
+      "quote": "1.43 per cent",
+      "value": "1.43"
+    },
+    {
+      "quote": "63.",
+      "value": "63"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and decimals from the provided descriptions, ensuring each value is mapped to its specific source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is 2 is 2.\",\"value\":2},{\"quote\":\"400,\",\"value\":400},{\"quote\":\"1,634\",\"value\":1634},{\"quote\":\"1,638\",\"value\":1638},{\"quote\":\"2.8\",\"value\":2.8},{\"quote\":\"700\",\"value\":700},{\"quote\":\"about 20 percent\",\"value\":20},{\"quote\":\"2 0 about 2 0 25\",\"value\":2},{\"quote\":\"2 0 about 2 0 25\",\"value\":0},{\"quote\":\"2 0 about 2 0 25\",\"value\":25},{\"quote\":\"about 25\",\"value\":25},{\"quote\":\"about 40 per cent\",\"value\":40},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"16.4\",\"value\":16.4},{\"quote\":\"1.4\",\"value\":1.4},{\"quote\":\"4.30 per cent.\",\"value\":4.3},{\"quote\":\"295,000\",\"value\":295000},{\"quote\":\"1.49 per cent.\",\"value\":1.49},{\"quote\":\"1.43 per cent\",\"value\":1.43},{\"quote\":\"63.\",\"value\":63},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals, percentages, and decimals from the provided descriptions, ensuring each value is mapped to its specific source quote.\"}",
+  "prompt_sha256": "4b4fb370e407358c930d58000ff2034b109dad46451ea06c93a07a2f53e10473"
+}

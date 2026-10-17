@@ -1,0 +1,105 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5017",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: hazard ratios with confidence intervals are being listed, e.g., \"HR = 1.99, 95% CI: 1.08\u20133.34,\" establishing a template for remaining findings.\n\nDomain-specific content: academic/technical report on fire suppression, presenting quantitative hazard data with specific numeric results for each building type.\n\nFinal token \"is\" opens a predicate completing \"The hazard of fire in buildings with sprinkler systems is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.5\" or similar) to follow.",
+    "Narrative momentum of personal backstory: the author is recounting family history and character motivations, building toward explaining the plot's emotional depth and historical context.\n\nCharacter introduction pattern: the text has been detailing the mother's backstory and the film's themes; the next tokens will likely continue explaining the mother's family history or the film's plot, following the established \"origin story\" structure.\n\nFinal token \"1891 was 1908\" is mid-sentence (\"1891 was 1908, she was 198\"), completing a parallel clause; \"1891 was 1908\" signals a pivot to the mother's age, and \"198\" introduces the memory's significance \u2014 the next tokens will elaborate on the 198-year-old's role or the film's narrative.",
+    "Q&A format with personal testimony structure: author shares vulnerability, then pivots to professional advice, now shifting to gender-specific reflection on faith and marriage.\n\nTheological/argumentative momentum: the author is building toward a broader lesson about gendered faith, vulnerability, and vulnerability in Christian community \u2014 the personal confession about gendered abuse sets up a professional recommendation or insight.\n\nFinal token \"12\" is mid-sentence (\"12\" completing \"12\"), part of \"12 friends\" or \"12 men\" \u2014 \"12\" likely continues as \"12\" or \"12\" begins a new clause; \"12\" here refers to \"12\" friends or \"12\" men, and the author is now pivoting to their own gendered experience and advice.",
+    "Narrative momentum toward completing the anecdote: the article is recounting a real incident and its legal implications, building toward a moral/lesson about public safety and liability.\n\nPractical advice pattern: the article has shifted from news to cautionary tale, with the anecdote serving as evidence for the opening claim about police liability and public behavior.\n\nFinal token \"20,000 people were 20 people, so the police estimated that 5,000 people were in the area, but only 20 people were actually there \u2014 the sentence ends mid-thought with \"10 people, but only 20 people were actually there, so the police estimated 20,000 complaints,\" requiring completion of this statistic and its consequence.",
+    "Q&A format pattern: legal case narrative with question-answer structure, now mid-example illustrating the scenario with procedural details.\n\nNarrative momentum toward practical legal advice: the anecdote about the phone call is being used to illustrate memory/recording evidence, with the 24-hour timeline and police incident establishing the factual basis for the memory claim.\n\nFinal token \"24\" is part of \"24 minutes\" or \"24 hours\" \u2014 a time reference completing \"24 minutes later\" or \"24 hours later,\" directly continuing the \"20 minutes later\" example, requiring a time unit or continuation of the procedural timeline.",
+    "Legal case analysis format: question posed, case facts given, now providing structured answer with procedural reasoning and factual basis.\n\nQ&A pattern established: the answer is walking through the legal reasoning step-by-step, moving from procedural history toward the factual basis of the ruling, with the questioner's case now being resolved.\n\nFinal token \"10\" completes \"69% of 108 was 17 minutes... 80% of 30 was 12 minutes... 69% of 15 was 5 minutes\" \u2014 \"108\" is the final token, completing the procedural history sentence, immediately expecting continuation of the factual analysis or the legal questioner's specific issue."
+  ],
+  "input_sha256": "6b8f87ad702b32813adc1b783c50f8a575110707dfdabb2a408a507a9de8688f",
+  "values": [
+    {
+      "quote": "1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "1891",
+      "value": "1891"
+    },
+    {
+      "quote": "1908",
+      "value": "1908"
+    },
+    {
+      "quote": "198",
+      "value": "198"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "108",
+      "value": "108"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "80%",
+      "value": "80"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each unique quote/value pair is represented exactly as written.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.99\",\"value\":1.99},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"3.34\",\"value\":3.34},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"1891\",\"value\":1891},{\"quote\":\"1908\",\"value\":1908},{\"quote\":\"198\",\"value\":198},{\"quote\":\"12\",\"value\":12},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"20\",\"value\":20},{\"quote\":\"5,000\",\"value\":5000},{\"quote\":\"10\",\"value\":10},{\"quote\":\"24\",\"value\":24},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"108\",\"value\":108},{\"quote\":\"17\",\"value\":17},{\"quote\":\"80%\",\"value\":80},{\"quote\":\"30\",\"value\":30},{\"quote\":\"15\",\"value\":15},{\"quote\":\"5\",\"value\":5}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each unique quote/value pair is represented exactly as written.\"}",
+  "prompt_sha256": "c9bde2f5fad8dbe8a1e01c6cc8cb5cc59ff56ea2f403e184a8a8c1e74a938789"
+}

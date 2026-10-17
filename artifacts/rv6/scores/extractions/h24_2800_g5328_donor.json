@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5328",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 25 seats \u00d7 15 = 375 units, so the answer must be 375.\n\nThe word problem structure demands a numerical answer following the setup, with the arithmetic result being the final step.\n\nFinal token \"is\" opens the answer clause, immediately requiring the calculated quantity: \"375\" (25+15=40 units per seat \u00d7 15=600 pounds needed).\n(25+15)\u00d76=600 pounds daily sales.\n(25+15)\u00d76=600 pounds total, completing the arithmetic result.\n25+15=40 units sold per seat.\n25\u00d76=150 pounds, confirming the computed answer.\n(25+15)\u00d70.72=600 pounds daily.",
+    "Math word problem format requires completing the arithmetic calculation: 25 + 15 = 40 square meters.\n\nThe problem establishes a pattern of arithmetic operations, expecting a specific numerical result (40) before proceeding to total cost or total number of plants.\n\nFinal token \"have\" is part of the sentence \"Each plant requires 25+15=40 square meters,\" immediately expecting the numerical answer \"40\" followed by explanation of total daily usage or cost calculation.\n25+15=40 square meters per table.\n25+15=40 total per table, so next tokens will state this result and then continue with multiplication by 60 minutes.\n25+15=45 meters total needed, leading to monthly cost.\n25+15=45 meters per table.\nThen, 45 \u00d7 2 = daily total.",
+    "Math word problem format requires completing the arithmetic setup: 25+15=40 pages total.\n\nWord problem structure demands a solution: total pages (25+15=40) followed by total pages needed to calculate cost over 25 weeks.\n\nThe final token \"4\" is the beginning of the number 45, completing the arithmetic result \"25+15=45 grams per page\" \u2014 the next token must be \"5\" to complete \"45,\" likely followed by \"grams\" or \"grams per page.\"\n25+15=45.\n25+15=45 grams total combined page count before computing total cost.\n25+15=45 pounds per day, then total cost calculation expected.\n25+15=45 is the immediate numerical answer to the intermediate step before stating 45.",
+    "Word problem solution in progress: arithmetic setup requires completing the combined measurement (25+15=40 milligrams).\n\nStep-by-step worked solution format established: each arithmetic operation shown, expecting the computed result and then total grams calculation.\n\nFinal token \"40\" is the numerical result of 25+15, immediately requiring \"milligrams\" or \"grams\" to complete the arithmetic statement, followed by the total per-day usage calculation.\nFinal token \"40\" is the computed combined value, immediately requiring \"milligrams\" to complete the sentence before stating total grams needed for 10 bottles.\n40 milligrams per mixture.\n40 = 25+15 = 40 milligrams per cup, then total grams for 5 minutes multiplication.\n simply \"40 milligrams.\"",
+    "Math word problem solution format: structured step-by-step arithmetic problem requiring a numerical answer.\n\nThe word problem setup demands a multiplication: 150 + 25 = 200 grams per serving, so the total combined quantity is expected next.\n\nFinal token \"40p\" is a truncated word \"grams,\" completing the arithmetic result \"40p\" (40+15=55 grams per serving), immediately requiring \" grams\" to close the sentence, then likely a total for 100 total servings.\nFinal token \"p\" is the unit abbreviation mid-word, immediately requiring \" grams\" to complete the calculation result.\n400+150=450 grams total per serving.\n40+165=450 grams combined for 100 total needed.\nFinal token \"p\" closes the per-serving quantity statement before stating the.",
+    "Math word problem format: structured word problem with arithmetic solution, expecting a numerical answer (45 \u00d7 2 = 90 miles).\n\nThe problem has established two arithmetic operations (45 + 2 = 47 miles per day), so the solution must now state the total miles needed.\n\nFinal token \"stones.\" ends the arithmetic expression \"45 + 2 = 47 grams per stone,\" immediately expecting the computed result or the next step: \"Therefore, the total distance is 900 miles to be typed.\"\nFinal token \"94 grams.\" closes the per-stone calculation, immediately preceding the multiplication result.\nFinal token \"stones.\" ends the stated combined value, expecting a line break and the multiplication answer \"900 miles needed.\"\n47+45+21=90 miles per trip.\nAnswer: 900 miles total daily multiplication."
+  ],
+  "input_sha256": "9c9bc70a65eb3a785881df2397060508727ae369d954105134c38032a458541e",
+  "values": [
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "375",
+      "value": "375"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "0.72",
+      "value": "0.72"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "165",
+      "value": "165"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "94",
+      "value": "94"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including decimals and integers, while avoiding years or ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25\",\"value\":25},{\"quote\":\"15\",\"value\":15},{\"quote\":\"375\",\"value\":375},{\"quote\":\"40\",\"value\":40},{\"quote\":\"600\",\"value\":600},{\"quote\":\"6\",\"value\":6},{\"quote\":\"150\",\"value\":150},{\"quote\":\"0.72\",\"value\":0.72},{\"quote\":\"45\",\"value\":45},{\"quote\":\"2\",\"value\":2},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"200\",\"value\":200},{\"quote\":\"55\",\"value\":55},{\"quote\":\"100\",\"value\":100},{\"quote\":\"400\",\"value\":400},{\"quote\":\"450\",\"value\":450},{\"quote\":\"165\",\"value\":165},{\"quote\":\"90\",\"value\":90},{\"quote\":\"47\",\"value\":47},{\"quote\":\"900\",\"value\":900},{\"quote\":\"94\",\"value\":94},{\"quote\":\"21\",\"value\":21}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including decimals and integers, while avoiding years or ordinals.\"}",
+  "prompt_sha256": "97a31bb68d7f2be5fe33096e695b0ccc7106c41f5343aaaad81f578c14129743"
+}

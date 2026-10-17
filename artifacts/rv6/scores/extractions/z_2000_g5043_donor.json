@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5043",
+  "kind": "donor",
+  "descriptions": [
+    "Financial data pattern: article lists price targets and price levels, establishing a pattern of specific numerical values for each price point.\n\nComparative price structure: the sentence contrasts the $100 target against the $110 price level, implying a complementary price figure or commentary follows.\n\nFinal token \"is\" opens a predicate clause mid-sentence, requiring a specific price figure or descriptor (e.g., \"still above,\" \"below,\" or a dollar amount) to complete the comparison about the $110 price target.\n\"and is expected to fall\" or similar continuation is strongly constrained by the established price-target reporting pattern.\n\"worth\" or a specific price figure completing the product's value statement is immediately expected.\n\"worth\" or \"worth\" likely follows, completing the sentence about the $110 price target's market value.\n\"worth $100\" or similar financial metric completing the.",
+    "Product listing format with bullet-point specifications, establishing a pattern of feature descriptions for a retail product page.\n\nThe product description is mid-sentence detailing technical specifications, with \"shoulder width\" measurement just given, implying additional specs or product attributes follow.\n\nFinal token \"shoulder width\" ends a specification clause (\"shoulder width 5.5 inches\"), part of a product detail list; next tokens likely continue with more product attributes, pricing, or a new specification sentence.\n\"shoulder width 5.5 inches\" is incomplete \u2014 \"shoulder width\" likely means \"shoulder width\" product name, and the sentence needs completion with a product name or price.\n\"5 is 8\" product name\" or similar retail qualifier completing the product description.\n\"4\" test\" result \"shoulder width 8 is 3\" product\" \u2014 the final token \"5\" is mid-sentence in.",
+    "Structured e-commerce product listing pattern: page follows consistent format of product names, prices, and category links throughout.\n\nTable/list continuation: the page has been listing filter categories and part numbers in a structured table format, suggesting more product entries or category links follow.\n\nFinal token \"Available\" closes a table cell in a part number table row, immediately expecting either a closing pipe \"|\" or the next table row continuing the product listing pattern.\n\"Available\" ends a product availability status cell, part of a structured e-commerce filter table, strongly constraining next tokens to be a closing pipe \"|\" or a new table row.\n\"Available\" is the final token, completing a product availability status in a parts table, expecting \"|\" to close the cell or a price/retailer link next.\n\"Available\" is the last word of a product listing line, part of a price/availability table, immediately expecting a price, retailer.",
+    "Structured table/list pattern: product listing with pipe-delimited rows showing price, shipping, and item details, establishing a repeating format.\n\nProduct listing continuation: e-commerce page showing price tables and product details, with the final item \"100% Cotton\" appearing twice suggesting a repeated product entry or duplicate listing.\n\nFinal token \"Available\" closes a price table row mid-entry; the pattern of price tables with currency, shipping, and availability status strongly predicts continuation with another price row or table close.\n\"Available\" ends a product price table, immediately expecting either a new table row, a closing pipe, or additional product price entries.\n\"Available\" is the final token, part of a price table cell, immediately constraining next tokens to be a newline, table delimiter, or new product row.\n\"Available\" closes a price table entry, suggesting the next token is likely a newline or another product price row.",
+    "Structured e-commerce product listing pattern: table rows with pipe-delimited fields (Part #, Description, Price) repeating consistently.\n\nProduct listing continuation: the page has shown multiple product entries and is mid-list, suggesting more price entries or a new product section follows.\n\nFinal token \"Available\" closes a table cell in a price table row, immediately expecting either a newline continuing the table pattern (next product row) or additional product entries with the same structured format.\n\"Available\" ends a price table row, so the next token likely begins a new table row with a product name or category label.\n\"Available\" is the final token, completing a table cell in a price table, strongly constraining what follows to either a newline/row break or another product listing.\n\"Available\" closes the table cell, so the immediate next content is likely a price, newline, or new product row.\n\"Available\" is the.",
+    "Structured table/list pattern: product listing with pipe-delimited rows showing price, shipping, and item details, establishing a repeating format.\n\nProduct listing continuation: e-commerce page showing related items with prices, suggesting more product entries or table rows follow.\n\nFinal token \"Available\" closes a price availability statement for the second item; the pattern of e-commerce product tables suggests another price, shipping status, or new product row follows next.\n\"Available\" ends a table cell in a product price table, immediately expecting either a newline, another product row, or additional table fields.\n\"Available\" is the final token, completing a price availability statement in a table row, with immediate expectation of either a newline and new table row or additional product details.\n\"Available\" closes the price table cell, so next tokens likely begin a new product entry or price table row.\n\"Available\" is the final token, ending a product price table."
+  ],
+  "input_sha256": "0884630beaa8222dc09231ce245bb44a9a2e03511626eed2aca8d31588104878",
+  "values": [
+    {
+      "quote": "$100 target",
+      "value": "100"
+    },
+    {
+      "quote": "$110 price level",
+      "value": "110"
+    },
+    {
+      "quote": "5.5 inches",
+      "value": "5.5"
+    },
+    {
+      "quote": "5 is 8",
+      "value": "5"
+    },
+    {
+      "quote": "5 is 8",
+      "value": "8"
+    },
+    {
+      "quote": "shoulder width 8 is 3",
+      "value": "3"
+    },
+    {
+      "quote": "4\" test",
+      "value": "4"
+    },
+    {
+      "quote": "100% Cotton",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including decimals and integers found in price targets, measurements, and product specifications.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$100 target\",\"value\":100},{\"quote\":\"$110 price level\",\"value\":110},{\"quote\":\"5.5 inches\",\"value\":5.5},{\"quote\":\"5 is 8\",\"value\":5},{\"quote\":\"5 is 8\",\"value\":8},{\"quote\":\"shoulder width 8 is 3\",\"value\":3},{\"quote\":\"4\\\" test\",\"value\":4},{\"quote\":\"100% Cotton\",\"value\":100}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including decimals and integers found in price targets, measurements, and product specifications.\"}",
+  "prompt_sha256": "d74925e4711fa059104f000549f7bf9eb9b4c23f6e84306da757140954046186"
+}

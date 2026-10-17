@@ -1,0 +1,161 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5017",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical comparison pattern: article consistently pairs city-specific percentages with national averages, e.g., \"10.5 percent...compared with the national average of 12.5 percent.\"\n\nNarrative momentum: the final sentence introduces a specific city's data point mid-sentence, requiring completion with a percentage figure and likely a comparative clause.\n\nFinal token \"5.5 percent\" is an incomplete statistic mid-sentence, immediately requiring continuation of the hazard reduction claim, likely \"less likely\" or a comparative phrase like \"compared to the national average.\"\n\"5.5 percent\" is a numeric result awaiting its unit/label.\n\"5.5 percent\" is \"60 percent\" garbled \u2014 the next token must complete this percentage figure or continue the statistical finding.\n\"60 percent\" is \"15 percent\" garbled; the numeric hazard reduction value \"25 percent\" is.",
+    "Narrative momentum: the review is mid-sentence describing the author's reaction to the book's opening, building toward completing the character introduction.\n\nReview structure: the text follows a pattern of introducing characters and their roles, suggesting more character details or plot summary follows.\n\nFinal token \"19,\" is part of an interrupted number (\"19,\") within a list or descriptive clause about the author's background, immediately requiring continuation of that number or additional descriptive detail about the author's identity.\n\"19,\" likely continues as \"19,000\" or similar, completing the publication count or a factual descriptor.\n\"19,\" is cultural/numerical artifact mid-sentence; \"180\" or institutional context follows \"19, 16\" \u2014 the media reference \"153 characters\" is \"17\" \u2014 suggesting political character descriptions follow \"2919\".",
+    "List/article format established: numbered book recommendations with titles, authors, and descriptions \u2014 next entry or continuation of the current book's description is expected.\n\nThe narrative momentum of the current book's description: personal anecdote about the author's own experience with the book is mid-sentence, building toward a recommendation or summary of the article's content.\n\nFinal token \"12\" is mid-sentence (\"12 friends\" or similar count), part of a statistic or personal detail about the author's book; the next token must complete this number or noun phrase.\n\"12\" likely continues as \"12 friends\" or \"12 people,\" followed by further review commentary.\n\"12\" is \"13\" or list item \"15\" \u2014 the article title \"12 Friends\" is being cited, so nutritional advice or publication context follows \"17 people\" gender statistic.\n\"23.",
+    "Argumentative momentum: article builds toward a conclusion about the viral video's significance, with the final sentence mid-thought requiring completion of the \"200 people\" statistic or its implications.\n\nNews article structure: the piece follows a pattern of claim \u2192 evidence \u2192 elaboration, suggesting a closing summary or call-to-action follows.\n\nFinal token \"200\" ends an incomplete sentence (\"200 people\"), likely continuing with a noun phrase or clause explaining the social media reaction or its broader impact.\n\"200 people\" invites immediate continuation with \"200 people\" or a related statistic/observation completing the comparative example.\n\"200 people\" is \"5,000\" or \"20\" \u2014 the sentence \"20 58\" is \"105 photos,\" so practical editorial commentary follows \"2085\" scene.\n\"20.6\".",
+    "Q&A format pattern: alternating bold questions with detailed answers, establishing strong expectation for continued explanation of the scenario.\n\nThe answer is mid-sentence, providing a concrete example of a question that \"wouldn't be answered with a simple yes or no,\" implying a more detailed legal scenario follows.\n\nFinal token \"24\" ends an incomplete sentence (\"24 questions\" or \"24 hours\"), requiring immediate continuation of the example list or elaboration of the detailed question scenario.\n\"24\" is a truncated number mid-example, likely \"24 questions\" or \"24 hours,\" demanding numeric completion before the example concludes.\n\"24\" references cited photos or questions; legal citation or resource list follows \"220\" example.\n\"24\" is \"22\" photos \u2014 practical tips list \"26, 242 seconds\" case reference; regulatory memory instruction \"24.",
+    "Legal Q&A format established: question posed, answer begun, explanation of reasoning expected to continue with case analysis.\n\nThe answer is mid-explanation, having stated the questioner's concern about the answer's sufficiency; the next tokens will likely address the legal standard or procedural requirements for the complaint.\n\nFinal token \"6\" ends \"60 years,\" completing a factual claim about the complaint's age; the next tokens will likely continue with additional case details, legal reasoning, or a transitional phrase like \"years\" or \"years old.\"\n\"26 years\" or similar legal citation follows.\n\"6\" is part of an enumerated legal standard or list.\n\"26 years\" or \"50 years\" \u2014 the list \"81\" or \"26,009\" is likely \"109\" photos; legal advice or procedural language follows \"7.85\" complaint.\n\"."
+  ],
+  "input_sha256": "690fda4070049d7b3b4c7c3597b821cf11c03425a80a0939cf8bac5d2de478e2",
+  "values": [
+    {
+      "quote": "10.5 percent",
+      "value": "10.5"
+    },
+    {
+      "quote": "12.5 percent",
+      "value": "12.5"
+    },
+    {
+      "quote": "5.5 percent",
+      "value": "5.5"
+    },
+    {
+      "quote": "60 percent",
+      "value": "60"
+    },
+    {
+      "quote": "15 percent",
+      "value": "15"
+    },
+    {
+      "quote": "25 percent",
+      "value": "25"
+    },
+    {
+      "quote": "19,",
+      "value": "19"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "153 characters",
+      "value": "153"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "2919",
+      "value": "2919"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "17 people",
+      "value": "17"
+    },
+    {
+      "quote": "23.",
+      "value": "23"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "20 58",
+      "value": "2058"
+    },
+    {
+      "quote": "105 photos",
+      "value": "105"
+    },
+    {
+      "quote": "2085",
+      "value": "2085"
+    },
+    {
+      "quote": "20.6",
+      "value": "20.6"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "26, 242 seconds",
+      "value": "26242"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "60 years",
+      "value": "60"
+    },
+    {
+      "quote": "26 years",
+      "value": "26"
+    },
+    {
+      "quote": "50 years",
+      "value": "50"
+    },
+    {
+      "quote": "81",
+      "value": "81"
+    },
+    {
+      "quote": "26,009",
+      "value": "26009"
+    },
+    {
+      "quote": "109",
+      "value": "109"
+    },
+    {
+      "quote": "7.85",
+      "value": "7.85"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, treating comma-separated digits as single numbers where context implies a count or identifier.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5 percent\",\"value\":10.5},{\"quote\":\"12.5 percent\",\"value\":12.5},{\"quote\":\"5.5 percent\",\"value\":5.5},{\"quote\":\"60 percent\",\"value\":60},{\"quote\":\"15 percent\",\"value\":15},{\"quote\":\"25 percent\",\"value\":25},{\"quote\":\"19,\",\"value\":19},{\"quote\":\"180\",\"value\":180},{\"quote\":\"153 characters\",\"value\":153},{\"quote\":\"17\",\"value\":17},{\"quote\":\"2919\",\"value\":2919},{\"quote\":\"12\",\"value\":12},{\"quote\":\"13\",\"value\":13},{\"quote\":\"15\",\"value\":15},{\"quote\":\"17 people\",\"value\":17},{\"quote\":\"23.\",\"value\":23},{\"quote\":\"200\",\"value\":200},{\"quote\":\"5,000\",\"value\":5000},{\"quote\":\"20\",\"value\":20},{\"quote\":\"20 58\",\"value\":2058},{\"quote\":\"105 photos\",\"value\":105},{\"quote\":\"2085\",\"value\":2085},{\"quote\":\"20.6\",\"value\":20.6},{\"quote\":\"24\",\"value\":24},{\"quote\":\"220\",\"value\":220},{\"quote\":\"22\",\"value\":22},{\"quote\":\"26, 242 seconds\",\"value\":26242},{\"quote\":\"6\",\"value\":6},{\"quote\":\"60 years\",\"value\":60},{\"quote\":\"26 years\",\"value\":26},{\"quote\":\"50 years\",\"value\":50},{\"quote\":\"81\",\"value\":81},{\"quote\":\"26,009\",\"value\":26009},{\"quote\":\"109\",\"value\":109},{\"quote\":\"7.85\",\"value\":7.85}],\"justification\":\"Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, treating comma-separated digits as single numbers where context implies a count or identifier.\"}",
+  "prompt_sha256": "a39b9c0b9cd25dcbeb583e77535f3ca5ea10578a93a0a140a9c29447ef8e5ec8"
+}

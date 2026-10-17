@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5052",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: $500 budget divided by $25 daily cost, yielding a specific integer (likely 4).\n\nThe structured problem demands a step-by-step calculation: find how many books per day, then total pages read.\n\nFinal token \"The number of books he can buy is:\" is a direct question prompt requiring an immediate numerical answer (likely \"4\" or \"5\") followed by explanation of the calculation process.\n(500 / $25 / 2.5 / 5).\n(500 / 2.5 / 5th day) = $40 budget remaining per month, constraining the answer to a specific integer.\n(500 / 2.5 / 500) / 2.50 = $40 per month savings, completing the question's logical chain.\n(500.",
+    "Math word problem solution in progress: budget calculation requires total amount divided by maximum per-person cost, constraining next tokens to a number.\n\nThe pattern established shows a worked example format: \"maximum amount = $500, so remaining budget = $500 / 5 days = $100 available.\"\n\nFinal token \"has\" opens a mathematical statement mid-sentence, immediately requiring a dollar amount or constraint expression like \"$50 budget remaining\" or \"a maximum of $500 to spend on remaining questions.\"\n$50 total budget for the remaining constraint calculation.\n$50 / 50 = maximum per-question cost, setting up the next logical step: solving for number of questions.\n$500 budget constraint being set up to find maximum number of dollars per question.\n$50 \u00d7 20 = $100 budget remaining for the remaining questions, leading.",
+    "Math problem-solving walkthrough: step-by-step algebraic reasoning requires completing the calculation of maximum tokens possible.\n\nThe equation setup requires solving $20 dollars / $5 dollars = 4 maximum tokens per day, establishing the logical constraint.\n\nFinal token \"12\" is mid-sentence in a mathematical derivation, immediately requiring the completion of the arithmetic result (likely \"10 points\" or similar) explaining the maximum tokens derived from the $20 budget constraint.\nFinal token \"10\" begins the calculated maximum spending amount, part of the logical chain: $20 / $5 = 4 points remaining after budget division.\n$12 is the start of a number completing the equation, likely \"12 movies\" or \"10 movies total per day.\"\n(From $20 total budget after $50 discount constraint).\n(10 points \u00d7 2.50 dollars maximum per movie.",
+    "Math problem-solving walkthrough: step-by-step arithmetic reasoning requires completing the division calculation (20 dollars \u00f7 $5 = 4).\n\nThe solution is mid-calculation, showing the logical chain: total budget \u2192 maximum per day \u2192 maximum per meal, requiring the numerical result.\n\nFinal token \"10p\" is the computed maximum spending per day ($20 / $5), immediately requiring the next step: \"per meal\" or the integer answer \"4 meals\" to complete the arithmetic demonstration.\nFinal token \"1p\" is \"$10p\", completing the equation \"$20 / $2.50 = 8\", now requiring the conclusion stating how many meals can be purchased.\n$10p is mid-sentence, completing the mathematical expression before stating maximum meals per day.\n(10p = $50 budget after tax).\n$20 / 5 days = $.",
+    "Math problem walkthrough pattern: solution steps follow a structured format, now completing the algebraic calculation of maximum tickets per day.\n\nThe worked example requires completing the division: $20 / $20 = 1, so the next tokens must state \"1 ticket per day\" as the answer.\n\nFinal token \"2.0 s. 20.\" ends the algebraic equation setup, immediately requiring the conclusion: \"Therefore, the maximum number of tickets per day is 10 / $20 = 5 tickets per day before the next step.\"\nFinal token \"2. s. 16.\" is the solved intermediate result, leading to the final answer about per-person tickets.\nFinal token \"20. 2.\" closes the equation solving for maximum tickets, requiring the next step: dividing 20 by $25 to find 4 tickets per day.\nFinal token \"1..",
+    "Math word problem solution format: structured Q&A with calculation steps, expecting a numerical answer to follow.\n\nThe division calculation (120 / $20) must be completed, yielding the per-week answer of 6 people.\n\nFinal token \"problem.\" closes the question prompt \"How many people did he answer per day?\" \u2014 the solution narrative now requires the worked calculation showing the derived answer (approximately 6 people per day).\nFinal token \"problem.\" ends the setup equation, immediately requiring the solving step: \"Therefore, the number of people per day is...\"\nFinal token \"problem.\" closes the algebraic chain, demanding the conclusion: \"6 / 3 = 2 per category.\"\n(120 / total budget) before solving for per-person answer.\n(200 - $120 budget constraint) to find the target number of children per day.\nFinal token \"problem.\" closes."
+  ],
+  "input_sha256": "c655241a4f3c25f7f46b88336ade0ac3b215b2955dad27c1b376d48fa5ce9ff1",
+  "values": [
+    {
+      "quote": "$500 budget",
+      "value": "500"
+    },
+    {
+      "quote": "$25 daily cost",
+      "value": "25"
+    },
+    {
+      "quote": "likely 4",
+      "value": "4"
+    },
+    {
+      "quote": "likely \"4\" or \"5\"",
+      "value": "5"
+    },
+    {
+      "quote": "2.5",
+      "value": "2.5"
+    },
+    {
+      "quote": "5th day",
+      "value": "5"
+    },
+    {
+      "quote": "$40 budget",
+      "value": "40"
+    },
+    {
+      "quote": "2.50",
+      "value": "2.5"
+    },
+    {
+      "quote": "5 days",
+      "value": "5"
+    },
+    {
+      "quote": "$100 available",
+      "value": "100"
+    },
+    {
+      "quote": "$50 budget",
+      "value": "50"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10 points",
+      "value": "10"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "6 people",
+      "value": "6"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2 per category",
+      "value": "2"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$500 budget\",\"value\":500},{\"quote\":\"$25 daily cost\",\"value\":25},{\"quote\":\"likely 4\",\"value\":4},{\"quote\":\"likely \\\"4\\\" or \\\"5\\\"\",\"value\":5},{\"quote\":\"2.5\",\"value\":2.5},{\"quote\":\"5th day\",\"value\":5},{\"quote\":\"$40 budget\",\"value\":40},{\"quote\":\"2.50\",\"value\":2.5},{\"quote\":\"5 days\",\"value\":5},{\"quote\":\"$100 available\",\"value\":100},{\"quote\":\"$50 budget\",\"value\":50},{\"quote\":\"50\",\"value\":50},{\"quote\":\"20\",\"value\":20},{\"quote\":\"12\",\"value\":12},{\"quote\":\"10 points\",\"value\":10},{\"quote\":\"8\",\"value\":8},{\"quote\":\"1\",\"value\":1},{\"quote\":\"16\",\"value\":16},{\"quote\":\"120\",\"value\":120},{\"quote\":\"6 people\",\"value\":6},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2 per category\",\"value\":2},{\"quote\":\"200\",\"value\":200}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.\"}",
+  "prompt_sha256": "80ff2796193fe3d71f21a82e90033270f8b2457739a481cbeb3115bbfd70c9f2"
+}

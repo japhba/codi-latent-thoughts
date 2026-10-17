@@ -1,0 +1,101 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5068",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with specific percentages, establishing a template of \"city name + percentage + ranking\" that must continue.\n\nTable/list continuation: the data table has begun with \"New York City\" and its ranking, implying more cities follow with similar numeric formatting.\n\nFinal token \"is\" opens a predicate completing the sentence about New York City's ranking, immediately requiring a specific numeric value or ranking descriptor (e.g., \"the 15th\" or a percentage figure) to complete the comparative statistic.\n\"8 is\" likely contains a typo for \"8 is\" \u2014 the model expects a numeric ranking or percentage to follow completing the hazard ranking statement.\n\"85%\" or similar numeric value is the immediate next token, completing the city's statistical ranking.\n\"55.8\" visual data reference \"8 is\" suggests a numeric value completing the city's numeric ranking.",
+    "Review structure momentum: the text is mid-sentence completing a list of character observations, with \"10\" likely starting a number (e.g., \"10 reasons\" or \"10 friends\").\n\nArgumentative pattern: the review consistently pairs observations with elaborations, suggesting a concluding evaluative statement about the character's flaws or appeal.\n\nFinal token \"10,\" follows \"10\" as part of a comparative or numerical reference, likely completing a phrase like \"10 reasons\" or \"10 friends,\" continuing the informal, opinionated tone of the review.\n\"10,\" signals a personal reaction or rating observation is immediately expected.\n\"10\" characters \"100\" or \"10\" completing a thematic contrast \u2014 the \"10\" narrative about the friend's behavior \"20\" is \"100\" or \"0\" completing a critical judgment.\n\"0.",
+    "Instructional listicle format with numbered tips and bullet points guides continuation of practical cooking advice.\n\nThe recipe section has begun, establishing a pattern of ingredient lists and cooking instructions; more ingredients or steps are expected to follow.\n\nFinal token \"4\" is mid-sentence (\"4\" likely starting \"4 ingredients\" or \"4 steps\"), part of a list of ingredients/elements to consider, requiring continuation of the enumerated cooking tips or ingredient suggestions.\n\"4\" likely continues as \"40\" or \"400\" \u2014 a number completing a phrase like \"4 friends\" or \"4 ingredients,\" with spiritual/relationship framing suggesting practical dietary advice follows.\n\"4\" \"40\" \"200\" paired with \"40\" suggests a numbered list of tips; \"50\" paired with \"400\" memory instruction implies romantic pairing advice; \"4\" dishes \"2\" dishes.",
+    "List/article format established: numbered list of book recommendations with author, title, and summary paragraph expected for each entry.\n\nThe article is mid-sentence completing a specific statistic or example about the author's personal experience with statistics, requiring continuation of the quoted claim or elaboration.\n\nFinal token \"40\" ends an incomplete enumeration (\"40 books\" or similar), immediately requiring a noun or continuation of the statistic about the author's reading habits or expertise.\n\"40\" likely continues as \"40 books\" or \"40 books and articles,\" completing the expert's quoted observation.\n\"40\" is part of a listicle-style enumeration of reasons; \"20\" items were mentioned, so specific examples or anecdotes about statistics in food writing are expected next.\n\"100\" friends \"20\" historical examples \u2014 \"50\" is 60, so the article's argument.",
+    "Investigative journalism pattern: article presents statistics then elaborates, expecting further data or findings about the survey.\n\nPublication metadata block has ended; the article body now continues with publication details and attribution, suggesting more publication facts or disclosure statements follow.\n\nFinal token \"200 people\" completes a statistic about the survey's scope; the sentence is mid-clause, so the next tokens must complete the disclosure statement, likely naming the organization or confirming the count.\n\"200 people\" ends an incomplete sentence (\"the survey included 200 people\"), requiring immediate continuation explaining who conducted the survey or what \"200 people\" means.\n\"204,322 people\" or similar finding expected next, completing the fraud case count.\n\"29.6 percent of 2,483\" publication credits signals the company name or study findings follow \"2,60 people\".",
+    "Q&A format pattern: each question is followed by a detailed answer, establishing strong expectation for continued case narrative.\n\nLegal/religious content domain: the answer describes a specific incident involving a priest, priestess, and child, requiring continuation of factual details about the priestess's actions or the case outcome.\n\nFinal token \"30\" ends a sentence fragment (\"30 years...30 years\"), part of a list or enumeration of the priestess's credentials/years; the next tokens will likely continue with additional case details or a new question prompt.\n\"30\" likely continues a numbered list or time reference, expecting \"years\" or further enumeration immediately following.\n\"30\" \"30 days\" or similar temporal phrase completing the \"30 days\" instruction pattern.\n\"40 days\" legal notice \"120 days\" calendar reference \"30 days\" \u2014 the \"9\" or."
+  ],
+  "input_sha256": "24c7e0d2b7045a70db28b8592b1ba536a31dee204aea6043c9d71f80080a1e7d",
+  "values": [
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "55.8",
+      "value": "55.8"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "204,322",
+      "value": "204322"
+    },
+    {
+      "quote": "29.6",
+      "value": "29.6"
+    },
+    {
+      "quote": "2,483",
+      "value": "2483"
+    },
+    {
+      "quote": "2,60",
+      "value": "260"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"85%\",\"value\":85},{\"quote\":\"55.8\",\"value\":55.8},{\"quote\":\"10\",\"value\":10},{\"quote\":\"100\",\"value\":100},{\"quote\":\"20\",\"value\":20},{\"quote\":\"0\",\"value\":0},{\"quote\":\"4\",\"value\":4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"400\",\"value\":400},{\"quote\":\"200\",\"value\":200},{\"quote\":\"50\",\"value\":50},{\"quote\":\"2\",\"value\":2},{\"quote\":\"60\",\"value\":60},{\"quote\":\"204,322\",\"value\":204322},{\"quote\":\"29.6\",\"value\":29.6},{\"quote\":\"2,483\",\"value\":2483},{\"quote\":\"2,60\",\"value\":260},{\"quote\":\"30\",\"value\":30},{\"quote\":\"120\",\"value\":120},{\"quote\":\"9\",\"value\":9}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "aced3d04808ba63619d2d17b46a1612a984e08b54330d34308524d29bf390b92"
+}

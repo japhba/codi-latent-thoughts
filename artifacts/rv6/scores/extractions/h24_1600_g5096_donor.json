@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5096",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem setup requiring arithmetic calculation: 7 \u00d7 $2 = $14, so the solution is expected next.\n\nThe word problem genre signals a direct numerical answer is imminent, likely formatted as a simple arithmetic result.\n\n\"The answer is\" is a declarative prompt phrase, immediately requiring a numerical value or expression (e.g., \"14 dollars\" or \"7 \u00d7 2 = 14\") as the next token.\n\"7 \u00d7 2 = 14\" or similar direct statement.\n simply the multiplication result.\n\"14 dollars spent\" or \"The answer is 14\" \u2014 a short declarative conclusion to the arithmetic problem.\nThe final token \"is\" completes the prompt phrase, demanding a direct numerical answer follows.\n2 \u00d7 7 = 14 dollars.\n straightforward multiplication of 7 \u00d7 2 dollars.\nThe money spent is 14.\n simply.",
+    "Word problem setup requiring arithmetic calculation: 15 \u00d7 $6 = $90, so the solution involves simple multiplication.\n\nThe word problem genre signals a worked solution is expected, likely showing the arithmetic step-by-step.\n\n\"The product is\" is an incomplete sentence mid-answer, immediately requiring a numerical result or simple arithmetic statement like \"15 \u00d7 2 = 30 dollars.\"\nFinal token \"is\" begins a predicate completing the solution statement, strongly constraining next tokens to a simple declarative like \"simple\" or \"15 \u00d7 2 = 30 dollars.\"\n\"multiply the number of dollars\" or direct answer.\n straightforward solution format: \"multiply 7 \u00d7 2\" or \"The simple way to find the total is 7 \u00d7 6 = 84 dollars.\"\n simply stating the multiplication fact.\nThe final token \"is\" begins a predicate completing the sentence about the.",
+    "Math word problem format signals a solution walkthrough is expected, likely showing arithmetic steps.\n\nThe word problem requires a simple arithmetic calculation: 14 \u00d7 1 dollar = 14, so the answer is 14, and the model must now present the solution.\n\n\"Answer\\nans:Answer\\n\" is a repeated prompt/label pattern, immediately constraining the next tokens to be a direct solution or explanation, likely starting with a multiplication expression or sentence like \"multiply 14 by 1.\"\n\"ans:1\\n\" suggests a formatted answer block, so next tokens should be a short solution statement.\n\"ans:1\\n\" or a simple arithmetic demonstration follows.\n simply multiplication.\n verification or explanation of the 14 coins \u00d7 1 cent method is expected next.\n simple arithmetic solution.\nmultiply 1 coins \u00d7 simple cents = simple answer.\nusing the established pattern of direct numeric answers.",
+    "Math word problem format signals a solution walkthrough is expected, likely showing arithmetic steps.\n\nThe word problem requires multiplication (3 \u00d7 $15 = $45), so the next content should present the arithmetic or solution method.\n\n\"answion\" is a corrupted word (likely \"answer\"), immediately constraining the next token to be the actual solution text, such as \"45\" or a multiplication expression like \"multiply 3 by $15.\"\n\"answion\" is a placeholder/word error, so the next tokens should be the correct solution steps or a direct answer.\n simple arithmetic problem demands a short, direct solution.\nmultiply 2 coins \u00d7 1 dollar = simple multiplication, so next tokens are the solution or explanation.\nUsing the established pattern of \"multiply 2 coins \u00d7 simple number = result.\"\n verification or explanation follows.\nUsing the multiplication method, the model expects a worked example.",
+    "Math word problem format signals a solution walkthrough is expected, likely showing arithmetic steps.\n\nThe word problem requires multiplication (5 \u00d7 $12 = $60), so the next content should present the arithmetic or solution method.\n\n\"answerg\" is a misspelled word for \"answer,\" functioning as a prompt/label introducing the solution text; the immediate next tokens should be the actual answer or solution, likely formatted as a simple arithmetic expression or sentence.\n\"answerg\" is a corrupted word mid-introduction, so the next tokens should be the solution content itself.\nmultiply 2 eggs \u00d7 $12 dollars = simple multiplication.\nUsing simple arithmetic (e.g., \"2 \u00d7 12 = 24\" or \"using the formula...\").\n straightforward multiplication method for eggs \u00d7 cents.\n verification or explanation follows.\nUsing eggs \u00d7 1 simple multiplication.",
+    "Math word problem format signals a direct arithmetic answer is expected, likely a multiplication expression or numerical result.\n\nThe word problem context (15 items \u00d7 $2 = $30) strongly constrains the answer to be a specific dollar amount or arithmetic expression.\n\n\"answergen\" is a corrupted placeholder for \"answer,\" immediately requiring the actual answer text to follow, likely a number or arithmetic expression such as \"30\" or \"15 \u00d7 2 = 30 dollars.\"\nThe corrupted word suggests the next tokens will be the clean answer.\n straightforward multiplication problem demands a simple numeric solution.\nmultiply 3 by 2 = 6, so the next tokens should state the arithmetic or direct the answer.\nUsing simple arithmetic, 3 \u00d7 9 dollars = 27, completing the payment calculation.\n verification prompt \"Check your answer\" suggests a confirmation or solution format follows."
+  ],
+  "input_sha256": "7ad0fec99f4052174db96f8dcdbafd1d0c9f807cce677b5dd09f09d0380f333b",
+  "values": [
+    {
+      "quote": "7 \u00d7 $2 = $14",
+      "value": "7"
+    },
+    {
+      "quote": "7 \u00d7 $2 = $14",
+      "value": "2"
+    },
+    {
+      "quote": "7 \u00d7 $2 = $14",
+      "value": "14"
+    },
+    {
+      "quote": "15 \u00d7 $6 = $90",
+      "value": "15"
+    },
+    {
+      "quote": "15 \u00d7 $6 = $90",
+      "value": "6"
+    },
+    {
+      "quote": "15 \u00d7 $6 = $90",
+      "value": "90"
+    },
+    {
+      "quote": "15 \u00d7 2 = 30",
+      "value": "30"
+    },
+    {
+      "quote": "7 \u00d7 6 = 84",
+      "value": "84"
+    },
+    {
+      "quote": "14 \u00d7 1 dollar = 14",
+      "value": "14"
+    },
+    {
+      "quote": "14 \u00d7 1 dollar = 14",
+      "value": "1"
+    },
+    {
+      "quote": "ans:1",
+      "value": "1"
+    },
+    {
+      "quote": "3 \u00d7 $15 = $45",
+      "value": "3"
+    },
+    {
+      "quote": "3 \u00d7 $15 = $45",
+      "value": "15"
+    },
+    {
+      "quote": "3 \u00d7 $15 = $45",
+      "value": "45"
+    },
+    {
+      "quote": "2 coins \u00d7 1 dollar",
+      "value": "2"
+    },
+    {
+      "quote": "5 \u00d7 $12 = $60",
+      "value": "5"
+    },
+    {
+      "quote": "5 \u00d7 $12 = $60",
+      "value": "12"
+    },
+    {
+      "quote": "5 \u00d7 $12 = $60",
+      "value": "60"
+    },
+    {
+      "quote": "2 \u00d7 12 = 24",
+      "value": "24"
+    },
+    {
+      "quote": "15 items \u00d7 $2 = $30",
+      "value": "30"
+    },
+    {
+      "quote": "3 by 2 = 6",
+      "value": "6"
+    },
+    {
+      "quote": "3 \u00d7 9 dollars = 27",
+      "value": "9"
+    },
+    {
+      "quote": "3 \u00d7 9 dollars = 27",
+      "value": "27"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is mapped to a unique exact quote from the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7 \u00d7 $2 = $14\",\"value\":7},{\"quote\":\"7 \u00d7 $2 = $14\",\"value\":2},{\"quote\":\"7 \u00d7 $2 = $14\",\"value\":14},{\"quote\":\"15 \u00d7 $6 = $90\",\"value\":15},{\"quote\":\"15 \u00d7 $6 = $90\",\"value\":6},{\"quote\":\"15 \u00d7 $6 = $90\",\"value\":90},{\"quote\":\"15 \u00d7 2 = 30\",\"value\":30},{\"quote\":\"7 \u00d7 6 = 84\",\"value\":84},{\"quote\":\"14 \u00d7 1 dollar = 14\",\"value\":14},{\"quote\":\"14 \u00d7 1 dollar = 14\",\"value\":1},{\"quote\":\"ans:1\",\"value\":1},{\"quote\":\"3 \u00d7 $15 = $45\",\"value\":3},{\"quote\":\"3 \u00d7 $15 = $45\",\"value\":15},{\"quote\":\"3 \u00d7 $15 = $45\",\"value\":45},{\"quote\":\"2 coins \u00d7 1 dollar\",\"value\":2},{\"quote\":\"5 \u00d7 $12 = $60\",\"value\":5},{\"quote\":\"5 \u00d7 $12 = $60\",\"value\":12},{\"quote\":\"5 \u00d7 $12 = $60\",\"value\":60},{\"quote\":\"2 \u00d7 12 = 24\",\"value\":24},{\"quote\":\"15 items \u00d7 $2 = $30\",\"value\":30},{\"quote\":\"3 by 2 = 6\",\"value\":6},{\"quote\":\"3 \u00d7 9 dollars = 27\",\"value\":9},{\"quote\":\"3 \u00d7 9 dollars = 27\",\"value\":27}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is mapped to a unique exact quote from the text.\"}",
+  "prompt_sha256": "385dc2e3f1946e190486e95c80c0db6142a06940db24dc032fd4c0eac34cb6ee"
+}

@@ -1,0 +1,101 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5018",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with percentages, establishing a clear continuation format (city name + percentage).\n\nThe sentence structure \"The city of X has a Y percent...\" repeats, with the final sentence mid-statistic requiring completion of the percentage figure and likely a concluding summary statement.\n\nFinal token \"50%\" is a truncated percentage result mid-sentence, immediately requiring completion of the statistical finding \u2014 likely \"percent\" or a decimal, followed by closing punctuation and further analysis.\n\"52 percent\" earlier was already stated, suggesting this sentence continues with additional city comparisons or a concluding remark about the dataset.\n\"52 percent\" result just stated, so the next tokens complete the hazard rating table reference or add comparative context.\n\"85 percent\" visual element \"85 percent\" hazard rating is the final token, part of a statistical finding sentence requiring a numeric value or descriptor immediately.",
+    "Plot summary continuation: the review is mid-sentence describing character relationships and plot setup, requiring completion of the list of characters/plot elements.\n\nFilm metadata and synopsis format: structured database-style entries with cast, crew, and plot summary sections follow predictable patterns.\n\nFinal token \"5,\" ends a numerical list (\"5,\") within a sentence describing the characters' roles; the comma signals continuation of the list or clause, likely adding another character name or plot element.\n\"5,\" implies more characters or a concluding phrase about the group's conflict follows immediately.\n\"5,\" is a truncated enumeration mid-sentence, requiring continuation of the film's plot synopsis.\n\"5,\" likely precedes a number or role descriptor completing the factional group's name or plot position.\n\"500,\" film title \"5,\" plot summary \"500 5,\" signals the next token completes \"550\" or.",
+    "Book review format with structured sections (summary, then personal reflection) signals continuation of the reviewer's commentary on the plot.\n\nThe recipe/ingredient list has concluded; the narrative now shifts to describing the book's content and themes, with the marriage recipe just introduced.\n\nFinal token \"7\" is mid-sentence (\"7\" likely completing \"75\" or \"7 years\"), part of a list of ingredients/quantities, immediately requiring numeric continuation or a unit of measurement to complete the ingredient count.\n\"7\" likely continues \"75\" or \"75 years\" \u2014 a personal reflection on marriage duration or ingredient quantity.\n\"7\" \"5\" spiritual/religious context frames the recipe as a marriage-themed dish, so \"700\" friends or similar count \"5\" \"75\" narrative continuation is expected.\n\"7\" \"25\" food\" \u2014 \"75\" personal.",
+    "Q&A format established: article poses questions then answers them, so the next tokens continue explaining the statistic or list.\n\nArgumentative momentum: the article is building a case for why the book is valuable, with supporting evidence and examples expected to follow.\n\nFinal token \"50\" is mid-sentence, completing \"50\" as part of \"550\" or a specific count of articles/points, immediately requiring continuation of the statistic or list of reasons the book is worth reading.\n\"50\" likely continues as \"55\" or introduces a new clause elaborating on the author's personal experience or article count.\n\"55\" theological topics \"500\" books \u2014 the \"155\" listicle framing sets up enumerated examples of cultural observations.\n\"65 years\" or \"65\" anniversary reflection \"55\" religious topics \u2014 \"30\" specific examples expected.",
+    "Statistical/numerical continuation: the article has been building toward a specific statistic about the survey's findings, with \"200,000\" and \"200,000\" establishing a pattern of large numbers.\n\nArgumentative momentum: the piece argues social media causes harm; the article now transitions to presenting the book's specific findings as evidence.\n\nFinal token \"200,000\" is mid-sentence, completing \"200,000 people,\" and immediately requires continuation of the argument \u2014 likely \"200,000\" or a clause explaining the statistic's significance or implications.\n\"200,024\" or similar liability framing follows \"282,408,000\" \u2014 the \"22,408\" psychological framing sets up a news-style revelation about the book's content.",
+    "Theological analysis pattern: each section poses a question then answers it, establishing expectation for continued explanation of the biblical passage's meaning.\n\nTheological argument momentum: the passage critiques the church's failure to understand the biblical text, building toward practical application or further critique of church behavior.\n\nFinal token \"200\" ends a sentence fragment listing the church's failures; the numbered list structure and \"200\" likely signals a numbered list of practical questions or steps, so next tokens continue with \"200\" completing \"2000\" or transitioning to the next numbered point.\n\"200,000\" legal/financial advice format or spiritual reflection expected immediately after \"7,542 2,008 days\" prayer prompt.\n\"542 35.8 days\" case study answer \"12,000\" ritual prayer\" \u2014 the."
+  ],
+  "input_sha256": "9b87863a094de493b1f4f7c3ee8fcf3ae353e2099a8c3bd57226450a2b5e439c",
+  "values": [
+    {
+      "quote": "52 percent",
+      "value": "52"
+    },
+    {
+      "quote": "85 percent",
+      "value": "85"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "5,",
+      "value": "5"
+    },
+    {
+      "quote": "500,",
+      "value": "500"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "282,408,000",
+      "value": "282408000"
+    },
+    {
+      "quote": "22,408",
+      "value": "22408"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "7,542",
+      "value": "7542"
+    },
+    {
+      "quote": "2,008",
+      "value": "2008"
+    },
+    {
+      "quote": "35.8",
+      "value": "35.8"
+    },
+    {
+      "quote": "12,000",
+      "value": "12000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeral values and handling comma-separated numbers as single values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"52 percent\",\"value\":52},{\"quote\":\"85 percent\",\"value\":85},{\"quote\":\"50%\",\"value\":50},{\"quote\":\"5,\",\"value\":5},{\"quote\":\"500,\",\"value\":500},{\"quote\":\"7\",\"value\":7},{\"quote\":\"25\",\"value\":25},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"155\",\"value\":155},{\"quote\":\"65\",\"value\":65},{\"quote\":\"30\",\"value\":30},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"282,408,000\",\"value\":282408000},{\"quote\":\"22,408\",\"value\":22408},{\"quote\":\"200\",\"value\":200},{\"quote\":\"7,542\",\"value\":7542},{\"quote\":\"2,008\",\"value\":2008},{\"quote\":\"35.8\",\"value\":35.8},{\"quote\":\"12,000\",\"value\":12000}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeral values and handling comma-separated numbers as single values.\"}",
+  "prompt_sha256": "7edda6993d2c66a96d68e376047336f42472f08215ce2d8ec4dcaa3f883a7a95"
+}

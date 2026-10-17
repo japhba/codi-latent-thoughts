@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5720",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires completing the answer: total 40\u00d74=160 cells minus filled 3/4=10 cells, so answer is 10 empty spaces.\n\nThe question structure demands a specific numerical answer, likely \"10\" representing the remaining unfilled cells across all four rows.\n\nFinal token \"are\" closes the question prompt \"How many empty spaces are left?\" \u2014 immediately requires a number (likely \"10\") representing the remaining unfilled spaces after dividing 4\u00d7(3/4)\u00d710.\n(4\u00d7(3/4)\u00d710) differences between rows.\n(4\u00d710) minus (3/4)\u00d710 = 10 missing spaces.\n\n(4 rows \u00d7 10 columns minus 3/4 fraction remaining).\n\nThe final answer must be a number representing the total blank spaces, completing the.",
+    "Word problem arithmetic solution in progress: 4 rows \u00d7 10 seats = 40 total seats, requiring calculation.\n\nThe structured word problem format demands a numerical answer: total seats = 4\u00d710=40, then asking how many are broken/available.\n\nFinal token \"have\" completes \"There are,\" directly requiring the total count of seats (40) as the immediate next token, continuing the mathematical setup before stating the remaining fraction or percentage.\n10\u00d74=40 total seats, so the next tokens must state \"40 seats available\" or similar total before describing the 1/4th removed seats.\n4 rows \u00d7 10 columns = 40 total seats, establishing the total before computing how many are unoccupied.\n10\u00d74=40, completing the multiplication expression before stating available seats after 1/4th is removed.",
+    "Word problem solution format requires completing the arithmetic calculation: 4 rows \u00d7 10 columns = 40 total tables.\n\nThe word problem setup demands a numerical answer: 4 rows \u00d7 10 columns = 40 seats, so the total count must be stated before asking how many are available.\n\nFinal token \"4\" begins the number \"40,\" completing the sentence \"There are 40 tables in total\" \u2014 the immediate next tokens must be \"0\" to form \"40,\" followed by explanation of available seats after removal of broken tables.\n10\u00d74=40 rooms, establishing the total before addressing the 4 broken tables per row.\n\nThe sentence structure \"There are 4\" requires the number \"40\" to complete the multiplication result.\n10 rows \u00d7 4 columns = 40 tables, then likely \"available\" or \"working\" tables.",
+    "Math word problem format: solution requires calculation of total parking spaces (4 rows \u00d7 5 columns = 20), then answering \"how many are available.\"\n\nThe word problem structure demands a numerical answer after stating total capacity, then comparing used vs. available spaces.\n\nFinal token \"40\" is the total count of parking spaces, completing the sentence \"There are 40,\" immediately requiring \"parking spaces available\" or similar phrasing to complete the arithmetic statement before stating the remaining filled spaces.\n40 ends the total count setup, requiring the next step: \"available parking spaces\" or \"slots are available, but only X are remaining.\"\n40 is the computed total (4 rows \u00d7 8 columns), completing the sentence before stating the remaining filled positions after 3/4 are occupied.\n\"40\" concludes the total count, requiring the next clause to state how many are unoccupied.",
+    "Math word problem solution format: step-by-step calculation in progress, showing arithmetic progression toward total seats.\n\nThe solution is computing 48\u00d73/4 = 36 filled seats, then 48\u00d7(1/4) empty seats, following a structured template.\n\nFinal token \"p\" begins \"p squares\" or \"p filled seats,\" continuing the mathematical expression \"40 rows \u00d7 3/4 total\" \u2014 next tokens must complete this multiplication expression, likely \"360 total squares\" or similar total capacity before describing removal of empty seats.\n40\u00d73/4 + 1/4 remaining.\n40\u00d73/4 = 30 full capacity before explaining the missing 1/4 empty seats to remove.\n\n40\u00d73/4\u00d7435 total seats, then minus 1/4 empty seats = remaining unfilled seats.\n\nFinal token.",
+    "Math word problem solution pattern: second problem mirrors first, requiring parallel calculation steps (total seats \u00d7 fraction = filled seats).\n\nThe second problem follows identical structure: total seats (30\u00d75=150) minus filled fraction (3/5) = remaining seats, so the answer is 20 seats remaining.\n\nFinal token \"30. 30\" ends the filled-answer calculation mid-step; next tokens must state the remaining seats count, likely \"The remaining seats are 20 seats not painted.\"\nFinal token \"30\" closes the filled-answer expression \"60*65% = 30\", immediately requiring the conclusion: total remaining seats calculation.\nFinal token \"30.\" ends the question-answer sequence, completing the 75% total filled calculation before stating remaining seats.\nFinal token \"30\" is the answer to the filled question, part of a structured."
+  ],
+  "input_sha256": "d119c11f7642358de5e92c3d6dfc83bc6512905c31a7bb3c8e2e06a1d13052e0",
+  "values": [
+    {
+      "quote": "40\u00d74=160",
+      "value": "40"
+    },
+    {
+      "quote": "40\u00d74=160",
+      "value": "4"
+    },
+    {
+      "quote": "40\u00d74=160",
+      "value": "160"
+    },
+    {
+      "quote": "3/4=10",
+      "value": "0.75"
+    },
+    {
+      "quote": "3/4=10",
+      "value": "10"
+    },
+    {
+      "quote": "4\u00d7(3/4)\u00d710",
+      "value": "30"
+    },
+    {
+      "quote": "4 rows \u00d7 5 columns = 20",
+      "value": "5"
+    },
+    {
+      "quote": "4 rows \u00d7 5 columns = 20",
+      "value": "20"
+    },
+    {
+      "quote": "4 rows \u00d7 8 columns",
+      "value": "8"
+    },
+    {
+      "quote": "48\u00d73/4 = 36",
+      "value": "48"
+    },
+    {
+      "quote": "48\u00d73/4 = 36",
+      "value": "36"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "360 total squares",
+      "value": "360"
+    },
+    {
+      "quote": "40\u00d73/4 = 30",
+      "value": "30"
+    },
+    {
+      "quote": "40\u00d73/4\u00d7435",
+      "value": "13050"
+    },
+    {
+      "quote": "30\u00d75=150",
+      "value": "150"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "20 seats remaining",
+      "value": "20"
+    },
+    {
+      "quote": "60*65% = 30",
+      "value": "60"
+    },
+    {
+      "quote": "60*65% = 30",
+      "value": "65"
+    },
+    {
+      "quote": "75%",
+      "value": "75"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, percentages, and results of arithmetic expressions from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"40\\u00D74=160\",\"value\":40},{\"quote\":\"40\\u00D74=160\",\"value\":4},{\"quote\":\"40\\u00D74=160\",\"value\":160},{\"quote\":\"3/4=10\",\"value\":0.75},{\"quote\":\"3/4=10\",\"value\":10},{\"quote\":\"4\\u00D7(3/4)\\u00D710\",\"value\":30},{\"quote\":\"4 rows \\u00D7 5 columns = 20\",\"value\":5},{\"quote\":\"4 rows \\u00D7 5 columns = 20\",\"value\":20},{\"quote\":\"4 rows \\u00D7 8 columns\",\"value\":8},{\"quote\":\"48\\u00D73/4 = 36\",\"value\":48},{\"quote\":\"48\\u00D73/4 = 36\",\"value\":36},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"360 total squares\",\"value\":360},{\"quote\":\"40\\u00D73/4 = 30\",\"value\":30},{\"quote\":\"40\\u00D73/4\\u00D7435\",\"value\":13050},{\"quote\":\"30\\u00D75=150\",\"value\":150},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"20 seats remaining\",\"value\":20},{\"quote\":\"60*65% = 30\",\"value\":60},{\"quote\":\"60*65% = 30\",\"value\":65},{\"quote\":\"75%\",\"value\":75}],\"justification\":\"Extracted explicit numeric literals, fractions, percentages, and results of arithmetic expressions from the provided descriptions.\"}",
+  "prompt_sha256": "3abdf6322f09e3250c6197847b7f12d224126d75980594d7518ffff6e90fc858"
+}

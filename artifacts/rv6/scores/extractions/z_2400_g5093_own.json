@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5093",
+  "kind": "own",
+  "descriptions": [
+    "Statistical ranking pattern: city rankings with counts and percentages establish a structured list format, expecting continuation of city data.\n\nStructured list continuation: the text has been presenting city rankings with specific numeric values (e.g., \"1st, with 38\"), implying more ranked entries follow.\n\nFinal token \"3rd\" is mid-sentence within a ranking statement about the city with the third-highest rank, immediately requiring a numeric value or descriptor completing the statistic (e.g., \"3rd, with X\").\n\"53\" or similar numeric ranking descriptor is expected next.\n\"6th\" or a country name follows, continuing the tabular/list format of city rankings.\n\"3rd\" is a truncated ordinal mid-sentence, requiring a numeric ranking or country identifier to complete the geographic statistic.\n\"53 is 800\" or numeric table data follows, continuing the numeric ranking pattern established earlier.",
+    "Character description pattern: the text is listing traits of the narrator, building a profile with specific examples like \"tough questions\" and \"tough questions.\"\n\nList/enumeration momentum: the review is cataloguing the narrator's qualities and behaviors, suggesting more descriptive details or a concluding evaluative statement follows.\n\nFinal token \"100,\" ends a sentence fragment mid-thought, likely continuing with a number or descriptor completing the narrator's age or a ranking, e.g., \"100, 100\" or a new sentence about the book's content.\n\"100\" suggests a typo for \"10,\" and the next tokens will complete this character reference or transition to a new descriptive clause.\n\"100\" is \"410\" or visual reference, and the sentence \"100 was 10\" or personal ranking \"107\" suggests social.",
+    "List continuation pattern: numbered questions and bullet points establish a structured FAQ format; the recipe section has begun with \"1.\" suggesting more numbered items follow.\n\nArticle maintains an informative, practical tone about food storage, guiding readers toward specific storage solutions and expert recommendations.\n\nFinal token \"15\" is mid-sentence within a bullet point describing a specific food storage method (likely freezing), immediately requiring a unit of measurement or quantity (e.g., \"15 minutes\" or \"15 minutes per serving\").\n\"15\" likely continues as a numeric value or begins a new measurement, constrained to complete the educational list item.\n\"15 minutes\" or similar nutritional rating context is expected next.\n\"12 15 minutes\" or religious rating \"10\" suggests educational content; \"15 minutes\" dietary timing \"30 minutes\" bookends the list, so \"14\" or culinary \".",
+    "Statistical enumeration pattern: article lists specific numbers (10,000 people, 100 photos), building toward completing the count of photos.\n\nNarrative momentum: the article is explaining the methodology of the viral photo collection, with the final sentence mid-explanation of the calculation process.\n\nFinal token \"60\" completes a sentence fragment stating the photo count (~60), immediately expecting continuation of the publication's analytical commentary or source citation, likely \"people\" or a new sentence about the book's findings.\n\"about 60,000 people\" or similar publication count expected next.\n\"20, about 60 people\" or a publication title follows \"40.7, 20, 600 people\" \u2014 the \"37.0\" suggests a numeric sequence of case counts or video metadata.\n\n\"67 people\" or legal \"2.",
+    "Structured metadata table pattern: each field follows \"Label: Value\" format, establishing strong continuation expectations for academic/legal citation style.\n\nCase summary narrative momentum: the text has shifted from metadata to prose analysis of the book's argument, now detailing the trial's procedural history and findings.\n\nFinal token \"4\" ends a sentence fragment describing the book's page count (\"400 pages\"), immediately expecting continuation of the review's evaluative commentary on the book's scholarly or procedural merits.\n\"60\" or similar rating number is expected next, completing the \"40.0 60\" citation pattern seen earlier.\n\"150\" or regulatory classification likely follows \"4.0 600\" or similar rating notation.\n\"27, 140\" or procedural rule citation \"26.0 3,640\" academic 47 seconds\" case analysis \"6.",
+    "Statistical/legal survey pattern: survey data presented with percentages, establishing expectation of continued statistical findings or methodology details.\n\nSurvey question structure: the text has been systematically presenting survey results and methodology, suggesting continuation with more demographic breakdowns or conclusions about the survey's significance.\n\nFinal token \"6%\" ends a sentence fragment mid-thought, likely part of a larger percentage or percentage range being stated, with immediate expectation of either a closing punctuation, additional percentage context, or a new sentence continuing survey findings.\n\"69%\" or similar completion of the percentage figure is strongly anticipated.\n\"69%\" or a related clause completing the percentage statement about religious affiliation.\n\"67%\" or a new sentence addressing survey conclusions follows.\n\"69%\" is the final token, completing a percentage claim about religious affiliation, immediately constraining next tokens to either punctuation closing the sentence or a qualifying phrase like \"of respondents\" or \"of."
+  ],
+  "input_sha256": "7e9423a98c6033490ccd6526dab56d98e3ea9c52983044e87579137482a755e5",
+  "values": [
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "40.7",
+      "value": "40.7"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "37.0",
+      "value": "37"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "40.0",
+      "value": "40"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "26.0",
+      "value": "26"
+    },
+    {
+      "quote": "3,640",
+      "value": "3640"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and formatted numbers from the provided descriptions, including counts, percentages, and metadata values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"38\", \"value\": 38}, {\"quote\": \"100\", \"value\": 100}, {\"quote\": \"15\", \"value\": 15}, {\"quote\": \"10,000\", \"value\": 10000}, {\"quote\": \"60\", \"value\": 60}, {\"quote\": \"40.7\", \"value\": 40.7}, {\"quote\": \"600\", \"value\": 600}, {\"quote\": \"37.0\", \"value\": 37}, {\"quote\": \"4\", \"value\": 4}, {\"quote\": \"400\", \"value\": 400}, {\"quote\": \"40.0\", \"value\": 40}, {\"quote\": \"150\", \"value\": 150}, {\"quote\": \"27\", \"value\": 27}, {\"quote\": \"140\", \"value\": 140}, {\"quote\": \"26.0\", \"value\": 26}, {\"quote\": \"3,640\", \"value\": 3640}, {\"quote\": \"47\", \"value\": 47}, {\"quote\": \"6\", \"value\": 6}], \"justification\": \"Extracted explicit numeric literals and formatted numbers from the provided descriptions, including counts, percentages, and metadata values.\"}",
+  "prompt_sha256": "b29378d26f5e49b424e45f524ee77448d01a68e8e58758d7c4a5371527edf8cb"
+}

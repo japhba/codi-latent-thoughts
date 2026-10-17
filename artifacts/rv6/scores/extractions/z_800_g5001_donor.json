@@ -1,0 +1,97 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5001",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard results.\n\nDomain-specific reporting structure: the text follows a precise statistical breakdown of crash types, with hazard hazard results being enumerated sequentially, suggesting more hazard types or numerical comparisons follow.\n\nFinal token \"is\" opens a predicate completing the hazard hazard statement for \"crash into a barrier,\" requiring an immediate numeric hazard ratio (e.g., \"1 in X,000\") consistent with the established pattern.",
+    "Narrative momentum of personal relationship history: author is recounting her marriage's background, explaining the \"secret\" of her relationship, building toward a revelation or explanation of her marriage's nature.\n\nConfessional/reflective tone with self-disclosure pattern: the text has been systematically addressing family dynamics, gender roles, and emotional vulnerability, suggesting continued personal elaboration.\n\nFinal token \"666 was 666\" (likely a typo for \"666 was 666\" \u2014 \"666\" as a relationship status label), mid-sentence after \"she was 666,\" requiring completion of the clause explaining what \"666\" meant or what she transitioned to.",
+    "Q&A format with religious advice context: personal confession followed by spiritual guidance, now shifting to a new question narrative requiring resolution.\n\nNarrative momentum of timeline: confession of relationship, marriage, pregnancy, divorce, and now a follow-up question about spiritual recovery \u2014 the reader expects a chronological progression of events and decisions.\n\nFinal token \"15\" is mid-sentence (\"15 months...15 months...15\"), part of \"150 days\" or \"1.5 years\" \u2014 the date \"15\" is incomplete, immediately requiring continuation of the timeline (e.g., \"15 months\" or \"1.5 years\") before the question resolves.",
+    "Q&A format with theological/psychological framing: the text follows a pattern of posing a question then answering it, now mid-answer narrative.\n\nNarrative momentum toward personal testimony: the doctor's story is being introduced, establishing credibility and vulnerability; the anecdote about her faith and career is building toward a moral lesson about physician mental health and disclosure.\n\nFinal token \"60\" completes \"100\" (60) \u2014 \"60\" is the start of \"60\" as part of \"100\" or \"50\" (likely \"60\" referring to \"60 years\"), completing \"50\" as a physician; the sentence \"I was 60\" is mid-clause, requiring continuation of the professional/clinical context and the physician's self-reflection on her role.",
+    "Narrative momentum: article recounting a legal case, building toward revealing the fraud's origin and consequences, with the statistic \"20 people\" establishing scale.\n\nInvestigative journalism pattern: the article has been building toward the fraud's identity and liability, with the statistic \"20 people\" priming readers for legal/ethical implications and resolution.\n\nFinal token \"0.5 people, or 204 people, were actually 1.2 people, was about 0.2 people\" \u2014 mid-sentence, completing \"205 people, or 0.4 people, were actually 20 people\" \u2014 the sentence requires continuation explaining the fraud's legal status or victim count.",
+    "Legal case analysis format: question posed, then structured answer explaining procedural history and reasoning, following a Q&A pattern.\n\nNarrative momentum of the analysis: the church's appeal grounds are being enumerated, with the procedural history of the decision now complete, leading to the doctrinal reasoning about the church's rights and the specific legal question.\n\nFinal token \"1.08 was 12 meeting minutes was 101.08\" (likely garbled \"1.08 was 13 meeting minutes was 128\") \u2014 mid-sentence, \"12 meeting minutes\" signals the church meeting was the basis for the appeal, and the next tokens must complete the procedural outcome or transition to the legal analysis."
+  ],
+  "input_sha256": "71d95d433b8e2689935da710324c0ee10f9362ff4163cfdaab2613fb00dee7db",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "0.0001"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "1e-05"
+    },
+    {
+      "quote": "666",
+      "value": "666"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "20 people",
+      "value": "20"
+    },
+    {
+      "quote": "0.5 people",
+      "value": "0.5"
+    },
+    {
+      "quote": "204 people",
+      "value": "204"
+    },
+    {
+      "quote": "1.2 people",
+      "value": "1.2"
+    },
+    {
+      "quote": "0.2 people",
+      "value": "0.2"
+    },
+    {
+      "quote": "205 people",
+      "value": "205"
+    },
+    {
+      "quote": "0.4 people",
+      "value": "0.4"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "12 meeting minutes",
+      "value": "12"
+    },
+    {
+      "quote": "101.08",
+      "value": "101.08"
+    },
+    {
+      "quote": "13 meeting minutes",
+      "value": "13"
+    },
+    {
+      "quote": "128",
+      "value": "128"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including decimals and fractions expressed as '1 in X', from the provided descriptions while maintaining the exact quote for each distinct value.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":0.0001},{\"quote\":\"1 in 100,000\",\"value\":0.00001},{\"quote\":\"666\",\"value\":666},{\"quote\":\"15\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"20 people\",\"value\":20},{\"quote\":\"0.5 people\",\"value\":0.5},{\"quote\":\"204 people\",\"value\":204},{\"quote\":\"1.2 people\",\"value\":1.2},{\"quote\":\"0.2 people\",\"value\":0.2},{\"quote\":\"205 people\",\"value\":205},{\"quote\":\"0.4 people\",\"value\":0.4},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"12 meeting minutes\",\"value\":12},{\"quote\":\"101.08\",\"value\":101.08},{\"quote\":\"13 meeting minutes\",\"value\":13},{\"quote\":\"128\",\"value\":128}],\"justification\":\"Extracted all explicit numeric literals, including decimals and fractions expressed as '1 in X', from the provided descriptions while maintaining the exact quote for each distinct value.\"}",
+  "prompt_sha256": "1fbb47bedc5ae689a6bc4b00ed059e5d699d46e5017dae55b2495262f4b17d8a"
+}

@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5052",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article consistently presents paired financial figures (total amount + percentage change), so a specific dollar amount or percentage follows.\n\nStructured data continuation: the sentence lists \"total amount of $100,000\" and is mid-way through presenting a second metric, likely a percentage change or dollar figure, mirroring earlier patterns like \"increased by 100%.\"\n\nFinal token \"and\" is a coordinating conjunction mid-sentence, directly requiring a parallel noun phrase or clause continuing the financial data series, most likely another dollar figure or percentage statistic.\n\"and $100,000\" or similar numeric continuation.\n\"and $100,000\" is incomplete \u2014 price data table or sentence structure demands a numeric value completing the financial figure.\n\"and is $1 and\" suggests a data table row or sentence fragment; immediate next token is likely.",
+    "Review/listicle format with structured sections (Ratings, Comments, etc.) signals continuation of a film review entry with consistent evaluative language.\n\nThe \"Comments\" section has begun with a numeric rating and partial sentence (\"7.5 out of 10\"), establishing a pattern of rating followed by descriptive review text.\n\nFinal token \"7.5 out of 10\" is mid-sentence within a comments section, immediately requiring continuation of the numeric rating context \u2014 likely more digits, a unit, or additional review text completing the score.\n\"750\" or similar numeric continuation is expected.\n\"750\" is a product code mid-listing; the list of film titles suggests more titles or rating details follow.\n\"77 is 750\" is garbled OCR artifact; technical credits or additional product code \"777\" are \"750\" instruction \u2014 visual rating.",
+    "Structured e-commerce product page pattern: navigation breadcrumbs, category listings, and promotional copy establish a consistent retail format throughout.\n\nThe page is mid-sentence in a promotional description of the \"Best of Men's T-Shirts\" category, following a pattern of listing features and benefits seen in prior sections.\n\nFinal token \"best\" ends an incomplete phrase \"the best,\" part of a promotional sentence about the category's offerings; next tokens must complete this superlative claim, likely \"best selection\" or \"best deals\" followed by a category description.\n\"Best\" is a truncated superlative adjective mid-sentence, requiring immediate noun completion.\n\"available\" or store-specific continuation is expected.\n\"Best\" is part of a navigation/filter UI element or category tagline, suggesting product category links or navigation options follow.\n\"available\" or \"best\" store name is next.\n\"2\" instruction \"part of.",
+    "Structured e-commerce parts listing pattern: each category lists part names, descriptions, and part numbers in a consistent format.\n\nPart number enumeration momentum: the \"Bushing for Lowering Link\" section has just begun its list, mirroring the \"Lowering Link\" section's structure of part names followed by descriptions.\n\nFinal token \"More\" closes a truncated list item (\"Bushing for Lowering Link...More\"), immediately expecting either a part number, additional product details, or the next navigational element continuing the parts catalog.\n\"More\" signals a truncated list, with the next tokens likely being another part entry or category navigation element.\n\"Part\" table or navigation link expected next.\n\"Part\" table or product listing follows the established pattern of \"Part Name\" entries.\n\"More\" closes a truncated product table row, with pricing or part numbers likely following.\n\"Part\" table row or navigation element is the.",
+    "Structured parts list pattern: each entry follows \"Part Name\" then \"Description\" format, repeating consistently throughout the catalog.\n\nPart listing continuation: the catalog has been enumerating specific vehicle components (engine, transmission, drivetrain, etc.), with more parts expected to follow.\n\nFinal token \"Part\" ends a truncated part entry (\"Oil Filter for 1996 Toyota Tacoma Part\"), immediately requiring a part number or description continuation, likely \"Number:\" or a table/list of part numbers.\n\"Part\" is mid-entry in a parts table, suggesting pipe-delimited table rows or numbered part entries follow next.\n\"Part\" is the last token, part of a product listing row, immediately requiring a part number or table cell continuation.\n\"Part\" closes a product title row, with the next token likely being a pipe character or new part entry.\n\"Part\" ends the instruction to \"Click here to see.",
+    "Structured parts list pattern: each entry follows \"|Part Name||Description|\" table format, with alternating part names and descriptions.\n\nStructured list continuation: the parts table has been listing components systematically; more parts entries are expected to follow the established \"|Part Name||Description|\" pattern.\n\nFinal token \"Part\" ends a truncated table cell \"|Part\" \u2014 this is mid-row in the parts table, immediately requiring a part number (e.g., \"10000000\") followed by \"||\" and a part description, then a closing pipe.\n\"Part\" is the start of a new table row's part name cell, requiring a numeric part number next.\n\"Part\" is incomplete, likely continuing as \"10000000\" table row, then more pipe-delimited entries.\n\"Part\" is the product code prefix, and the table row needs closure with \"|\" and then."
+  ],
+  "input_sha256": "3d7a272bf7dce283566cf837040c27aa2f879d72324af265eda3b405eb27bed5",
+  "values": [
+    {
+      "quote": "$100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "7.5",
+      "value": "7.5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "750",
+      "value": "750"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    },
+    {
+      "quote": "777",
+      "value": "777"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1996",
+      "value": "1996"
+    },
+    {
+      "quote": "10000000",
+      "value": "10000000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and currency values found within the provided descriptions, including part numbers and ratings.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"$100,000\",\n      \"value\": 100000\n    },\n    {\n      \"quote\": \"100%\",\n      \"value\": 100\n    },\n    {\n      \"quote\": \"$1\",\n      \"value\": 1\n    },\n    {\n      \"quote\": \"7.5\",\n      \"value\": 7.5\n    },\n    {\n      \"quote\": \"10\",\n      \"value\": 10\n    },\n    {\n      \"quote\": \"750\",\n      \"value\": 750\n    },\n    {\n      \"quote\": \"77\",\n      \"value\": 77\n    },\n    {\n      \"quote\": \"777\",\n      \"value\": 777\n    },\n    {\n      \"quote\": \"2\",\n      \"value\": 2\n    },\n    {\n      \"quote\": \"1996\",\n      \"value\": 1996\n    },\n    {\n      \"quote\": \"10000000\",\n      \"value\": 10000000\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals, percentages, and currency values found within the provided descriptions, including part numbers and ratings.\"\n}",
+  "prompt_sha256": "d96378ffbbf36c25ba666b0df517a6076ff11fdd5e36e65751520f572ca037c7"
+}

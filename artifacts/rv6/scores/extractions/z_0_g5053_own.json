@@ -1,0 +1,33 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5053",
+  "kind": "own",
+  "descriptions": [
+    "The text is a structured casino review following a consistent pattern of presenting game statistics and percentages, with each game category receiving a specific RTP figure.\n\nThe review has been systematically listing game categories with their RTP values (slots 96.5%, table games 95.5%, video poker 95.5%, keno 95.5%, scratch cards 95.5%), establishing a strong repetition pattern of \"[game type] has an overall RTP of [percentage].\"\n\nThe final token \"of\" completes the phrase \"has an overall RTP of,\" directly requiring a specific percentage figure (likely \"95.5%\" or similar) to follow immediately, consistent with the established pattern.\n</explanation>",
+    "The text is a structured casino review following a consistent section-by-section format, systematically covering features like games, bonuses, and banking.\n\nThe review is mid-sentence describing the banking section, having just introduced the topic of \"banking options\" and \"online banking\" \u2014 specific details about banking methods, fees, or options are expected next.\n\nFinal token \"banking\" ends an incomplete sentence (\"online banking\"), requiring immediate continuation describing what online banking offers, costs, or how it works, consistent with the review's pattern of elaborating each feature mentioned.\n</explanation>",
+    "Structured table/list pattern: the text alternates between prose paragraphs and pipe-delimited table rows, establishing a repeating format for search results.\n\nSearch results continuation: the \"Search for Elizabeth\" section has begun listing search terms with pipe-delimited table rows; more rows are expected following the same `|term|` pattern.\n\nFinal token \" Elizabeth\" is mid-row in a pipe-delimited table cell, immediately requiring completion of the search term phrase (e.g., \" Elizabeth II\" or \" Elizabeth...\") followed by a closing pipe `|`.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, mileage, and price values to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018\u21922017), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2017 Toyota Camry row; the next token must be the price value (a dollar amount like \"$1,200\" or similar), followed by a closing pipe `|` to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018\u21922017), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2017 Toyota Camry row; the next token must be the price value (a dollar amount like \"$1,200\" or similar), followed by a closing pipe `|` to complete the row.\n</explanation>"
+  ],
+  "input_sha256": "9e9c122717b1fa1861ecfad191fbfa88b9ac1f4c540d2fa140751fbffffa738a",
+  "values": [
+    {
+      "quote": "slots 96.5%",
+      "value": "96.5"
+    },
+    {
+      "quote": "table games 95.5%",
+      "value": "95.5"
+    },
+    {
+      "quote": "1,000|",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the descriptions, including RTP percentages and mileage values, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"slots 96.5%\",\"value\":96.5},{\"quote\":\"table games 95.5%\",\"value\":95.5},{\"quote\":\"1,000|\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals and percentages from the descriptions, including RTP percentages and mileage values, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "b6ec017e3d70fbfd7312e3848024daa7e59275b21efaf61f23eedf4493ec5b7b"
+}

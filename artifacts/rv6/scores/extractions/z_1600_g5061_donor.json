@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5061",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: article lists specific findings with percentages, and the truncated sentence is mid-way through presenting numerical results for the first study.\n\nContinuation of structured list: the study's methodology was described, and results are now being enumerated with specific numerical values (e.g., \"1.5 times,\" \"1.2 times\").\n\nFinal token \"is\" opens a predicate clause completing the hazard ratio statement for the first study, immediately requiring a numerical value or descriptive qualifier (e.g., \"is 2 is 2 times\" or similar magnitude descriptor).\n\"2 is\" is a garbled/typo fragment mid-sentence, likely continuing with a numeric or descriptive result phrase completing the hazard ratio finding.\n\"2 is\" ends the sequence, part of a formal statistical summary; next tokens must complete this predicate, likely a number or descriptor like \"likely\" or a decimal.",
+    "Character description pattern: each character introduced with name, actor, and thematic summary, establishing a consistent analytical structure.\n\nPlot summary momentum: the text is mid-sentence describing the relationship between the two women, with the second woman's reaction to the first's political views being elaborated.\n\nFinal token \"7,\" is mid-sentence within a numerical continuation \u2014 \"7,\" begins a specific number (likely \"77\" or similar), completing the clause describing the first woman's emotional state or the scene's tension, requiring digits to complete the score.\n\"76\" or \"77\" is the immediate next token, completing the interrupted number \"7, 767\" or similar numerical score.\n\"77\" is the most probable continuation, completing the power-corruption theme established earlier (\"7, 700\" pattern suggests escalating numbers).\n\n\"28 7,\" ends the.",
+    "Recipe instruction pattern: detailed step-by-step cooking directions with specific measurements and techniques, continuing sequentially.\n\nContinuation of historical/visual description of the painting scene: the narrative is mid-explanation of the specific visual details of the painting, with sensory and practical observations expected.\n\nFinal token \"4\" is mid-number, part of a time duration (\"about 4\"), immediately requiring completion of the numeric measurement \u2014 likely \"48 minutes\" or similar time unit continuing the memory/food reference.\n\"4\" begins a specific numerical figure completing \"about 48 minutes\" or similar, constrained to digits continuing the interrupted number \"4\" into \"44\" or \"4,000\" seconds.\n\"4 48 seconds\" or \"4 49 seconds\" \u2014 the \"4\" is part of a specific time reference completing the sensory memory instruction.\n\"4 5 seconds\".\"",
+    "Continuation of a structured list pattern: each bullet point introduces a historical example with specific biblical references, suggesting more practical tips or examples follow.\n\nThe text is mid-explanation of a specific historical food item (bread), with the scientific/educational framing requiring concrete biblical evidence and practical memory advice.\n\nFinal token \"68\" is a number completing \"68\" (likely \"68\" bread rolls), part of a specific numerical example about the 88 rolls recipe; next tokens must complete the visual/quantitative detail, likely \"68\" bread rolls or a specific scene description.\n\"68\" 88 rolls\" or similar visual memory detail completing \"68 32 seconds\" calculation example \u2014 \"88 32 seconds\" 68 bread rolls scene demands the 128 historical examples count to complete the 180 memory instruction.",
+    "News article reporting factual details about a news report, following inverted pyramid structure with specific statistics and facts.\n\nThe article is mid-sentence describing the film's content, having established the pattern of citing specific numbers (2,222 viewers, 2012), so continuation will likely detail the investigation or findings.\n\nFinal token \"200 people\" ends a clause listing the IMDb rating count; the sentence structure \"200 people, or 2,222 views, were reported\" suggests the next tokens will complete the factual description of the IMDb report's scope or methodology.\n\"250,002 views\" or similar numerical continuation of the fraud-reporting breakdown is expected next, likely \"2,334 views\" or similar, completing the IMDb rating count.\n\"250 people\" or similar figure completing the public-reporting statistic.\n\"2.\"",
+    "Q&A format pattern: structured legal/forensic reference entries with consistent question-answer pairs, suggesting continuation of this list format.\n\nThe text is mid-example, illustrating a specific scenario question about a criminal case; the answer is expected to continue with more numbered or bulleted procedural details.\n\nFinal token \"24\" ends a specific numerical example (\"24 pages\" or similar), part of a factual enumeration of page count; next tokens likely continue with additional page numbers or time details completing the visual evidence description.\n\"24\" is the start of a specific measurement (\"24 pages\" or \"24 seconds\"), requiring immediate numeric/unit completion of the \"24 24\" repetition pattern.\n\"24 22 seconds\" or similar memory duration \"24 24\" scene reference \"24 24\" suggests \"22 seconds\" or a specific case reference follows."
+  ],
+  "input_sha256": "8b36f8daf76a13352cf016ef104721b0314a51e83eae2a012c35aa069f142aa0",
+  "values": [
+    {
+      "quote": "1.5 times",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.2 times",
+      "value": "1.2"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "48 minutes",
+      "value": "48"
+    },
+    {
+      "quote": "44",
+      "value": "44"
+    },
+    {
+      "quote": "4,000",
+      "value": "4000"
+    },
+    {
+      "quote": "4 48 seconds",
+      "value": "4.48"
+    },
+    {
+      "quote": "4 49 seconds",
+      "value": "4.49"
+    },
+    {
+      "quote": "4 5 seconds",
+      "value": "4.5"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "88 rolls",
+      "value": "88"
+    },
+    {
+      "quote": "68 32 seconds",
+      "value": "68.32"
+    },
+    {
+      "quote": "88 32 seconds",
+      "value": "88.32"
+    },
+    {
+      "quote": "128",
+      "value": "128"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "2,222 viewers",
+      "value": "2222"
+    },
+    {
+      "quote": "200 people",
+      "value": "200"
+    },
+    {
+      "quote": "2,222 views",
+      "value": "2222"
+    },
+    {
+      "quote": "250,002 views",
+      "value": "250002"
+    },
+    {
+      "quote": "2,334 views",
+      "value": "2334"
+    },
+    {
+      "quote": "250 people",
+      "value": "250"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "22 seconds",
+      "value": "22"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, including those with units or within phrases, from the provided descriptions while ignoring dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5 times\",\"value\":1.5},{\"quote\":\"1.2 times\",\"value\":1.2},{\"quote\":\"28\",\"value\":28},{\"quote\":\"48 minutes\",\"value\":48},{\"quote\":\"44\",\"value\":44},{\"quote\":\"4,000\",\"value\":4000},{\"quote\":\"4 48 seconds\",\"value\":4.48},{\"quote\":\"4 49 seconds\",\"value\":4.49},{\"quote\":\"4 5 seconds\",\"value\":4.5},{\"quote\":\"68\",\"value\":68},{\"quote\":\"88 rolls\",\"value\":88},{\"quote\":\"68 32 seconds\",\"value\":68.32},{\"quote\":\"88 32 seconds\",\"value\":88.32},{\"quote\":\"128\",\"value\":128},{\"quote\":\"180\",\"value\":180},{\"quote\":\"2,222 viewers\",\"value\":2222},{\"quote\":\"200 people\",\"value\":200},{\"quote\":\"2,222 views\",\"value\":2222},{\"quote\":\"250,002 views\",\"value\":250002},{\"quote\":\"2,334 views\",\"value\":2334},{\"quote\":\"250 people\",\"value\":250},{\"quote\":\"24\",\"value\":24},{\"quote\":\"22 seconds\",\"value\":22}],\"justification\":\"Extracted explicit numeric literals, including those with units or within phrases, from the provided descriptions while ignoring dates, years, and ordinals.\"}",
+  "prompt_sha256": "61aedb081226f635b129377979af6b029b9f904bd8dbe636ff4f87ec27958087"
+}

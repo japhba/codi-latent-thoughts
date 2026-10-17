@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5036",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical report pattern: article consistently presents precise dollar figures, percentages, and named entities with supporting data.\n\nStructured list continuation: the sentence enumerates financial metrics (total dollar volume, total dollar value) and is mid-way through listing them, implying more statistics or named entities follow.\n\nFinal token \"and $10 billion\" is mid-sentence, part of a financial data clause listing dollar figures; the next tokens must complete this sentence, likely with a verb phrase such as \"was received\" or a comparative statistic.\n\"and $10 billion\" suggests a second figure just stated, and the sentence needs a verb or continuation to complete the data point.\n\"was received\" or a new sentence with another statistic is immediately expected.\n\"and $10 billion\" ends abruptly, likely requiring a period or continuation of the numeric/financial data pattern.\n\"and is $13 billion\" suggests a table.",
+    "Product listing format with bullet-pointed specs and marketing copy, establishing a pattern of feature descriptions for a retail product.\n\nThe review section has concluded, and the text has returned to product description prose, continuing to enumerate technical specifications and selling points.\n\nFinal token \"2 is\" is mid-sentence in a rating/descriptor clause (\"2 is\"), immediately requiring a number or adjective completing the product rating or edition descriptor, likely continuing with additional specs or a new sentence.\n\"2 is\" suggests a rating or edition number, with surrounding context implying a film title or descriptor follows.\n\"2 is 2\" or a product name like \"2 is 2\" or a rating descriptor is expected next.\n\"2 is 2\" or production company name \"2012\" suggests a numeric continuation or retail availability detail follows.\n\"272\" or similar screen size \"is 27\" or.",
+    "Structured e-commerce navigation pattern: page lists navigation links, filters, and category breadcrumbs in a consistent format throughout.\n\nStructured list continuation: the page has been presenting navigation links and filter options in a directory-style format, suggesting more product category links or filter options follow.\n\nFinal token \"Best\" ends a section header \"Part Of The Best Parts For The Parts For The Best Parts,\" which is a navigation breadcrumb/category label, immediately expecting a list of part names or links continuing the directory structure.\n\"Part Of The Parts For The Best Parts\" is a table/list header, so the next tokens should be part names or subcategory links in a similar catalog format.\n\"Part Of The Parts For The Best Parts\" is a category header, implying a table or list of product names follows immediately.\n\"Part Of The Parts\" is a navigation breadcrumb/category label, suggesting product names or subcategory links come next.\n\"Most.",
+    "Structured table/list pattern: pipe-delimited rows with consistent columns (name, table number, description) establish strong continuation expectations.\n\nProduct listing format: the table enumerates shipping options with pipe-delimited fields; the pattern of \"||\" separators and product entries signals more rows or closing content follows.\n\nFinal token \"Most||\" is mid-row in a pipe-delimited table cell, immediately requiring a closing pipe \"|\" and likely another price value or table row to complete the pattern.\n\"Most||\" suggests a truncated cell value, with the next token being \"|\" to close the cell, then likely another table row or end of table.\n\"Most\" appears to be a truncated column header or data value, requiring immediate completion of the pipe-delimited structure.\n\"Most\" is part of a date range or price qualifier, constrained to be followed by \"|\" to close the cell.\n\"Part No.\" and \"Price.\"",
+    "Structured table/list pattern: pipe-delimited rows with table headers and rows, following a consistent format of pipe-delimited entries.\n\nStructured directory continuation: the table lists pipe-delimited columns for \"Part #\", \"Description\", \"Manufacturer\", \"Email\", \"Phone\", and \"Price\" \u2014 the pattern established by the first table row must continue with more rows.\n\nFinal token \"100|\" closes a table cell in a pipe-delimited product table, immediately requiring another pipe-delimited row continuing the manufacturer/phone/email/price columns.\n\"||\" or \"|\" is the expected next token to close the current cell and begin the next table row.\n\"||\" is the immediate next expected token, continuing the established pipe-delimited format.\n\"||\" closes the manufacturer cell and opens the next cell, likely a date or name.\n\"100|\" closes the table row, so the next tokens must.",
+    "Structured table/list pattern: pipe-delimited rows with date, pipe, and table cell content repeating consistently throughout.\n\nStructured directory format: each row follows \"|Label||Description|\" pattern, with the table listing pipe-delimited fields for a specific location.\n\nFinal token \"||\" opens a new cell in the pipe-delimited table row for \"New York City,\" immediately requiring a numeric value or table cell content to complete the row, likely a pipe-delimited cell or closing pipe.\n\"||\" is mid-row, requiring continuation of the numeric data pattern established by prior rows.\n\"||\" is the second double-pipe delimiter in a table cell, immediately constraining the next token to be a price, table cell, or closing pipe character.\n\"||\" is part of an incomplete product table row, expecting a name, number, or pipe-delimited cell to follow.\n\"||\" is the final token."
+  ],
+  "input_sha256": "fea3cb08a6e6aba6e1b7b970af9d16326583fcc77d3a90e63480e2f87fa2b953",
+  "values": [
+    {
+      "quote": "$10 billion",
+      "value": "10000000000"
+    },
+    {
+      "quote": "$13 billion",
+      "value": "13000000000"
+    },
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "2012",
+      "value": "2012"
+    },
+    {
+      "quote": "272",
+      "value": "272"
+    },
+    {
+      "quote": "is 27",
+      "value": "27"
+    },
+    {
+      "quote": "100|",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$10 billion\",\"value\":10000000000.0},{\"quote\":\"$13 billion\",\"value\":13000000000.0},{\"quote\":\"2 is\",\"value\":2.0},{\"quote\":\"2012\",\"value\":2012.0},{\"quote\":\"272\",\"value\":272.0},{\"quote\":\"is 27\",\"value\":27.0},{\"quote\":\"100|\",\"value\":100.0}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "f319eb226f4d9893584a6ec564605d5497de7f5b634538e15db7f4bb5377a32d"
+}

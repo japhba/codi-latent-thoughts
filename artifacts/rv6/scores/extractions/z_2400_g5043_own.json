@@ -1,0 +1,85 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5043",
+  "kind": "own",
+  "descriptions": [
+    "Statistical ranking pattern: article lists countries by ranking position, establishing a descending sequence (1st, 2nd, 3rd) with specific country names and counts.\n\nStructured list continuation: the ranking table or paragraph enumerates countries with their counts; the pattern \"country name + ranking position\" repeats consistently.\n\nFinal token \"3rd\" ends a sentence fragment mid-thought, immediately requiring a country name or descriptor completing the ranking context, likely \"3rd\" followed by a country name or ranking position.\n\"3rd\" is a dangling ordinal mid-sentence, demanding a noun phrase like \"place\" or a country name to complete the ranking statement.\n\"3rd is\" or a numeric ranking follows.\n\"58 is\" or similar numeric ranking data expected next, continuing the country ranking statistics pattern.\n\"3rd\" country ranking context demands immediate numeric ranking or performance descriptor to complete the sentence.",
+    "Biographical/filmography format: structured cast/crew credits followed by prose description of the film's themes and characters.\n\nCharacter introduction momentum: the prose is mid-sentence describing the author's personal inspiration, listing specific books and authors, building toward completing the description of the character's literary influences.\n\nFinal token \"90\" ends an incomplete sentence (\"900 pages\" or similar), part of a list of book titles; the next tokens must complete this enumeration or transition to describing the character's literary/cultural significance.\n\"900 pages\" or similar ranking detail is immediately expected.\n\"900 95\" or a film title number suggests a ranking list or character description format, with \"943\" or character-specific credits likely following.\n\"910 53\" or cultural reference \"1209\" suggests gendered visual scene description; \"678.",
+    "Book review genre with structured sections (description, summary, evaluation) signals continuation of evaluative commentary on the book's features.\n\nThe review is mid-sentence listing the book's strengths, having covered audience and content; a concluding evaluative statement about the book's overall quality or recommendation is expected next.\n\nFinal token \"best\" ends an incomplete superlative phrase (\"most comprehensive book on the best\"), requiring immediate continuation such as \"best\" or a noun completing the ranking claim, likely followed by further product/feature details.\n\"50\" or a product category descriptor.\n\"70\" or a technical specification number is likely next, continuing the ranking or specification pattern.\n\"30 best\" or similar comparative ranking language is expected to follow \"670 most comprehensive book on the best.\"\n\"7. 380 visual\" or academic/industry review rating context suggests product-specific technical or editorial.",
+    "Structured product review format with repeated section headers (e.g., \"Features,\" \"Specifications\") signals another specification detail or concluding summary statement is expected next.\n\nComparative ranking pattern: the text consistently references benchmark comparisons (\"best,\" \"top,\" \"most\"), suggesting continuation of evaluative claims about the product's performance or ranking.\n\nFinal token \"most\" ends an incomplete superlative phrase (\"most accurate\"), part of a sentence listing ranking criteria; the next tokens must complete this superlative claim, likely with a noun like \"accurate\" or a qualifying phrase.\n\"most accurate\" is mid-sentence, requiring immediate completion of the comparative ranking statement.\n\"most appropriate\" or similar technical specification language follows.\n\"adequate\" data\" or a numeric specification value is expected next.\n\"most appropriate\" rating or certification standard is anticipated.\n\"adequate\" or \"best\" materials list is incomplete \u2014 the.",
+    "Statistical ranking pattern: article lists top-performing states with specific metrics, establishing expectation for continued ranking data or comparative performance details.\n\nStructured list continuation: the text has been presenting state-by-state comparisons with specific rankings, suggesting more states or performance data follows.\n\nFinal token \"adequate\" ends a sentence fragment mid-thought, likely part of a ranking clause (e.g., \"adequate for the top X states\"), requiring a noun phrase or prepositional complement specifying what category or ranking level is referenced.\n\"most adequate\" suggests a superlative ranking descriptor, immediately constraining next tokens to a noun like \"states\" or a comparative qualifier.\n\"most adequate\" is a product rating descriptor, likely followed by a period or further specification of the ranking methodology.\n\"adequate\" ends a technical specification sentence about test scores, suggesting numeric performance data or a new specification category follows.\n\"most adequate\".",
+    "Statistical ranking pattern: article lists countries by ranking position, establishing a descending sequence (1st, 2nd, 3rd) with specific country names and counts.\n\nStructured data continuation: each country entry follows a consistent format \u2014 country name, ranking position, then specific numeric statistics (e.g., \"1st in the world,\" \"13th in the world\").\n\nFinal token \"63rd\" ends a ranking statistic for the U.S., immediately expecting continuation of the ranking list, likely another country name or a new sentence elaborating on U.S. ranking context.\n\"63rd\" is a numeric ranking mid-sentence, requiring completion of the sentence with contextual ranking or comparative data.\n\"most\" or a dollar figure follows.\n\"most\" or a numeric ranking descriptor is expected next, continuing the country ranking data pattern.\n\"630,000\" or similar numeric."
+  ],
+  "input_sha256": "d0ece89fb6fd58949bef2b2246ce2c93f2972b51a2cb422c938d36dacd3693ce",
+  "values": [
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "943",
+      "value": "943"
+    },
+    {
+      "quote": "910",
+      "value": "910"
+    },
+    {
+      "quote": "53",
+      "value": "53"
+    },
+    {
+      "quote": "1209",
+      "value": "1209"
+    },
+    {
+      "quote": "678",
+      "value": "678"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "670",
+      "value": "670"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "380",
+      "value": "380"
+    },
+    {
+      "quote": "630,000",
+      "value": "630000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic components found within the provided descriptions, excluding ordinals and dates.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"58\",\"value\":58},{\"quote\":\"90\",\"value\":90},{\"quote\":\"900\",\"value\":900},{\"quote\":\"95\",\"value\":95},{\"quote\":\"943\",\"value\":943},{\"quote\":\"910\",\"value\":910},{\"quote\":\"53\",\"value\":53},{\"quote\":\"1209\",\"value\":1209},{\"quote\":\"678\",\"value\":678},{\"quote\":\"50\",\"value\":50},{\"quote\":\"70\",\"value\":70},{\"quote\":\"30\",\"value\":30},{\"quote\":\"670\",\"value\":670},{\"quote\":\"7\",\"value\":7},{\"quote\":\"380\",\"value\":380},{\"quote\":\"630,000\",\"value\":630000}],\"justification\":\"Extracted explicit numeric literals and arithmetic components found within the provided descriptions, excluding ordinals and dates.\"}",
+  "prompt_sha256": "29b4441385c9c08c6f2c0d1b0dfa2e1a51edb183a748799b4673d4eeeac6ae10"
+}

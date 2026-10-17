@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5240",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating expected value of a game with specific outcomes (win $10, lose $5, tie $0) requiring arithmetic completion.\n\nThe expected value calculation is mid-sentence, requiring the numerical result of (10\u00d710 + 5\u00d70 + 0\u00d710) / 11, which equals $8.18.\n\nFinal token \"is\" opens a predicate completing \"The expected value of the game is,\" demanding an immediate numerical answer (likely \"$8.18\" or \"8.18\") as the direct object.\n</explanation>",
+    "Mathematical problem-solving context: calculating expected profit using expected value formula, requiring arithmetic completion of the dollar amount.\n\nThe expected value calculation is mid-expression: \"10 \u00d7 $1.25 = $12.50\" must be completed, then subtracted from total prize pool ($100,000 \u2212 $12.50 \u2248 $99,875), following the established pattern of showing intermediate steps.\n\nFinal token \"is\" opens a predicate completing the expected value statement, immediately requiring the numerical result of the arithmetic expression, likely \"$99,875\" or similar.\n</explanation>",
+    "Mathematical problem-solving context: calculating expected value of a game with specific mechanics (cost $1, win $10, lose $1, play 10 times).\n\nNumerical calculation in progress: expected value formula requires completing the arithmetic \u2014 ($10 \u00d7 10) \u2212 ($1 \u00d7 10) = $100 \u2212 $100 = $0, so the answer is $0.\n\nThe final token \"2\" is the start of the dollar amount \"$210\" (the total prize pool), mid-number, requiring immediate continuation of digits to complete the figure before the sentence concludes.\n</explanation>",
+    "Math word problem format: structured Q&A with labeled parts (a), (b), (c) requiring systematic solution steps.\n\nArithmetic continuation: total budget (P200,000) minus first item (P100,000) = P100,000 remaining, then divided by remaining items (P50,000 each) to find number of items.\n\nFinal token \"P20\" is mid-number, part of \"P200,000\" being restated in the solution; next tokens must complete \"0,000\" then continue the arithmetic calculation.\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-calculation, having established total cost (205) and listed individual prices (x + 3x + 0.5x = 5x), so the next step must solve for x using 5x = 205.\n\nFinal token \"205\" is the right-hand side of the equation 5x = 205, immediately requiring the next step: solving for x, likely \"\u2192 x = 41\" or \"\u2192 x = 41.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-calculation, having established total cost ($150) and individual prices ($45 + $30), now computing the remaining amount ($30) to solve for the unknown number of pairs.\n\nFinal token \"$30\" is the result of subtracting $45 from $150, immediately requiring the next step: dividing $30 by $30 to find the number of pairs, e.g., \"30 \u00f7 30 = 1 pair.\"\n</explanation>"
+  ],
+  "input_sha256": "b6ba504940bc39522324c6adae6d44c122763c6ccca5b2ab3ed14cc9f464a840",
+  "values": [
+    {
+      "quote": "win $10",
+      "value": "10"
+    },
+    {
+      "quote": "lose $5",
+      "value": "5"
+    },
+    {
+      "quote": "tie $0",
+      "value": "0"
+    },
+    {
+      "quote": "(10\u00d710 + 5\u00d70 + 0\u00d710) / 11",
+      "value": "9.09091"
+    },
+    {
+      "quote": "$8.18",
+      "value": "8.18"
+    },
+    {
+      "quote": "10 \u00d7 $1.25 = $12.50",
+      "value": "12.5"
+    },
+    {
+      "quote": "$100,000 \u2212 $12.50 \u2248 $99,875",
+      "value": "99875"
+    },
+    {
+      "quote": "cost $1",
+      "value": "1"
+    },
+    {
+      "quote": "play 10 times",
+      "value": "10"
+    },
+    {
+      "quote": "($10 \u00d7 10) \u2212 ($1 \u00d7 10) = $100 \u2212 $100 = $0",
+      "value": "0"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "P200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "P100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "P50,000",
+      "value": "50000"
+    },
+    {
+      "quote": "total cost (205)",
+      "value": "205"
+    },
+    {
+      "quote": "x + 3x + 0.5x = 5x",
+      "value": "5"
+    },
+    {
+      "quote": "0.5x",
+      "value": "0.5"
+    },
+    {
+      "quote": "x = 41",
+      "value": "41"
+    },
+    {
+      "quote": "total cost ($150)",
+      "value": "150"
+    },
+    {
+      "quote": "$45 + $30",
+      "value": "75"
+    },
+    {
+      "quote": "$45",
+      "value": "45"
+    },
+    {
+      "quote": "$30",
+      "value": "30"
+    },
+    {
+      "quote": "30 \u00f7 30 = 1 pair",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, arithmetic expressions, and spelled-out numbers from the provided descriptions, ensuring each quote is an exact substring and each value is a valid JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"win $10\",\"value\":10},{\"quote\":\"lose $5\",\"value\":5},{\"quote\":\"tie $0\",\"value\":0},{\"quote\":\"(10\\u00D710 + 5\\u00D70 + 0\\u00D710) / 11\",\"value\":9.090909090909092},{\"quote\":\"$8.18\",\"value\":8.18},{\"quote\":\"10 \\u00D7 $1.25 = $12.50\",\"value\":12.5},{\"quote\":\"$100,000 \\u2212 $12.50 \\u2248 $99,875\",\"value\":99875},{\"quote\":\"cost $1\",\"value\":1},{\"quote\":\"play 10 times\",\"value\":10},{\"quote\":\"($10 \\u00D7 10) \\u2212 ($1 \\u00D7 10) = $100 \\u2212 $100 = $0\",\"value\":0},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"P200,000\",\"value\":200000},{\"quote\":\"P100,000\",\"value\":100000},{\"quote\":\"P50,000\",\"value\":50000},{\"quote\":\"total cost (205)\",\"value\":205},{\"quote\":\"x + 3x + 0.5x = 5x\",\"value\":5},{\"quote\":\"0.5x\",\"value\":0.5},{\"quote\":\"x = 41\",\"value\":41},{\"quote\":\"total cost ($150)\",\"value\":150},{\"quote\":\"$45 + $30\",\"value\":75},{\"quote\":\"$45\",\"value\":45},{\"quote\":\"$30\",\"value\":30},{\"quote\":\"30 \\u00F7 30 = 1 pair\",\"value\":1}],\"justification\":\"Extracted explicit numeric literals, arithmetic expressions, and spelled-out numbers from the provided descriptions, ensuring each quote is an exact substring and each value is a valid JSON number.\"}",
+  "prompt_sha256": "8c870674c69db41816efcd006ec711735fd791b0a30f1ebd0563ebf017a17af9"
+}

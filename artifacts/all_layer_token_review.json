@@ -1,0 +1,142 @@
+{
+  "protocol": "Gold-independent lexical audit applied uniformly to all methods, layers and cohorts. Existing eleven-token audit is also retained. Every extracted positive pair was reviewed; this is not a claim of perfect semantic recall. Rejected ambiguous fragments are conservatively excluded. Raw responses remain untouched.",
+  "corrections": {
+    "-eight": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-five": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-four": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-half": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-nine": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-quarter": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-seven": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-six": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-three": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    "-two": {
+      "values": [],
+      "reason": "Hyphen-prefixed continuation fragment; does not unambiguously express the positive cardinal assigned by extraction. Numeric signed literals remain accepted."
+    },
+    ".ONE": {
+      "values": [],
+      "reason": "Programming identifier or punctuation-attached continuation, not a complete cardinal number."
+    },
+    "_half": {
+      "values": [],
+      "reason": "Programming identifier or punctuation-attached continuation, not a complete cardinal number."
+    },
+    "_three": {
+      "values": [],
+      "reason": "Programming identifier or punctuation-attached continuation, not a complete cardinal number."
+    },
+    "_two": {
+      "values": [],
+      "reason": "Programming identifier or punctuation-attached continuation, not a complete cardinal number."
+    },
+    "ifty": {
+      "values": [],
+      "reason": "Incomplete word fragment; completing it into fifty or million invents missing text."
+    },
+    "illion": {
+      "values": [],
+      "reason": "Incomplete word fragment; completing it into fifty or million invents missing text."
+    },
+    "leet": {
+      "values": [],
+      "reason": "Generic word/slang/operator, not an explicitly stated complete numeric value."
+    },
+    "plus": {
+      "values": [],
+      "reason": "Generic word/slang/operator, not an explicitly stated complete numeric value."
+    },
+    "unity": {
+      "values": [],
+      "reason": "Generic word/slang/operator, not an explicitly stated complete numeric value."
+    },
+    "quarters": {
+      "values": [],
+      "reason": "Vague plural or vague quantity expression without an exact count."
+    },
+    "آلاف": {
+      "values": [],
+      "reason": "Vague plural or vague quantity expression without an exact count."
+    },
+    "一堆": {
+      "values": [
+        "1"
+      ],
+      "reason": "Retain the literal one-pile reading. The number of members is unspecified, but the classifier explicitly counts one pile; no unit conversion is performed.",
+      "source": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9476&la=0&powerMode=1"
+    },
+    "一共": {
+      "values": [],
+      "reason": "Conventional idiomatic expression; do not extract the numeral glyph as a numeric substring."
+    },
+    "一手": {
+      "values": [
+        "1"
+      ],
+      "reason": "Retain the literal one-hand reading, explicitly listed first in the Ministry of Education dictionary; polysemy alone does not justify rejecting its explicit cardinal.",
+      "source": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=149698&la=1&powerMode=0"
+    },
+    "一条龙": {
+      "values": [],
+      "reason": "Conventional idiomatic expression; do not extract the numeral glyph as a numeric substring.",
+      "source": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=149122&la=1&powerMode=0"
+    },
+    "一年级": {
+      "values": [],
+      "reason": "First grade is ordinal; ordinals are excluded."
+    },
+    "快三": {
+      "values": [],
+      "reason": "Name of the Kuai San lottery, not an explicitly expressed quantity.",
+      "source": "https://mca.nx.gov.cn/qsdw/nxflcp/gkgs/202206/P020220621542315355838.pdf"
+    },
+    "这样一": {
+      "values": [],
+      "reason": "Incomplete demonstrative phrase; not a self-contained numeric quantity."
+    },
+    "那一": {
+      "values": [],
+      "reason": "Incomplete demonstrative phrase; not a self-contained numeric quantity."
+    },
+    "四五": {
+      "values": [
+        "4",
+        "5"
+      ],
+      "reason": "Four/five, not forty-five; matches the preceding audit convention for 五六 and 一二."
+    },
+    "万": {
+      "values": [
+        "10000"
+      ],
+      "reason": "Complete Chinese/Japanese cardinal ten thousand; a gold-independent false-negative found in the common-cardinal audit."
+    }
+  }
+}

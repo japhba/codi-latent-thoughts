@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5021",
+  "kind": "own",
+  "descriptions": [
+    "Financial data pattern: article lists price statistics with specific figures, establishing a template of financial metrics with dollar amounts and time periods.\n\nStructured financial data continuation: the sentence lists a specific price figure for the 2015 high, following the established pattern of providing exact dollar amounts with currency symbols.\n\nFinal token \"and is $1,200 and is $1,200 and is\" \u2014 mid-sentence repetition of the same price value, suggesting a formatting artifact; next tokens likely continue with a financial metric like \"and is $1,200 and is [another metric].\"\n\"and is $1,200 and is\" ends mid-sentence, immediately expecting a continuation of financial data or a new sentence about the stock's performance.\n\"and is $1,200\" is a repeated value, likely part of a structured financial breakdown, expecting.",
+    "Product listing format with structured fields (title, description, bullet specs) signals continuation of e-commerce product detail content.\n\nThe description is mid-sentence listing product attributes, following a pattern of brand/product details, suggesting more product specifications or a closing statement about the item.\n\nFinal token \"is 2 is\" is mid-sentence in a repeated phrase (\"is 2 is\"), likely a typo/autocorrect artifact; the model expects continuation of the film title or product description, probably \"2 is\" completing a truncated product name or year reference.\n\"2 is 2 is\" suggests a copy error, but the immediate next tokens likely continue with a product name or description phrase.\n\"2 is 3 is\" or a new sentence about the film's cast/crew details is expected next.\n\"3 is\" is the final token, part of a fragmented product detail line, immediately expecting a.",
+    "Structured e-commerce/catalog listing pattern: each section follows \"Part No. Description\" header then filter options, repeating consistently throughout.\n\nList continuation momentum: the \"Part No. Description\" section has just begun its filter menu, mirroring prior sections that each list filter options (e.g., \"by Category,\" \"by Type,\" \"by Color\").\n\nFinal token \"Available\" closes a table cell in a filter menu row, immediately expecting either a closing pipe \"|\" or the next filter option label continuing the product listing structure.\n\"Available\" is the last item in a product availability status cell, likely followed by another filter label or category header.\n\"Available\" ends a table cell, suggesting the next token is \"|\" closing the row, then a new filter category label.\n\"Available\" is the final token of a product availability status line, part of a structured catalog grid.",
+    "Structured table/list pattern: pipe-delimited rows with part numbers, descriptions, and prices, established by the two prior rows.\n\nStructured table continuation: the \"Part # | Description | Price\" format has been consistent, and the \"Part # | Date | Price\" header row signals a new section with similar entries expected.\n\nFinal token \"||\" closes a table cell in the \"Date\" column, immediately requiring the next cell's content \u2014 likely a closing pipe \"|\" followed by another column header or the next row's data.\n\"||\" is a table cell delimiter mid-row, requiring the next token to be a closing pipe \"|\" or additional cell text.\n\"|\" closes the \"Date\" column cell, so the next token is almost certainly a newline or new row beginning with \"|\" or a new header.\n\"||\" is the final token, part of a closing pipe sequence, immediately constraining the next.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and part number columns repeating consistently throughout.\n\nStructured list continuation: the \"Part Numbers\" section has begun with a header row and one row shown; more rows with pipe-delimited fields are expected to follow.\n\nFinal token \"||\" closes a table cell in the \"Part Numbers\" row, immediately requiring the next cell's content \u2014 likely a dollar amount or closing pipe character continuing the row.\n\"||\" is the last token, acting as a cell delimiter in the pipe-delimited table, constraining the next token to be a closing pipe \"|\" or a new row beginning with \"|\".\n\"|\" closes the current row, so the next token is almost certainly a newline followed by another date-pipe-part-number row.\n\"|\" is the final token, closing the second data row, immediately expecting a newline and a new row starting with.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and cell content repeating consistently throughout.\n\nStructured list continuation: the \"pipe-delimited\" table has been listing rows with dates and pipe characters, establishing a strong repetition pattern for the next entry.\n\nFinal token \"$100|\" closes a cell in the last table row; the next token must begin a new row, likely another pipe character \"|\" followed by a dollar amount or closing pipe.\n\"||\" is the cell delimiter, so the next token is almost certainly \"|\" to close the current cell and start a new row.\n\"||$100|\" is the final cell of the last row, so the next token is \"|\" closing that row, then likely another row or end of table.\n\"|\" is the immediate next token, closing the current cell and row.\n\"||\" is the row delimiter, so the next token is."
+  ],
+  "input_sha256": "50d9ea45b87e7ce103ffc3bbd09f531c0de59bb64d7b5e9b4d9de9b392f81e89",
+  "values": [
+    {
+      "quote": "$1,200",
+      "value": "1200"
+    },
+    {
+      "quote": "2015",
+      "value": "2015"
+    },
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "3 is",
+      "value": "3"
+    },
+    {
+      "quote": "$100|",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the descriptions, including currency values and years mentioned as specific figures, while ignoring ordinals and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,200\",\"value\":1200.0},{\"quote\":\"2015\",\"value\":2015.0},{\"quote\":\"2 is\",\"value\":2.0},{\"quote\":\"3 is\",\"value\":3.0},{\"quote\":\"$100|\",\"value\":100.0}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the descriptions, including currency values and years mentioned as specific figures, while ignoring ordinals and identifiers.\"}",
+  "prompt_sha256": "19e322c8d6a13187d6102373d4f845129272e09fa1a15ce05d5ff79a47f6b331"
+}

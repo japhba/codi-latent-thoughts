@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5095",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article consistently presents country-by-country numeric rankings, so a specific country name or ranking position follows.\n\nComparative ranking structure: the text has been listing top-ranked nations with their counts (e.g., \"1st in the world\"), establishing a template of \"Xth in the world.\"\n\nFinal token \"is\" opens a predicate completing the sentence about the US ranking position, immediately requiring a numeric ordinal like \"1st\" or \"second\" followed by \"in the world.\"\n\"1 is\" suggests a formatting artifact; the next token must continue the numeric ranking phrase, likely \"1st\" or a dollar figure.\n\"1 is is is\" appears to be a copy-paste artifact; the immediate next token must be a numeric value or ordinal continuing the financial statistic.\n\"is is is is\" suggests garbled formatting; the sentence requires a numeric continuation like \"2nd\".",
+    "Review structure momentum: the text is mid-sentence in a product review, systematically covering features (design, comfort, materials), now transitioning to performance/verdict.\n\nNumerical rating pattern: the review consistently uses specific scores (\"4.5 out of 5 stars\"), suggesting a numerical rating or evaluative descriptor follows.\n\nFinal token \"60\" is part of an incomplete comparative clause (\"60\" likely continuing a score or rating, e.g., \"60 out of 60 stars\" or \"600\" \u2014 most probably \"60\" is a typo for \"65\"), so the next token completes a numeric rating or review score.\n\"6 is 600\" suggests a technical spec or review score follows immediately.\n\"165\" film review context: the review is mid-sentence evaluating audio quality, so \"206 is 560\".",
+    "Product listing format with bullet-pointed features and marketing copy, establishing a pattern of promotional e-commerce description language throughout.\n\nThe text is mid-sentence completing a product description for the \"Women's Tote Luxury Leather Handbag,\" following the established pattern of listing selling points, materials, and features.\n\nFinal token \"enough\" ends an incomplete clause (\"enough\"), likely part of \"enough to...\" or \"enough for...\" \u2014 a promotional qualifier phrase requiring a continuation such as \"any occasion\" or \"your needs,\" consistent with the sales copy register.\n\"enough\" is a truncated word/phrase demanding immediate completion of the price or availability claim.\n\"enough is available\" or similar retail qualifier follows.\n\"201 is available\" suggests pricing or stock status; product specs table or continuation of feature list is next.\n\"201 is available\" is garbled mid-word,.",
+    "Structured e-commerce product listing pattern: each section follows \"Label: Value\" format with consistent repetition (e.g., \"Item model number: 1000000000000000000\").\n\nStructured table continuation: the price table has established a pattern of product listings with name, price, and shipping info, suggesting more entries or a closing section follows.\n\nFinal token \"Available\" ends a truncated availability status line (\"In stock and available\"), part of a price table row, immediately expecting either a newline, additional product entries, or a closing section header.\n\"Available\" is mid-sentence in a table cell, suggesting the next token continues or closes this availability statement.\n\"Available\" is likely followed by a period or additional table rows.\n\"Available\" is the final token of an incomplete product price table cell.\n\"Available\" closes a price cell, with.",
+    "Structured table/list pattern: price data presented as a series of currency entries (EUR, GBP, CAD, AUD), each with a price and percentage change.\n\nProduct listing format: e-commerce price comparison page with consistent fields \u2014 product name, description, and price data \u2014 suggesting more currency entries or a closing summary follows.\n\nFinal token \"10.00%\" ends a CAD price entry mid-list; the pattern strongly predicts another currency row (e.g., \"AED\" or \"NZD\") or a closing statement about the product's value.\n\"10.00%\" is part of an ongoing price table row, with immediate expectation of either another pipe-delimited row or a new currency symbol.\n\"Available\" closes the CAD entry, suggesting the next token continues the financial data table or transitions to a new section.\n\"Available\" is the final token, completing a status descriptor for CAD pricing.",
+    "Structured table/list pattern: price data presented as a series of currency entries (EUR, GBP, CAD, AUD), each with a price and percentage change.\n\nProduct listing format: e-commerce price comparison page with consistent fields \u2014 product name, description, and price data \u2014 suggesting more currency entries or a closing summary follows.\n\nFinal token \"10.00%\" ends a CAD price entry mid-list; the pattern strongly predicts another currency row (e.g., \"AED\" or \"NZD\") or a closing statement about the product's value.\n\"10.00%\" is part of an ongoing pipe-delimited price table row, with immediate expectation of either another `|`-delimited row or a new product section.\n\"Available\" closes the CAD row, suggesting the next token continues the financial data table or transitions to a new product.\n\"Available\" is the status word closing the CAD."
+  ],
+  "input_sha256": "dd04cf4f66f3923ec15ba9256f865c7239790426225e7de52db9584c8fd461aa",
+  "values": [
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "165",
+      "value": "165"
+    },
+    {
+      "quote": "206",
+      "value": "206"
+    },
+    {
+      "quote": "560",
+      "value": "560"
+    },
+    {
+      "quote": "201",
+      "value": "201"
+    },
+    {
+      "quote": "10.00%",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within garbled or technical strings like '206 is 560'.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1\",\"value\":1},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"600\",\"value\":600},{\"quote\":\"165\",\"value\":165},{\"quote\":\"206\",\"value\":206},{\"quote\":\"560\",\"value\":560},{\"quote\":\"201\",\"value\":201},{\"quote\":\"10.00%\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within garbled or technical strings like '206 is 560'.\"}",
+  "prompt_sha256": "116547480e5bd8b23281ceee5d3fce56533d869d70d749f62347d349c2f5fad1"
+}

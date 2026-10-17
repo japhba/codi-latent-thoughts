@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5099",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: article consistently presents specific percentages and numerical findings, e.g., \"80% of respondents,\" \"85% of respondents,\" establishing expectation for another precise figure.\n\nStudy results continuation: the sentence is mid-report, presenting a specific percentage statistic about the dataset's geographic distribution, requiring completion of the finding.\n\nFinal token \"85%\" is a truncated percentage value mid-sentence (\"85% of the dataset\"), immediately requiring a noun phrase completing what proportion of the dataset represents, likely \"of the dataset\" or similar.\n\"85% of the dataset\" or similar closing phrase to complete the statistical comparison.\n\"85% of 55\" visual data reference suggests a table or chart reference follows, with the hazard ratio value completing the sentence.\n\"52% of 85\" odds ratio result is the final token, part of a paired comparison; the next.",
+    "Plot summary continuation: the text is mid-sentence describing character origins, requiring completion of the family history/family tree detail.\n\nBook metadata and synopsis format: structured fields (Genre, Published, Pages) followed by plot summary, suggesting continuation of character/plot details.\n\nFinal token \"2,\" ends a numerical reference (\"2,\") within a list or clause, immediately requiring continuation of the sentence explaining the family's history or the book's title/origin story.\n\"2,\" likely continues with another number or clause completing the \"2,\" reference to the group's founding or membership count.\n\"2,\" is part of an incomplete sentence \"2,\" suggesting \"50\" or a plot detail follows immediately.\n\"28\" or \"50\" faction names are the film's factions, so \"19 8,\" historical context about the group's origins is \"34\" \u2014 the character name \".",
+    "Book review genre with personal reflection tone, mixing summary and commentary throughout.\n\nThe review is mid-sentence listing the author's personal motivations for reading the book, establishing a pattern of enumerated reasons (\"First... Second... Third...\").\n\nFinal token \"4\" is part of an incomplete enumeration (\"4 friends\" or similar), directly continuing the list of reasons the author read the book; next tokens must complete this count or phrase, likely \"4 friends\" or \"4 women\" or similar relationship-based enumeration.\n\"4\" is a numeral mid-list, requiring immediate completion of the noun phrase describing people the author has shared food with.\n\"4\" \"400\" spiritual/food-themed character traits or relationship categories, continuing the \"400\" metaphorical framework established earlier.\n\"40 friends\" or \"40 friends\" culinary identity \u2014 \"2\" personal narrative \"44\" food\" \u2014.",
+    "Interview/Q&A format established: author answering questions about their book, continuing with personal background and book content.\n\nBook review genre conventions: after introducing the author's credentials and book title, the next expected content is elaboration on the book's themes, gender dynamics, or specific topics covered.\n\nFinal token \"60\" completes \"40\" in \"60\" \u2014 likely a typo for \"50,\" but the sentence structure \"I am a woman of color, and 100\" signals a list or enumeration of personal experiences/identity claims is immediately expected.\n\"50\" likely continues as \"100\" or introduces a list of gendered topics the author addresses.\n\"20\" friends \"40\" experts \u2014 the \"20\" publication count \"100\" gendered perspectives framing sets up a specific statistic or book description to follow.\n\"60\" friends.",
+    "Argumentative momentum: article has built toward revealing the study's findings, now delivering the specific statistic or conclusion about the 200+ people affected.\n\nDomain/genre signals: journalistic health article citing research, expecting elaboration on liability, responsibility, or expert commentary following the statistic.\n\nFinal token \"200 people\" completes a numerical claim (\"200+ people\") that sets up an immediate continuation explaining what those people did or represent \u2014 likely \"who\" or a relative clause detailing their vulnerability or behavior.\n\"200+ people\" is the subject of an incomplete sentence, requiring a predicate explaining the organization's responsibility or the author's personal connection to the statistic.\n\"2200,000\" narrative framing signals the organization's client count; \"225,298\" professional liability insurance figures establish the moral stakes.\n\"225,2 people\".",
+    "Q&A format established: theological question posed, now being answered with structured explanation of the biblical passage's meaning.\n\nNarrative momentum: the answer has explained the passage's context and is now transitioning to practical application \u2014 the church's moral responsibility and the practical advice for the congregation.\n\nFinal token \"200\" completes \"100,\" ending a sentence about the church's mistake; the next tokens will likely continue the analytical explanation of the church's reasoning or introduce a new practical point about the congregation's behavior.\n\"200\" is a typo for \"12,000\" \u2014 the theological reflection on the church's mistake and its practical implications follows immediately.\n\"2095\" case study \"8,325\" prayer meeting\" \u2014 \"2095\" procedural steps \"12,04\" memory card \u2014 spiritual reflection \"20 days\" follows."
+  ],
+  "input_sha256": "a3245e57f393f68f93c43111583389dab32b4b77a860246127841210e077d60c",
+  "values": [
+    {
+      "quote": "80%",
+      "value": "80"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "52%",
+      "value": "52"
+    },
+    {
+      "quote": "2,",
+      "value": "2"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "19 8",
+      "value": "198"
+    },
+    {
+      "quote": "34",
+      "value": "34"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "44",
+      "value": "44"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2200,000",
+      "value": "2200000"
+    },
+    {
+      "quote": "225,298",
+      "value": "225298"
+    },
+    {
+      "quote": "225,2",
+      "value": "2252"
+    },
+    {
+      "quote": "12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "2095",
+      "value": "2095"
+    },
+    {
+      "quote": "8,325",
+      "value": "8325"
+    },
+    {
+      "quote": "12,04",
+      "value": "1204"
+    },
+    {
+      "quote": "20 days",
+      "value": "20"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and formatted numbers from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"80%\",\"value\":80},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"55\",\"value\":55},{\"quote\":\"52%\",\"value\":52},{\"quote\":\"2,\",\"value\":2},{\"quote\":\"28\",\"value\":28},{\"quote\":\"50\",\"value\":50},{\"quote\":\"19 8\",\"value\":198},{\"quote\":\"34\",\"value\":34},{\"quote\":\"4\",\"value\":4},{\"quote\":\"400\",\"value\":400},{\"quote\":\"40\",\"value\":40},{\"quote\":\"44\",\"value\":44},{\"quote\":\"60\",\"value\":60},{\"quote\":\"100\",\"value\":100},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"2200,000\",\"value\":2200000},{\"quote\":\"225,298\",\"value\":225298},{\"quote\":\"225,2\",\"value\":225.2},{\"quote\":\"12,000\",\"value\":12000},{\"quote\":\"2095\",\"value\":2095},{\"quote\":\"8,325\",\"value\":8325},{\"quote\":\"12,04\",\"value\":12.04},{\"quote\":\"20 days\",\"value\":20}],\"justification\":\"Extracted explicit numeric literals, percentages, and formatted numbers from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "da2ce44f382faebd4921f6e76b4e705eacff8963b48a2ee0c26dcd01aeb25ebf"
+}

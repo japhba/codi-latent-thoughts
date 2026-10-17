@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5244",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating total cost of 100 tickets using price formula (15 + 0.05x).\n\nThe solution structure requires completing the arithmetic expression: 100 tickets \u00d7 (15 + 0.05 \u00d7 100) = 1500, so the answer is expected to be a specific dollar amount.\n\nFinal token \"is\" opens a declarative statement completing the cost calculation, immediately requiring a numerical dollar value (likely \"$1500\") as the direct object.\n</explanation>",
+    "Mathematical calculation in progress: total cost = 50,000 \u00d7 10 cents = 50,000 \u00d7 $0.10 = $5,000, so the next tokens must complete this arithmetic.\n\nMultiple-choice answer selection expected: the calculated result ($5,000) must be compared to one of the given options (A\u2013D), pointing toward option A.\n\nFinal token \"Add\" begins the arithmetic expression \"50,000 \u00d7 10 cents,\" requiring the numerical result \"$5,000\" immediately next, followed by explanation of which answer matches.\n</explanation>",
+    "Mathematical problem-solving context: calculating total cost of 100 paint brushes, using 5 brushes \u00d7 $15 each = $750.\n\nStep-by-step solution structure: the response is walking through the arithmetic sequentially, having stated \"5 brushes \u00d7 $15 each = $8...\" requiring completion of the multiplication result.\n\nFinal token \"$8\" is a truncated dollar amount mid-calculation, immediately requiring the remaining digits to complete \"$850\" or \"$850\" \u2014 the correct total cost of 5 \u00d7 $15 = $750, so likely \"$850\" or \"$850\" is already stated, suggesting the next token continues the arithmetic explanation or transitions to the next step.\n</explanation>",
+    "Math word problem solution in progress: part (a) requires total cost calculation, part (b) requires profit calculation using revenue minus cost.\n\nThe solution is mid-calculation, having established the pattern of multiplying each item by its price (e.g., \"10\u00d7$0.25=2.50, 10\u00d7$0.10=1.00, 10\u00d7$0.05=0.50\").\n\nThe final token \"$87\" is an incomplete dollar amount mid-sentence, immediately requiring continuation of the arithmetic sum (e.g., \"and $0.05\u00d710=0.50, so total cost is $87.50\" or similar).\n</explanation>",
+    "Mathematical problem-solving context: calculating total cost of 500 tickets \u00d7 $0.08 = $40, requiring completion of the arithmetic expression.\n\nStep-by-step solution structure: the worked example follows a clear pattern (identify \u2192 calculate \u2192 state answer), so the final answer \"$40\" is expected next.\n\nThe final token \"$1.25\" is a partial dollar amount mid-expression, immediately requiring the remaining digits of the cost (likely \"0\" to complete \"$1.250\" or \"$1.25\"), followed by the concluding sentence stating the total cost.\n</explanation>",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough with labeled sections (e.g., \"First,\" \"Second,\" \"Third\") and numerical calculations.\n\nThe solution is mid-calculation, having computed total cost (178) and savings (178 + 16 = 194), now completing the final arithmetic step of subtracting the $16 savings from the $178 total.\n\nFinal token \"178\" is the result of the savings calculation, immediately requiring the arithmetic expression \"178 - 16 = 162\" to complete the savings formula and conclude the solution.\n</explanation>"
+  ],
+  "input_sha256": "3e35cd345bc4d22ef60a0c2eb9c1be5f060aae5d631b98eb6a9edfe2d338052d",
+  "values": [
+    {
+      "quote": "100 tickets",
+      "value": "100"
+    },
+    {
+      "quote": "15 + 0.05x",
+      "value": "15"
+    },
+    {
+      "quote": "15 + 0.05x",
+      "value": "0.05"
+    },
+    {
+      "quote": "100 tickets \u00d7 (15 + 0.05 \u00d7 100) = 1500",
+      "value": "1500"
+    },
+    {
+      "quote": "50,000 \u00d7 10 cents",
+      "value": "50000"
+    },
+    {
+      "quote": "50,000 \u00d7 10 cents",
+      "value": "10"
+    },
+    {
+      "quote": "50,000 \u00d7 $0.10 = $5,000",
+      "value": "0.1"
+    },
+    {
+      "quote": "50,000 \u00d7 $0.10 = $5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "100 paint brushes",
+      "value": "100"
+    },
+    {
+      "quote": "5 brushes \u00d7 $15 each = $750",
+      "value": "5"
+    },
+    {
+      "quote": "5 brushes \u00d7 $15 each = $750",
+      "value": "15"
+    },
+    {
+      "quote": "5 brushes \u00d7 $15 each = $750",
+      "value": "750"
+    },
+    {
+      "quote": "10\u00d7$0.25=2.50",
+      "value": "10"
+    },
+    {
+      "quote": "10\u00d7$0.25=2.50",
+      "value": "0.25"
+    },
+    {
+      "quote": "10\u00d7$0.25=2.50",
+      "value": "2.5"
+    },
+    {
+      "quote": "10\u00d7$0.10=1.00",
+      "value": "0.1"
+    },
+    {
+      "quote": "10\u00d7$0.10=1.00",
+      "value": "1"
+    },
+    {
+      "quote": "10\u00d7$0.05=0.50",
+      "value": "0.05"
+    },
+    {
+      "quote": "10\u00d7$0.05=0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "total cost is $87.50",
+      "value": "87.5"
+    },
+    {
+      "quote": "500 tickets \u00d7 $0.08 = $40",
+      "value": "500"
+    },
+    {
+      "quote": "500 tickets \u00d7 $0.08 = $40",
+      "value": "0.08"
+    },
+    {
+      "quote": "500 tickets \u00d7 $0.08 = $40",
+      "value": "40"
+    },
+    {
+      "quote": "$1.25",
+      "value": "1.25"
+    },
+    {
+      "quote": "total cost (178)",
+      "value": "178"
+    },
+    {
+      "quote": "178 + 16 = 194",
+      "value": "16"
+    },
+    {
+      "quote": "178 + 16 = 194",
+      "value": "194"
+    },
+    {
+      "quote": "178 - 16 = 162",
+      "value": "162"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions while maintaining exact quotes.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100 tickets\",\"value\":100},{\"quote\":\"15 + 0.05x\",\"value\":15},{\"quote\":\"15 + 0.05x\",\"value\":0.05},{\"quote\":\"100 tickets \\u00D7 (15 + 0.05 \\u00D7 100) = 1500\",\"value\":1500},{\"quote\":\"50,000 \\u00D7 10 cents\",\"value\":50000},{\"quote\":\"50,000 \\u00D7 10 cents\",\"value\":10},{\"quote\":\"50,000 \\u00D7 $0.10 = $5,000\",\"value\":0.1},{\"quote\":\"50,000 \\u00D7 $0.10 = $5,000\",\"value\":5000},{\"quote\":\"100 paint brushes\",\"value\":100},{\"quote\":\"5 brushes \\u00D7 $15 each = $750\",\"value\":5},{\"quote\":\"5 brushes \\u00D7 $15 each = $750\",\"value\":15},{\"quote\":\"5 brushes \\u00D7 $15 each = $750\",\"value\":750},{\"quote\":\"10\\u00D7$0.25=2.50\",\"value\":10},{\"quote\":\"10\\u00D7$0.25=2.50\",\"value\":0.25},{\"quote\":\"10\\u00D7$0.25=2.50\",\"value\":2.5},{\"quote\":\"10\\u00D7$0.10=1.00\",\"value\":0.1},{\"quote\":\"10\\u00D7$0.10=1.00\",\"value\":1},{\"quote\":\"10\\u00D7$0.05=0.50\",\"value\":0.05},{\"quote\":\"10\\u00D7$0.05=0.50\",\"value\":0.5},{\"quote\":\"total cost is $87.50\",\"value\":87.5},{\"quote\":\"500 tickets \\u00D7 $0.08 = $40\",\"value\":500},{\"quote\":\"500 tickets \\u00D7 $0.08 = $40\",\"value\":0.08},{\"quote\":\"500 tickets \\u00D7 $0.08 = $40\",\"value\":40},{\"quote\":\"$1.25\",\"value\":1.25},{\"quote\":\"total cost (178)\",\"value\":178},{\"quote\":\"178 + 16 = 194\",\"value\":16},{\"quote\":\"178 + 16 = 194\",\"value\":194},{\"quote\":\"178 - 16 = 162\",\"value\":162}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions while maintaining exact quotes.\"}",
+  "prompt_sha256": "a39b6bde7438b3b66ff5e84efd80c20dc15a66d96b64fe82237bf00dcf70c1f6"
+}

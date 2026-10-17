@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5129",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: city-by-city numeric data being enumerated, with \"New York\" and \"Los Angeles\" already given, implying more cities follow.\n\nStructured data continuation: the text is mid-sentence listing city counts with numeric values, establishing a repeating format of \"City, State: number.\"\n\nFinal token \"3.\" is a truncated decimal number mid-sentence (\"The number of cities in the United States is 3.\"), immediately requiring digits to complete the count, likely \"3.5\" or similar, followed by more city entries.\n\"3.\" is incomplete numeric value requiring continuation of the decimal digit sequence.\n\"3.\" is part of a numeric hazard rating or city count statistic.\n\"3.\" is \"31\" or similar numeric value completing the table/list entry for a city.\n\"316\" or numeric hazard rating follows \"4.\"\n\"4.\" is \"5.\" \u2014 the.",
+    "Character introduction pattern: the review systematically describes each cast member's role and traits, now mid-sentence on the wife's character.\n\nReview structure momentum: the text follows a consistent pattern of character description \u2192 role summary \u2192 quoted dialogue, suggesting more character traits or a quoted line follows.\n\nFinal token \"30,\" is mid-sentence within a list of the wife's qualities (\"intelligent, independent, and a little bit of a troublemaker\"), immediately requiring continuation of her character description or a concluding evaluative clause.\n\"30,\" likely begins a numeric rating or rating descriptor (e.g., \"30,000\" or \"300\"), suggesting a rating or score follows.\n\"300\" or \"30\" relationship advice article context suggests analytical commentary continues.\n\"100\" character list \"30,\" is \"1030\" \u2014 garbled formatting suggests.",
+    "Listicle format with numbered tips and recipe suggestions establishes continuation of practical cooking advice content.\n\nThe review is mid-sentence describing a specific recipe's serving instructions, with \"4\" clearly beginning a numeric quantity (likely \"4 minutes\" or similar measurement) for the video duration.\n\nFinal token \"4\" is the start of an incomplete number within a measurement phrase (\"about 4\"), immediately requiring continuation of digits or a unit like \"minutes\" to complete the serving time specification.\n\"4\" likely continues as \"45 minutes\" or similar numeric value.\n\"4\" is a truncated number mid-sentence, part of a product recommendation or visual duration descriptor.\n\"45\" or \"4,5\" rating context suggests \"45 minutes\" or similar sensory comparison follows.\n\"4\" is \"473\" garbled text artifact; \"4\" is \"25.4 seconds\" gar.",
+    "List/article format established: numbered tips or categorized sections expected, continuing the \"6 Ways\" listicle structure with more numbered items.\n\nThe article is mid-list, having covered \"1. Read the News\" with a brief description; additional numbered sections (2, 3, etc.) are strongly anticipated to follow.\n\nFinal token \"65\" ends an incomplete sentence (\"65\") referencing the book's page count, immediately requiring continuation of that number or a related noun phrase like \"65 pages\" or \"65 articles.\"\n\"65\" is a truncated numeric reference mid-sentence, likely completing a list of book contents or recommendations.\n\"65\" category label or similar rating/category follows.\n\"65\" food list or social media tips \"155\" \u2014 the \"555\" is garbled \"159\" \u2014 instructional list \"39\" \u2014 the store.",
+    "Statistical/list continuation pattern: article presents ranked news headlines with view counts, establishing a pattern of \"headline + number\" entries.\n\nReview score context: the final sentence introduces a numerical ranking (\"third in the review\"), implying a source citation or publication name follows.\n\nFinal token \"2,000,000\" ends a comparative ranking clause (\"third in the review of 2,000,000\"), immediately expecting a news outlet name or source attribution to complete the sentence.\n\"2000,000\" is likely a formatting artifact; analytical commentary or additional ranking context follows.\n\"20,000,009\" or similar publication metric is expected next.\n\"2,098,009\" visual media regulatory body \u2014 regulatory news outlet \"2,098 people\" or similar score \"10.5\" \u2014.",
+    "Structured list pattern: each entry follows \"CJA [number] [description]\" format, establishing strong continuation expectation for more case entries.\n\nLegal Q&A forum context: the text is a user-submitted question about California traffic tickets, with the final entry beginning a new case reference requiring a description of the complaint's nature.\n\nFinal token \"7\" ends an incomplete sentence (\"75 mph\" or similar speed threshold), part of a news-style citation; next tokens must complete the speed figure or continue the procedural description of the complaint.\n\"75 mph\" or similar numeric/legal detail is immediately expected.\n\"75\" is a truncated reference to a speed limit, part of a list of citation types; contact information or additional case details follow.\n\"75\" list item is \"773 minutes\" \u2014 legal reference list format suggests numbered procedural steps or citation entries follow \"37 minutes\" instruction."
+  ],
+  "input_sha256": "7e12b501c12a0c79b75fbac84ae8c2c4efa9ee40eaa455778433bcb5777ffa40",
+  "values": [
+    {
+      "quote": "3.",
+      "value": "3"
+    },
+    {
+      "quote": "30,",
+      "value": "30"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "2,000,000",
+      "value": "2000000"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals found in the descriptions, treating truncated or punctuation-adjacent numbers as their literal values as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3.\",\"value\":3},{\"quote\":\"30,\",\"value\":30},{\"quote\":\"4\",\"value\":4},{\"quote\":\"65\",\"value\":65},{\"quote\":\"2,000,000\",\"value\":2000000},{\"quote\":\"7\",\"value\":7}],\"justification\":\"Extracted all explicit numeric literals found in the descriptions, treating truncated or punctuation-adjacent numbers as their literal values as per instructions.\"}",
+  "prompt_sha256": "fd7564622c7f199f9acc145249c9a8cd1919065df503aaa0b5dc2826c896fed0"
+}

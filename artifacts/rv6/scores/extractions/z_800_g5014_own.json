@@ -1,0 +1,89 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5014",
+  "kind": "own",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard data.\n\nDomain-specific data presentation: the article systematically presents hazard statistics for each location, with each hazard type receiving a precise numerical hazard ratio.\n\nFinal token \"is\" opens a predicate completing the sentence about the 2019 crash's hazard rate, requiring an immediate numeric value (likely a fraction like \"1 in X,000\") consistent with the established statistical pattern.",
+    "Narrative momentum of personal memory: author is recounting specific film moments, transitioning from scene description to character backstory, now detailing family/friend dynamics.\n\nRecipe/food blog genre conventions: the text follows a structured film review format with character descriptions, now shifting to romantic/emotional scene details and memory, suggesting more nostalgic or descriptive content ahead.\n\nFinal token \"1200 was 1200 was 1200\" (likely a typo mid-sentence) \u2014 \"1200 minutes\" or \"120 minutes\" \u2014 part of a time reference (\"120 minutes later\"), immediately constraining next tokens to complete this memory about the wedding scene or time passed.",
+    "Recipe blog format with numbered steps and food pairing suggestions, establishing a pattern of practical cooking advice with romantic/food tone throughout.\n\nNarrative momentum of the \"How to Cook\" section: the text is mid-example, describing a romantic pairing scenario with specific movie references, building toward actionable romantic tips and ingredient suggestions.\n\nFinal token \"2\" is part of \"2000\" (20 minutes) or \"20 minutes\" \u2014 mid-sentence \"20 minutes\" or \"2000\" \u2014 the \"20\" is an incomplete number, likely continuing a quantity like \"20 minutes\" or \"2000,\" describing the romantic movie pairing's duration or a food item count.",
+    "Listicle format with numbered sections (1, 2, 3) and personal anecdotes establishes a pattern of describing romantic movie moments with practical tips; the next content continues this instructional, enthusiastic tone.\n\nNarrative momentum: the author is mid-description of a specific film scene (The River Wild), detailing memories and movie moments, with the romantic pairing of \"The River Wild\" and \"The River Wild\" just introduced.\n\nFinal token \"600\" is part of \"60\" (time \"100 minutes\" or \"60 minutes\"), mid-sentence within a time reference (\"600 minutes\" or \"60 minutes\"), requiring completion of the duration and likely a transition to practical movie-watching advice.",
+    "Article continues with expert commentary and statistical evidence, building toward practical advice or warnings about medical professionals' liability and safety risks.\n\nNarrative momentum: the anecdote about the 2016 study and the statistic \"100 times more likely\" sets up a concluding argument about why doctors should be aware of dangers, with the article expected to reinforce this point.\n\nFinal token \"100\" is mid-sentence (\"200 per day, about 100\"), completing \"100 per day, about 100\" \u2014 the number \"200\" is the start of a statistic (\"100 per day, about 400 per hour\"), and the next tokens must complete this figure and likely continue with a concluding recommendation or expert quote.",
+    "Legal Q&A format with structured analysis: question posed, answer begun, now providing detailed legal reasoning with practical implications.\n\nThe text is mid-explanation of the rule's practical application, having stated the 10,000-foot rule and cited the 10,000-foot-per-minute threshold \u2014 the next step is completing the legal consequence or procedural guidance.\n\nFinal token \"10,400 per minute is 8,000 per 1,040 feet per minute, approximately 10,400 per 7,000 feet per minute\" \u2014 this is a calculation mid-sentence, likely continuing with \"per day\" or transitioning to the legal consequence of the 800-foot-per-minute threshold."
+  ],
+  "input_sha256": "3af3e9d0d471e8be2a22ff41b7616a1a21f65b161a514efe6a6fa4be7b3ffacf",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "0.0001"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "1e-05"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "2016",
+      "value": "2016"
+    },
+    {
+      "quote": "100 times more likely",
+      "value": "100"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "10,000-foot",
+      "value": "10000"
+    },
+    {
+      "quote": "10,000-foot-per-minute",
+      "value": "10000"
+    },
+    {
+      "quote": "10,400",
+      "value": "10400"
+    },
+    {
+      "quote": "8,000",
+      "value": "8000"
+    },
+    {
+      "quote": "1,040",
+      "value": "1040"
+    },
+    {
+      "quote": "7,000",
+      "value": "7000"
+    },
+    {
+      "quote": "800-foot-per-minute",
+      "value": "800"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and fractions from the provided descriptions, including statistical ratios, years, and measurement values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":0.0001},{\"quote\":\"1 in 100,000\",\"value\":0.00001},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"2\",\"value\":2},{\"quote\":\"600\",\"value\":600},{\"quote\":\"2016\",\"value\":2016},{\"quote\":\"100 times more likely\",\"value\":100},{\"quote\":\"100\",\"value\":100},{\"quote\":\"200\",\"value\":200},{\"quote\":\"10,000-foot\",\"value\":10000},{\"quote\":\"10,000-foot-per-minute\",\"value\":10000},{\"quote\":\"10,400\",\"value\":10400},{\"quote\":\"8,000\",\"value\":8000},{\"quote\":\"1,040\",\"value\":1040},{\"quote\":\"7,000\",\"value\":7000},{\"quote\":\"800-foot-per-minute\",\"value\":800}],\"justification\":\"Extracted explicit numeric literals and fractions from the provided descriptions, including statistical ratios, years, and measurement values.\"}",
+  "prompt_sha256": "aa2ea536ed2883b6e93ba1b4e25945fe7c3f278e1d203c6f83f4b000525d3ec6"
+}

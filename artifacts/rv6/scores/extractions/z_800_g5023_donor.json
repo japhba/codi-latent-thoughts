@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5023",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: article consistently presents precise numerical comparisons (rates, percentages, years), so a specific figure is expected next.\n\nNarrative momentum of ranking: the text is mid-sentence describing the US's top 10 most dangerous states, with California and New York already named, implying more states or a concluding statistic follows.\n\nFinal token \"is\" opens a predicate completing \"the rate is,\" requiring an immediate numerical value (likely a decimal figure in deaths per 100,000) consistent with the established statistical format used throughout.",
+    "Character-by-character film review format established, with each entry describing personality traits and relationships; the pattern predicts continuation of this descriptive profile for \"The Mother.\"\n\nThe review is mid-sentence describing The Mother's romantic/familial qualities, with \"900 was a big fan of The Mother\" signaling a personal connection, suggesting more character analysis or film recommendations follow.\n\nFinal token \"900 was 900 was 900 was\" (likely a typo mid-sentence) ends mid-thought after \"900 was 900 was 900 was,\" immediately requiring completion of the clause describing what 900's character was or did, likely a positive descriptor of the film's qualities.",
+    "Product review/description format with structured metadata (title, author, date) followed by a detailed film description, now transitioning to technical specifications and film details.\n\nThe text is mid-sentence describing the film's qualities and historical context, building toward a recommendation or further technical praise \u2014 the review momentum suggests continued elaboration on the film's merits or technical achievements.\n\nFinal token \"120 is 150 is 100 is 130 is 120\" (likely garbled \"150 is 18 is 130 is 100 is 120\"), mid-sentence listing product qualities; \"100 is 120\" suggests a product name or specification, and the sentence about \"18 best lenses\" is incomplete, expecting continuation of lens/technical specifications.",
+    "Product specification/description format: technical specs listed first, then prose description, now continuing with detailed weight/size data and brand history.\n\nContinuation of factual product review pattern: the text has been systematically covering features, materials, and comparisons; a weight specification or additional material detail is expected next.\n\nFinal token \"adequate\" ends a clause about weight (\"adequate\"), part of a sentence about weight being \"adequate,\" likely continuing with a comparative or qualifying phrase such as \"for its size\" or \"to be lightweight.\"",
+    "Statistical/numerical pattern: article consistently presents precise data points (weight, dimensions, rankings), so a specific weight value or price figure is expected next.\n\nProduct description momentum: the text is mid-sentence describing the 2019 model's specifications, following a pattern of comparing to predecessor models with performance metrics.\n\nFinal token \"adequate is considered adequate is weight is adequate is weight is considered adequate is\" \u2014 a garbled/typo repetition mid-sentence, suggesting the next tokens will complete the weight specification, likely a dollar amount or metric value continuing the \"considered adequate is [weight]\" construction.",
+    "Statistical data pattern: article consistently presents precise numerical comparisons (e.g., \"19.5 million,\" \"1.5 million,\" \"1.2 million\"), so a specific figure is expected next.\n\nNarrative momentum of ranking: the text is mid-sentence describing the U.S. as top producer, with a specific metric (annual production volume) being introduced, requiring completion of that statistic.\n\nFinal token \"is\" opens a predicate clause mid-sentence (\"annual production volume is\"), immediately requiring a dollar figure or numerical value (e.g., \"1.2 million barrels\") to complete the statistic."
+  ],
+  "input_sha256": "6e81205547844628b85c6f24d61a1199ecea44fe08f341f7d9963c2d90236966",
+  "values": [
+    {
+      "quote": "top 10",
+      "value": "10"
+    },
+    {
+      "quote": "900 was",
+      "value": "900"
+    },
+    {
+      "quote": "120 is",
+      "value": "120"
+    },
+    {
+      "quote": "150 is",
+      "value": "150"
+    },
+    {
+      "quote": "100 is",
+      "value": "100"
+    },
+    {
+      "quote": "130 is",
+      "value": "130"
+    },
+    {
+      "quote": "18 best lenses",
+      "value": "18"
+    },
+    {
+      "quote": "2019 model",
+      "value": "2019"
+    },
+    {
+      "quote": "19.5 million",
+      "value": "19500000"
+    },
+    {
+      "quote": "1.5 million",
+      "value": "1500000"
+    },
+    {
+      "quote": "1.2 million",
+      "value": "1200000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out values from the provided descriptions, including large numbers like 'million' and specific identifiers like 'top 10' or '2019 model'.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"top 10\",\"value\":10},{\"quote\":\"900 was\",\"value\":900},{\"quote\":\"120 is\",\"value\":120},{\"quote\":\"150 is\",\"value\":150},{\"quote\":\"100 is\",\"value\":100},{\"quote\":\"130 is\",\"value\":130},{\"quote\":\"18 best lenses\",\"value\":18},{\"quote\":\"2019 model\",\"value\":2019},{\"quote\":\"19.5 million\",\"value\":19500000},{\"quote\":\"1.5 million\",\"value\":1500000},{\"quote\":\"1.2 million\",\"value\":1200000}],\"justification\":\"Extracted explicit numeric literals and spelled-out values from the provided descriptions, including large numbers like 'million' and specific identifiers like 'top 10' or '2019 model'.\"}",
+  "prompt_sha256": "bceb7ca869055251cfa7cf0e4f86d2af4d95864178031a3c4ae695de868849c8"
+}

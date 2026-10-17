@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5056",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: solving x + (x + 15) = 75.\n\nThe equation x + (x + 15) = 70 demands a specific integer solution, constraining the answer to a plausible integer.\n\nFinal token \"is\" introduces the solution statement, immediately requiring the numerical answer \"30\" (i.e., \"75 - 15 = 60\") to complete the word problem solution.\n(70 \u2212 15) / 2 = 30.\n(70 \u2212 15) = x, so the next token must be the integer \"30\" representing the smaller number.\n(70 \u2212 15) / 2 = 30, completing the algebraic setup.\n(75 \u2212 15) = x, requiring the unknown value of the second person's.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured template.\n\nThe equation x + (x + 15) = 75 must be solved; the solution is expected to show setting up and solving x = 60.\n\nFinal token \"had been\" begins the algebraic equation setup, immediately requiring the expression \"70 - 15 = 55\" or similar arithmetic manipulation showing the total minus difference equals the unknown.\n(70 \u2212 15) = equation to solve for x.\nFinal token \"had been\" introduces the algebraic equation setup, requiring the next step: \"70 \u2212 15 = two people\" or similar intermediate equation showing the combined sum minus 15 difference.\n(x + x + 15) = 70 \u2212 15 = target equation before solving for x.\n(7.",
+    "Math word problem solution format: algebraic setup expected, showing variable substitution steps.\n\nThe equation x + (x + 15) = 105 must be solved, guiding the algebraic reasoning.\n\nFinal token \"5\" begins the algebraic expression \"55\" or \"55 - 15\" representing the total minus the difference, completing the equation setup \"x + 15 = 85\" or similar constraint.\n(55 minus 15 added together).\n(75 \u2212 15) equation being constructed to solve for x, requiring the algebraic manipulation to follow immediately.\nFinal token \"5\" is mid-sentence in a mathematical explanation of equation simplification, likely continuing as \"55\" representing the total minus 15 between the two people.\n(105 \u2212 15) minus error, forming the equation before solving for x.",
+    "Math word problem solution format: step-by-step algebraic reasoning with word-to-equation translation.\n\nThe word problem setup requires completing the algebraic equation: x + (x + 7) = 55, then solving for x.\n\nFinal token \"55\" is mid-sentence in a mathematical explanation, immediately requiring the completion of the equation setup, likely \"less than the sum of their ages\" or \"total minus 7 more.\"\nFinal token \"55\" is the result of subtracting the difference 7 from the total sum, mid-sentence requiring the algebraic equation or next step.\n55 represents the simplified equation before solving for the two equal parts.\n(55 represents the equation without the extra 7), so the next tokens must complete the algebraic reasoning, e.g., \"two people\" or \"each one is.\"\n(55 pairs the two brothers' ages.",
+    "Math word problem solution format: algebraic setup with variable substitution, showing step-by-step reasoning toward finding the answer.\n\nThe equation x + (x + 11) = 87 has been established, and the solution is now solving for x by subtracting the two ages.\n\nFinal token \"p\" is mid-word, part of \"p\" beginning \"the average\" or completing \"p\" as part of the algebraic expression \"550-87 = difference,\" requiring the completion of the equation setup showing the middle of the sum.\n(550 + x) = x + (x + 87) = total difference, leading to solving for x.\nFinal token \"p\" is mid-sentence in a mathematical explanation, immediately requiring the division result or completing the algebraic equation.\n(750-11) / 2 = middle age between them.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, now reaching the final calculation step.\n\nThe equation x + (x + 15) = 76 has been set up and simplified to x = 31, so the solution must state the answer and confirm it.\n\nFinal token \"15 s. . . . .s.\" closes the algebraic equation setup, immediately requiring the numerical result \"The smaller number is 31\" or similar concluding statement.\nFinal token \"27 points.\" ends the equation solving step, requiring the conclusion identifying the equal numbers.\nFinal token \"s. 30 + x = 76 / (x + x) = ...\" is the closing summary of the algebraic derivation, demanding the solved value \"31\" for the smaller number.\nFinal token \"76 points.\" ends the equation expression, immediately requiring the numerical answer."
+  ],
+  "input_sha256": "7a78af47dbb7b4019e22f77c8f6208799262e19cd9cd39642f91725b89c1374b",
+  "values": [
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "87",
+      "value": "87"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "750",
+      "value": "750"
+    },
+    {
+      "quote": "76",
+      "value": "76"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    }
+  ],
+  "justification": "Extracted distinct numeric values from the provided descriptions, including explicit literals, spelled-out numbers, and results of unambiguous arithmetic expressions like (70-15)/2.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15\",\"value\":15},{\"quote\":\"75\",\"value\":75},{\"quote\":\"70\",\"value\":70},{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2\",\"value\":2},{\"quote\":\"60\",\"value\":60},{\"quote\":\"55\",\"value\":55},{\"quote\":\"7\",\"value\":7},{\"quote\":\"105\",\"value\":105},{\"quote\":\"85\",\"value\":85},{\"quote\":\"11\",\"value\":11},{\"quote\":\"87\",\"value\":87},{\"quote\":\"550\",\"value\":550},{\"quote\":\"750\",\"value\":750},{\"quote\":\"76\",\"value\":76},{\"quote\":\"31\",\"value\":31},{\"quote\":\"27\",\"value\":27}],\"justification\":\"Extracted distinct numeric values from the provided descriptions, including explicit literals, spelled-out numbers, and results of unambiguous arithmetic expressions like (70-15)/2.\"}",
+  "prompt_sha256": "783863f4fff592f30e93c5de4252ced3e43df8692f0353d5ebb604238fe2e2a8"
+}

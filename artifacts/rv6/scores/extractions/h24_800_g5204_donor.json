@@ -1,0 +1,157 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5204",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total $200 minus cost of books ($150) and stationery ($20) must be calculated.\n\nThe problem follows a standard \"remaining money\" calculation structure, expecting a specific numeric answer representing remaining funds after accounting for all listed costs.\n\nFinal token \"The amount of money remaining is $P\" demands an immediate specific dollar amount (likely \"200\" or similar integer) representing the remaining balance after $200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170, completing the arithmetic: $200 \u2212 $180 \u2212 $10\u00d710 = $20 remaining after books and stationery costs.",
+    "Mathematical word problem requiring arithmetic completion: 12\u00d7$10 + $2 = $120, so the next token must be the calculated total cost.\n\nThe structured arithmetic expression \"12\u00d7$10 + $2\" demands a specific numerical answer, as the arithmetic must resolve to $120 (12\u00d710) plus the remaining 2.\n\nFinal token \"had\" completes \"The total cost was $\", immediately requiring the integer \"$120\" (12\u00d710) followed by the remaining 2 added for the 2 coins, then likely \"+$2\" or \"= $120\" to confirm the equation: 12\u00d710 + 2 = $120 \u2212 $2 = $98.",
+    "Math word problem solution in progress: arithmetic calculation requires completing the arithmetic expression 5\u00d7$2 + 10\u00d7$10 = $130.\n\nThe structured solution format demands showing the arithmetic: 5\u00d7$20 + 10\u00d7$7 = $130, then checking remaining money ($150 \u2212 $130 = $20) to see if it fits the budget.\n\nFinal token \"13\" is the beginning of the total cost \"$130\" (5\u00d720 + 10\u00d72), immediately requiring \"0\" to complete the number, then likely \"so the total cost is $130\" or similar phrasing confirming the arithmetic result.",
+    "Word problem solution format: structured step-by-step arithmetic walkthrough, following \"First...Then...Next\" sequence pattern established in the problem statement.\n\nThe arithmetic operation requires completing the total cost calculation: 8 items \u00d7 $15 + $20 = $130, so the next step must state remaining change (change = $200 \u2212 $130 = $70) and then solve for remaining money.\n\nFinal token \"$130\" is the computed total spent, completing the arithmetic result of the sum of items (8\u00d7$15 + $20), immediately expecting the sentence continuation like \"in total\" or \"in total, so the change remaining is $X\" to state remaining change before solving for change amount.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough, following \"First...Then...\" pattern with arithmetic operations.\n\nThe arithmetic expression \"$100 + 150 x 2 = $1500\" is being completed, requiring the total cost calculation to show remaining change after subtracting $150 from $100 + $130.\n\nFinal token \"p\" is the truncated word \"pennies\" (matching earlier \"$130\"), completing the arithmetic expression \"$130 + $50 = $1500\" \u2014 next tokens must be \"ennies\" to finish the total cost statement, then continue with change calculation: $130 - $50 = $200 remaining change after selling 10 items.",
+    "Word problem format established: first problem solved, now a second problem begins with identical structure (items, prices, total), requiring a parallel arithmetic solution.\n\nThe second problem follows the same template: \"You spent $X on items and $Y on items. Total amount owed is $Z\" \u2014 the remaining sum calculation (500 + $1500 = $2000) is expected next.\n\nFinal token \"dollars.\" closes the problem statement, immediately requiring the change amount \"$2500\" and then the change owed calculation: \"$2500 - $1500 = $1000\" to find change received from the $1000 bill."
+  ],
+  "input_sha256": "d6a80c2f282827192900afb5a5f8909c262ae336693f0e3744b08ad84dd6e5f1",
+  "values": [
+    {
+      "quote": "$200",
+      "value": "200"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170",
+      "value": "200"
+    },
+    {
+      "quote": "200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170",
+      "value": "20"
+    },
+    {
+      "quote": "200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170",
+      "value": "1"
+    },
+    {
+      "quote": "200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170",
+      "value": "10"
+    },
+    {
+      "quote": "200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170",
+      "value": "5"
+    },
+    {
+      "quote": "200 \u2212 (20\u00d71) \u2212 (10\u00d75) = $170",
+      "value": "170"
+    },
+    {
+      "quote": "$200 \u2212 $180 \u2212 $10\u00d710 = $20",
+      "value": "180"
+    },
+    {
+      "quote": "$200 \u2212 $180 \u2212 $10\u00d710 = $20",
+      "value": "10"
+    },
+    {
+      "quote": "$200 \u2212 $180 \u2212 $10\u00d710 = $20",
+      "value": "20"
+    },
+    {
+      "quote": "12\u00d7$10 + $2 = $120",
+      "value": "12"
+    },
+    {
+      "quote": "12\u00d7$10 + $2 = $120",
+      "value": "10"
+    },
+    {
+      "quote": "12\u00d7$10 + $2 = $120",
+      "value": "2"
+    },
+    {
+      "quote": "12\u00d7$10 + $2 = $120",
+      "value": "120"
+    },
+    {
+      "quote": "$120 \u2212 $2 = $98",
+      "value": "98"
+    },
+    {
+      "quote": "5\u00d7$2 + 10\u00d7$10 = $130",
+      "value": "5"
+    },
+    {
+      "quote": "5\u00d7$2 + 10\u00d7$10 = $130",
+      "value": "130"
+    },
+    {
+      "quote": "5\u00d7$20 + 10\u00d7$7 = $130",
+      "value": "20"
+    },
+    {
+      "quote": "5\u00d7$20 + 10\u00d7$7 = $130",
+      "value": "7"
+    },
+    {
+      "quote": "8 items \u00d7 $15 + $20 = $130",
+      "value": "8"
+    },
+    {
+      "quote": "8 items \u00d7 $15 + $20 = $130",
+      "value": "15"
+    },
+    {
+      "quote": "change = $200 \u2212 $130 = $70",
+      "value": "70"
+    },
+    {
+      "quote": "$100 + 150 x 2 = $1500",
+      "value": "100"
+    },
+    {
+      "quote": "$100 + 150 x 2 = $1500",
+      "value": "150"
+    },
+    {
+      "quote": "$100 + 150 x 2 = $1500",
+      "value": "1500"
+    },
+    {
+      "quote": "$130 + $50 = $1500",
+      "value": "130"
+    },
+    {
+      "quote": "$130 + $50 = $1500",
+      "value": "50"
+    },
+    {
+      "quote": "$130 - $50 = $200",
+      "value": "200"
+    },
+    {
+      "quote": "500 + $1500 = $2000",
+      "value": "500"
+    },
+    {
+      "quote": "500 + $1500 = $2000",
+      "value": "2000"
+    },
+    {
+      "quote": "$2500",
+      "value": "2500"
+    },
+    {
+      "quote": "$2500 - $1500 = $1000",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$200\",\"value\":200},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"200 \\u2212 (20\\u00D71) \\u2212 (10\\u00D75) = $170\",\"value\":200},{\"quote\":\"200 \\u2212 (20\\u00D71) \\u2212 (10\\u00D75) = $170\",\"value\":20},{\"quote\":\"200 \\u2212 (20\\u00D71) \\u2212 (10\\u00D75) = $170\",\"value\":1},{\"quote\":\"200 \\u2212 (20\\u00D71) \\u2212 (10\\u00D75) = $170\",\"value\":10},{\"quote\":\"200 \\u2212 (20\\u00D71) \\u2212 (10\\u00D75) = $170\",\"value\":5},{\"quote\":\"200 \\u2212 (20\\u00D71) \\u2212 (10\\u00D75) = $170\",\"value\":170},{\"quote\":\"$200 \\u2212 $180 \\u2212 $10\\u00D710 = $20\",\"value\":180},{\"quote\":\"$200 \\u2212 $180 \\u2212 $10\\u00D710 = $20\",\"value\":10},{\"quote\":\"$200 \\u2212 $180 \\u2212 $10\\u00D710 = $20\",\"value\":20},{\"quote\":\"12\\u00D7$10 + $2 = $120\",\"value\":12},{\"quote\":\"12\\u00D7$10 + $2 = $120\",\"value\":10},{\"quote\":\"12\\u00D7$10 + $2 = $120\",\"value\":2},{\"quote\":\"12\\u00D7$10 + $2 = $120\",\"value\":120},{\"quote\":\"$120 \\u2212 $2 = $98\",\"value\":98},{\"quote\":\"5\\u00D7$2 + 10\\u00D7$10 = $130\",\"value\":5},{\"quote\":\"5\\u00D7$2 + 10\\u00D7$10 = $130\",\"value\":130},{\"quote\":\"5\\u00D7$20 + 10\\u00D7$7 = $130\",\"value\":20},{\"quote\":\"5\\u00D7$20 + 10\\u00D7$7 = $130\",\"value\":7},{\"quote\":\"8 items \\u00D7 $15 + $20 = $130\",\"value\":8},{\"quote\":\"8 items \\u00D7 $15 + $20 = $130\",\"value\":15},{\"quote\":\"change = $200 \\u2212 $130 = $70\",\"value\":70},{\"quote\":\"$100 + 150 x 2 = $1500\",\"value\":100},{\"quote\":\"$100 + 150 x 2 = $1500\",\"value\":150},{\"quote\":\"$100 + 150 x 2 = $1500\",\"value\":1500},{\"quote\":\"$130 + $50 = $1500\",\"value\":130},{\"quote\":\"$130 + $50 = $1500\",\"value\":50},{\"quote\":\"$130 - $50 = $200\",\"value\":200},{\"quote\":\"500 + $1500 = $2000\",\"value\":500},{\"quote\":\"500 + $1500 = $2000\",\"value\":2000},{\"quote\":\"$2500\",\"value\":2500},{\"quote\":\"$2500 - $1500 = $1000\",\"value\":1000}],\"justification\":\"Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "e1361f9da60ec9b091070228f339684c0fc88d1d747db272355d5ed14644d572"
+}

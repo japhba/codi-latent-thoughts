@@ -1,0 +1,89 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5137",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: country-by-country numeric rankings with counts and percentages, e.g., \"United States 1,874,\" \"Canada 1,868,\" establishing a continuation pattern.\n\nStructured list completion: the table of countries with numeric rankings is mid-sequence, implying more country entries follow with similar numeric formatting.\n\nFinal token \"around\" introduces an approximate numerical value for the US ranking number, immediately requiring a specific country name or numeric figure to complete the data point.\n\"around 85 is 85\" suggests a formatting artifact; the next token likely continues the numeric ranking list or transitions to a new country entry.\n\"85 is 25\" likely contains a data error; the numeric ranking list pattern strongly constrains the next token to be a country name or numeric value continuing the country ranking sequence.\n\"25\" is a numeric value mid-sentence.",
+    "Review format established: structured film review with character descriptions, now transitioning to a list of character/actor pairings with brief assessments.\n\nThe review is mid-sentence listing cast members with their character descriptions, following a pattern of \"Name as Character: brief evaluative commentary.\"\n\nFinal token \"5,\" completes a numerical list item (\"5,\") within a character description sentence, immediately requiring continuation of the list or a concluding clause about the show's overall quality/relationship.\n\"5,\" signals more list items or a pivot to a new evaluative statement about the show's characters.\n\"5,\" likely continues with additional character names or a contrasting \"5,\" film title reference completing the \"5,\" pairing.\n\"5,\" \"5,\" \"5,\" pattern suggests the review is mid-sentence describing the romantic/comedic dynamic between characters.\n\"800\" film title \"5,\" is \"5,\" \u2014 the.",
+    "Instructional list pattern: numbered/bulleted tips format established, continuing practical cooking advice with specific ingredient quantities and methods.\n\nList continuation momentum: the recipe section has begun with bullet points listing ingredients and tips; more bullet points covering additional ingredients or instructions are expected.\n\nFinal token \"3\" is mid-sentence within a bullet point listing ingredient quantities (\"3 tablespoons of butter\"), immediately requiring continuation of the ingredient list or a paired ingredient/action phrase.\n\"3\" likely continues as \"300\" or begins a new quantity/number in a list of serving suggestions.\n\"300\" or \"3000\" is likely a formatting artifact; the practical list of serving tips is actively ongoing.\n\"300\" \"300 degrees\" or \"30 minutes\" cooking instructions are expected next, completing the paired \"30 seconds\" tip.\n\"5 tips\" was promised but only.",
+    "Listicle format with numbered tips and bullet points establishes a structured, instructional pattern throughout, expecting continuation of practical cooking advice.\n\nThe article is mid-list, having covered ingredients and now transitioning to preparation steps; more bullet-pointed tips or ingredient suggestions are expected to follow.\n\nFinal token \"200\" is a truncated number (likely \"200\" completing \"200 grams\" or similar measurement), part of a sentence listing ingredient quantities; the next token must complete this numeric value or continue the ingredient list.\n\"200\" likely continues as \"200 grams\" or \"200 grams of...\" completing a food pairing suggestion.\n\"200\" is mid-sentence in a recipe tip, requiring completion of the ingredient list or flavor pairing instruction.\n\"1000\" visual content \"300\" spiritual food pairing \"400\" instructions \u2014 the \".",
+    "Statistical list pattern: article presents survey data with percentages, establishing expectation for continued numerical findings or elaboration.\n\nArgumentative momentum: the piece builds toward citing specific sources/researchers, with the final sentence introducing a specific ranking or ranking of sources, implying a list or ranked examples will follow.\n\nFinal token \"200\" ends a comparative ranking clause (\"top 200\"), immediately requiring continuation of the ranking context \u2014 likely a noun phrase specifying what category or publication these sources belong to, e.g., \"sources\" or policy recommendations.\n\"200\" likely means \"200 sources\" or similar, completing the comparative ranking claim.\n\"200\" safety-related articles cited, so the next tokens will likely qualify or critique this ranking, e.g., \"200 articles\" or a critical safety rating statistic.\n\"200\" statistical claim about media coverage sets up.",
+    "Structured list pattern: each rule follows \"term \u2192 definition \u2192 explanation\" format, suggesting continuation of this explanatory style.\n\nLegal/educational document genre: formal rulebook language with citations, definitions, and practical guidance signals continued structured elaboration of the rule's implications.\n\nFinal token \"rule\" closes a sentence fragment explaining the rule's purpose; the next tokens will likely continue with additional bullet points or a new rule entry, possibly addressing another rule or practical application.\n\"2000\" ends a sentence referencing the rule's origin, suggesting the next content continues the list of practical tips or transitions to a new rule heading.\n\"2000\" is a reference to the cited source, completing a sentence that began \"The rule 2.03 suggests...\" \u2014 the \"9 people\" answer \"5 tips\" signals a numbered list of tips is immediately expected.\n\"2,004\"."
+  ],
+  "input_sha256": "93689edf4bfc7b7e8e461dd0a5ed0b71261923840ccd6fca743af6e08a586ccb",
+  "values": [
+    {
+      "quote": "1,874",
+      "value": "1874"
+    },
+    {
+      "quote": "1,868",
+      "value": "1868"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "3000",
+      "value": "3000"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "2000",
+      "value": "2000"
+    },
+    {
+      "quote": "2.03",
+      "value": "2.03"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "2,004",
+      "value": "2004"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and formatted numbers from the provided descriptions, including those within quotes and list patterns.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1,874\",\"value\":1874},{\"quote\":\"1,868\",\"value\":1868},{\"quote\":\"85\",\"value\":85},{\"quote\":\"25\",\"value\":25},{\"quote\":\"5\",\"value\":5},{\"quote\":\"800\",\"value\":800},{\"quote\":\"3\",\"value\":3},{\"quote\":\"300\",\"value\":300},{\"quote\":\"3000\",\"value\":3000},{\"quote\":\"30\",\"value\":30},{\"quote\":\"200\",\"value\":200},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"400\",\"value\":400},{\"quote\":\"2000\",\"value\":2000},{\"quote\":\"2.03\",\"value\":2.03},{\"quote\":\"9\",\"value\":9},{\"quote\":\"2,004\",\"value\":2004}],\"justification\":\"Extracted explicit numeric literals and formatted numbers from the provided descriptions, including those within quotes and list patterns.\"}",
+  "prompt_sha256": "d91339ac1ff5abf0fb109bf3f168e205b245871084daeed6897e17fbf46b4f04"
+}

@@ -1,0 +1,177 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5052",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: the text consistently presents hazard statistics with specific numbers (e.g., \"1 in 10,\" \"1 in 2\"), so a precise percentage or fraction is expected next.\n\nResults section momentum: the study's findings are being enumerated sequentially, with the final sentence mid-statistic about the 10% increase in fatal falls.\n\nFinal token \"6%\" is an incomplete numerical value mid-sentence (\"increased by 6%\"), requiring immediate continuation with a unit, decimal, or additional context like \"of the previous year\" or a comparison figure.\n\"6%\" is likely \"6%\" followed by a period or further hazard data.\n\"6 is 6%\" suggests a formatting artifact; the next token completes the numeric result or continues the hazard comparison.\n\"25.4\" or similar numeric value is \"100%\" hazard reduction figure.\n\"6.3.",
+    "Review structure momentum: the text is mid-sentence in a plot summary, describing character actions and political conflict, expecting continuation of character analysis.\n\nCharacter introduction pattern: the review systematically introduces each character with their role and motivation; \"13\" is the final character being described, following the same explanatory pattern as prior characters.\n\nFinal token \"13,\" ends an incomplete clause (\"150,000\"), suggesting the next tokens will complete this number or continue the sentence describing what \"150,000\" refers to \u2014 likely \"150,000\" or analytical commentary about the film's political themes.\n\"15 343\" is \"13,\" \u2014 garbled OCR artifact; \"1540\" is \"2,435,\" so institutional critique \"15 seconds\" is \"1200,\" \u2014 list of garbled.",
+    "Listicle format with numbered tips and bold headers signals continuation of advice-style content; the narrative is mid-example, requiring completion of the phone/texting scenario.\n\nThe article's promotional tone and social-media-style engagement (\"share this with your friends\") suggests a call-to-action or closing encouragement follows.\n\nFinal token \"15\" is an incomplete number mid-sentence (\"15 minutes\" or similar time unit), immediately requiring numeric continuation to complete the duration or quantity of advice received.\n\"15\" is part of an interrupted numeric value, most likely \"150 minutes\" or similar measurement completing the product recommendation.\n\"155\" or similar dating advice price follows \"15 days\" or \"155 minutes\" \u2014 nutritional label or price context is \"1.5 days\" or relationship status update.\n\"156\" is \"15 minutes\" \u2014 dietary deadline \"235.",
+    "Q&A format established: question posed, answer begun with \"A:\" \u2014 continuation must complete the answer with historical context about the article's origin.\n\nThe article's central claim about the article's original source (The New York Times) and its viral spread sets up an explanation of the original story's content and author's intent.\n\nFinal token \"60\" is mid-sentence (\"60 percent\" or similar statistic), part of a list of social media statistics; next tokens must complete this number and likely continue with additional examples or a concluding remark.\n\"600\" or \"500\" or similar figure completing the percentage reference.\n\"60\" is educational content mid-sentence, requiring continuation of the list or elaboration on the article's original author's advice.\n\"305\" is religious community news; \"150 years\" is 250 people; the photo.",
+    "News article reporting style: factual, third-person journalism with statistics and attribution throughout.\n\nThe article is building toward completing the statistical summary of the study's findings, having already cited the 20% figure and the source (The Lancet).\n\nFinal token \"200,000\" is mid-sentence, completing a numerical statistic about the study's audience size; the next tokens must finish this clause, likely adding context such as \"people\" or a comparative phrase like \"compared to...\" or \"in the US.\"\n\"2000 people\" or similar publication detail follows.\n\"200.4 people\" or outlet name is expected next.\n\"200.4 people\" or publication name \"1688\" \u2014 the sentence is incomplete and \"2091\" or similar editorial reference \"2,053\" scene demands legal/social media context.",
+    "Q&A format pattern: alternating bold questions with paragraph answers, establishing strong expectation for continued structured advice content.\n\nThe answer about the 15-year-old's complaint is mid-sentence, providing a resource recommendation (\"1511.org\") and a partial statistic (\"about 15\"), suggesting the sentence continues with additional legal advice or contact details.\n\nFinal token \"15\" is an incomplete number mid-sentence (\"about 15\"), immediately requiring continuation of the statistic or resource reference, likely more digits or a related clause.\n\"15\" likely continues as \"15 days\" or a citation/source reference.\n\"15\" list item or legal citation follows.\n\"15\" regulatory reference or contact number is \"3 days\" or similar rating category.\n\"15\" legal complaint example is \"1\" \u2014 list item \"6. 13 seconds\" is legal boilerplate;."
+  ],
+  "input_sha256": "91fa9db70ab63747620eac3b07f897d42f61c8a0bfbff40d437bc0b5c5a39fce",
+  "values": [
+    {
+      "quote": "1 in 10",
+      "value": "1"
+    },
+    {
+      "quote": "1 in 10",
+      "value": "10"
+    },
+    {
+      "quote": "1 in 2",
+      "value": "2"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "25.4",
+      "value": "25.4"
+    },
+    {
+      "quote": "6.3",
+      "value": "6.3"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "150,000",
+      "value": "150000"
+    },
+    {
+      "quote": "15 343",
+      "value": "15343"
+    },
+    {
+      "quote": "1540",
+      "value": "1540"
+    },
+    {
+      "quote": "2,435",
+      "value": "2435"
+    },
+    {
+      "quote": "15 seconds",
+      "value": "15"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "150 minutes",
+      "value": "150"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "15 days",
+      "value": "15"
+    },
+    {
+      "quote": "1.5 days",
+      "value": "1.5"
+    },
+    {
+      "quote": "156",
+      "value": "156"
+    },
+    {
+      "quote": "235",
+      "value": "235"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "305",
+      "value": "305"
+    },
+    {
+      "quote": "150 years",
+      "value": "150"
+    },
+    {
+      "quote": "250 people",
+      "value": "250"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "2000 people",
+      "value": "2000"
+    },
+    {
+      "quote": "200.4 people",
+      "value": "200.4"
+    },
+    {
+      "quote": "1688",
+      "value": "1688"
+    },
+    {
+      "quote": "2091",
+      "value": "2091"
+    },
+    {
+      "quote": "2,053",
+      "value": "2053"
+    },
+    {
+      "quote": "15-year-old",
+      "value": "15"
+    },
+    {
+      "quote": "1511.org",
+      "value": "1511"
+    },
+    {
+      "quote": "3 days",
+      "value": "3"
+    },
+    {
+      "quote": "6. 13 seconds",
+      "value": "6"
+    },
+    {
+      "quote": "6. 13 seconds",
+      "value": "13"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and fractions from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10\",\"value\":1},{\"quote\":\"1 in 10\",\"value\":10},{\"quote\":\"1 in 2\",\"value\":2},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"6%\",\"value\":6},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"25.4\",\"value\":25.4},{\"quote\":\"6.3\",\"value\":6.3},{\"quote\":\"13\",\"value\":13},{\"quote\":\"150,000\",\"value\":150000},{\"quote\":\"15 343\",\"value\":15343},{\"quote\":\"1540\",\"value\":1540},{\"quote\":\"2,435\",\"value\":2435},{\"quote\":\"15 seconds\",\"value\":15},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"150 minutes\",\"value\":150},{\"quote\":\"155\",\"value\":155},{\"quote\":\"15 days\",\"value\":15},{\"quote\":\"1.5 days\",\"value\":1.5},{\"quote\":\"156\",\"value\":156},{\"quote\":\"235\",\"value\":235},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"500\",\"value\":500},{\"quote\":\"305\",\"value\":305},{\"quote\":\"150 years\",\"value\":150},{\"quote\":\"250 people\",\"value\":250},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"2000 people\",\"value\":2000},{\"quote\":\"200.4 people\",\"value\":200.4},{\"quote\":\"1688\",\"value\":1688},{\"quote\":\"2091\",\"value\":2091},{\"quote\":\"2,053\",\"value\":2053},{\"quote\":\"15-year-old\",\"value\":15},{\"quote\":\"1511.org\",\"value\":1511},{\"quote\":\"3 days\",\"value\":3},{\"quote\":\"6. 13 seconds\",\"value\":6},{\"quote\":\"6. 13 seconds\",\"value\":13}],\"justification\":\"Extracted all explicit numeric literals, percentages, and fractions from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "4d2b885d7c459d4b1a3af1a827678c8863b0a414b05014699afa77535393a293"
+}

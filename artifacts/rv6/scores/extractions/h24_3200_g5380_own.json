@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5380",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup requiring a total value calculation \u2014 3\u00d740 + 2\u00d730 + 4\u00d715.\n\nThe word problem format demands a numerical answer, likely \"420\" or similar dollar amount.\n\nThe final token \"totaling\" introduces the arithmetic sum of the three item values (3\u00d740 + 40 + 3\u00d730 = 420), so the next tokens must be a specific dollar figure completing this total.\n4\u00d730 + 6\u00d725 + 3\u00d740 = 420, so \"420 dollars\" or \"420\" is the expected answer.\n3*40 + 2*45 + 6*30 from the first two items.\n45 + 30 + 50 = items in the first box, so total weight of.",
+    "Math word problem requiring arithmetic calculation: 2 \u00d7 $30 = $60, 6 \u00d7 $45 = $270, etc.\n\nThe solution walkthrough demands a step-by-step arithmetic answer, listing earnings for each item.\n\nThe final token \"has\" opens a simple arithmetic statement (\"2 jobs \u00d7 $30 = $60\"), immediately expecting the numerical result \"$60\" followed by remaining total earnings for the remaining items.\nThey have 2 jobs, so the next tokens must state \"$60 total for the first day\" before listing subsequent calculations.\n2 \u00d7 30 = 60.\nThe word problem expects a list of earnings for all five cars.\n30 \u00d7 2 = 60, then 4 \u00d7 50 + 3 \u00d7 60 + larger numbers.\n2 \u00d7 $30 = first-day total, then summing remaining.",
+    "Math word problem walkthrough requiring arithmetic completion: 2 jobs \u00d7 $30 = $60, then summing remaining prices.\n\n Word problem solution format: arithmetic expression \"2 \u00d7 $30 = $60\" is being written out, expecting the total earnings calculation to follow.\n\nThe final token \"6\" begins the arithmetic result \"$60\" for the first job, immediately requiring \"0\" to complete the dollar amount, then listing remaining earnings from other jobs (3 jobs \u00d7 $50, $150).\nThe solution will continue with arithmetic steps showing 2\u00d730 + 4\u00d750 + 3\u00d7150.\n2 jobs \u00d7 $30 = $60, so next tokens complete this sum before listing remaining earnings.\nFirst day: $60 earned, then adding subsequent prices.\n30, 60, 120 pattern suggests.",
+    "Math word problem solution in progress: arithmetic requires listing all ticket prices and summing to $360.\n\n Word problem format demands step-by-step arithmetic continuation: \"6 tickets \u00d7 $10 = $60\" begins the revenue breakdown, expecting remaining prices (3 tickets \u00d7 $25, 4 tickets \u00d7 $30, etc.).\n\nThe final token \"$60\" is the first arithmetic result in a summing sequence, immediately requiring continuation with the next ticket price calculation, likely \"for the first day\" or a comma and next sum.\nFinal token \"$60\" is the first revenue figure in a list, expecting \"for 3 tickets\" or similar, then subsequent arithmetic steps.\n$60 = 3 \u00d7 $20 = $60, then 2\u00d7$45 + 3\u00d7$150 + 4\u00d7$50 = $3.",
+    "Math word problem context: arithmetic calculation in progress, expecting numerical results for 4 items \u00d7 $25.\n\nThe pattern of listing prices and quantities demands continuation: \"4\u00d725=100\" and \"5\u00d7$25\" suggest a series of arithmetic operations being listed.\n\nFinal token \"p\" begins the word \"price\" or starts a dollar amount like \"$250,\" immediately requiring the numeric result of 4 \u00d7 $25 = $100, completing the second item's total cost calculation.\n25\u00d74=100, so the next tokens must complete this arithmetic sum.\nThe remaining two items (4 items \u00d7 $25) and the third item's cost are expected next.\n25\u00d725=625 total, so next tokens likely show remaining totals.\n4\u00d725=100, then \"and 4.",
+    "Math word problem walkthrough pattern: arithmetic problems with structured answers, showing arithmetic operations step-by-step.\n\nSecond problem mirrors first: \"3 \u00d7 $40 = $120\" and \"3 \u00d7 $45 = $135\" establish the template, so the third arithmetic operation \"$4 \u00d7 40 = $160\" is expected next.\n\nThe final token \"$10\" is the start of the third price value \"$100\", part of the arithmetic sum \"$40 + $45 + $30 = $130\", immediately requiring \"4 \u00d7 30 = $120\" to complete the sum.\nFinal token \"100.\" is the second arithmetic result in a list, expecting the third sum answer.\n3 \u00d7 40 = $120 paid, completing the three multiplication problems.\nFinal token \"$100\"."
+  ],
+  "input_sha256": "6ac1ddeda1c205b9c61da9ae0443541964eca6357ce0ec84a1baa04f61360a23",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "420",
+      "value": "420"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "five",
+      "value": "5"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "625",
+      "value": "625"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned as numerals, spelled-out numbers, or results of unambiguous arithmetic expressions within single descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"40\",\"value\":40},{\"quote\":\"2\",\"value\":2},{\"quote\":\"30\",\"value\":30},{\"quote\":\"4\",\"value\":4},{\"quote\":\"15\",\"value\":15},{\"quote\":\"420\",\"value\":420},{\"quote\":\"6\",\"value\":6},{\"quote\":\"25\",\"value\":25},{\"quote\":\"45\",\"value\":45},{\"quote\":\"50\",\"value\":50},{\"quote\":\"60\",\"value\":60},{\"quote\":\"270\",\"value\":270},{\"quote\":\"five\",\"value\":5},{\"quote\":\"150\",\"value\":150},{\"quote\":\"120\",\"value\":120},{\"quote\":\"360\",\"value\":360},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"100\",\"value\":100},{\"quote\":\"625\",\"value\":625},{\"quote\":\"135\",\"value\":135},{\"quote\":\"160\",\"value\":160},{\"quote\":\"130\",\"value\":130}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned as numerals, spelled-out numbers, or results of unambiguous arithmetic expressions within single descriptions.\"}",
+  "prompt_sha256": "4526c3fc720b90c520cfbcb06b33bc9c2c25eeae750557760b6d51d43e6a38d6"
+}

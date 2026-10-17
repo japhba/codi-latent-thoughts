@@ -1,0 +1,162 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5612",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: summing 2x + 1x + 6 (i.e., 6 + twice 6 + original 7).\n\nThe problem structure demands a specific numerical answer: \"Total number of items = 6 + twice 6 + 7 = 19\" \u2014 the arithmetic must resolve to 19.\n\nFinal token \"Total of\" opens a noun phrase requiring an integer answer, constrained by the arithmetic expression (2\u00d76 + 1 + 7) derived from the given quantities: 6 + twice 7 + 1, so the next token must be the calculated total count \"19\" (i.e., \"19\" completing the sum).",
+    "Word problem format requires arithmetic completion: \"twice as many red balls\" demands multiplication of 6 by 2 = 12, establishing the count of red balls.\n\nThe problem follows a simple arithmetic word problem structure: setup states total (6) and operation (twice), so the next tokens must state the arithmetic result and then add the existing count (1) to find total balls.\n\nFinal token \"had\" completes \"He had,\" introducing the second arithmetic operation for red balls (2 \u00d7 6 = 12), immediately requiring the number \"12\" followed by \"red balls\" or similar phrasing continuing the problem setup before adding the remaining 1 blue ball.\nThe word problem structure demands: \"2 \u00d7 6 = 12\" then adding 1, then asking for total.",
+    "Word problem format requires completing the arithmetic setup: \"she has 4 blue flowers, and she has 3 times as many roses as blue ones, so 3 \u00d7 4 = 12 lilies, then adding to existing 5.\"\n\nThe problem follows a structured word problem narrative: setup established (5 red, 4 blue), operation stated (purchased twice as many), requiring the arithmetic conclusion before asking to find total flowers.\n\nFinal token \"12\" is the number of roses purchased (3 times 4), immediately requiring the noun \"lilies\" to complete the sentence, then continuing to add to existing flowers (5 + 12 = 17 total), setting up \"she has 12 lilies, then 5 roses\" to solve for total.",
+    "Word problem solution format: structured arithmetic word problem requiring step-by-step arithmetic operations, following \"She has X books. She has Y books of a certain type.\"\n\nThe multiplication pattern established: \"2 times 6 = 12 apples\" sets up the arithmetic sequence, with remaining books (12 + original 10) needing to be calculated.\n\nFinal token \"p\" completes \"2 p\" (completing \"12 pears\"), continuing the arithmetic explanation of the second operation (2 \u00d7 4 books = 8), immediately expecting \"ears\" to complete the sentence, then adding to total books: \"She has 12 + 10 = 22 books\" or similar phrasing confirming the total count.",
+    "Math word problem format: structured arithmetic problem requiring arithmetic summing of eggs counts (12 + 2 times 12 = 40 eggs).\n\nSequential problem-solving pattern: first problem gave total eggs (12 + 5 = 17), now second problem follows same structure: \"2 dozen eggs + 7 eggs = 28 eggs\" demands the arithmetic result before adding the known total eggs.\n\nFinal token \"pups. points. 14 points.\" ends the second arithmetic operation setup (\"2 times 14 + eggs\"), immediately requiring the next arithmetic step: adding 12 + 7 = 28 total eggs, then combining with the known eggs count (1 + 12 = 23) to find total eggs.",
+    "Word problem template pattern: each problem follows \"Add/subtract X items, total is Y. Find total count\" structure, establishing a clear repetition format.\n\nThe second problem mirrors the first's setup (\"Add 3 times the number of eggs... 4 dozen eggs\"), so the next tokens must state the total count of eggs (3\u00d712 + 1 + 1 = 47) before asking for the combined total eggs.\n\nFinal token \"problem.\" closes the instruction prompt \"Word problem,\" immediately requiring the arithmetic problem's answer setup: \"There are 47 eggs total\" or similar, listing all egg counts (3 dozen + 5 + 1) before adding the final unknown."
+  ],
+  "input_sha256": "93ef80a98edb429bf347734c22370eb35dd7c5925aee0a2329d62eb874567218",
+  "values": [
+    {
+      "quote": "2x",
+      "value": "2"
+    },
+    {
+      "quote": "1x",
+      "value": "1"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "2\u00d76 + 1 + 7",
+      "value": "20"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2 \u00d7 6 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "3 \u00d7 4 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "5 + 12 = 17",
+      "value": "17"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "12 + 10 = 22",
+      "value": "22"
+    },
+    {
+      "quote": "2 \u00d7 4",
+      "value": "8"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "12 + 10 = 22",
+      "value": "22"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "12 + 5 = 17",
+      "value": "17"
+    },
+    {
+      "quote": "2 dozen",
+      "value": "24"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "12 + 7 = 28",
+      "value": "19"
+    },
+    {
+      "quote": "1 + 12 = 23",
+      "value": "13"
+    },
+    {
+      "quote": "23",
+      "value": "23"
+    },
+    {
+      "quote": "4 dozen",
+      "value": "48"
+    },
+    {
+      "quote": "3\u00d712 + 1 + 1 = 47",
+      "value": "38"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "3 dozen",
+      "value": "36"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers (dozen), and arithmetic expressions with their calculated values from the provided text descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2x\",\"value\":2},{\"quote\":\"1x\",\"value\":1},{\"quote\":\"6\",\"value\":6},{\"quote\":\"7\",\"value\":7},{\"quote\":\"19\",\"value\":19},{\"quote\":\"2\\u00D76 + 1 + 7\",\"value\":20},{\"quote\":\"2\",\"value\":2},{\"quote\":\"12\",\"value\":12},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2 \\u00D7 6 = 12\",\"value\":12},{\"quote\":\"4\",\"value\":4},{\"quote\":\"3\",\"value\":3},{\"quote\":\"3 \\u00D7 4 = 12\",\"value\":12},{\"quote\":\"5\",\"value\":5},{\"quote\":\"17\",\"value\":17},{\"quote\":\"5 + 12 = 17\",\"value\":17},{\"quote\":\"10\",\"value\":10},{\"quote\":\"12 + original 10 = 22\",\"value\":22},{\"quote\":\"2 \\u00D7 4\",\"value\":8},{\"quote\":\"8\",\"value\":8},{\"quote\":\"12 + 10 = 22\",\"value\":22},{\"quote\":\"22\",\"value\":22},{\"quote\":\"40\",\"value\":40},{\"quote\":\"12 + 5 = 17\",\"value\":17},{\"quote\":\"2 dozen\",\"value\":24},{\"quote\":\"28\",\"value\":28},{\"quote\":\"14\",\"value\":14},{\"quote\":\"12 + 7 = 28\",\"value\":19},{\"quote\":\"1 + 12 = 23\",\"value\":13},{\"quote\":\"23\",\"value\":23},{\"quote\":\"4 dozen\",\"value\":48},{\"quote\":\"3\\u00D712 + 1 + 1 = 47\",\"value\":38},{\"quote\":\"47\",\"value\":47},{\"quote\":\"3 dozen\",\"value\":36}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers (dozen), and arithmetic expressions with their calculated values from the provided text descriptions.\"}",
+  "prompt_sha256": "7f0559514208912396b1517270927a10c8e92d0acf7d6b8aab80cae79c10caca",
+  "gold_blind_evidence_review": {
+    "quote_before": "12 + original 10 = 22",
+    "quote_after": "12 + 10 = 22",
+    "reason": "The first phrase was a fabricated combination; the replacement is an exact explicit equality in the same description. Review uses no question or target labels."
+  }
+}

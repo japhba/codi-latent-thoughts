@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5042",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical continuation: the text is mid-sentence reporting a specific dollar figure for the 2016\u20132018 period, requiring a precise number (likely in billions, e.g., \"$1.5 billion\" or similar).\n\nComparative structure momentum: the passage contrasts 2016\u20132018 ($1.5 billion) against 2019\u20132020 ($2.1 billion), so the next tokens will likely complete the 2016\u20132018 figure before pivoting to the 2019\u20132020 comparison.\n\nFinal token \"around\" is a hedging adverb mid-sentence, immediately requiring a specific numerical dollar amount to complete the clause about the 2016\u20132018 period's estimated spending.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically detailing the mother's situation after her husband's death, requiring continuation of that story beat.\n\nRepetition/continuation pattern: the review has been summarizing plot points sequentially (\"The story begins...\"), suggesting the next clause continues describing what happens to the mother or her circumstances.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, immediately requiring a verb complement or adjective describing the mother's state or situation (e.g., \"left alone,\" \"forced to,\" \"struggling\").\n</explanation>",
+    "Narrative momentum: a real-life anecdote is being recounted, building toward a resolution or lesson about the \"no\" answer.\n\nThe story follows a cause-effect structure: the couple's question about the \"no\" answer sets up an explanation of what that response means or what happened next.\n\nFinal token \"15\" is mid-sentence, part of \"formed a group of 15 [people/individuals]\" \u2014 a number requiring a noun phrase (e.g., \"people,\" \"individuals,\" \"volunteers\") to complete the clause.\n</explanation>",
+    "Narrative momentum: the text is recounting Dr. Edelman's specific advice to the woman, building toward the concrete recommendation he gave her.\n\nRepetition/continuation pattern: the article repeatedly references \"Dr. Edelman advised her to call her doctor,\" and now elaborates with specific details about his advice.\n\nFinal token \"60\" is a number mid-sentence, part of \"she was 60,\" requiring immediate continuation \u2014 likely a unit (e.g., \"years old\") or a clause explaining what she did or what Dr. Edelman advised her to do next.\n</explanation>",
+    "The article follows a structured news format: headline, summary, study details, and now a direct quote from the study's conclusion. The quote is mid-sentence and must be completed.\n\nThe quote establishes a contrast pattern: \"most people don't look at the sky, but the 10% who do look at the sky\" \u2014 the sentence requires a concluding clause explaining the paradoxical finding about those who *do* look.\n\nThe final token \"10%\" ends an incomplete subordinate clause (\"the 10% who do look at the sky\"), immediately requiring a main clause verb phrase, likely \"are more likely to...\" or similar, completing the study's key finding.\n</explanation>",
+    "Narrative momentum: a specific incident is being recounted, with the husband's realization of the mistake mid-explanation, requiring completion of the story's resolution.\n\nRepetition/continuation pattern: the text follows a Q&A advice column format, with the husband's realization leading to the wife's reaction and the couple's improved communication.\n\nFinal token \"15\" ends a sentence fragment mid-thought (\"about 15\"), immediately requiring a time unit (e.g., \"minutes\") or continuation describing what happened next in the story.\n</explanation>"
+  ],
+  "input_sha256": "7a7fcd45d016733aa44f5025ef7f2ef24ae0d46a28759fd82ca72157adc364da",
+  "values": [
+    {
+      "quote": "$1.5 billion",
+      "value": "1.5"
+    },
+    {
+      "quote": "$2.1 billion",
+      "value": "2.1"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including decimal values from billion-scale figures and cardinal numbers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1.5 billion\",\"value\":1.5},{\"quote\":\"$2.1 billion\",\"value\":2.1},{\"quote\":\"15\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10%\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including decimal values from billion-scale figures and cardinal numbers.\"}",
+  "prompt_sha256": "d78331daecf81a7b7a47cf28b05fa3f0088dcef1b55cca7d7f76065cd90f5859"
+}

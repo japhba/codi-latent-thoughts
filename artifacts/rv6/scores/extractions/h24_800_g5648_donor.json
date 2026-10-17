@@ -1,0 +1,233 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5648",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring algebraic solution: equation x + 8x = 50 demands integer answer.\n\nThe problem follows a classic algebraic word problem format where the unknown number must be a specific integer satisfying the ratio condition (50 \u2212 x) / 11 = integer, constraining the answer to a small number.\n\nFinal token \"be\" completes \"The smaller number is,\" directly requiring the numerical answer \"5\" (the integer solution to x + 8x = 50, where x = 50/11 \u2248 4), confirming the correct answer: the integer solution must be 5, as 50 divided by (1 + 8) equals 5, making the smaller number 50/11 \u2248 5.",
+    "Mathematical word problem solution in progress: equation setup requires expressing total parts (x + 8x = 88) to solve for x.\n\nThe solution is mid-explanation, having established that each part equals (x + 1) and that the equation represents equal parts split across two categories (8x + x = total).\n\nFinal token \"has\" begins a clause describing the equation breakdown, immediately requiring the mathematical expression showing the total number of parts: \"8 parts divided by (1 + 1)\" or \"8x + 1 = 8\" to express the equation representing equal parts: x + (x/8) = 1, leading to total equation: 8x + 1 = 88.",
+    "Math word problem solution format: algebraic setup requires equation solving, with variable x representing total number of cars.\n\nThe equation structure \"x + (x-3) = 9\" establishes a total of 9 parts, requiring the equation to be completed and solved for x, then finding the smaller group count.\n\nFinal token \"9\" is the sum of the two parts of the equation (x + y = 9a), immediately requiring \"a groups\" or \"parts\" to complete the factorization of the total 45, explaining that 1x + 1y = 9a, so the next tokens must state \"9a\" or \"groups\" to set up the equation: 9a = 36, so x = 36.",
+    "Mathematical word problem solution in progress: equation setup requires solving for total number of students using (total \u2212 5x) = 50.\n\nThe solution is mid-calculation, having established total = (50 + x) / (5+1), so the next step must complete the arithmetic expression showing the integer result.\n\nFinal token \"p\" is the start of \"50\" being broken down into total equal parts: (50 + x) / 3 = p, immediately requiring the integer result \"50\" to complete the division expression showing the base count of students: (50/3) = 50, yielding the base group size: 50/3 = 12, then multiplying by 4 to find student counts.",
+    "Mathematical word problem solution format: structured step-by-step algebraic solving, currently mid-calculation showing equation resolution.\n\nThe equation (x + 3x = 13) has been set up and solved algebraically, with the result (13/3 \u2248 4.33) just stated, requiring the next step: rounding to whole numbers representing people counts.\n\nFinal token \"13. points.\" ends a division result mid-explanation, immediately requiring the decimal continuation or conclusion: \"4.33\" rounds to 4, confirming the smaller group size (likely 4 people), completing the integer solution showing the two equal groups: 13/3 \u2248 4.33, so the next tokens must state the integer answer and verify the total.",
+    "Math word problem solution format: structured problem with setup, equation, and solving steps, now reaching the final answer.\n\nThe algebraic solution has been set up (x + (x/3) = 100) and solved via equation balancing, requiring a specific numerical answer representing the smaller group count.\n\nFinal token \"problem.\" closes the explanatory note about approximation constraints, immediately expecting the numerical answer (likely \"The number of people is 13\" or similar integer) representing the integer solution to the fractional equation, possibly followed by a concluding statement confirming the group sizes.\nThe mathematical reasoning pattern demands a specific integer result derived from the approximation method just described."
+  ],
+  "input_sha256": "0a8d41c9aa32b5970600ad98f8b7ac96166664762fd237b3f3c7da909615674d",
+  "values": [
+    {
+      "quote": "x + 8x = 50",
+      "value": "50"
+    },
+    {
+      "quote": "(50 \u2212 x) / 11",
+      "value": "50"
+    },
+    {
+      "quote": "(50 \u2212 x) / 11",
+      "value": "11"
+    },
+    {
+      "quote": "\"5\"",
+      "value": "5"
+    },
+    {
+      "quote": "50 divided by (1 + 8)",
+      "value": "50"
+    },
+    {
+      "quote": "50 divided by (1 + 8)",
+      "value": "1"
+    },
+    {
+      "quote": "50 divided by (1 + 8)",
+      "value": "8"
+    },
+    {
+      "quote": "50 divided by (1 + 8) equals 5",
+      "value": "5"
+    },
+    {
+      "quote": "50/11",
+      "value": "50"
+    },
+    {
+      "quote": "50/11",
+      "value": "11"
+    },
+    {
+      "quote": "50/11 \u2248 4",
+      "value": "4"
+    },
+    {
+      "quote": "50/11 \u2248 5",
+      "value": "5"
+    },
+    {
+      "quote": "x + 8x = 88",
+      "value": "88"
+    },
+    {
+      "quote": "(x + 1)",
+      "value": "1"
+    },
+    {
+      "quote": "8x + x",
+      "value": "8"
+    },
+    {
+      "quote": "8 parts divided by (1 + 1)",
+      "value": "8"
+    },
+    {
+      "quote": "8 parts divided by (1 + 1)",
+      "value": "1"
+    },
+    {
+      "quote": "8x + 1 = 8",
+      "value": "1"
+    },
+    {
+      "quote": "8x + 1 = 8",
+      "value": "8"
+    },
+    {
+      "quote": "x + (x/8) = 1",
+      "value": "8"
+    },
+    {
+      "quote": "x + (x/8) = 1",
+      "value": "1"
+    },
+    {
+      "quote": "8x + 1 = 88",
+      "value": "1"
+    },
+    {
+      "quote": "8x + 1 = 88",
+      "value": "88"
+    },
+    {
+      "quote": "x + (x-3) = 9",
+      "value": "3"
+    },
+    {
+      "quote": "x + (x-3) = 9",
+      "value": "9"
+    },
+    {
+      "quote": "total 45",
+      "value": "45"
+    },
+    {
+      "quote": "1x + 1y = 9a",
+      "value": "1"
+    },
+    {
+      "quote": "1x + 1y = 9a",
+      "value": "9"
+    },
+    {
+      "quote": "9a = 36",
+      "value": "9"
+    },
+    {
+      "quote": "9a = 36",
+      "value": "36"
+    },
+    {
+      "quote": "(total \u2212 5x) = 50",
+      "value": "5"
+    },
+    {
+      "quote": "(total \u2212 5x) = 50",
+      "value": "50"
+    },
+    {
+      "quote": "(50 + x) / (5+1)",
+      "value": "50"
+    },
+    {
+      "quote": "(50 + x) / (5+1)",
+      "value": "5"
+    },
+    {
+      "quote": "(50 + x) / (5+1)",
+      "value": "1"
+    },
+    {
+      "quote": "(50 + x) / 3",
+      "value": "50"
+    },
+    {
+      "quote": "(50 + x) / 3",
+      "value": "3"
+    },
+    {
+      "quote": "(50/3) = 50",
+      "value": "50"
+    },
+    {
+      "quote": "(50/3) = 50",
+      "value": "3"
+    },
+    {
+      "quote": "50/3 = 12",
+      "value": "50"
+    },
+    {
+      "quote": "50/3 = 12",
+      "value": "3"
+    },
+    {
+      "quote": "50/3 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "multiplying by 4",
+      "value": "4"
+    },
+    {
+      "quote": "x + 3x = 13",
+      "value": "3"
+    },
+    {
+      "quote": "x + 3x = 13",
+      "value": "13"
+    },
+    {
+      "quote": "13/3 \u2248 4.33",
+      "value": "13"
+    },
+    {
+      "quote": "13/3 \u2248 4.33",
+      "value": "3"
+    },
+    {
+      "quote": "13/3 \u2248 4.33",
+      "value": "4.33"
+    },
+    {
+      "quote": "\"4.33\" rounds to 4",
+      "value": "4.33"
+    },
+    {
+      "quote": "\"4.33\" rounds to 4",
+      "value": "4"
+    },
+    {
+      "quote": "x + (x/3) = 100",
+      "value": "3"
+    },
+    {
+      "quote": "x + (x/3) = 100",
+      "value": "100"
+    },
+    {
+      "quote": "The number of people is 13",
+      "value": "13"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"x + 8x = 50\",\"value\":50},{\"quote\":\"(50 \\u2212 x) / 11\",\"value\":50},{\"quote\":\"(50 \\u2212 x) / 11\",\"value\":11},{\"quote\":\"\\\"5\\\"\",\"value\":5},{\"quote\":\"50 divided by (1 + 8)\",\"value\":50},{\"quote\":\"50 divided by (1 + 8)\",\"value\":1},{\"quote\":\"50 divided by (1 + 8)\",\"value\":8},{\"quote\":\"50 divided by (1 + 8) equals 5\",\"value\":5},{\"quote\":\"50/11\",\"value\":50},{\"quote\":\"50/11\",\"value\":11},{\"quote\":\"50/11 \\u2248 4\",\"value\":4},{\"quote\":\"50/11 \\u2248 5\",\"value\":5},{\"quote\":\"x + 8x = 88\",\"value\":88},{\"quote\":\"(x + 1)\",\"value\":1},{\"quote\":\"8x + x\",\"value\":8},{\"quote\":\"8 parts divided by (1 + 1)\",\"value\":8},{\"quote\":\"8 parts divided by (1 + 1)\",\"value\":1},{\"quote\":\"8x + 1 = 8\",\"value\":1},{\"quote\":\"8x + 1 = 8\",\"value\":8},{\"quote\":\"x + (x/8) = 1\",\"value\":8},{\"quote\":\"x + (x/8) = 1\",\"value\":1},{\"quote\":\"8x + 1 = 88\",\"value\":1},{\"quote\":\"8x + 1 = 88\",\"value\":88},{\"quote\":\"x + (x-3) = 9\",\"value\":3},{\"quote\":\"x + (x-3) = 9\",\"value\":9},{\"quote\":\"total 45\",\"value\":45},{\"quote\":\"1x + 1y = 9a\",\"value\":1},{\"quote\":\"1x + 1y = 9a\",\"value\":9},{\"quote\":\"9a = 36\",\"value\":9},{\"quote\":\"9a = 36\",\"value\":36},{\"quote\":\"(total \\u2212 5x) = 50\",\"value\":5},{\"quote\":\"(total \\u2212 5x) = 50\",\"value\":50},{\"quote\":\"(50 + x) / (5+1)\",\"value\":50},{\"quote\":\"(50 + x) / (5+1)\",\"value\":5},{\"quote\":\"(50 + x) / (5+1)\",\"value\":1},{\"quote\":\"(50 + x) / 3\",\"value\":50},{\"quote\":\"(50 + x) / 3\",\"value\":3},{\"quote\":\"(50/3) = 50\",\"value\":50},{\"quote\":\"(50/3) = 50\",\"value\":3},{\"quote\":\"50/3 = 12\",\"value\":50},{\"quote\":\"50/3 = 12\",\"value\":3},{\"quote\":\"50/3 = 12\",\"value\":12},{\"quote\":\"multiplying by 4\",\"value\":4},{\"quote\":\"x + 3x = 13\",\"value\":3},{\"quote\":\"x + 3x = 13\",\"value\":13},{\"quote\":\"13/3 \\u2248 4.33\",\"value\":13},{\"quote\":\"13/3 \\u2248 4.33\",\"value\":3},{\"quote\":\"13/3 \\u2248 4.33\",\"value\":4.33},{\"quote\":\"\\\"4.33\\\" rounds to 4\",\"value\":4.33},{\"quote\":\"\\\"4.33\\\" rounds to 4\",\"value\":4},{\"quote\":\"x + (x/3) = 100\",\"value\":3},{\"quote\":\"x + (x/3) = 100\",\"value\":100},{\"quote\":\"The number of people is 13\",\"value\":13}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "9e43e8f23369e759c1cdaf7c37ac7cd637da1acd56ca79b70a7bec00720044f9"
+}

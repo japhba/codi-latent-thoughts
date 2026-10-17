@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5316",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question setup, likely \"7.5 meters\" or similar.\n\nThe problem establishes a constraint: total area = 7.5 + x = twice the remaining area, so the solution must solve x = total area \u2212 1/2.\n\n\"The length of the rectangle is\" is an incomplete declarative sentence acting as a prompt for a numerical answer, immediately requiring a specific measurement value (likely \"7.5 meters\" or \"7.5\") to complete the solution.\n7.5 minus 2.5 = 5 meters, but the answer must express the full length using algebraic reasoning.\n2x + 3 = 7.5, so x = (7.5 \u2212 1/3) \u00d7 2 = 5 meters.\n7.5 \u2212 1/3 = 5 meters.\n2x +.",
+    "Math word problem format requires completing the algebraic expression setup, likely showing equation steps.\n\nThe problem establishes a relationship: base area = twice the width, so the equation will express 2x + 25 = total area minus existing area.\n\nFinal token \"has\" begins a clause explaining the base value's relationship to the known value (25), immediately requiring a mathematical expression or description like \"2 times the base\" or \"a base of 25 units.\"\nThe phrase \"The base of the area is\" sets up a numerical or algebraic continuation explaining the base calculation.\n25 times 0.5 is the first term being introduced, requiring the arithmetic expression or explanation of the base plus additional terms.\n2 times the base plus 5 extra units.\n25 \u00d7 2x or similar.",
+    "Math word problem walkthrough format: step-by-step algebraic solution being demonstrated, following a structured template.\n\nThe equation x + 2x = 112 has been set up and solved; the explanation is now justifying the arithmetic reasoning, specifically why the equation represents twice the width plus 10.\n\nFinal token \"5 is the 5 is the 5 is the\" is mid-sentence in a justification clause, immediately requiring completion of the explanation, likely \"the average of the two brothers\" or similar reasoning about the equation's meaning.\nThe phrase \"This is because it is the 2 times the width\" needs completion referencing the formula or numerical substitution.\nThe explanation must resolve the equation's logic, likely referencing half of 36 or the total area constraint.\n2 times the width plus 10 equals 36.",
+    "Step-by-step math word problem format: each step follows \"Step N: [action]\" pattern, with explanation and calculation shown.\n\nThe solution is mid-calculation, having established total area (120) and one variable (twice the other), now solving for x using the equation x + 2x = 30.\n\nFinal token \"Answer:0Answer:0Answer\\nAnswer:Answer\\n0ANS:Answer\\nExplanation:Answer\\n0ANS:Answer\" suggests a template artifact; next tokens should continue the explanation of why the equation equals 30 units.\nThe explanation of the second step's logic is expected next, likely stating the difference between total area and one person's area.\nThe pattern shows a worked solution walkthrough with justification following each step.\nThe final token \"0ANS:Answer\" closes a repeated placeholder artifact, immediately constraining continuation toward the actual calculation.",
+    "Step-by-step math word problem format: each step builds on the previous, with algebraic setup now complete and solution derivation expected.\n\nThe equation x + 2x = 120 has been established; solving for x (the second dimension) is the logical next step, likely showing x = 60.\n\nFinal token \"answonaut\\nanswonaut\" is a repeated placeholder artifact mid-solution, immediately constraining the next tokens to be the mathematical expression showing the area calculation, e.g., \"The area of the triangle is...\" or the numerical result confirming x = twice the width.\nSpecifically, (x + 2x) = 120, confirming the triangle's area equals half the total area minus 30.\n2x = half the difference between total area and 30.\n2x = 30 times 2, completing the constraint.",
+    "Step-by-step math word problem format: each step builds on the previous, with structured solution walkthroughs.\n\nThe equation x + 2x = 12 has been set up and solved; the next logical step is showing the algebraic substitution or verification work.\n\nFinal token \"answergonautum\" is a placeholder/template marker indicating the next content will show the computed numerical answer (likely \"x = 6\" or similar), constrained to display the algebraic result confirming total area constraint.\nThe equation x + half the difference equals 12, so the next tokens must show the logical conclusion linking 2x to the known area value.\n2x + x = total area minus 6.\nSpecifically, solving x = (12/2) + known value to verify the 6-inch width.\n2x = half the total area difference, confirming x = 6."
+  ],
+  "input_sha256": "8772fe672b6e7266279bbde994a8872d5a08c2a3d6049c245584744db18b12df",
+  "values": [
+    {
+      "quote": "7.5",
+      "value": "7.5"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "2.5",
+      "value": "2.5"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "112",
+      "value": "112"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7.5\",\"value\":7.5},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"2.5\",\"value\":2.5},{\"quote\":\"5\",\"value\":5},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"25\",\"value\":25},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"112\",\"value\":112},{\"quote\":\"10\",\"value\":10},{\"quote\":\"36\",\"value\":36},{\"quote\":\"120\",\"value\":120},{\"quote\":\"30\",\"value\":30},{\"quote\":\"0\",\"value\":0},{\"quote\":\"60\",\"value\":60},{\"quote\":\"12\",\"value\":12},{\"quote\":\"6\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.\"}",
+  "prompt_sha256": "2e18a122659de331dc56cbcc3306c5a3c14d27be182ed1a5a9b0bf1475150f29"
+}

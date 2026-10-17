@@ -1,0 +1,73 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5121",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in \"HR = 1.999, 95% CI = 1.000 to 3.999.\"\n\nAcademic/technical report structure: the text is presenting hazard analysis findings with specific numerical results, requiring continuation of the statistical outcome for the \"first two years\" hazard ratio.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the first two years, immediately requiring a numerical value (likely a decimal hazard ratio, e.g., \"1.5\" or similar) followed by statistical qualifiers.",
+    "Narrative momentum of romantic backstory: the plot is tracing character relationships and emotional connections, building toward explaining the couple's relationship history.\n\nCharacter relationship analysis pattern: the text is mid-sentence describing the couple's relationship dynamic, with \"early love\" and \"current relationship\" framing suggesting a contrast or complication is coming.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a verb phrase describing the couple's relationship status or situation, e.g., \"was in the early stages\" or \"was still developing.\"",
+    "Q&A advice format: practical marriage/relationship advice with personal anecdote, now transitioning to a concrete illustrative example answering the \"what to do\" question.\n\nThe anecdote about the doctor's advice about advice-giving sets up a list of actionable tips or examples, with the reader expecting a practical recommendation or advice to follow.\n\nFinal token \"10\" ends an incomplete sentence (\"I would say I need 10\"), part of a list of advice-giving examples; next tokens must complete this thought, likely continuing with \"years\" or a unit of time, then elaborating on the doctor's advice.",
+    "Narrative anecdote transitioning to legal/medical liability scenario: the story illustrates a medical professional's legal responsibility, building toward a legal explanation or advice.\n\nQ&A format established earlier signals the anecdote serves as a concrete example answering the opening question about liability for medical advice, with a moral/legal lesson expected to follow.\n\nFinal token \"20,000 people, 200,000 questions\" is a rhetorical setup mid-sentence, immediately requiring completion of the legal consequence \u2014 likely \"20,000 people who would be responsible\" or similar liability statement.",
+    "Legal Q&A format: a scenario is posed, liability analysis follows, now a case example is being narrated to illustrate the legal question.\n\nNarrative momentum: the scenario establishes a liability scenario (accident, attorney's advice, client's legal duty) and is building toward a legal question about consequences \u2014 the answer or legal analysis is expected next.\n\nFinal token \"0,000,000 clients are 20,000 people who are 500,000 liability for the lawyer's advice\" \u2014 a rhetorical question mid-sentence requiring completion, likely \"so the lawyer is responsible for...\" or similar liability conclusion.",
+    "Statistical/legal report pattern: article presents NHTSA data with precise percentages and figures, expecting continued numerical analysis of crash rates.\n\nArgumentative momentum: the paragraph is mid-sentence presenting a specific finding about the 67% increase in crash rates, with the statistical breakdown of the 1,000+ vehicles still being elaborated \u2014 a concluding percentage or rate figure is expected.\n\nFinal token \"67.6%\" ends a comparative clause (\"67.6% of the time\"), immediately requiring completion of the statistical statement, likely a period or continuation with additional breakdown data."
+  ],
+  "input_sha256": "79517aeccce58493f059911f80b45abfbf5caf769f0acabb6ff7adaa8f101936",
+  "values": [
+    {
+      "quote": "1.999",
+      "value": "1.999"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "1.000",
+      "value": "1"
+    },
+    {
+      "quote": "3.999",
+      "value": "3.999"
+    },
+    {
+      "quote": "two",
+      "value": "2"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "0,000,000",
+      "value": "0"
+    },
+    {
+      "quote": "500,000",
+      "value": "500000"
+    },
+    {
+      "quote": "67%",
+      "value": "67"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "67.6%",
+      "value": "67.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, excluding dates and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.999\",\"value\":1.999},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"1.000\",\"value\":1},{\"quote\":\"3.999\",\"value\":3.999},{\"quote\":\"two\",\"value\":2},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"0,000,000\",\"value\":0},{\"quote\":\"500,000\",\"value\":500000},{\"quote\":\"67%\",\"value\":67},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"67.6%\",\"value\":67.6}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, excluding dates and identifiers.\"}",
+  "prompt_sha256": "ca1ecb961ced55ceb08efb58f2e0eec7fc01a21974c6ff13b1b644c31823dcb5"
+}

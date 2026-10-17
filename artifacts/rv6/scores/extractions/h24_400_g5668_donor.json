@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5668",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: total sales calculation combining twice daily sales (250\u00d77) across all three months.\n\nThe pattern establishes a multiplication: 2\u00d77\u00d7250 = 7500, so the answer must be 7500 \u00d7 2 = 15,000 total units sold across all three months combined.\n\nFinal token \"Total is (\" opens a numerical answer slot requiring the calculated total sales figure, specifically \"15,000\" or \"15,000 units\" \u2014 the sum of twice 250\u00d77\u00d73 combined across all three months.",
+    "Math word problem requiring arithmetic completion: total weekly sales = twice 250 plus original 250, so 250\u00d72 + 250 = 750.\n\nThe solution is building toward confirming the combined total of 750 (250 + twice 250 = 750), establishing the arithmetic chain before asking for the second week's sales (500 more than first week).\n\nFinal token \"had\" introduces the calculated total of 250 + twice 250 = 750, requiring the specific number \"750\" immediately next, followed by \"total\" or \"per week\" to complete the sentence.",
+    "Math word problem solution in progress: total daily sales calculation combining twice 25 + original 25 = 75, requiring arithmetic completion.\n\nThe solution is building toward total daily sales: 25 + twice 25 = 75, establishing the arithmetic chain before calculating weekly total (75 \u00d7 5 days = 375).\n\nFinal token \"7\" begins the number \"75\" (25 + twice 25), immediately constraining the next tokens to complete \"75\" as the combined daily total of 45 + 25, continuing the arithmetic explanation of the combined 50 + 25 passengers.",
+    "Math word problem solution format: structured step-by-step arithmetic requiring calculation of total daily customers (morning + evening counts: 30 + 50 = 80).\n\nThe solution is mid-sentence completing the total daily customer count calculation: \"75 customers\" must follow, then multiplication by 7 days to find total weekly sales (75 \u00d7 2 = 150).\n\nFinal token \"75\" is the combined daily total (30 + 50 customers), immediately requiring the noun \"customers\" or \"visitors\" to complete the sentence, then continuation explaining the weekly total calculation (75 \u00d7 2 = 150).",
+    "Math word problem solution format: structured step-by-step arithmetic explanation with variables, operations, and daily totals being calculated sequentially.\n\nThe solution is computing total daily sales (75+50=125) and will then continue to calculate weekly totals, then total sales across all days \u2014 following the established pattern of restating and solving each step.\n\nFinal token \"p\" is the beginning of \"per day\" completing the sentence \"75 + 50 = 125 people are sold each day, or 125p\" \u2014 immediately expects \"er day\" to complete the word \"per day,\" then likely continuing to calculate weekly totals (2 \u00d7 125 = 250).",
+    "Math word problem template pattern: each problem states total, asks for daily count, then multiplies by days \u2014 the third problem follows this exact structure.\n\nThe problem establishes \"72 people per day\" as the daily total, so the next tokens must state the weekly total (72 \u00d7 6 = 432) and then ask for the weekly total across all days.\n\nFinal token \"people.\" closes the daily count statement (\"72 + 15 = 87 people\"), immediately requiring the multiplication expression \"\u00d7 6 = 432 people\" followed by the question asking for the weekly total across all days."
+  ],
+  "input_sha256": "6e26321ac78f3d71a2d156b688b087416e2ecceeafb85a51133250d3b1fc1b76",
+  "values": [
+    {
+      "quote": "250\u00d77",
+      "value": "1750"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "2\u00d77\u00d7250 = 7500",
+      "value": "2"
+    },
+    {
+      "quote": "2\u00d77\u00d7250 = 7500",
+      "value": "7500"
+    },
+    {
+      "quote": "7500 \u00d7 2 = 15,000",
+      "value": "15000"
+    },
+    {
+      "quote": "15,000",
+      "value": "15000"
+    },
+    {
+      "quote": "250\u00d72 + 250 = 750",
+      "value": "500"
+    },
+    {
+      "quote": "250\u00d72 + 250 = 750",
+      "value": "750"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "25 + twice 25 = 75",
+      "value": "25"
+    },
+    {
+      "quote": "25 + twice 25 = 75",
+      "value": "75"
+    },
+    {
+      "quote": "75 \u00d7 5 days = 375",
+      "value": "5"
+    },
+    {
+      "quote": "75 \u00d7 5 days = 375",
+      "value": "375"
+    },
+    {
+      "quote": "45 + 25",
+      "value": "45"
+    },
+    {
+      "quote": "50 + 25",
+      "value": "50"
+    },
+    {
+      "quote": "30 + 50 = 80",
+      "value": "30"
+    },
+    {
+      "quote": "30 + 50 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "75 \u00d7 2 = 150",
+      "value": "150"
+    },
+    {
+      "quote": "75+50=125",
+      "value": "125"
+    },
+    {
+      "quote": "2 \u00d7 125 = 250",
+      "value": "250"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "72 \u00d7 6 = 432",
+      "value": "6"
+    },
+    {
+      "quote": "72 \u00d7 6 = 432",
+      "value": "432"
+    },
+    {
+      "quote": "72 + 15 = 87",
+      "value": "15"
+    },
+    {
+      "quote": "72 + 15 = 87",
+      "value": "87"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions found within individual descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"250\\u00D77\",\"value\":1750},{\"quote\":\"250\",\"value\":250},{\"quote\":\"7\",\"value\":7},{\"quote\":\"2\\u00D77\\u00D7250 = 7500\",\"value\":2},{\"quote\":\"2\\u00D77\\u00D7250 = 7500\",\"value\":7500},{\"quote\":\"7500 \\u00D7 2 = 15,000\",\"value\":15000},{\"quote\":\"15,000\",\"value\":15000},{\"quote\":\"250\\u00D72 + 250 = 750\",\"value\":500},{\"quote\":\"250\\u00D72 + 250 = 750\",\"value\":750},{\"quote\":\"500\",\"value\":500},{\"quote\":\"25 + twice 25 = 75\",\"value\":25},{\"quote\":\"25 + twice 25 = 75\",\"value\":75},{\"quote\":\"75 \\u00D7 5 days = 375\",\"value\":5},{\"quote\":\"75 \\u00D7 5 days = 375\",\"value\":375},{\"quote\":\"45 + 25\",\"value\":45},{\"quote\":\"50 + 25\",\"value\":50},{\"quote\":\"30 + 50 = 80\",\"value\":30},{\"quote\":\"30 + 50 = 80\",\"value\":80},{\"quote\":\"75\",\"value\":75},{\"quote\":\"75 \\u00D7 2 = 150\",\"value\":150},{\"quote\":\"75+50=125\",\"value\":125},{\"quote\":\"2 \\u00D7 125 = 250\",\"value\":250},{\"quote\":\"72\",\"value\":72},{\"quote\":\"72 \\u00D7 6 = 432\",\"value\":6},{\"quote\":\"72 \\u00D7 6 = 432\",\"value\":432},{\"quote\":\"72 + 15 = 87\",\"value\":15},{\"quote\":\"72 + 15 = 87\",\"value\":87}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions found within individual descriptions.\"}",
+  "prompt_sha256": "354f186f00729e483481fdb8199c9d0ccc80289d8cb40ff15d9e1162871a46a6"
+}

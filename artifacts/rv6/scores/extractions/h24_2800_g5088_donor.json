@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires completing the cost calculation: 4 weeks \u00d7 1.5 \u00d7 $2 \u00d7 $1.5 = $180 total.\n\nThe structured problem pattern (4 \u00d7 1.5 \u00d7 $2 \u00d7 $1.5 \u00d7 4 meals) demands a specific dollar amount as the final answer.\n\nFinal token \"are\" introduces the cost result, immediately requiring a numeric dollar amount (likely \"$180\") representing the four weekly meal costs.\n1.5 \u00d7 4 \u00d7 2 \u00d7 $2 = $180 small weekly expenses.\n4 \u00d7 2 \u00d7 1.5 \u00d7 $0.25 \u00d7 4 meals = $180.\n$1.5 \u00d7 4 \u00d7 2 \u00d7 $0.20 = $12 meals \u00d7 $1.5 \u00d7 $2 = $120 hidden costs, completing the.",
+    "Math word problem solution in progress: calculating weekly cost using 4 \u00d7 $1.50 \u00d7 2 = $120 total, now detailing per-day breakdown.\n\nThe structured solution requires completing the arithmetic: 4 \u00d7 $1.50 \u00d7 2 meals = $120 food cost, then monthly savings calculation.\n\nFinal token \"have\" begins the cost-per-week calculation, immediately requiring the specific dollar amount (4 \u00d7 $1.50 \u00d7 2 meals = $12) representing the four daily food costs.\n1.5 \u00d7 4 \u00d7 $2 = $12.\n4 \u00d7 $1.50 \u00d7 2 meals \u00d7 $0.25 = $12 accessory charges, completing the four daily expenses before adding to monthly total.\n1.5 \u00d7 2 \u00d7 $0.25 = $12 accessory charges per week.",
+    "Step-by-step math solution pattern: each step builds on the previous, showing arithmetic progression toward weekly cost.\n\nNumerical calculation in progress: 4 drinks \u00d7 $3 each = $12 dollars daily, establishing the total daily expenditure before weekly total.\n\nFinal token \"12\" is the computed value of 4 drinks \u00d7 $3 \u00d7 $0.50, mid-calculation; next tokens must complete this arithmetic result and continue explaining the weekly cost (12 dollars \u00d7 $2 = $24 dollars spent on drinks).\nFinal token \"$12\" is the computed daily food cost (2 drinks \u00d7 $0.50 \u00d7 $3 = $12 dollars), immediately requiring continuation of the weekly total.\nShe pays $12 dollars each day, so remaining drinks \u00d7 $0.50 \u00d7 $2 = $24 drinks cost.",
+    "Step-by-step math solution pattern: each step builds on the previous, showing arithmetic progression toward total cost.\n\nThe arithmetic calculation is mid-completion: 4 eggs \u00d7 $1.25 = $5, so the next tokens will state the weekly total cost (4 \u00d7 $1.25 \u00d7 4 = $12).\n\nFinal token \"$12p\" is the computed cost of four eggs \u00d7 $1.25 daily, immediately requiring the unit \"per week\" and then the monthly total to complete the sentence.\nFinal token \"p\" ends \"$12p\", closing the cost figure for the four weekly trips.\n12p ends the intermediate step, so next tokens will state the monthly total: \"$12p.\"\n$12p = $4 \u00d7 $1.40 = $5.60 spent on food costs, then continue to monthly/total expenses.",
+    "Step-by-step math tutorial pattern: each problem follows identical structure (calculate, then state answer), now completing the second problem's final step.\n\nThe second problem mirrors the first's format: daily distance \u00d7 daily cost = total cost, so the next tokens will state \"$84\" as the computed result.\n\nFinal token \"p. 4.20. 2p.\" is mid-sentence completing the weekly calculation (4 miles \u00d7 $4.20 \u00d7 4 days = $84), immediately expecting the closing statement like \"The weekly cost is $84.\"\nFinal token \"18p. 2p.\" is the computed intermediate value, followed by the total weekly cost conclusion.\nFinal token \"36.\" ends the per-week breakdown, then the next section states the four weekly meal costs.\nFinal token \"4p.\" closes the multiplication result for the 4 miles \u00d7 $.",
+    "Structured step-by-step math problem format: each problem follows identical pattern of calculation, then explanation, then answer.\n\nThe word problem requires computing total cost: 4 miles \u00d7 $1.5 \u00d7 4 miles = $48 weekly, then monthly total.\n\nFinal token \"problem.\" closes the cost-per-week calculation sentence (\"$12 miles \u00d7 $1.5 miles = $18 miles for each trip\"), immediately expecting the next section header \"Therefore, the total cost is $48 weekly.\"\nFinal token \"problem.\" ends the worked example's conclusion sentence, signaling the transition to the final answer section.\nFinal token \"problems.\" closes the calculation summary for the first trip's daily cost ($12 \u00d7 4/4 miles = $36 total), before stating the four-week monthly cost.\nThen the four-week total cost calculation is expected next.\n$9 \u00d7 -0.25."
+  ],
+  "input_sha256": "a4171366922dac93ff78cf887d3cf8851c3451c39b3d945a2130ccbb3611f7da",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$180",
+      "value": "180"
+    },
+    {
+      "quote": "$0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "$0.20",
+      "value": "0.2"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "$1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "$3",
+      "value": "3"
+    },
+    {
+      "quote": "$0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "$24",
+      "value": "24"
+    },
+    {
+      "quote": "$1.25",
+      "value": "1.25"
+    },
+    {
+      "quote": "$5",
+      "value": "5"
+    },
+    {
+      "quote": "$1.40",
+      "value": "1.4"
+    },
+    {
+      "quote": "$5.60",
+      "value": "5.6"
+    },
+    {
+      "quote": "$84",
+      "value": "84"
+    },
+    {
+      "quote": "4.20",
+      "value": "4.2"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "$48",
+      "value": "48"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "-0.25",
+      "value": "-0.25"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$180\",\"value\":180},{\"quote\":\"$0.25\",\"value\":0.25},{\"quote\":\"$0.20\",\"value\":0.2},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"$1.50\",\"value\":1.5},{\"quote\":\"$3\",\"value\":3},{\"quote\":\"$0.50\",\"value\":0.5},{\"quote\":\"$24\",\"value\":24},{\"quote\":\"$1.25\",\"value\":1.25},{\"quote\":\"$5\",\"value\":5},{\"quote\":\"$1.40\",\"value\":1.4},{\"quote\":\"$5.60\",\"value\":5.6},{\"quote\":\"$84\",\"value\":84},{\"quote\":\"4.20\",\"value\":4.2},{\"quote\":\"36\",\"value\":36},{\"quote\":\"$48\",\"value\":48},{\"quote\":\"18\",\"value\":18},{\"quote\":\"9\",\"value\":9},{\"quote\":\"-0.25\",\"value\":-0.25}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "837b8241b9a75450d1ed327d3549d3329cfb05f1d212d3cd9f9a90198af54869"
+}

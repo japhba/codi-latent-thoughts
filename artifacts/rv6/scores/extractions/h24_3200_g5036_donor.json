@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5036",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 5\u00d712=60, so the answer is 60.\n\n Word problem solution format: a numerical answer is expected, likely followed by explanation or verification.\n\nThe final token \"is\" opens a word problem answer statement, immediately requiring the integer \"60\" (5\u00d712 \u2212 12 = 60) representing the total remaining boxes after removing the broken one.\n5\u00d712 \u2212 10 = 60, so the answer must be \"60.\"\n(5 \u2212 1) \u00d7 12 = 60, confirming the solution.\n5 \u2212 1 = 4 boxes, so the answer is 60.\n(5 \u2212 1) \u00d7 12 = 60 kg, completing the calculation.\n5 \u2212 10 = original capacity minus 12 removed.\n(5.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requiring arithmetic expression and result.\n\nThe word problem structure demands a multiplication expression showing 5 dozen \u00d7 12 eggs = 60 eggs total, followed by the answer.\n\nFinal token \"had\" begins a past-tense clause explaining the initial count (5\u00d712=60 eggs), immediately requiring a number or quantity like \"60 eggs\" or \"five dozen eggs placed on the board before removing the broken eggs.\"\nThe solution is mid-sentence explaining the original total before subtraction of 12 removed eggs.\n5 dozen = 60 eggs, so the next tokens must complete this arithmetic explanation.\n5 \u00d7 12 = 60 eggs total, then describing the remaining eggs after removing 12.\nThere are 5 groups of eggs, so \"60 eggs\" or \"five dozen eggs\" follows.\n5\u00d7.",
+    "Math word problem solution format: step-by-step arithmetic word problem requiring arithmetic operations and answers.\n\nThe solution requires showing the arithmetic expression: 5 boxes \u00d7 12 = 60 total, then explaining the remaining after removing 12.\n\nThe final token \"6\" begins the number \"60,\" completing the sentence \"There were 5 \u00d7 12 = 60 eggs initially placed on the board,\" immediately requiring \"0 eggs\" to complete the total before explaining the subtraction of 2 removed eggs.\nShe had 5 sets of 12 eggs, so the answer must show 60 eggs total, then 2 removed eggs.\n5 sets \u00d7 12 eggs = original eggs, then 2 of those removed.\nThe next tokens must complete \"60 eggs\" and then explain the remaining count after removing 2 sets.\n5 sets \u00d7 12 = 6.",
+    "Math word problem solution format: step-by-step word problem walkthrough requiring arithmetic continuation.\n\nThe solution is explaining the arithmetic operation: 6\u00d710=60 cookies total, then 6 removed, leaving 54 remaining.\n\nFinal token \"60\" is the start of the arithmetic expression \"6 boxes \u00d7 10 cookies,\" immediately requiring the word \"cookies\" or \"cookies were placed initially,\" followed by explanation of the subtraction of the removed 6 cookies.\nShe had 60 cookies total before removing 12 broken ones.\nShe had 60 cookies in total initially, then removed 12 boxes \u00d7 1/3 = 24 cookies sold.\nThe final token \"60\" begins the explanation of the original count, requiring \"cookies placed in each box\" or similar phrasing to complete the equation.\n5 sets \u00d7 12 = original total before the removal.",
+    "Math word problem solution format: step-by-step arithmetic explanation with arithmetic operations shown.\n\nThe solution requires showing the arithmetic expression \"12 dozen = 144 eggs,\" confirming the answer.\n\nThe final token \"p\" begins the word \" eggs,\" completing the equation \"1 dozen eggs are removed\" \u2014 the next tokens must be \"12 eggs\" to complete the arithmetic demonstration showing 1 dozen eggs remain after removing 12 eggs.\nFinal token \"p\" is the start of \"120 eggs,\" completing the equation \"1 dozen \u00d7 12 = 12 eggs added to the box.\"\nYou are removing 12 eggs from 12 dozen eggs, so the answer confirms 120 eggs total.\n12 dozen eggs = 12 eggs available.\nThe remaining eggs after removal.\n12 eggs in the box.\n120 eggs total.\nThe answer is.",
+    "Math word problem walkthrough pattern: each problem states a quantity, then answers it with arithmetic explanation.\n\nThe problem follows a template: \"There are X eggs. We remove Y eggs...\" expecting a numerical answer showing the remaining eggs.\n\nThe final token \"12.\" ends the question prompt \"12 eggs are removed from the box,\" immediately requiring the answer \"There are 48 eggs remaining\" or similar arithmetic conclusion, likely starting with \"There are 48 eggs.\"\nFinal token \"12.\" is a numeric answer fragment showing the removed count, expecting a closing statement like \"There are 48 eggs remaining after 3 dozen eggs.\"\nFinal token \"12.\" ends the small arithmetic problem's answer prompt, requiring the worked solution showing 12 eggs remaining.\n12 eggs \u00d7 2 = 24 eggs used in the broken pair, confirming the answer.\nOriginal 24 eggs."
+  ],
+  "input_sha256": "0ab876cd74497a7981aa0114e857dabf7114f69378580f741d94c6ad5b765bc1",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly mentioned in the provided descriptions, including fractions and products like 5x12=60.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"12\",\"value\":12},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1\",\"value\":1},{\"quote\":\"4\",\"value\":4},{\"quote\":\"6\",\"value\":6},{\"quote\":\"0\",\"value\":0},{\"quote\":\"2\",\"value\":2},{\"quote\":\"54\",\"value\":54},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"24\",\"value\":24},{\"quote\":\"144\",\"value\":144},{\"quote\":\"120\",\"value\":120},{\"quote\":\"48\",\"value\":48},{\"quote\":\"3\",\"value\":3}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly mentioned in the provided descriptions, including fractions and products like 5x12=60.\"}",
+  "prompt_sha256": "eb81e20122700be71490554a684075d4a3df2e348e0bd98339ed7b10b250e9e3"
+}

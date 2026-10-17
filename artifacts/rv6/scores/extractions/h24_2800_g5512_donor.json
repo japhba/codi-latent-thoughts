@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5512",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem structure demands a numerical answer: total eggs = 3+2=5 eggs per week, so total weekly count is 5\u00d77=35 eggs.\n\nThe arithmetic pattern established requires completing the multiplication: 3+2=5 eggs combined, confirming the total eggs per week.\n\nFinal token \"Total is\" opens a declarative answer statement, immediately requiring a specific number (35) representing the combined daily egg count (3+2=5 eggs \u00d7 7 days).\n(3+2)\u00d77=35 eggs total eggs per week.\n(3+2)\u00d77=35 pounds eggs total eggs weekly.\n7\u00d7(2+3)=35 pounds eggs total eggs.\n2+3=5 eggs daily, so 5\u00d77=35 pounds eggs total eggs.\n(2+3)\u00d77=35 pounds eggs per week consumption.",
+    "Math word problem solution format: step-by-step word problem walkthrough with arithmetic operations expected.\n\nThe word problem requires calculating total combined miles: 3+2=5 miles per day, then total miles.\n\nFinal token \"have\" begins the arithmetic result statement for the combined daily walking distance (3+2=5), immediately requiring the number \"5 miles\" or \"5 miles together\" to complete the sentence explaining the combined daily walking count.\nShe walks 3+2=5 miles per day, so the next tokens must state this sum before proceeding to total miles calculation.\n3+2=5 miles for each pet.\nShe walks 3+2 miles per day for each pet, so the next tokens will state the combined result (5 miles) before continuing to 21 total miles over 7 days.\n2+3=5 miles total food miles, then doubling to 21 miles combined.",
+    "Word problem solution format: step-by-step arithmetic walkthrough with structured explanation, expecting continuation of the combined total calculation.\n\nWord problem setup requires completing the arithmetic: 3 + 2 = 5 cookies per day, then total weekly consumption (5 \u00d7 6 = 30).\n\nFinal token \"5\" is the arithmetic result of 3 + 2 cookies combined, immediately requiring \"cookies\" to complete the sentence \"They eat 5 cookies together each day.\"\nFinal token \"5\" is mid-sentence, completing the combined daily total before stating the weekly sum.\nThey eat 5 cookies together each day.\"\n5 cookies is the stated answer to the combined expression 3 + 2, immediately requiring \"cookies a day\" to close the sentence.\nThey eat 5 cookies daily.\"\n6 + 2 = 5 cookies total, then total weekly: 5\u00d76=30 cookies combined before.",
+    "Word problem solution format: step-by-step arithmetic walkthrough requires completing the arithmetic result and confirming total.\n\nThe combined daily consumption calculation: 5 + 3 = 8, so the answer must state \"8 eggs together.\"\n\nFinal token \"5 p\" is mid-sentence completing \"They eat 7 + 2 = 9 eggs a day,\" immediately requiring \"a day\" to close the sentence, then likely a period or continuation to the next step (total weekly eggs).\nFinal token \"p\" is the unit abbreviation for \"per day,\" completing the arithmetic result statement.\n5 + 3 = 8 eggs combined by both people daily.\n5 + 1 = 6 eggs daily for eggs per week.\nThey eat 7 + 1 eggs daily.\"\n5 + 7 = 12 eggs combined daily.\"\n12 eggs total daily.\"",
+    "Word problem solution format: structured arithmetic problem with given values, now requiring calculation steps and answer.\n\nThe pattern established requires computing total pages: 5+11=16 pages combined, then 16 \u00d7 daily reading.\n\nFinal token \"s.\" ends the combined daily consumption statement (\"5+11=16 pages per day\"), immediately expecting the arithmetic result or the next step: \"16 pages per day.\"\nFinal token \"9 s.\" is the completed arithmetic expression, immediately expecting the computed answer \"165 miles\" or a transition to the solution.\nFinal token \"pages.\" closes the per-day calculation sentence, immediately requiring the numeric result \"165 miles he reads.\"\n5+11 more than 7 + 9 = 25 miles combined daily.\nFinal token \"s.\" ends the per-page expression, then the answer \"165 miles a week\".",
+    "Word problem walkthrough format: structured solution with labeled steps (word problem \u2192 calculation \u2192 answer) signals a worked arithmetic answer is expected next.\n\nThe pattern established requires completing the arithmetic expression: 5+4=9 miles per day, then multiplying by 7 days to get total miles.\n\nFinal token \"problem.\" closes the problem statement (\"5+4=9 miles combined daily\"), immediately requiring the solution steps: arithmetic result (9 miles) and likely a final answer line.\nFinal token \"problem.\" ends the arithmetic expression setup, immediately constraining next tokens to be the computed weekly total (9 miles).\nFinal token \"problem.\" closes the per-day calculation prompt, expecting the answer \"9 miles per week.\"\n15+4+ = 21 miles combined daily, then the weekly sum calculation.\nShe walks 9 miles each day.\n15+4=9 miles difference between walking and eating miles."
+  ],
+  "input_sha256": "6edb715be51f917e6b82202b67b77e89f92f217334355ec76b7606e319024563",
+  "values": [
+    {
+      "quote": "3+2=5",
+      "value": "5"
+    },
+    {
+      "quote": "5\u00d77=35",
+      "value": "35"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "(3+2)\u00d77=35",
+      "value": "35"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "5 \u00d7 6 = 30",
+      "value": "30"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "5 + 3 = 8",
+      "value": "8"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "7 + 2 = 9",
+      "value": "9"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "5 + 1 = 6",
+      "value": "6"
+    },
+    {
+      "quote": "7 + 1",
+      "value": "8"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "5 + 7 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "5+11=16",
+      "value": "16"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "165",
+      "value": "165"
+    },
+    {
+      "quote": "7 + 9 = 25",
+      "value": "25"
+    },
+    {
+      "quote": "5+4=9",
+      "value": "9"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "15+4+ = 21",
+      "value": "21"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3+2=5\",\"value\":5},{\"quote\":\"5\\u0026#215;7=35\",\"value\":35},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"7\",\"value\":7},{\"quote\":\"(3+2)\\u0026#215;7=35\",\"value\":35},{\"quote\":\"21\",\"value\":21},{\"quote\":\"5 \\u0026#215; 6 = 30\",\"value\":30},{\"quote\":\"6\",\"value\":6},{\"quote\":\"5 + 3 = 8\",\"value\":8},{\"quote\":\"8\",\"value\":8},{\"quote\":\"7 + 2 = 9\",\"value\":9},{\"quote\":\"9\",\"value\":9},{\"quote\":\"5 + 1 = 6\",\"value\":6},{\"quote\":\"7 + 1\",\"value\":8},{\"quote\":\"1\",\"value\":1},{\"quote\":\"5 + 7 = 12\",\"value\":12},{\"quote\":\"12\",\"value\":12},{\"quote\":\"5+11=16\",\"value\":16},{\"quote\":\"11\",\"value\":11},{\"quote\":\"16\",\"value\":16},{\"quote\":\"165\",\"value\":165},{\"quote\":\"7 + 9 = 25\",\"value\":25},{\"quote\":\"5+4=9\",\"value\":9},{\"quote\":\"4\",\"value\":4},{\"quote\":\"15+4+ = 21\",\"value\":21},{\"quote\":\"15\",\"value\":15}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "ef9bdcae80268bee538a0bba6bc307bfa1da200c4471ccfeb93db57027e6b01e"
+}

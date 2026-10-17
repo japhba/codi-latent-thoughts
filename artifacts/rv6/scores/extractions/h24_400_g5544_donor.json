@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5544",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic calculation: total weekly savings (95+35) must be computed, i.e., 130 divided by 10.\n\nThe answer must be a specific integer representing total weeks: (9 + 3) + 7 = 20 weeks, since he started with 95, lost 35, gained 10 each week, so 95 + 37 = 132.\n\nFinal token \"be\" closes a question asking for the total number of weeks he has saved, requiring the integer answer \"20\" (i.e., 95 + 37 = 132, so 10 weeks total).",
+    "Math word problem solution in progress: calculating total profit (95 + $95 = $190) before finding how many days it took to reach the goal.\n\nThe narrative momentum requires completing the arithmetic: the difference between $95 and $35 must be calculated, i.e., $190 total profit, then dividing by the daily loss to find the number of days.\n\nFinal token \"had\" introduces the calculated profit amount (95 + 35 = 130) that represents the difference between the starting $95 and the $35 loss, requiring the specific numerical result \"95 more than the debt\" or \"$130\" to complete the sentence.",
+    "Math word problem solution in progress: calculating total amount spent by the woman, combining her $55 debt with the $75 she earned, requiring completion of the arithmetic result.\n\nThe solution is mid-calculation: $55 + $75 = $135, so the next tokens must state the total sum (135) and then divide by the original debt amount to find the number of hours worked.\n\nFinal token \"13\" is the beginning of the number \"135\" (55 + 75), representing the combined total of $135 she spent; the next tokens must complete this number and then continue with division by the debt amount (5).",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with variable setup, equation formation, and solving process expected.\n\nThe solution is mid-calculation: total savings ($130) established from $50 spent + $80 remaining, now requiring division by daily wage ($5) to find number of days, i.e., \"130 = $26 \u00d7 5\" or similar.\n\nFinal token \"130\" is the calculated total amount ($50 + $80), part of a sentence stating the combined savings before solving for how many days; next tokens must complete this sentence, likely \"in total\" or \"to reach the $130 goal\" before dividing by the daily increment.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with variable calculation, following \"total amount = $130\" and \"total days = $130 + $5 = $135.\"\n\nThe solution is mid-calculation, having established total money needed ($135) and now computing the number of days by dividing $135 by the daily increment ($12), requiring the arithmetic expression to complete.\n\nFinal token \"p\" begins the word \"pence\" or \"per day\" \u2014 specifically continuing the division expression \"130 + 5 = 135\" or \"135 \u00f7 $12 = 11 days,\" constrained to complete the mathematical statement about the original number of days.",
+    "Math word problem solution format: structured Q&A with calculation steps, following a consistent pattern of presenting total, then solving for unknowns.\n\nThe problem has established a total of $160 (10 + $60 difference) and is now solving for the number of days, requiring division: 160 \u00f7 $5 = 32 days, then dividing by $5 to find the original count.\n\nFinal token \"dollars.\" ends the equation \"160 - $5 = $115 dollars.\" \u2014 the next tokens must state the calculated number of days (32) and then state how many days each person spent, likely \"Each day, they spent 15 dollars.\""
+  ],
+  "input_sha256": "72031f10442ecc60f57c3c6d9233b054917b81ae1e8b7cc5ec3e4ec1c18d6eb7",
+  "values": [
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "132",
+      "value": "132"
+    },
+    {
+      "quote": "190",
+      "value": "190"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and arithmetic results mentioned in the text, including those within expressions like '95 + 35 = 130' and '160 - $5 = $115'.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"95\", \"value\": 95}, {\"quote\": \"35\", \"value\": 35}, {\"quote\": \"130\", \"value\": 130}, {\"quote\": \"10\", \"value\": 10}, {\"quote\": \"9\", \"value\": 9}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"7\", \"value\": 7}, {\"quote\": \"20\", \"value\": 20}, {\"quote\": \"37\", \"value\": 37}, {\"quote\": \"132\", \"value\": 132}, {\"quote\": \"190\", \"value\": 190}, {\"quote\": \"55\", \"value\": 55}, {\"quote\": \"75\", \"value\": 75}, {\"quote\": \"135\", \"value\": 135}, {\"quote\": \"13\", \"value\": 13}, {\"quote\": \"5\", \"value\": 5}, {\"quote\": \"50\", \"value\": 50}, {\"quote\": \"80\", \"value\": 80}, {\"quote\": \"26\", \"value\": 26}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"11\", \"value\": 11}, {\"quote\": \"160\", \"value\": 160}, {\"quote\": \"60\", \"value\": 60}, {\"quote\": \"32\", \"value\": 32}, {\"quote\": \"115\", \"value\": 115}, {\"quote\": \"15\", \"value\": 15}], \"justification\": \"Extracted all explicit numeric literals and arithmetic results mentioned in the text, including those within expressions like '95 + 35 = 130' and '160 \\u002D $5 = $115'.\"}",
+  "prompt_sha256": "63cf7be2738b81dc256dc3ccf3b70f3c095982a6ee679eb59040951e33d30471"
+}

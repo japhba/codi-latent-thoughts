@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5052",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: student is working through a step-by-step solution to a statistics problem involving margin of error and confidence intervals.\n\nThe student has correctly identified the formula and is now applying it: \"1000 * 0.05 * 2 = 100\" \u2014 the next step is computing the margin of error using this result, i.e., \"100 * 0.05 = 5.\"\n\nFinal token \"is\" opens a clause completing \"The margin of error is [X],\" requiring the numerical answer \"5\" (or \"5%\") to follow immediately.\n</explanation>",
+    "Mathematical problem-solving context: calculating expected value of a game with specific mechanics (winning $10, losing $5, ties $0).\n\nThe solution is mid-calculation, having established the formula and substituted it; the next step requires computing the arithmetic result: (10 \u00d7 15) + (-5 \u00d7 15) = 150 \u2212 75 = 75.\n\nFinal token \"substitute\" begins the substitution step, immediately requiring the specific numerical values (15 wins \u00d7 $10, 15 losses \u00d7 $\u22125) into the formula expression.\n</explanation>",
+    "Mathematical problem-solving context: calculating remaining students after 25% reduction, using 150 \u00d7 0.75 = 112.5.\n\nMultiple-choice answer selection expected: options A\u2013D will be evaluated against the computed result, pointing toward option C (112).\n\nFinal token \"15\" is the beginning of the number 150, mid-calculation in the worked solution, immediately requiring completion of that number (\"0\") followed by the arithmetic result \"112.5 students.\"\n</explanation>",
+    "Step-by-step math problem walkthrough, following a structured solution format with labeled stages (e.g., \"Original number,\" \"Subtract 25,\" \"Divide by 2\").\n\nThe solution is mid-calculation, having established 150 remaining after subtracting 25; the next step must state the division result (150 \u00f7 2 = 75).\n\nFinal token \"150\" is the dividend in the division step, immediately requiring the division expression or result, e.g., \"150 \u00f7 2 = 75\" or \"150 / 2 = 75.\"\n</explanation>",
+    "Mathematical problem-solving pattern: calculating 15% of 120,000, requiring completion of the arithmetic result (15% of 120,000 = 1,800).\n\nMultiple-choice answer selection expected: after computing the result, the model must identify which option matches \"1,800\" (option C).\n\nFinal token \"2\" is the beginning of the number \"1,800\" (15% of 120,000), mid-number, requiring immediate continuation with \"1,800\" to complete the calculated value.\n</explanation>",
+    "Step-by-step math word problem walkthrough, each step showing a calculation with explanation; the pattern requires completing the final step's arithmetic result.\n\nThe problem follows a structured format: state total, state subset, state remainder \u2014 the final step must state the remaining passengers after subtracting 15.\n\nThe last token \"15\" is the subtracted value in the final arithmetic step, immediately requiring the remainder calculation: \"100 - 15 = 85\" to complete the solution.\n</explanation>"
+  ],
+  "input_sha256": "7b04497a5a95c549f76fcb7e58d3c968b6e0d6e02c30315b69925eeed01caa89",
+  "values": [
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "0.05",
+      "value": "0.05"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "-5",
+      "value": "-5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "0.75",
+      "value": "0.75"
+    },
+    {
+      "quote": "112.5",
+      "value": "112.5"
+    },
+    {
+      "quote": "112",
+      "value": "112"
+    },
+    {
+      "quote": "120,000",
+      "value": "120000"
+    },
+    {
+      "quote": "1,800",
+      "value": "1800"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, arithmetic results, and spelled-out values from the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"0.05\",\"value\":0.05},{\"quote\":\"2\",\"value\":2},{\"quote\":\"100\",\"value\":100},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"-5\",\"value\":-5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"150\",\"value\":150},{\"quote\":\"75\",\"value\":75},{\"quote\":\"25\",\"value\":25},{\"quote\":\"0.75\",\"value\":0.75},{\"quote\":\"112.5\",\"value\":112.5},{\"quote\":\"112\",\"value\":112},{\"quote\":\"120,000\",\"value\":120000},{\"quote\":\"1,800\",\"value\":1800},{\"quote\":\"85\",\"value\":85}],\"justification\":\"Extracted all explicit numeric literals, arithmetic results, and spelled-out values from the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "84a14590fdc03236a3e7e6f680010432c1567a8b4ecfd23312ba382489d8aac7"
+}

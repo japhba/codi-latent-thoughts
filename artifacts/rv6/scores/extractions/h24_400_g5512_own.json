@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5512",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 5\u00d7$56 + 2\u00d7$2 = $288 total cost, so the answer must be $56\u00d75 + 2 = $288.\n\nThe structured solution format demands a specific dollar amount representing the total bill: 5\u00d7$56 + 2\u00d7$3 = $288, making \"$288\" the expected numeric answer.\n\nFinal token \"Total cost is $\" opens a numeric answer field; the immediate next token must be the calculated total: \"288\" (56\u00d73 + 2\u00d74 = $288).",
+    "Math word problem solution format: structured arithmetic problem requiring calculation of total cost (3 \u00d7 $54 = $162) then addition of remaining items.\n\nThe problem lists three items (5 books \u00d7 $56, 2 separate items, $3 each), so the solution must sum all costs: 3\u00d7$56 = $162, then add $3 + $2 = $14.\n\nFinal token \"had\" begins the arithmetic statement about 3 \u00d7 $54, immediately requiring the calculated total: \"54 \u00d7 3 = $162\" or similar, continuing the solution's first step.",
+    "Math word problem solution in progress: calculating total cost of 6 tickets \u00d7 $8 each, requiring arithmetic completion. The solution must show 166 (6\u00d728) plus the separate $4.\n\nStep-by-step arithmetic structure: first operation (6 \u00d7 $28 = 168) is being computed, then the second operation (add $4 for the separate fee) must follow.\n\nFinal token \"16\" is the beginning of the total cost \"168\" from 6 \u00d7 $28, immediately constraining the next tokens to complete \"168\" then continue with the separate fee \"$4\" added.",
+    "Word problem solution format: structured arithmetic problem requiring step-by-step calculation, with variables established (8 items \u00d7 $12 = $168, then small items).\n\nThe solution must continue listing costs: \"8 books cost $168\" and \"two small items cost $10\" \u2014 the next step is adding these together: $168 + $10 = $178 total.\n\nFinal token \"168\" is the calculated cost of the 4 books (8 \u00d7 $24), immediately expecting \"for the books\" or a continuation like \"and $10 for the small items,\" completing the arithmetic sentence before adding the second cost.",
+    "Math word problem format requires completing the arithmetic calculation: 8 items \u00d7 $2 = $16, then adding the second item's cost (2 \u00d7 $8 = $16).\n\nThe pattern established shows listing costs: \"8 \u00d7 $8 = $64\" for eggs, now \"2 \u00d7 $8 = $16\" for nuts, suggesting the total answer is $80 (8\u00d7$16 + 2\u00d7$8).\n\nThe final token \"p\" begins the second cost of nuts (\"$2 \u00d7 8 = $16\"), immediately requiring the number \"8\" to complete the multiplication expression \"2 \u00d7 8 = $16.\"",
+    "Math word problem format: each problem states cost, then asks to calculate total, following a consistent pattern of arithmetic operations with answers.\n\nThe second problem mirrors the first's structure: \"total cost = $150 + $16\" requires completing the addition, so the answer is $168, matching the pattern of adding the extra cost (16) to $80\u00d72.\n\nFinal token \"16\" is the second small cost in the second problem's addendum, immediately requiring the closing answer \"so the total is $168\" to complete the pattern established by the first problem's \"$16 added to $80\u00d72 = $200.\""
+  ],
+  "input_sha256": "2d4adee5395ab07edb47fbb42aa642b520f29ce0a6b13899aa612b2aa53aab09",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "288",
+      "value": "288"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "162",
+      "value": "162"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "166",
+      "value": "166"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "178",
+      "value": "178"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "64",
+      "value": "64"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and results of unambiguous arithmetic expressions (like 56x3 + 2x4 = 288) from each independent description, excluding dates, ordinals, and digit substrings.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"56\",\"value\":56},{\"quote\":\"2\",\"value\":2},{\"quote\":\"288\",\"value\":288},{\"quote\":\"3\",\"value\":3},{\"quote\":\"4\",\"value\":4},{\"quote\":\"54\",\"value\":54},{\"quote\":\"162\",\"value\":162},{\"quote\":\"14\",\"value\":14},{\"quote\":\"6\",\"value\":6},{\"quote\":\"8\",\"value\":8},{\"quote\":\"166\",\"value\":166},{\"quote\":\"28\",\"value\":28},{\"quote\":\"4\",\"value\":4},{\"quote\":\"168\",\"value\":168},{\"quote\":\"16\",\"value\":16},{\"quote\":\"12\",\"value\":12},{\"quote\":\"10\",\"value\":10},{\"quote\":\"178\",\"value\":178},{\"quote\":\"24\",\"value\":24},{\"quote\":\"64\",\"value\":64},{\"quote\":\"80\",\"value\":80},{\"quote\":\"150\",\"value\":150},{\"quote\":\"200\",\"value\":200}],\"justification\":\"Extracted all explicit numeric literals and results of unambiguous arithmetic expressions (like 56x3 + 2x4 = 288) from each independent description, excluding dates, ordinals, and digit substrings.\"}",
+  "prompt_sha256": "9736919d5a2d4e36b9a32bf4614e51f58e5596ca102e0d2eeec936af14441378"
+}

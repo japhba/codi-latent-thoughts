@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5612",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 2\u00d76 + 1 + original count.\n\nThe arithmetic setup demands completion: 2\u00d76 + 7 + 1 = 13 items, so the next token must be the total count.\n\nFinal token \"are\" is the linking verb in a word problem solution sentence, immediately requiring a number (likely \"13\") representing the calculated total count of items.\n6+2\u00d76+7=13.\n6+2*6+1=13 eggs, completing the arithmetic result.\nShe has 13 eggs total.\n6+2*6+7 eggs from the original list.\nAnswer: 13 eggs.\n6+2*6+1+7=13 eggs combined.\n2*6 + one egg + original 7 = 13 eggs.",
+    "Math word problem format requires a step-by-step arithmetic solution, expecting a specific numerical answer (2\u00d76=12 dogs).\n\nWord problem setup demands completion of the arithmetic expression: \"2 times 6 = 12 boys,\" then adding 3 girls.\n\nThe final token \"have\" is mid-sentence in the word problem's arithmetic statement, immediately requiring the numerical result \"12 cars\" or \"12 boys\" to complete the multiplication expression.\nShe has 2\u00d76=12 red cars, so the next tokens must state this count before listing the remaining 3+4+5=12 dogs.\nShe has 12 boys ordered.\n6 \u00d7 2 = 12 cars for the second type, completing the multiplication before adding the known 2 girls.\n2 \u00d7 6 = 12 cars ordered, then adding 3 girls to total 15.",
+    "Math word problem solution format: step-by-step word problem walkthrough requiring arithmetic continuation.\n\nWord problem setup demands completion: \"She has 6 roses and 8 tulips\" establishes a list of flower quantities, expecting the arithmetic result (6\u00d72=12 roses added, then 5+4=9 total).\n\nFinal token \"12\" is the computed answer to \"2 times 6 apples,\" immediately requiring the noun \"roses\" and likely a continuation listing remaining flower types (roses, tulips) before adding to total count.\nShe has 12 roses bought.\n12 = 2\u00d76 tomatoes, completing the second calculation before adding 5 tulips.\nShe has 12 oranges (likely \"tomatoes\") to complete the arithmetic sequence.\nShe purchases 2\u00d76=12 blue tomatoes, then adds 5 tulips already mentioned, completing the enumeration before.",
+    "Math word problem solution format: step-by-step word problem walkthrough with arithmetic operations, expecting numerical results.\n\nThe word problem requires counting total fruits: 2\u00d76=12 apples, then 2\u00d75=10 apples, then adding 5+6=11.\n\nFinal token \"p\" is the unit abbreviation for \"apples,\" completing the multiplication result \"2\u00d76=12 p[les]\" \u2014 immediately expects \"les\" to complete the word, then likely a period or continuation listing the remaining count.\nFinal token \"12 p\" is mid-word, completing \"12 apples,\" then the sentence continues with the total count plus 5 girls' apples.\nShe has 12 apples from 2\u00d76, so \"2 apples\" completes the second calculation before adding 5 girls' apples.\n12 p[les] = 2\u00d76 eggs,.",
+    "Math word problem format requires a numerical answer after the arithmetic setup, following established word problem conventions.\n\nThe problem structure demands a calculation: 2 dogs \u00d7 4 apples = 8 apples, then adding 5 dogs = 13 total, then counting remaining items.\n\nFinal token \"s. 12 p.\" is a typo/placeholder for \"dogs,\" mid-calculation step; next tokens must complete the arithmetic result, likely \"8 apples\" or \"13 apples\" plus the 5+5+13 arithmetic.\nFinal token \"2 s.\" ends the second arithmetic expression \"2 times 4 = 8 apples he has,\" immediately expecting the next arithmetic step or the stated answer.\nFinal token \"p.\" closes the stated count of 12 blue apples, expecting a continuation like \"plus 5 + 5 = 20 fruits.\"\n12 p.\" is the.",
+    "Math word problem format: word problem followed by structured solution steps, expecting arithmetic continuation.\n\nThe word problem requires counting total animals: 2 dogs + 2 times cats = 6 cats, then adding 3 dogs = 9 animals.\n\nFinal token \"problem.\" closes the instruction \"2 times 5 = 10 eggs in the box.\" \u2014 immediately expects the next arithmetic step, likely \"Then add 9 + 3 + 4 = 26 animals.\"\nFinal token \"problem.\" ends the first arithmetic prompt, immediately constraining the next line to be a numerical answer or the next word problem prompt.\n\"problem.\" closes the multiplication instruction for 2\u00d710 eggs, expecting a list of animals (likely \"She has 14 cats, 9 dogs, and 4 cats\").\n15 + 3 + 4 = 26 small items before listing remaining totals."
+  ],
+  "input_sha256": "71255404046b53a47725c795b9c9f03203271e76a28e3f1fa95c2d638cf4064f",
+  "values": [
+    {
+      "quote": "2\u00d76",
+      "value": "12"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "2*6",
+      "value": "12"
+    },
+    {
+      "quote": "one",
+      "value": "1"
+    },
+    {
+      "quote": "2\u00d76=12",
+      "value": "12"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values expressed as literals, spelled-out numbers, or arithmetic expressions from the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2\\u0026#215;6\",\"value\":12},{\"quote\":\"1\",\"value\":1},{\"quote\":\"7\",\"value\":7},{\"quote\":\"13\",\"value\":13},{\"quote\":\"6\",\"value\":6},{\"quote\":\"2*6\",\"value\":12},{\"quote\":\"one\",\"value\":1},{\"quote\":\"2\\u0026#215;6=12\",\"value\":12},{\"quote\":\"3\",\"value\":3},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"8\",\"value\":8},{\"quote\":\"9\",\"value\":9},{\"quote\":\"10\",\"value\":10},{\"quote\":\"11\",\"value\":11},{\"quote\":\"2\",\"value\":2},{\"quote\":\"20\",\"value\":20},{\"quote\":\"26\",\"value\":26},{\"quote\":\"14\",\"value\":14}],\"justification\":\"Extracted all distinct numeric values expressed as literals, spelled-out numbers, or arithmetic expressions from the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "cef202cd7285260907e0d6f3ddde2f552909154ec545b2721b6d8fd2f76f5d48"
+}

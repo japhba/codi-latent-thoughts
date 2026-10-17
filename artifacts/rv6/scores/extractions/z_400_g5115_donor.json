@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5115",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nMathematical/technical continuation: the hazard ratio for the 90-day interval is being stated, requiring a specific numerical value (likely a decimal hazard ratio like \"1.09\" or similar) to complete the statistical finding.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the 90-day interval, immediately requiring a numerical hazard ratio value (e.g., \"1.09\") followed by confidence interval and p-value.",
+    "Narrative momentum of plot summary: the film's historical scene is being described, detailing character motivations and events leading to the plot's climax.\n\nNarrative analysis of character conflict: the sentence traces how the film's plot was shaped by the film's own events, building toward explaining the scene's significance and its impact on the film's narrative.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a verb phrase describing what the scene \"was\" \u2014 likely a character's action or reaction, e.g., \"was a powerful catalyst\" or \"was the film's emotional climax.\"",
+    "Romantic narrative momentum: personal dating story with memoir-style progression through courtship, engagement, and now a new relationship requiring a romantic backstory.\n\nRomantic recipe/relationship narrative: the text is recounting a past dating experience with a specific man, establishing a timeline of shared memories (\"first date,\" \"first night\") that expects continuation of the courtship sequence.\n\nFinal token \"17\" is a time duration (\"about 18 days later, he became 17\"), mid-sentence, requiring a time unit (e.g., \"days,\" \"weeks\") followed by a description of the date's romantic development or the narrator's reaction.",
+    "Listicle/review format with personal reflection on film themes \u2014 the text is mid-sentence in a specific memory about a film, requiring completion of the thought about \"50 years of teaching\" and its practical value.\n\nThe article's instructional pattern: each film example is followed by a quoted or paraphrased lesson, suggesting a specific memory or anecdote about teaching will follow.\n\nFinal token \"65\" is part of \"50 55 years of teaching 55\" \u2014 a repeated numerical phrase mid-sentence, immediately requiring a noun (e.g., \"years\") or continuation of the list of examples illustrating the \"memorable moments\" theme.",
+    "Legal/journalistic news article structure: study findings presented, now concluding with legal liability implications and expert commentary.\n\nNarrative momentum toward consequences: the article has built toward legal liability for police, citing the study's findings and the legal complaint context, expecting elaboration on charges or penalties.\n\nFinal token \"202,000,000,000,000,000,000,000,000,000,000 people were watching the video\" \u2014 a dramatic statistic mid-sentence or at sentence end, immediately expecting legal liability language like \"and could face charges\" or similar consequence framing.",
+    "Legal case analysis format: structured Q&A with rule explanation followed by case facts and holding, now detailing procedural reasoning.\n\nThe holding section has begun explaining the legal standard for \"unlawful practice of law\" \u2014 the court's reasoning about the rule's applicability to the specific facts (dismissing motion, denying motion) is expected next.\n\nFinal token \"730 meeting was 603.030700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "input_sha256": "9360100d5f7a744a6bfa07950f1aade7f37e74e589c357a2d925ab1f3779a4b0",
+  "values": [
+    {
+      "quote": "90-day interval",
+      "value": "90"
+    },
+    {
+      "quote": "18 days later",
+      "value": "18"
+    },
+    {
+      "quote": "he became 17",
+      "value": "17"
+    },
+    {
+      "quote": "50 years of teaching",
+      "value": "50"
+    },
+    {
+      "quote": "50 55 years of teaching 55",
+      "value": "55"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "202,000,000,000,000,000,000,000,000,000,000",
+      "value": "202000000000000016964543146098688"
+    },
+    {
+      "quote": "730 meeting",
+      "value": "730"
+    },
+    {
+      "quote": "603.03070000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "603.031"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including large integers and decimals, while excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"90-day interval\",\"value\":90},{\"quote\":\"18 days later\",\"value\":18},{\"quote\":\"he became 17\",\"value\":17},{\"quote\":\"50 years of teaching\",\"value\":50},{\"quote\":\"50 55 years of teaching 55\",\"value\":55},{\"quote\":\"65\",\"value\":65},{\"quote\":\"202,000,000,000,000,000,000,000,000,000,000\",\"value\":2.02e+32},{\"quote\":\"730 meeting\",\"value\":730},{\"quote\":\"603.03070000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":603.0307}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including large integers and decimals, while excluding years and ordinals.\"}",
+  "prompt_sha256": "35f69a173a30bda0de8d69ef7bbd073409ca0e2ca962a22e61835a0e50091826"
+}

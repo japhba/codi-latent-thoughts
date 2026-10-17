@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5089",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in \"HR = 1.999, 95% CI = 1.000 to 3.999.\"\n\nAcademic medical reporting structure: the study's findings are being systematically presented, with hazard ratios for each outcome group (all-cause, non-fatal, fatal) expected to follow sequentially.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"all-cause mortality,\" immediately requiring a numerical HR value (likely a decimal number like \"1.999\" or similar) to follow.",
+    "Narrative momentum of plot summary: the film's character analysis is mid-sentence, tracing character motivations and relationships, requiring continuation of the plot's emotional/thematic thread.\n\nCharacter relationship and thematic interpretation: the review is explaining how the film's family history and personal trauma drive character dynamics, with the mother's love for the film as a key plot element.\n\nFinal token \"was\" opens a past-tense clause mid-sentence describing the mother's situation or the film's role in the plot, requiring a predicate completing the character's backstory or the film's narrative function.",
+    "Narrative momentum of character backstory: the film's plot summary is recounting the protagonist's emotional journey, building toward a pivotal memory or turning point.\n\nThe review follows a structured film synopsis pattern, moving through plot, themes, and character history, now reaching the climactic personal narrative sequence.\n\nFinal token \"6\" is mid-sentence (\"about 6\"), part of a time expression (\"about 6 months\" or \"about 6 weeks\"), requiring a unit of time or continuation of the phrase describing how long the narrator has been in the relationship.",
+    "Narrative confession pattern: relationship advice story building toward disclosure of a specific past event (dating a phone number), now shifting to emotional escalation.\n\nNarrative momentum: the confession of the phone number relationship is complete; the text now transitions to a new development \u2014 the anniversary conversation \u2014 implying a confession or complication is about to be revealed.\n\nFinal token \"599\" is a past-tense verb (\"909\" relationship status), part of a chronological sequence (\"first date \u2192 first month \u2192 909 \u2192 now 599\"), immediately requiring a noun completing the phrase, likely \"days\" or \"months\" or a new relationship stage.",
+    "News article reporting on a legal/medical anecdote, maintaining journalistic tone with factual, explanatory style throughout.\n\nNarrative momentum: the anecdote has been building toward a specific statistic about police warnings, with the tweet quote establishing the claim; the article is now elaborating on the legal/safety implications of the anecdote.\n\nFinal token \"200\" is mid-sentence within a statistic (\"about 200\"), part of a clause quantifying police warnings; the next token must complete this number or unit, likely \"00\" or a unit like \"people\" or \"cases.\"",
+    "Legal case analysis format: structured Q&A with factual allegations, legal citations, and procedural details about a criminal case.\n\nNarrative momentum toward legal consequences: the text is building toward explaining the evidentiary basis for the penalty \u2014 the audio evidence of the crime is being cited as grounds for the conviction.\n\nFinal token \"6.3 is about 8 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+  ],
+  "input_sha256": "48d4b6f4dd6b807a5317807eb9a099a13b163379d2c4e460d0feae26ae9d6cda",
+  "values": [
+    {
+      "quote": "HR = 1.999",
+      "value": "1.999"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.000 to 3.999",
+      "value": "1"
+    },
+    {
+      "quote": "1.000 to 3.999",
+      "value": "3.999"
+    },
+    {
+      "quote": "about 6",
+      "value": "6"
+    },
+    {
+      "quote": "909",
+      "value": "909"
+    },
+    {
+      "quote": "599",
+      "value": "599"
+    },
+    {
+      "quote": "about 200",
+      "value": "200"
+    },
+    {
+      "quote": "6.3",
+      "value": "6.3"
+    },
+    {
+      "quote": "8 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+      "value": "800000000299999969102338244608507745141993726023195989204393886810522131838646620680687190016"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, confidence intervals, time durations, relationship counts, and large digit sequences.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR = 1.999\",\"value\":1.999},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.000 to 3.999\",\"value\":1},{\"quote\":\"1.000 to 3.999\",\"value\":3.999},{\"quote\":\"about 6\",\"value\":6},{\"quote\":\"909\",\"value\":909},{\"quote\":\"599\",\"value\":599},{\"quote\":\"about 200\",\"value\":200},{\"quote\":\"6.3\",\"value\":6.3},{\"quote\":\"8 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\",\"value\":800000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, confidence intervals, time durations, relationship counts, and large digit sequences.\"}",
+  "prompt_sha256": "5ff1dc90c40f49530ee355079e9ff0b3d4c49dbfd78493ec70dcb2848f867434"
+}

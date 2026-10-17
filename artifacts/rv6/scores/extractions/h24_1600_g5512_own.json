@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5512",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 5\u00d7$58 + 2\u00d7$3 = $314, so the answer must be 314.\n\nThe structured problem format (quantity \u00d7 price) demands a numerical result showing 5\u00d758 + 2\u00d73 extra cost.\n\nFinal token \"Total cost is\" opens a declarative sentence requiring an immediate numerical answer, almost certainly \"$314\" or \"$314\" formatted as a dollar amount completing the arithmetic sum.\n5\u00d758 + 3\u00d72 = 314.\n5\u00d758 + 2\u00d73 small extra books = 314, confirming the computed result.\n5\u00d76 + 3\u00d72 = 314 dollars, completing the arithmetic expression.\nThe final token \"is\" directly precedes the calculated total cost figure.\n5\u00d732.",
+    "Math word problem solution format: structured step-by-step arithmetic problem requiring arithmetic completion.\n\nThe word problem requires summing 3 \u00d7 $57 = $171, then adding the separate $3 + $3 = $6, so the next tokens must state the arithmetic result (171).\n\nFinal token \"have\" begins the arithmetic result statement, immediately requiring the multiplication result \"171\" for three of the three books, followed by the remaining two book prices.\n57 \u00d7 3 = 171, so the next tokens must state \"171 dollars\" as the total cost of three books before adding the separate $3 + $6.\n57 \u00d7 3 = 171 for three books, then plus $3 + $6 for remaining two books.\n54 is the start of the arithmetic expression, requiring the numeric result immediately next.\n54.",
+    "Math word problem format requires arithmetic completion: 3 people \u00d7 $54 = $162, then plus $30 bonus.\n\nThe word problem structure demands a step-by-step arithmetic solution, with multiplication and addition operations being performed sequentially.\n\nThe final token \"16\" is the beginning of the arithmetic result (3 \u00d7 54 = 162), immediately requiring the remaining digits \"2\" to complete the total cost, followed by the addition of the separate $3 small gifts.\n6. 16\" is mid-number, requiring \"2\" then \"+ 3 \u00d7 $6 = $18\" to complete the arithmetic sum.\n6. 3 \u00d7 60 = 180, plus 3 \u00d7 $6 = $18, plus $3 small gifts.\n\n6. 3 \u00d7 60 = 162 dollars total cost.",
+    "Word problem solution format: structured math problem requiring arithmetic calculation, expecting step-by-step arithmetic reasoning.\n\nThe solution is mid-calculation, having stated \"3 books \u00d7 $56 = 168,\" so the next step must sum this total and then add the 2 small items (2\u00d7$10 = $20).\n\nFinal token \"168\" is the arithmetic result of 3 \u00d7 $56, immediately requiring continuation of the solution: \"and 2 small books cost $20\" or similar additive phrasing completing the total cost.\nI have 168 dollars for books, and I need to add 4 pants \u00d7 $10 = $40 plus the pants cost, so the next tokens must state the remaining amount plus the small items.\nI have 3 \u00d7 $56 = 168 for books, plus 2 pants.",
+    "Math word problem format requires arithmetic completion: 8 \u00d7 $80 = $80, so the next token must be the numeric result of 2 \u00d7 8.\n\nThe word problem structure demands a simple arithmetic sum: 8 \u00d7 $8 = $80, then adding to $800, so the pattern \"2 \u00d7 $8 = $16\" is expected.\n\nFinal token \"p\" is the start of \"$p\" (the small side sum), immediately requiring the numeric value \"16\" to complete the small items cost calculation.\nFinal token \"p\" is \"$\" beginning the small side sum, constrained to \"16\" as 2 \u00d7 8.\n8 small side items \u00d7 $2 = $16, completing the arithmetic expression before stating the total remaining cost.\n8 \u00d7 2 = $16 for side items, so the next token is.",
+    "Math word problem format: arithmetic word problems with arithmetic operations, expecting a numerical answer.\n\nThe pattern shows a word problem followed by its arithmetic sum, then a new word problem \u2014 the second problem's arithmetic sum is expected next.\n\nFinal token \"16\" is the small supplementary cost (2\u00d78=16), completing the small-expenses line; the immediate next token should be a period or line break, then the arithmetic result \"The total cost is $1440.\"\nFinal token \"16\" is the last numeric value in a small-expenses line, immediately requiring a closing statement like \". The total is $1440 + $16 = $1456.\"\nFinal token \"16\" is the small-expenses answer, completing the addition of 2\u00d78.\nFinal token \"$16\" closes the small-expenses line, immediately expecting a period."
+  ],
+  "input_sha256": "8ef65112a4ce66068b4b7ae19f3c680d2828d8418e76befd55899c58a7e17263",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "314",
+      "value": "314"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "57",
+      "value": "57"
+    },
+    {
+      "quote": "171",
+      "value": "171"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "162",
+      "value": "162"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "1440",
+      "value": "1440"
+    },
+    {
+      "quote": "1456",
+      "value": "1456"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including those from multiplication and addition expressions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"58\",\"value\":58},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"314\",\"value\":314},{\"quote\":\"6\",\"value\":6},{\"quote\":\"32\",\"value\":32},{\"quote\":\"57\",\"value\":57},{\"quote\":\"171\",\"value\":171},{\"quote\":\"54\",\"value\":54},{\"quote\":\"30\",\"value\":30},{\"quote\":\"16\",\"value\":16},{\"quote\":\"162\",\"value\":162},{\"quote\":\"60\",\"value\":60},{\"quote\":\"180\",\"value\":180},{\"quote\":\"18\",\"value\":18},{\"quote\":\"56\",\"value\":56},{\"quote\":\"168\",\"value\":168},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"4\",\"value\":4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"8\",\"value\":8},{\"quote\":\"80\",\"value\":80},{\"quote\":\"800\",\"value\":800},{\"quote\":\"1440\",\"value\":1440},{\"quote\":\"1456\",\"value\":1456}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including those from multiplication and addition expressions.\"}",
+  "prompt_sha256": "3f4bf32403607a962cd2c8a898d3faf095c47ef64e877f8582ff615e1f64d569"
+}

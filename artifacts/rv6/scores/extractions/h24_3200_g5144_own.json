@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5144",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question setup, expecting a specific integer.\n\nThe word problem structure demands a solution: \"x + 15 = 75\" or \"x = (75 - 15) / 2 = 30,\" so the answer is 30.\n\nThe final token \"is\" completes the word problem question prompt \"The smaller number is,\" immediately requiring a numerical answer (likely \"30\") to follow.\n70 \u2212 15 = 55, so the smaller number must be 55 / 2 = 27.5, but the integer answer is 30.\n70 \u2212 15 = x, so x = 55 / 2 = 27.5.\n(75 \u2212 15) = two people's combined number.\n70 \u2212 15.",
+    "Math word problem solution format: algebraic setup requires equation formation, e.g., \"x + 15 = 75.\"\n\nThe solution walkthrough follows a structured arithmetic problem, expecting a numerical equation showing the variable x.\n\nThe final token \"had\" begins the word problem's arithmetic expression setup, immediately requiring a numerical equation like \"70 - 15 = 55\" or \"x + 15 = 70 / 2 people,\" showing the algebraic manipulation step.\n70 \u2212 15 = 55 people combined, so the next tokens must complete the equation.\n70 \u2212 15 = two people's sum, then solve for x.\n70 \u2212 15 = 55, so the next step shows dividing 55 by 2 to find the variable.\n minus 15 = original age minus 15 discount.\n(.",
+    "Math word problem solution format: algebraic setup requires equation completion, showing arithmetic steps.\n\nThe solution structure demands a variable equation showing the arithmetic operation: \"x + 15 = 65\" or similar.\n\nThe final token \"5\" begins the arithmetic expression \"65 - 15 = 50\" or \"x = 55\" \u2014 it is mid-number, part of the equation \"x + 15 = 65,\" so the next tokens must complete this number, likely \"0\" forming \"55\" or \"55 years combined.\"\nThe word \"5\" is the start of \"55\" representing the total minus 15 difference.\n removing 15 from both sides gives the equation.\n(70 \u2212 15) = average of the two people's ages.\nFind the number: 60 \u2212 15 = .",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable setup and equation.\n\nThe word problem requires solving x + (x + 17) = 55, so the next step involves forming the equation and solving for x.\n\nThe final token \"55\" is the arithmetic result of 55 minus 17, mid-sentence in a solution walkthrough, immediately expecting the word \"years\" or \"each\" to complete the equation setup like \"The two numbers are 55.\"\nFinal token \"55\" is part of an incomplete arithmetic expression \"x + 17 = 55,\" requiring a noun phrase like \"years combined\" or \"each\" to complete the equation.\nSubtracting 15 from the sum.\nThe division by 2 gives the solution.\n55 minus 17 = half the sum, so the next step explains solving.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, expecting arithmetic completion.\n\nThe solution is solving x + (x + 26) = $56, so the equation must be completed and solved for x.\n\nThe final token \"p\" is the start of \"p\" beginning \"the average,\" completing the equation \"x + (x + 26) = 56\" \u2014 immediately expects \"56 / 2 = 27\" or similar numerical result showing the solution.\nFinal token \"p\" is mid-word, part of \"the average age,\" requiring completion of the algebraic expression showing the calculated value.\n55 - 15 = difference, so x = (x + 75)/2.\nFinal token \"x + 75 = 135\" or \"half of the sum\" completing the equation setup before.",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, expecting a numerical answer.\n\nThe solution follows a word problem template: equation setup \u2192 algebraic manipulation \u2192 solving, so the next step is solving x = 56.\n\nThe final token \"33 s. =.\" ends the equation \"x + x + 56 = 66,\" immediately requiring the numerical result \"26\" or the solution statement \"The smaller number is 26.\"\nFinal token \"25 s.\" closes the arithmetic expression \"66 / 2 = 33,\" so the next tokens must state the solved value, likely \"The smaller number is 26\" or similar conclusion.\nFinal token \"15 s.\" ends the average calculation, immediately requiring the division result \"26 / 2 = 53\" or the solution statement.\nFinal token \"s.\"."
+  ],
+  "input_sha256": "0717055a0f80b17ddecefcb8b78b9e909be51a8a9917c356f8b2e285dfa41ced",
+  "values": [
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "27.5",
+      "value": "27.5"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "66",
+      "value": "66"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "53",
+      "value": "53"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and results of explicit arithmetic expressions found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15\",\"value\":15},{\"quote\":\"75\",\"value\":75},{\"quote\":\"2\",\"value\":2},{\"quote\":\"30\",\"value\":30},{\"quote\":\"70\",\"value\":70},{\"quote\":\"55\",\"value\":55},{\"quote\":\"27.5\",\"value\":27.5},{\"quote\":\"65\",\"value\":65},{\"quote\":\"50\",\"value\":50},{\"quote\":\"5\",\"value\":5},{\"quote\":\"60\",\"value\":60},{\"quote\":\"17\",\"value\":17},{\"quote\":\"26\",\"value\":26},{\"quote\":\"56\",\"value\":56},{\"quote\":\"27\",\"value\":27},{\"quote\":\"135\",\"value\":135},{\"quote\":\"66\",\"value\":66},{\"quote\":\"33\",\"value\":33},{\"quote\":\"25\",\"value\":25},{\"quote\":\"53\",\"value\":53}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and results of explicit arithmetic expressions found within the provided descriptions.\"}",
+  "prompt_sha256": "d698e09a17c7e1a1ace0be6abfc43651bfafc6a2f91a7d7280ee1957c54fad11"
+}

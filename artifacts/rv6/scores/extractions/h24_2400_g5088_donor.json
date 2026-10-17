@@ -1,0 +1,137 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 4 weeks \u00d7 $1.50 \u00d7 4 boxes = total cost calculation.\n\nThe structured problem format (4\u00d7$1.50\u00d72\u00d7$4) demands a specific dollar amount as the final answer, likely \"$120\" or \"$160.\"\n\nFinal token \"are\" closes the question prompt, immediately requiring a numeric dollar figure representing the total weekly food cost (4\u00d7$1.5\u00d72\u00d7$4 = $120).\n1.5\u00d74\u00d72\u00d7$2 = $120, so the next tokens must be a number representing this total.\n1.5\u00d74\u00d72\u00d7$2 = four $1.5\u00d7$4 meals \u00d7 four weeks = four $16 meals \u00d7 $2 = $120 spent on food costs.\n1.5\u00d74\u00d7$.",
+    "Math word problem solution in progress: calculating weekly cost (4 eggs \u00d7 $1.50 = $6) for each day, then multiplying by 4 weeks.\n\nThe arithmetic pattern requires completing the multiplication: 4 eggs \u00d7 $1.50 \u00d7 2 = $12, so the next tokens must state this total cost figure.\n\nFinal token \"had\" introduces the arithmetic result of the four daily egg costs (2 \u00d7 1.50 = $3), immediately requiring the specific dollar amount \"$3\" or \"$1.5 \u00d7 4 = $6\" to complete the cost calculation.\n1.5 \u00d7 4 = $6 per week, completing the per-person weekly spending breakdown before annual totals.\n4 \u00d7 2 \u00d7 1.5 = $12, so four eggs \u00d7 $1.50 \u00d7 2 = $12 total food costs.",
+    "Step-by-step math solution pattern: each step builds on the previous, now computing total weekly cost.\n\nArithmetic continuation: 3 drinks \u00d7 $2 each = $6, so the total spending calculation must follow logically.\n\nThe final token \"$12\" is the beginning of the arithmetic result of 3 drinks \u00d7 $2 \u00d7 $0.50 daily, immediately requiring completion: \"dollars\" or \"$12\" followed by \"per day\" and then the weekly total cost calculation.\n$12 \u00d7 $0.50 = $6, completing the spending breakdown for each trip.\nShe pays $3 drinks \u00d7 two drinks \u00d7 $0.50 = $12 daily, so total weekly cost is 4 trips \u00d7 $2 \u00d7 $0.50 = $20.\n$12 is mid-sentence, representing the total food cost for three trips, requiring \"$.",
+    "Math word problem solution following step-by-step arithmetic format, with each step building on the previous calculation.\n\nThe pattern establishes a structured arithmetic sequence: total eggs \u00d7 $4 = weekly cost, then multiplies by 4 weeks.\n\nThe final token \"$1p\" ends the cost calculation \"$4 eggs \u00d7 $1.50 = $6\", completing the arithmetic result for the four weekly egg costs ($4\u00d7$1.50); next tokens must continue the solution, likely \"per week\" or \"total\" then summing to $60 total.\nFinal token \"$12p\" is \"$12\", completing the weekly cost figure \"$4\u00d7$1.50 = $6\", immediately expecting \"per week\" or \"total\" to close the cost statement before continuing to total weekly expenses.\n$12p \u00d7 4 = $48 spent on food, then 4.",
+    "Step-by-step math problem solution pattern: each step follows \"Step N: [action]\" then calculation, now completing the final arithmetic step.\n\nThe solution is mid-computation: total weekly cost = 4 miles \u00d7 $3.50 = $14, so the next tokens must state this result and then state the total cost for four weeks.\n\nFinal token \"p. 4. p. 27s. 4p.\" is the concluding arithmetic expression showing the multiplication result, immediately requiring the next line: \"The total cost is $14 per week.\"\nFinal token \"p. 36.\" ends the intermediate calculation for Step 2's weekly breakdown ($3.50 \u00d7 4 miles = $14), so the next tokens must state the total four-week cost: \"4 \u00d7 $36 = $148.\"\n$6. 5. .",
+    "Structured math word problem format: each step follows a consistent pattern of problem statement, then solution with arithmetic.\n\nThe solution section has established a template: total cost = weekly cost \u00d7 total weeks, then total cost calculation \u2014 the same pattern must now be applied to the second problem.\n\nFinal token \"problem.\" closes the problem statement sentence, immediately requiring the solution section to follow, likely starting with \"The total cost of gas for the week is $4.50 \u00d7 4 weeks = $18.\"\nFinal token \"problem.\" ends the weekly cost calculation sentence, setting up the next step: \"The total cost of gas for the four weeks is $18.\"\n$4.50 / week \u00d7 4 = total spent, then multiplication by four weeks = total $18.\n$3 + $7 = $10 per week, then 4 weeks \u00d7 $1.50 =."
+  ],
+  "input_sha256": "91b571d875817e4597de759508d89019b8d30e8cd10e146f4696877277bcbc15",
+  "values": [
+    {
+      "quote": "4 weeks",
+      "value": "4"
+    },
+    {
+      "quote": "$1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "4 boxes",
+      "value": "4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "$4",
+      "value": "4"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "$160",
+      "value": "160"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "four",
+      "value": "4"
+    },
+    {
+      "quote": "$16",
+      "value": "16"
+    },
+    {
+      "quote": "4 eggs",
+      "value": "4"
+    },
+    {
+      "quote": "$6",
+      "value": "6"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$3",
+      "value": "3"
+    },
+    {
+      "quote": "3 drinks",
+      "value": "3"
+    },
+    {
+      "quote": "$0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "$60",
+      "value": "60"
+    },
+    {
+      "quote": "$48",
+      "value": "48"
+    },
+    {
+      "quote": "$3.50",
+      "value": "3.5"
+    },
+    {
+      "quote": "$14",
+      "value": "14"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "$148",
+      "value": "148"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "$4.50",
+      "value": "4.5"
+    },
+    {
+      "quote": "$18",
+      "value": "18"
+    },
+    {
+      "quote": "$7",
+      "value": "7"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out cardinal numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4 weeks\",\"value\":4},{\"quote\":\"$1.50\",\"value\":1.5},{\"quote\":\"4 boxes\",\"value\":4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"$4\",\"value\":4},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"$160\",\"value\":160},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"four\",\"value\":4},{\"quote\":\"$16\",\"value\":16},{\"quote\":\"4 eggs\",\"value\":4},{\"quote\":\"$6\",\"value\":6},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$3\",\"value\":3},{\"quote\":\"3 drinks\",\"value\":3},{\"quote\":\"$0.50\",\"value\":0.5},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"$60\",\"value\":60},{\"quote\":\"$48\",\"value\":48},{\"quote\":\"$3.50\",\"value\":3.5},{\"quote\":\"$14\",\"value\":14},{\"quote\":\"27\",\"value\":27},{\"quote\":\"36\",\"value\":36},{\"quote\":\"$148\",\"value\":148},{\"quote\":\"5\",\"value\":5},{\"quote\":\"$4.50\",\"value\":4.5},{\"quote\":\"$18\",\"value\":18},{\"quote\":\"$7\",\"value\":7},{\"quote\":\"$10\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals, spelled-out cardinal numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "eecdecdebbbdeba2d7ce9c50c5d143beca084f701ecd326f7e10d408e992e0ab"
+}

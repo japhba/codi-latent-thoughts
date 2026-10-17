@@ -1,0 +1,149 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5014",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating structure of \"city name + count + percentage.\"\n\nThe sentence ending mid-statistic (\"50% of the cities\") mirrors the earlier pattern of \"50% of the cities in the United States,\" suggesting a parallel completion with a city name or regional qualifier.\n\nFinal token \"50%\" is mid-sentence, part of a city-specific ranking statistic; immediately expects a city name or descriptor (e.g., \"New York\" or \"New York City\") to complete the parallel structure.\n\"50% of the cities\" or similar closing phrase.\n\"5 is 100\" or a city name follows.\n\"51\" or a numeric continuation completing the ranking table reference.\n\"51\" hazard rating or similar figure completing the sentence.\n\"1\" or \"3\" food safety rating.",
+    "List continuation pattern: the text is mid-sentence listing character names with their ages, following \"12 years old\" and \"13 years old\" entries, implying more age entries or a concluding clause follows.\n\nNarrative momentum: the article is summarizing the book's content, so the next tokens will likely describe what the character did or how long they were together.\n\nFinal token \"12,\" is part of an incomplete age reference (\"120 years old\" or similar), mid-sentence, requiring a number or time unit to complete the age figure.\n\"1200\" or a recipe/recipe reference number follows immediately.\n\"1213\" or a numeric value completing the list item.\n\"1216\" or a quoted time \"140\" \u2014 analytical character description expected next.\n\"1236\" or similar time 365 minutes \u2014.",
+    "List continuation pattern: the text is mid-sentence listing recipe titles, following a consistent format of \"Title - Subtitle\" entries with descriptions.\n\nRecipe collection context: the page is presenting a curated list of gluten-free recipes, each with a title and brief description, implying more entries or a closing summary follows.\n\nFinal token \"2\" is the start of an incomplete number (likely \"200\" or similar quantity), mid-sentence within a recipe description, immediately requiring continuation of that numeric value or unit.\n\"2\" is part of an interrupted number or measurement, likely \"200\" or a recipe count, demanding numeric continuation.\n\"2\" is \"200\" or \"2002\" \u2014 practical advice or ingredient count completing the rating \"2002\" or food category \"26\" \u2014 the next token \"5\" or \"20.6\".",
+    "List continuation pattern: the text is mid-sentence listing book recommendations, with \"The Art of Tea\" being the first entry described with a brief description.\n\nReview/listicle format: each book entry follows a pattern of title, author, and 1-2 sentence description, suggesting more entries or closing remarks follow.\n\nFinal token \"200\" is mid-number, part of a quantity or page count (likely \"200 pages\" or similar), requiring immediate numeric completion before the sentence concludes.\n\"200\" is an incomplete number mid-description, likely \"400\" or a food-related figure, demanding digit(s) to complete the measurement or rating.\n\"200\" food list or recipe count \"400\" or similar \u2014 \"500\" or \"1000\" visual book description is philosophical 200 per item, so the next .",
+    "Statistical/list pattern: article presents ranked statistics and percentages, establishing a pattern of data points and comparisons throughout.\n\nBook review genre conventions: the text follows a structured book review format, summarizing content and transitioning to a concluding remark or recommendation.\n\nFinal token \"60\" is mid-sentence, completing \"about 60\" \u2014 immediately expects a unit or continuation like \"percent\" or a larger number, followed by a closing sentence about the book's value or audience.\n\"60\" is an incomplete statistic mid-sentence, requiring numeric completion and likely a concluding clause.\n\"600\" or similar figure completing the percentage.\n\"100 per cent\" or personal recommendation follows \"200 per cent\" pricing pattern.\n\"100 per cent\" or \"400 per cent\" \u2014 the regulatory food blog 84,60\" list 200 per.",
+    "FAQ format with question-answer pairs establishes a pattern: each answer fully addresses the question before moving to the next.\n\nThe answer is mid-sentence explaining the advice to \"not answer questions,\" implying a continuation of the reasoning or a concluding recommendation.\n\nThe final token \"500\" ends an incomplete sentence mid-thought, requiring immediate continuation of the dollar amount or a clause completing the conditional advice, likely \"per day\" or similar legal/practical qualifier.\n\"500,000\" or similar numeric/legal framing.\n\"500,000\" or \"40,000\" per day \u2014 the question demands a warning or directive completing the financial/legal advice.\n\"200,007,600\" per day moral instruction is incomplete dietary rule 5,834,007 regulatory stress \u2014 emotional 26,00\"."
+  ],
+  "input_sha256": "94de273796ffbad6e25b9dc876504466c618b2222ce7aa4044d856b5ca9858a5",
+  "values": [
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "5 is 100",
+      "value": "5"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "51",
+      "value": "51"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "12 years old",
+      "value": "12"
+    },
+    {
+      "quote": "13 years old",
+      "value": "13"
+    },
+    {
+      "quote": "12,",
+      "value": "12"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "1213",
+      "value": "1213"
+    },
+    {
+      "quote": "1216",
+      "value": "1216"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "1236",
+      "value": "1236"
+    },
+    {
+      "quote": "365",
+      "value": "365"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2002",
+      "value": "2002"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "20.6",
+      "value": "20.6"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "84,60",
+      "value": "8460"
+    },
+    {
+      "quote": "500,000",
+      "value": "500000"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "200,007,600",
+      "value": "200007600"
+    },
+    {
+      "quote": "5,834,007",
+      "value": "5834007"
+    },
+    {
+      "quote": "26,00",
+      "value": "2600"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and comma-separated numbers from the provided descriptions, treating percentages as their numeric value and commas as decimal or thousand separators based on context.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50%\",\"value\":50},{\"quote\":\"5 is 100\",\"value\":5},{\"quote\":\"100\",\"value\":100},{\"quote\":\"51\",\"value\":51},{\"quote\":\"1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"12 years old\",\"value\":12},{\"quote\":\"13 years old\",\"value\":13},{\"quote\":\"12,\",\"value\":12},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"1213\",\"value\":1213},{\"quote\":\"1216\",\"value\":1216},{\"quote\":\"140\",\"value\":140},{\"quote\":\"1236\",\"value\":1236},{\"quote\":\"365\",\"value\":365},{\"quote\":\"2\",\"value\":2},{\"quote\":\"200\",\"value\":200},{\"quote\":\"2002\",\"value\":2002},{\"quote\":\"26\",\"value\":26},{\"quote\":\"5\",\"value\":5},{\"quote\":\"20.6\",\"value\":20.6},{\"quote\":\"400\",\"value\":400},{\"quote\":\"500\",\"value\":500},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"84,60\",\"value\":84.6},{\"quote\":\"500,000\",\"value\":500000},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"200,007,600\",\"value\":200007600},{\"quote\":\"5,834,007\",\"value\":5834007},{\"quote\":\"26,00\",\"value\":26}],\"justification\":\"Extracted explicit numeric literals, percentages, and comma-separated numbers from the provided descriptions, treating percentages as their numeric value and commas as decimal or thousand separators based on context.\"}",
+  "prompt_sha256": "e854e4de7822fd302cecf62f4c47e735f56645d55257e4a7d4f8fedd6234f72c"
+}

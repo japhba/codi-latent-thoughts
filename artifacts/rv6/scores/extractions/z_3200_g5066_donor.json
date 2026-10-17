@@ -1,0 +1,141 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5066",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating format of \"city name + rank + statistic.\"\n\nThe sentence structure \"The city with the most X is [city] (Y)\" has appeared twice, establishing a template for completing the list with a specific city name and rank.\n\nFinal token \"5th\" is mid-sentence, completing \"The city with the most X is [ordinal]\" \u2014 immediately requires a city name (likely \"Chicago\" or \"New York\") to follow, continuing the established pattern.\n\"5th\" is a truncated ordinal ranking, demanding a city name as the next token.\n\"5 is 5th\" or a city name completing the superlative list entry.\n\"5th\" ranking number or a city name follows immediately.\n\"3rd\" or a numeric continuation of the ranking statistic is \"5 is 3rd.",
+    "List continuation pattern: the text is mid-sentence listing character examples with \"such as\" introducing specific names, requiring more names or a closing phrase.\n\nArticle structure momentum: the piece follows a numbered listicle format with bolded headers; after completing the current section, another example or concluding remark is expected.\n\nFinal token \"10,\" is mid-sentence within a parenthetical example list (\"such as 10,\"), immediately requiring a number or continuation of the numeric list, likely completing a character name or age reference.\n\"10,\" suggests a truncated number or list item, with the next token likely being a digit or punctuation completing the age reference.\n\"100\" or similar rating/number completing the thought about the article's age.\n\"10,\" emotional advice or a rating \"103\" character description follows 41 minutes 63 minutes \u2014 analytical food personality .",
+    "List continuation pattern: numbered/bulleted questions with answers, following \"1. How long...\" structure requiring a complete answer sentence.\n\nThe article promised \"10 most important\" questions, and this is the first numbered entry, so 9 more question-answer pairs are expected to follow.\n\nFinal token \"15\" is mid-sentence within the first list item's answer, likely completing a time duration phrase (e.g., \"15 minutes\" or \"15 years\"), requiring a unit or continuation of the numeric quantity.\n\"15\" is a truncated number mid-answer, immediately requiring a unit or food-related noun to complete the list item.\n\"15\" recipe count or similar nutritional category follows \"15 minutes\" or similar age reference.\n\"12 15 minutes\" ranking or educational list format \"30\" product category 15 years \u2014 religious time nutrition 14.",
+    "Statistical list pattern: article presents ranked data with percentages, establishing a pattern of \"X% of [group] [action]\" that continues.\n\nThe article is mid-sentence completing a specific statistic about the 2016 movie's audience demographics, requiring a noun phrase describing the people who watched it.\n\nFinal token \"60\" is a truncated number mid-sentence (\"about 60\"), immediately requiring completion of the count (likely \"60 people\" or similar) followed by a source citation or continuation of the sentence.\n\"about 60 people\" or similar publication detail.\n\"3,000\" or similar figure completing the book's page count or a recipe count.\n\"20 people\" or \"30,008\" \u2014 the factual citation or photo count \"6.0\" legal 468\" suggests 20 people\" video description follows.",
+    "Structured list pattern: each entry follows \"Case name, age, location, date, description\" format, suggesting continuation of this template.\n\nThe text is mid-sentence describing the \"30 years old\" case, with the description incomplete \u2014 the sentence about the book's content and its relevance to the rule explanation is unfinished.\n\nFinal token \"60\" ends an incomplete sentence (\"30 pages of the book, which was 60\"), requiring immediate continuation of the page count or a related bibliographic detail completing this explanatory clause.\n\"30\" is a truncated number or citation reference, likely followed by more case details or a new rule reference.\n\"4\" or similar digits completing \"180, 6\" or academic citation format.\n\"30, 46 seconds\" film analysis list \u2014 regulatory 2,045 procedural 180, 26.5.",
+    "Statistical summary pattern: survey data presented as percentages, establishing a rhythm of reporting findings with specific figures.\n\nLegal survey methodology context: the text is explaining survey methodology and results, with the final sentence mid-explanation of the \"most common\" answer, implying a percentage or breakdown of responses follows.\n\nFinal token \"6%\" ends an incomplete sentence mid-clause (\"6% of the respondents\"), requiring immediate continuation \u2014 likely a period or additional qualifying detail about the survey's scope or methodology.\n\"6%\" is the final token, part of a percentage figure completing a sentence about survey respondents' responses.\n\"6%\" is the last token, ending an incomplete sentence that must be followed by a period or further breakdown of the survey's findings.\n\"6%\" list structure or a new sentence continuing the percentage breakdown pattern.\n\"6%\" is the legal threshold \"66%\" or a percentage label, time \"6%\"."
+  ],
+  "input_sha256": "b73f563d47424d5f247662bed7ff5047612c76cd9b26eba2ad8ec2e081439232",
+  "values": [
+    {
+      "quote": "5 is 3rd",
+      "value": "5"
+    },
+    {
+      "quote": "5 is 3rd.",
+      "value": "3"
+    },
+    {
+      "quote": "10,",
+      "value": "10"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "41 minutes",
+      "value": "41"
+    },
+    {
+      "quote": "63 minutes",
+      "value": "63"
+    },
+    {
+      "quote": "103",
+      "value": "103"
+    },
+    {
+      "quote": "1. How long",
+      "value": "1"
+    },
+    {
+      "quote": "10 most important",
+      "value": "10"
+    },
+    {
+      "quote": "9 more",
+      "value": "9"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "12 15 minutes",
+      "value": "12"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "14.",
+      "value": "14"
+    },
+    {
+      "quote": "2016",
+      "value": "2016"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "3,000",
+      "value": "3000"
+    },
+    {
+      "quote": "20 people",
+      "value": "20"
+    },
+    {
+      "quote": "30,008",
+      "value": "30008"
+    },
+    {
+      "quote": "6.0",
+      "value": "6"
+    },
+    {
+      "quote": "468",
+      "value": "468"
+    },
+    {
+      "quote": "30 years old",
+      "value": "30"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "180, 6",
+      "value": "180"
+    },
+    {
+      "quote": "180, 6",
+      "value": "6"
+    },
+    {
+      "quote": "46 seconds",
+      "value": "46"
+    },
+    {
+      "quote": "2,045",
+      "value": "2045"
+    },
+    {
+      "quote": "26.5",
+      "value": "26.5"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    },
+    {
+      "quote": "66%",
+      "value": "66"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5 is 3rd\",\"value\":5},{\"quote\":\"5 is 3rd.\",\"value\":3},{\"quote\":\"10,\",\"value\":10},{\"quote\":\"100\",\"value\":100},{\"quote\":\"41 minutes\",\"value\":41},{\"quote\":\"63 minutes\",\"value\":63},{\"quote\":\"103\",\"value\":103},{\"quote\":\"1. How long\",\"value\":1},{\"quote\":\"10 most important\",\"value\":10},{\"quote\":\"9 more\",\"value\":9},{\"quote\":\"15\",\"value\":15},{\"quote\":\"12 15 minutes\",\"value\":12},{\"quote\":\"30\",\"value\":30},{\"quote\":\"14.\",\"value\":14},{\"quote\":\"2016\",\"value\":2016},{\"quote\":\"60\",\"value\":60},{\"quote\":\"3,000\",\"value\":3000},{\"quote\":\"20 people\",\"value\":20},{\"quote\":\"30,008\",\"value\":30008},{\"quote\":\"6.0\",\"value\":6},{\"quote\":\"468\",\"value\":468},{\"quote\":\"30 years old\",\"value\":30},{\"quote\":\"4\",\"value\":4},{\"quote\":\"180, 6\",\"value\":180},{\"quote\":\"180, 6\",\"value\":6},{\"quote\":\"46 seconds\",\"value\":46},{\"quote\":\"2,045\",\"value\":2045},{\"quote\":\"26.5\",\"value\":26.5},{\"quote\":\"6%\",\"value\":6},{\"quote\":\"66%\",\"value\":66}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "d38aedc4e351b5a955ec2c5f9a4caa2014c61d83f9816256ca2641845f23139f"
+}

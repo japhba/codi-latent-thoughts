@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5130",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: hazard probability figures are being listed with specific hazard types (earthquake, volcanic eruption, hurricane), each with hazard ratio and confidence interval.\n\nNumerical completion expected: the hazard ratio for \"earthquake\" hazard is mid-sentence, requiring a specific hazard ratio value (likely a decimal number like \"1.2\" or similar) to complete the statistical claim.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the earthquake hazard, immediately requiring a numerical hazard ratio value (e.g., \"1.25\") followed by a confidence interval in parentheses.",
+    "Romantic narrative momentum: the text is recounting a relationship timeline, building toward describing the couple's emotional connection and relationship history.\n\nCharacter relationship structure: the text has been describing the couple's past relationship with the mother, establishing a pattern of explaining each character's romantic history and current situation.\n\nFinal token \"was\" opens a past-tense clause mid-sentence describing the relationship's current state or duration \u2014 the next tokens must complete this predicate, likely describing a specific date, stage, or emotional state (e.g., \"dating for X years\" or \"in its early stages\").",
+    "Romantic advice listicle format with personal anecdotes, now transitioning to a specific recipe/relationship guide section \u2014 practical date night tips expected next.\n\nThe narrative has shifted to a first-person romantic scenario (\"I love my boyfriend\"), signaling a shift to describing a specific date night experience and its emotional/physical reactions.\n\nFinal token \"3\" is mid-sentence (\"I feel like I feel 3\"), part of an incomplete enumeration of feelings/days after the date \u2014 next tokens must complete this number phrase, likely \"days\" or \"days in love,\" continuing the romantic reflection.",
+    "Listicle format with personal essay tone: each marriage tip follows a pattern of title, reflection, and examples, establishing strong continuation expectations.\n\nNarrative momentum of the first list item: the author is mid-sentence describing a personal memory of wedding anniversary, building toward a specific memory or lesson about marriage's emotional depth.\n\nFinal token \"60\" ends an incomplete sentence (\"I would say 30 years of marriage is 60\"), requiring immediate continuation \u2014 likely a noun phrase completing the thought, such as \"years of memories\" or \"years of love,\" followed by elaboration on the wedding anniversary reflection.",
+    "Narrative momentum: legal/medical anecdote building toward legal liability argument \u2014 the anecdote illustrates a legal claim about medical negligence or liability.\n\nArgumentative structure: the text is explaining a legal liability scenario, with the anecdote serving as evidence; the conclusion of the liability claim is expected next.\n\nFinal token \"202,000,002 people, 282,000 people, 2,000 people\" establishes a pattern of escalating numbers, and the sentence ending \"282,000 people were affected\" sets up the legal consequence or liability claim that follows.",
+    "Legal case analysis format: Q&A structure with case facts followed by procedural analysis, now reaching the legal question's answer section.\n\nNarrative/argumentative momentum: the question asks whether the court \"can proceed with the case\" \u2014 the answer must address the legal basis for the court's action, likely citing the rule that courts may dismiss without notice when parties agree to the action.\n\nFinal token \"meeting was 0200 attendees were parties to the meeting\" is a garbled/OCR-corrupted sentence mid-answer, immediately requiring continuation of the legal analysis explaining the court's procedural authority and the grounds for dismissal."
+  ],
+  "input_sha256": "32381e9601453e42fe3dd0d31f34eefbaa4fca84e309aa5063635c810380d2c1",
+  "values": [
+    {
+      "quote": "1.2",
+      "value": "1.2"
+    },
+    {
+      "quote": "1.25",
+      "value": "1.25"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "202,000,002",
+      "value": "202000002"
+    },
+    {
+      "quote": "282,000",
+      "value": "282000"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "0200",
+      "value": "200"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and examples provided within the descriptions, including those in parenthetical examples and garbled text strings.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.2\",\"value\":1.2},{\"quote\":\"1.25\",\"value\":1.25},{\"quote\":\"3\",\"value\":3},{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"202,000,002\",\"value\":202000002},{\"quote\":\"282,000\",\"value\":282000},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"0200\",\"value\":200}],\"justification\":\"Extracted explicit numeric literals and examples provided within the descriptions, including those in parenthetical examples and garbled text strings.\"}",
+  "prompt_sha256": "7303370bb6241d8e8e511d8d36893979b789c12734e0b39740471f1defb3c2e8"
+}

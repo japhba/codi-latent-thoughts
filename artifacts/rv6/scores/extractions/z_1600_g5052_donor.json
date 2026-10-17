@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5052",
+  "kind": "donor",
+  "descriptions": [
+    "Financial data pattern: article lists specific statistics with dollar amounts, percentages, and dates, establishing a template of financial figures.\n\nStructured financial data continuation: the sentence lists price data for the 2014\u20132016 period, with a specific dollar figure expected to complete the financial summary.\n\nFinal token \"and $1,200, and is mid-sentence within a financial data list, immediately requiring a closing price value (e.g., \"and $1,200\") to complete the parallel structure of the financial data field.\n\"and $1,200\" is incomplete \u2014 a second price figure or continuation of the financial data sentence is expected next.\n\"and $1,200\" likely continues with a time reference or additional financial metric completing the sentence.\n\"and is $1,200\" is a truncated predicate requiring a closing value.",
+    "Structured film metadata format: each field follows \"Label: Value\" pattern, establishing strong continuation expectations.\n\nThe description section has begun, providing a prose synopsis of the film's plot and production details, now transitioning to cast/crew credits.\n\nFinal token \"7 is\" begins a list of production details (likely \"7 is\" continuing into a product/technical description), immediately expecting a number or descriptor completing the film's cast or crew count, e.g., \"7 is 7\" or a specific count.\n\"17, 7 is\" suggests a numeric enumeration pattern mid-sentence, likely continuing with a product or film specification number.\n\"15, 7 is\" ends mid-phrase, part of a product listing or technical description, immediately requiring a number or descriptor to complete the \"27, 37\" style enumeration of attributes.\n\"15 is\" is the final.",
+    "Structured e-commerce product listing pattern: each category header is followed by a product description, establishing a repeating template of category \u2192 description.\n\nThe page is mid-listing of a \"Women's T-Shirts\" section, which has begun with a category header and partial product description, implying more product listings or filter options follow.\n\nFinal token \"most available\" ends a navigation/filter sentence fragment, immediately expecting continuation of the product catalog description, likely listing available filter options or completing the truncated phrase.\n\"most available\" is part of a standard e-commerce filter disclaimer, suggesting the next tokens complete this boilerplate phrase or begin a new product category.\n\"available\" closes a standard retail availability notice, likely followed by a period or new section header.\n\"most available\" ends the snippet mid-sentence, strongly constraining next tokens to punctuation or a new product category label.\n\"available\" is the final word of.",
+    "Structured table/list pattern: part numbers, descriptions, and filter options follow a consistent e-commerce format with pipe-delimited rows.\n\nStructured catalog continuation: the \"Part Numbers\" section lists filter options with part numbers and descriptions; the pattern of \"Part Number | Description\" rows is actively ongoing.\n\nFinal token \"Part\" ends a table cell label \"Price,\" immediately expecting a closing pipe \"|\" followed by a price value or the next table row continuing the filter/availability options.\n\"Price\" is the last token, part of a two-column table row, expecting \"|\" and then a price value or the next row.\n\"Part\" at the end is mid-row, likely completing a product name or header cell, constrained to continue the \"Part\" label or begin a new row.\n\"Part\" is the final token, part of an incomplete table cell or header, immediately expecting a closing \"|\" or continuation.",
+    "Structured table/list pattern: pipe-delimited rows with part numbers, descriptions, and dates, establishing a consistent format throughout.\n\nStructured table continuation: the \"Part # | Description | Date\" header row has been opened, and the first row has begun with \"1999 Toyota Tacoma,\" implying more rows with similar entries follow.\n\nFinal token \"||\" closes a table cell in the \"Part # | Description | Date\" row, immediately expecting the next cell's content \u2014 likely a pipe-delimited cell with a date or another column value.\n\"||\" is a table cell delimiter, so the next token must be another cell value or closing pipe character.\n\"|\" closes the current row, with the next row expected to follow the same header pattern.\n\"|\" is the final token, closing the current row and signaling the start of a new row with a new part number.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and part number columns repeating consistently throughout.\n\nStructured list continuation: the \"Part Numbers\" section has begun with a header row and one row shown; more rows with pipe-delimited fields are expected to follow.\n\nFinal token \"||\" closes a table cell in the \"Part Numbers\" row, immediately requiring the next cell's content \u2014 likely a dollar amount or closing pipe character continuing the row.\n\"||\" is the last token, acting as a cell delimiter in the pipe-delimited table, constraining the next token to be a closing pipe \"|\" or a new row beginning with \"|\".\n\"|\" closes the current row, so the next token is almost certainly a newline followed by another date-pipe-part-number row.\n\"|\" is the final token, closing the second data row, immediately expecting a newline and new row starting with \"|\"."
+  ],
+  "input_sha256": "b9791c2c4972da7970ff62cf9cb4fcdc62cb848867d6eea28ac087e80abd1c15",
+  "values": [
+    {
+      "quote": "and $1,200",
+      "value": "1200"
+    },
+    {
+      "quote": "2014\u20132016",
+      "value": "2014"
+    },
+    {
+      "quote": "2014\u20132016",
+      "value": "2016"
+    },
+    {
+      "quote": "7 is",
+      "value": "7"
+    },
+    {
+      "quote": "17, 7 is",
+      "value": "17"
+    },
+    {
+      "quote": "15, 7 is",
+      "value": "15"
+    },
+    {
+      "quote": "27, 37",
+      "value": "27"
+    },
+    {
+      "quote": "27, 37",
+      "value": "37"
+    },
+    {
+      "quote": "1999 Toyota Tacoma",
+      "value": "1999"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and ranges found within the provided descriptions, including dollar amounts, years, and list items.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"and $1,200\",\n      \"value\": 1200\n    },\n    {\n      \"quote\": \"2014\\u20132016\",\n      \"value\": 2014\n    },\n    {\n      \"quote\": \"2014\\u20132016\",\n      \"value\": 2016\n    },\n    {\n      \"quote\": \"7 is\",\n      \"value\": 7\n    },\n    {\n      \"quote\": \"17, 7 is\",\n      \"value\": 17\n    },\n    {\n      \"quote\": \"15, 7 is\",\n      \"value\": 15\n    },\n    {\n      \"quote\": \"27, 37\",\n      \"value\": 27\n    },\n    {\n      \"quote\": \"27, 37\",\n      \"value\": 37\n    },\n    {\n      \"quote\": \"1999 Toyota Tacoma\",\n      \"value\": 1999\n    }\n  ],\n  \"justification\": \"Extracted all explicit numeric literals and ranges found within the provided descriptions, including dollar amounts, years, and list items.\"\n}",
+  "prompt_sha256": "6171ee0855a284387ad0abbc166d0e8654e2eeeedc4fccb1bccc555a558a5a38"
+}

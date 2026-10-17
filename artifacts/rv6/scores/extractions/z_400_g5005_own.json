@@ -1,0 +1,69 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5005",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established academic format.\n\nAcademic medical reporting convention: the hazard ratio finding for \"all patients\" is being stated, requiring a specific numerical value with associated confidence interval and p-value to complete the result.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"all patients,\" immediately requiring a numerical hazard ratio value (e.g., \"1.95\") followed by parenthetical confidence interval and p-value.",
+    "Romantic film review tone with personal reflection on character pairings and emotional resonance, establishing a pattern of listing personal favorites and relationships.\n\nThe review is mid-sentence completing a specific personal comparison: the reviewer is describing their own romantic feelings for the film, having just named \"a couple who has been together for a long time\" as a parallel to the movie's relationship theme.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a complement describing the reviewer's emotional reaction or personal connection to this couple \u2014 likely \"a pleasure\" or similar evaluative phrase continuing the comparison.",
+    "Personal essay/blog tone with first-person reflection on gender and advice, shifting to a new anecdote about a friend's health advice, suggesting a list or personal testimony is continuing.\n\nThe rhetorical question \"How do you know if your friend is a man?\" sets up a direct answer, with the author now sharing their own experience as a woman, implying a personal opinion or list of gendered health perspectives.\n\nFinal token \"5\" is mid-sentence (\"now I am now five\"), completing \"now I am now 5\" \u2014 the sentence requires continuation, likely \"years old\" or a pivot to the author's own gendered health stance.",
+    "Narrative momentum: the anecdote builds toward a medical revelation about legal liability and personal responsibility, now requiring explanation of the author's personal medical expertise and its implications.\n\nArgumentative structure: the anecdote establishes a pattern of doctors being surprised by legal consequences, and the author is now drawing a broader lesson connecting the anecdote to the article's thesis about medical liability.\n\nFinal token \"280,000, 402 people, were 252 people, 202 people\" \u2014 a rhetorical restatement of the anecdote's subject, mid-sentence, immediately requiring continuation of the legal/medical revelation about the author's personal liability.",
+    "Legal case narrative structure: a question-answer format explaining liability, with the case facts now being recounted in detail after the Q&A summary.\n\nNarrative momentum toward legal analysis: the scenario establishes a priest's liability for misadvice, and the case history is building toward explaining the legal basis for the priest's defense or the attorney's legal challenge.\n\nFinal token \"5.55 was 50 parties were 55, the priest considered 55 were liability-free parties \u2014 the sentence is mid-clause, requiring completion of the legal consequence: the priest's liability for the five parties who filed complaints.",
+    "Statistical report pattern: article presents NHTSA data with percentages, rates, and comparisons, expecting continued numerical findings.\n\nLegal/analytical structure: the text is mid-sentence presenting a specific statistical finding about crash rates, with a percentage already stated (\"67.7% of crashes\"), implying a corresponding rate or ratio for the 1999\u20132019 period will follow.\n\nFinal token \"67.6%\" closes a comparative clause (\"67.7% of crashes...66.7% of crashes\"), immediately requiring continuation of the statistical breakdown\u2014likely a rate figure or further breakdown of the 1999\u20132019 period's data."
+  ],
+  "input_sha256": "5122ba065e023350c559a3f6ca6cd301ca5efa6f6541e8c0b5fd8b9ed1f201e8",
+  "values": [
+    {
+      "quote": "1.95",
+      "value": "1.95"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "280,000",
+      "value": "280000"
+    },
+    {
+      "quote": "402",
+      "value": "402"
+    },
+    {
+      "quote": "252",
+      "value": "252"
+    },
+    {
+      "quote": "202",
+      "value": "202"
+    },
+    {
+      "quote": "5.55",
+      "value": "5.55"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "67.7%",
+      "value": "67.7"
+    },
+    {
+      "quote": "67.6%",
+      "value": "67.6"
+    },
+    {
+      "quote": "66.7%",
+      "value": "66.7"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, counts, and statistical percentages.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.95\",\"value\":1.95},{\"quote\":\"5\",\"value\":5},{\"quote\":\"280,000\",\"value\":280000},{\"quote\":\"402\",\"value\":402},{\"quote\":\"252\",\"value\":252},{\"quote\":\"202\",\"value\":202},{\"quote\":\"5.55\",\"value\":5.55},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"67.7%\",\"value\":67.7},{\"quote\":\"67.6%\",\"value\":67.6},{\"quote\":\"66.7%\",\"value\":66.7}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, counts, and statistical percentages.\"}",
+  "prompt_sha256": "f9faf66a4ad6db15e9e40148db1ac2bb64e2e9fd6f3769a7f4cadc9471bfe8a9"
+}

@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5644",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: finding unknown fraction x where 2/3 = total, requiring a specific numerical answer.\n\nThe solution structure demands a concrete numerical answer, likely a fraction representing the remaining unknown portion of the $800 budget.\n\nFinal token \"is\" completes the phrase \"The smaller portion is,\" directly requiring a numerical value (e.g., \"$800/3\" or \"1/3 of the remaining\") representing the equal smaller component of the $800 total.\n$800 - $2/3 = $200 budget for the third element, so the answer must be the inverse relationship: $200/3 = $700 original unknown.\n$800/3 - $2/3 = small contribution, so the difference is $700/3 = the smaller fraction's value.\n$800/.",
+    "Math problem-solving context requires completing the algebraic solution: total 800 pages minus 2/3rd (80) = remaining 200 pages for the other person.\n\nThe solution is mid-explanation, having established the equation setup and now computing the remaining unknown quantity (800 - 2/3rd = shared pages).\n\nFinal token \"has\" begins a clause listing the remaining total pages, immediately requiring a numerical value or expression like \"800 pages\" or \"the remaining 2/3rd of the total.\"\n$800 - $2/3rd = $200$ total shared, so the next tokens must state this intermediate result before explaining the shared area calculation.\n$800 - $2/3rd = $80$ for the other person's remaining share, setting up the difference between total and individual scores.",
+    "Mathematical solution in progress: total 400 must equal 2/3x + x, solving for x.\n\nThe explanation is walking through a step-by-step arithmetic reasoning, having established that the remaining 200 belongs to the smaller person.\n\nFinal token \"2\" begins the numerical answer or expression for the remaining money (200), immediately requiring completion of \"200\" or \"2/3 of the total\" to finish the equation showing the smaller person's share.\n$400 - $2/3$ = $200$ total remaining, so the next tokens must complete this arithmetic expression referencing the shared amount.\n$200$ is the expected conclusion showing the smaller person's equal share of the total.\n difference between total and combined shares is being calculated.\n$800 - $2/3$ = $200$ for.",
+    "Math problem-solving walkthrough: step-by-step algebraic reasoning requires completing the total amount calculation (total $800 = $1200/3).\n\nThe solution is mid-computation, having established that the remaining money belongs to the wife, so the next step must state the equal share: ($800 - $3/4x = $200).\n\nFinal token \"460\" is the numerical result of the division expression \"$2400/3\", immediately requiring completion: \"0\" to form \"$260\" or continuation explaining the remaining balance the wife received.\n$360 is incomplete \u2014 the next tokens must complete this dollar figure and then state it as the base amount before explaining how to split it proportionally.\n$2600 remaining personal income = total $800/3 = $260, so the wife's share.",
+    "Mathematical equation solving: the text is working through a step-by-step algebraic derivation toward finding x, with total $300 = combined value.\n\nThe equation structure requires completing the algebraic expression: \"3x + x = $300\" or similar, solving for x = $60.\n\nFinal token \"26p. p\" is mid-expression showing the remainder of the equation (600 - $3 times the other amount), immediately requiring completion of the arithmetic result or variable expression, likely \"60p\" or \"= $260 available for the third person.\"\nFinal token \"265p\" is part of an incomplete numerical/variable expression showing the difference between total and combined money.\n$60p = $3x / original value = $265p / 3x = $80 total, so next tokens must complete this.",
+    "Mathematical problem-solving pattern: step-by-step algebraic solution showing variable substitution, with each step building toward a final answer.\n\nThe solution has established that total = $120, then solved for x = $120/3x, now computing the third unknown (y = remaining amount).\n\nFinal token \"67. s. points.\" closes the computed result statement; next tokens must state the final answer, likely \"Therefore, the amount of money the man earned is $6.\" or similar concluding statement identifying the unknown y.\nFinal token \"36 points.\" ends the intermediate equation showing the solved value of x relative to the total remaining money.\nFinal token \"s.\" completes \"48 points.\" \u2014 the third unknown's division result, immediately requiring the division expression or the solved value of y (1/3 of $67).\n$76 - $36 = smaller."
+  ],
+  "input_sha256": "d82b186bae9c75eaa9ff938c6f2a05cb812480bcb48cd5ab6e16cb6cffca4cfe",
+  "values": [
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1200/3",
+      "value": "400"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "460",
+      "value": "460"
+    },
+    {
+      "quote": "2400/3",
+      "value": "800"
+    },
+    {
+      "quote": "260",
+      "value": "260"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "2600",
+      "value": "2600"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "265",
+      "value": "265"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "67",
+      "value": "67"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "76",
+      "value": "76"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"800\",\"value\":800},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"200\",\"value\":200},{\"quote\":\"700\",\"value\":700},{\"quote\":\"80\",\"value\":80},{\"quote\":\"400\",\"value\":400},{\"quote\":\"2\",\"value\":2},{\"quote\":\"1200/3\",\"value\":400},{\"quote\":\"3/4\",\"value\":0.75},{\"quote\":\"460\",\"value\":460},{\"quote\":\"2400/3\",\"value\":800},{\"quote\":\"260\",\"value\":260},{\"quote\":\"360\",\"value\":360},{\"quote\":\"2600\",\"value\":2600},{\"quote\":\"300\",\"value\":300},{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"265\",\"value\":265},{\"quote\":\"80\",\"value\":80},{\"quote\":\"120\",\"value\":120},{\"quote\":\"67\",\"value\":67},{\"quote\":\"6\",\"value\":6},{\"quote\":\"36\",\"value\":36},{\"quote\":\"48\",\"value\":48},{\"quote\":\"76\",\"value\":76}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "202db695766c330709da7d4d69e9dc81d00948d841b8c5bf24b46890d299af96"
+}

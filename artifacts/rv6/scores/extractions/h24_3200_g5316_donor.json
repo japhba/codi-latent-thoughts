@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5316",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format expects a numerical answer following the question prompt, likely a number with units.\n\nThe algebraic setup \"x + 2x = 75\" or \"x = 75/2\" strongly implies the solution will be a specific integer or decimal.\n\n\"The length of the man's body is\" is an incomplete word problem question requiring an immediate numerical answer, almost certainly \"7.5\" or \"25\" (since 7.5 = x + half).\n\"The answer is\" demands a direct numerical response.\n7.5 = x + 25, so the solution is 7.5.\n7.5 = 2 times the other length.\nThe answer is 7.5 units.\n7.5 minus 25 = 50 pounds, so the man's total weight.\n25 + x = half of 7.5.\nThe.",
+    "Math word problem walkthrough format expects a numerical equation or calculation showing the solution steps.\n\nThe solution requires expressing the equation \"2x + 25 = 55\" or similar arithmetic, showing the algebraic reasoning.\n\nThe final token \"has is\" begins a clause explaining the arithmetic relationship, immediately requiring a numerical expression or statement like \"2 times 2.5\" or \"the minimum value of the other number.\"\nFinal token \"has is\" is a garbled/typo construction mid-sentence, expecting a numerical value or equation completing the explanation of the 25 minus the remaining value.\n\"2.5 \u00d7 2 = 50 years\" or similar arithmetic conclusion.\nThe sentence must complete the equation showing the sum of the two parts.\nThe first part is 25, so the remaining value plus twice 2.5 equals 50.\n plus 25 =.",
+    "Math word problem walkthrough format: step-by-step algebraic reasoning with variable substitution, expecting arithmetic completion.\n\nThe solution is demonstrating a numerical verification, showing the equation 2x + 16 = 46 resolves to x = 15.\n\nFinal token \"5 is the is the 5 is the 5 is the\" is a garbled/typo rendering of \"The number is the,\" mid-sentence explaining the verification step \u2014 next tokens must complete the arithmetic expression, likely \"half of 2 times 15\" or similar confirmation.\nFinal token \"the 5 is the\" begins a mathematical explanation of the equation result, expecting \"half of 26\" or \"26\" to complete the verification statement.\n\"the sum of the two girls' weights.\"\n2x = 15, confirming the answer.\nThe final token \"1 times 30\" suggests.",
+    "Step-by-step math solution format: each step follows \"Step N: [equation]\" then explanation, establishing a template for completing the solution.\n\nThe solution requires showing the algebraic substitution: \"2x = 16\" \u2192 x = 8, so the next content must demonstrate this arithmetic.\n\nFinal token \"Answer: 01:00:0015 Answer:01:00:00\" is a repeated placeholder artifact mid-solution, immediately expecting the mathematical explanation showing the equation \"2x = 16\" or confirming the solution.\nFinal token \"1 Answer:16\" suggests a formatting artifact, but the next content must show the verification or conclusion of the solution.\nThe final token \"16\" confirms the x value, completing the equation \"half of the number plus 16 =.\n2 times the number = 32, confirming.",
+    "Math word problem solution format: step-by-step algebraic walkthrough with variable substitution, showing equation solving.\n\nThe solution is mid-calculation, having substituted x = 2x into x + x = 24, so the next step must show the algebraic result or solve for x.\n\nFinal token \"1ansonautonaut\\n15.25 equation\\nansonaut\" is a garbled placeholder artifact mid-expression, immediately requiring the mathematical result showing \"24 = 2x\" or the solved value x = 12.\nFinal token \"ansonaut\" is a corrupted placeholder for \"equation,\" part of a solution step showing the algebraic expression.\n2 times the weight of the first number plus 15 = 24, confirming the answer.\nThe next tokens must complete the verification or show the final result.\nx = 12 + 10 = 2.",
+    "Math word problem solution format: step-by-step algebra walkthrough with variable substitution, expecting equation completion.\n\nThe solution structure requires showing the algebraic equation and solving for x, following the established template of showing intermediate steps.\n\nFinal token \"answeronautonautonautonautonautonautonaut\" is a garbled placeholder artifact mid-solution, immediately requiring the mathematical expression showing x + 2x = 12, likely formatted as \"x + x = 12\" or similar.\nFinal token \"equation\" concludes a label introducing the mathematical derivation showing the solved result.\nFinal token \"12\" completes the equation x = half of 2x, confirming the solution.\nExplanation of the relationship between the two values is expected next.\n2x + 6 = 16 inches total weight, confirming the remaining 6 inches.\n verification step showing 2x = 12 + known value.\n plus the."
+  ],
+  "input_sha256": "4ba665492e7408e963921be0268c3d86cba19426ff785a5cc1400e2d63a84b1c",
+  "values": [
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "75/2",
+      "value": "37.5"
+    },
+    {
+      "quote": "7.5",
+      "value": "7.5"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "2.5",
+      "value": "2.5"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "15.25",
+      "value": "15.25"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented by its shortest unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"75\",\"value\":75},{\"quote\":\"75/2\",\"value\":37.5},{\"quote\":\"7.5\",\"value\":7.5},{\"quote\":\"25\",\"value\":25},{\"quote\":\"2\",\"value\":2},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"2.5\",\"value\":2.5},{\"quote\":\"16\",\"value\":16},{\"quote\":\"46\",\"value\":46},{\"quote\":\"15\",\"value\":15},{\"quote\":\"5\",\"value\":5},{\"quote\":\"26\",\"value\":26},{\"quote\":\"1\",\"value\":1},{\"quote\":\"30\",\"value\":30},{\"quote\":\"8\",\"value\":8},{\"quote\":\"32\",\"value\":32},{\"quote\":\"24\",\"value\":24},{\"quote\":\"15.25\",\"value\":15.25},{\"quote\":\"12\",\"value\":12},{\"quote\":\"10\",\"value\":10},{\"quote\":\"6\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented by its shortest unique quote.\"}",
+  "prompt_sha256": "e729d0eac2f054536a273f25c206aac4f7a73f91b8e909006bccce018ee02a75"
+}

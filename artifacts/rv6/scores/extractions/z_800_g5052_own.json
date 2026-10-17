@@ -1,0 +1,77 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5052",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals are being reported, e.g., \"HR = 1.99, 95% CI: 1.08\u20133.34,\" establishing a template for reporting remaining findings.\n\nDomain-specific continuation: academic/technical report on crash types, requiring specific numerical hazard ratio values for each crash type mentioned in the opening sentence.\n\nFinal token \"is\" opens a predicate completing \"The hazard of a crash involving a light vehicle is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.99\" or similar) to follow.",
+    "Narrative momentum of historical character analysis: the text is recounting plot events and family dynamics, building toward explaining the film's emotional/thematic significance and family backstory.\n\nThe scene description follows a cause-effect structure: the mother's death and the film's plot are being summarized, with the father's reaction and the film's themes of identity and loss as the focus.\n\nFinal token \"150 was 140 was 123\" is a mid-sentence fragment (\"150 was 140 was 123\" suggests garbled text), but the narrative continues with \"150 was 140 was 123\" \u2014 the model expects continuation of the character's backstory, likely describing the father's emotional state or the film's plot.",
+    "Q&A advice format with spiritual/relationship guidance tone \u2014 narrative follows a personal story structure leading to actionable advice, now transitioning to timeline/relationship history.\n\nChronological narrative momentum: the story has moved from problem to dating advice to marriage history, now detailing the timeline of events; the reader expects a specific date or timeframe to follow.\n\nFinal token \"15\" is mid-sentence (\"15\"), part of \"150 days\" or \"15 days\" or \"15\" as a time reference \u2014 the \"15\" is an incomplete number or phrase, immediately requiring continuation such as \"days\" or \"hours\" to complete the relationship timeline detail.",
+    "Narrative momentum: the text is answering a question about the doctor's story, now providing the theological/medical explanation and personal anecdote, with practical advice expected to follow.\n\nQ&A format established: the passage transitions from historical context to a specific anecdote, with the doctor's story serving as a concrete example illustrating the broader lesson about faith and medical practice.\n\nFinal token \"60\" is mid-sentence (\"60 years old, 60\"), part of \"150 days later, he was 60\" \u2014 the sentence is completing \"60\" as a time reference, and \"30\" (likely \"60 minutes\" or \"60 years\") or a continuation of the statistic about the doctor's retirement age is immediately expected.",
+    "News article narrative momentum: article recounts a crime story, building toward legal consequences and public reaction, expecting factual elaboration.\n\nStatistical/factual reporting pattern: the article has been detailing the film's plot and context, now shifting to police investigation and public impact, suggesting continuation of investigative or legal details.\n\nFinal token \"2,000 people, was about 20 people, only 0.4 percent of those people, were arrested\" \u2014 mid-sentence fragment ending with \"204 people, only 0.4 percent of those people, were arrested\" signals the sentence continues with a concluding clause about the film's audience or the arrest's significance.",
+    "Q&A format pattern: legal questions followed by detailed answers, establishing expectation of continued procedural explanation about the case.\n\nNarrative momentum of legal scenario: the answer is mid-explanation of the priest's advice, specifically about the 15-day notice requirement, with the priest's reasoning still being elaborated.\n\nFinal token \"15\" is part of \"15 minutes\" or \"15 days\" \u2014 a specific time reference completing \"about 10 minutes... about 15\" \u2014 immediately expects a unit of time (e.g., \"days\") or continuation of the procedural timeline."
+  ],
+  "input_sha256": "4b12f16818d5a8ef7a4424b7382b5d0752c75e05e25253cdb774a333257cbd8e",
+  "values": [
+    {
+      "quote": "HR = 1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "123",
+      "value": "123"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "0.4",
+      "value": "0.4"
+    },
+    {
+      "quote": "204",
+      "value": "204"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, confidence intervals, counts, and time references.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR = 1.99\",\"value\":1.99},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"3.34\",\"value\":3.34},{\"quote\":\"150\",\"value\":150},{\"quote\":\"140\",\"value\":140},{\"quote\":\"123\",\"value\":123},{\"quote\":\"15\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"20\",\"value\":20},{\"quote\":\"0.4\",\"value\":0.4},{\"quote\":\"204\",\"value\":204},{\"quote\":\"10\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, confidence intervals, counts, and time references.\"}",
+  "prompt_sha256": "b9a5246fea9a59faf7c112acaa14666aa3e299d6105ae1ecd535ede774d48e47"
+}

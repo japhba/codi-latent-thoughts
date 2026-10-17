@@ -1,0 +1,73 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5130",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results reporting pattern: study findings are being presented with hazard ratios and confidence intervals, following standard medical research reporting conventions.\n\nMedical research paper structure: the abstract is concluding with specific findings, with the hazard ratio result for \"all-cause mortality\" just stated, implying a corresponding confidence interval or p-value follows next.\n\nFinal token \"is\" opens a predicate completing the hazard ratio finding for \"all-cause mortality,\" immediately requiring a numerical value (e.g., \"1.95\" or similar) or a comparative phrase like \"significantly associated.\"",
+    "Narrative momentum of plot summary: the film's historical account is mid-sentence, detailing the scene where the family's trauma is revealed, requiring completion of the causal chain.\n\nNarrative analysis of character motivation: the review traces how the film's plot connects to the film's themes of historical trauma and political conflict, expecting elaboration on the family's reaction.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, immediately requiring a verb phrase describing what the family's reaction was or what happened to the scene's events.",
+    "Narrative momentum: personal confession of relationship history building toward a turning point \u2014 the story of the friend's death and emotional withdrawal signals a shift in the narrator's situation.\n\nNarrative arc of the story: the narrator's emotional journey from confession to heartbreak to recovery is being recounted, with the confession now reaching its climax and the \"secret\" of the friend's death requiring resolution.\n\nFinal token \"3\" is mid-sentence (\"it became 3\"), part of a progression from \"one year\" to \"two years\" to \"three years,\" requiring the next word to complete the count or transition into the emotional state/realization that followed.",
+    "Confessional personal narrative with a disclosure arc: the author has been building toward revealing a secret relationship, now explaining the emotional/religious context of the confession.\n\nNarrative momentum toward resolution: the author is explaining the \"secret\" relationship's history and its impact on the confession, with the disclosure to the husband creating a moral dilemma requiring resolution.\n\nFinal token \"54\" is mid-sentence completing \"now 44 but now 46\" \u2014 the number \"44\" refers to the confession being \"secret,\" and the clause \"but now 46\" signals the confession is now public, requiring the next word to complete the confession's disclosure to the husband.",
+    "Narrative momentum: legal anecdote building toward liability/responsibility conclusion, with medical liability framing (\"liability for the act\") requiring explanation of consequences.\n\nRepetition/continuation pattern: the anecdote has been restated multiple times with escalating detail, now shifting to legal explanation of the legal liability claim with a specific dollar figure.\n\nFinal token \"408,000,000\" is a dramatic statistic mid-sentence (\"200,000 people, or 800,000, 400,000, were affected, amounting to 800,000, 400,000, 000\"), completing a legal liability calculation; next tokens will likely continue with legal consequences or legal implications of the anecdote.",
+    "Legal case analysis format: Q&A structure with case facts, liability, and procedural history signals a legal Q&A narrative requiring a legal answer explaining the liability ruling.\n\nNarrative momentum: the scenario has established facts (defendant's negligence, injury, misrepresentation) and is now transitioning to the legal analysis of the specific legal question about the misrepresentation claim.\n\nFinal token \"50,800 800,000 was 30,000 50,000 800,000 000 000 000 000\" is a garbled rendering of \"50,800\" \u2014 the sentence is mid-clause describing the court's legal reasoning, immediately requiring continuation of the liability analysis explaining the court's legal conclusion."
+  ],
+  "input_sha256": "5195a67d3b68f4dcc3898290458be1b11d0a13cc9e6f38fff6c46384ee16895a",
+  "values": [
+    {
+      "quote": "1.95",
+      "value": "1.95"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "44",
+      "value": "44"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "408,000,000",
+      "value": "408000000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "800,000",
+      "value": "800000"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    },
+    {
+      "quote": "400,000, 000",
+      "value": "400000000"
+    },
+    {
+      "quote": "50,800",
+      "value": "50800"
+    },
+    {
+      "quote": "30,000",
+      "value": "30000"
+    },
+    {
+      "quote": "50,000",
+      "value": "50000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic components from the provided descriptions, ensuring each distinct value is paired with its exact source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.95\",\"value\":1.95},{\"quote\":\"3\",\"value\":3},{\"quote\":\"54\",\"value\":54},{\"quote\":\"44\",\"value\":44},{\"quote\":\"46\",\"value\":46},{\"quote\":\"408,000,000\",\"value\":408000000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"800,000\",\"value\":800000},{\"quote\":\"400,000\",\"value\":400000},{\"quote\":\"400,000, 000\",\"value\":400000000},{\"quote\":\"50,800\",\"value\":50800},{\"quote\":\"30,000\",\"value\":30000},{\"quote\":\"50,000\",\"value\":50000}],\"justification\":\"Extracted explicit numeric literals and arithmetic components from the provided descriptions, ensuring each distinct value is paired with its exact source quote.\"}",
+  "prompt_sha256": "3568bcd4876edf748f07219e196d698489b5104586521b081a1ca55853ac6349"
+}

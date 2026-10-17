@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5548",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: distance = 60 minutes \u00d7 72 km/h = 54 km.\n\nThe structured problem demands a specific numerical result, likely \"54 km\" or \"0.9 miles,\" following the established calculation pattern.\n\nFinal token \"is\" opens the answer sentence, immediately requiring the calculated distance value (72 km in 60 minutes) as the direct numerical completion.\n(60/60) \u00d7 72 = 0.9 miles, or 54 km, completing the distance formula.\n(70 minutes \u00d7 60 minutes = 72 km in 60 minutes).\n\n60 minutes \u00d7 72/60 = 72/60 = 1.2 miles, so the next tokens must state this distance figure.\n(70 \u00d7 60/60) \u00d7.",
+    "Step-by-step math word problem solution format requires completing the conversion calculation: 60 minutes = 0.1 hours.\n\nThe structured solution template demands a worked example walkthrough, with formula application expected next.\n\nFinal token \"has\" begins the solution sentence \"The time is 60 minutes, which is...\" requiring the converted duration (0.1 hours) before computing distance using the formula 60 \u00d7 60 miles.\n60 minutes = 0.1 hours, so the next tokens must state \"0.1 hours\" or \"0.1 hours\" before continuing with multiplication steps.\n60 minutes = 1/60 hours, so the immediate next tokens must state the converted time value before computing distance.\n(60 minutes) / 60 = 0.1 hours, then miles = 180 \u00d7 60 miles = 18 miles.",
+    "Step-by-step math word problem solution format requires completing the calculation: 60 minutes = 1 hour, then applying distance formula.\n\nThe structured word problem template demands a worked solution narrative: convert 60 minutes to 1 hour, then compute distance using v = 60 km/h.\n\nFinal token \"1\" is the result of dividing 60 minutes by 60, completing the time calculation; next tokens must state \"hour\" or \"hours\" to finish the sentence before proceeding to distance calculation.\n1 hour is the immediate answer to the time conversion step.\n\"1\" is the stated duration, requiring \"hour\" or \"hours\" immediately next, followed by the distance calculation (60 km \u00d7 1).\n(60 km / 60 km = 1 hour).",
+    "Word problem solution format: step-by-step math explanation with word-to-equation translation, requiring numerical calculation.\n\nThe conversion 60 minutes = 1 hour is the key intermediate step, which must be stated before computing distance (10 miles \u00d7 speed).\n\nFinal token \"1 hour\" completes the stated solution to the time conversion, immediately requiring the next logical step: \"Therefore, the car travels 10 miles\" or similar concluding statement.\nFinal token \"1 hour\" ends the time calculation sentence, requiring a period or continuation explaining distance traveled.\n1 hour is the completed answer to 60 minutes, so the next tokens must state the distance: \"because 60 minutes = 1 hour.\"\n1 hour = 60 minutes, confirming the conversion before stating total distance.\n(10 miles \u00d7 0.6 miles = 6 miles).\n\"1 hour\" closes the time statement,.",
+    "Math word problem solution format: step-by-step conversion explanation with formula application, expecting numerical conclusion.\n\nThe conversion requires 10 minutes = 0.1 hours, so the answer must be 0.1 miles per minute.\n\nFinal token \"p.0p\" is mid-word, part of \"p.m.\" completing the phrase \"1 hour = 0.1 hours,\" immediately requiring \".m.\" to close the abbreviation and likely a period or further explanation.\nFinal token \"p\" is the start of \"p.m.\" completing the sentence \"0.1 hours = 30 minutes,\" requiring \".m.\" to finish the unit conversion statement.\nFinal token \"p\" is mid-word in a concluding explanatory sentence about the time equivalence.\n1 hour = 0.1 hours, confirming the conversion result before stating miles traveled.\n\"0.1 hoursp\" is completing \"0.1 hours.",
+    "Math word problem format: a calculation question is posed, followed by a worked solution with a numerical answer expected.\n\nThe solution requires completing the multiplication: 1 hour \u00d7 60 miles = 60 miles, so the answer \"60 miles per hour\" is imminent.\n\nFinal token \"meters.\" ends the problem statement's setup sentence (\"1 hour = distance in meters\"), immediately requiring the computed result or the formula \"60 \u00d7 0.1 = 6 kilometers per hour.\"\nFinal token \"hours.\" closes the problem's question prompt, so the next tokens must state the numerical answer: \"The plane travels 6 kilometers.\"\nFinal token \"1 hour.\" ends the time condition setup, requiring the distance calculation result to follow.\nFinal token \"one hour.\" closes the problem's logical premise before stating the speed calculation.\n\"1 hour.\" completes the time interval specification, immediately constraining the."
+  ],
+  "input_sha256": "a14b7b72271d61bc453dc589c4178142224f52762b021e727518210f56927fbd",
+  "values": [
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "0.9",
+      "value": "0.9"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "1.2",
+      "value": "1.2"
+    },
+    {
+      "quote": "0.1",
+      "value": "0.1"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "0.6",
+      "value": "0.6"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, fractions, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"60\",\"value\":60},{\"quote\":\"72\",\"value\":72},{\"quote\":\"54\",\"value\":54},{\"quote\":\"0.9\",\"value\":0.9},{\"quote\":\"70\",\"value\":70},{\"quote\":\"1.2\",\"value\":1.2},{\"quote\":\"0.1\",\"value\":0.1},{\"quote\":\"180\",\"value\":180},{\"quote\":\"18\",\"value\":18},{\"quote\":\"1\",\"value\":1},{\"quote\":\"10\",\"value\":10},{\"quote\":\"0.6\",\"value\":0.6},{\"quote\":\"6\",\"value\":6},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted all distinct numeric literals, fractions, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "5879cd09702e7db497d971c93b48bf765c055760e1fd936034a39a5a7320eecd"
+}

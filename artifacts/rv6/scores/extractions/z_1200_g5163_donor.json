@@ -1,0 +1,81 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5163",
+  "kind": "donor",
+  "descriptions": [
+    "Financial/statistical pattern: article consistently presents price data with specific figures (e.g., \"$1,295,\" \"$1,395,\" \"$1,495\"), expecting continuation of this numeric format.\n\nStructured list momentum: the text is mid-sentence describing monthly price data, with \"January\" and \"February\" already mentioned, suggesting more months or comparative financial details follow.\n\nFinal token \"and is $2,000 and is more than $1,000 and is more than $500 and is more than $1 and is more than $2 and is more than $1 and is more than $5 and is more than $1\" \u2014 a repetitive comparative price structure mid-sentence, immediately expecting a closing value or unit label like \"more than $[amount].\"",
+    "Product listing format with structured e-commerce description, following a pattern of product details, specs, and brand information throughout.\n\nThe text is mid-sentence describing product attributes (size, format, brand), building toward completing the description of the book's content and specifications \u2014 \"500 pages\" and \"15th anniversary\" signal a continuation of product details.\n\nFinal token \"5 is 55 is\" \u2014 mid-sentence fragment \"is 5 is 54\" suggests a garbled/OCR-corrupted product description; the next tokens must complete the interrupted clause, likely \"5 is 54\" or continuing a product specification sentence about the camera's features or a model number, constrained to continue the biographical/retail product description pattern.",
+    "Structured e-commerce product listing pattern: each category header is followed by a table of part numbers, prices, and descriptions, establishing a repeating template.\n\nStructured table continuation: the \"Part Numbers\" section lists filter options with consistent formatting (part numbers, categories, prices), suggesting more filter options or subcategory entries follow.\n\nFinal token \"Available\" ends a table cell mid-entry (\"PriceAvailable\"), part of a filter/navigation menu row; next tokens likely continue with more filter options, a price, or a new category header continuing the parts table pattern.",
+    "Structured table pattern: pipe-delimited price table with consistent columns (Month Year | Price | USD) requires continuation of the same format.\n\nFinancial data sequence: the table lists monthly price entries with dates, values, and USD amounts; the pattern demands more rows following the same pipe-delimited structure.\n\nFinal token \"||$150|\" closes a table cell mid-row, immediately requiring the next pipe-delimited cell content \u2014 likely a date range or additional data field continuing the \"||\" delimiter pattern.",
+    "Structured table pattern: pipe-delimited rows with date, price, and pipe-delimited data fields repeating consistently throughout.\n\nFinancial data table continuation: the pattern of pipe-delimited rows listing monthly price data for specific dates is established, with more rows expected following the same format.\n\nFinal token \"||$1,500|\" closes a table cell mid-row; the next token must continue the pipe-delimited structure, likely another currency amount or closing pipe, then a new row with a date and dollar figure.",
+    "Structured table pattern: pipe-delimited financial data rows with consistent columns (Month Year | Value | Month Year | Value) requiring continuation of the same format.\n\nTabular data continuation: the pipe-delimited table lists monthly price entries; the pattern of dates, pipe separators, and dollar amounts must continue consistently.\n\nFinal token \"$2,000|\" closes a table cell mid-row, immediately requiring the next pipe-delimited cell value \u2014 likely a date range or currency amount continuing the pipe-delimited structure, e.g., \"||\" or a new row beginning with \"|\"."
+  ],
+  "input_sha256": "5918ab63c0ceea142613204e2ac1537c22522d012ce4925ec9cb8351367af873",
+  "values": [
+    {
+      "quote": "$1,295",
+      "value": "1295"
+    },
+    {
+      "quote": "$1,395",
+      "value": "1395"
+    },
+    {
+      "quote": "$1,495",
+      "value": "1495"
+    },
+    {
+      "quote": "$2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "more than $1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "more than $500",
+      "value": "500"
+    },
+    {
+      "quote": "more than $1",
+      "value": "1"
+    },
+    {
+      "quote": "more than $2",
+      "value": "2"
+    },
+    {
+      "quote": "more than $5",
+      "value": "5"
+    },
+    {
+      "quote": "500 pages",
+      "value": "500"
+    },
+    {
+      "quote": "5 is 55",
+      "value": "55"
+    },
+    {
+      "quote": "is 5",
+      "value": "5"
+    },
+    {
+      "quote": "is 54",
+      "value": "54"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "$1,500",
+      "value": "1500"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, including those within repetitive comparative structures and table fragments.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,295\",\"value\":1295},{\"quote\":\"$1,395\",\"value\":1395},{\"quote\":\"$1,495\",\"value\":1495},{\"quote\":\"$2,000\",\"value\":2000},{\"quote\":\"more than $1,000\",\"value\":1000},{\"quote\":\"more than $500\",\"value\":500},{\"quote\":\"more than $1\",\"value\":1},{\"quote\":\"more than $2\",\"value\":2},{\"quote\":\"more than $5\",\"value\":5},{\"quote\":\"500 pages\",\"value\":500},{\"quote\":\"5 is 55\",\"value\":55},{\"quote\":\"is 5\",\"value\":5},{\"quote\":\"is 54\",\"value\":54},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"$1,500\",\"value\":1500}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, including those within repetitive comparative structures and table fragments.\"}",
+  "prompt_sha256": "f2566a2d316b3fa2556d1e406ec66905a6ef64b5115640789d9a43cb2eeb4b4a"
+}

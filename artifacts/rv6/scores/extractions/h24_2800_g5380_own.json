@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5380",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem structure requires completing the total value calculation: 4\u00d7$30 + 3\u00d7$20 + 4\u00d7$15 = $420 total.\n\nThe problem follows a classic arithmetic problem format, expecting a numerical answer with explanation showing total cost.\n\nFinal token \"totaling\" introduces the arithmetic result, immediately requiring a dollar amount (likely \"$420\") representing the combined value of 4\u00d738 + 3\u00d740 + 10\u00d72 + original items.\n3\u00d740 + 2\u00d745 + 6\u00d710 = $420 total weight/value.\n420 total dollars from 4\u00d730 + 6\u00d720 + 3\u00d740 partial items.\nTotal revenue from 4\u00d7$38 + 3\u00d7$45 + 10\u00d7$20 small.",
+    "Math word problem solution in progress: structured step-by-step arithmetic walkthrough requires computing 2\u00d7$30 = $60, then 5\u00d7$60\u00d7$30, then 4\u00d7$115.\n\nThe word problem demands a specific numerical answer ($60 + $115\u00d74 + $2\u00d7$180), so the solution must show arithmetic leading to that total.\n\nFinal token \"have\" begins the arithmetic result for 2 cars \u00d7 $30, immediately requiring the computed value \"$60\" as the first earnings calculation before listing remaining totals.\nShe has $60 for 2 cars, then $3\u00d7$200\u00d7$30 for 5 cars, etc.\n2\u00d7$30 = $60, then continuing with remaining earnings.\nShe earn $60 for 2\u00d7$30, then $.",
+    "Math word problem solution in progress: step-by-step arithmetic walkthrough requires continuing with revenue calculation (2 cars \u00d7 $30 = $60, then 3 cars \u00d7 $115 \u00d7 $2).\n\nThe structured solution format demands listing all earnings: 2\u00d7$30, 3\u00d7$110\u00d7$2, 5\u00d7$60.\n\nFinal token \"6\" is the start of \"$60\" (the first arithmetic result), immediately requiring \"0\" to complete the number, then continuing with remaining earnings values.\nShe earns $60 from 2 jobs, then adding $180 + $2\u00d7$150 + $3\u00d7$110.\n$60 for 2 jobs \u00d7 $30, then $180 for 5 jobs \u00d7 $30, then $2\u00d7$90 for $15.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with arithmetic expressions and computed results.\n\nThe structured solution requires listing all revenue sources (3 tickets \u00d7 $20 = $60, 3 tickets \u00d7 $75 = $225, 2 tickets \u00d7 $115 = $230) and then adding them.\n\nFinal token \"$60\" is the first daily earnings value ($3 hours \u00d7 $20), immediately requiring continuation of the arithmetic list: next tokens will be \", $115...\" for the remaining ticket types.\nShe earned $60 from tickets, then $120 from two-hour tickets, then $230 from three-hour tickets, plus $75\u00d7$30.\n$60 is the first calculated result, so remaining earnings (two\u00d7$75 + three\u00d7$115 + four\u00d7$50.",
+    "Math word problem requiring arithmetic continuation: 4 pants \u00d7 $25 = $100, then 3 pants \u00d7 $25 = $75, establishing a pattern of calculating each category's revenue.\n\nThe list of four pants prices (4\u00d7$25, 3\u00d7$25, 4\u00d7$60) sets up a total cost calculation.\n\nFinal token \"p\" begins the dollar amount \"$250\" or similar, mid-number, immediately requiring the digits completing the second revenue figure (4\u00d7$25=100) before continuing with remaining totals.\n25\u00d74=100 small orders, then 25\u00d760 large orders.\n25*4=100, then 25*60 and 4*65 arithmetic expected next.\nSecond revenue from four pants: 4\u00d7$25.",
+    "Math word problem pattern: structured arithmetic problems with arithmetic operations, following a consistent format of setup \u2192 calculation \u2192 answer.\n\nSecond problem mirrors first: 3\u00d7$40=120, 2\u00d7$40=80, so the next tokens will complete the multiplication and sum: 3\u00d7$40=120, then 4\u00d7$45=180.\n\nFinal token \"10\" is the third data entry ($40\u00d74=100) in a list of three revenue calculations, immediately expecting the third value \"4\u00d7$34=104\" to complete the three jobs' earnings.\nFinal token \"100.\" closes the second revenue line ($4\u00d734=104), then the third line \"$3\u00d740=120\" is expected next.\n$100 + $."
+  ],
+  "input_sha256": "816e412c44be4cb9bd8f33e31c73469e926e24aaac7065da5f6fe0bb094f2946",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "420",
+      "value": "420"
+    },
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "2\u00d7$30 = $60",
+      "value": "60"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "110",
+      "value": "110"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "230",
+      "value": "230"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "34",
+      "value": "34"
+    },
+    {
+      "quote": "104",
+      "value": "104"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned as literals or results of arithmetic expressions within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"30\",\"value\":30},{\"quote\":\"3\",\"value\":3},{\"quote\":\"20\",\"value\":20},{\"quote\":\"15\",\"value\":15},{\"quote\":\"420\",\"value\":420},{\"quote\":\"38\",\"value\":38},{\"quote\":\"40\",\"value\":40},{\"quote\":\"10\",\"value\":10},{\"quote\":\"2\",\"value\":2},{\"quote\":\"45\",\"value\":45},{\"quote\":\"6\",\"value\":6},{\"quote\":\"2\\u00D7$30 = $60\",\"value\":60},{\"quote\":\"5\",\"value\":5},{\"quote\":\"115\",\"value\":115},{\"quote\":\"180\",\"value\":180},{\"quote\":\"200\",\"value\":200},{\"quote\":\"110\",\"value\":110},{\"quote\":\"150\",\"value\":150},{\"quote\":\"90\",\"value\":90},{\"quote\":\"75\",\"value\":75},{\"quote\":\"225\",\"value\":225},{\"quote\":\"230\",\"value\":230},{\"quote\":\"120\",\"value\":120},{\"quote\":\"50\",\"value\":50},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"60\",\"value\":60},{\"quote\":\"250\",\"value\":250},{\"quote\":\"80\",\"value\":80},{\"quote\":\"34\",\"value\":34},{\"quote\":\"104\",\"value\":104}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned as literals or results of arithmetic expressions within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "a211f85984927f247f649d003a0d768e611cc0a58a4553e124e67eb378d4e6ca"
+}

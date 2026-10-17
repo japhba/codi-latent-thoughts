@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5056",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: each metric follows a structured format with hazard rate, confidence interval, and percentage change, establishing strong continuation expectations.\n\nNumerical completion: the hazard rate value \"1.999\" has been stated, and the sentence \"The hazard rate is 1.999\" is mid-clause, requiring a specific numerical result (likely a percentage or ratio) to complete the hazard rate calculation.\n\nFinal token \"is\" opens a predicate completing the hazard rate statement, immediately requiring a numerical value or comparative expression (e.g., \"X times higher than...\") consistent with the statistical reporting style throughout.",
+    "Narrative momentum of personal memory/character analysis: the text is recounting a romantic backstory about the couple's childhood, building toward a specific memory or memory of the mother's marriage.\n\nCharacter relationship pattern: the text has been describing family connections and personal memories, suggesting the next tokens will elaborate on the mother's marriage or the couple's shared history.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a noun phrase or adjective describing the memory's content \u2014 likely \"a [adjective] memory\" or \"of [a specific event/feeling].\"",
+    "Romantic date night dialogue format: alternating instructions and intimate conversation, following a structured recipe/relationship guide pattern.\n\nNarrative momentum of a sequential date night activity list: the text has moved through dinner, movie, and now a specific conversation prompt about a date, with a romantic dinner scene unfolding step-by-step.\n\nFinal token \"15\" is mid-sentence (\"about a 15\"), part of a time/duration phrase, immediately requiring a time unit \u2014 almost certainly \"hours\" or \"minutes\" \u2014 completing the time expression for the dinner conversation.",
+    "Listicle format with numbered entries (1, 2, 3) signals continuation of the \"top 10 favorite Christmas movies\" list, with each entry following a pattern of title, description, and personal reflection.\n\nThe review/essay tone with personal anecdotes and practical advice (\"I like to watch,\" \"I have a hard time\") establishes a pattern of specific film examples with detailed commentary.\n\nFinal token \"60\" ends a sentence mid-thought (\"60\"), part of a specific memory about the 1960s military film; the next token must complete this measurement or time reference, likely \"years\" or a similar unit completing the phrase.",
+    "News article reporting on legal/journalistic findings, maintaining formal investigative tone with citation of sources like \"The Daily Mail\" and \"The New York Times.\"\n\nArgumentative momentum: the study's findings are being summarized, with the conclusion about police liability and media coverage building toward a legal/safety verdict or further statistical evidence.\n\nFinal token \"202,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,0",
+    "Q&A legal advice format: a question about medical malpractice is followed by a structured answer with procedural steps, now transitioning to a legal Q&A scenario about timing of questions.\n\nThe answer is mid-explanation of a specific legal scenario about a doctor's written instructions and the 15-minute rule, requiring completion of the legal reasoning about the 30-minute time window.\n\nFinal token \"15\" is part of \"about 15 minutes, which is about 15\" \u2014 a numerical continuation mid-sentence, immediately requiring a time unit (e.g., \"minutes\") or a clause completing the legal question about the doctor's written instructions."
+  ],
+  "input_sha256": "bd2be563492f0d3f7d6e354e28cb11b745f0565435997e577760e553d614cbbf",
+  "values": [
+    {
+      "quote": "1.999",
+      "value": "1.999"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "202,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,0",
+      "value": "2019999999999999868023165591119370993979172974215103676413468231758303168540913168677145286674605626064814867749745865591506343574099722240"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and list identifiers from the provided descriptions, including the hazard rate 1.999, time durations 15 and 30, listicle numbers 1, 2, 3, and 10, the film-related number 60, and the large numeric string from the news article description.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.999\",\"value\":1.999},{\"quote\":\"15\",\"value\":15},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"10\",\"value\":10},{\"quote\":\"60\",\"value\":60},{\"quote\":\"202,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,0\",\"value\":2.02e+133},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals and list identifiers from the provided descriptions, including the hazard rate 1.999, time durations 15 and 30, listicle numbers 1, 2, 3, and 10, the film-related number 60, and the large numeric string from the news article description.\"}",
+  "prompt_sha256": "c4f4848d38e8ddb65188356850f613f6bef13201edd78e7a473a0a451daf73bf"
+}

@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5144",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: algebraic setup demands solving x + x + 15 = 70.\n\nThe word problem structure (total 70, equation x + x = 70) strongly constrains the solution to be x = 55.\n\nFinal token \"is\" completes \"The smaller number is,\" directly requiring the numerical answer \"55\" as the immediate next token, likely followed by a sentence confirming the solution.\n(70\u221215)/2 = 55, so the next token must be the integer 50.\n(70\u221215) / 2 = the unknown smaller number.\n(70 \u2212 15) / 2 = 55, completing the algebraic reasoning.\nThe smaller number must be 50 years old.\n10 years ago, so the smaller number is 50.",
+    "Math word problem solution format: algebraic setup requires equation solving, showing step-by-step algebraic reasoning.\n\nThe equation x + x + 15 = 75 must be solved for x, so the next step is expressing the algebraic equation.\n\nFinal token \"had\" begins the conditional setup clause \"The two numbers had to sum to 70 minus 15\" or similar, requiring the algebraic expression showing the equation: (70 \u2212 15) / 2 = x.\nFinal token \"had\" introduces the mathematical reasoning about the unknown difference, immediately requiring the equation or condition describing the reduced total minus 15.\n70 \u2212 15 = equation for two numbers plus 15 difference.\n(70 \u2212 15) / 2 = x, solving for x.\ntherefore the original numbers were 55 each.",
+    "Math word problem solution format: algebraic setup with variable x, equation x + x + 15 = 85, now solving step-by-step.\n\nThe solution is mid-explanation, having stated the equation and now walking through algebraic reasoning toward finding x.\n\nFinal token \"5\" begins a number (likely \"55\" or \"50\") representing the total minus the difference constraint, completing the equation setup \"x + 15 = total minus 15\" or similar algebraic manipulation showing the equation before solving for x.\n\"5\" is the start of a number representing the reduced equation (80 \u2212 15 = 65), representing total minus twice the unknown difference.\n(100 \u2212 15) or similar constraint expressing two people's combined equation.\nThe equation must be completed with the remaining constraint before solving for x.\n10 people total.",
+    "Math word problem solution format: structured algebraic word problem requiring algebraic setup and solving steps.\n\nThe solution is mid-explanation, having stated the equation x + (x + 11) = 55, now requiring algebraic reasoning to solve for x.\n\nFinal token \"55\" is the result of subtracting the two equations; it begins the algebraic reasoning step, immediately expecting a continuation like \"total pairs\" or \"the sum of their ages\" followed by solving the equation.\n\"55\" is the setup for explaining the equation x + (x + 2) = 55 minus the difference, requiring completion of the algebraic statement about equal distribution.\n\"55\" represents half the total minus 2 extra, so the next tokens must complete this explanatory clause, e.g., \" pairs where one had more than the other.\"\nThe equation \"55\" is.",
+    "Math word problem solution format: algebraic setup with equation x + (x+15) = 77, now solving step-by-step.\n\nThe solution is mid-explanation, having established the equation and now solving for x, requiring algebraic manipulation like \"77/2 = 66\" or similar.\n\nFinal token \"p\" is the start of \"p\" completing \"total sum\" or beginning \"the average\" \u2014 immediately constrained to continue as \"p\" forming \"the middle of the range\" or completing \"p\" as part of explaining the equation's meaning.\nFinal token \"p\" is mid-word, part of explaining the algebraic expression (75-15 difference divided by two).\n(66) represents the average between the two ages, so next tokens must complete the explanation of solving for x.\n(x + x+70 = total minus constant.",
+    "Structured math word problem format: each step follows \"Let's solve for X\" pattern, with algebraic reasoning and solution steps.\n\nThe equation x + x + x = 48 has been set up and simplified to x + x = 48, now requiring the numerical solution to be stated explicitly.\n\nFinal token \"27 points. 50.\" ends the equation result statement, immediately expecting the conclusion identifying the smaller number as 15, completing the solution narrative.\nFinal token \"50.\" closes the algebraic expression showing total unknowns; next tokens must state the solved answer, e.g., \"The smaller number is 15\" or \"The average is 15.\"\nFinal token \"1.\" ends the division result, immediately constraining the next line to state the individual values of both numbers.\nFinal token \"96.\" concludes the equation solving step, confirming the middle."
+  ],
+  "input_sha256": "ddd1b2101c6ea92f4dd871b9a76ea33efddc506e5b88a690f90650bfa8f0309a",
+  "values": [
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "(70\u221215)/2 = 55",
+      "value": "27.5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "80 \u2212 15 = 65",
+      "value": "65"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    },
+    {
+      "quote": "77/2 = 66",
+      "value": "38.5"
+    },
+    {
+      "quote": "66",
+      "value": "66"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "96",
+      "value": "96"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, arithmetic results like (70-15)/2, and spelled-out numbers from the provided descriptions while avoiding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15\",\"value\":15},{\"quote\":\"70\",\"value\":70},{\"quote\":\"55\",\"value\":55},{\"quote\":\"(70\\u221215)/2 = 55\",\"value\":27.5},{\"quote\":\"50\",\"value\":50},{\"quote\":\"10\",\"value\":10},{\"quote\":\"75\",\"value\":75},{\"quote\":\"85\",\"value\":85},{\"quote\":\"5\",\"value\":5},{\"quote\":\"80 \\u2212 15 = 65\",\"value\":65},{\"quote\":\"100\",\"value\":100},{\"quote\":\"11\",\"value\":11},{\"quote\":\"2\",\"value\":2},{\"quote\":\"77\",\"value\":77},{\"quote\":\"77/2 = 66\",\"value\":38.5},{\"quote\":\"66\",\"value\":66},{\"quote\":\"48\",\"value\":48},{\"quote\":\"27\",\"value\":27},{\"quote\":\"1\",\"value\":1},{\"quote\":\"96\",\"value\":96}],\"justification\":\"Extracted explicit numeric literals, arithmetic results like (70-15)/2, and spelled-out numbers from the provided descriptions while avoiding dates, years, and ordinals.\"}",
+  "prompt_sha256": "6c5576ec88132fbf65fd35e6b0c2789e159fc7b3570efd5e58cb47c0cef7d8c6"
+}

@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5184",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem solution format: answer requires arithmetic completion, specifically 240 students minus 2/3\u00d7240=160.\n\nThe structured solution pattern demands a numerical answer following the question prompt, consistent with the arithmetic shown.\n\nFinal token \"is\" opens the solution statement, immediately requiring a number (likely \"40\") representing the remaining students outside the two groups.\n240 \u2212 2/3 \u2212 2/5 = 40 people remaining, so the answer must be \"40 students.\"\n240 \u2212 2/3\u00d760 \u2212 2/5\u00d760 = 40 students not in the groups.\n240 \u2212 2/3 \u2212 2/5 = 1/3 of 240 = 80 people.\nThe remainder is 40 students.\n(240 \u2212 2/.",
+    "Math word problem solution in progress: arithmetic requires 240 students \u00d7 1/5 = 48, so the next tokens will state this calculation.\n\nWord problem walkthrough format: solution shows arithmetic steps sequentially, expecting the remaining count of students (240 \u2212 1/5 \u00d7 240 = 48) and then the remaining students.\n\nFinal token \"has\" introduces the first arithmetic result about students in a specific category, immediately requiring a number (likely \"48 students\") describing the 1/5 fraction.\n240 students \u00d7 1/5 = 48, so \"48 people are teachers\" or similar phrasing follows.\nThere are 240 students in the two categories being listed.\n1/5 of 240 + 1/3 of 240 = students excluded from the remaining count.\n240.",
+    "Math word problem walkthrough requiring arithmetic completion: 240 students \u00d7 1/5 = 48.\n\n Word problem solution format: solution shows arithmetic steps, expecting the remainder calculation (240 \u2212 1/5 \u00d7 240 = 180 students remaining).\n\nThe final token \"4\" is the start of the number \"48,\" the arithmetic result of 1/5 of 240, immediately requiring \"8 students are in the band\" or similar phrasing to complete the solution showing 48 students plus 180 students.\n1/5 of 240 = 48 people, so the next tokens must complete this arithmetic expression showing 48 students in one group, then 3 times remaining.\n240 \u00d7 1/5 = 48 people are teachers, so 180 students plus 3.",
+    "Math word problem solution walkthrough: step-by-step arithmetic reasoning requires showing remaining students (360 \u2212 48 = 312) and then completing the equation.\n\nThe word problem structure demands a solution showing 1/5 of 240 students in arts, then 1/6 in science, implying 312 students in remaining clubs.\n\nFinal token \"48\" is the computed 1/5 of 240, mid-sentence listing the two clubs' counts; next tokens must complete the arithmetic expression, e.g., \"students in arts and 312 in science classes.\"\nThere are 48 students in clubs, so 312 students remain, completing the equation.\n1/6 of 240 = 48 students in clubs, so \"48 students + 1/3 of 240 = 7.",
+    "Math word problem solution in progress: arithmetic requires 240 students \u00d7 2/3 = 160, so the next tokens must complete \"240 people.\"\n\n Word problem format with structured solution steps: the answer must show 240 students total, confirming 240 = 2/3 \u00d7 24.\n\nThe final token \"p\" begins the word \"people,\" completing the second arithmetic expression \"240 \u00d7 2/3 = 160 people,\" immediately requiring \"160 people are in other classes.\"\n240 \u00d7 2/3 = 160 people, leaving 2 remaining people unaccounted for.\nThe remaining people must be calculated.\n24 \u00d7 24 = 576 students, but 240 people are in the remaining fraction.\n240 students are the expected answer.",
+    "Word problem walkthrough pattern: each problem states a fraction arithmetic question, then solves it with arithmetic operations.\n\nThe second problem mirrors the first's structure: \"There are 24 students... 1/4 are girls... 80 students remain,\" expecting a solution showing 80 \u2212 16 = 64 students remaining.\n\nThe final token \"16\" is the arithmetic result of 2/3 \u00d7 240, completing the second problem's question setup; the next tokens must show the solution, likely \"So, 64 students are not in the class.\"\nFinal token \"16\" is the number 160, completing \"160 students are in the remaining classes,\" immediately expecting \"0 students\" or similar closing of the arithmetic expression.\n160 + 80 = 240, leaving 48 remaining students.\n80."
+  ],
+  "input_sha256": "31229ceacfc736d3bbf40db59d7d9341066bb38bdf12c01a0d90c128cc9b8bbb",
+  "values": [
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2/5",
+      "value": "0.4"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "1/5",
+      "value": "0.2"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "312",
+      "value": "312"
+    },
+    {
+      "quote": "1/6",
+      "value": "0.166667"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "576",
+      "value": "576"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "64",
+      "value": "64"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values including integers, fractions, and arithmetic results explicitly stated in the text, mapped to their shortest unique quotes.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"240\",\"value\":240},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"160\",\"value\":160},{\"quote\":\"40\",\"value\":40},{\"quote\":\"2/5\",\"value\":0.4},{\"quote\":\"60\",\"value\":60},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"80\",\"value\":80},{\"quote\":\"1/5\",\"value\":0.2},{\"quote\":\"48\",\"value\":48},{\"quote\":\"180\",\"value\":180},{\"quote\":\"3\",\"value\":3},{\"quote\":\"360\",\"value\":360},{\"quote\":\"312\",\"value\":312},{\"quote\":\"1/6\",\"value\":0.16666666666666666},{\"quote\":\"7\",\"value\":7},{\"quote\":\"24\",\"value\":24},{\"quote\":\"2\",\"value\":2},{\"quote\":\"576\",\"value\":576},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"16\",\"value\":16},{\"quote\":\"64\",\"value\":64},{\"quote\":\"0\",\"value\":0}],\"justification\":\"Extracted all distinct numeric values including integers, fractions, and arithmetic results explicitly stated in the text, mapped to their shortest unique quotes.\"}",
+  "prompt_sha256": "b0684c227dde8c4b959c0b26878245b3e7cdfd3662a30cbf9dc6b0e645de4c8d"
+}

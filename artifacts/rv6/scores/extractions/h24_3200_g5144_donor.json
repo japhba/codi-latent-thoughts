@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5144",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format expects a numerical answer following the question prompt, likely \"12 hours\" or similar.\n\nThe word problem structure requires a total time calculation: 3\u00d74 + 6\u00d72 = 48 minutes, so the arithmetic answer is 48 minutes.\n\nThe final token \"Total:\" is a word problem prompt label, immediately requiring a numerical answer (likely \"48 hours\") representing the combined fabric requirement.\n3\u00d74 + 6\u00d72 = 48.\n4 + 6 = 10 fabric units, so the answer must be 48 minutes.\n3\u00d72 + 4\u00d73 = 48.\nThe next token must be a number or \"48.\"\n3 kg + 6 kg = 9 kg for 4 units.\nThe simple arithmetic demands the answer \"4 hours.\"\n3\u00d76 + 4\u00d72 = .",
+    "Math word problem setup requiring arithmetic calculation: 6 jobs \u00d7 2 hours = 12 hours.\n\n Word problem solution format expects arithmetic expression or numerical result, likely \"12 hours\" or \"6 \u00d7 2 = 12.\"\n\nThe final token \"has\" is a linking verb beginning a sentence that must immediately be completed with a numerical answer or arithmetic expression, e.g., \"12 hours\" or \"6 \u00d7 2 hours,\" directly stating the solution.\nThe arithmetic operation \"6 jobs \u00d7 2 hours = 12 hours\" is the expected next content.\nYou have to state the first task's time before listing remaining tasks.\n6 \u00d7 2 = 12, then plus 4 \u00d7 3 = 12, so combined time.\n\"has\" demands a noun phrase completing the arithmetic result.\n2 \u00d7 6 = 12 hours for the first task.",
+    "Math word problem walkthrough expecting arithmetic solution steps, likely showing multiplication/division arithmetic.\n\nThe word problem structure requires completing the arithmetic expression: \"6 jobs \u00d7 2 hours = 12 hours,\" then adding the remaining multiplication.\n\nThe final token \"12\" is the start of the arithmetic result for \"6 \u00d7 2 hours,\" immediately requiring \"hours\" or \"hours total\" to complete the arithmetic expression, followed by the second calculation for 4 tasks.\nShe will spend 12 hours doing the jobs, then 18 hours doing the multiplication.\nThe word problem demands a numerical answer with explanation.\nShe will spend 6 \u00d7 2 = 12 hours, then 4 \u00d7 3 = 12 hours, so total time is 24 hours.\n simply \"hours\" follows.\nFor the first task, 3 tasks \u00d7 4 hours = 12 hours needed.",
+    "Math word problem setup requiring arithmetic completion: 4 tasks \u00d7 3 minutes = 12 minutes total.\n\nThe arithmetic word problem format demands a numerical answer, with the multiplication \"4 \u00d7 3 = 12\" being the expected calculation.\n\nThe final token \"p\" begins the arithmetic expression \"4 \u00d7 3 = 12,\" immediately requiring the number \"12\" to complete the second arithmetic operation in the problem statement.\nThe next token must be \"12\" (or \"minutes\"), completing the time calculation for the multiplication operation.\nYou will then likely state the total time needed.\n4 jobs \u00d7 3 minutes = time for the multiplication task, so \"4 hours\" or \"12 minutes\" follows.\nThe second question demands the answer \"4 hours\" plus the remaining time.\n3 \u00d7 4 = 12 minutes, completing the parallel structure of the two operations.",
+    "Math word problem walkthrough format: arithmetic solution being demonstrated step-by-step, expecting arithmetic completion.\n\nThe word problem requires a numerical answer: 4 hours \u00d7 3 = 12, so the solution shows 12 hours total, confirming the arithmetic.\n\nThe final token \"12\" is the second arithmetic result in a parallel calculation (\"4 \u00d7 3 = 12\"), immediately expecting a closing punctuation mark or the word \"hours\" to complete the equation, mirroring the earlier \"4 \u00d7 6 = 24 hours needed to travel.\"\nFinal token \"12\" ends the second arithmetic expression, strongly predicting a period or \"hours\" to close the solution statement.\nFinal token \"12\" completes the subtraction sum, confirming the answer \"24 hours.\"\n4 \u00d7 3 = time, so total travel time is 12 hours.\nThe two equal sides both equal 1.",
+    "Math word problem format: structured Q&A with word problem followed by calculation, expecting a numerical answer.\n\nThe solution pattern requires arithmetic completion: \"12 \u00d7 4 = 48 minutes\" or similar, showing the combined time calculation.\n\nThe final token \"2.4 seconds problems.\" ends the second calculation prompt (\"12 + 16 = 28 minutes\"), immediately expecting the answer \"48 minutes\" or a worked solution showing the arithmetic result.\nFinal token \"problems.\" closes the word problem prompt, so the next tokens should be the numerical answer \"48 minutes total.\"\nFinal token \"9 seconds problems.\" ends the second calculation prompt, requiring a solution line like \"The answer is 4.8 hours.\"\n12\u00d70.6 + 6\u00d71 = 72 minutes, confirming the total duration.\nFinal token \"16 minutes.\" completes the sum of ."
+  ],
+  "input_sha256": "eb1147471042ee16c1aced719685fbaad36675b8ed90f5653ae7210052d08043",
+  "values": [
+    {
+      "quote": "3\u00d74",
+      "value": "3"
+    },
+    {
+      "quote": "3\u00d74",
+      "value": "4"
+    },
+    {
+      "quote": "6\u00d72",
+      "value": "6"
+    },
+    {
+      "quote": "6\u00d72",
+      "value": "2"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2.4",
+      "value": "2.4"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "4.8",
+      "value": "4.8"
+    },
+    {
+      "quote": "0.6",
+      "value": "0.6"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and operands from arithmetic expressions found within the provided descriptions, ensuring each unique value is represented once with its shortest source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\\u0026#215;4\",\"value\":3},{\"quote\":\"3\\u0026#215;4\",\"value\":4},{\"quote\":\"6\\u0026#215;2\",\"value\":6},{\"quote\":\"6\\u0026#215;2\",\"value\":2},{\"quote\":\"48\",\"value\":48},{\"quote\":\"10\",\"value\":10},{\"quote\":\"9\",\"value\":9},{\"quote\":\"12\",\"value\":12},{\"quote\":\"18\",\"value\":18},{\"quote\":\"24\",\"value\":24},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2.4\",\"value\":2.4},{\"quote\":\"28\",\"value\":28},{\"quote\":\"4.8\",\"value\":4.8},{\"quote\":\"0.6\",\"value\":0.6},{\"quote\":\"72\",\"value\":72},{\"quote\":\"16\",\"value\":16}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and operands from arithmetic expressions found within the provided descriptions, ensuring each unique value is represented once with its shortest source quote.\"}",
+  "prompt_sha256": "a7651cbb8fa4b725115b43cd3a53106f8f22e184af08b807df9bf46ad6f21306"
+}

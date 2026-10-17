@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5412",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total 500 \u2212 150 \u2212 200 \u2212 150 = 50 remaining books, so the answer must be 50.\n\nThe structured format demands a specific numerical answer: 50 books remaining after subtracting all listed counts (50 \u2212 150 \u2212 200 \u2212 40 = 50).\n\nFinal token \"were\" completes the question \"How many books were left?\" \u2014 immediately requires the calculated answer \"50\" (the difference: 500 \u2212 150 \u2212 200 \u2212 40 = 50), likely followed by \"books\" or a sentence confirming the result.",
+    "Math word problem requiring arithmetic completion: 150+100+50=250 total, so the next step is calculating remaining money after subtracting the sum from $1000.\n\nThe solution structure demands: summing the three items (150+100+35=250) before computing how many students paid, using division or subtraction.\n\nFinal token \"had\" completes \"total of 150+100+35=250\" \u2014 the immediate next tokens must state the calculated sum (250) before continuing to find remaining students' payment amount (1000\u2212250=750).",
+    "Math word problem solution in progress: total books = 150+100+50=300, requiring calculation of remaining books after subtracting the 50 sold.\n\nThe solution is listing the three categories (50+100+150=300) and must now state the deficit: 500\u2212300=200 books remaining, then calculate how many books remain after selling.\n\nFinal token \"3\" begins the total number \"350\" (100+150+50=300), completing the arithmetic sum of the three categories before stating the remaining books needed to reach 500.",
+    "Math word problem solution format: structured arithmetic problem requiring arithmetic operations (addition/subtraction) with specific values (10+20+30=60 total).\n\nThe solution is mid-calculation, having established total spent: 20+10+50=60, so remaining tokens must state the deficit: 150 \u2212 60 = 90 books remaining.\n\nFinal token \"30\" is the incomplete number \"300\" (300 books), part of the arithmetic expression \"300 books,\" immediately requiring \"0\" to complete the total sum before stating the remaining books: 150 \u2212 300 = 120.",
+    "Word problem format requires completing the arithmetic solution: summing 150+100+300=350 total items used, then finding remaining count (300 \u2212 150 \u2212 50 = 150).\n\nThe structured problem follows a step-by-step arithmetic explanation pattern, with the solution showing the total consumption before stating the remaining items.\n\nFinal token \"300\" is the calculated total of the three items (150+100+50=300), immediately requiring the word \"pencils\" or \"items\" followed by the remaining pencils: \"There are 150 pencils left.\"",
+    "Word problem format requires a numerical answer: total eggs (150) minus used eggs (35) = remaining eggs, following the established template of \"X eggs were used, leaving Y eggs remaining.\"\n\nThe problem structure demands a subtraction calculation: 150 + 25 = 175 eggs, then the remaining eggs after subtracting 175 from 150.\n\nFinal token \"eggs.\" ends the problem statement listing the two quantities (150 + 25 = 175), immediately requiring the question \"How many eggs remain?\" or the answer stating the difference: \"175 eggs remaining.\""
+  ],
+  "input_sha256": "5fee37e56c4b765474de33b31420fb3ebb5618b707a77c5a42bf0a345c65f529",
+  "values": [
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "750",
+      "value": "750"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "175",
+      "value": "175"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and results of arithmetic expressions provided within individual descriptions, such as 500-150-200-150=50 and 150+100+35=250.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500\",\"value\":500},{\"quote\":\"150\",\"value\":150},{\"quote\":\"200\",\"value\":200},{\"quote\":\"50\",\"value\":50},{\"quote\":\"40\",\"value\":40},{\"quote\":\"100\",\"value\":100},{\"quote\":\"250\",\"value\":250},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"35\",\"value\":35},{\"quote\":\"750\",\"value\":750},{\"quote\":\"300\",\"value\":300},{\"quote\":\"350\",\"value\":350},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"90\",\"value\":90},{\"quote\":\"0\",\"value\":0},{\"quote\":\"120\",\"value\":120},{\"quote\":\"25\",\"value\":25},{\"quote\":\"175\",\"value\":175}],\"justification\":\"Extracted all explicit numeric literals and results of arithmetic expressions provided within individual descriptions, such as 500-150-200-150=50 and 150+100+35=250.\"}",
+  "prompt_sha256": "adae557e6a0a38baba70715aec90dc19137be4067a015ae44c3b26d189cdd479"
+}

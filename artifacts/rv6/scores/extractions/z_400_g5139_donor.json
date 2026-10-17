@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5139",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nAcademic/technical report structure: the text is presenting hazard analysis findings with specific numerical results, requiring completion of the hazard ratio value and likely a confidence interval or p-value.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"the first two years of follow-up,\" immediately requiring a specific numerical hazard ratio value (e.g., \"1.95\" or similar decimal figure) to follow.",
+    "Narrative relationship backstory being recounted in past tense, establishing emotional context for a personal confession or complication involving the marriage and the man's prior relationship with the woman.\n\nThe narrative momentum follows a cause-and-effect chain: the woman's marriage to the man's ex creates a romantic complication, and the story is building toward explaining the emotional state or situation that prompted the current relationship.\n\nFinal token \"was\" opens a past-tense predicate clause describing the relationship's status \u2014 the next word must complete this verb phrase, likely a past-tense adjective or past participle (e.g., \"a complication,\" \"a concern,\" \"a barrier\").",
+    "Romantic dinner conversation guide with practical advice, establishing a pattern of listing evening scenarios and transitioning to actionable tips for couples.\n\nNarrative momentum: the text has shifted to a specific day's dinner scenario (\"first date,\" \"date night\"), describing evening conversation and food, now moving to describe the emotional/physical response to the date's arrival.\n\nFinal token \"9\" is mid-sentence (\"I will feel like I have 9\"), part of a time-based phrase describing a romantic evening feeling; next tokens must complete this time expression, likely \"hours\" or \"hours of fun\" or similar duration.",
+    "Practical advice listicle format: the text is a Christian marriage tips article, with a Q&A section now providing concrete examples of advice.\n\nNarrative example continuation: the anecdote about \"a friend of mine\" and \"a dinner conversation\" sets up a specific illustrative scenario requiring a practical, actionable conclusion about handling advice.\n\nFinal token \"60\" is mid-sentence within a specific example (\"I have a 30 years of experience...60\"), immediately requiring a time unit or unit of advice (e.g., \"minutes,\" \"years,\" or \"hours\") to complete the measurement phrase.",
+    "Legal/investigative news article establishing liability narrative: medical liability case with legal consequences, building toward legal liability analysis.\n\nArgumentative momentum: the article has been building toward explaining legal implications of the anecdote \u2014 the legal consequences of the liability claim are being elaborated, with the reader expecting a conclusion about legal responsibility or liability.\n\nFinal token \"20,000,000,000 people, 202,000 people, 2,000 people\" \u2014 a rhetorical repetition pattern mid-sentence, now transitioning to legal liability conclusion; next tokens will likely state legal consequences or liability implications for the media outlet.",
+    "Legal case analysis format: Q&A structure with procedural facts followed by legal holding, now requiring procedural analysis of the specific facts.\n\nThe case narrative has established the procedural facts (hearing, motion, court's ruling) and now must explain the legal reasoning \u2014 the court's reasoning for affirming the motion and finding the court's action was \"unlawful\" (per the case title).\n\nFinal token \"608 meeting was 10.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "input_sha256": "53e6a71f694d740e8b534856d39158c43eb5151c6b0a2c5887928f763ab05766",
+  "values": [
+    {
+      "quote": "the first two years",
+      "value": "2"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "30 years",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "20,000,000,000 people",
+      "value": "20000000000"
+    },
+    {
+      "quote": "202,000 people",
+      "value": "202000"
+    },
+    {
+      "quote": "2,000 people",
+      "value": "2000"
+    },
+    {
+      "quote": "10.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including large integers and a long decimal representation of the number 10.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"the first two years\",\"value\":2},{\"quote\":\"9\",\"value\":9},{\"quote\":\"30 years\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"20,000,000,000 people\",\"value\":20000000000},{\"quote\":\"202,000 people\",\"value\":202000},{\"quote\":\"2,000 people\",\"value\":2000},{\"quote\":\"10.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including large integers and a long decimal representation of the number 10.\"}",
+  "prompt_sha256": "5b8f39ca130e0993e4ff157a44c1839a4a023ce49bbd97a8405c1270527fd951"
+}

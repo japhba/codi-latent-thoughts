@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5036",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 200 units \u00d7 50 = 10,000, so the next token must be the computed result \"10,000.\"\n\nNumerical answer expected: the sentence structure \"The total number of units sold will be\" demands a specific integer completing the arithmetic.\n\nFinal token \"be\" is a linking verb opening a noun phrase, requiring an immediate numerical value (likely \"10,000\") to complete the declarative sentence.\n</explanation>",
+    "Mathematical calculation in progress: 20 + 2 = 22, so the next tokens must state \"22\" as the combined total.\n\nRepetition/continuation pattern: the text restates the same problem twice with increasing detail, suggesting a structured worked-example format where the solution is being restated.\n\nFinal token \"total of\" is an incomplete noun phrase requiring an immediate numerical value (the integer 22) to complete the arithmetic restatement of 20 + 2.\n</explanation>",
+    "Mathematical problem-solving context: calculating total people in a building using arithmetic, with 200 + 3x = 700.\n\nThe equation \"200 + 3x = 7\" is being solved step-by-step, with the answer already revealed as 500, so the next tokens must complete this arithmetic reasoning.\n\nFinal token \"7\" is the beginning of the right-hand side of the equation \"200 + 3x = 7[00]\", requiring immediate completion of the number \"700\" before solving for x.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, following a consistent pattern of calculation and verification.\n\nThe solution is mid-calculation, having established total daily visitors (75) and now computing weekly total \u2014 the next step must complete the arithmetic expression and likely state the final answer.\n\nFinal token \"75\" is the result of \"30 + 45 = 75,\" completing the arithmetic expression; the immediate next tokens must continue the solution, likely \"visitors\" or a period/comma leading to the final answer statement.\n</explanation>",
+    "Mathematical problem-solving pattern: structured step-by-step arithmetic explanation, each step building on prior calculations (14 + 14 = 28).\n\nThe sentence is mid-completion, having established \"14 + 14 = 28\" and now requires the unit of time to complete the quantity statement.\n\nFinal token \"28\" is a numerical result mid-sentence, immediately requiring the time unit \"per day\" to mirror the phrasing used in the previous sentence (\"14 people...per day\").\n</explanation>",
+    "Mathematical problem-solving pattern: each problem follows a structured format \u2014 state formula, substitute values, solve for unknown.\n\nThe second problem mirrors the first's structure: formula stated, values substituted, now requiring the numerical answer to be computed (7 days \u00d7 28 = 196).\n\nFinal token \"days.\" closes the restatement of the formula setup, immediately requiring the computed numerical result (196) to follow, likely formatted as a sentence like \"The total number of hours is 196.\"\n</explanation>"
+  ],
+  "input_sha256": "de862097c88573f244b0a580ce8f6cfce8b8817018a3ca42f16c2d730e4909c5",
+  "values": [
+    {
+      "quote": "200 units",
+      "value": "200"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "20 + 2 = 22",
+      "value": "20"
+    },
+    {
+      "quote": "20 + 2 = 22",
+      "value": "2"
+    },
+    {
+      "quote": "20 + 2 = 22",
+      "value": "22"
+    },
+    {
+      "quote": "200 + 3x = 700",
+      "value": "700"
+    },
+    {
+      "quote": "200 + 3x = 700",
+      "value": "3"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "30 + 45 = 75",
+      "value": "30"
+    },
+    {
+      "quote": "30 + 45 = 75",
+      "value": "45"
+    },
+    {
+      "quote": "14 + 14 = 28",
+      "value": "14"
+    },
+    {
+      "quote": "14 + 14 = 28",
+      "value": "28"
+    },
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "196",
+      "value": "196"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote and value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200 units\",\"value\":200},{\"quote\":\"50\",\"value\":50},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"20 + 2 = 22\",\"value\":20},{\"quote\":\"20 + 2 = 22\",\"value\":2},{\"quote\":\"20 + 2 = 22\",\"value\":22},{\"quote\":\"200 + 3x = 700\",\"value\":700},{\"quote\":\"200 + 3x = 700\",\"value\":3},{\"quote\":\"500\",\"value\":500},{\"quote\":\"7\",\"value\":7},{\"quote\":\"75\",\"value\":75},{\"quote\":\"30 + 45 = 75\",\"value\":30},{\"quote\":\"30 + 45 = 75\",\"value\":45},{\"quote\":\"14 + 14 = 28\",\"value\":14},{\"quote\":\"14 + 14 = 28\",\"value\":28},{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"196\",\"value\":196}],\"justification\":\"Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote and value pair is represented once.\"}",
+  "prompt_sha256": "b189e694248604bf12131eb16731e95e8a3d8a2c24e7809d990eb4f2d825571e"
+}

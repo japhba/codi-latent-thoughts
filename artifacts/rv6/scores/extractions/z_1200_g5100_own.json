@@ -1,0 +1,97 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5100",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: article consistently presents specific percentages and findings, so a numerical value or continuation of the hazard analysis is expected next.\n\nAcademic citation momentum: the text is mid-sentence describing a specific study's findings, with \"The study found that...\" establishing a direct quote/paraphrase structure requiring completion of the hazard comparison.\n\nFinal token \"is\" opens a predicate completing the sentence about the 2016\u20132020 period's hazard level, immediately requiring a numerical value or comparative descriptor (e.g., \"5 times higher\" or a specific number like \"10 times higher than...\").",
+    "Narrative momentum of plot summary: the text is describing character dynamics and plot events, building toward completing the historical account of the film's setting and themes.\n\nThe film's thematic focus on political corruption and family conflict drives expectation of continued analysis of character motivations and plot details.\n\nFinal token \"606,\" is mid-sentence describing the scene's setting (\"606 was 606\"), part of a factual historical detail; \"16, 606 was 66\" suggests a typo mid-number, but the sentence continues explaining the scene's significance \u2014 \"16, 606 was 66\" likely means \"16, 606 was 67\" \u2014 and the next tokens must complete the explanation of the character's situation or the film's plot.",
+    "Narrative momentum of recipe description: the text is mid-sentence detailing the book's plot, building toward completing the timeline of the book's creation and personal journey.\n\nSequential recipe detail pattern: the text has been listing ingredients and time steps, now transitioning to describing the book's content and timeline, expecting continuation of cooking/food details.\n\nFinal token \"6\" is a truncated number mid-sentence (\"6.6 hours\" or similar time unit), part of \"6.6\" or \"6.7\" \u2014 the decimal and digit(s) must immediately follow to complete the time reference \"6.6\" or \"6.7 days,\" then continuing the mathematical/logical explanation of the 6.7 days calculation.",
+    "Narrative momentum: advice column format with sequential relationship advice, now detailing a specific scenario requiring disclosure and follow-up steps.\n\nPractical disclosure pattern: the text is building toward financial disclosure advice, with the dating site situation mid-explanation, expecting continuation of consequences or contact details.\n\nFinal token \"990\" is a truncated number (likely \"990,000\" or similar), part of a phone number being revealed; the \"990\" is mid-sequence, so the next tokens complete the romantic date reference, then continue the interrupted sentence \"995,990\" \u2014 likely \"999\" completing \"6,399\" or a new clause continuing the 995-day timeline story; the 189-day relationship detail signals an escalating disclosure scenario.",
+    "News article reporting statistical findings, establishing pattern of citing specific percentages and sources; next content likely continues with more detail or consequences of the survey.\n\nThe article is mid-explanation of the warning's origin, having introduced the Facebook post and its context; narrative momentum expects elaboration on legal/safety implications or additional statistics.\n\nFinal token \"200\" ends a sentence fragment \"around 200\" \u2014 this is part of a statistic about Facebook users, and \"200,000\" or similar completion is immediately expected, followed by continuation of the warning's advice or police commentary.",
+    "News article reporting legal complaint details, following a structured format of facts, charges, and procedural steps \u2014 next content continues this pattern.\n\nThe article is mid-explanation of the legal citation, having established the video's content and safety concerns; the citation section now requires completing the statistical/legal detail about the video's duration and regulatory context.\n\nFinal token \"6.5\" is part of an interrupted numerical statistic (\"about 6.5 seconds... about 7 seconds... about 9.0 seconds\"), suggesting continuation of the percentage-based breakdown; \"6.9 seconds\" likely precedes a legal consequence or time estimate, e.g., \"5,000 seconds\" or a medical/legal threshold; the \"7 people\" clause signals a statistic about police response; next tokens likely continue with a legal consequence or procedural detail."
+  ],
+  "input_sha256": "b16daa8cdd9434f44f7f20bf57be18bc2817111d3000c85f7b2cef26dde4ee37",
+  "values": [
+    {
+      "quote": "2016\u20132020",
+      "value": "2016"
+    },
+    {
+      "quote": "2016\u20132020",
+      "value": "2020"
+    },
+    {
+      "quote": "606",
+      "value": "606"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "66",
+      "value": "66"
+    },
+    {
+      "quote": "67",
+      "value": "67"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "6.6",
+      "value": "6.6"
+    },
+    {
+      "quote": "6.7",
+      "value": "6.7"
+    },
+    {
+      "quote": "990",
+      "value": "990"
+    },
+    {
+      "quote": "995",
+      "value": "995"
+    },
+    {
+      "quote": "6,399",
+      "value": "6399"
+    },
+    {
+      "quote": "189",
+      "value": "189"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "6.5",
+      "value": "6.5"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "9.0",
+      "value": "9"
+    },
+    {
+      "quote": "6.9",
+      "value": "6.9"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within ranges, decimals, and comma-separated numbers, while excluding years used as identifiers where possible, though here they function as bounds of a period.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2016\\u20132020\",\"value\":2016},{\"quote\":\"2016\\u20132020\",\"value\":2020},{\"quote\":\"606\",\"value\":606},{\"quote\":\"16\",\"value\":16},{\"quote\":\"66\",\"value\":66},{\"quote\":\"67\",\"value\":67},{\"quote\":\"6\",\"value\":6},{\"quote\":\"6.6\",\"value\":6.6},{\"quote\":\"6.7\",\"value\":6.7},{\"quote\":\"990\",\"value\":990},{\"quote\":\"995\",\"value\":995},{\"quote\":\"6,399\",\"value\":6399},{\"quote\":\"189\",\"value\":189},{\"quote\":\"200\",\"value\":200},{\"quote\":\"6.5\",\"value\":6.5},{\"quote\":\"7\",\"value\":7},{\"quote\":\"9.0\",\"value\":9},{\"quote\":\"6.9\",\"value\":6.9},{\"quote\":\"5,000\",\"value\":5000}],\"justification\":\"Extracted all explicit numeric literals, including those within ranges, decimals, and comma-separated numbers, while excluding years used as identifiers where possible, though here they function as bounds of a period.\"}",
+  "prompt_sha256": "fa124c0f8c9a5a20191c24b5d88756392fb2a62095e82abcd4fc057a711c9721"
+}

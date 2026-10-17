@@ -1,0 +1,2366 @@
+[
+  {
+    "src": "gsm",
+    "uid": "g5001",
+    "idx": 5001,
+    "question": "A clothing store is selling 1 shirt for $25 and 3 shirts for $70. If a customer buys 4 shirts, how much will he pay?",
+    "answer": "95",
+    "intermediates": [
+      "95"
+    ],
+    "cot": "The customer buys 3 shirts for $70 and 1 more shirt for $25. So he will pay a total of $70+$25=95.",
+    "captured_answer": "95",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5002",
+    "idx": 5002,
+    "question": "A bicycle company produced 400 bikes in a month. 25% of the bikes were mountain bikes. How many of the bikes were not mountain bikes?",
+    "answer": "300",
+    "intermediates": [
+      "75",
+      "0.75",
+      "300"
+    ],
+    "cot": "Since 25% of the bikes were mountain bikes, this means 100% - 25% = 75 % were not mountain bikes. 75% of the bikes produced were not mountain bikes. The number of these bikes is 75% of 400. 75% = 0.75, so 0.75 * 400 = 300 were not mountain bikes.",
+    "captured_answer": "300",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5005",
+    "idx": 5005,
+    "question": "A pizza is divided into 8 equal slices. Mike eats 3 slices and his sister eats 2 slices. How many slices are left?",
+    "answer": "3",
+    "intermediates": [
+      "5",
+      "3"
+    ],
+    "cot": "Mike and his sister ate 3 + 2 = 5 slices. There are 8 - 5 = 3 slices left.",
+    "captured_answer": "3",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5006",
+    "idx": 5006,
+    "question": "A bag of 500 candies costs $10. How much would be the cost of 20 candies?",
+    "answer": "0.4",
+    "intermediates": [
+      "0.02",
+      "0.4"
+    ],
+    "cot": "The cost per candy is $10 / 500 candies = $0.02 per candy.  The cost of 20 candies would be 20 candies * $0.02 per candy = $0.4.",
+    "captured_answer": "0.4",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5010",
+    "idx": 5010,
+    "question": "Tommy bought a book that cost $15 and a magazine that cost $2 less than three times the cost of the book. What is the total cost of the book and the magazine?",
+    "answer": "58",
+    "intermediates": [
+      "45",
+      "43",
+      "58"
+    ],
+    "cot": "First triple the price of the book: $15*3 = $45 Then subtract $2 to find the price of the magazine: $45 - $2 = $43 Then add the price of the book and magazine to find the total price: $43 + $15 = $58",
+    "captured_answer": "58",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5014",
+    "idx": 5014,
+    "question": "Jackson\u2019s pizzeria sells 10 large pizzas a day for 20 dollars each. How much does the pizzeria make in a week if it\u2019s open 6 days a week?",
+    "answer": "1200",
+    "intermediates": [
+      "200",
+      "1200"
+    ],
+    "cot": "Every day, Jackson's pizzeria makes 10 large pizzas x 20 dollars = 200 dollars. In a week (6 days), it makes 6 days x 200 dollars/day = 1200 dollars.",
+    "captured_answer": "1200",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5017",
+    "idx": 5017,
+    "question": "Mary is a hairdresser. She charges $35 per haircut. On a certain day, she was able to perform 15 haircuts. How much did she earn?",
+    "answer": "525",
+    "intermediates": [
+      "525"
+    ],
+    "cot": "Mary's earnings are 35 * 15 = $525",
+    "captured_answer": "525",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5018",
+    "idx": 5018,
+    "question": "Samantha is working on a puzzle. It has a total of 500 pieces. She has already put together 350 pieces. If she continues to put together 25 pieces per day, how many days will it take her to finish the puzzle?",
+    "answer": "6",
+    "intermediates": [
+      "150",
+      "6"
+    ],
+    "cot": "Samantha has 500 - 350 = 150 pieces left. It will take her 150 / 25 = 6 days to finish the puzzle.",
+    "captured_answer": "6",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5021",
+    "idx": 5021,
+    "question": "Maria bakes cookies and sells them in packs. Each pack has 8 cookies. If Maria bakes 200 cookies, how many packs can she make?",
+    "answer": "25",
+    "intermediates": [
+      "25"
+    ],
+    "cot": "Maria can make 200/8 = 25 packs of cookies from 200 cookies.",
+    "captured_answer": "25",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5022",
+    "idx": 5022,
+    "question": "John and Mark work 30 hours per week each for 3 months during their summer internships. Mark took a week off and John had to fill in for him. If a month consists of four weeks, how many total hours did John work during these 3 months?",
+    "answer": "390",
+    "intermediates": [
+      "12",
+      "11",
+      "13",
+      "390"
+    ],
+    "cot": "There are 4 weeks in a month so John and Mark were supposed to work for 4 weeks/month x 3 months = 12 weeks each. Since Mark took a week off, then Mark was able to work for only 12 weeks - 1 week = 11 weeks while John worked for 12 weeks + 1 week = 13 weeks. Therefore, John worked for 13 weeks x 30 hours/week = 390 hours.",
+    "captured_answer": "390",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5023",
+    "idx": 5023,
+    "question": "Maddy has twice as many dolls as Bella. Bella has 30 more dolls than Emma. If Emma has 250 dolls, how many dolls do they have in total?",
+    "answer": "1090",
+    "intermediates": [
+      "280",
+      "530",
+      "560",
+      "1090"
+    ],
+    "cot": "If Emma has 250 dolls, then Bella has 250+30 = 280 dolls. Together, Bella and Emma have 280+250 = 530 dolls. Maddy's number of dolls is twice as many as Bella's, meaning Maddy has 2*280 = 560 dolls. Together, all three girls have 560+530 = 1090 dolls.",
+    "captured_answer": "1090",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5027",
+    "idx": 5027,
+    "question": "John had 450 baseball cards. He sold Leo 3 packs of 25 baseball cards each and then he sold 5 packs of 30 baseball cards each to Liam. How many baseball cards does John have left?",
+    "answer": "225",
+    "intermediates": [
+      "75",
+      "150",
+      "225"
+    ],
+    "cot": "He sold Leo 3*25=75 baseball cards. He sold Liam 5*30=150 baseball cards. John sold 75+150=225 total cards. John has 450-225=225 baseball cards left.",
+    "captured_answer": "225",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5030",
+    "idx": 5030,
+    "question": "Charlie has 300 baseball cards, and he sells 2 for $1.5. The remaining cards he gives away to his friends. What's the total money that Charlie makes from selling his baseball cards?",
+    "answer": "225",
+    "intermediates": [
+      "225"
+    ],
+    "cot": "Charlie has 300 cards and sells 2 for $1.5, so he sells all his baseball cards for 300/2 * 1.5 = $225.",
+    "captured_answer": "225",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5034",
+    "idx": 5034,
+    "question": "In five years, Sam will be twice as old as Julia. If Julia is now 7 years old, how old is Sam now?",
+    "answer": "19",
+    "intermediates": [
+      "12",
+      "24",
+      "19"
+    ],
+    "cot": "In five years, Julia will be 7+5=12 years old. Then Sam will be 12*2=24 years old. So Sam right now is 24-5=19 years old.",
+    "captured_answer": "19",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5036",
+    "idx": 5036,
+    "question": "A restaurant serves 25 customers for lunch and double that for dinner. If the restaurant is open seven days a week, how many customers does it serve in a week?",
+    "answer": "525",
+    "intermediates": [
+      "50",
+      "75",
+      "525"
+    ],
+    "cot": "The restaurant serves 25 * 2 = 50 customers for dinner. So, in a day, the restaurant serves a total of 25 + 50 = 75 customers. Therefore, it serves 75 * 7 = 525 customers in a week.",
+    "captured_answer": "525",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5039",
+    "idx": 5039,
+    "question": "Daniel has twice the number of marbles Brian has. Brian has 3 times the number of marbles Chris has. If Chris has 7 marbles, how many marbles do the three of them have in total?",
+    "answer": "70",
+    "intermediates": [
+      "21",
+      "42",
+      "70"
+    ],
+    "cot": "Brian has 3 * 7 marbles = 21 marbles. Daniel has 2 * 21 marbles = 42 marbles. So, the three of them have 7 marbles + 21 marbles + 42 marbles = 70 marbles.",
+    "captured_answer": "70",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5042",
+    "idx": 5042,
+    "question": "Bob mows lawns to earn extra money. He charges $25 per lawn and mows 6 lawns per week. How much does Bob earn in 4 weeks?",
+    "answer": "600",
+    "intermediates": [
+      "150",
+      "600"
+    ],
+    "cot": "Bob earns $25 * 6 = $150 per week. In 4 weeks, Bob earns $150 * 4 = $600.",
+    "captured_answer": "600",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5043",
+    "idx": 5043,
+    "question": "In a school, 40% of the students participate in the drama club. If there are 360 students in the drama club, what is the total number of students in the school?",
+    "answer": "900",
+    "intermediates": [
+      "360",
+      "900"
+    ],
+    "cot": "Let Y stand for the total number of students in the school. We know that 40% of Y equals to 360 students are in the drama club. That means Y = 360/40% = 900 students are in the school.",
+    "captured_answer": "900",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5044",
+    "idx": 5044,
+    "question": "Dean works 6 days a week and he usually takes half a day off on Wednesday and Saturday. If he earns $12 per day, how much does he earn every week?",
+    "answer": "60",
+    "intermediates": [
+      "48",
+      "6",
+      "12",
+      "60"
+    ],
+    "cot": "Dean earns a total of $12 x 4 = $48 from Monday, Tuesday, Thursday, and Friday. He earns $12/2 = $6 per day on Wednesday and Saturday. So, his total salary for Wednesday and Saturday is $6 x 2 = $12. Therefore, his total weekly salary is $48 + $12 = $60.",
+    "captured_answer": "60",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5051",
+    "idx": 5051,
+    "question": "Chris saved up $30 and his brother saved up $10 more than twice the amount Chris saved up. How much did Chris's brother save up and what is the total amount both of them saved up?",
+    "answer": "100",
+    "intermediates": [
+      "70",
+      "100"
+    ],
+    "cot": "Chris's brother saved up 2*30+10= 70. The total amount they both saved up is 30 + 70 = 100.",
+    "captured_answer": "100",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5052",
+    "idx": 5052,
+    "question": "A bakery made 600 cookies. They sold 75% of those cookies and gave 10% of the remaining cookies to charity. How many cookies did they have left?",
+    "answer": "135",
+    "intermediates": [
+      "450",
+      "150",
+      "15",
+      "135"
+    ],
+    "cot": "The bakery sold 600 x 75% = 450 cookies. The bakery had 600 - 450 = 150 cookies left. The bakery gave 150 x 10% = 15 cookies to charity. So, they now have 150 - 15 = 135 cookies left.",
+    "captured_answer": "135",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5053",
+    "idx": 5053,
+    "question": "James has 7 boxes, each containing 4 books. How many books does James have in total?",
+    "answer": "28",
+    "intermediates": [
+      "28"
+    ],
+    "cot": "In total James has 7 boxes * 4 books = 28 books.",
+    "captured_answer": "28",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5054",
+    "idx": 5054,
+    "question": "Katie buys 3 packs of stickers earning 12 stickers per pack. Her sister, Lily, gives her 4 more from her collection. How many stickers does Katie have now?",
+    "answer": "40",
+    "intermediates": [
+      "36",
+      "40"
+    ],
+    "cot": "She gets 3*12 = 36 from the packs. So she has 36+4 = 40 stickers now.",
+    "captured_answer": "40",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5056",
+    "idx": 5056,
+    "question": "A group of friends decides to pitch in for a gift for their other friend. If 15 of them each contribute $10 and they want to spend 10% of the total on a card and wrapping paper, how much do they have left to spend on the actual gift?",
+    "answer": "135",
+    "intermediates": [
+      "150",
+      "15",
+      "135"
+    ],
+    "cot": "The friends pool together 15*10=$150 They'll spend 10% of this total on a card and wrapping paper, so 150*0.10=$15 This leaves 150 - 15 = 135 dollars for the gift",
+    "captured_answer": "135",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5060",
+    "idx": 5060,
+    "question": "Pauline's weight is 60% of what it used to be and Michael's weight is now three times what Pauline used to weigh. How much do they weigh combined if Pauline used to weigh 180 lbs?",
+    "answer": "648",
+    "intermediates": [
+      "108",
+      "540",
+      "648"
+    ],
+    "cot": "If Pauline's weight is 60% of what it used to be, she is weighing 60/100*180 lbs = 108 lbs now. Michael's weight is now three times what Pauline used to weigh, a total of 3*180 lbs = 540 lbs. Combined, Pauline and Michael are weighing 540 lbs + 108 lbs = 648 lbs.",
+    "captured_answer": "648",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5061",
+    "idx": 5061,
+    "question": "A marathon is a race with a length of 26.2 miles. Mark finished the race in 4 hours. He ran the first 2 hours at a rate of 6.5 miles per hour. How many miles did he run in the remaining part of the race?",
+    "answer": "13.2",
+    "intermediates": [
+      "13",
+      "13.2"
+    ],
+    "cot": "Mark ran 2 hours * 6.5 miles/hour = 13 miles in the first part. The total distance that Mark ran in the second part is 26.2 miles \u2013 13 miles = 13.2 miles.",
+    "captured_answer": "13.2",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5065",
+    "idx": 5065,
+    "question": "Jason works out for 2 hours a day, 4 days a week. He wishes to increase his workout time by 1.5 times. How long will he be working out each week if he manages to do so?",
+    "answer": "12",
+    "intermediates": [
+      "8",
+      "12"
+    ],
+    "cot": "Currently, Jason works out for 2 hours/day x 4 days = 8 hours a week. If he increases his workout time by 1.5 times, he will be working out 1.5 * 8 = 12 hours each week.",
+    "captured_answer": "12",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5066",
+    "idx": 5066,
+    "question": "A factory produces 250 toys per day. How many toys will the factory produce in 30 days?",
+    "answer": "7500",
+    "intermediates": [
+      "7500"
+    ],
+    "cot": "The factory will produce 250 toys x 30 days = 7500 toys",
+    "captured_answer": "7500",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5068",
+    "idx": 5068,
+    "question": "If cars can park in a row with 10 slots, and there are 4 rows, how many cars can park there altogether? And if the parking lot is 3/4 full, how many parking slots are empty?",
+    "answer": "10",
+    "intermediates": [
+      "40",
+      "30",
+      "10"
+    ],
+    "cot": "The total number of parking slots is 10 slots x 4 rows = 40 slots. When the parking lot is 3/4 full, it contains 40 slots x 3/4 = 30 cars. Therefore, there are 40 slots - 30 filled slots = 10 parking slots empty.",
+    "captured_answer": "10",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5081",
+    "idx": 5081,
+    "question": "At a local game shop John has 300 video games, of which he sold 78 games and then acquired another 150 games. How many games does he currently have?",
+    "answer": "372",
+    "intermediates": [
+      "222",
+      "372"
+    ],
+    "cot": "Sales lead to a reduction of 300 - 78 = 222 games. Then, after acquiring another 150 games, the total becomes 222 + 150 = 372 games.",
+    "captured_answer": "372",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5082",
+    "idx": 5082,
+    "question": "During a sale, Bill bought a $200 coat with a 25% discount and 3 pairs of socks for $15 each. How much did Bill pay for the coat and socks?",
+    "answer": "195",
+    "intermediates": [
+      "50",
+      "150",
+      "45",
+      "195"
+    ],
+    "cot": "Bill had $200 x 25/100 = $50 discount for the coat. So, the coat cost him $200 - $50 = $150. Three pairs of socks cost $15 x 3 = $45. So, Bill paid a total of $150 + $45 = $195.",
+    "captured_answer": "195",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5087",
+    "idx": 5087,
+    "question": "In a box there are apples and oranges. There are twice as many oranges as apples, and the total number of fruits in the box is 36. How many apples are in the box?",
+    "answer": "12",
+    "intermediates": [
+      "36",
+      "2",
+      "12"
+    ],
+    "cot": "Assuming A to be apples and O to be oranges, we get the equation A + O = 36 but since we know O = 2A we can substitute to get A + 2A = 36. This simplifies to 3A = 36 or A = 12. So, there are 12 apples in the box.",
+    "captured_answer": "12",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5088",
+    "idx": 5088,
+    "question": "Jess purchases 4 packets of stickers that contain 12 stars in each packet. She buys an additional 2 identical packets. How many stars does Jess have in total from all the packets she bought?",
+    "answer": "72",
+    "intermediates": [
+      "6",
+      "72"
+    ],
+    "cot": "Jess has 4 + 2 = 6 packets of stickers. She has 12 x 6 = 72 stars in total.",
+    "captured_answer": "72",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5089",
+    "idx": 5089,
+    "question": "Tom and Jerry are measuring their pet lizards. Tom's lizard is 30 inches longer than Jerry's. If the two lizards together are 100 inches long, how long is Tom's lizard?",
+    "answer": "65",
+    "intermediates": [
+      "100",
+      "70",
+      "35",
+      "65"
+    ],
+    "cot": "Let t be the length of Tom's lizard and j be the length of Jerry's lizard. We know that t + j = 100 inches, and t = j + 30 inches. Substituting the second equation into the first equation gets: j + 30 inches + j = 100 inches Solving the equation gives 2j + 30 inches = 100 inches Subtracting 30 from both sides results in 2j = 70 Dividing by 2, we have j = 70 / 2 = 35 inches. Therefore, Tom's lizard is 35 inches + 30 inches = 65 inches long.",
+    "captured_answer": "65",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5093",
+    "idx": 5093,
+    "question": "In a classroom, 60% of the students are female and the rest are male. If the total number of students is 25, how many male students are there?",
+    "answer": "10",
+    "intermediates": [
+      "15",
+      "10"
+    ],
+    "cot": "The female students are 60% of the total, so 25*60% = 15 students are female. This means 25 - 15 = 10 students are male.",
+    "captured_answer": "10",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5094",
+    "idx": 5094,
+    "question": "In a garden, there are 8 rows of flowers. Each row has 12 tulips. How many tulips are there in the garden?",
+    "answer": "96",
+    "intermediates": [
+      "96"
+    ],
+    "cot": "In total, there are 8 rows * 12 tulips = 96 tulips in the garden.",
+    "captured_answer": "96",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5095",
+    "idx": 5095,
+    "question": "John has five times as many cards as Lisa who has 3.  Mike has four times as many cards as John.  How many cards did Mike have?",
+    "answer": "60",
+    "intermediates": [
+      "15",
+      "60"
+    ],
+    "cot": "John has five times as many as Lisa, who has 3 cards so John has 5*3 = 15 cards Mike has four times the amount as John who has 15 cards so Mike has 4*15 = 60 cards",
+    "captured_answer": "60",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5096",
+    "idx": 5096,
+    "question": "Mary was baking cookies for a bake sale. She planned to bake 5 dozens of cookies. However, she burned 1 dozen in the oven. If there are 12 cookies in a dozen, how many cookies does Mary have now?",
+    "answer": "48",
+    "intermediates": [
+      "60",
+      "48"
+    ],
+    "cot": "Mary planned to bake 5 dozens of cookies, which is 5*12 = 60 cookies. Since she burned a dozen, she now has 60-12 = 48 cookies.",
+    "captured_answer": "48",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5097",
+    "idx": 5097,
+    "question": "Brad had 16 balloons but 3 balloons burst. How many balloons does Brad have left?",
+    "answer": "13",
+    "intermediates": [
+      "13"
+    ],
+    "cot": "Brad has 16 - 3 = 13 balloons left.",
+    "captured_answer": "13",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5099",
+    "idx": 5099,
+    "question": "Andy has 7 pet turtles. Each turtle needs 3 lettuce leaves per day. How many lettuce leaves would Andy need for his turtles every week?",
+    "answer": "147",
+    "intermediates": [
+      "21",
+      "147"
+    ],
+    "cot": "Each turtle eats 3 lettuce leaves a day, so 7 turtles would eat 3*7 = 21 lettuce leaves in a day. In a week, the turtles would therefore eat 21*7 = 147 lettuce leaves.",
+    "captured_answer": "147",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5100",
+    "idx": 5100,
+    "question": "A bike shop sells two types of bikes - road and mountain. The cost of a road bike increases by 15% due to higher production costs. After a few months, the price drops by 10% from the increased price. What is the current price of the road bike if it was $600 before the increase?",
+    "answer": "621",
+    "intermediates": [
+      "90",
+      "690",
+      "69",
+      "621"
+    ],
+    "cot": "After the increase, the price of the road bike increased by 15/100 * 600 = $90. So the price was 600 + 90 = $690 after the increase. Then, the price fell by 10% from $690, so it decreased by 10/100 * 690 = $69. So, the road bike is currently priced at 690 - 69 = $621.",
+    "captured_answer": "621",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5104",
+    "idx": 5104,
+    "question": "At school, Dustin grabs snacks from the cafeteria. Each snack costs $2.5. If he buys snacks for 5 days, and he has only $50. How many snacks can he buy per day?",
+    "answer": "4",
+    "intermediates": [
+      "10",
+      "4"
+    ],
+    "cot": "Dustin has 50/5=10 dollars per day. He can buy 10/2.5=4 snacks per day.",
+    "captured_answer": "4",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5115",
+    "idx": 5115,
+    "question": "Kevin runs 5 miles to the gym in the morning, then he runs 5 miles back home. He repeats this three times a week. How many miles does Kevin run after 2 weeks?",
+    "answer": "60",
+    "intermediates": [
+      "10",
+      "30",
+      "60"
+    ],
+    "cot": "He runs 5 miles to the gym and back 2 times a day so that's 5*2 = 10 miles He runs 10 miles a day for 3 days so that's 10*3 = 30 miles Over 2 weeks of running 30 miles per week he runs 2*30 = 60 miles",
+    "captured_answer": "60",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5121",
+    "idx": 5121,
+    "question": "Andy decided to replace the coolant in his car's radiator with water. He knows his cars radiator uses 1 gallons of coolant from a new 2 gallon tank. He decides to fill half the tank of coolant with water. Now what percentage of the liquid in the tank is water?",
+    "answer": "50",
+    "intermediates": [
+      "1",
+      "50"
+    ],
+    "cot": "The radiator tank goes half empty with coolant so now it has 1 gallon because 2 - 1 = 1 After filling it with water, the capacity of tank with coolant is .5 gallon because 1 - (1/2) = .5 The proportion of water in the tank is .5 because 1 / 2 = .5 The percentage of water is 50% because .5 x 100 = 50",
+    "captured_answer": "50",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5129",
+    "idx": 5129,
+    "question": "To be a senior engineer at XYZ company, an employee with a master's degree earns twice the amount paid to a bachelor degree holder. How much will Maria earn in a year after completing her master's degree if the salary for a bachelor degree holder is $3000 per month?",
+    "answer": "72000",
+    "intermediates": [
+      "6000",
+      "72000"
+    ],
+    "cot": "Since the pay for a master's degree holder is twice the amount paid to a bachelor degree holder, Maria will earn 2*$3000 = $6000 per month. In a year with 12 months, Maria will earn a total of 12*6000 = 72000.",
+    "captured_answer": "72000",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5130",
+    "idx": 5130,
+    "question": "Maria went to three book fairs in one month and bought 10 books at each fair. She then donated 5 books to a local library. How many books does she have now?",
+    "answer": "25",
+    "intermediates": [
+      "30",
+      "25"
+    ],
+    "cot": "Maria bought 3 * 10 = 30 books. After donating, she has 30 - 5 = 25 books left.",
+    "captured_answer": "25",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5133",
+    "idx": 5133,
+    "question": "John reads a book that has 68 pages. He reads 13 pages on the first day. The next day, he reads 27 more pages. How many pages does John have left to read?",
+    "answer": "28",
+    "intermediates": [
+      "40",
+      "28"
+    ],
+    "cot": "John has read a total of 13 + 27 = 40 pages. John has to read 68 total pages - 40 pages read = 28 pages are left to read.",
+    "captured_answer": "28",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5134",
+    "idx": 5134,
+    "question": "Liam works 8 hours a day from Monday to Friday. How many hours does he work in a week?",
+    "answer": "40",
+    "intermediates": [
+      "40"
+    ],
+    "cot": "Liam works 5 (days) * 8 (hours) = 40 hours in a week.",
+    "captured_answer": "40",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5135",
+    "idx": 5135,
+    "question": "A coffee shop was offering a 'Make Your Own Sandwich' option. The bread cost $2.00, each topping is $1.00 and the cheese is $1.50. If Ryan orders a sandwich with two toppings and cheese, how much will his sandwich cost?",
+    "answer": "5.5",
+    "intermediates": [
+      "2",
+      "5.5"
+    ],
+    "cot": "The cost of the two toppings is 2 * $1.00 = $2. The total cost of the sandwich is $2 (bread) + $2 (toppings) + $1.50 (cheese)= $2 + $2 + $1.50 = $5.5.",
+    "captured_answer": "5.50",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5137",
+    "idx": 5137,
+    "question": "Sophie and Ethan are vacationing in Paris. Sophie has $210 and Ethan has $189. Together they buy five one-day tickets to the Louvre for $35 each. How much money will they have after this purchase?",
+    "answer": "224",
+    "intermediates": [
+      "399",
+      "175",
+      "224"
+    ],
+    "cot": "They have jointly $210+$189=$399.  The tickets cost $35*5=$175. Thus, they will have $399-$175=$224 left.",
+    "captured_answer": "224",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5138",
+    "idx": 5138,
+    "question": "If Alvin is 5 years old and his brother is twice as old, how old will Alvin's brother be in 12 years?",
+    "answer": "22",
+    "intermediates": [
+      "10",
+      "22"
+    ],
+    "cot": "Since Alvin's brother is twice as old, he is 5*2 = 10 years old now. In 12 years, Alvin's brother will be 10+12 = 22 years old.",
+    "captured_answer": "22",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5139",
+    "idx": 5139,
+    "question": "Brinley finds a great deal on bracelets and buys 3 for $15 each. She then sells them at her boutique for $25 each. How much profit did she gain from selling these bracelets?",
+    "answer": "30",
+    "intermediates": [
+      "45",
+      "75",
+      "30"
+    ],
+    "cot": "The total cost of the bracelets from the deal she found was 3 * $15 = $45. From selling them, she made 3 * $25 = $75. The profit she made was $75 - $45 = $30.",
+    "captured_answer": "30",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5141",
+    "idx": 5141,
+    "question": "Jake set up a courier service. He charges $3 for a 2-4 kilograms parcel and $5 for a 5-7 kilograms parcel. If he delivers three 4 kilograms parcel and five 7 kilograms parcel per day, how much will his total earnings be in a month?",
+    "answer": "1020",
+    "intermediates": [
+      "9",
+      "25",
+      "34",
+      "1020"
+    ],
+    "cot": "Jake earns $3 x 3= $9 by delivering three 4 kilograms parcel per day. He earns $5 x 5= $25 by delivering five 7 kilograms parcel per day. So, his total earning per day is $9 + $25= $34. Therefore, his total earnings in a month of 30 days is $34 x 30= $1020.",
+    "captured_answer": "1020",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5144",
+    "idx": 5144,
+    "question": "Billy and Lisa have 70 marbles in total. If Billy has 15 more marbles than Lisa, how many marbles does Lisa have?",
+    "answer": "27.5",
+    "intermediates": [
+      "70",
+      "55",
+      "27.5"
+    ],
+    "cot": "Let X be the number of marbles Lisa has, so Billy has X + 15 marbles We know that Lisa and Billy combined have 70 marbles, so X + X + 15 = 70 We therefore know that 2X = 55 So Lisa has 55 / 2 = 27.5 marbles",
+    "captured_answer": "27.5",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5146",
+    "idx": 5146,
+    "question": "A catering company uses 100 lemons to make 200 glasses of lemonade. If the company needs to make 500 glasses of lemonade for a party, how many lemons are required?",
+    "answer": "250",
+    "intermediates": [
+      "0.5",
+      "250"
+    ],
+    "cot": "First find the number of lemons needed per glass of lemonade: 100 lemons / 200 glasses = 0.5 lemons/glass Then multiply that number by the number of glasses needed to find the total number of lemons required: 0.5 lemons/glass * 500 glasses = 250 lemons",
+    "captured_answer": "250",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5148",
+    "idx": 5148,
+    "question": "Adam has three times as many books as Hannah. If Adam has 45 books, how many books does Hannah have?",
+    "answer": "15",
+    "intermediates": [
+      "15"
+    ],
+    "cot": "Adam has three times as many books as Hannah, meaning Hannah has 45/3=15 books",
+    "captured_answer": "15",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5151",
+    "idx": 5151,
+    "question": "Lily buys a bookshelf for $200 and books for $15 each. If she buys 20 books, how much money does she spend in total?",
+    "answer": "500",
+    "intermediates": [
+      "300",
+      "500"
+    ],
+    "cot": "The cost of the books is 20 x 15 = 300. The total amount of money she spends is 200 + 300 = 500.",
+    "captured_answer": "500",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5153",
+    "idx": 5153,
+    "question": "In a bakery, there are 96 muffins. If the baker sold half of them in the morning and the rest were sold equally in the afternoon and the evening, how many muffins were sold in the afternoon?",
+    "answer": "24",
+    "intermediates": [
+      "48",
+      "24"
+    ],
+    "cot": "In the morning, the baker sold 96/2 = 48 muffins. So, there were 96 - 48 = 48 muffins left. Therefore, 48/2 = 24 muffins were sold in the afternoon.",
+    "captured_answer": "24",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5162",
+    "idx": 5162,
+    "question": "Miguel is planning a dinner. He wants to spend $15 on each of his 6 friends and the remainder on drinks. If Miguel spent a total of $120 in dinner, how much money, in dollars, did he spend on drinks?",
+    "answer": "30",
+    "intermediates": [
+      "90",
+      "30"
+    ],
+    "cot": "Miguel spent a total of $15 per friend * 6 friends = $90 on his friends. So, he spent $120 total expenditure - $90 spending on friends = $30 on drinks.",
+    "captured_answer": "30",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5163",
+    "idx": 5163,
+    "question": "Tom has decided to spend 20% of his salary on rent, which amounts to $600. How much does he earn per month?",
+    "answer": "3000",
+    "intermediates": [
+      "3000"
+    ],
+    "cot": "If 20% of his salary is $600, then his total salary (100%) will be $600 / 20% = $3000.",
+    "captured_answer": "3000",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5180",
+    "idx": 5180,
+    "question": "A restaurant has 50 tables. Initially, 30 tables were occupied. After an hour, 10 more tables got occupied and 5 of the initially occupied tables got unoccupied. How many tables are occupied after one hour?",
+    "answer": "35",
+    "intermediates": [
+      "40",
+      "35"
+    ],
+    "cot": "Initially, 30 tables are occupied. After an hour, 10 more tables got occupied so the number of occupied tables became 30 + 10 = 40. Of these, 5 tables got unoccupied, so the number of occupied tables now is 40 - 5 = 35 tables.",
+    "captured_answer": "35",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5184",
+    "idx": 5184,
+    "question": "Doug works out in the gym 4 days a week, spending 1 hour each session. After each workout, he drinks 2 bottles of energy drink which cost $1.50 each. How much does Doug spend on energy drinks in a month of 4 weeks?",
+    "answer": "48",
+    "intermediates": [
+      "3",
+      "12",
+      "48"
+    ],
+    "cot": "Doug drinks 2 * 1.50 = 3 dollars' worth of energy drink each gym session. He spends 3 * 4 = 12 dollars a week on energy drinks. So, in a month of 4 weeks, Doug spends 12 * 4 = 48 dollars.",
+    "captured_answer": "48",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5200",
+    "idx": 5200,
+    "question": "Amy has 7 pens, and each pen costs her $2. What is the total cost of the pens?",
+    "answer": "14",
+    "intermediates": [
+      "14"
+    ],
+    "cot": "The total cost of the pens is 7*$2=14 dollars.",
+    "captured_answer": "14",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5204",
+    "idx": 5204,
+    "question": "A train travels 95 km/h. Claire needs to travel 285 km. How long will Claire travel by train?",
+    "answer": "3",
+    "intermediates": [
+      "3"
+    ],
+    "cot": "The travel will take 3 hours because 285 / 95 = 3",
+    "captured_answer": "3",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5208",
+    "idx": 5208,
+    "question": "You go to the store and buy 8 pairs of socks for $4 each, and 3 shirts for $15 each. How much did you spend in total?",
+    "answer": "77",
+    "intermediates": [
+      "32",
+      "45",
+      "77"
+    ],
+    "cot": "You spent $4 per sock pair, so 8 pairs is 8*$4 = $32 You spent $15 per shirt, so 3 shirts is 3*$15 = $45 So in total you spent $32+$45 = $77",
+    "captured_answer": "77",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5240",
+    "idx": 5240,
+    "question": "It takes Jamie 2 hours to fully assemble a chair and 3 hours to assemble a table. If Jamie needs to assemble 6 chairs and 4 tables, how long will it take him in total?",
+    "answer": "24",
+    "intermediates": [
+      "12",
+      "24"
+    ],
+    "cot": "First find the total time Jamie spends assembling chairs: 2 hours/chair * 6 chairs = 12 hours Then find the total time Jamie spends assembling tables: 3 hours/table * 4 tables = 12 hours Then add the two quantities to find Jamie's total assembly time: 12 hours + 12 hours = 24 hours",
+    "captured_answer": "24",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5244",
+    "idx": 5244,
+    "question": "Joe wants to collect 35 pounds of fruit for his grocery stand. He knows that 5 apples weigh 1 pound and each apple costs $0.50. It takes him 1 hour to pick 10 apples. Every hour of Joe's work costs him $5. How much money will he spend on collecting all the fruit?",
+    "answer": "175",
+    "intermediates": [
+      "175",
+      "17.5",
+      "87.5"
+    ],
+    "cot": "He will need 175 apples because 35 x 5 = 175 It will take him 17.5 hours because 175 / 10 = 17.5 His labor will cost $87.5 because 17.5 x 5 = 87.5 He will spend $87.5 on apples because 175 x .5 = 87.5 It will cost in total $175 to collect all the fruit because 87.5 + 87.5 = 175",
+    "captured_answer": "175",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5248",
+    "idx": 5248,
+    "question": "A ranger spots 3 types of birds in the park.  There are 45 sparrows, twice as many pigeons as sparrows, and half the number of robins as sparrows.  How many birds did the ranger spot in total?",
+    "answer": "157.5",
+    "intermediates": [
+      "90",
+      "22.5",
+      "157.5"
+    ],
+    "cot": "Sparrows:45 Pigeons:45*2=90 Robins:45/2=22.5 Total:45+90+22.5=157.5 birds",
+    "captured_answer": "157.5",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5276",
+    "idx": 5276,
+    "question": "There are 240 students in a school. If 1/5 of the students are in the choir and 2/3 of the students are in the sports club, how many students are not involved in any activities?",
+    "answer": "32",
+    "intermediates": [
+      "48",
+      "160",
+      "208",
+      "32"
+    ],
+    "cot": "The number of students in the choir is 240 * 1/5 = 48. The number of students in the sports club is 240 * 2/3 = 160. The total number involved in activities is 48 + 160 = 208. Therefore, the number of students not involved in any activities is 240 - 208 = 32.",
+    "captured_answer": "32",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5292",
+    "idx": 5292,
+    "question": "David has the same percentage of red stickers and yellow stickers in his collection of 300 stickers as he does of orange stickers and blue stickers in a separate collection. He has 180 orange stickers and 120 blue stickers. How many red stickers does David have if he has more red stickers than yellow ones?",
+    "answer": "180",
+    "intermediates": [
+      "300",
+      "180"
+    ],
+    "cot": "First we must determine the percentage of the orange and blue stickers. We add the two amounts together, finding 180+120=300 We then figure out that 120/300=.4, meaning 40 percent of the stickers are blue in the second selection. This means that 1.0-.4=.6, or 60 percent of the stickers are orange. Since there are more orange stickers than blue stickers, and the red and yellow pile have the same percentage, and there are more red stickers than yellow stickers, that means there are 60 percent red stickers in the first pile. Therefore, to find the number of red stickers we multiply 300*.6= 180 red stickers.",
+    "captured_answer": "180",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5300",
+    "idx": 5300,
+    "question": "James bought 10 books at $12 each and also bought 5 pens at $2 each. If James paid with a $200 note, how much change did he get?",
+    "answer": "70",
+    "intermediates": [
+      "120",
+      "10",
+      "130",
+      "70"
+    ],
+    "cot": "The total cost for the books is 10 books * $12/book = $120. The total cost for the pens is 5 pens * $2/pen = $10. The total amount James paid is $120 + $10 = $130. So, the change that James got is $200 - $130 = $70.",
+    "captured_answer": "70",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5316",
+    "idx": 5316,
+    "question": "Sarah makes necklaces to sell at the night market every weekend. Each necklace takes three times as many small beads as it does large beads. If each necklace uses 15 large beads, and Sarah has 720 beads with equal amounts of large and small beads, how many necklaces can she make for this weekend?",
+    "answer": "8",
+    "intermediates": [
+      "360",
+      "45",
+      "8"
+    ],
+    "cot": "Sarah has 720/2 = 360 small beads. Each necklace needs 15 * 3 = 45 small beads. Thus, Sarah can make 360/45 = 8 necklaces for the night market this weekend.",
+    "captured_answer": "8",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5320",
+    "idx": 5320,
+    "question": "Lucas bought two bicycles at the same price for his children. He also purchased a helmet that costs $20 and two knee pads at $15 each. After paying the cashier $210, Lucas got a $5 change. How much did each bicycle cost?",
+    "answer": "77.5",
+    "intermediates": [
+      "30",
+      "50",
+      "205",
+      "155",
+      "77.5"
+    ],
+    "cot": "The two knee pads cost $15 x 2 = $30. The total cost of the helmet and the knee pads is $20 + $30 = $50. Lucas paid a total of $210 - $5 = $205 for the bicycles, helmet, and knee pads. The cost of the two bicycles is $205 - $50 = $155. Therefore, each bicycle cost $155/2 = $77.5.",
+    "captured_answer": "77.5",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5324",
+    "idx": 5324,
+    "question": "Joe\u2019s van can drive 14 miles per gallon of gas. He drove 13 miles to work, 7 miles to the grocery store, 3 miles to the theater, 5 miles to his grandma\u2019s house, and 9 miles home before he ran out of gas. How many gallons of gas did he start with?",
+    "answer": "2.64",
+    "intermediates": [
+      "37",
+      "2.64"
+    ],
+    "cot": "Joe drove 13 + 7 + 3 + 5 + 9 = 37 miles. His van gets 14 miles per gallon, so he started with 37 / 14 = 2.64 gallons of gas.",
+    "captured_answer": "2.64",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5328",
+    "idx": 5328,
+    "question": "Carlos has an ant farm. There are three ants nests. The first nest has 60 ants. The second nest has triple the ants in the first, and the third has quadruple the ants in the second. How many ants are there in Carlos' ant farm?",
+    "answer": "960",
+    "intermediates": [
+      "180",
+      "720",
+      "960"
+    ],
+    "cot": "The second nest has 60*3=180 ants. The third nest has 180*4=720 ants. In total, Carlos has 60 + 180 + 720 = 960 ants.",
+    "captured_answer": "960",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5340",
+    "idx": 5340,
+    "question": "A library has 80 books on one shelf and 100 more on the second shelf. The library plans on increasing the number of books on the second shelf by 50%. How many books will be on the second shelf?",
+    "answer": "270",
+    "intermediates": [
+      "180",
+      "90",
+      "270"
+    ],
+    "cot": "The total number of books on the second shelf now is 80+100=180. The number of new books to be added is 50/100*180=90. After adding the new books, the total number of books on the second shelf will be 180+90=270",
+    "captured_answer": "270",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5360",
+    "idx": 5360,
+    "question": "Louise has 20 tulips in her garden. She wants to plant daisies, so she plants 5 times as many daisies as the tulips. How many flowers will Louise have in her garden in total?",
+    "answer": "120",
+    "intermediates": [
+      "100",
+      "120"
+    ],
+    "cot": "Louise plants 20 * 5 = 100 daisies. In total, Louise will have 20 + 100 = 120 flowers in her garden.",
+    "captured_answer": "120",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5364",
+    "idx": 5364,
+    "question": "Jessica bought a pair of shoes for $150. The sales tax is 8%. How much did Jessica pay in total?",
+    "answer": "162",
+    "intermediates": [
+      "12",
+      "162"
+    ],
+    "cot": "First calculate how much the sales tax will be: $150 * 8% = $12 Then add the cost of the shoe to the tax to find the total cost: $150 + $12 = $162",
+    "captured_answer": "162",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5368",
+    "idx": 5368,
+    "question": "The weight of Jason's bag is twice the weight of his lunch box. If his lunch box weighs 2.5 pounds, and the total weight of both is 7.5 pounds, how much does his bag weigh?",
+    "answer": "5",
+    "intermediates": [
+      "5"
+    ],
+    "cot": "Jason's bag weighs 7.5 - 2.5 = 5 pounds.",
+    "captured_answer": "5",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5372",
+    "idx": 5372,
+    "question": "A tank can hold 250 gallons of water. It is currently 2/5 full. If water is added to the tank at a rate of 20 gallons per hour, how much water will be in the tank after 3 hours?",
+    "answer": "160",
+    "intermediates": [
+      "100",
+      "60",
+      "160"
+    ],
+    "cot": "The tank currently holds 2/5 * 250 gallons = 100 gallons of water. After 3 hours, 20 gallons/hour * 3 hours = 60 gallons will have been added. The tank will then have 100 gallons + 60 gallons = 160 gallons of water.",
+    "captured_answer": "160",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5380",
+    "idx": 5380,
+    "question": "Anna runs a cake shop. She charges $30 for a standard cake, $25 for cupcakes and $40 for a chocolate cheesecake. During one business day, she sells 2 standard cakes, 4 cupcakes and 3 chocolate cheesecakes. How much does she earn for the day?",
+    "answer": "280",
+    "intermediates": [
+      "60",
+      "100",
+      "120",
+      "280"
+    ],
+    "cot": "Anna earns $30 * 2 = $60 from the standard cakes. She earns $25 * 4 = $100 from the cupcakes. She earns $40 * 3 = $120 from the chocolate cheesecakes. The total amount she earns for the day is $60 + $100 + $120 = $280.",
+    "captured_answer": "280",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5404",
+    "idx": 5404,
+    "question": "For his chemistry project, Tom needs 25 milliliters of solution A and 15 milliliters of solution B. If he wants to conduct the experiment 12 times, how many milliliters of solutions does he need in total?",
+    "answer": "480",
+    "intermediates": [
+      "40",
+      "480"
+    ],
+    "cot": "Each experiment requires 25 + 15 = 40 milliliters of solutions. So, for 12 experiments, Tom needs a total of 40 * 12 = 480 milliliters of solutions.",
+    "captured_answer": "480",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5412",
+    "idx": 5412,
+    "question": "Lisa creates a Lego city using 100 Lego blocks for the buildings, 150 for the streets, and 50 for the park. If she started with 350 Lego blocks, how many blocks does she have left?",
+    "answer": "50",
+    "intermediates": [
+      "300",
+      "50"
+    ],
+    "cot": "Lisa used 100 Lego blocks on buildings + 150 for streets + 50 for park = 300 Lego blocks.  Originally, she had 350 blocks, so after building the city, she has 350 - 300 = 50 Lego blocks left.",
+    "captured_answer": "50",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5416",
+    "idx": 5416,
+    "question": "Jamie spends $35 a week on groceries. If her weekly salary is $75, how much money does she have left after 2 weeks?",
+    "answer": "80",
+    "intermediates": [
+      "70",
+      "150",
+      "80"
+    ],
+    "cot": "She spends 35 * 2 = $70 on groceries in 2 weeks. Her salary for 2 weeks is 75 * 2 = $150. So, Jamie has 150 - 70 = $80 left after 2 weeks.",
+    "captured_answer": "80",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5424",
+    "idx": 5424,
+    "question": "In one week, Sara studies for 2 hours every day from Monday to Friday for her exams, and 3 hours per day during the weekend. How many hours does Sara study in total in one week?",
+    "answer": "16",
+    "intermediates": [
+      "10",
+      "6",
+      "16"
+    ],
+    "cot": "From Monday to Friday there are 5 days, so Sara studies for 5*2= 10 hours. During the weekend there are 2 days, then she studies for 2*3= 6 hours. Then in total, Sara studies for 10+6 = 16 hours in one week.",
+    "captured_answer": "16",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5428",
+    "idx": 5428,
+    "question": "A school library has 950 books. Out of these books, 450 are science textbooks, 250 are literature books, and the rest are history books. If the library gives away half the of each type of book to a local charity, how many books does the library still have left?",
+    "answer": "475",
+    "intermediates": [
+      "700",
+      "250",
+      "225",
+      "125",
+      "350",
+      "475"
+    ],
+    "cot": "The total number of books that are either science textbooks or literature books is 450+250 = 700 If the total number of books in the library was 950, then 950-700 = 250 are history books. The library gave away 1/2*450 = 225 science textbooks. They also gave away 1/2*250 = 125 literature books. So, they gave away 225+125 = 350 books. The library also gave away 1/2*250 = 125 history books. The total number of books the library gave away is 350+125 = 475 books. If the library initially had 950 books, they now have 950-475 = 475 books left.",
+    "captured_answer": "475",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5444",
+    "idx": 5444,
+    "question": "A school wants to plant 4 times as many apples trees as cherry trees. If 25 cherry trees were planted, how many trees will the school plant in total?",
+    "answer": "125",
+    "intermediates": [
+      "100",
+      "125"
+    ],
+    "cot": "The number of apple trees planted is four times the number of cherry trees which is 4*25 = 100 In total, the school will plant 100+25 = 125 trees",
+    "captured_answer": "125",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5448",
+    "idx": 5448,
+    "question": "Mike has a garden with 10 apple trees. Each tree produces 180 apples and Mike sells 3/4 of the apples from each tree. How many apples does he have remaining in total?",
+    "answer": "450",
+    "intermediates": [
+      "1800",
+      "1350",
+      "450"
+    ],
+    "cot": "Before selling, Mike had 10 x 180 = 1800 apples. He sells 3/4 of the apples, which is 1800 x 3/4 = 1350 apples. Therefore, he has 1800 - 1350 = 450 apples remaining.",
+    "captured_answer": "450",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5480",
+    "idx": 5480,
+    "question": "Tom's television uses 4 watts per hour. The refrigerator in his kitchen uses five times as much energy as the television. If Tom operates both appliances for four hours, how many watts has he used?",
+    "answer": "96",
+    "intermediates": [
+      "16",
+      "20",
+      "80",
+      "96"
+    ],
+    "cot": "Tom's television uses 4 watts per hour so it would use 4 * 4 = 16 watts in four hours. His refrigerator uses 5 times as many watts as his television, so it uses 5 * 4 = 20 watts per hour. In four hours, the refrigerator would use 20 * 4 = 80 watts. So if Tom operates both appliances for four hours, he has used 16 + 80 = 96 watts.",
+    "captured_answer": "96",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5492",
+    "idx": 5492,
+    "question": "Lotte runs a bakery. She makes 5 loaves of bread every day. Each loaf of bread costs $2 to make. After a month of 30 days, how much will Lotte have spent on making bread?",
+    "answer": "300",
+    "intermediates": [
+      "150",
+      "300"
+    ],
+    "cot": "Lotte makes 5 loaves of bread every day, so in a month of 30 days, she will make 5 * 30 = 150 loaves of bread. Each loaf of bread costs $2 to make, so Lotte will have spent 150 * 2 = $300 on making bread in a month.",
+    "captured_answer": "300",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5500",
+    "idx": 5500,
+    "question": "A movie theater sold 100 tickets for a new movie. They sold out all adult tickets for $15 each and the rest were children's tickets sold for $10 each. If the total revenue was $1300, how many children's tickets were sold?",
+    "answer": "80",
+    "intermediates": [
+      "300",
+      "20",
+      "80"
+    ],
+    "cot": "Adult tickets brought in $1300-$100*10=$300 So, the theater sold $300/$15=20 adult tickets This means they sold 100-20=80 children's tickets",
+    "captured_answer": "80",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5512",
+    "idx": 5512,
+    "question": "Joe needs to buy 3 books for his classes. Each book cost $56. He also needs 2 notebooks that cost $8 each. How much money does Joe need?",
+    "answer": "184",
+    "intermediates": [
+      "168",
+      "16",
+      "184"
+    ],
+    "cot": "The cost of the books is 56*3=168 dollars The cost of the notebooks is 8*2=16 dollars So, Joe needs 168+16=184 dollars.",
+    "captured_answer": "184",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5544",
+    "idx": 5544,
+    "question": "An apple tree produces 18 apples per day. How many apples does it produce in a week?",
+    "answer": "126",
+    "intermediates": [
+      "18",
+      "126"
+    ],
+    "cot": "Apples per week = 18 apples/day * 7 days/week = 126 apples/week",
+    "captured_answer": "126",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5548",
+    "idx": 5548,
+    "question": "Alexandra's dog had 6 puppies. If each puppy weighed 2 kilograms at birth, how much did all the puppies weigh combined?",
+    "answer": "12",
+    "intermediates": [
+      "12"
+    ],
+    "cot": "All the puppies weighed 6 * 2 = 12 kilograms combined.",
+    "captured_answer": "12",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5564",
+    "idx": 5564,
+    "question": "Mrs. Smith spends $80 on gasoline each week. If the cost of gasoline is $4 per gallon, how many gallons of gasoline does Mrs. Smith use in three weeks?",
+    "answer": "60",
+    "intermediates": [
+      "20",
+      "60"
+    ],
+    "cot": "Mrs. Smith uses $80/$4 = 20 gallons a week. So in three weeks, she uses 20 x 3 = 60 gallons.",
+    "captured_answer": "60",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5592",
+    "idx": 5592,
+    "question": "Kate needs 60 balloons for her sister's birthday party. Each balloon costs $0.50. She also needs a pack of ribbons which costs $15. How much will she spend in total?",
+    "answer": "45",
+    "intermediates": [
+      "30",
+      "45"
+    ],
+    "cot": "The total cost of balloons is 60*0.50 = $30 The total cost she will spend is 30+15 = $45",
+    "captured_answer": "45",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5600",
+    "idx": 5600,
+    "question": "Laura wants to store books in her library. She can place 20 books in one row, 3 rows on one shelf, and 5 shelves in one cabinet. What is the total number of books she can store in each cabinet?",
+    "answer": "300",
+    "intermediates": [
+      "60",
+      "300"
+    ],
+    "cot": "A single shelf can accommodate 20 books/row * 3 rows/shelf = 60 books. The total number of books a cabinet can hold is 60 books/shelf * 5 shelves = 300 books.",
+    "captured_answer": "300",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5612",
+    "idx": 5612,
+    "question": "Sue has 6 roses. She buys twice as many tulips as roses, and 7 lilies. How many flowers does Sue have?",
+    "answer": "25",
+    "intermediates": [
+      "12",
+      "25"
+    ],
+    "cot": "Sue buys 6*2=12 tulips. In total Sue now has 6+12+7=25 flowers.",
+    "captured_answer": "25",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5616",
+    "idx": 5616,
+    "question": "Sammy and his younger brother love cookies. Sammy eats 2 cookies a day and his brother eats 3 cookies a day. How many cookies do they eat altogether in a week?",
+    "answer": "35",
+    "intermediates": [
+      "14",
+      "21",
+      "35"
+    ],
+    "cot": "Sammy eats a total of 2 * 7 = 14 cookies a week. His brother eats 3 * 7 = 21 cookies in a week. Together, they eat 14 + 21 = 35 cookies in a week.",
+    "captured_answer": "35",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5644",
+    "idx": 5644,
+    "question": "Adam saves $10 every day. After a few days, he buys a video game that costs $95. After buying the video game, he had $35 left. For how many days was Adam saving money?",
+    "answer": "13",
+    "intermediates": [
+      "130",
+      "13"
+    ],
+    "cot": "Before buying the video game, Adam had 95 + 35 = $130. Adam was saving money for 130 / 10 = 13 days.",
+    "captured_answer": "13",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5648",
+    "idx": 5648,
+    "question": "A train traveled for 60 minutes at a speed of 70 mph. What is the distance the train traveled in miles?",
+    "answer": "70",
+    "intermediates": [
+      "1",
+      "70"
+    ],
+    "cot": "60 minutes = 1 hour. So in 60 minutes, the distance the train traveled in miles is 70 * 1 = 70 miles.",
+    "captured_answer": "70",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5668",
+    "idx": 5668,
+    "question": "Liam opened a lemonade stand and sold 48 cups in an hour. His sister, Emma, opened her own stand and sold triple the amount Liam sold. Their cousin Jackson sold half of the amount Liam and Emma combined. If they all sold lemonade for another hour, how many cups did they sell in total in two hours?",
+    "answer": "576",
+    "intermediates": [
+      "144",
+      "192",
+      "96",
+      "288",
+      "576"
+    ],
+    "cot": "Emma sold 48 x 3 = 144 cups of lemonade. Together, Liam and Emma sold 48 + 144 = 192 cups. Jackson sold 192/2 = 96 cups. In one hour, they sold a total of 192 + 96 = 288 cups. In two hours, they sold a total of 288 x 2 = 576 cups.",
+    "captured_answer": "576",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5672",
+    "idx": 5672,
+    "question": "Jessica has 3 bags of apples and each bag contains 8 apples. She invites her friends over and they each eat 2 apples. If she had 5 friends over, how many apples does she have left?",
+    "answer": "14",
+    "intermediates": [
+      "24",
+      "10",
+      "14"
+    ],
+    "cot": "Jessica starts with 3 bags * 8 apples/bag = 24 apples. Her friends eat 2 apples/friend * 5 friends = 10 apples. Therefore, Jessica has 24 apples - 10 apples = 14 apples left.",
+    "captured_answer": "14",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5696",
+    "idx": 5696,
+    "question": "In a parking lot, there are 180 cars and 40 motorcycles. If 20 cars leave the parking lot, how many vehicles will be left?",
+    "answer": "200",
+    "intermediates": [
+      "220",
+      "200"
+    ],
+    "cot": "In total there are 180 cars + 40 motorcycles = 220 vehicles in the parking lot. If 20 cars leave the parking lot, there will be left 220 vehicles - 20 cars = 200 vehicles.",
+    "captured_answer": "200",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5704",
+    "idx": 5704,
+    "question": "The bicycle club has 30 members. Each member has an average of 2 bicycles. During the annual rally, members bring an additional half of the total bicycles. How many total bicycles were there in the rally?",
+    "answer": "90",
+    "intermediates": [
+      "60",
+      "30",
+      "90"
+    ],
+    "cot": "Initially, the members have 30 members * 2 bicycles/member = 60 bicycles. The additional bicycles brought to the rally are 60 / 2 = 30 bicycles.  The total bicycles in the rally were 60 initial bicycles + 30 additional bicycles = 90 bicycles.",
+    "captured_answer": "90",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5712",
+    "idx": 5712,
+    "question": "Joe's Hardware Store has four times as many hammers as Joe's Apparel & Sportswear store. If Joe's Apparel & Sportswear store has 150 hammers, how many hammers do they have in total?",
+    "answer": "750",
+    "intermediates": [
+      "600",
+      "750"
+    ],
+    "cot": "Since Joe's Apparel & Sportswear store has 150 hammers, Joe's Hardware Store has 4*150 = 600 hammers. Together, they have 600+150 = 750 hammers.",
+    "captured_answer": "750",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5720",
+    "idx": 5720,
+    "question": "Billy spent two-thirds of his salary on rent and saved the rest. If his rent was $800 and he managed to save 3 times as much as he spent on tickets, How much did he spend on tickets?",
+    "answer": "133.33",
+    "intermediates": [
+      "1200",
+      "400",
+      "133.33"
+    ],
+    "cot": "Billy's salary should have been 800 / (2/3) = 1200 dollars. His savings amount to 1200 - 800 = 400 dollars. He spent a third of his savings on tickets, so he spent 400 / 3 = 133.33 dollars.",
+    "captured_answer": "133.33",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g5748",
+    "idx": 5748,
+    "question": "A garden center has 50 flower pots in two colors, blue and yellow. The number of yellow pots is 8 times the number of blue pots. How many blue pots do they have?",
+    "answer": "5",
+    "intermediates": [
+      "50",
+      "5.56"
+    ],
+    "cot": "Let X be the number of blue pots. So we have the equation X + 8X = 50. That gives us 9X = 50, so X = 5.56. We round this to the nearest whole number, so the garden center has 5 blue pots.",
+    "captured_answer": "5",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28688",
+    "idx": 28688,
+    "question": "Andrew has 6 cats in his home. Each one eats 300 grams of food per day. He has to go on a business trip for 7 days. How many kilograms of food should he purchase for his 6 cats so they don't starve while he is out?",
+    "answer": "12.6",
+    "intermediates": [
+      "1800",
+      "12.6"
+    ],
+    "cot": "Each cat would eat 300 grams so 6 will would eat 6 x 300 grams = 1800 grams of food per day. 1.800 grams is equal a 1.8 kilograms. Andrew is going on a business trip for 7 days and with the 6 cats together eating 1.8 kilograms of food per day, 7 days x 1.8 kg of food/day = 12.6 kg of food would be enough for one week.",
+    "pred": "12.6",
+    "correct": 1,
+    "captured_answer": "12.6",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28693",
+    "idx": 28693,
+    "question": "Lilly has a garden where she planted 45 rose bushes. Each bush produces 3 roses every week. Lilly cuts and sells the roses for $2 each every week. How much will Lily make from selling roses in 4 weeks?",
+    "answer": "1080",
+    "intermediates": [
+      "135",
+      "270",
+      "1080"
+    ],
+    "cot": "Each week, the bushes make 45 * 3 = 135 roses Each week, Lilly sells the roses for 135 * 2 = $270. Over 4 weeks, Lilly makes 270 * 4 = $1080.",
+    "pred": "1080",
+    "correct": 1,
+    "captured_answer": "1080",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28694",
+    "idx": 28694,
+    "question": "A physics book costs $80, and a math book costs $50. The school needs to buy 15 physics books and 20 math books. How much will the total cost be?",
+    "answer": "2200",
+    "intermediates": [
+      "1200",
+      "1000",
+      "2200"
+    ],
+    "cot": "The total cost for the physics books is $80 * 15 = $1200. The total cost for the math books is $50 * 20 = $1000. So, the total cost for all the books is $1200 + $1000 = $2200.",
+    "pred": "2200",
+    "correct": 1,
+    "captured_answer": "2200",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28695",
+    "idx": 28695,
+    "question": "Carter collects comic books. He buys 3 comics every week. At the end of the month he gives 2 comics to his brother. How many comics overall does Carter have after 3 months?",
+    "answer": "30",
+    "intermediates": [
+      "12",
+      "10",
+      "30"
+    ],
+    "cot": "Carter buys 3 * 4 = 12 comics in a month. He gives his brother 2 a month so his collection increases by 12 - 2 = 10 comics each month. Thus, over 3 months Carter will have 10 * 3 = 30 comics.",
+    "pred": "30",
+    "correct": 1,
+    "captured_answer": "30",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28696",
+    "idx": 28696,
+    "question": "A toy set consists of 15 small cars and 3 larger cars. If Adam bought 4 sets, how many cars did he get in total?",
+    "answer": "72",
+    "intermediates": [
+      "18",
+      "72"
+    ],
+    "cot": "In one set there are 15 + 3 = 18 cars. So, Adam got 18 * 4 = 72 cars in total.",
+    "pred": "72",
+    "correct": 1,
+    "captured_answer": "72",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28697",
+    "idx": 28697,
+    "question": "A baseball park has a square field with sides of 90 feet each. There is a rectangular infield with sides of 60 feet and 30 feet. How much grass is there on the field, not counting the infield?",
+    "answer": "6300",
+    "intermediates": [
+      "8100",
+      "1800",
+      "6300"
+    ],
+    "cot": "The area of the whole field is 90 * 90 = 8100 square feet. The area of the infield is 60 * 30 = 1800 square feet. The area of the grass is 8100 - 1800 = 6300 square feet.",
+    "pred": "6300",
+    "correct": 1,
+    "captured_answer": "6300",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28699",
+    "idx": 28699,
+    "question": "At a music concert, 450 tickets were sold. If VIP tickets represented 20% of the total tickets sold, and the rest were regular tickets, how many regular tickets were sold?",
+    "answer": "360",
+    "intermediates": [
+      "90",
+      "360"
+    ],
+    "cot": "VIP tickets were 20/100*450 = 90. So the number of regular tickets sold is 450 - 90 = 360.",
+    "pred": "360",
+    "correct": 1,
+    "captured_answer": "360",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28701",
+    "idx": 28701,
+    "question": "Hannah informed Emily at the park that she was three times as old as Emily will be in four years. If Emily is 8 years old now, calculate Hannah's age now.",
+    "answer": "36",
+    "intermediates": [
+      "12",
+      "36"
+    ],
+    "cot": "In four years, Emily will be 8+4 = 12 years old. If Hannah is three times Emily's age in four years, she is 3*12 = 36 years old.",
+    "pred": "36",
+    "correct": 1,
+    "captured_answer": "36",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28702",
+    "idx": 28702,
+    "question": "A small basket contains 10 apples and 5 oranges. An apple costs 2 dollars and an orange costs 3 dollars. How much would it cost to buy all the fruits in the basket?",
+    "answer": "35",
+    "intermediates": [
+      "20",
+      "15",
+      "35"
+    ],
+    "cot": "There are 10 apples in the box, so it would cost 10*2 = 20 dollars to buy all the apples. There are 5 oranges in the box, so it would cost 5*3 = 15 dollars to buy all the oranges. So, the total cost of the fruits in the box would be 20+15 = 35 dollars.",
+    "pred": "35",
+    "correct": 1,
+    "captured_answer": "35",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28704",
+    "idx": 28704,
+    "question": "Melissa is 3 years older than Ethan. If Ethan is 13 years old now, how old was Melissa 2 years ago?",
+    "answer": "14",
+    "intermediates": [
+      "16",
+      "14"
+    ],
+    "cot": "Melissa is 13+3 = 16 years old now. Thus, Melissa was 16-2 = 14 years old 2 years ago.",
+    "pred": "14",
+    "correct": 1,
+    "captured_answer": "14",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28705",
+    "idx": 28705,
+    "question": "A grocery store has 200 bags of flour and 100 bags of sugar. Each bag of flour costs $3 while each bag of sugar costs $2. How much money will the grocery earn if they're able to sell everything?",
+    "answer": "800",
+    "intermediates": [
+      "600",
+      "200",
+      "800"
+    ],
+    "cot": "The grocery store will earn 200 * $3 = $600 for the bags of flour. The grocery will earn 100 * $2 = $200 for the bags of sugar. Therefore, the grocery will earn $600 + $200 = $800 if they are able to sell everything.",
+    "pred": "800",
+    "correct": 1,
+    "captured_answer": "800",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28708",
+    "idx": 28708,
+    "question": "In a baseball team, there are 18 players. Each player needs a uniform that costs $50, a baseball bat that costs $20, and a baseball cap that costs $10. How much does the coach need to pay to buy all the players their supplies?",
+    "answer": "1440",
+    "intermediates": [
+      "900",
+      "360",
+      "180",
+      "1440"
+    ],
+    "cot": "For the uniform per player, the coach needs to pay 50*18=900 dollars. The cost for all the baseball bats is 20*18= 360 dollars. And the cost for all the baseball caps is 10*18= 180 dollars. Hence, the total amount to be paid is 900+360+180= 1440 dollars.",
+    "pred": "1440",
+    "correct": 1,
+    "captured_answer": "1440",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28709",
+    "idx": 28709,
+    "question": "Ken and his two friends joined a math contest. Ken scored 15 points, which was 5 points more than one of his friends. If the total score of the three was 40 points, how many did the third friend score?",
+    "answer": "15",
+    "intermediates": [
+      "10",
+      "25",
+      "15"
+    ],
+    "cot": "Ken's first friend scored 15 - 5 = 10 points. So, Ken and his first friend scored a total of 15 + 10 = 25 points. The third friend scored 40 - 25 = 15 points.",
+    "pred": "15",
+    "correct": 1,
+    "captured_answer": "15",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28712",
+    "idx": 28712,
+    "question": "In a certain college, 70% of 500 students are studying Arts and the rest are studying Science. How many students are studying Science?",
+    "answer": "150",
+    "intermediates": [
+      "350",
+      "150"
+    ],
+    "cot": "The number of students studying Arts is 70/100 * 500 = 350. So, the number of students studying Science is 500 - 350 = 150.",
+    "pred": "150",
+    "correct": 1,
+    "captured_answer": "150",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28714",
+    "idx": 28714,
+    "question": "Jenny loves to read books. If she reads 4 books every month and each book has 250 pages, how many pages has she read in a year?",
+    "answer": "12000",
+    "intermediates": [
+      "48",
+      "12000"
+    ],
+    "cot": "First, find the number of books she reads in a year: 4 books/month * 12 months = 48 books Then, multiply the number of books by the number of pages per book to find the total number of pages: 48 books * 250 pages/book = 12000 pages",
+    "pred": "12000",
+    "correct": 1,
+    "captured_answer": "12000",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28715",
+    "idx": 28715,
+    "question": "Jazmin read 240 books in 2020. Her sister Lemonna read 1/8 of what Jazmin read. How many more books did Jazmin read than Lemonna?",
+    "answer": "210",
+    "intermediates": [
+      "30",
+      "210"
+    ],
+    "cot": "Lemonna read 240 * 1/8 = 30 books. So, Jazmin read 240 - 30 = 210 books more than Lemonna.",
+    "pred": "210",
+    "correct": 1,
+    "captured_answer": "210",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28717",
+    "idx": 28717,
+    "question": "Kieran baked 120 cookies. He wants to divide them into bags so that each bag has the same number of cookies. If he wants to give each of his 5 friends 2 bags, how many cookies will be in each bag?",
+    "answer": "12",
+    "intermediates": [
+      "10",
+      "12"
+    ],
+    "cot": "Kieran wants to give each of his 5 friends 2 bags of cookies, which is 5*2 = 10 bags in total. Since he baked 120 cookies and wants to divide them equally into 10 bags, each bag will have 120/10 = 12 cookies.",
+    "pred": "12",
+    "correct": 1,
+    "captured_answer": "12",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28718",
+    "idx": 28718,
+    "question": "Dan runs 5 miles before having breakfast and another 7 after breakfast. If he does this every weekday for 4 weeks, how many miles will Dan have run?",
+    "answer": "240",
+    "intermediates": [
+      "12",
+      "60",
+      "240"
+    ],
+    "cot": "Dan runs 5 miles + 7 miles = 12 miles every day. Dan runs 12 miles/day * 5 days/week = 60 miles every week. So, after 4 weeks Dan will have run 60 miles/week * 4 weeks = 240 miles.",
+    "pred": "240",
+    "correct": 1,
+    "captured_answer": "240",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28719",
+    "idx": 28719,
+    "question": "Lisa wants to buy a new bike that costs $800. She needs to pay a 10% down payment and will pay off the rest over the next 12 months. How much will she pay each month?",
+    "answer": "60",
+    "intermediates": [
+      "80",
+      "720",
+      "60"
+    ],
+    "cot": "The down payment is 800 * 10/100 = $80. This means the remaining cost is 800 - 80 = $720. So, Lisa will pay 720 / 12 = $60 each month.",
+    "pred": "60",
+    "correct": 1,
+    "captured_answer": "60",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28723",
+    "idx": 28723,
+    "question": "Grace is planning a trip to Europe. To save money, Grace sold handmade bracelets for $10 each and paintings for $50 each. She sold 30 bracelets and 12 paintings. How much money did she make?",
+    "answer": "900",
+    "intermediates": [
+      "300",
+      "600",
+      "900"
+    ],
+    "cot": "She made $10/bracelet \u00d7 30 bracelets = $300 from the bracelets. She also made $50/painting \u00d7 12 paintings = $600 from the paintings. Grace made a total of $300 + $600 = $900.",
+    "pred": "900",
+    "correct": 1,
+    "captured_answer": "900",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28725",
+    "idx": 28725,
+    "question": "Billy has a garden with 6 rows of plants, and each row has 7 plants. After a particularly dry month, 3 plants in each row died. How many plants are remaining in Billy's garden?",
+    "answer": "24",
+    "intermediates": [
+      "42",
+      "18",
+      "24"
+    ],
+    "cot": "Initially, Billy's garden has 6 rows * 7 plants = 42 plants. In each row, 3 plants died so 6 rows * 3 plants = 18 plants died. The remaining number of plants in Billy's garden equals 42 plants - 18 plants = 24 plants.",
+    "pred": "24",
+    "correct": 1,
+    "captured_answer": "24",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28726",
+    "idx": 28726,
+    "question": "Thomas scored 15 marks more in Math than he scored in English. He also got 5 marks less in Science than he got in English. If he scored 70 in English, what's the total number of marks he scored in all the subjects?",
+    "answer": "220",
+    "intermediates": [
+      "85",
+      "65",
+      "220"
+    ],
+    "cot": "The total marks Thomas scored in Math is 70 + 15 = 85 marks. If he scored 5 marks fewer in Science than in English, then he scored 70 - 5 = 65 marks in Science. The total number of marks for all the subjects is 70 + 85 + 65 = 220 marks.",
+    "pred": "220",
+    "correct": 1,
+    "captured_answer": "220",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28729",
+    "idx": 28729,
+    "question": "A 100 watt light bulb uses 100 watts of power each day. If Jenny has 20 such bulbs in her house and pays an electricity bill of ten cents per power watt used, calculate Jenny's total monthly expenses on electricity in July.",
+    "answer": "6200",
+    "intermediates": [
+      "2000",
+      "62000",
+      "6200"
+    ],
+    "cot": "If each bulb uses 100 watts each day, the 20 bulbs that Jenny has uses 100*20 = 2000 watts of power each day. In July, with 31 days, the bulbs will use 31*2000 = 62000 watts of power. If Jenny is charged an electricity bill of ten cents per power watt used, in July she will pay 62000*$0.10 = $6200",
+    "pred": "6200",
+    "correct": 1,
+    "captured_answer": "6200",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28732",
+    "idx": 28732,
+    "question": "James opens a can of peanuts and eats 3 of them to see if he likes them. He does, so he eats 3 more. The can has 60 peanuts in it and starting on the second day he has them, James eats 5 each day. How many days does it take for James to eat all the peanuts?",
+    "answer": "12",
+    "intermediates": [
+      "6",
+      "54",
+      "12"
+    ],
+    "cot": "James has already eaten 3 of the peanuts + 3 more = 6 peanuts he ate. The can has 60 peanuts in it and James has only eaten 6, 60 - 6 = 54 peanuts left. If James eats 5 peanuts a day starting from the second day he has them, it will take him 54 peanuts in the can / 5 peanuts James eats a day = Approximately 11 days to eat all the peanuts. However, James also ate peanuts on the first day he bought them, so 11 + 1 = 12 days to eat all the peanuts.",
+    "pred": "12",
+    "correct": 1,
+    "captured_answer": "12",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28734",
+    "idx": 28734,
+    "question": "Andrew is making sandwiches for lunch. He uses 4 slices of bread to make 2 sandwiches. If he wants to make 8 sandwiches, how many slices of bread would he need?",
+    "answer": "16",
+    "intermediates": [
+      "2",
+      "16"
+    ],
+    "cot": "Andrew uses 4 slices of bread for 2 sandwiches. So, for 1 sandwich he would need 4 / 2 = 2 slices. Hence, for 8 sandwiches he would need 2 * 8 = 16 slices of bread.",
+    "pred": "16",
+    "correct": 1,
+    "captured_answer": "16",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28735",
+    "idx": 28735,
+    "question": "Cordelia is dyeing her hair red. To get the color she wants, she first has to bleach her dark brown hair to blonde, and then she has to apply the dye. The whole process will take 9 hours. Dyeing takes twice as long as bleaching. How many hours will it take Cordelia to bleach her hair?",
+    "answer": "3",
+    "intermediates": [
+      "3",
+      "9"
+    ],
+    "cot": "Let H be the number of hours it takes Cordelia to bleach her hair. A dye treatment takes twice as long, so it takes 2H. Thus, bleaching and dying will take H + 2H = 3H = 9 hours. Therefore, it will take Cordelia H = 9 / 3 = 3 hours to bleach her hair.",
+    "pred": "3",
+    "correct": 1,
+    "captured_answer": "3",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28736",
+    "idx": 28736,
+    "question": "David spent 2/5 of his monthly allowance on books and 1/5 on art supplies. If he spent $90 in total, how much is his monthly allowance?",
+    "answer": "150",
+    "intermediates": [
+      "3",
+      "30",
+      "150"
+    ],
+    "cot": "In total, he spent 2/5 + 1/5 = 3/5 of his monthly allowance. Each fifths of his monthly allowance equals $90 / 3 = $30. His monthly allowance is therefore 5 * 30 = $150.",
+    "pred": "150",
+    "correct": 1,
+    "captured_answer": "150",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28737",
+    "idx": 28737,
+    "question": "Peter bought 100 watermelons for $10 each. He sold 60% of them at a price of $15 each, and the remaining at $8 each. How much money did he make in total?",
+    "answer": "1220",
+    "intermediates": [
+      "60",
+      "900",
+      "40",
+      "320",
+      "1220"
+    ],
+    "cot": "Peter sold 60% of the watermelons for 100 * 0.60 = 60 watermelons. He earned 60 * 15 = $900 from selling these watermelons. He sold the remaining watermelons for 100 - 60 = 40 watermelons. He earned 40 * 8 = $320 from selling these watermelons. In total, Peter earned 900 + 320 = $1220.",
+    "pred": "1220",
+    "correct": 1,
+    "captured_answer": "1220",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28738",
+    "idx": 28738,
+    "question": "Tom has 8 paintings. He sold 37.5% paintings and bought another 12. How many paintings does he have now?",
+    "answer": "17",
+    "intermediates": [
+      "3",
+      "5",
+      "17"
+    ],
+    "cot": "Tom sells 3 paintings because 8 x 0.375 = 3 He is left with 5 paintings because 8 - 3 = 5 He now has 17 paintings because 5 + 12 = 17",
+    "pred": "17",
+    "correct": 1,
+    "captured_answer": "17",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28739",
+    "idx": 28739,
+    "question": "Lila's candy shop received three boxes of candies. Box A has 200 candies, Box B has 400 candies, and Box C has 300 candies. The shop sells candies at the rate of 10 candies per day. How many candies does the candy shop have after 20 days?",
+    "answer": "700",
+    "intermediates": [
+      "900",
+      "200",
+      "700"
+    ],
+    "cot": "Initially, the candy shop has 200 + 400 + 300 = 900 candies. In 20 days, the candy shop sells 20 * 10 = 200 candies. So, after 20 days, the candy shop has 900 - 200 = 700 candies.",
+    "pred": "700",
+    "correct": 1,
+    "captured_answer": "700",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28741",
+    "idx": 28741,
+    "question": "Paul collected 35 rocks and wants to distribute them evenly in 5 boxes. If he wants to keep 5 rocks for himself, how many rocks will be in each box?",
+    "answer": "6",
+    "intermediates": [
+      "30",
+      "6"
+    ],
+    "cot": "Paul takes 5 rocks for himself so he has 35-5 = 30 rocks left He has 30 rocks and wants to distribute them evenly in 5 boxes so each box will have 30/5 = 6 rocks",
+    "pred": "6",
+    "correct": 1,
+    "captured_answer": "6",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28743",
+    "idx": 28743,
+    "question": "Jake picked 16 cherries. Lucy picked 12 cherries. Matt also picked some cherries. Together, they picked an average of 15 cherries. How many cherries did Matt pick?",
+    "answer": "17",
+    "intermediates": [
+      "45",
+      "28",
+      "17"
+    ],
+    "cot": "In total, they picked 15*3 = 45 cherries.  The picked amount for Jake and Lucy are 16 + 12 = 28 cherries.  Therefore, Matt picked 45 - 28 = 17 cherries.",
+    "pred": "17",
+    "correct": 1,
+    "captured_answer": "17",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28744",
+    "idx": 28744,
+    "question": "Of the 1200 students at the Townsville High School, 1/3 of them participate in soccer. Of those that play soccer, 70% of them also are in the school band. How many students are in both soccer and band?",
+    "answer": "280",
+    "intermediates": [
+      "400",
+      "280"
+    ],
+    "cot": "1/3 of the students at the Townsville High School participate in soccer, a total of 1/3*1200=400 students Of those that play soccer, 70% of them also are in the school band, meaning 70/100*400=280 students are in both soccer and band.",
+    "pred": "280",
+    "correct": 1,
+    "captured_answer": "280",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28748",
+    "idx": 28748,
+    "question": "Max wants to build a fenced-in area for his new dog. His backyard is square and measures 30 yards on a side, but he also wants to include a 2-yard-wide gate in the fence. How many yards of fencing will Max need?",
+    "answer": "118",
+    "intermediates": [
+      "4",
+      "120",
+      "118"
+    ],
+    "cot": "The perimeter of the square backyard is 4*sides = 4*30 = 120 yards. Considering the 2-yard-wide gate, Max would need 120 - 2 = 118 yards of fencing.",
+    "pred": "118",
+    "correct": 1,
+    "captured_answer": "118",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28749",
+    "idx": 28749,
+    "question": "Sarah decided to buy a new sofa for $1000. The store is offering the sofa at 20% off. After the discount, how much will she pay for the sofa?",
+    "answer": "800",
+    "intermediates": [
+      "200",
+      "800"
+    ],
+    "cot": "The discount for the sofa is $1000 * 20/100 = $200. The price of the sofa after the discount is $1000 - $200 = $800.",
+    "pred": "800",
+    "correct": 1,
+    "captured_answer": "800",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28751",
+    "idx": 28751,
+    "question": "During summer, a couple planted a variety of fruit trees. They planted 4 times as many apple trees as cherry trees. If they planted 30 cherry trees, how many trees did they plant in total?",
+    "answer": "150",
+    "intermediates": [
+      "120",
+      "150"
+    ],
+    "cot": "The number of apple trees planted is four times the number of cherry trees, which is 4*30 = 120. Therefore, the couple planted a total of 120 + 30 = 150 trees.",
+    "pred": "150",
+    "correct": 1,
+    "captured_answer": "150",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28752",
+    "idx": 28752,
+    "question": "A theatre has a seating capacity of 2000 and 75% of the seats were occupied. During the intermission, 10% of the audience left the theatre. How many people are left in the theatre after the intermission?",
+    "answer": "1350",
+    "intermediates": [
+      "1500",
+      "150",
+      "1350"
+    ],
+    "cot": "The initial number of occupied seats were 75/100 * 2000 = 1500 seats. During the intermission, 10/100 * 1500 = 150 people left the theatre. Hence, the number of people left in the theatre is 1500 - 150 = 1350.",
+    "pred": "1350",
+    "correct": 1,
+    "captured_answer": "1350",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28753",
+    "idx": 28753,
+    "question": "Alex signed up for a gym subscription. The monthly fee is $30. However, he got a deal where his first month is half price, but his third month is double the usual price. How much money will Alex pay for these three months?",
+    "answer": "105",
+    "intermediates": [
+      "15",
+      "60",
+      "105"
+    ],
+    "cot": "Alex's first month is half price, so it's 30 / 2 = $15. His third month is double the usual price, so it's 30 * 2 = $60. In total, Alex pays 15 + 30 + 60 = $105 for three months.",
+    "pred": "105",
+    "correct": 1,
+    "captured_answer": "105",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28754",
+    "idx": 28754,
+    "question": "A store sells sunglasses for $13 each. They have 30 black sunglasses, twice as many white ones, and half as many pink ones. If they sold all of the sunglasses, how much money did they make?",
+    "answer": "1365",
+    "intermediates": [
+      "60",
+      "15",
+      "105",
+      "1365"
+    ],
+    "cot": "White sunglasses make 30 * 2 = 60. Pink sunglasses make 30 / 2 = 15. The store had a total of 30 black + 60 white + 15 pink = 105 sunglasses. The store made 105 * $13 = $1365.",
+    "pred": "1365",
+    "correct": 1,
+    "captured_answer": "1365",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28755",
+    "idx": 28755,
+    "question": "Tom has 12 stickers. He gives 3 stickers to each of his friends. If he has 3 friends, how many stickers does Tom have now?",
+    "answer": "3",
+    "intermediates": [
+      "9",
+      "3"
+    ],
+    "cot": "Tom gives out 3*3=9 stickers to his friends. Tom now has 12-9=3 stickers.",
+    "pred": "3",
+    "correct": 1,
+    "captured_answer": "3",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28756",
+    "idx": 28756,
+    "question": "Emma has 30 dolls in her collection. She gives 6 to her friend and then sells 1/4 of the remaining dolls at a garage sale. How many dolls does she have left?",
+    "answer": "18",
+    "intermediates": [
+      "24",
+      "6",
+      "18"
+    ],
+    "cot": "First find the number of remaining dolls after giving 6 to a friend: 30 - 6 = 24 dolls Then find how many dolls she sells at the garage sale: 1/4 * 24 = 6 dolls Finally subtract the number of dolls she sells from the number she had left to find the final number she has: 24 - 6 = 18 dolls",
+    "pred": "18",
+    "correct": 1,
+    "captured_answer": "18",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28757",
+    "idx": 28757,
+    "question": "Bob goes shopping for books. Each book costs $12. He buys 4 books and also purchases a pen for $5. How much total money did Bob spend?",
+    "answer": "53",
+    "intermediates": [
+      "48",
+      "53"
+    ],
+    "cot": "The total cost for books is 12*4 = 48 dollars. The total cost including the pen is 48+5 = 53 dollars.",
+    "pred": "53",
+    "correct": 1,
+    "captured_answer": "53",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28758",
+    "idx": 28758,
+    "question": "A bag of marbles contains 15 marbles. There are 5 red marbles, 4 blue marbles, and the rest are green. How many green marbles are there?",
+    "answer": "6",
+    "intermediates": [
+      "9",
+      "6"
+    ],
+    "cot": "There are 5+4=9 red and blue marbles. So, there are 15-9=6 green marbles.",
+    "pred": "6",
+    "correct": 1,
+    "captured_answer": "6",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28760",
+    "idx": 28760,
+    "question": "Mary has a garden where she grows 150 pumpkins a year and sells them for $5 each. However, it costs her $2 to grow each pumpkin. How much money does Mary earn after bearing all the expenses in a year?",
+    "answer": "450",
+    "intermediates": [
+      "750",
+      "300",
+      "450"
+    ],
+    "cot": "Mary earns 150*$5 = 750 dollars from selling the pumpkins. The cost of growing the pumpkins is 150*$2 = 300 dollars. Therefore Mary earns $750 - $300 = 450 dollars after all expenses.",
+    "pred": "450",
+    "correct": 1,
+    "captured_answer": "450",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28761",
+    "idx": 28761,
+    "question": "The local baseball team bought 5 baseball bats and 4 gloves. Baseball bats cost $20 each and gloves cost $15 each. How much did the baseball team spend in total?",
+    "answer": "160",
+    "intermediates": [
+      "100",
+      "60",
+      "160"
+    ],
+    "cot": "The total cost of the baseball bats is 5 * 20 = $100. The total cost of the gloves is 4 * 15 = $60. The baseball team spent a total of 100 + 60 = $160.",
+    "pred": "160",
+    "correct": 1,
+    "captured_answer": "160",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28762",
+    "idx": 28762,
+    "question": "In a school, there are 500 students. 60% of them participate in sports. Of those participating, 40% also are part of the music club. How many students are involved in both sports and music club?",
+    "answer": "120",
+    "intermediates": [
+      "300",
+      "120"
+    ],
+    "cot": "The number of students participating in sports is 500*0.60 = 300 The number of students who are part of both sports and music club is 300*0.40 = 120",
+    "pred": "120",
+    "correct": 1,
+    "captured_answer": "120",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28763",
+    "idx": 28763,
+    "question": "If Tom's home is thrice as far from Lisa's home as Mike's house along a particular route, and Tom's home is 6 miles away from Lisa's home along the same route, what distance (in miles) will Tom cover if he goes from his home to Lisa's home, then Mike's, then back to Lisa's before going back to his house?",
+    "answer": "16",
+    "intermediates": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "cot": "Tom's house is thrice as far from Lisa's house as Mike's, so the distance between Tom's and Mike's is one third that between Tom's and Lisa's (6 miles) which means the former is (1/3)*6 miles = 2 miles If Tom goes from his house to Lisa's, he has covered 6 miles He goes from there to Mike's (2 miles, same as Tom's to Mike's) for a total of 6+2 = 8 miles. He goes back to Lisa's (another 2 miles) for a total of 8+2 = 10 miles Then he goes to his own house (6 miles) for a final total of 10+6 = 16 miles",
+    "pred": "16",
+    "correct": 1,
+    "captured_answer": "16",
+    "captured_correct": true
+  },
+  {
+    "src": "gsm",
+    "uid": "g28764",
+    "idx": 28764,
+    "question": "In a zoo, there are 4 times as many flamingos as peacocks. If there are 10 peacocks, and half as many parrots as peacocks, how many birds are there in total?",
+    "answer": "55",
+    "intermediates": [
+      "40",
+      "5",
+      "55"
+    ],
+    "cot": "With 4 times as many flamingos as peacocks, there are 4*10=40 flamingos. With half as many parrots as peacocks, there are 1/2*10=5 parrots. If there were 10 peacocks, then the total number of birds in the zoo is 10+40+5=55 birds.",
+    "pred": "55",
+    "correct": 1,
+    "captured_answer": "55",
+    "captured_correct": true
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5094",
+  "kind": "own",
+  "descriptions": [
+    "Financial/statistical pattern: price data presented as a series of monthly figures (January\u2013June), establishing a continuation pattern of financial metrics with specific dollar amounts.\n\nStructured list momentum: the text is mid-sentence describing auction price data, with \"June\" entry still needing completion, suggesting more city-specific or item-specific details follow.\n\nFinal token \"and $1,200 and $1,200 and $1,200 and $1 and $5 and $1 and $2 and $1 and $1 and $1 and $1 and $2\" \u2014 this garbled repetition suggests a formatting artifact; the next token likely continues the auction price comparison or transitions to a new sentence about volume or another metric.",
+    "Product listing format with structured metadata fields (Brand, Model, Release Date) followed by descriptive prose about the film, establishing a pattern of product detail continuation.\n\nThe description is mid-sentence detailing film attributes (director, cast, genre, format), building toward completing the product description with remaining standard e-commerce fields like \"Product Details\" or additional specifications.\n\nFinal token \"is 90 is\" \u2014 mid-sentence repetition of \"is 1989,\" suggesting a copy-paste error; the immediate next tokens must complete the product description, likely \"12\" or continuing \"is 78\" (likely \"is 49\" or a product code), then continuing with \"5\" to complete \"10 is 9\" \u2014 most likely a cast/crew count or product detail number.",
+    "Structured e-commerce part-number table pattern: each category lists part numbers, descriptions, and subcategories in a consistent hierarchical format.\n\nStructured directory/catalog continuation: the page systematically lists filterable parts by category, with \"Part Numbers\" and \"Part Parts\" subcategories already shown, suggesting more filterable subcategories or navigation elements follow.\n\nFinal token \"Available\" ends a table cell in a part filter navigation list (\"Part Parts | Available\"), immediately expecting a closing pipe delimiter or the next filterable subcategory label continuing the table row pattern.",
+    "Structured table pattern: pipe-delimited rows listing table names with pipe-separated columns, continuing a consistent format throughout the \"Price\" section.\n\nStructured product listing continuation: the table has shown multiple rows with dates and pipe-delimited fields; more rows or a closing section (e.g., shipping, contact info) is expected.\n\nFinal token \"||$100|\" closes a table cell in the pipe-delimited price table; the next token must continue the pattern with another pipe-delimited row showing a date and corresponding price value.",
+    "Structured table pattern: pipe-delimited table rows with pipe characters, showing table headers and rows for pipe-delimited rows, requiring continuation of the same format.\n\nPart number table continuation: the sequence lists dates, pipe-delimited columns, and pricing \u2014 the pattern of \"||\" separators and month/year entries signals more table rows or entries are expected.\n\nFinal token \"||$||\" closes a table cell mid-row, immediately requiring the next pipe-delimited cell value (likely a dollar amount or date) to complete the \"||\" table structure.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and table cell data repeating consistently throughout the table.\n\nStructured list continuation: the pipe-delimited table of pipe-delimited fields is mid-sequence, with \"||\" separating columns; the pattern of dates and pipe-delimited values must continue.\n\nFinal token \"||$1,000|\" closes a table cell in the pipe-delimited format; the next token must be another \"||\" pipe character continuing the row, likely a dollar amount or another column value."
+  ],
+  "input_sha256": "537b830a858161042e65fe1551bbd2c1b687bcf1bf21b0cd8df1e1129c3715cd",
+  "values": [
+    {
+      "quote": "$1,200",
+      "value": "1200"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "$5",
+      "value": "5"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "1989",
+      "value": "1989"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "$1,000",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and dollar amounts from the provided descriptions, treating currency symbols as labels for the numeric values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,200\",\"value\":1200},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"$5\",\"value\":5},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"90\",\"value\":90},{\"quote\":\"1989\",\"value\":1989},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"$1,000\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals and dollar amounts from the provided descriptions, treating currency symbols as labels for the numeric values.\"}",
+  "prompt_sha256": "2fee70f3ddf5b99b2637637afabeb69dc7345c36ff6125f46e1db9a1dcf35cdb"
+}

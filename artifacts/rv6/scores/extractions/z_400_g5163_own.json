@@ -1,0 +1,29 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5163",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: each metric follows a structured format with numerical values, comparisons, and parenthetical context (e.g., \"1.59 per 100,000,\" \"1.59 per 100,000 in 2019\").\n\nContinuation of the hazard rate calculation: the sentence is mid-clause reporting a specific numerical value for the annualized rate, requiring a precise decimal figure with units (likely \"per 100,000\" or similar).\n\nFinal token \"is\" opens a predicate completing the hazard rate statistic, immediately requiring a numerical value (e.g., \"X.XX\") followed by a rate unit like \"per 100,000.\"",
+    "Film review genre with character-by-character pairing analysis, establishing romantic/compatibility dynamics between actors and characters.\n\nThe review is mid-sentence describing the film's plot and character pairings, building toward a specific romantic pairing assessment \u2014 the couple's chemistry and relationship quality are being evaluated.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a descriptive complement about the couple's qualities or the film's romantic pairing \u2014 likely a positive adjective or evaluative phrase like \"a strong pairing\" or \"a compelling couple.\"",
+    "Product review/spec article pattern: structured tech review with specs, then prose description, now transitioning to detailed technical evaluation of the film's quality and performance.\n\nContinuation of technical specification list: the review is mid-sentence describing the film's quality, having covered audio, video, and technical standards \u2014 a concluding evaluative statement about performance is expected.\n\nFinal token \"highest\" ends an incomplete comparative clause (\"best quality and best performance possible at the highest\"), requiring a noun phrase like \"quality\" or \"standard\" to complete the superlative construction.",
+    "Structured product specification page with consistent data-presentation format, listing technical specs, pricing, and performance details for the Canon MF217W printer.\n\nContinuation of a detailed spec/feature list pattern: the page systematically covers price, specs, features, and performance data, suggesting more technical or purchasing information follows.\n\nFinal token \"available\" ends an incomplete sentence mid-clause (\"highest quality available\"), part of a performance/specs section; next tokens must complete this phrase, likely with \"price\" or a similar noun, then continue with additional spec details.",
+    "Structured data table pattern: each metric follows \"label + value\" format, with consistent statistical reporting style throughout.\n\nFinancial/automotive data page genre: the text is presenting structured price statistics for a specific vehicle, with dollar figures, percentages, and time periods as key content.\n\nFinal token \"Available\" ends an incomplete sentence mid-clause (\"price and value are available\"), immediately requiring a dollar amount or range (e.g., \"at $X\" or \"in the range of $X to $Y\") to complete the statistical data point.",
+    "Statistical data pattern: structured table of monthly/annual figures with consistent formatting, each metric followed by dollar amounts and percentages.\n\nContinuation of the \"per game\" breakdown: the text is mid-sentence presenting a dollar-per-game figure, following the established pattern of providing specific numerical values for each metric.\n\nFinal token \"and\" is a conjunction mid-sentence within the \"per game\" statistic, immediately requiring a dollar amount or numerical value (e.g., \"and $X million\") to complete the financial figure being cited."
+  ],
+  "input_sha256": "45da483ebf0d726b0b9b4e460b03e6f62277ed3406a4fe0b9f4324fbd9b69ac9",
+  "values": [
+    {
+      "quote": "1.59 per 100,000",
+      "value": "1.59"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and denominators from the statistical report pattern description.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.59 per 100,000\",\"value\":1.59},{\"quote\":\"100,000\",\"value\":100000}],\"justification\":\"Extracted explicit numeric literals and denominators from the statistical report pattern description.\"}",
+  "prompt_sha256": "e37c6e05f5cc5f10ed864347e4c921c36f8edc2ec406aa54807f87e0e9c897d9"
+}

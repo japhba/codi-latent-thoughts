@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5068",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem requiring arithmetic completion: starting value 100, adding 35, subtracting 10, so the result must be 35 (100 \u2212 30 \u2212 5 = 35).\n\nThe structured solution format demands a specific numerical answer: original count 35 + 5 = 40, but the question asks after removing 10, so the answer is 35.\n\nFinal token \"become\" completes the calculation setup \"10 + 35 \u2212 5 = ___\", requiring the integer 35 as the next token, representing the new count (35 \u2212 5 = 30).",
+    "Math word problem solution in progress: initial count (30) + added 10 = 40, now requiring calculation of new counts after removing 5.\n\nStep-by-step arithmetic narrative: first step established 30 passengers, second step added 10, so the next tokens must state the updated total (30 + 10 = 40) before applying the decrease of 5.\n\nFinal token \"had\" introduces the result of the first passenger count (30 + 10 = 40), immediately requiring the number \"40\" followed by the new passengers added in the second phase (2 more added to reach 42).",
+    "Mathematical word problem solution in progress: tracking vote counts after adding 10, requiring arithmetic continuation (40 + 10 = 50, then subtracting 10 lost).\n\nStep-by-step solution structure: first case established (40 votes, 10 added), now tracking new count (40 + 10 = 50) before accounting for the 10 who vote against.\n\nFinal token \"4\" begins the number \"40\" representing the updated vote count after adding 10 votes (30 + 10), immediately requiring \"0\" to complete \"40\" before continuing with the next operation: subtracting the 10 who vote against.",
+    "Step-by-step math word problem solution format, requiring continuation of the arithmetic sequence showing seat counts after adding 8 filled seats.\n\nThe solution is tracking seat counts: initial 40 total seats, 10 removed, now 40 filled \u2014 next step must state the new count (40 + 8 = 48) before describing the decrease of 4 seats after the 2 empty ones return.\n\nFinal token \"40\" is the result of adding 8 filled seats to the 30 already filled, mid-sentence describing the updated seat count; immediately expects \"lights on\" or \"lights on in the lift\" to complete the count before describing the decrease.",
+    "Math word problem solution format: step-by-step algebraic reasoning with arithmetic operations, showing intermediate calculations (e.g., \"10 people added, 10 people removed\").\n\nThe solution is mid-calculation, tracking group changes: initial 100 people, 10 added, then 5 removed \u2014 the net change calculation requires completing the arithmetic expression showing the new count after removing 5.\n\nFinal token \"p\" is the start of \"people\" or \"members\" completing the phrase \"10 + 5 reduced by 2\" \u2014 specifically the word \"people\" or \"members\" describing the net change of -2, immediately constrained to continue the arithmetic expression showing the remaining group count after adding the 5 who left.",
+    "Math word problem format requires a structured solution: initial count (15 people) minus 2 removed = 13, then adding 4 remaining = 17, following the established template.\n\nThe problem explicitly states \"remove 2 people\" after the 15, so the next step must show the updated count (13) before applying the reduction of 4 to find the final remaining count.\n\nFinal token \"people.\" closes the intermediate calculation result (15 + 4 = 19), immediately requiring the next step: subtracting the 2 removed passengers to yield the new count: \"13 people remaining after removing 2.\""
+  ],
+  "input_sha256": "83fdf4dd2dfb0093a98017c8af22e1fbfced3ee05ff1c6edf236906154fcb694",
+  "values": [
+    {
+      "quote": "starting value 100",
+      "value": "100"
+    },
+    {
+      "quote": "adding 35",
+      "value": "35"
+    },
+    {
+      "quote": "subtracting 10",
+      "value": "10"
+    },
+    {
+      "quote": "100 \u2212 30 \u2212 5 = 35",
+      "value": "30"
+    },
+    {
+      "quote": "100 \u2212 30 \u2212 5 = 35",
+      "value": "5"
+    },
+    {
+      "quote": "original count 35 + 5 = 40",
+      "value": "40"
+    },
+    {
+      "quote": "initial count (30)",
+      "value": "30"
+    },
+    {
+      "quote": "2 more added to reach 42",
+      "value": "2"
+    },
+    {
+      "quote": "2 more added to reach 42",
+      "value": "42"
+    },
+    {
+      "quote": "40 + 10 = 50",
+      "value": "50"
+    },
+    {
+      "quote": "Final token \"4\" begins the number \"40\"",
+      "value": "4"
+    },
+    {
+      "quote": "adding 8 filled seats",
+      "value": "8"
+    },
+    {
+      "quote": "40 + 8 = 48",
+      "value": "48"
+    },
+    {
+      "quote": "decrease of 4 seats",
+      "value": "4"
+    },
+    {
+      "quote": "10 + 5 reduced by 2",
+      "value": "2"
+    },
+    {
+      "quote": "initial count (15 people)",
+      "value": "15"
+    },
+    {
+      "quote": "minus 2 removed = 13",
+      "value": "13"
+    },
+    {
+      "quote": "adding 4 remaining = 17",
+      "value": "17"
+    },
+    {
+      "quote": "15 + 4 = 19",
+      "value": "19"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions as per the instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"starting value 100\",\"value\":100},{\"quote\":\"adding 35\",\"value\":35},{\"quote\":\"subtracting 10\",\"value\":10},{\"quote\":\"100 \\u2212 30 \\u2212 5 = 35\",\"value\":30},{\"quote\":\"100 \\u2212 30 \\u2212 5 = 35\",\"value\":5},{\"quote\":\"original count 35 + 5 = 40\",\"value\":40},{\"quote\":\"initial count (30)\",\"value\":30},{\"quote\":\"2 more added to reach 42\",\"value\":2},{\"quote\":\"2 more added to reach 42\",\"value\":42},{\"quote\":\"40 + 10 = 50\",\"value\":50},{\"quote\":\"Final token \\\"4\\\" begins the number \\\"40\\\"\",\"value\":4},{\"quote\":\"adding 8 filled seats\",\"value\":8},{\"quote\":\"40 + 8 = 48\",\"value\":48},{\"quote\":\"decrease of 4 seats\",\"value\":4},{\"quote\":\"10 + 5 reduced by 2\",\"value\":2},{\"quote\":\"initial count (15 people)\",\"value\":15},{\"quote\":\"minus 2 removed = 13\",\"value\":13},{\"quote\":\"adding 4 remaining = 17\",\"value\":17},{\"quote\":\"15 + 4 = 19\",\"value\":19}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions as per the instructions.\"}",
+  "prompt_sha256": "424875145b62f43bb5abec3287c618e38bf422d080bc5db57132f58cd511c180"
+}

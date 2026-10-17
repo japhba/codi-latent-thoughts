@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5099",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: article lists specific percentages and findings, establishing expectation for numerical data to follow.\n\nContinuation of a structured list: the sentence enumerates specific findings with percentages, following the pattern \"X% of [group] [result]\" established earlier.\n\nFinal token \"is\" opens a predicate clause mid-sentence, requiring a numerical hazard ratio or descriptive statistical result (e.g., \"2.5 times higher\") to complete the finding about the 2010\u20132012 data.\n\"2 is\" is a truncated numerical value mid-sentence, immediately requiring a decimal or whole number continuation completing the hazard ratio or similar metric.\n\"2 is\" ends the sequence, part of a formal statistical finding; next tokens must complete the numeric value and likely a unit or descriptor like \"5 times higher\" or similar.\n\"2 is\" is incomplete, demanding immediate continuation of.",
+    "Character biography pattern: each entry follows a structured format introducing a character's backstory, history, and key plot details.\n\nNarrative momentum of the final sentence: introducing the secret identity of the unnamed man, with the text mid-sentence detailing his family history and the plot's timeline.\n\nFinal token \"23,\" is part of an incomplete year (\"23,\") within a factual biographical detail, immediately requiring a number completing the year (likely \"23, 1945\" or similar), continuing the historical timeline of the secret society.\n\"28 was 23,\" establishes a numerical sequence pattern requiring completion of the year \"24\" or similar, then continuing the political/secret society context.\n\n\"17,\" is a truncated number mid-clause, part of \"23, 1945\" or similar, immediately requiring digits to complete the year.",
+    "Recipe blog format with personal narrative voice, transitioning from ingredient list to detailed instructions and spiritual reflection.\n\nThe text is mid-sentence describing the author's personal journey with the recipe, establishing a pattern of explaining each ingredient's significance and personal connection.\n\nFinal token \"4\" is part of an incomplete number \"4\" \u2014 likely continuing \"40\" or \"4\" begins a larger number (e.g., \"40\" or \"400\"), completing the phrase \"4 4\" or \"40\" describing the relationship with the man, requiring continuation of the interrupted numeral \"4\" into a larger number or narrative clause.\n\"4\" is mid-word/mid-number, part of \"40 4\" or \"4 3 people\" \u2014 the next tokens must complete this interrupted numeral and continue the relationship backstory.\n\"40 4\" 3 people\" narrative momentum.",
+    "Q&A format pattern: alternating bold questions and detailed answers establishes strong structural expectation for continued biographical/personal content.\n\nList continuation momentum: the author is mid-answer to \"What inspired you to become a nutritionist?\" \u2014 personal background details and credentials are being enumerated, with more expected.\n\nFinal token \"60\" is mid-sentence, completing \"60\" as part of a list of male relatives (\"40 men and 60\"), immediately requiring continuation of the relationship description or elaboration on the book's gendered framing.\n\"60\" is the final token, completing \"100\" (likely \"40 men and 50 women\" or similar), demanding the next word complete this personal anecdote about the marriage's gendered nature.\n\"40\" 100\" 30\" \u2014 the truncated \"60\" number signals a specific count.",
+    "Statistical/legal framing: study findings are being elaborated, with medical/psychological data building toward a specific case or legal claim.\n\nNarrative momentum: the text has introduced the study's methodology and now transitions to explaining the legal/clinical implications, expecting continuation of the professional audience's framing.\n\nFinal token \"250,000\" is a repeated numerical figure mid-sentence, part of a restatement of the subject count; the next tokens must complete the sentence explaining what \"250,000 people\" means or what liability/compensation scenario follows.\n\"555,000 250,000 people\" \u2014 the \"2935\" personal injury clients combined with \"2,931\" medical professionals, so \"555,000 2935\" combined implies a liability scenario or.",
+    "Legal case analysis format: structured Bible study commentary with scripture, questions, and theological application sections.\n\nNarrative momentum: the \"Application\" section has begun, explaining the case's procedural history; the next tokens will continue describing the church's legal reasoning or the practical question posed.\n\nFinal token \"295\" ends a sentence describing the church's meeting count (\"71 times\"), immediately expecting continuation of the procedural/legal analysis \u2014 likely describing the church's interpretation of the 295 meeting count or the resulting legal question.\n\"295\" is the final token, completing \"71 times 295\" scenario; \"29.5\" 101\" scene\" or similar memory-based procedural language is expected next, continuing the 268 meeting interpretation.\n\"11 739\" 296\" scene\" 295 people\" relationship.\""
+  ],
+  "input_sha256": "2b9c795cf10a7e792d9e0118a6bfcc77a8f02dcdcf53b99a9bde625be0166242",
+  "values": [
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "28 was 23,",
+      "value": "28"
+    },
+    {
+      "quote": "28 was 23,",
+      "value": "23"
+    },
+    {
+      "quote": "17,",
+      "value": "17"
+    },
+    {
+      "quote": "4 4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "4 3 people",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "40 men",
+      "value": "40"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50 women",
+      "value": "50"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "250,000",
+      "value": "250000"
+    },
+    {
+      "quote": "555,000",
+      "value": "555000"
+    },
+    {
+      "quote": "2935",
+      "value": "2935"
+    },
+    {
+      "quote": "2,931",
+      "value": "2931"
+    },
+    {
+      "quote": "295",
+      "value": "295"
+    },
+    {
+      "quote": "71 times",
+      "value": "71"
+    },
+    {
+      "quote": "29.5",
+      "value": "29.5"
+    },
+    {
+      "quote": "101",
+      "value": "101"
+    },
+    {
+      "quote": "268",
+      "value": "268"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "739",
+      "value": "739"
+    },
+    {
+      "quote": "296",
+      "value": "296"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each value is mapped to its specific context quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"2 is\",\n      \"value\": 2\n    },\n    {\n      \"quote\": \"28 was 23,\",\n      \"value\": 28\n    },\n    {\n      \"quote\": \"28 was 23,\",\n      \"value\": 23\n    },\n    {\n      \"quote\": \"17,\",\n      \"value\": 17\n    },\n    {\n      \"quote\": \"4 4\",\n      \"value\": 4\n    },\n    {\n      \"quote\": \"40\",\n      \"value\": 40\n    },\n    {\n      \"quote\": \"400\",\n      \"value\": 400\n    },\n    {\n      \"quote\": \"4 3 people\",\n      \"value\": 3\n    },\n    {\n      \"quote\": \"60\",\n      \"value\": 60\n    },\n    {\n      \"quote\": \"40 men\",\n      \"value\": 40\n    },\n    {\n      \"quote\": \"100\",\n      \"value\": 100\n    },\n    {\n      \"quote\": \"50 women\",\n      \"value\": 50\n    },\n    {\n      \"quote\": \"30\",\n      \"value\": 30\n    },\n    {\n      \"quote\": \"250,000\",\n      \"value\": 250000\n    },\n    {\n      \"quote\": \"555,000\",\n      \"value\": 555000\n    },\n    {\n      \"quote\": \"2935\",\n      \"value\": 2935\n    },\n    {\n      \"quote\": \"2,931\",\n      \"value\": 2931\n    },\n    {\n      \"quote\": \"295\",\n      \"value\": 295\n    },\n    {\n      \"quote\": \"71 times\",\n      \"value\": 71\n    },\n    {\n      \"quote\": \"29.5\",\n      \"value\": 29.5\n    },\n    {\n      \"quote\": \"101\",\n      \"value\": 101\n    },\n    {\n      \"quote\": \"268\",\n      \"value\": 268\n    },\n    {\n      \"quote\": \"11\",\n      \"value\": 11\n    },\n    {\n      \"quote\": \"739\",\n      \"value\": 739\n    },\n    {\n      \"quote\": \"296\",\n      \"value\": 296\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each value is mapped to its specific context quote.\"\n}",
+  "prompt_sha256": "88ba787711649fc7fdf7819b5e9b2b41fe70e531cf1e224575be0f3672917d91"
+}

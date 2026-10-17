@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5068",
+  "kind": "own",
+  "descriptions": [
+    "Math problem-solving context: calculating total grid cells (4\u00d710=40) then asking for remaining empty cells after 3/4 filled.\n\nThe question structure \"How many empty cells are expected?\" requires a numerical answer expressing the missing count, derived from 1/4 of 10\u00d74 grid cells remaining after 3/4 of each column.\n\nFinal token \"expected:\" is a prompt for a specific numerical answer, constrained to be a small integer representing the missing cells from 1/4 of 4\u00d710 grid columns, likely \"10\" (since 1/4 of 4\u00d710=10), completing the answer to the implied question about the 10\u00d74 grid minus 3/4 filled cells: 10\u00d7(1-3/4).",
+    "Math word problem setup requiring arithmetic completion: total seats = 4 rows \u00d7 10 columns = 40, establishing the arithmetic context.\n\nThe problem follows a classic arithmetic word problem structure: total seats = 4\u00d710, then asking how many are broken/available, requiring the multiplication result before applying the 1/4 fraction.\n\nFinal token \"had\" completes \"There were,\" introducing the total number of seats available (10\u00d74=40), immediately requiring the integer \"40\" to state the total total before stating the broken count (10 seats broken = 25/total), likely \"40 total seats\" or \"40 seats possible\" before stating remaining seats after 1/4 of 10.",
+    "Word problem setup requiring arithmetic completion: total seats = 4 rows \u00d7 10 columns = 40, establishing the arithmetic context.\n\nThe problem follows a classic arithmetic word problem format: \"There are 4 rows of 10 seats each\" demands the total count before asking how many are broken/available.\n\nFinal token \"4\" begins the total number \"40\" (from 4\u00d710), completing the sentence \"There are 4 rows \u00d7 10 = 40 total seats\" \u2014 the next tokens must complete this arithmetic statement, likely \"0 total seats\" or \"0 seats available,\" then introduce the broken seats problem (10 seats broken per row) to find remaining capacity.",
+    "Math word problem format requires completing the total parking capacity calculation (4 rows \u00d7 10 columns = 40 total spaces), then applying the given filled count (16) to find remaining available spaces.\n\nThe problem structure demands a solution walkthrough: total capacity established (40), then asking how many are filled, implying the next step involves division or subtraction to find the fraction remaining.\n\nFinal token \"40\" is the total calculated total number of parking spaces from 4 rows \u00d7 10 columns, completing the setup sentence \"There are 40 parking spaces in total,\" immediately requiring continuation like \"parking spaces in total\" or \"parking spaces available\" before stating the filled count (16 of 40) to find the fraction.",
+    "Math word problem solution format: structured step-by-step explanation of total seats calculation, following \"Total number of seats = 4/4 of 400 = 100.\"\n\nThe solution is mid-calculation, having established total capacity (400) and filled fraction (3/4), now computing the remaining unfilled seats to find the empty seats count.\n\nFinal token \"p\" begins \"p\" continuing the arithmetic expression \"40 rows \u00d7 3/4 = 100 seats\" or similar, completing the formula showing filled seats (3/4 of 40\u00d740) then subtracting the 1/4 remaining seats, then accounting for the 1/4 empty seats: 40\u00d7(1/4) = 100.",
+    "Math word problem pattern: each problem follows identical structure (total \u2192 fraction \u2192 remaining), now completing the second problem's solution.\n\nThe second problem mirrors the first's format: total seats (50) \u00d7 2/5 = 30 filled, leaving 20 empty seats, so the remaining count calculation is expected next.\n\nFinal token \"30.\" ends the computed answer of 75% of 50 seats filled by 2/3, immediately requiring the remaining seats calculation: \"30 seats are filled, so 20 seats remain\" or similar phrasing confirming the answer, then total remaining capacity: 50\u00d7(1-2/3) = 10 seats remaining."
+  ],
+  "input_sha256": "e3fb2287566b6d9a98b6df11aa16e244895bca7fe75244fc5f0d61a9d14d985a",
+  "values": [
+    {
+      "quote": "4\u00d710=40",
+      "value": "4"
+    },
+    {
+      "quote": "4\u00d710=40",
+      "value": "10"
+    },
+    {
+      "quote": "4\u00d710=40",
+      "value": "40"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "10\u00d74",
+      "value": "10"
+    },
+    {
+      "quote": "10\u00d74",
+      "value": "4"
+    },
+    {
+      "quote": "10\u00d7(1-3/4)",
+      "value": "2.5"
+    },
+    {
+      "quote": "25/total",
+      "value": "25"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "4/4 of 400 = 100",
+      "value": "1"
+    },
+    {
+      "quote": "4/4 of 400 = 100",
+      "value": "400"
+    },
+    {
+      "quote": "4/4 of 400 = 100",
+      "value": "100"
+    },
+    {
+      "quote": "40 rows \u00d7 3/4 = 100",
+      "value": "40"
+    },
+    {
+      "quote": "40 rows \u00d7 3/4 = 100",
+      "value": "30"
+    },
+    {
+      "quote": "40\u00d740",
+      "value": "40"
+    },
+    {
+      "quote": "40\u00d7(1/4) = 100",
+      "value": "10"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "2/5",
+      "value": "0.4"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "75%",
+      "value": "75"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "50\u00d7(1-2/3) = 10",
+      "value": "16.6667"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, percentages, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\\u00D710=40\",\"value\":4},{\"quote\":\"4\\u00D710=40\",\"value\":10},{\"quote\":\"4\\u00D710=40\",\"value\":40},{\"quote\":\"3/4\",\"value\":0.75},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"10\\u00D74\",\"value\":10},{\"quote\":\"10\\u00D74\",\"value\":4},{\"quote\":\"10\\u00D7(1-3/4)\",\"value\":2.5},{\"quote\":\"25/total\",\"value\":25},{\"quote\":\"16\",\"value\":16},{\"quote\":\"4/4 of 400 = 100\",\"value\":1},{\"quote\":\"4/4 of 400 = 100\",\"value\":400},{\"quote\":\"4/4 of 400 = 100\",\"value\":100},{\"quote\":\"40 rows \\u00D7 3/4 = 100\",\"value\":40},{\"quote\":\"40 rows \\u00D7 3/4 = 100\",\"value\":30},{\"quote\":\"40\\u00D740\",\"value\":40},{\"quote\":\"40\\u00D7(1/4) = 100\",\"value\":10},{\"quote\":\"50\",\"value\":50},{\"quote\":\"2/5\",\"value\":0.4},{\"quote\":\"30\",\"value\":30},{\"quote\":\"20\",\"value\":20},{\"quote\":\"75%\",\"value\":75},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"50\\u00D7(1-2/3) = 10\",\"value\":16.666666666666668}],\"justification\":\"Extracted all explicit numeric literals, fractions, percentages, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "5b64849a218a5ba46a723b5bf73cf0b0279053ed4b2ae8c07666ae16e1722966"
+}

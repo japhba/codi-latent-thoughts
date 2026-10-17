@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5144",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup requiring algebraic solution: two numbers summing to 70, with one being 10 more than the other.\n\nThe problem follows a classic algebraic word problem format: equation expected: x + (x + 15) = 70, solving for x.\n\nFinal token \"is\" introduces the numerical answer, immediately requiring the integer value of the first number (70\u221215\u221210=45), likely formatted as \"45\" or \"45 years old.\"\nThe answer must be a specific integer representing the first person's age.\n(70\u221215)/2 = 45, so the next token is the number \"40\" or \"45\" completing the division expression.\n(70\u221210)/2 = the answer.\n(70\u221215\u221210)/2 = 4.",
+    "Math word problem solution format: algebraic setup expected, solving x + (x + 15) = 70.\n\nThe equation x + (70 - 15) = two people's ages must be established, then solved step-by-step.\n\nFinal token \"had\" begins the algebraic equation setup, immediately requiring the arithmetic expression like \"70 - 15 = 55\" or \"two people's total minus 15\" to express the equation.\n(70 \u2212 15) / 2 = x + 15.\nThe next tokens must complete the equation simplification showing the arithmetic reasoning.\n70 \u2212 15 + 35 = two people's combined age minus 15 difference, leading to solving for x.\n70 \u2212 15 + 30 = equation being formed.\nDividing by 2 to.",
+    "Math word problem solution format: algebraic setup expected, solving for x where (x + (x + 15)) = total.\n\nThe equation structure requires completing the algebraic expression: total minus difference = 80, so (x + 15) + x = total minus 15.\n\nFinal token \"5\" begins the arithmetic expression \"55\" or \"50\" representing the total minus 15 gap between brothers, immediately constraining next tokens to complete this number (likely \"5\" completing \"50\" or \"55\") as part of solving for x.\nThe equation setup requires expressing the equation: total minus 15 between brothers minus 5.\n(30 + x) minus 15 = balanced equation representing equal ages.\n(30 + x) minus 15 = 45, solving for x between them.",
+    "Math word problem format requires algebraic setup and solving steps, following a structured solution pattern.\n\nThe equation setup is mid-sentence: \"The sum of their ages minus the difference is 55\" implies a total minus twice the difference equals 55, so the equation (x + (x + 2) = total minus 5) must be completed.\n\nFinal token \"55\" is the result of subtracting the two children's ages from total 75, forming the simplified equation setup; next tokens must complete the algebraic reasoning, likely \"years\" or \"shared between them\" to solve for x.\n55 represents the combined total minus 5, and the next step is solving for x.\n55 is the simplified equation, requiring explanation of how to split it equally between the two brothers.\n55 divided by 2 = the middle age.",
+    "Math word problem solution format: algebraic setup with variable substitution, requiring completion of the equation solving for x.\n\nThe equation (x + (x + 15)) = total age 110 must be resolved step-by-step, with the middle step showing total combined age.\n\nFinal token \"p\" begins the word \"p\" completing \"110-55\" or similar arithmetic expression, likely \"the middle\" or \"the average,\" immediately constrained to finish the algebraic explanation of finding the equal distance between the two brothers.\nThe formula (total minus difference)/2 is being constructed.\n(55+x) + (x+15) = twice the middle age, so solving for x = (350-110)/2 or similar numerical resolution.",
+    "Step-by-step math word problem format: each step follows \"Let's solve for X\" pattern, systematically working through algebraic setup toward finding the answer.\n\nThe equation x + 2x = 56 has been established and simplified; the next logical step is solving for x, then confirming the smaller number.\n\nFinal token \"6.4. points. 36. The equation x + (x + twice) = total 112.\" ends the equation setup, immediately requiring the solution: finding the middle number (112/3 \u2248 36).\nFinal token \"27. points.\" closes the equation simplification step, expecting the numerical answer revealing the equal smaller number.\nThe last token \"1.56\" concludes the equation solving step, so the next tokens must state the solution result, likely \"The smaller number is 36.\""
+  ],
+  "input_sha256": "bfced585153c3e99b982f9591cc655906d2a3b1fc77814095c0c3c61ebb99256",
+  "values": [
+    {
+      "quote": "summing to 70",
+      "value": "70"
+    },
+    {
+      "quote": "being 10 more",
+      "value": "10"
+    },
+    {
+      "quote": "x + 15",
+      "value": "15"
+    },
+    {
+      "quote": "70\u221215\u221210=45",
+      "value": "45"
+    },
+    {
+      "quote": "number \"40\"",
+      "value": "40"
+    },
+    {
+      "quote": "(70\u221215\u221210)/2 = 4.",
+      "value": "4"
+    },
+    {
+      "quote": "70 - 15 = 55",
+      "value": "55"
+    },
+    {
+      "quote": "70 \u2212 15 + 35",
+      "value": "35"
+    },
+    {
+      "quote": "70 \u2212 15 + 30",
+      "value": "30"
+    },
+    {
+      "quote": "total minus difference = 80",
+      "value": "80"
+    },
+    {
+      "quote": "Final token \"5\"",
+      "value": "5"
+    },
+    {
+      "quote": "\"50\"",
+      "value": "50"
+    },
+    {
+      "quote": "(30 + x)",
+      "value": "30"
+    },
+    {
+      "quote": "(x + 2)",
+      "value": "2"
+    },
+    {
+      "quote": "total 75",
+      "value": "75"
+    },
+    {
+      "quote": "total age 110",
+      "value": "110"
+    },
+    {
+      "quote": "(350-110)/2",
+      "value": "350"
+    },
+    {
+      "quote": "x + 2x = 56",
+      "value": "56"
+    },
+    {
+      "quote": "6.4. points.",
+      "value": "6.4"
+    },
+    {
+      "quote": "36.",
+      "value": "36"
+    },
+    {
+      "quote": "total 112.",
+      "value": "112"
+    },
+    {
+      "quote": "27. points.",
+      "value": "27"
+    },
+    {
+      "quote": "1.56",
+      "value": "1.56"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and results of unambiguous arithmetic expressions (like 70-15-10=45) from the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"summing to 70\",\"value\":70},{\"quote\":\"being 10 more\",\"value\":10},{\"quote\":\"x + 15\",\"value\":15},{\"quote\":\"70\\u221215\\u221210=45\",\"value\":45},{\"quote\":\"number \\\"40\\\"\",\"value\":40},{\"quote\":\"(70\\u221215\\u221210)/2 = 4.\",\"value\":4},{\"quote\":\"70 - 15 = 55\",\"value\":55},{\"quote\":\"70 \\u2212 15 + 35\",\"value\":35},{\"quote\":\"70 \\u2212 15 + 30\",\"value\":30},{\"quote\":\"total minus difference = 80\",\"value\":80},{\"quote\":\"Final token \\\"5\\\"\",\"value\":5},{\"quote\":\"\\\"50\\\"\",\"value\":50},{\"quote\":\"(30 + x)\",\"value\":30},{\"quote\":\"(x + 2)\",\"value\":2},{\"quote\":\"total 75\",\"value\":75},{\"quote\":\"total age 110\",\"value\":110},{\"quote\":\"(350-110)/2\",\"value\":350},{\"quote\":\"x + 2x = 56\",\"value\":56},{\"quote\":\"6.4. points.\",\"value\":6.4},{\"quote\":\"36.\",\"value\":36},{\"quote\":\"total 112.\",\"value\":112},{\"quote\":\"27. points.\",\"value\":27},{\"quote\":\"1.56\",\"value\":1.56}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and results of unambiguous arithmetic expressions (like 70-15-10=45) from the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "cfc011782f2e83f0cde455ea281178688817089290de19300a4e497fe9d2342d"
+}

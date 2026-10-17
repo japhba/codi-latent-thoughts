@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5042",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: city-by-city numeric data being enumerated, with \"New York\" and \"Los Angeles\" already given, implying more cities follow.\n\nStructured data continuation: the text is mid-sentence listing city rankings with counts, following the established format \"city name, number.\"\n\nFinal token \"10.\" is a truncated decimal number mid-sentence (\"The number of cities in the United States is 10.\"), immediately requiring continuation of the numeric value (likely \"10.5\" or similar) before the sentence concludes.\n\"10.\" is part of a numeric ranking statistic for a city count.\n\"10.\" is incomplete numeric data, requiring digits to complete the figure.\n\"106\" table row pattern suggests city entries with numeric counts follow.\n\"16%\" or similar numeric continuation is expected next.\n\"26%\" or similar numeric hazard figure is the final token,.",
+    "Character introduction pattern: each character gets a descriptive paragraph; \"130\" is mid-sentence describing the narrator's emotional reaction to the letter.\n\nReview structure momentum: the text follows a film review format, systematically covering plot, characters, and themes, suggesting continued character analysis or transition to next character.\n\nFinal token \"130,\" is mid-sentence within a numerical reference (likely \"1300\" or \"1300 pages\"), requiring immediate numeric continuation or descriptive completion of the quantity/size detail.\n\"1300\" or \"1500\" is likely intended, followed by \"143\" or similar rating reference.\n\"154\" is advice-style list item; \"1543\" character description \"1301\" is garbled \u2014 nutritional \"1431\" visual; \"1543\" is mid-word.",
+    "Structured list pattern: recipe instructions follow a consistent format of ingredient + quantity + preparation method, establishing strong continuation expectations.\n\nInstructional momentum: the text is mid-sentence describing a cooking step (\"Add the remaining 1/2 cup...\"), implying a time duration or serving suggestion follows.\n\nFinal token \"15\" is an incomplete number mid-sentence (\"15 minutes\" or similar measurement), requiring immediate numeric continuation to complete the quantity or time specification.\n\"15\" likely precedes a unit like \"minutes\" or product quantity.\n\"155\" or similar product name is unlikely; \"15 minutes\" is the most probable completion.\n\"155\" rating or instruction continuation follows pricing/quantity guidance.\n\"150 minutes\" instruction is \"155\" nutritional label or instruction; \"15\" is a truncated numeric value \"1,6\" pairing visual instruction with.",
+    "Listicle/article format with numbered sections and bullet points signals continuation of enumerated examples or elaboration on the \"60 percent\" statistic.\n\nThe article is building a case for social media's value in church outreach, with the \"60 percent\" claim requiring supporting examples or elaboration.\n\nFinal token \"60\" is mid-sentence (\"60 percent\" or \"600\"), part of a list of social media platform examples; next tokens must complete this number or immediately follow with more platform names or descriptive content.\n\"60\" is likely \"600\" or a list item, requiring numeric continuation or list completion.\n\"60\" food items or similar category label follows \"500\" book recommendations.\n\"60\" is \"150\" visual guide \u2014 the \"90\" instruction \"500\" is garbled; product rating \"213\".",
+    "Review structure momentum: article systematically covers methodology, findings, and now transitions to a concluding evaluative summary of the ranking methodology.\n\nStatistical/factual continuation: the sentence lists specific numbers (\"100,000,\" \"100,000\") and is building toward a comparative ranking or evaluative conclusion about the study's findings.\n\nFinal token \"100,000\" ends a comparative clause (\"100,000\" likely intended as \"200,000\"), part of a media ranking statistic; next tokens will complete the citation or source reference, e.g., \"according to...\" or publication name.\n\"2000,000\" policy comparison suggests regulatory media coverage follows.\n\"200,109\" image score suggests analytical scorecard format; \"1098 people\" or similar rating data follows.",
+    "Q&A format pattern: alternating bold questions with explanatory answers, establishing strong expectation for continued structured responses.\n\nLegal advice article momentum: the current answer about reporting to police is mid-sentence, listing actionable steps; more guidance or a closing recommendation is expected.\n\nFinal token \"15\" ends an incomplete sentence (\"15 minutes\" or similar time reference), likely part of a statistic or recommendation clause, requiring immediate numeric continuation or a unit like \"minutes\" to complete the phrase.\n\"15\" is a truncated number mid-sentence, likely continuing as \"15 minutes\" or a citation/source reference.\n\"15\" list item or regulatory citation follows.\n\"15\" is legal rating category label, suggesting structured list formatting continues.\n\"15\" regulatory citation or contact number follows.\n\"6. 15 seconds\" is garbled formatting artifact; legal boilerplate list \"130\"."
+  ],
+  "input_sha256": "23fd74fb18a78b8044b58c957cabb59965ee14afe4097800ef3ea3e7b7485225",
+  "values": [
+    {
+      "quote": "106",
+      "value": "106"
+    },
+    {
+      "quote": "16%",
+      "value": "16"
+    },
+    {
+      "quote": "26%",
+      "value": "26"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "1300",
+      "value": "1300"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "143",
+      "value": "143"
+    },
+    {
+      "quote": "154",
+      "value": "154"
+    },
+    {
+      "quote": "1543",
+      "value": "1543"
+    },
+    {
+      "quote": "1301",
+      "value": "1301"
+    },
+    {
+      "quote": "1431",
+      "value": "1431"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "1,6",
+      "value": "16"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "213",
+      "value": "213"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "2000,000",
+      "value": "2000000"
+    },
+    {
+      "quote": "200,109",
+      "value": "200109"
+    },
+    {
+      "quote": "1098",
+      "value": "1098"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and fractions from the provided descriptions, treating comma-separated digits as single numbers and converting fractions to decimals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"106\",\"value\":106},{\"quote\":\"16%\",\"value\":16},{\"quote\":\"26%\",\"value\":26},{\"quote\":\"130\",\"value\":130},{\"quote\":\"1300\",\"value\":1300},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"143\",\"value\":143},{\"quote\":\"154\",\"value\":154},{\"quote\":\"1543\",\"value\":1543},{\"quote\":\"1301\",\"value\":1301},{\"quote\":\"1431\",\"value\":1431},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"155\",\"value\":155},{\"quote\":\"150\",\"value\":150},{\"quote\":\"1,6\",\"value\":1.6},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"500\",\"value\":500},{\"quote\":\"90\",\"value\":90},{\"quote\":\"213\",\"value\":213},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"2000,000\",\"value\":2000000},{\"quote\":\"200,109\",\"value\":200109},{\"quote\":\"1098\",\"value\":1098}],\"justification\":\"Extracted explicit numeric literals, percentages, and fractions from the provided descriptions, treating comma-separated digits as single numbers and converting fractions to decimals.\"}",
+  "prompt_sha256": "b34eafbe09366dd4a582255b286fb73fc490e694d0471e855391588562b376eb"
+}

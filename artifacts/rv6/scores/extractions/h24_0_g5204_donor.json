@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5204",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem solution format: structured step-by-step algebraic reasoning with variable substitution, expecting a numerical answer.\n\nThe problem follows a classic \"find remaining amount\" template: total amount minus two parts (x + 3x = 56), so the remaining amount must be 56 - 2x = 28.\n\nFinal token \"is\" opens a declarative statement completing the solution, immediately requiring a specific numerical value (likely \"28\") as the answer to \"How much is the remaining amount.\"\n</explanation>",
+    "Mathematical arithmetic continuation: the total cost calculation requires summing all prices (15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+",
+    "Math word problem solution in progress: arithmetic calculation of total cost for 10 pants at $13 each, requiring completion of the multiplication result.\n\nStep-by-step worked solution format established: each step builds on the previous, with the final step showing the arithmetic result.\n\nThe last token \"13\" is the start of the multiplication result (10 \u00d7 $13 = $130), immediately requiring the digit \"0\" to complete the number, followed by the arithmetic conclusion.\n</explanation>",
+    "Step-by-step math word problem solution format, with each step showing arithmetic operations and intermediate results, following a consistent pattern of \" Operation: result\" structure.\n\nThe solution is mid-calculation, having established total cost (130) and now expected to state remaining change amount (130 \u2212 100 = 30).\n\nFinal token \"$130\" is the computed total cost, part of the \"Subtract the cost of the pants from the total cost\" step; next tokens must complete this arithmetic result, likely \"in total\" or a period, then state the remaining change amount.\n</explanation>",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-calculation, having substituted x=12 into x+3x=48, so the arithmetic result and final answer are expected next.\n\nFinal token \"48$\" is the computed total cost, immediately requiring the solution to solve for x (e.g., \"48$ / 4 = 12\") to find the number of books purchased.\n</explanation>",
+    "Mathematical problem-solving structure: a two-part arithmetic problem requiring calculation of remaining money after a purchase, with part (a) asking for the difference.\n\nThe solution must show the arithmetic: $100 \u2212 $75 = $25, following the established pattern of showing work with intermediate steps.\n\nThe final token \"$75\" is the second value in a subtraction expression, immediately requiring the arithmetic result \"25\" to complete the calculation, likely followed by explanation of the difference.\n</explanation>"
+  ],
+  "input_sha256": "8d4ad2f7ccd87bc6755d0d643a89e006e63c48937b6980d5dca7b8e6ec65d4af",
+  "values": [
+    {
+      "quote": "x + 3x = 56",
+      "value": "56"
+    },
+    {
+      "quote": "56 - 2x = 28",
+      "value": "28"
+    },
+    {
+      "quote": "56 - 2x = 28",
+      "value": "2"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "10 pants",
+      "value": "10"
+    },
+    {
+      "quote": "$13 each",
+      "value": "13"
+    },
+    {
+      "quote": "10 \u00d7 $13 = $130",
+      "value": "130"
+    },
+    {
+      "quote": "130 \u2212 100 = 30",
+      "value": "100"
+    },
+    {
+      "quote": "130 \u2212 100 = 30",
+      "value": "30"
+    },
+    {
+      "quote": "x=12",
+      "value": "12"
+    },
+    {
+      "quote": "x+3x=48",
+      "value": "48"
+    },
+    {
+      "quote": "48$ / 4 = 12",
+      "value": "4"
+    },
+    {
+      "quote": "$100 \u2212 $75 = $25",
+      "value": "75"
+    },
+    {
+      "quote": "$100 \u2212 $75 = $25",
+      "value": "25"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, arithmetic operands, and results from the provided descriptions, including variables set to specific values and results of stated equations.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"x + 3x = 56\",\"value\":56},{\"quote\":\"56 - 2x = 28\",\"value\":28},{\"quote\":\"56 - 2x = 28\",\"value\":2},{\"quote\":\"15\",\"value\":15},{\"quote\":\"10 pants\",\"value\":10},{\"quote\":\"$13 each\",\"value\":13},{\"quote\":\"10 \\u00D7 $13 = $130\",\"value\":130},{\"quote\":\"130 \\u2212 100 = 30\",\"value\":100},{\"quote\":\"130 \\u2212 100 = 30\",\"value\":30},{\"quote\":\"x=12\",\"value\":12},{\"quote\":\"x+3x=48\",\"value\":48},{\"quote\":\"48$ / 4 = 12\",\"value\":4},{\"quote\":\"$100 \\u2212 $75 = $25\",\"value\":75},{\"quote\":\"$100 \\u2212 $75 = $25\",\"value\":25}],\"justification\":\"Extracted all explicit numeric literals, arithmetic operands, and results from the provided descriptions, including variables set to specific values and results of stated equations.\"}",
+  "prompt_sha256": "f89814da201456f5b3288507b4bf330a2fddff6e9eb16d75a14c13625e38d629"
+}

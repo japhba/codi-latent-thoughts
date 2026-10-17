@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5043",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: article consistently pairs country names with specific numeric data (e.g., \"19th,\" \"20th,\" \"21st,\" \"22nd\"), so a country name or ranking is expected next.\n\nContinuation of country list: the text is mid-sentence describing a ranking sequence, with \"is\" introducing a comparative or descriptive clause about the game's performance or reception.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numerical value or descriptor (e.g., \"is 5 is\" suggests a typo; next tokens likely complete a dollar figure or comparative statistic about the game's sales or ranking).",
+    "Character description pattern: the text is mid-sentence describing film characters, having just introduced \"The first is a British man,\" implying more character details follow.\n\nList/continuation momentum: the review is building a cultural analysis of British identity, with film examples supporting the thesis; more film descriptions or personal reflections are expected.\n\nFinal token \"900,\" ends a clause about the British man's age, immediately requiring continuation of his biographical/psychological traits \u2014 likely \"900 was 90 years old\" or a parallel description of the British woman's character, completing the \"1999 was 90 years old\" parallel structure; \"179\" suggests a typo mid-sentence, but the next tokens must complete the cultural/historical observation about family values.",
+    "Product description genre with structured book review format, detailing technical specifications and historical context of the book.\n\nThe text is mid-sentence describing the book's visual/technical content, having just introduced the book's purpose and features; continuation of the academic/technical description of the film's properties is expected.\n\nFinal token \"30\" is part of \"17 best 30\" \u2014 an incomplete enumeration of a specific claim (likely \"17 best 48\" or similar), requiring a number or noun to complete the superlative product description; \"5\" or \"7\" likely follows, then \"30\" completing a technical specification like \"12 cameras\" or similar film-count detail.",
+    "Structured product specification pattern: article lists technical specs (dimensions, weight, materials) in sequence, suggesting more spec details follow.\n\nContinuation of a factual/encyclopedic description of the product's measurement data, with the text mid-sentence explaining the test standard reference, implying further elaboration on certification or testing methodology.\n\nFinal token \"120\" ends an incomplete comparative clause (\"most popular 120\"), likely continuing with \"most popular 50\" or a product name/price reference, or completing \"most affordable 30 most popular 48\" \u2014 a list of ranked product variants or price comparisons is immediately expected.",
+    "Statistical/numerical pattern: article consistently presents specific performance data (speeds, times, distances), so more numeric comparisons or product details are expected next.\n\nProduct specification continuation: the text is mid-sentence describing the 2019 model's features, with \"most expensive\" ranking and price context suggesting further specification of the product's attributes or market position.\n\nFinal token \"adequate\" ends an incomplete comparative clause (\"most expensive...adequate\"), likely part of a sentence about the test bike's price or weight, with \"adequate\" as a typo for \"adequate\" \u2014 the next token continues this sentence, probably \"500\" or a weight/weight specification completing the \"most adequate\" measurement phrase.",
+    "Statistical/numerical pattern: article consistently presents country rankings with specific figures (e.g., \"1st,\" \"2nd,\" \"3rd,\" \"4th\"), suggesting continuation of this data-driven format.\n\nDomain-specific content: sports journalism covering Canada-U.S. hockey trade, with financial figures and player statistics driving the narrative; more trade data or product details expected.\n\nFinal token \"is more than is\" is mid-sentence, part of a comparative financial comparison (\"more than is [X]\"), requiring a specific dollar amount or price figure to complete the superlative construction, likely a currency value or comparative benchmark."
+  ],
+  "input_sha256": "51bee26b8b39a996ef1e3b63a0e5cf5d6d1854cbabef5275af2f7148c1e5c686",
+  "values": [
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "90 years old",
+      "value": "90"
+    },
+    {
+      "quote": "179",
+      "value": "179"
+    },
+    {
+      "quote": "17 best 30",
+      "value": "17"
+    },
+    {
+      "quote": "17 best 30",
+      "value": "30"
+    },
+    {
+      "quote": "12 cameras",
+      "value": "12"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "30 most popular 48",
+      "value": "30"
+    },
+    {
+      "quote": "30 most popular 48",
+      "value": "48"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers found within the provided descriptions, including those within quotes or identified as typos/specifications.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"900\",\"value\":900},{\"quote\":\"90 years old\",\"value\":90},{\"quote\":\"179\",\"value\":179},{\"quote\":\"17 best 30\",\"value\":17},{\"quote\":\"17 best 30\",\"value\":30},{\"quote\":\"12 cameras\",\"value\":12},{\"quote\":\"120\",\"value\":120},{\"quote\":\"50\",\"value\":50},{\"quote\":\"30 most popular 48\",\"value\":30},{\"quote\":\"30 most popular 48\",\"value\":48},{\"quote\":\"500\",\"value\":500}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers found within the provided descriptions, including those within quotes or identified as typos/specifications.\"}",
+  "prompt_sha256": "0f34219899dadcfb797f81cce27ce98a13561e56ef5bc0a012b8e64afa8843bc"
+}

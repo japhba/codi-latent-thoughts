@@ -1,0 +1,133 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5162",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with percentages, establishing a template of city name + percentage + raw count.\n\nThe sentence structure \"The city of X has Y percent of [total]\" repeats, with the final sentence mid-completion requiring a specific percentage figure and likely a raw count to follow.\n\nFinal token \"8 is\" \u2014 mid-sentence, completing \"The city of Chicago has 8 is\" (likely \"85%\" or similar), immediately requiring the remaining digit(s) of the hazard rating percentage, then a raw count or comparative statement.\n\"85%\" result just stated, so the next tokens will likely continue with additional city comparisons or a concluding summary sentence.\n\"85% of 500\" finding just cited; the model expects a numerical result or visual reference completing the statistical summary.\n\"55% of 8 is\" \u2014 mid-sentence,.",
+    "Plot summary continuation: the text is mid-sentence describing character relationships and secret identity, requiring completion of the \"30 years\" clause.\n\nCharacter introduction pattern: each character gets a brief role description; the list of secrets/relationships is still being enumerated, suggesting more plot details follow.\n\nFinal token \"30,\" ends a numerical clause (\"30 years\") within a larger sentence about the secret marriage, immediately requiring continuation of the secret's nature or the group's reaction to it.\n\"30,\" likely continues with a number or phrase like \"30 years\" or \"30, 50, 90\" \u2014 a list or elaboration of the group's affiliations/identity.\n\"3,\" signals a pivot to a new relationship or faction, likely \"9\" completing \"3 50\" or a political affiliation, constrained to complete the \"60 35\".",
+    "Instructional listicle format with numbered tips and practical cooking advice, expecting continuation of actionable steps.\n\nThe recipe section has begun, establishing a pattern of practical cooking instructions with specific ingredient quantities and preparation tips.\n\nFinal token \"9\" is mid-sentence in a list of ingredient quantities (\"9\" likely referring to a measurement like \"9 cups\" or \"9 ingredients\"), immediately requiring a noun or continuation of the ingredient list.\n\"9\" likely continues as \"9 tips\" or \"9 ingredients,\" completing the practical cooking instruction about warming ingredients.\n\"9\" likely \"90\" or \"9 tips\" \u2014 the sentence \"9\" is completing a practical tip about warming ingredients, so spiritual/seasonal context (\"900 degrees\") or sensory advice follows \"9\" practical tips.\n\"90\" food pairing \"9\" sensory instruction \"9\" spiritual instruction \u2014 \"9\" dishes \"3 minutes.",
+    "Listicle format established: article promises \"10 Ways,\" currently on item 1, requiring continuation of numbered tips with practical advice.\n\nArgumentative momentum: the article is building a case for social media's benefits, with each point elaborating on specific examples of positive uses.\n\nFinal token \"60\" ends a specific statistic (\"60 tips\"), part of a sentence explaining why social media advice is valuable; next tokens will likely complete the list or transition to practical recommendations.\n\"60\" is mid-sentence, completing \"60 tips\" \u2014 the listicle structure expects enumerated examples or a concluding clause immediately following.\n\"60\" likely continues with \"tips\" or introduces a numbered list of actionable advice.\n\"30\" mistake (\"10 tips\" vs \"60\") creates an implicit correction or continuation of the statistic \"20 examples\" religious advice.\n\"12\" food items.",
+    "News article structure: statistical findings presented, now transitioning to editorial commentary or source attribution explaining the data.\n\nArgumentative momentum: the article has cited specific statistics and is building toward a concluding evaluative statement about the survey's implications or recommendations.\n\nFinal token \"200\" ends a sentence fragment referencing the survey's scope (\"200 people\"), immediately expecting continuation of the safety rating analysis or a concluding clause about the survey's findings or recommendations.\n\"200\" likely continues with a noun phrase like \"200 people\" or leads into a critical assessment of the platform's safety rating.\n\"200,222\" media outlets\" or similar liability framing \u2014 the \"22,000\" consumer rating comparison sets up regulatory/safety liability context.\n\"222 people\" news outlets \"208,22\" media outlets\" \u2014 the sentence is mid-cl.",
+    "Q&A format established: theological questions answered with structured explanations, predicting continuation of the analytical answer about the biblical passage.\n\nArgumentative momentum: the passage explains practical application of the biblical teaching, so practical guidance on handling the church's objection is expected next.\n\nFinal token \"10\" ends a sentence fragment (\"10 reasons\"), part of a practical application section; the next tokens will likely enumerate or elaborate those 12 reasons, or transition to a new analytical point about the church's behavior.\n\"10 reasons\" sets up a numbered list or structured breakdown of actionable steps.\n\"1200\" film title \"10 2400\" legal/procedural rule, so spiritual reflection \"9.6\" prayer instruction follows immediately.\n\"4,352 meeting minutes\" procedural rule \"12 58\" scene\" spiritual reflection \"2,000\" \u2014."
+  ],
+  "input_sha256": "e3d4009d538657628bd7e130ea4b439406c5853a5da420eb3a05ce2e201f0eae",
+  "values": [
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "55%",
+      "value": "55"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "30 years",
+      "value": "30"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "3 minutes",
+      "value": "3"
+    },
+    {
+      "quote": "10 Ways",
+      "value": "10"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "200,222",
+      "value": "200222"
+    },
+    {
+      "quote": "22,000",
+      "value": "22000"
+    },
+    {
+      "quote": "222",
+      "value": "222"
+    },
+    {
+      "quote": "208,22",
+      "value": "20822"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "2400",
+      "value": "2400"
+    },
+    {
+      "quote": "9.6",
+      "value": "9.6"
+    },
+    {
+      "quote": "4,352",
+      "value": "4352"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"85%\",\"value\":85},{\"quote\":\"500\",\"value\":500},{\"quote\":\"55%\",\"value\":55},{\"quote\":\"8\",\"value\":8},{\"quote\":\"30 years\",\"value\":30},{\"quote\":\"50\",\"value\":50},{\"quote\":\"90\",\"value\":90},{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"35\",\"value\":35},{\"quote\":\"9\",\"value\":9},{\"quote\":\"900\",\"value\":900},{\"quote\":\"3 minutes\",\"value\":3},{\"quote\":\"10 Ways\",\"value\":10},{\"quote\":\"1\",\"value\":1},{\"quote\":\"20\",\"value\":20},{\"quote\":\"12\",\"value\":12},{\"quote\":\"200\",\"value\":200},{\"quote\":\"200,222\",\"value\":200222},{\"quote\":\"22,000\",\"value\":22000},{\"quote\":\"222\",\"value\":222},{\"quote\":\"208,22\",\"value\":20822},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"2400\",\"value\":2400},{\"quote\":\"9.6\",\"value\":9.6},{\"quote\":\"4,352\",\"value\":4352},{\"quote\":\"58\",\"value\":58},{\"quote\":\"2,000\",\"value\":2000}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "1ddf786105d69b35efbce34a033a5ac8b78f93ebd6b3afa9558357a4155b2f66"
+}

@@ -1,0 +1,141 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5006",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text lists hazard percentages with specific values (e.g., \"1 in 10,\" \"1 in 20\"), establishing a pattern of precise numeric data.\n\nContinuation of country-by-country breakdown: the hazard section systematically presents country-specific data, with France's entry mid-sentence requiring completion of its numeric range.\n\nFinal token \"is\" opens a numeric range clause (\"between 5 and 20\"), immediately requiring a closing number and likely a period or further elaboration on France's specific hazard values or hazard interval.",
+    "Film review narrative momentum: historical scene description building toward completing the scene's details about the film's plot and characters.\n\nContinuation of factual/historical description: the text is recounting specific film details (1930s setting, character names, historical context), expecting elaboration on the scene's significance or cultural impact.\n\nFinal token \"160,\" is mid-sentence describing the film's setting (\"10 was 160,\"), part of a descriptive clause about the character's memory; \"1200\" is the next number, completing the parallel structure \"13 was 160, 10 was 120,\" \u2014 the next tokens must complete the scene's historical detail, likely describing the memory's content or the scene's significance.",
+    "Narrative momentum of recipe description: the text is mid-sentence recounting personal spiritual journey, building toward completing the story of the dish's creation and ingredients.\n\nRecipe instruction pattern: the text follows a structured biblical/devotional recipe format, with personal anecdotes leading into ingredient details and theological reflection, suggesting continuation of the spiritual reflection on the dish's meaning.\n\nFinal token \"2\" is mid-number, part of \"28 years\" or similar age reference completing \"2568,\" but most likely continuing \"2.8\" or \"2568\" \u2014 the sentence \"28 years\" is already stated, so next tokens complete \"2,568\" or \"6.5\" \u2014 likely \"28\" \u2014 but contextually \"178\" or a multiplication of 28 days, requiring continuation of the mathematical narrative about the romantic story.",
+    "Personal blog narrative momentum: author is mid-sentence listing romantic/relationship details, building toward completing the Christian dating profile description.\n\nReligious/health blog genre conventions: structured sections with headers, personal testimony, and spiritual framing suggest continuation with more dating profile details or advice, following the established pattern of disclosure and disclosure.\n\nFinal token \"88\" is mid-number, part of \"8,080\" or similar romantic age reference completing \"8,080\" \u2014 the truncated \"88\" likely continues as \"8,080\" or \"785\" \u2014 but most immediately, the sentence \"8,580\" is incomplete; the next tokens must complete the interrupted number \"58\" to form \"1,780,\" then continue the dating history disclosure.",
+    "Narrative momentum: article recounts a news story building toward completing the anecdote about the woman's complaint and its consequences, with the statistic \"200 people\" and the study's findings establishing context.\n\nDomain/genre signals: journalistic advice column format, blending news reporting with cautionary examples; the story illustrates the study's warning about social media addiction.\n\nFinal token \"200\" is mid-sentence, completing a specific detail about the fraud complaint count; the next tokens must finish the clause explaining the 200 women's reaction or the consequence \u2014 likely \"100\" completing \"200\" or a continuation of the fraud complaint statistic, e.g., \"180 people\" or a percentage; the sentence requires completion of the 200-something narrative about the police officer's advice.",
+    "Narrative momentum of a legal case timeline: sequential chronological events being recounted, with the phone call detail mid-sentence requiring completion of the time reference.\n\nProcedural/instructional pattern: step-by-step guide format with specific dates, times, and actions; the memory foam incident example continues with scheduling details and follow-up tasks.\n\nFinal token \"59\" is mid-sentence in a time reference (\"59 hours ago\" or similar), part of a memory foam scheduling instruction; \"595\" is likely a typo for \"58\" \u2014 the next token completes the time \"5.9 hours ago\" or continues the story of the 598 calls; the sentence requires completing the date \"59 hours ago\" and then the narrative continues with what happened during the phone call."
+  ],
+  "input_sha256": "b01ea2ed9db6b23c1b61194e69aebbb090444c0749526682a1fa72066717136d",
+  "values": [
+    {
+      "quote": "1 in 10",
+      "value": "1"
+    },
+    {
+      "quote": "1 in 10",
+      "value": "10"
+    },
+    {
+      "quote": "1 in 20",
+      "value": "1"
+    },
+    {
+      "quote": "1 in 20",
+      "value": "20"
+    },
+    {
+      "quote": "between 5 and 20",
+      "value": "5"
+    },
+    {
+      "quote": "between 5 and 20",
+      "value": "20"
+    },
+    {
+      "quote": "1930s",
+      "value": "1930"
+    },
+    {
+      "quote": "160,",
+      "value": "160"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "13 was 160",
+      "value": "13"
+    },
+    {
+      "quote": "10 was 120",
+      "value": "10"
+    },
+    {
+      "quote": "10 was 120",
+      "value": "120"
+    },
+    {
+      "quote": "28 years",
+      "value": "28"
+    },
+    {
+      "quote": "2568",
+      "value": "2568"
+    },
+    {
+      "quote": "2.8",
+      "value": "2.8"
+    },
+    {
+      "quote": "6.5",
+      "value": "6.5"
+    },
+    {
+      "quote": "178",
+      "value": "178"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "8,080",
+      "value": "8080"
+    },
+    {
+      "quote": "785",
+      "value": "785"
+    },
+    {
+      "quote": "8,580",
+      "value": "8580"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "1,780",
+      "value": "1780"
+    },
+    {
+      "quote": "200 people",
+      "value": "200"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "180 people",
+      "value": "180"
+    },
+    {
+      "quote": "59",
+      "value": "59"
+    },
+    {
+      "quote": "595",
+      "value": "595"
+    },
+    {
+      "quote": "5.9",
+      "value": "5.9"
+    },
+    {
+      "quote": "598",
+      "value": "598"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, including those within ranges, dates, and multi-digit numbers, while excluding ordinals and vague plurals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10\",\"value\":1},{\"quote\":\"1 in 10\",\"value\":10},{\"quote\":\"1 in 20\",\"value\":1},{\"quote\":\"1 in 20\",\"value\":20},{\"quote\":\"between 5 and 20\",\"value\":5},{\"quote\":\"between 5 and 20\",\"value\":20},{\"quote\":\"1930s\",\"value\":1930},{\"quote\":\"160,\",\"value\":160},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"13 was 160\",\"value\":13},{\"quote\":\"10 was 120\",\"value\":10},{\"quote\":\"10 was 120\",\"value\":120},{\"quote\":\"28 years\",\"value\":28},{\"quote\":\"2568\",\"value\":2568},{\"quote\":\"2.8\",\"value\":2.8},{\"quote\":\"6.5\",\"value\":6.5},{\"quote\":\"178\",\"value\":178},{\"quote\":\"88\",\"value\":88},{\"quote\":\"8,080\",\"value\":8080},{\"quote\":\"785\",\"value\":785},{\"quote\":\"8,580\",\"value\":8580},{\"quote\":\"58\",\"value\":58},{\"quote\":\"1,780\",\"value\":1780},{\"quote\":\"200 people\",\"value\":200},{\"quote\":\"100\",\"value\":100},{\"quote\":\"180 people\",\"value\":180},{\"quote\":\"59\",\"value\":59},{\"quote\":\"595\",\"value\":595},{\"quote\":\"5.9\",\"value\":5.9},{\"quote\":\"598\",\"value\":598}],\"justification\":\"Extracted explicit numeric literals, including those within ranges, dates, and multi-digit numbers, while excluding ordinals and vague plurals as per instructions.\"}",
+  "prompt_sha256": "c51b1fdd281aae73766b514c2eb519da51205bf58ab67827e1e84f0fb9968bf7"
+}

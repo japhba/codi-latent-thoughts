@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5148",
+  "kind": "donor",
+  "descriptions": [
+    "Math problem requiring a numerical answer: total cost calculation combining shipping costs, fuel costs, and test scores across 500 rounds.\n\nThe pattern established demands a specific dollar amount combining: 5 rounds \u00d7 3/100 \u00d7 500 + 5 rounds \u00d7 3/100 \u00d7 500 \u00d7 5, summing to $550 total.\n\nFinal token \"The total cost is $\" opens a numerical answer field \u2014 a dollar figure (likely formatted as a number, e.g., \"550\" or \"550.00\") representing the combined total cost of all fees: shipping, fuel, and test scores across all 500 rounds.",
+    "Mathematical calculation in progress: total cost calculation requires multiplying 5 coins \u00d7 500 coins \u00d7 50 cents, i.e., 5\u00d7500\u00d70.05 = $125,000.\n\nThe user is explaining their approach to calculating total coins needed to replicate the $500\u00d7500\u00d70.05 pattern from the original problem, so the next tokens will state the total cost (5\u00d7500 coins \u00d7 0.1).\n\nFinal token \"had\" begins the cost statement for the 500 coins \u00d7 5 coins \u00d7 10 coins, immediately requiring a specific numerical value like \"125,000 coins\" or similar.",
+    "Mathematical calculation in progress: total cost of nails = 500 \u00d7 15 cents \u00d7 15 nails \u00d7 5 = $85, continuing the step-by-step arithmetic breakdown of the 15\u00d75\u00d7(15/4) calculation.\n\nThe user is summing costs: first calculation (5\u00d715\u00d70.05) plus second calculation (15\u00d70.05\u00d74\u00d7500), so the next tokens must complete this total cost figure.\n\nFinal token \"8\" is the beginning of a number representing the total cost of nails (likely \"85\" or \"850\"), immediately constrained to continue with digits completing the calculated sum of 15\u00d75\u00d7(1/4)\u00d750.",
+    "Mathematical problem-solving context: calculating total cost of tokens across multiple components (fuel, oil, tokens) with arithmetic operations.\n\nThe solution is mid-calculation, having computed fuel costs (50\u00d7$1.5\u00d7500 tokens) and now adding the second cost: tokens \u00d7 $0.05 + shipping \u00d7 $50, so the next tokens must complete the arithmetic sum: $87 + shipping costs (e.g., \"and $X for shipping\").\n\nFinal token \"87\" is the first calculated cost ($5\u00d715\u00d74.5=87.5), part of a running total; next tokens must continue with the second cost component: shipping costs from selling tokens and the $50\u00d74.",
+    "Mathematical calculation in progress: total cost = 5\u00d75\u00d7100/500 grams \u00d7 5 hours, requiring completion of the arithmetic result (~$53.5).\n\nThe pattern established shows a structured solution: total cost calculation must follow, combining 5\u00d75\u00d7(1/100) hours \u00d7 5 items \u00d7 500 coins, yielding ~$53.5 total.\n\nFinal token \"3.75p\" is mid-sentence presenting the calculated total cost (5\u00d75\u00d710 coins \u00d7 5 hours), immediately requiring the numeric continuation of the dollar amount, likely \"53.5\" or similar, completing the final answer about the 500 coins needed.",
+    "Repetition/continuation pattern: The second problem mirrors the first's structure \u2014 calculate costs, then sum savings \u2014 so the final answer combining both costs is expected next.\n\nNumerical calculation momentum: The second problem's savings breakdown is mid-completion: first cost ($177.75) and second cost ($177.50) have been calculated, so the total combined savings figure is due.\n\nFinal token \"178.\" is a truncated dollar amount representing the second cost's calculated sum (~$177.75 + $187.50), immediately requiring the remaining digits and likely a closing statement like \"The total cost is $355.25.\""
+  ],
+  "input_sha256": "b20364336cba14f0949d144c0c5e4013684ff2bd432a897399897fdbd6bb0516",
+  "values": [
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "3/100",
+      "value": "0.03"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "0.05",
+      "value": "0.05"
+    },
+    {
+      "quote": "125,000",
+      "value": "125000"
+    },
+    {
+      "quote": "0.1",
+      "value": "0.1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "15/4",
+      "value": "3.75"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "87",
+      "value": "87"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "87.5",
+      "value": "87.5"
+    },
+    {
+      "quote": "100/500",
+      "value": "0.2"
+    },
+    {
+      "quote": "53.5",
+      "value": "53.5"
+    },
+    {
+      "quote": "1/100",
+      "value": "0.01"
+    },
+    {
+      "quote": "3.75",
+      "value": "3.75"
+    },
+    {
+      "quote": "177.75",
+      "value": "177.75"
+    },
+    {
+      "quote": "177.50",
+      "value": "177.5"
+    },
+    {
+      "quote": "178",
+      "value": "178"
+    },
+    {
+      "quote": "187.50",
+      "value": "187.5"
+    },
+    {
+      "quote": "355.25",
+      "value": "355.25"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring quotes are exact substrings and values are represented as JSON numbers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"500\",\n      \"value\": 500\n    },\n    {\n      \"quote\": \"5\",\n      \"value\": 5\n    },\n    {\n      \"quote\": \"3/100\",\n      \"value\": 0.03\n    },\n    {\n      \"quote\": \"550\",\n      \"value\": 550\n    },\n    {\n      \"quote\": \"50\",\n      \"value\": 50\n    },\n    {\n      \"quote\": \"0.05\",\n      \"value\": 0.05\n    },\n    {\n      \"quote\": \"125,000\",\n      \"value\": 125000\n    },\n    {\n      \"quote\": \"0.1\",\n      \"value\": 0.1\n    },\n    {\n      \"quote\": \"10\",\n      \"value\": 10\n    },\n    {\n      \"quote\": \"15\",\n      \"value\": 15\n    },\n    {\n      \"quote\": \"85\",\n      \"value\": 85\n    },\n    {\n      \"quote\": \"15/4\",\n      \"value\": 3.75\n    },\n    {\n      \"quote\": \"4\",\n      \"value\": 4\n    },\n    {\n      \"quote\": \"1/4\",\n      \"value\": 0.25\n    },\n    {\n      \"quote\": \"1.5\",\n      \"value\": 1.5\n    },\n    {\n      \"quote\": \"87\",\n      \"value\": 87\n    },\n    {\n      \"quote\": \"4.5\",\n      \"value\": 4.5\n    },\n    {\n      \"quote\": \"87.5\",\n      \"value\": 87.5\n    },\n    {\n      \"quote\": \"100/500\",\n      \"value\": 0.2\n    },\n    {\n      \"quote\": \"53.5\",\n      \"value\": 53.5\n    },\n    {\n      \"quote\": \"1/100\",\n      \"value\": 0.01\n    },\n    {\n      \"quote\": \"3.75\",\n      \"value\": 3.75\n    },\n    {\n      \"quote\": \"177.75\",\n      \"value\": 177.75\n    },\n    {\n      \"quote\": \"177.50\",\n      \"value\": 177.5\n    },\n    {\n      \"quote\": \"178\",\n      \"value\": 178\n    },\n    {\n      \"quote\": \"187.50\",\n      \"value\": 187.5\n    },\n    {\n      \"quote\": \"355.25\",\n      \"value\": 355.25\n    }\n  ],\n  \"justification\": \"Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring quotes are exact substrings and values are represented as JSON numbers.\"\n}",
+  "prompt_sha256": "fdd4dc17ebd90c4f3739414684ae2be18c6e825c890351033b681ef8f0d8b605"
+}

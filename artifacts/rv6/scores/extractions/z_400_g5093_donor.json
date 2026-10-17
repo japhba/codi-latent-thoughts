@@ -1,0 +1,105 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5093",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nMathematical/technical domain: hazard ratio calculation context requires completing the specific numerical finding for the hazard ratio value, likely a decimal number with uncertainty (e.g., \"1.95\" or similar).\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the \"first two years\" period \u2014 immediately expects a specific numerical hazard ratio value, likely a decimal figure with associated confidence interval or p-value.",
+    "Personal relationship analysis essay with reflective, confessional tone \u2014 the author is mid-sentence explaining emotional interpretation of the couple's dynamic.\n\nThe narrative momentum follows a pattern of describing the relationship's emotional complexity, then offering a personal opinion/analysis; the author is building toward a specific comparison or contrast about the marriage's emotional state.\n\nFinal token \"was\" opens a past-tense predicate clause completing \"I felt that was,\" requiring a descriptive adjective or noun phrase characterizing the marriage's emotional state (e.g., \"less than ideal,\" \"a positive sign,\" \"a good relationship\").",
+    "Film review genre with analytical commentary on themes, plot, and historical context \u2014 the text is mid-sentence in a critical analysis section.\n\nNarrative momentum: the reviewer is recounting the film's plot and thematic interpretation, building toward a specific example of the film's argument about the film's own historical significance.\n\nFinal token \"10 28 is 20\" is mid-sentence, completing a numerical observation about the film's score or a specific scene count \u2014 the next tokens must continue this sentence, likely with a unit or elaboration (e.g., \"20 minutes,\" \"20 images,\" or a clause explaining the point).",
+    "Narrative momentum: the article is building toward a medical/argumentative conclusion linking the anecdote to a broader claim about medical deception and its implications for the book's thesis.\n\nThe anecdote-to-explanation structure: the story of the priest's death and the book's revelation sets up a rhetorical payoff connecting the anecdote to the book's argument about doctors and deception.\n\nFinal token \"40,000, 20,000, 800, 200, 100, 50, 20, 10, 8, 4, 2, 1\" \u2014 a list of numbers representing people affected by medical deception, immediately requiring a concluding clause explaining what these figures represent or what the book argues about deception's prevalence.",
+    "Legal case analysis format: Q&A structure with theological/legal reasoning, now transitioning to case law explanation of the priest's conviction.\n\nThe answer is mid-sentence explaining the legal reasoning for the priest's conviction, having established the priest's intent to commit a crime and the legal standard applied \u2014 the next tokens must complete the legal analysis, likely citing the specific legal standard or ruling outcome.\n\nFinal token \"20.08 is 8,000,000 for 0.25, i.e. 200,000 for 0.5\" \u2014 a numerical restatement of the priest's conviction count, immediately requiring continuation of the legal reasoning sentence.",
+    "Statistical/legal analysis pattern: article presents NHTSA data with percentages and legal citations, expecting continued statistical findings or conclusions.\n\nLegal citation and statistical reporting structure: the text has been presenting paired data points (percentage + legal standard), suggesting more comparative statistics or interpretive commentary follows.\n\nFinal token \"67.6%\" ends a sentence fragment mid-thought within a statistical finding about crash frequency per 100 miles; the next tokens will likely complete the sentence with a qualifying phrase or transition to another statistical result."
+  ],
+  "input_sha256": "ca076544a2e8813a0d6b92701f0a4b8cc6e70234e516840be675445f06af7c90",
+  "values": [
+    {
+      "quote": "10 28 is 20",
+      "value": "10"
+    },
+    {
+      "quote": "10 28 is 20",
+      "value": "28"
+    },
+    {
+      "quote": "10 28 is 20",
+      "value": "20"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "20.08 is 8,000,000",
+      "value": "20.08"
+    },
+    {
+      "quote": "20.08 is 8,000,000",
+      "value": "8000000"
+    },
+    {
+      "quote": "0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "67.6%",
+      "value": "67.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including sequences and arithmetic-style statements.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10 28 is 20\",\"value\":10},{\"quote\":\"10 28 is 20\",\"value\":28},{\"quote\":\"10 28 is 20\",\"value\":20},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"800\",\"value\":800},{\"quote\":\"200\",\"value\":200},{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"20\",\"value\":20},{\"quote\":\"10\",\"value\":10},{\"quote\":\"8\",\"value\":8},{\"quote\":\"4\",\"value\":4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"1\",\"value\":1},{\"quote\":\"20.08 is 8,000,000\",\"value\":20.08},{\"quote\":\"20.08 is 8,000,000\",\"value\":8000000},{\"quote\":\"0.25\",\"value\":0.25},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"67.6%\",\"value\":67.6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including sequences and arithmetic-style statements.\"}",
+  "prompt_sha256": "347c50e259f5b3f7d2d55aa97a055b655cbb2aa1a9a156fa223e59cff1ccff83"
+}

@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5052",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring a numerical answer: budget division by daily spending, with specific values ($500, $250, $50).\n\nThe problem follows a structured arithmetic exercise pattern, expecting a specific integer answer (500 \u00f7 $250 \u00f7 $2.50 = 4 tickets per month).\n\nFinal token \"are\" completes the prompt phrase \"How many tickets can you buy?\" \u2014 immediately expects a numerical answer, likely \"4\" or \"five tickets per month,\" possibly followed by explanation of the maximum daily spending calculation.\n$500 / $2.50 / $50 = 20 tickets per month, so the next tokens must state this specific integer result.\n$500 / $250 / $5.00 = 5 tickets per month available, completing the logical sequence of budget constraints.\n$50.",
+    "Math word problem solution in progress: budget constraint requires calculating maximum spending per person, guiding arithmetic next.\n\nThe solution structure demands a numerical answer: total $500 \u00f7 $50 = maximum possible spending per person, then identifying the maximum number of rides.\n\nFinal token \"has\" begins a clause stating the available budget amount or constraint, immediately requiring a dollar figure or arithmetic expression like \"$50 available\" or \"a maximum of $50 to spend.\"\n$50 total budget for the ride constraint calculation.\n500 / 25 = $20 total available spending, setting up the next step: dividing remaining budget by individual ride cost.\n\"has\" introduces the mathematical statement about maximum spending per person: $500 / 50 days = $50 available, leading to the solution process.\n$50 total budget remaining to spend on rides, so next tokens.",
+    "Math problem-solving context: explaining how to find maximum number of movie tickets with $50 budget, requiring arithmetic continuation.\n\nThe solution is building toward a specific numerical answer: $50 \u00f7 $5 = maximum tickets per day, with the arithmetic result being revealed step-by-step.\n\nFinal token \"12\" is mid-sentence, part of \"you can only get 10\" \u2014 immediately requires completing the arithmetic expression, likely \"10 movies\" or \"10 tickets\" derived from $50 \u00f7 $5 per day budget constraint.\n$20 total budget / $25 per movie = maximum possible tickets, so next tokens will state \"10 dollars\" or \"10 movies possible per person.\"\n$80 / $5 = 12 dollars available total, leading to 12 movies \u00d7 $2.50 = 30 total tickets available.",
+    "Math word problem solution in progress: arithmetic calculation requires completing the division result (50 \u00f7 $25 = 2).\n\nThe structured solution format requires showing the arithmetic step-by-step, with the final answer (2 tickets) being derived.\n\nThe last token \"10p\" is mid-expression showing the budget per day ($50 \u00f7 $25 = $2), immediately requiring the completion of this arithmetic statement, likely \"20 dollars\" or \"2 tickets per day\" to conclude the logical chain.\n$10p = $50 / $5 = $20 maximum spending per day, so next tokens must state the number of tickets possible: 12 tickets / $5 = 5 tickets.\n$12p = $50 / $25 = $20 total available per week before solving for how many tickets.\n$10p / $5.",
+    "Math word problem solution pattern: structured step-by-step algebraic reasoning, now reaching the final answer calculation.\n\nThe solution has established that total eggs = $120 \u00f7 $20 = 6 eggs per week, so the next step must state the numerical answer explicitly.\n\nFinal token \"2.0. 2. s. 20.\" ends the division expression \"20 / total budget / $20 = 4 eggs possible.\" \u2014 immediately expects the conclusion: \"Therefore, the person can eat 4 eggs per day.\"\nFinal token \"24. s.\" is the completed equation result, immediately preceding the explanation of breaking down 8 into 4 eggs per day.\nFinal token \"2. s.\" begins the next step: dividing 8 by $20 to find eggs per day, completing the logical chain.\n20 / $8 = 4 eggs, so.",
+    "Math word problem solution format: structured problem with question, then worked example, now expecting a numerical answer.\n\nThe division calculation (120 \u00f7 total) requires the answer to be computed: 120 \u00f7 $20 = monthly consumption per person.\n\nFinal token \"problem.\" closes the prompt phrase \"How many eggs did he eat each day?\" \u2014 immediately expects the solution answer, likely \"4 eggs\" or \"4.5 eggs per day,\" completing the worked example with the final numerical result.\nFinal token \"problem.\" ends the setup sentence asking for the solved variable, so next tokens must state the numerical answer: \"4 / 8 = 0.5 eggs per day.\"\n28 / total budget = 8 eggs possible, then dividing by 4 to find per-person daily eggs.\n(80 / $20) = 4 weeks, then split by ."
+  ],
+  "input_sha256": "2e7b3d2bac0ead53ba1dba41c7523314d31678c1ff840aa222843d99be349d6b",
+  "values": [
+    {
+      "quote": "$500",
+      "value": "500"
+    },
+    {
+      "quote": "$250",
+      "value": "250"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "$2.50",
+      "value": "2.5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "$5.00",
+      "value": "5"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "$80",
+      "value": "80"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, currency values, and arithmetic results from the provided descriptions, ensuring each distinct value is represented once with its shortest corresponding quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$500\",\"value\":500},{\"quote\":\"$250\",\"value\":250},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"4\",\"value\":4},{\"quote\":\"$2.50\",\"value\":2.5},{\"quote\":\"20\",\"value\":20},{\"quote\":\"$5.00\",\"value\":5},{\"quote\":\"5\",\"value\":5},{\"quote\":\"25\",\"value\":25},{\"quote\":\"$80\",\"value\":80},{\"quote\":\"12\",\"value\":12},{\"quote\":\"30\",\"value\":30},{\"quote\":\"2\",\"value\":2},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"6\",\"value\":6},{\"quote\":\"24\",\"value\":24},{\"quote\":\"8\",\"value\":8},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"28\",\"value\":28},{\"quote\":\"80\",\"value\":80}],\"justification\":\"Extracted explicit numeric literals, currency values, and arithmetic results from the provided descriptions, ensuring each distinct value is represented once with its shortest corresponding quote.\"}",
+  "prompt_sha256": "9155b5c70326fc437d2f8c374005ccd512fa01acae2e13417c287c48dcc06b74"
+}

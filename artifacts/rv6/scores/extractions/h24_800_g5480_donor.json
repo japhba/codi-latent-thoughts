@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5480",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 6\u00d7$50 + $15 = $300, so the next token must be the calculated total cost.\n\nThe problem follows a standard arithmetic word problem format: \"6\u00d7$50 + $15\" demands a specific numerical answer, likely \"$300\" or \"$150\" (since $6\u00d750 + 15).\n\nFinal token \" equals\" is the conclusion of the arithmetic setup, immediately requiring the numerical result of the arithmetic expression, specifically \"$300\" (the calculated total cost: 6\u00d750 + 15), completing the sentence \"The total cost is $300\" or similar phrasing.",
+    "Word problem arithmetic setup requires completing the multiplication: 60 tickets \u00d7 $0.50 = $300, then adding the fixed $20 bonus.\n\nThe problem follows a structured arithmetic word problem format: total cost calculation expected, then adding remaining cost (60 tickets \u00d7 $0.50) plus the separate $20 bonus.\n\nFinal token \"has\" begins the cost statement, immediately requiring the arithmetic result \"$30\" (60 \u00d7 $0.50) to state the total cost of 60 tickets: \"60 \u00d7 $0.50 = $300\" before adding the $20 bonus.\nThe next tokens must state this calculated value, likely \"60 \u00d7 $50\" or directly \"$300\" to complete the arithmetic expression.",
+    "Word problem arithmetic setup: cost calculation requires 50 \u00d7 $0.60 = $30, then adding fixed cost $15, following standard arithmetic word problem structure.\n\nThe problem follows a two-part arithmetic problem format: total cost = (number of items \u00d7 price) + fixed cost, so the next tokens must complete the arithmetic expression and then add $15.\n\nFinal token \"3\" begins the computed answer \"$30\" (from 60 \u00d7 $5), immediately constraining next tokens to complete \"30\" as the arithmetic result, continuing the sentence \"you spend $30 on eggs\" or similar phrasing confirming the arithmetic: 50 \u00d7 $0.60 = $30, then adding $15 for the remaining items.",
+    "Word problem solution format: structured math problem with setup, question, and step-by-step arithmetic walkthrough requiring completion of the arithmetic expression.\n\nThe solution is mid-calculation, having established that 15 books \u00d7 $2 = $30 for books, then adding the fixed cost of 150 total books, so the next tokens must state the arithmetic result and then add the paper cost.\n\nFinal token \"$30\" is the cost of the books portion of the problem, representing the arithmetic result of 15 items \u00d7 $1, immediately requiring continuation like \"for the books\" or \"for paper\" plus the total cost of the pen/paper (e.g., \"and $10 for the paper\"), completing the solution: $30 + $15 = $45 total.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough requiring arithmetic completion.\n\nThe arithmetic expression \"$50 x 15 = $75\" establishes the cost of eggs, and the solution is now adding the fixed cost of the box ($150) to total cost, following the pattern \"total = eggs \u00d7 price + fixed cost.\"\n\nFinal token \"p\" is the start of \"penny\" or \"pennies,\" continuing the arithmetic expression \"$300p\" referencing the egg cost formula \"$300pennies\" or \"$300p + $15\" to complete the solution showing the arithmetic steps: \"$300pennies + $15\" or \"$150 + $1\" for the combined total.",
+    "Word problem arithmetic format: a multi-step math problem requiring arithmetic calculation, expecting a numerical answer combining costs.\n\nThe problem structure demands a total cost calculation: $350 books + $150 paper = $500, then adding shipping cost $100, so the next tokens must state the arithmetic setup or solution.\n\nFinal token \"dollars.\" closes the arithmetic problem statement \"$35 \u00d7 $4 = $120.\" \u2014 immediately expects the next line to state the combined total cost, likely \"The total cost is $350 + $100 = $500\" or similar, combining the arithmetic problem with the $150 shipping cost."
+  ],
+  "input_sha256": "1e3b50a71ad6972808c117106c4a7b9d18252835873abc70e2367729853c2b0d",
+  "values": [
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "0.60",
+      "value": "0.6"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, decimals, and results of arithmetic expressions (like 6x50+15=315, though the text claims 300, I extract the literal 300 as provided) from the descriptions, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6\",\"value\":6},{\"quote\":\"50\",\"value\":50},{\"quote\":\"15\",\"value\":15},{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"60\",\"value\":60},{\"quote\":\"0.50\",\"value\":0.5},{\"quote\":\"20\",\"value\":20},{\"quote\":\"30\",\"value\":30},{\"quote\":\"5\",\"value\":5},{\"quote\":\"0.60\",\"value\":0.6},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"1\",\"value\":1},{\"quote\":\"10\",\"value\":10},{\"quote\":\"45\",\"value\":45},{\"quote\":\"75\",\"value\":75},{\"quote\":\"350\",\"value\":350},{\"quote\":\"500\",\"value\":500},{\"quote\":\"100\",\"value\":100},{\"quote\":\"35\",\"value\":35},{\"quote\":\"4\",\"value\":4},{\"quote\":\"120\",\"value\":120}],\"justification\":\"Extracted all explicit numeric literals, decimals, and results of arithmetic expressions (like 6x50+15=315, though the text claims 300, I extract the literal 300 as provided) from the descriptions, excluding years and ordinals.\"}",
+  "prompt_sha256": "7811bf59b383925fa6f70e435aa05e11825a4c062e6e9c90beb113768a893976"
+}

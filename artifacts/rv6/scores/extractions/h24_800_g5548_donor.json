@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5548",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring a numerical answer: distance = (60 minutes \u00d7 72 km/h) / 60 minutes = 84 km.\n\nThe problem follows a structured arithmetic format: distance = (60/60) \u00d7 72, so the next token must be the computed numerical result.\n\nFinal token \"is\" completes the question \"How far has the car traveled?\" demanding an immediate numerical answer in kilometers, specifically \"72\" derived from 70 minutes \u00d7 60 km/h rate conversion: 70 \u00d7 60/60 = 84 miles converted to kilometers, so the next token must be \"84\" representing the calculated distance.\nThe solution requires the numeric result of 70 minutes \u00d7 60/60.",
+    "Math word problem solution format: structured step-by-step arithmetic requiring conversion of 60 minutes to hours (60/60 = 1 hour).\n\nThe problem demands distance calculation: speed 60 km/h \u00d7 time 40 minutes, so the next tokens must state the converted time (0.66 hours) before multiplying by distance.\n\nFinal token \"had\" completes \"The time duration was,\" requiring the numerical value \"0.6 hours\" (or \"60 minutes\") as the converted time, immediately followed by the formula: distance = 60 \u00d7 (60/60) = 1.2 km, then multiplication by 60 miles.",
+    "Math word problem format requires step-by-step solution: convert 60 minutes to 1 hour, then calculate distance using v = 60 km/h.\n\nThe problem structure demands a worked solution showing time calculation: 60 minutes = 1 hour, then distance = 60 \u00d7 1 = 60 kilometers.\n\nFinal token \"1\" is the computed result of dividing 60 minutes by 60, completing the time statement \"The time taken is 1 hour\" \u2014 immediately expects \"hour\" or \"hours\" to confirm the derived value, then continuing with distance calculation using v = 60 km/h.\nThe next tokens must state the time result before applying distance formula: distance = v \u00d7 t = 1 hour \u00d7 60 miles = 200 miles.",
+    "Word problem solution format: structured math problem with labeled fields (\"Word Problem,\" \"Conversion\") followed by step-by-step explanation.\n\nThe solution is mid-calculation, having established that 60 minutes equals 1 hour, so the next step must state distance traveled using speed \u00d7 time (60 miles \u00f7 60 minutes = 1 hour), then apply distance to find total distance.\n\nFinal token \"1 hour\" completes the conversion statement (\"1 hour = 60 minutes\"), immediately requiring a continuation explaining the arithmetic or confirming the time equivalence before proceeding to calculate distance: \"because 20 minutes = 1 hour\" or transitioning to multiplication: \"distance = 60 miles \u00d7 1 hour = 80 miles.\"",
+    "Math word problem solution format: step-by-step explanation with conversion of units, following a structured educational pattern.\n\nThe conversion formula \"1 hour = 60 minutes\" is being applied to convert 0.8 hours to miles, establishing the arithmetic relationship that must be completed.\n\nFinal token \"p\" is the start of \"p.m.\" or \"p hours\" completing the sentence \"0.8 hours = 1 hour\" \u2014 the abbreviation \"p\" begins the concluding statement confirming the conversion result, likely continuing with \". The distance traveled is 0.8 \u00d7 60 = 5 miles\" or similar confirmation of the calculation.\nFinal token \"p\" is mid-word, part of \"p.m.\" or \"p hours,\" completing the unit equivalence statement before stating the multiplication result.",
+    "Word problem format requires a numerical answer: distance = 1 hour \u00d7 60 miles = 60 miles, so the solution must state the speed calculation.\n\nThe problem follows a structured math word problem pattern: setup \u2192 calculation \u2192 answer, with the distance formula (speed \u00d7 time) being the core arithmetic operation.\n\nFinal token \"hours.\" closes the problem statement specifying the time interval (one hour in 1 hour), immediately constraining the next tokens to be the computed distance answer, likely \"The distance traveled is 60 miles\" or directly the multiplication result \"60 miles \u00d7 1 hour = 60 miles\" or the final calculated speed \u00d7 distance."
+  ],
+  "input_sha256": "7aac93f33a83501eb761673d3ffc8d0feb27515f2b721176df20f072a0f8a0ca",
+  "values": [
+    {
+      "quote": "60 minutes",
+      "value": "60"
+    },
+    {
+      "quote": "72 km/h",
+      "value": "72"
+    },
+    {
+      "quote": "84 km",
+      "value": "84"
+    },
+    {
+      "quote": "60/60",
+      "value": "1"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "70 minutes",
+      "value": "70"
+    },
+    {
+      "quote": "60 km/h",
+      "value": "60"
+    },
+    {
+      "quote": "84 miles",
+      "value": "84"
+    },
+    {
+      "quote": "84",
+      "value": "84"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "40 minutes",
+      "value": "40"
+    },
+    {
+      "quote": "0.66 hours",
+      "value": "0.66"
+    },
+    {
+      "quote": "0.6 hours",
+      "value": "0.6"
+    },
+    {
+      "quote": "1.2 km",
+      "value": "1.2"
+    },
+    {
+      "quote": "60 miles",
+      "value": "60"
+    },
+    {
+      "quote": "60 kilometers",
+      "value": "60"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "200 miles",
+      "value": "200"
+    },
+    {
+      "quote": "20 minutes",
+      "value": "20"
+    },
+    {
+      "quote": "80 miles",
+      "value": "80"
+    },
+    {
+      "quote": "0.8 hours",
+      "value": "0.8"
+    },
+    {
+      "quote": "5 miles",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"60 minutes\",\"value\":60},{\"quote\":\"72 km/h\",\"value\":72},{\"quote\":\"84 km\",\"value\":84},{\"quote\":\"60/60\",\"value\":1},{\"quote\":\"72\",\"value\":72},{\"quote\":\"70 minutes\",\"value\":70},{\"quote\":\"60 km/h\",\"value\":60},{\"quote\":\"84 miles\",\"value\":84},{\"quote\":\"84\",\"value\":84},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"40 minutes\",\"value\":40},{\"quote\":\"0.66 hours\",\"value\":0.66},{\"quote\":\"0.6 hours\",\"value\":0.6},{\"quote\":\"1.2 km\",\"value\":1.2},{\"quote\":\"60 miles\",\"value\":60},{\"quote\":\"60 kilometers\",\"value\":60},{\"quote\":\"1\",\"value\":1},{\"quote\":\"200 miles\",\"value\":200},{\"quote\":\"20 minutes\",\"value\":20},{\"quote\":\"80 miles\",\"value\":80},{\"quote\":\"0.8 hours\",\"value\":0.8},{\"quote\":\"5 miles\",\"value\":5}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "cf1bc99f6280a77ca4a994859129429416cb441d7e4e4f93ece48e074f30fc89"
+}

@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5065",
+  "kind": "own",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting poll statistics sequentially with percentages and demographic breakdowns.\n\nThe narrative momentum establishes a pattern of presenting poll results with specific numbers \u2014 \"46 percent,\" \"36 percent,\" \"19 percent\" \u2014 each followed by explanatory context about what respondents said.\n\nThe final token \"said\" introduces a direct quote or paraphrase from the poll, requiring completion of what respondents said about the game, likely a specific statistic or opinion about the upcoming game.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence explaining the film's plot, specifically detailing the mother's situation after her husband's death.\n\nCharacter/plot context: the sentence describes the mother's circumstances (\"after her husband's death\"), requiring completion of what she did or experienced next \u2014 likely \"she\" or a description of her actions/struggle.\n\nFinal token \"death,\" ends a subordinate clause mid-thought, immediately requiring continuation of the sentence describing the mother's subsequent actions or situation, e.g., \"she struggled to...\" or \"she found herself...\"\n</explanation>",
+    "Narrative momentum: the text is mid-sentence completing a list of reasons why the woman chose to divorce, with \"8\" beginning a count of reasons (e.g., \"8 reasons\" or \"8 things\").\n\nRepetition/continuation pattern: the passage repeatedly cycles through the same divorce story with slight variations, suggesting another restatement or elaboration of the \"8\" reasons is imminent.\n\nFinal token \"8\" is a number mid-sentence, directly requiring a noun phrase completing \"8 ___\" \u2014 most likely \"reasons\" or a similar word, continuing the explanation of her divorce decision.\n</explanation>",
+    "The article follows a structured legal/medical explainer format, systematically addressing the \"100 times more likely\" claim with numbered sections and expert quotes, building toward a conclusion.\n\nThe narrative momentum requires completing the explanation of why the 100x statistic is misleading \u2014 the text has been building toward clarifying the \"per 100,000\" vs. \"per million\" distinction, and the final sentence is mid-explanation of this key distinction.\n\nThe final token \"100,000\" ends an incomplete sentence explaining the 100x statistic's basis, immediately requiring continuation clarifying the per-100,000 figure versus the per-million figure, likely \"per 100,000\" or \"per million\" to complete the contrast.\n</explanation>",
+    "Legal case analysis format: structured case summary with facts, procedural history, and legal reasoning sections following a consistent pattern.\n\nNarrative/argumentative momentum: the legal reasoning section has begun, explaining why the court found the act was \"unlawful,\" requiring elaboration of the legal reasoning (e.g., lack of consent, lack of knowledge, or lack of capacity).\n\nFinal token \"100%\" closes a factual restatement of the act's frequency; the next tokens must continue the legal reasoning, likely explaining why this frequency alone doesn't constitute a valid consent or knowledge-based act.\n</explanation>",
+    "Theological/argumentative momentum: the text is building a case that the \"Great Commission\" is a present-day imperative, with supporting evidence accumulating toward a conclusion.\n\nScriptural citation pattern: the text has been systematically referencing specific Bible verses (Matthew 28:19-20, Acts 2:41, 1 Corinthians 16:1-3) to support claims, suggesting another verse or elaboration follows.\n\nFinal token \"great\" ends an incomplete sentence mid-clause (\"the Great Commission is a present day imperative, and Jesus expects us to do the same today. Jesus expects that the great\"), requiring immediate continuation with a noun phrase like \" Commission\" or \" Commission to continue.\"\n</explanation>"
+  ],
+  "input_sha256": "6f154d0fbf725ad200a018a7d044c2e7a64a304af469441e618ec99b4e0576bb",
+  "values": [
+    {
+      "quote": "46 percent",
+      "value": "46"
+    },
+    {
+      "quote": "36 percent",
+      "value": "36"
+    },
+    {
+      "quote": "19 percent",
+      "value": "19"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "100 times more likely",
+      "value": "100"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"46 percent\",\"value\":46},{\"quote\":\"36 percent\",\"value\":36},{\"quote\":\"19 percent\",\"value\":19},{\"quote\":\"8\",\"value\":8},{\"quote\":\"100 times more likely\",\"value\":100},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"100%\",\"value\":100}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "147d25d95feeaae62cc605950950c8b841fe60fcbe4b989b27d913613e5e3f38"
+}

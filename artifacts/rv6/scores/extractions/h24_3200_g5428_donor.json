@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5428",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format expects a word problem answer, likely a number (e.g., \"168\" or \"168 eggs\").\n\nThe arithmetic context of \"7 days \u00d7 16 eggs\" strongly predicts a multiplication calculation, expecting a specific numerical answer.\n\n\"The total number of eggs is\" is an incomplete word problem prompt, immediately requiring a numerical answer or calculation, likely \"168\" or \"7 \u00d7 18 = 168 eggs.\"\n\"The total number of eggs for the week is 168.\"\n\"The number of eggs is 7 days \u00d7 18 eggs = 168.\"\n\"The weekly total is 168.\"\n straightforward arithmetic answer expected next.\n7 \u00d7 18 = 168.\n simply the arithmetic result.\n7 days \u00d7 17 eggs daily = daily.\nThe answer is 168 eggs, so the.",
+    "Math word problem setup expecting a numerical answer, likely a simple arithmetic calculation (7 days \u00d7 17).\n\nThe problem follows a word problem format requiring a calculation, with the arithmetic solution expected next.\n\n\"The total is is\" is a grammatically broken, likely garbled rendering of \"The total is 7 \u00d7 17 = 119,\" so the next tokens should complete this arithmetic expression or state the answer directly.\nFinal token \"is\" begins a copular clause requiring a numerical answer or calculation, e.g., \"119\" or \"seven days.\"\n\"The simple answer is 17.\"\n straightforward numerical answer expected immediately.\n straightforward arithmetic completion: 7 \u00d7 15 daily multiplication.\nThe final token \"is\" introduces the answer to the total multiplication, likely \"17\" or \"17 \u00d7 15 for one week.\"\nfor the weekly total of 7.",
+    "Math word problem format expects a solution walkthrough or calculation, likely showing arithmetic steps.\n\nThe question asks for a total count of 7 days \u00d7 15 eggs, so the answer will be 105.\n\n\"Answer:1\\n\\nAnswer\\n\\n\\n\" is a repeated label/field marker, suggesting a structured answer template; the next token should be the actual answer content, likely \"105\" or a mathematical explanation.\n\"ans:1\\n\\n\\nAnswer\\n\\n\\n\" suggests a formatting artifact, and the next content should be the solution text.\n straightforward arithmetic answer expected: \"105 eggs per week\" or similar.\nExplanation of the simple multiplication logic follows.\n straightforward arithmetic reasoning: 7 days \u00d7 daily rate = total eggs.\nExplanation of the 15 \u00d7 1 method.\n simply 105 total eggs without special conditions.\nfor the 7 days,.",
+    "Math word problem format expects a solution walkthrough, likely starting with arithmetic operations or a formula.\n\nThe problem establishes a simple arithmetic calculation (7 days \u00d7 14 tickets = 98 total), so the answer is 98.\n\n\"answiar\" is a misspelled word for \"answer,\" acting as a label introducing the solution text; the next tokens should be the word problem's answer, likely \"98\" or a sentence explaining the calculation.\n\"answiar\" signals a direct answer reveal, constraining next tokens to be the numerical answer or explanatory solution.\n7 days \u00d7 daily rate = total.\n straightforward arithmetic context demands a complete sentence explaining the 7-day total.\n straightforward arithmetic context: 7 \u00d7 14 = daily average, so the answer is 98.\nGeneral explanation of the 7 \u00d7 100 = 720 tickets for the full.",
+    "Math word problem format expects a solution walkthrough, likely starting with arithmetic operations or a formula.\n\nThe word problem structure requires a numerical answer (7 days \u00d7 14 tickets = 98 total) and likely a calculation explanation.\n\n\"answergenearby\" is a garbled placeholder for \"answer,\" immediately constraining the next tokens to be the word \"er\" completing the corrupted phrase, followed by the solution text like \"The total number of tickets is 98 for the week.\"\nThe final token \"answergenearby\" is a corrupted rendering of \"answer,\" suggesting the next content is the actual answer text.\n7 days \u00d7 daily rate = 7 \u00d7 14 = 98.\n straightforward arithmetic answer expected.\nGeneral explanation of the 7-day weekly sum.\n straightforward multiplication logic applies.\nfor 14 tickets daily.\n7 days total.\n simply 98.",
+    "Math word problem format expects a direct numerical answer following the question prompt, likely \"144\" or similar.\n\nThe word problem structure requires a solution walkthrough, likely involving 7 days \u00d7 12 tickets = total.\n\n\"answergivenotices\" is a garbled placeholder artifact mid-question, suggesting the next tokens will be the actual answer text, likely \"The total number of tickets is 144 for the week.\"\n\"answergivenotices\" is a corrupted placeholder, so the model expects the clean answer \"144\" or a word problem solution beginning with \"7 days \u00d7 daily tickets = 144 miles.\"\n7 days \u00d7 12 = daily average.\n straightforward arithmetic answer expected immediately.\nfor the 7-day total.\n simply 144 miles.\nGeneral rule: 12 \u00d7 10 = 120 miles daily,."
+  ],
+  "input_sha256": "b658e0e8049515034803b2419b90f7f4cac34d636ba90ce4f66a5993a65d6fe6",
+  "values": [
+    {
+      "quote": "7 days \u00d7 16 eggs",
+      "value": "112"
+    },
+    {
+      "quote": "7 days \u00d7 16 eggs",
+      "value": "7"
+    },
+    {
+      "quote": "7 days \u00d7 16 eggs",
+      "value": "16"
+    },
+    {
+      "quote": "7 \u00d7 18 = 168",
+      "value": "18"
+    },
+    {
+      "quote": "7 \u00d7 18 = 168",
+      "value": "168"
+    },
+    {
+      "quote": "7 days \u00d7 17 eggs daily",
+      "value": "17"
+    },
+    {
+      "quote": "7 days \u00d7 17",
+      "value": "119"
+    },
+    {
+      "quote": "7 \u00d7 15",
+      "value": "105"
+    },
+    {
+      "quote": "7 \u00d7 15",
+      "value": "15"
+    },
+    {
+      "quote": "Answer:1",
+      "value": "1"
+    },
+    {
+      "quote": "7 days \u00d7 14 tickets = 98",
+      "value": "14"
+    },
+    {
+      "quote": "7 days \u00d7 14 tickets = 98",
+      "value": "98"
+    },
+    {
+      "quote": "7 \u00d7 100 = 720",
+      "value": "100"
+    },
+    {
+      "quote": "7 \u00d7 100 = 720",
+      "value": "720"
+    },
+    {
+      "quote": "7 days \u00d7 12 tickets",
+      "value": "12"
+    },
+    {
+      "quote": "7 days \u00d7 12 = daily average",
+      "value": "84"
+    },
+    {
+      "quote": "12 \u00d7 10 = 120",
+      "value": "10"
+    },
+    {
+      "quote": "12 \u00d7 10 = 120",
+      "value": "120"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions (like 7x16=112, 7x17=119, 7x15=105, 7x14=98, 7x12=84) found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7 days \\u0026#215; 16 eggs\",\"value\":112},{\"quote\":\"7 days \\u0026#215; 16 eggs\",\"value\":7},{\"quote\":\"7 days \\u0026#215; 16 eggs\",\"value\":16},{\"quote\":\"7 \\u0026#215; 18 = 168\",\"value\":18},{\"quote\":\"7 \\u0026#215; 18 = 168\",\"value\":168},{\"quote\":\"7 days \\u0026#215; 17 eggs daily\",\"value\":17},{\"quote\":\"7 days \\u0026#215; 17\",\"value\":119},{\"quote\":\"7 \\u0026#215; 15\",\"value\":105},{\"quote\":\"7 \\u0026#215; 15\",\"value\":15},{\"quote\":\"Answer:1\",\"value\":1},{\"quote\":\"7 days \\u0026#215; 14 tickets = 98\",\"value\":14},{\"quote\":\"7 days \\u0026#215; 14 tickets = 98\",\"value\":98},{\"quote\":\"7 \\u0026#215; 100 = 720\",\"value\":100},{\"quote\":\"7 \\u0026#215; 100 = 720\",\"value\":720},{\"quote\":\"7 days \\u0026#215; 12 tickets\",\"value\":12},{\"quote\":\"7 days \\u0026#215; 12 = daily average\",\"value\":84},{\"quote\":\"12 \\u0026#215; 10 = 120\",\"value\":10},{\"quote\":\"12 \\u0026#215; 10 = 120\",\"value\":120},{\"quote\":\"144\",\"value\":144}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions (like 7x16=112, 7x17=119, 7x15=105, 7x14=98, 7x12=84) found within the provided descriptions.\"}",
+  "prompt_sha256": "ccc767168217ed1f273e02c7cacf9abd831bfc0b887e66a637af8c4c7720c854"
+}

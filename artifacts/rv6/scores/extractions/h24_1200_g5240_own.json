@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5240",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: total time = 3*4 + 2*6 = 24 minutes.\n\nThe problem structure demands a direct calculation: 3*6 + 2*4 = 24 minutes, so the answer must be \"24 minutes.\"\n\nFinal token \"Total time:\" is a label/heading introducing the solution, immediately requiring a numerical value (likely \"24\") followed by units \"minutes\" or a formatted answer.\n3*4 + 2*6 = 24.\n3*6 + 2*4 = 24, so the next tokens must state this total time.\n4+2*6=12+6.\n3*4+2*6=12+6, completing the equation.\n3*4+2*6=12+6 hours.\n4*3+6.",
+    "Math word problem format requires arithmetic calculation: 6 dresses \u00d7 2 hours = 12 hours, then plus 4 dresses \u00d7 3 hours = 12 hours.\n\nThe problem structure demands a step-by-step solution, with the total time calculation being the core arithmetic operation.\n\nThe final token \"has\" begins the solution sentence, immediately requiring the numerical result of 6 \u00d7 2 hours (i.e., \"12 hours\"), likely followed by \"and\" or \"+\" introducing the second component (4 \u00d7 2).\nThe sentence must complete the arithmetic expression for the first calculation.\n2 \u00d7 6 = 12 hours for sewing, then plus 4 \u00d7 3 for the flowers.\n6 \u00d7 2 = 12, then + 4 \u00d7 1.5 = 6 hours total.",
+    "Word problem solution format: arithmetic calculation in progress, requiring total time = 3 tasks \u00d7 4 hours = 12 hours, then 5 tasks \u00d7 2 hours = 10 hours.\n\nThe structured solution pattern demands listing all tasks and their time durations, then summing: \"3 tasks \u00d7 4 hours = 12 hours, and 5 tasks \u00d7 2 hours = 10 hours.\"\n\nFinal token \"12\" is the start of the first arithmetic result (time needed for painting), immediately requiring \"hours\" or \"hours to paint\" to complete the sentence, then adding the second calculation.\n12 is the first value in the solution, representing 3 machines \u00d7 4 hours; next tokens must complete this statement and then add 5 \u00d7 2 painting hours.",
+    "Math word problem requiring arithmetic completion: 4 problems \u00d7 3 minutes = 12 minutes, then 4 problems \u00d7 3 minutes = 12 minutes total.\n\nThe problem structure demands a total time calculation: 4 paintings \u00d7 3 minutes = 12 minutes for the second category (painting), plus 4 problems \u00d7 4 minutes.\n\nFinal token \"p\" begins the second arithmetic expression \"4\u00d73,\" immediately requiring the numeric result \"12\" to complete the parallel calculation of the second category's time.\nThe sentence \"4\u00d73\" is mid-expression, requiring the number \"12\" next, representing the total minutes for the second category (4 paintings \u00d7 3 minutes).\n4\u00d74 minutes for painting.\n4\u00d73=12 minutes total time needed.\n4\u00d73=12 minutes for painting four paintings, completing the sum of .",
+    "Math word problem format: arithmetic solution expected, following \"4 problems \u00d7 3 minutes = 12 minutes\" pattern established.\n\nThe problem has two parts: total time calculation (4\u00d73) and combined time calculation (4\u00d73), so the second answer \"12\" needs a closing statement like \"so the total time is 12 minutes.\"\n\nFinal token \"12\" is the second arithmetic result in the parallel structure mirroring \"4\u00d73 hours,\" immediately requiring a closing punctuation or explanatory phrase like \"so the total time is equal.\"\nFinal token \"12\" completes the second multiplication expression (the second side of the equation), confirming the symmetry of both sides.\n12 is the closing answer to the second calculation, representing the total time needed for both multiplication steps.\n12 minutes total travel time.\n4\u00d73 hours for division.\n12 is the final answer.",
+    "Word problem solution format: structured Q&A pattern with calculation steps, expecting a numerical answer to follow.\n\nThe problem has established two components (10 pages \u00d7 2 hours = 20 hours, 4 pages \u00d7 5 minutes = 20 minutes), so the total time calculation is expected next.\n\nFinal token \"problems. 16 sentences.\" closes the second component's summary sentence, immediately requiring the final answer statement like \"The total time is X hours.\"\nFinal token \"problems.\" ends the combined time expression \"2 + 8 hours,\" so the next tokens must state the computed answer, likely \"The total time is 4 hours.\"\nThe pattern demands a concluding sentence confirming the total duration.\n2+7\u00d74 hours = 4 hours total.\nThe final token \"problems.\" closes the second calculation, completing the two-part problem; the answer \"The total time is\" is."
+  ],
+  "input_sha256": "1bfaec5baedc2121223733e371198c250c7392ebd4072ba662c8db5fa7e87382",
+  "values": [
+    {
+      "quote": "3*4",
+      "value": "12"
+    },
+    {
+      "quote": "2*6",
+      "value": "12"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "3*6",
+      "value": "18"
+    },
+    {
+      "quote": "2*4",
+      "value": "8"
+    },
+    {
+      "quote": "4+2*6",
+      "value": "16"
+    },
+    {
+      "quote": "12+6",
+      "value": "18"
+    },
+    {
+      "quote": "4*3+6",
+      "value": "18"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "2 + 8",
+      "value": "10"
+    },
+    {
+      "quote": "2+7\u00d74",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3*4\",\"value\":12},{\"quote\":\"2*6\",\"value\":12},{\"quote\":\"24\",\"value\":24},{\"quote\":\"3*6\",\"value\":18},{\"quote\":\"2*4\",\"value\":8},{\"quote\":\"4+2*6\",\"value\":16},{\"quote\":\"12+6\",\"value\":18},{\"quote\":\"4*3+6\",\"value\":18},{\"quote\":\"6\",\"value\":6},{\"quote\":\"2\",\"value\":2},{\"quote\":\"4\",\"value\":4},{\"quote\":\"3\",\"value\":3},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"16\",\"value\":16},{\"quote\":\"2 + 8\",\"value\":10},{\"quote\":\"2+7\\u0026#215;4\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "594884b9f88a3ba31cc2d8c0757cfa333f18523207210aab3694737d47d9799e"
+}

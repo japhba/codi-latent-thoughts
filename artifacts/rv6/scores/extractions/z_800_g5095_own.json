@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5095",
+  "kind": "own",
+  "descriptions": [
+    "Statistical data pattern: article consistently presents precise numerical comparisons (e.g., \"19.7 million,\" \"1.5 million,\" \"1.8 million\"), so a specific dollar figure is expected next.\n\nNarrative momentum of ranking: the text is mid-sentence describing the top 10 states with the most traffic, with California and New York already named, implying more states or a concluding summary statistic follows.\n\nFinal token \"is\" opens a predicate completing \"is estimated to be,\" requiring an immediate dollar amount (likely in millions, e.g., \"$X million\") to finish the traffic volume statistic.",
+    "Product description format: structured film review with technical specs, cast, and plot summary, now transitioning to a formal \"What's it about?\" section with detailed film metadata.\n\nContinuation of technical film review content: the text is mid-sentence describing the film's qualities, having covered cinematography, sound, and now pivoting to production details like director and cinematographer.\n\nFinal token \"is 60 is 200 is 60 is 120 is 120 is 200 is 50 is 50 is\" \u2014 garbled mid-sentence, but the model must continue the product description with quality/feature claims, likely \"is 120 is 50 is\" completing a superlative or numerical product attribute.",
+    "Product listing/e-commerce format with structured sections (description, specs, shipping, related items) signals continuation of product detail content.\n\nThe text is mid-sentence describing brand history and product range, building toward completing the product description with material/quality details and likely a call-to-action or additional specs.\n\nFinal token \"available is available\" (repeated) ends an incomplete clause \"We will provide you with the best quality and price available is available\" \u2014 the sentence requires completion, likely continuing with \"here\" or a product name, or transitioning to pricing/availability details.",
+    "Structured table/list pattern: price data presented as a series of rows with item names and prices, establishing a consistent format for product listings.\n\nE-commerce product page template: the page follows a predictable template of shipping info, currency, and price data, suggesting more product entries or navigation elements follow.\n\nFinal token \"Available\" ends a price table row mid-entry (\"Available\"), part of a \"Price Available\" data field; the next tokens likely continue with a currency symbol, value, or the next table row's product name.",
+    "Structured data pattern: financial data presented as a series of price statistics (high, low, average, volume), each with specific figures and time periods.\n\nContinuation of the \"most expensive\" list: the text has been systematically presenting ranked price data, and the most expensive item (2019) was just introduced, implying further ranked entries follow.\n\nFinal token \"Available\" ends a price data entry mid-sentence (\"$1,000.00Available\"), likely part of a table or list structure, with the next token expected to continue with another price figure, a currency symbol, or a new data field.",
+    "Structured data table pattern: price data presented as a series of statistics (total, average, minimum, maximum), each with a label and value, continuing the established format.\n\nFinancial/stock profile genre: factual, data-driven prose about a specific stock, with consistent formatting of figures, dates, and comparisons throughout.\n\nFinal token \"Available\" ends a sentence fragment \"PriceAvailable\" mid-clause, part of the \"Minimum Price\" data entry; the next tokens must complete the dollar amount and likely continue with a date range or additional price context."
+  ],
+  "input_sha256": "3909c06c82e1fbac0e1e3e5e633ede144b8a64bdc6a3abee703f162628e85bc2",
+  "values": [
+    {
+      "quote": "19.7 million",
+      "value": "19.7"
+    },
+    {
+      "quote": "1.5 million",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.8 million",
+      "value": "1.8"
+    },
+    {
+      "quote": "top 10 states",
+      "value": "10"
+    },
+    {
+      "quote": "is 60",
+      "value": "60"
+    },
+    {
+      "quote": "is 200",
+      "value": "200"
+    },
+    {
+      "quote": "is 120",
+      "value": "120"
+    },
+    {
+      "quote": "is 50",
+      "value": "50"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "$1,000.00",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including decimals and currency values, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"19.7 million\",\"value\":19.7},{\"quote\":\"1.5 million\",\"value\":1.5},{\"quote\":\"1.8 million\",\"value\":1.8},{\"quote\":\"top 10 states\",\"value\":10},{\"quote\":\"is 60\",\"value\":60},{\"quote\":\"is 200\",\"value\":200},{\"quote\":\"is 120\",\"value\":120},{\"quote\":\"is 50\",\"value\":50},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"$1,000.00\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including decimals and currency values, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "54a0565d94169fcc23be31fd358a5655fbf127d219b8ff40e8512308730c6c9d"
+}

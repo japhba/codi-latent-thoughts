@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5021",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: financial data presented as bullet points with specific figures (e.g., \"1.5% of total revenue\"), establishing a continuation of numeric financial metrics.\n\nComparative structure momentum: the text consistently pairs current figures with prior-year comparisons (e.g., \"1.5% of total revenue in 2019\"), suggesting the next tokens will follow this same pattern.\n\nFinal token \"and\" is a coordinating conjunction mid-sentence within a price comparison clause (\"was $1.50 and\"), immediately requiring a second price figure or related financial metric to complete the conjunction.\n\"and\" demands a parallel noun phrase or dollar amount continuing the revenue comparison.\n\"and is $1.50 and\" \u2014 the \"and\" signals an additional data point or clause follows, likely another price or volume figure.\n\"and is $1.50 and\" \u2014 the table/list pattern.",
+    "Structured product review format with repeated sections (Description, bullet points, pros/cons) signals continuation of the \"Pros\" list or a new labeled section like \"Cons.\"\n\nThe review is mid-sentence describing product features, with a pattern of listing attributes and specifications (materials, dimensions, compatibility).\n\nFinal token \"is 2\" is mid-sentence (\"The product is 2\"), likely completing a numeric rating or price figure (e.g., \"2.5 stars\" or \"200mm\"), requiring immediate numeric continuation.\n\"2 is 2\" suggests a copy-paste artifact; the store's promotional copy pattern predicts a rating or product detail follows.\n\"2 is is 2 is\" suggests garbled text; the store's promotional language \"is 2 is\" likely continues with a film rating or store descriptor.\n\"250 is is 190 is\" \u2014 gar.",
+    "Structured e-commerce navigation pattern: each category lists subcategories with consistent formatting (\"Bestselling X Parts,\" \"Popular X Parts\").\n\nThe page is mid-list, having covered \"Popular\" and \"Bestselling\" sections; the navigation menu pattern suggests more category links or filter options follow.\n\nFinal token \"More\" closes a \"Bestselling X Parts\" subcategory entry, immediately expecting either another \"Bestselling\" subcategory line or a new product category header continuing the parts/filter menu.\n\"More\" ends a truncated product listing line, suggesting the next token continues either another part category or navigational UI element.\n\"More\" is a truncated navigation link/button label, likely followed by another category name or part description.\n\"Available\" or a new product category line follows.\n\"Most popular\" table/list pattern suggests pricing or part details follow.\n\"Part\" closes the final navigation item \"Part\" \u2014 the instructional \".",
+    "Structured parts list pattern: each entry follows \"Part Name\" then \"Description\" format, repeating consistently throughout the catalog.\n\nStructured e-commerce parts listing with part numbers, descriptions, and compatibility notes \u2014 the pattern strongly predicts continuation of this catalog format.\n\nFinal token \"Part\" ends a truncated table cell (\"Part\") within a pipe-delimited product listing, immediately requiring a closing pipe \"|\" followed by another part entry or end of table.\n\"Part\" is mid-cell in a parts table row, so the next token must be \"|\" to close the cell, then likely another part name or end of table.\n\"Part\" is the last token, inside an unclosed table cell, requiring \"|\" next.\n\"Part\" is part of a product listing row, so pricing or part number details follow.\n\"Part\" is the final token, mid-cell in a product table row, immediately requiring \"|\" to close the cell.",
+    "Structured parts list pattern: each entry follows \"|Part Name||Description|\" table format, with alternating part names and descriptions.\n\nPart catalog continuation: the list has been enumerating specific vehicle components (engine, transmission, drivetrain, etc.) with consistent pipe-delimited formatting throughout.\n\nFinal token \"Part\" ends a truncated table row mid-entry for \"Oil Filter,\" immediately requiring the closing pipe \"|\" followed by a part number or description, then more part entries continuing the established \"|Part Name||Description|\" pattern.\n\"Part\" is the last token, part of a table cell label, requiring \"|\" to close the cell and continue the parts table structure.\n\"Part\" is likely a formatting artifact; the next token is almost certainly \"|\" closing the cell.\n\"Part\" is part of a product listing table row, with \"|Part|\" or \"|\" as the immediate next token.\n\"Oil Filter|\" table row is incomplete \u2014.",
+    "Structured list continuation: part table pattern established with pipe-delimited rows showing part number, description, and vehicle fitment columns.\n\nPart catalog format: each row follows \"|Part Description||Description||\" pattern, with consistent pipe-delimited structure throughout the table.\n\nFinal token \"2004\" is mid-cell in a pipe-delimited table row, immediately requiring closing pipe \"|\" followed by more part entries continuing the established \"|Part Description||Description||\" pattern.\n\"2004\" is a truncated year within a table cell, so the very next token must be \"|\" to close the cell and row.\n\"Part Description\" table row is incomplete \u2014 the product name \"2004 Toyota Corolla\" needs its closing pipe and likely additional rows follow.\n\"||\" or \"|\" is the immediate next token, completing the price table cell.\n\"Part Description\" row is mid-entry, requiring the closing."
+  ],
+  "input_sha256": "c779939b6f1a71d7d6eadf0d0843ea401cb3cb345400016139290b9c399a5f0f",
+  "values": [
+    {
+      "quote": "1.5%",
+      "value": "1.5"
+    },
+    {
+      "quote": "$1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "190",
+      "value": "190"
+    },
+    {
+      "quote": "2004",
+      "value": "2004"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5%\",\"value\":1.5},{\"quote\":\"$1.50\",\"value\":1.5},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"2\",\"value\":2},{\"quote\":\"250\",\"value\":250},{\"quote\":\"190\",\"value\":190},{\"quote\":\"2004\",\"value\":2004}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "a3ae833a939a13617bec7060894101133723a4f409ad352029b6a8c0a78538db"
+}

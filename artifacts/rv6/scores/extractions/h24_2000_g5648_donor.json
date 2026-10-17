@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5648",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem solution format requires a numerical answer following the algebraic setup.\n\nThe equation x + 5x = 56 is being solved step-by-step, with the answer being a specific integer (likely 8).\n\nFinal token \"was\" completes the question prompt \"Find the smaller number x,\" immediately requiring the numerical answer \"8\" (the integer solution to x + 5x = 56).\n(56 / (1+8) = 8).\n(500) / (1+8 times) = 56, confirming the answer.\n(500) / (1+51x) = 56, so x = (50-56) / 11 = 4.\n\nThe answer must be a small integer representing the smaller number x.\n(50 - 8x = 56) or directly \".",
+    "Math word problem solution format: algebraic equation setup in progress, requiring variable equation completion.\n\nThe equation x + 8x = 88 must be solved step-by-step, with the algebraic manipulation showing x + 8x = total parts.\n\nFinal token \"has = \" introduces the equation breakdown; next tokens must show the mathematical expression, likely \"8 times x + 1\" or \"8x + x = 8 times the total,\" continuing the algebraic reasoning.\n8 times x + 1 = x + 1, forming the equation x + 8x = 88.\nFinal token \"has = \" begins the equation factorization, immediately requiring the mathematical expression showing the sum of parts equals 1.\n(8 + 1) parts = 9 parts, leading to the equation x + 1 = (8x + 1) factorization.",
+    "Word problem solution format: algebraic equation setup requires completing the equation x + 5x = 183.\n\nThe equation x + 5x = total parts is being derived step-by-step, with the solution narrative building toward finding x=36.\n\nFinal token \"9\" is the start of \"9 parts,\" completing the equation \"x + x + 8x = 9x = 9,\" requiring \"times\" or \"parts\" to finish the algebraic reasoning sentence.\nFinal token \"9\" begins the total parts equation, immediately requiring \"times\" or \"parts\" to complete the equation setup showing 9x = 81.\n9 is the sum of 1x + x = 9x, so the next tokens must state \"times\" or \"parts\" to describe the total division.\n9 parts split into 8 + x = 9, requiring.",
+    "Mathematical word problem solution in progress: equation x + 5x = 56 is being solved step-by-step.\n\nThe solution is mid-calculation, showing the algebraic setup and now requires solving for x = 56/11.\n\nFinal token \"p\" is the start of \"p = 56\" or completing the division expression \"total = (x + 5x) = 50\", immediately requiring the numeric result or equation completion like \"50/9 = 5\".\nFinal token \"p\" is part of the algebraic equation showing total parts, requiring the integer solution \"5\" to follow.\n(50 + x) = 56/3 = integer, completing the equation.\n(50 + x) / 9 = 5, so x = 50/9 = 5, confirming the answer.\n\nFinal.",
+    "Mathematical problem-solving format: step-by-step algebraic solution in progress, showing equation setup and solving process.\n\nThe solution is mid-calculation, having established x + 3x = 136, now solving for x using the equation.\n\nFinal token \"16.5s. 13. 13s.\" is the decimal result of solving x = (136/91), immediately requiring the approximate integer answer \"13 people\" to complete the explanation.\nFinal token \"13s. 10s.\" is the approximate integer conclusion of the algebraic solving step, likely followed by confirmation or conclusion of the answer.\nFinal token \"6.5s.\" ends the division result, completing the equation solving narrative; next tokens must state the approximate integer solution (~13 people).\nFinal token \"17.\" is part of the approximate decimal result,.",
+    "Mathematical problem-solving format: a worked example is being solved step-by-step, with the answer expected next.\n\nThe equation x + 3x = 113 has been set up and solved, requiring the numerical result (x \u2248 27 people).\n\nFinal token \"problem.\" closes the explanation sentence, immediately preceding the conclusion: the integer answer \"The smaller number is approximately 27 people\" or similar phrasing.\nFinal token \"problem.\" ends the mathematical reasoning paragraph, signaling the solution result is about to be stated.\nFinal token \"problem.\" closes the iterative approximation explanation, constraining next tokens to the numerical answer: \"The number of boys is approximately 27.\"\nFinal token \"problem.\" closes the algebraic resolution sentence, likely followed by the specific integer answer confirming the two groups.\n approximate equation solving: balancing x + 3x = ~113 approximation yields."
+  ],
+  "input_sha256": "2a29f109a848bb6cb7639e588781a8558aaeedd49a220cf2d559ac2369095453",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "51",
+      "value": "51"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "81",
+      "value": "81"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "91",
+      "value": "91"
+    },
+    {
+      "quote": "113",
+      "value": "113"
+    },
+    {
+      "quote": "136",
+      "value": "136"
+    },
+    {
+      "quote": "183",
+      "value": "183"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "16.5",
+      "value": "16.5"
+    },
+    {
+      "quote": "6.5",
+      "value": "6.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results (like 56/11 = 5.09, though the text suggests 5 or 4 in specific contexts) from the provided descriptions, ensuring each distinct value is represented once with its shortest exact quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"8\",\"value\":8},{\"quote\":\"9\",\"value\":9},{\"quote\":\"11\",\"value\":11},{\"quote\":\"13\",\"value\":13},{\"quote\":\"17\",\"value\":17},{\"quote\":\"27\",\"value\":27},{\"quote\":\"36\",\"value\":36},{\"quote\":\"50\",\"value\":50},{\"quote\":\"51\",\"value\":51},{\"quote\":\"56\",\"value\":56},{\"quote\":\"81\",\"value\":81},{\"quote\":\"88\",\"value\":88},{\"quote\":\"91\",\"value\":91},{\"quote\":\"113\",\"value\":113},{\"quote\":\"136\",\"value\":136},{\"quote\":\"183\",\"value\":183},{\"quote\":\"1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"4\",\"value\":4},{\"quote\":\"16.5\",\"value\":16.5},{\"quote\":\"6.5\",\"value\":6.5}],\"justification\":\"Extracted explicit numeric literals and arithmetic results (like 56/11 = 5.09, though the text suggests 5 or 4 in specific contexts) from the provided descriptions, ensuring each distinct value is represented once with its shortest exact quote.\"}",
+  "prompt_sha256": "510572e888755abf38be9c01bccac7e38c870f232340c9af8630b0f99103b189"
+}

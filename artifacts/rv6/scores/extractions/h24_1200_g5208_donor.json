@@ -1,0 +1,114 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5208",
+  "kind": "donor",
+  "descriptions": [
+    "Physics problem requiring a numerical answer: total number of pairs = (720\u00d7720)/(90\u00d73) must be computed.\n\nThe answer must be a specific integer representing maximum number of games possible, constrained by the equation: (720/90) \u00d7 (1/3) = maximum number of pairs.\n\nFinal token \"is\" opens a declarative answer statement, immediately requiring a number (likely \"1\" or \"2\") followed by explanation of the maximum number of games possible.\nThe equation (720/21) / (3+72) must resolve to a small integer, likely \"1\" given the constraint: total possible pairs must equal (720/90\u00d7(72/21)), yielding roughly 1/3 of 72/21.\n(720/90)(1/.",
+    "Mathematical solution in progress: total number of primes (720) must be split equally into two groups of 360, so each group has 720/2=360 primes.\n\nThe explanation is building toward showing that the ratio 1:1 is satisfied by the given answer option C.\n\nFinal token \"has\" opens a clause requiring the specific numerical value of the total prime count in the first half, constrained to \"7200 primes\" or similar phrasing completing the constraint statement about maximum prime pairs.\n720/2 = 360, representing half of the total available prime pool (420 primes of each type).\nThe constraint equation must be completed: 720/2 = 360 primes, then applying the ratio condition to the two categories.\n720 total primes split by 2, then.",
+    "Mathematical problem-solving context: total weight constraint being calculated, requiring completion of the equation (total weight = 120 total balls \u00d7 2/2, i.e., 360).\n\nThe explanation is mid-sentence demonstrating that half of total available weight must equal the required sum of all pairs, so the total weight of the second half must be computed.\n\nFinal token \"3\" begins the number \"360\" (the total weight of the second half of 120\u00d7120), immediately constraining next tokens to complete \"360\" representing half of 120\u00d7120 divided by 2, then continuing to explain the inequality constraint.\n360 total red balls needed to match the condition that each pair weights 60.\nThe total available red balls must be twice the blue balls, so the equation will show total.",
+    "Mathematical problem-solving context: part (a) requires calculating maximum number of circles using total red balls (360) and total white balls (360) divided by 2.\n\nThe solution is mid-explanation, having established that each red ball and white ball can be paired, now computing half of available red balls (360 total).\n\nFinal token \"36\" is the beginning of \"360\" split across a line, part of explaining the constraint that half of the red balls are non-combinable (i.e., \"360/2 = 180\"), immediately requiring \"0\" to complete the number, then explaining how circles can be formed using both types.\n360/2 and 90 white balls as available resources for circles.",
+    "Mathematical problem-solving context: calculating maximum number of red balls using total available resources (360\u00d715, then 360\u00d735).\n\nThe solution is mid-calculation, having established total available material (360\u00d735) and now computing how many complete red balls can be formed using the ratio 3x+1y=15.\n\nFinal token \"360p\" is the start of the arithmetic expression showing total available material (3x+y units), immediately requiring the division result: \"360 / 35\" or \"360 / 3\" to yield the maximum number of balls possible.\n3x+1y=15 sets up the maximum integer solution: (3\u00d715\u00d735) / 35 = 15 sets of 35 items.\n360.",
+    "Step-by-step math problem walkthrough pattern: each step builds on the previous, culminating in a final division calculation.\n\nThe sequence has established a pattern of computing maximum batch size: total eggs (12\u00d712) divided by combined egg counts (12\u00d73), now reaching the final answer.\n\nFinal token \"16. c. 24. 12n. 4s. 14s.\" ends mid-sentence after \"12 groups,\" requiring the conclusion stating the maximum number of boxes possible, i.e., \"The maximum number of boxes that can be made is 1.\"\nFinal token \"12c. 4s.\" is the last step's division result, immediately constraining the next tokens to state the final answer: \"1\" completing the division of 36 by 3\u00d74."
+  ],
+  "input_sha256": "3c18a85eea5910214c2529a7d14461094701d1af35a557b726c03ec9a0b856d9",
+  "values": [
+    {
+      "quote": "720",
+      "value": "720"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "(720\u00d7720)/(90\u00d73)",
+      "value": "1920"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "7200",
+      "value": "7200"
+    },
+    {
+      "quote": "420",
+      "value": "420"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions like 720/2 and 12x12 from the provided descriptions, ensuring each value is unique and mapped to its shortest exact quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"720\", \"value\": 720}, {\"quote\": \"90\", \"value\": 90}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"1920\", \"value\": 1920}, {\"quote\": \"1\", \"value\": 1}, {\"quote\": \"2\", \"value\": 2}, {\"quote\": \"21\", \"value\": 21}, {\"quote\": \"72\", \"value\": 72}, {\"quote\": \"360\", \"value\": 360}, {\"quote\": \"7200\", \"value\": 7200}, {\"quote\": \"420\", \"value\": 420}, {\"quote\": \"120\", \"value\": 120}, {\"quote\": \"60\", \"value\": 60}, {\"quote\": \"180\", \"value\": 180}, {\"quote\": \"15\", \"value\": 15}, {\"quote\": \"35\", \"value\": 35}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"16\", \"value\": 16}, {\"quote\": \"24\", \"value\": 24}, {\"quote\": \"4\", \"value\": 4}, {\"quote\": \"14\", \"value\": 14}, {\"quote\": \"36\", \"value\": 36}], \"justification\": \"Extracted explicit numeric literals and results of arithmetic expressions like 720/2 and 12x12 from the provided descriptions, ensuring each value is unique and mapped to its shortest exact quote.\"}",
+  "prompt_sha256": "3bf93c77194a3eba45e9747cda76598bc60cc7831d614ca2cd9c793ae37e2f0e",
+  "gold_blind_evidence_review": {
+    "quote_before": "1920",
+    "quote_after": "(720\u00d7720)/(90\u00d73)",
+    "reason": "1920 is the value of this complete explicitly written expression, not a literal present in the text. Correct the evidence citation without accessing questions or gold labels."
+  }
+}

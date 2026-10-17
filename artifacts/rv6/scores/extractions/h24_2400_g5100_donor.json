@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format expects a numerical answer following the question prompt, likely a decimal or whole number.\n\nThe problem establishes a distance/time arithmetic problem: 28 miles \u00f7 36 mph = travel time, so the solution will be a specific number (28 \u00f7 90).\n\n\"The time it takes is\" is an incomplete word problem prompt, immediately requiring a numerical answer (e.g., \"2.8 hours\") to complete the sentence.\n\"The answer is\" demands a direct numerical response, likely formatted as a decimal or whole number with units.\n28 miles / 90 mph = 3 hours, so the next token is almost certainly \"2.8 hours\" or \"2 hours.\"\n\"The duration is\" or \"The answer is 2.8 hours\" is expected next.\n28 miles / 85 miles = total travel time.\n28 miles / .",
+    "Math word problem setup requiring a numerical answer: distance (28 miles) and speed (28 miles) demand a division calculation.\n\nThe problem follows a classic arithmetic word problem format, expecting a worked solution or direct numerical result next.\n\n\"The distance is is\" is a garbled/typo repetition of the prompt, immediately preceding the expected numerical answer or equation, likely \"28 miles / 32 miles = 0.875 hours\" or similar.\n\"The number of hours is\" demands a direct numerical response.\n\"The number of hours is\" is an incomplete copular clause requiring a numerical value or equation to follow.\n28 miles / 85 miles = solution.\n\"The distance is\" expects a specific numerical answer like \"0.875 hours needed.\"\n28 miles / 32 miles = 0.875, so the next tokens will state this calculation.",
+    "Math word problem format: a worked example with a question, expecting a numerical answer with units (e.g., \"4.5 miles\").\n\nThe problem requires solving for distance using speed and time, so the solution involves dividing distance by speed.\n\nFinal token \"Answer: 0: Answer is Answer: 0: Answer\" suggests a structured template/placeholder pattern; next tokens should provide the actual solution steps or numerical result, likely \"4.5 miles / 30 miles = time\" or similar.\nFinal token \"Answer: Answer\" is a repeated placeholder label, immediately expecting the solution text or numerical calculation.\n\"Answer: 1.0\" suggests a numeric value is being provided, likely the time or distance solved.\n calculation: distance = 30 miles / 60 miles = 0.5 hours, so the next tokens should state this result.\n\"Number of hours = .",
+    "Math word problem format requires a numerical answer: distance = 18 km, speed = 6 km/h, so time = distance \u00f7 speed.\n\nThe problem follows a structured Q&A pattern where a solution is being worked through, expecting a formula or calculation next.\n\nFinal token \"ans:Answer\\nansw\\n\" is a template/placeholder artifact mid-answer, immediately expecting the numerical result or equation, likely \"t = 3 hours\" or \"t = 3 km / 6 km = 0.5 hours.\"\nFinal token \"answ\" is a corrupted placeholder, suggesting the next tokens will be the actual computed answer: \"3 km / 65 km = 0.5 hours.\"\nDistance = 35 km \u00d7 65 km = total time, so the solution shows t = 35/65 = 5.6 minutes.",
+    "Math word problem format: a structured arithmetic problem requiring distance calculation, expecting a numerical solution.\n\nThe problem establishes a distance-time relationship (6 km = 8 km \u00f7 speed), so the next step must show the mathematical expression or solution work.\n\nFinal token \"answergivenot\" is a placeholder/template marker indicating the answer is about to be revealed \u2014 immediately expects the mathematical expression or equation, likely \"t = d / v\" or \"6 km / 8 km = time.\"\nFinal token \"answergot\" is a formatting artifact, suggesting the next content is the worked solution showing distance, time, and arithmetic steps.\n distance = 8.4 km / 6 km = 1.4 hours, so the equation \"d = t \u00d7 v\" or \"t = d / v\" is expected next.\n6.35 \u00d7 8.4 = time, solving.",
+    "Math word problem format: a structured arithmetic problem requiring a numerical answer, likely in minutes or seconds.\n\nThe problem establishes a distance-time relationship: 18 km = distance, 6 km/h = speed, so the solution involves dividing distance by speed.\n\nFinal token \"answergiveniusius\" is a placeholder/template marker indicating the answer is about to be revealed \u2014 immediately expects the mathematical expression or solution steps, likely \"t = d / s\" or \"t = 8.4 / 8.4 = 1 hours.\"\nFinal token \"answergiveniusius\" is a template label preceding the actual numerical answer.\nDistance = 8.4 km / 6 km = time, so the next tokens should state the equation or computed result.\n6 \u00d7 t = 8.4 km, solving for t.\nt = 8.4 / 95 km =."
+  ],
+  "input_sha256": "2d01b62170da8869f0986ab1d8fc7cb1a7bd448802b93c00c5cf945b2fdc3160",
+  "values": [
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "2.8",
+      "value": "2.8"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "0.875",
+      "value": "0.875"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "1.0",
+      "value": "1"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "5.6",
+      "value": "5.6"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "8.4",
+      "value": "8.4"
+    },
+    {
+      "quote": "1.4",
+      "value": "1.4"
+    },
+    {
+      "quote": "6.35",
+      "value": "6.35"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of explicit arithmetic expressions (like 28 / 90 = 0.311... which was excluded as it was not explicitly written as a single value in the text, whereas 28 / 32 = 0.875 was) from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"28\",\"value\":28},{\"quote\":\"36\",\"value\":36},{\"quote\":\"90\",\"value\":90},{\"quote\":\"2.8\",\"value\":2.8},{\"quote\":\"85\",\"value\":85},{\"quote\":\"32\",\"value\":32},{\"quote\":\"0.875\",\"value\":0.875},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"30\",\"value\":30},{\"quote\":\"1.0\",\"value\":1.0},{\"quote\":\"60\",\"value\":60},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"18\",\"value\":18},{\"quote\":\"6\",\"value\":6},{\"quote\":\"3\",\"value\":3},{\"quote\":\"65\",\"value\":65},{\"quote\":\"35\",\"value\":35},{\"quote\":\"5.6\",\"value\":5.6},{\"quote\":\"8\",\"value\":8},{\"quote\":\"8.4\",\"value\":8.4},{\"quote\":\"1.4\",\"value\":1.4},{\"quote\":\"6.35\",\"value\":6.35},{\"quote\":\"1\",\"value\":1},{\"quote\":\"95\",\"value\":95}],\"justification\":\"Extracted all distinct numeric literals and results of explicit arithmetic expressions (like 28 / 90 = 0.311... which was excluded as it was not explicitly written as a single value in the text, whereas 28 / 32 = 0.875 was) from the provided descriptions.\"}",
+  "prompt_sha256": "c4696b256206555fd124877a7195227e7627867fc876fcda734e481838352480"
+}

@@ -1,0 +1,69 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5095",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: article consistently presents country-specific financial data with precise figures (e.g., \"1.5%,\" \"1.8%,\" \"2.5%\"), expecting continuation of this pattern.\n\nProduct description momentum: the text is mid-sentence describing the record holder's performance, with price and sales figures being enumerated sequentially, suggesting more comparative data or context follows.\n\nFinal token \"is is\" (double \"is\" suggests a typo mid-sentence), part of a comparative price/sales statement; \"is is\" likely precedes a dollar amount or currency figure completing the revenue comparison, e.g., \"is is $X\" or \"is is more than.\"",
+    "Product description format: structured film review with technical specs, following a pattern of listing film attributes (format, runtime, release date, technical details).\n\nContinuation of specification list: the text is mid-sentence describing technical film details, with \"60mm film\" and \"16mm film\" already mentioned, suggesting more product specifications or descriptive content about the film's technical qualities.\n\nFinal token \"6 is\" begins a numerical continuation of \"27 46 56\" (likely a product code or score), but most immediately \"is 46\" \u2014 the sentence \"The film is 27 46 56\" suggests a product code; \"is 36\" or similar numeric detail about the film's specifications or a description of the 50mm lens is expected next.",
+    "Product listing/e-commerce format with structured sections (description, specs, features) signals continuation of product detail content.\n\nThe text is mid-sentence describing product specifications and pricing, following a pattern of listing attributes like \"size, color, and material\" \u2014 the next tokens will likely complete this enumeration with pricing or availability details.\n\nFinal token \"2014 should be available 12 available\" is garbled/OCR-corrupted text mid-sentence (\"available 13 available\"), immediately requiring completion of the price or product availability statement, likely \"available\" or a currency/retailer reference continuing the product description.",
+    "Structured price table pattern: each row follows \"City||Price||Unit\" format, with city names and currency symbols already listed, suggesting more city entries or data rows follow.\n\nStructured product listing with consistent tabular data: the page alternates between prose descriptions and pipe-delimited price tables, establishing a predictable continuation pattern.\n\nFinal token \"Available\" ends a table cell mid-entry (\"New York||Available\"), part of a product availability table row; next tokens likely continue with more price data, a currency symbol, or a new city/row entry.",
+    "Structured price data table pattern: financial data page listing city-specific price comparisons with consistent formatting (city name, currency, value).\n\nTabular continuation momentum: the pipe-delimited table lists cities with prices; the pattern of city entries with financial data suggests more cities or price entries follow.\n\nFinal token \"Available\" ends a sentence fragment mid-clause (\"$1,000.00Available\"), likely part of a table row or descriptive note about availability, with \"Available\" suggesting a price or availability status immediately following, possibly a currency symbol or dollar amount continuing the pattern.",
+    "Structured price data table pattern: each city entry follows \"City: $X.XX\" format, establishing strong repetition constraints for financial data presentation.\n\nStructured table continuation: the text lists cities with price data, suggesting more cities or financial metrics (e.g., currency, volume) may follow, but the narrative has shifted to prose financial commentary.\n\nFinal token \"Available\" ends a sentence fragment mid-clause (\"$1,000.00Available\"), likely part of a table row or data entry; \"Available\" suggests a truncated price availability status, and the next token continues the pipe-delimited table pattern with \"||\" or a new city entry."
+  ],
+  "input_sha256": "cb9411162b7dbaf9067a4f26daa1c0a820288b65cbd00d3e9bebeab6804d604a",
+  "values": [
+    {
+      "quote": "1.5%",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.8%",
+      "value": "1.8"
+    },
+    {
+      "quote": "2.5%",
+      "value": "2.5"
+    },
+    {
+      "quote": "60mm film",
+      "value": "60"
+    },
+    {
+      "quote": "16mm film",
+      "value": "16"
+    },
+    {
+      "quote": "27 46 56",
+      "value": "27"
+    },
+    {
+      "quote": "27 46 56",
+      "value": "46"
+    },
+    {
+      "quote": "27 46 56",
+      "value": "56"
+    },
+    {
+      "quote": "50mm lens",
+      "value": "50"
+    },
+    {
+      "quote": "2014",
+      "value": "2014"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "$1,000.00",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and measurements from the provided descriptions, including values from product codes and financial data.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5%\",\"value\":1.5},{\"quote\":\"1.8%\",\"value\":1.8},{\"quote\":\"2.5%\",\"value\":2.5},{\"quote\":\"60mm film\",\"value\":60},{\"quote\":\"16mm film\",\"value\":16},{\"quote\":\"27 46 56\",\"value\":27},{\"quote\":\"27 46 56\",\"value\":46},{\"quote\":\"27 46 56\",\"value\":56},{\"quote\":\"50mm lens\",\"value\":50},{\"quote\":\"2014\",\"value\":2014},{\"quote\":\"12\",\"value\":12},{\"quote\":\"$1,000.00\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals, percentages, and measurements from the provided descriptions, including values from product codes and financial data.\"}",
+  "prompt_sha256": "e963db01f02f23ab53d9a00d94dba89ed9ddcaa666505646b282bf17b2481719"
+}

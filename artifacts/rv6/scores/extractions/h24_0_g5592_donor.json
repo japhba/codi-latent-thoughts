@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5592",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: 4 pairs \u00d7 2 = 8 socks, requiring the numerical answer to complete the arithmetic.\n\nThe structured product listing format (material, origin, care, sizing) signals a retail/e-commerce product description genre, where specifications are enumerated systematically.\n\nThe final token \"is\" completes a declarative sentence fragment \"The number of socks is,\" directly requiring the integer answer \"8\" to follow, as the multiplication 4\u00d72=8 is the only logical completion.\n</explanation>",
+    "Math word problem solution in progress: total eggs (24) must be broken into 3 groups of 8 each, so the arithmetic result is expected next.\n\nStep-by-step worked solution format established: each step builds on the previous, requiring a numerical answer and verification.\n\nFinal token \"have\" opens a clause requiring the total egg count (24) or the arithmetic expression \"24 eggs,\" immediately followed by the division result \"8 eggs each.\"\n</explanation>",
+    "Math word problem solution in progress: arithmetic calculation in progress, requiring completion of 24 \u00d7 2 = 48 total eggs.\n\nStep-by-step solution structure: the text is walking through a structured math problem, with the next step expected to continue the solution narrative.\n\nFinal token \"2\" is the beginning of the multiplication result \"24 \u00d7 2 = 48,\" immediately constraining the next tokens to complete \"48\" followed by explanation of how eggs are distributed across the three boxes.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, following \"Let's solve for X\" template.\n\nThe solution is mid-calculation, having established total eggs (24) and distributed eggs (6), now computing remaining eggs after subtracting distributed eggs from total.\n\nFinal token \"24\" is the total eggs value in the equation \"Eggs = 24,\" immediately requiring the arithmetic continuation: \"24 - 6 = 18 eggs\" to complete the equation setup.\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe problem requires calculating total distributed eggs (20\u00d75=100) and then subtracting from 100 to find remaining eggs, so the next step must complete this arithmetic.\n\nFinal token \"100 eggs\" is mid-calculation, part of \"20\u00d75=100 eggs\" \u2014 the sentence is incomplete and immediately requires the word \"eggs\" or \"100 eggs\" to complete the multiplication result statement.\n</explanation>",
+    "Math word problem format: structured step-by-step arithmetic explanation with labeled stages (e.g., \"First,\" \"Second,\" \"Third\") and arithmetic operations shown explicitly.\n\nSubtraction calculation in progress: \"10 eggs \u2013 2 eggs = 8 eggs\" is the expected result, following the established pattern of showing intermediate steps with arithmetic notation.\n\nThe final token \"10\" is the dividend in a subtraction expression \"10 eggs \u2013 2 eggs = 8 eggs,\" immediately requiring the arithmetic result \"8 eggs\" to complete the equation.\n</explanation>"
+  ],
+  "input_sha256": "4e38a85f759afe9956bee657e794c1e4f1bf9eab6f92bc1592e85140b3ac757d",
+  "values": [
+    {
+      "quote": "4 pairs",
+      "value": "4"
+    },
+    {
+      "quote": "2 = 8",
+      "value": "2"
+    },
+    {
+      "quote": "8 socks",
+      "value": "8"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "3 groups",
+      "value": "3"
+    },
+    {
+      "quote": "8 each",
+      "value": "8"
+    },
+    {
+      "quote": "48 total eggs",
+      "value": "48"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "18 eggs",
+      "value": "18"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "100 eggs",
+      "value": "100"
+    },
+    {
+      "quote": "10 eggs",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is paired with its source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4 pairs\",\"value\":4},{\"quote\":\"2 = 8\",\"value\":2},{\"quote\":\"8 socks\",\"value\":8},{\"quote\":\"24\",\"value\":24},{\"quote\":\"3 groups\",\"value\":3},{\"quote\":\"8 each\",\"value\":8},{\"quote\":\"48 total eggs\",\"value\":48},{\"quote\":\"6\",\"value\":6},{\"quote\":\"18 eggs\",\"value\":18},{\"quote\":\"20\",\"value\":20},{\"quote\":\"5\",\"value\":5},{\"quote\":\"100 eggs\",\"value\":100},{\"quote\":\"10 eggs\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is paired with its source quote.\"}",
+  "prompt_sha256": "51c77ad7f4dc22d9e8afb6a4b9cbb176f6acc1c98c1af108187dba3db41df3ad"
+}

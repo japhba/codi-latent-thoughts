@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5134",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/financial data pattern: article consistently presents price figures with currency conversions and time periods, e.g., \"$1,200 in 2015,\" \"$1,300 in 2016.\"\n\nStructured list continuation: the text is mid-sentence describing a specific product's sales data, following the established pattern of naming a vehicle, its price, and a time period.\n\nFinal token \"and is $2,000 and is more than $100 more than and is more than and is more than\" \u2014 a repeated filler phrase suggesting the next token continues the financial comparison, likely \"and is more than\" or a specific dollar amount completing the sales price context.",
+    "Structured product listing format with film metadata fields (title, year, cast, description) signals continuation of descriptive film details.\n\nThe text is mid-sentence describing film attributes, following a pattern of listing cast/crew details and film descriptions, suggesting more biographical or product information follows.\n\nFinal token \"4 is 4\" is mid-sentence in a product description (\"4 is 4\"), likely a typo for \"40 is 4\" \u2014 the sentence \"The film is 45 minutes long\" is complete, so next tokens continue with \"4 is 4\" suggesting a product specification like \"43\" or a numeric detail; \"is 50\" or similar continuation of a film runtime/feature description is expected next.",
+    "Structured e-commerce/catalog page pattern: part numbers, categories, and filter options follow consistent breadcrumb navigation and product listing conventions.\n\nStructured list continuation: the page has been systematically listing filter categories and part types; \"Part Numbers\" section just began, implying more filter categories (e.g., \"Part Numbers,\" \"Brand,\" \"Price\") will follow in the same table/list format.\n\nFinal token \"Available\" ends a truncated product filter label (\"Part NumbersAvailable\"), part of a table row; next tokens likely continue with more filter options or complete the \"Available\" phrase, then list related parts or categories.",
+    "Structured table pattern: pipe-delimited price data rows with consistent columns (City, Month, Price, currency) establish strong repetition constraints.\n\nStructured data continuation: the table lists cities with dates and prices; the pattern of financial data entries suggests more city entries or price data rows follow.\n\nFinal token \"||$1,000.00||\" is mid-row in a pipe-delimited table cell, representing a truncated currency value; the next token must complete the table row with a currency symbol or closing pipe, likely \"||\" or a currency name like \"USD\".",
+    "Structured table pattern: pipe-delimited price table with consistent columns (Month Year | Month Year | Month Year) requires continuation of the same format.\n\nStructured data sequence: the table lists pipe-delimited rows with dates and prices; the pattern of financial data entries continues with more rows expected.\n\nFinal token \"||$150|\" closes a table cell mid-row, immediately requiring the next pipe-delimited cell value (likely a dollar amount or date) to complete the \"||\" separator pattern, followed by more pipe-delimited entries.",
+    "Structured table pattern: pipe-delimited price data rows with consistent columns (Month Year | Price | Value | Month Year | Price | Value) requiring continuation of financial data.\n\nTabular data continuation: the pattern shows monthly price entries with dates, values, and currency values; the sequence has been listing monthly financial data rows and expects more entries to follow.\n\nFinal token \"||$1,500|\" closes a table cell mid-row, immediately requiring the next pipe-delimited cell value \u2014 likely a dollar amount or currency symbol continuing the financial data row pattern."
+  ],
+  "input_sha256": "3d5771bf67cd551f84d363ef2485be4537bf598493d4bbc06bcf2d7bc6ec3d2f",
+  "values": [
+    {
+      "quote": "$1,200",
+      "value": "1200"
+    },
+    {
+      "quote": "$1,300",
+      "value": "1300"
+    },
+    {
+      "quote": "$2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "4 is 4",
+      "value": "4"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "$1,000.00",
+      "value": "1000"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "$1,500",
+      "value": "1500"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, treating currency symbols as part of the quote but reporting the numeric value as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,200\",\"value\":1200},{\"quote\":\"$1,300\",\"value\":1300},{\"quote\":\"$2,000\",\"value\":2000},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"4 is 4\",\"value\":4},{\"quote\":\"45\",\"value\":45},{\"quote\":\"$1,000.00\",\"value\":1000},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"$1,500\",\"value\":1500}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, treating currency symbols as part of the quote but reporting the numeric value as a JSON number.\"}",
+  "prompt_sha256": "3aa628b97a43e181f1b8c92618dec0b72ddddbcecb7feba94644ac714e1b5bc8"
+}

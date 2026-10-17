@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5380",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem structure requires completing the final answer: total 100 boxes \u00d7 15 balls = 150, but only 3/4 filled, so remaining count is (100\u00d71/4).\n\nThe question asks for the number of balls remaining after removing 3/4 of each box, so the answer must be a specific integer representing total small-end balls.\n\nFinal token \"be:\" is a colon introducing the numerical answer, immediately requiring the calculated value \"15\" (or \"150/4\") representing the small-end ball count.\n(10\u00d7(1-3/4)\u00d720).\n(10\u00d71/4)\u00d715 = 37 remaining balls.\n0.25\u00d73\u00d720 = 15 total small-end balls remaining.\n\n0.75\u00d710\u00d71.",
+    "Math word problem solution format: structured step-by-step arithmetic requiring calculation of remaining circles after 3/4 of 15 total circles.\n\nThe problem explicitly states \"each circle has 15 square units,\" so the remaining per-circle space must be calculated: 15 \u2212 3/4 \u00d7 15 = 1/4.\n\nFinal token \"have\" begins the clause specifying the remaining per-circle space (1/4 units), immediately requiring the numerical value \"1/4 units\" or \"15 units\" describing the non-filled portion of each circle.\nThe remaining space calculation must follow: 15 total \u2212 3/4 \u00d7 15 = 1/4 units left outside each circle.\n1/4 of 18 units is the answer being set up.\n18 units total minus 3/4 \u00d7 18, completing the per-circle remainder.",
+    "Math word problem solution in progress: calculating 180 total minus 3/4 of 180 = 45 square feet remaining per cake.\n\nThe answer must be 45, since each cake has 180 square feet, and 3/4 of 180 = 45.\n\nFinal token \"4\" begins the numerical answer (45), part of the arithmetic expression showing the gap between each cake's full area and the 3/4 portion; next tokens must complete \"45\" as the remainder per cake.\nThe explanation requires stating the per-cake gap: 180/4 = 45 small squares remaining.\n3/4 of 180 = 45, so the answer is 40 square feet per cake.",
+    "Math word problem solution in progress: arithmetic calculation requires completing the arithmetic expression (100 \u00d7 total minus 3/4 \u00d7 100).\n\nThe solution is mid-sentence explaining the per-bottle remainder: each bottle has 350 tokens, leaving 45 tokens unaccounted for.\n\nFinal token \"45\" is the numerical answer to the per-bottle calculation (1/4 of 180 tokens), immediately requiring the word \"savers\" or \"sugar cubes\" followed by explanation of total remaining saved per bottle.\nThe sentence structure \"each one will have 45\" demands a noun phrase completing the remainder statement, then likely \"sugar cubes saved\" or \"left over.\"\n45 \u00d7 3 = total saved per bottle, confirming the answer of 45 \u00d7 8 = 360 total.\n45 is the.",
+    "Math word problem walkthrough: step-by-step arithmetic explanation requires completing the calculation of total bulbs lost per column.\n\nThe formula established shows per-column bulbs: (150 \u00d7 total minus 3/4 \u00d7 150), so the next tokens must complete this arithmetic expression showing the per-column result.\n\nFinal token \"p\" is the start of \"per column\" or \"per cell,\" completing the multiplication expression \"45% less bulbs per cell\" \u2014 immediately expects \"\u00d7\" or \"er column\" to finish the arithmetic statement showing 35 \u00d7 45 \u00d7 10.\n45\u00d73/4 per column \u00d7 10 cells, yielding total removed bulbs.\n35\u00d7(1 - 3/4) \u00d7 10.",
+    "Math word problem solution structure: each step builds toward a numerical answer, with the final calculation step expected.\n\nThe pattern established shows: per-color count = total wrong \u00d7 fraction (1/4), so the next tokens must state the total wrong count: 40 \u00d7 (1/4) = 10 eggs.\n\nFinal token \"46 eggs. . . . . . . . . . . . . . .\" closes the per-color formula and immediately precedes the arithmetic result (10 eggs remaining), completing the solution's final step.\nThe last token \"stones. 4 eggs.\" ends the per-color calculation, so the next tokens must state the total wrong count across all colors.\n4 \u00d7 (1/6) \u00d7 total eggs minus 1/6 \u00d7 total eggs = 0 eggs remaining, confirming the answer."
+  ],
+  "input_sha256": "9e2ebfb6d9994d6e21c68f63995c7624011909a66613a1df96d86d388237ec56",
+  "values": [
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "150/4",
+      "value": "37.5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "0.75",
+      "value": "0.75"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "1/6",
+      "value": "0.166667"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, fractions, and arithmetic results explicitly mentioned in the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100\",\"value\":100},{\"quote\":\"15\",\"value\":15},{\"quote\":\"150\",\"value\":150},{\"quote\":\"3/4\",\"value\":0.75},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"150/4\",\"value\":37.5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"37\",\"value\":37},{\"quote\":\"0.25\",\"value\":0.25},{\"quote\":\"3\",\"value\":3},{\"quote\":\"0.75\",\"value\":0.75},{\"quote\":\"1\",\"value\":1},{\"quote\":\"18\",\"value\":18},{\"quote\":\"180\",\"value\":180},{\"quote\":\"45\",\"value\":45},{\"quote\":\"4\",\"value\":4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"350\",\"value\":350},{\"quote\":\"8\",\"value\":8},{\"quote\":\"360\",\"value\":360},{\"quote\":\"35\",\"value\":35},{\"quote\":\"46\",\"value\":46},{\"quote\":\"1/6\",\"value\":0.16666666666666666},{\"quote\":\"0\",\"value\":0}],\"justification\":\"Extracted all distinct numeric literals, fractions, and arithmetic results explicitly mentioned in the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "eb1b7021f003fb80fd6b836e6e59300d13b6f25f270eb927607df8e1beec3815"
+}

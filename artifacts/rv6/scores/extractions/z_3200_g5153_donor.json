@@ -1,0 +1,89 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5153",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: city rankings with counts and percentages are being enumerated, establishing a clear template of \"City, State: X out of Y.\"\n\nThe sentence structure \"The city with the most X out of Y\" mirrors the earlier \"The city with the most out of 100\" format, requiring a specific number to complete the count.\n\nFinal token \"3\" is the start of a number completing \"3 out of 3\" or a larger figure like \"3,000\" \u2014 it's mid-number, requiring immediate continuation of digits to complete the city count statistic.\n\"3\" is part of an incomplete numeric value in a structured list entry.\n\"3\" table/list pattern or city name follows next.\n\"35\" or similar numeric continuation completing the statistic.\n\"3\" is the hazard rating \"35\" or a numeric value completing \"3, 26.",
+    "List continuation pattern: the text is mid-sentence listing character names (\"Linda,\" \"Linda's sister,\" \"Linda's mother\"), implying more names or scene details follow.\n\nFilm review genre conventions: structured summary of plot, characters, and quotes, with analytical commentary expected after each character introduction.\n\nFinal token \"5,\" is mid-sentence within a quoted dialogue or scene description, immediately requiring continuation of the number (e.g., \"5,000\" or similar) or a unit completing the measurement \"5,\" scene reference.\n\"5,\" is an incomplete number or list item, likely continuing a scene description or rating detail.\n\"5,\" is \"65\" or a score/number completing a sentence about Linda's character or action.\n\"53\" or similar film rating/time code expected analytical 416 65\" instruction sequence 703 political scene \u2014.",
+    "List continuation pattern: the text is mid-sentence listing book contents (\"4\" begins a number, likely \"4th\" or a page count like \"4 pages\" or continuing a title reference).\n\nNarrative momentum: the review is summarizing the book's contents, having just mentioned \"The book also contains,\" implying more content details follow.\n\nFinal token \"4\" is the start of an incomplete number or title reference (e.g., \"4th\" or a page count), requiring immediate numeric/alphanumeric continuation to complete the quantity or title.\n\"4\" is mid-word or mid-number, likely \"4\" followed by more digits or a unit like \"43\" or \"4.4\" or a recipe count.\n\"4\" is the truncated start of a rating or plot detail \"47\" or religious age \"519\" \u2014 53,490 time health.",
+    "List continuation pattern: the text is mid-sentence listing article titles, following a consistent format of \"Title: Subtitle\" entries with brief descriptions.\n\nNarrative momentum: the final entry is a question-answer format (\"What is the answer...?\"), implying a direct answer or continuation of the article's content is expected next.\n\nFinal token \"33\" is a truncated number mid-sentence (\"33\" likely completing a date or age reference), immediately requiring numeric continuation or punctuation to finish the sentence.\n\"35\" or similar completion of the age reference.\n\"33\" social media or newsletter subscription prompt follows.\n\"15\" or similar status update completing the truncated \"12\" or \"35\" confession.\n\"33\" is a promotional tagline or status update; gendered holiday greeting \"15\" relationship status 6.23\" \u2014 political 35\".",
+    "Argumentative momentum: article systematically lists reasons why the rule is wrong, building toward a concluding recommendation or summary statement.\n\nNumerical pattern: the text has been citing specific statistics (10%, 20%, 20%) and is now completing a final summary sentence about the overall impact.\n\nFinal token \"20\" ends an incomplete sentence mid-clause (\"200,000 people\"), requiring immediate continuation of the statistic or a closing clause explaining the recommendation's scope.\n\"20\" is a truncated number or list item, likely followed by a period or additional regulatory detail completing the advisory sentence.\n\"200,02\" or similar rating score is the news outlet's contact number, but the consumer safety rating \"2,013 people\" legal advice is 20,258 ratings \u2014 financial advice or policy 2,01\" food safety social.",
+    "Structured list pattern: each rule follows \"The [ordinal] rule is...\" format, with explanation and examples, suggesting continuation of this pattern.\n\nThe text is mid-explanation of the \"third rule,\" having just stated the rule and begun elaborating with \"3.\" \u2014 the numbered list of actionable steps or elaborating sentences is expected next.\n\nFinal token \"3.\" is a numbered point mid-sentence, part of an incomplete instructional explanation; the next tokens must continue elaborating on the third rule's content or advice.\n\"3.\" signals a new numbered item or continuation of the enumerated guidance.\n\"30\" or similar closing punctuation completing the phrase \"340\" or a new numbered point follows immediately.\n\"3.\" food\" or thematic label \"26,754\" professional tone \u2014 spiritual \"583\" instruction list 2,48 members 37 rules \u2014 the."
+  ],
+  "input_sha256": "a5df08545a389d09215a38a1d0ba11142454184510eeba2d1c92747f58c34d12",
+  "values": [
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "2,013",
+      "value": "2013"
+    },
+    {
+      "quote": "20,258",
+      "value": "20258"
+    },
+    {
+      "quote": "26,754",
+      "value": "26754"
+    },
+    {
+      "quote": "583",
+      "value": "583"
+    },
+    {
+      "quote": "2,48",
+      "value": "248"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating comma-separated digits as single numbers and percentages as their numeric value.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10%\",\"value\":10},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"100\",\"value\":100},{\"quote\":\"3\",\"value\":3},{\"quote\":\"5\",\"value\":5},{\"quote\":\"4\",\"value\":4},{\"quote\":\"33\",\"value\":33},{\"quote\":\"15\",\"value\":15},{\"quote\":\"12\",\"value\":12},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"2,013\",\"value\":2013},{\"quote\":\"20,258\",\"value\":20258},{\"quote\":\"26,754\",\"value\":26754},{\"quote\":\"583\",\"value\":583},{\"quote\":\"2,48\",\"value\":2.48},{\"quote\":\"37\",\"value\":37}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating comma-separated digits as single numbers and percentages as their numeric value.\"}",
+  "prompt_sha256": "ba98592002c8a9853d63e93ba80e69633c98199249f2aef8a5df8c3f28dd899b"
+}

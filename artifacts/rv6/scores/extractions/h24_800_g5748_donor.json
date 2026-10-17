@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5748",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: combining two machines (4+2=6) requires computing total capacity (4+2) \u00d7 15 = 180 units.\n\nThe question structure demands a specific numerical answer: total units sold must be derived from the new combined configuration (4+2) \u00d7 12 per box.\n\nFinal token \"be\" completes \"The total number of units sold should be,\" requiring an immediate integer answer (likely \"18\" or \"12\u00d74\") representing the new total capacity: (4+2)\u00d715, completing the arithmetic: (4+2)\u00d712 = 18, confirming the expanded capacity of the original 12 units: (4+2) = 18 total machines.",
+    "Math word problem solution in progress: arithmetic calculation requires completing the total count of balls from 4 boxes \u00d7 12 = 48, then adding 2 extra boxes \u00d7 6.\n\nThe structured solution format demands showing step-by-step arithmetic: \"4 \u00d7 12 = 48 total in first four boxes\" before adding 2\u00d76 for remaining boxes.\n\nFinal token \"had\" begins the arithmetic result statement, immediately requiring the number \"48\" (from 4\u00d712) to complete the first arithmetic step showing total balls from original four boxes: \"4\u00d712 = 48\" before adding 2\u00d712 for the five unknown boxes.\nThe next tokens must state the intermediate total before adding 2\u00d712.",
+    "Math word problem solution structure: arithmetic problem requiring calculation of total total beans across four sets, now computing each set's count.\n\nThe arithmetic sequence \"4 sets \u00d7 12 = 48\" establishes the base total for four original sets, then adding 2 extra per set (2\u00d74=8) to find new total.\n\nFinal token \"4\" begins the arithmetic result of the first calculation (4\u00d712 from four original sets), immediately requiring \"4\" to complete \"48\" as the total of the first set: \"4\u00d712 = 48\" from four sets \u00d7 12 beans each, then continuing to add 2\u00d712 for the new sets: 48 + 2\u00d712 = 72.",
+    "Math word problem solution format: step-by-step algebraic reasoning with arithmetic operations, following \"First... 48 stamps total from 4 packs \u00d7 12 cards each.\"\n\nThe solution is mid-calculation, having established total existing stamps (48 from 4 packs \u00d7 12) and now adding the second category (two unknown packs \u00d7 6 cards each), requiring completion of that arithmetic before stating the combined total.\n\nFinal token \"48\" is the result of the first calculation (4 existing decks \u00d7 12), immediately requiring continuation of the arithmetic explanation, likely \"stamps in the first two decks\" or \"and 48 stamps in the unknown decks\" to complete the combined total of 96 total stamps from the unknown two decks.",
+    "Math word problem solution in progress: arithmetic calculation of total cards requires completing the second half of the arithmetic expression showing added pairs.\n\nThe pattern \"original 2 decks \u00d7 12 cards each = 24 cards added\" establishes a parallel structure: second half calculation (two additional decks \u00d7 12) must be completed.\n\nFinal token \"p\" begins the number \"24\" (from the second half of the second calculation: second half of the second deck: 2\u00d712 from the second half of the second deck), continuing the arithmetic expression \"24 + 2\u00d712\" or similar, completing the equation showing remaining cards: 2\u00d712 = 24 total added cards for the second half of the second deck.",
+    "Math word problem format: each problem follows a structured pattern of setup, calculation, and answer, with a second problem now mid-solution.\n\nThe second problem mirrors the first's structure: \"There are 48 eggs in each cart\" establishes the second cart's count (24 \u00d7 2 = 48), so the next tokens must state the total combined eggs: \"24 + 24 = 72 eggs.\"\n\nFinal token \"24\" is the second arithmetic step in the second sub-problem's second cart calculation, immediately requiring the closing total answer line: \"The total number of eggs is 72\" or similar phrasing completing the second problem's arithmetic."
+  ],
+  "input_sha256": "3737515062b6f6aafa62f526729254c53dfeca093c3b75a96e2667af9392a5c5",
+  "values": [
+    {
+      "quote": "4+2=6",
+      "value": "4"
+    },
+    {
+      "quote": "4+2=6",
+      "value": "2"
+    },
+    {
+      "quote": "4+2=6",
+      "value": "6"
+    },
+    {
+      "quote": "(4+2) \u00d7 15 = 180",
+      "value": "15"
+    },
+    {
+      "quote": "(4+2) \u00d7 15 = 180",
+      "value": "180"
+    },
+    {
+      "quote": "(4+2) \u00d7 12",
+      "value": "12"
+    },
+    {
+      "quote": "12\u00d74",
+      "value": "48"
+    },
+    {
+      "quote": "(4+2)\u00d712 = 18",
+      "value": "18"
+    },
+    {
+      "quote": "4 boxes \u00d7 12 = 48",
+      "value": "48"
+    },
+    {
+      "quote": "2 extra boxes \u00d7 6",
+      "value": "2"
+    },
+    {
+      "quote": "2 extra boxes \u00d7 6",
+      "value": "6"
+    },
+    {
+      "quote": "2\u00d76",
+      "value": "12"
+    },
+    {
+      "quote": "2\u00d712",
+      "value": "24"
+    },
+    {
+      "quote": "4 sets \u00d7 12 = 48",
+      "value": "48"
+    },
+    {
+      "quote": "2\u00d74=8",
+      "value": "8"
+    },
+    {
+      "quote": "48 + 2\u00d712 = 72",
+      "value": "72"
+    },
+    {
+      "quote": "96",
+      "value": "96"
+    },
+    {
+      "quote": "2 decks \u00d7 12 cards each = 24",
+      "value": "24"
+    },
+    {
+      "quote": "24 + 2\u00d712",
+      "value": "48"
+    },
+    {
+      "quote": "24 \u00d7 2 = 48",
+      "value": "48"
+    },
+    {
+      "quote": "24 + 24 = 72",
+      "value": "72"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4+2=6\",\"value\":4},{\"quote\":\"4+2=6\",\"value\":2},{\"quote\":\"4+2=6\",\"value\":6},{\"quote\":\"(4+2) \u00d7 15 = 180\",\"value\":15},{\"quote\":\"(4+2) \u00d7 15 = 180\",\"value\":180},{\"quote\":\"(4+2) \u00d7 12\",\"value\":12},{\"quote\":\"12\u00d74\",\"value\":48},{\"quote\":\"(4+2)\u00d712 = 18\",\"value\":18},{\"quote\":\"4 boxes \u00d7 12 = 48\",\"value\":48},{\"quote\":\"2 extra boxes \u00d7 6\",\"value\":2},{\"quote\":\"2 extra boxes \u00d7 6\",\"value\":6},{\"quote\":\"2\u00d76\",\"value\":12},{\"quote\":\"2\u00d712\",\"value\":24},{\"quote\":\"4 sets \u00d7 12 = 48\",\"value\":48},{\"quote\":\"2\u00d74=8\",\"value\":8},{\"quote\":\"48 + 2\u00d712 = 72\",\"value\":72},{\"quote\":\"96\",\"value\":96},{\"quote\":\"2 decks \u00d7 12 cards each = 24\",\"value\":24},{\"quote\":\"24 + 2\u00d712\",\"value\":48},{\"quote\":\"24 \u00d7 2 = 48\",\"value\":48},{\"quote\":\"24 + 24 = 72\",\"value\":72}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "2f974caad06ea96050151dc07bd0abba0ca18c8bdf252a4188fbbbc022cb28a4"
+}

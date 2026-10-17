@@ -1,0 +1,85 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5141",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: article consistently presents precise numerical comparisons (e.g., \"19.7 million,\" \"1.5 million,\" \"1.8 million\"), so a specific figure is expected next.\n\nNarrative momentum of ranking: the text is mid-sentence describing the U.S. rate, continuing a pattern of presenting country-specific emissions data with supporting statistics.\n\nFinal token \"is\" opens a predicate completing \"the U.S. rate is,\" requiring an immediate numerical value (likely a percentage or rate figure, e.g., \"1.5 million tons\") consistent with the established data-reporting style.",
+    "Film review format with character-by-character analysis in progress; the text is mid-sentence describing a romantic pairing, establishing a pattern of actor name + character description + film details.\n\nThe review has been listing cast members and their traits; \"300 is 300\" signals a personal recommendation, and the romantic pairing section is now elaborating on specific character dynamics.\n\nFinal token \"300 was 300 is 400 was 600 is 1200 was\" \u2014 mid-sentence fragment listing the film's qualities, immediately requiring continuation of the character's positive traits or scene descriptions.",
+    "Product description format: structured review with specs, then prose description, now mid-sentence in a technical/marketing blurb about the film's qualities.\n\nContinuation of film review content: the text is describing the film's technical and artistic merits, with \"100% new film stock\" and \"high quality\" signaling more product praise and technical details to follow.\n\nFinal token \"120 is 10\" is mid-sentence (\"120 is 15 is 10...\"), part of a list of product attributes; \"15 is 10\" suggests a garbled/OCR-corrupted phrase, and the sentence about \"120 is 10\" likely continues with a product feature or quality claim about the film.",
+    "Product specification/description format: structured e-commerce listing with technical specs, brand history, and weight data, now detailing material properties.\n\nContinuation of weight/quality specifications: the text has been listing product attributes (weight, dimensions, materials), suggesting more specs or a concluding summary sentence about the product's features or availability.\n\nFinal token \"adequate\" ends a clause about weight (\"adequate to be considered adequate\"), part of a sentence about weight and material quality; next tokens likely continue with a period or additional product detail like price, availability, or a new specification sentence.",
+    "Structured data pattern: article lists price statistics with consistent formatting (dates, percentages, brand comparisons), continuing with more financial data.\n\nStatistical/encyclopedic momentum: the text is mid-sentence presenting a specific product's price data, with \"available at the time of writing\" signaling a price comparison or value statement is imminent.\n\nFinal token \"adequate\" ends an incomplete sentence (\"adequate\"), part of a price comparison clause (\"available at the time of writing is available at $1,299.00 and is adequate\"), requiring continuation of the price/availability description, likely a verb phrase or additional product detail.",
+    "Statistical data pattern: financial figures presented in consistent format (total value, year-over-year change, month-over-month change), establishing expectation for continued numeric data.\n\nNarrative momentum of ranking/comparison: the text is mid-sentence describing the top 10 most popular vehicles, with the first entry (2019 Toyota Camry) just introduced, implying more ranked entries follow.\n\nFinal token \"and is $15,000 and is $100,000 and is $19,000\" \u2014 mid-sentence financial data sequence, likely continuing with a dollar amount or completing the sales figure for the Camry."
+  ],
+  "input_sha256": "df6f974936551f201c99bc10bb5e38110753fde40f86bdc681109a751b6ff134",
+  "values": [
+    {
+      "quote": "19.7 million",
+      "value": "19700000"
+    },
+    {
+      "quote": "1.5 million",
+      "value": "1500000"
+    },
+    {
+      "quote": "1.8 million",
+      "value": "1800000"
+    },
+    {
+      "quote": "300 is 300",
+      "value": "300"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "100% new film stock",
+      "value": "100"
+    },
+    {
+      "quote": "120 is 10",
+      "value": "120"
+    },
+    {
+      "quote": "120 is 10",
+      "value": "10"
+    },
+    {
+      "quote": "15 is 10",
+      "value": "15"
+    },
+    {
+      "quote": "$1,299.00",
+      "value": "1299"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$15,000",
+      "value": "15000"
+    },
+    {
+      "quote": "$100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "$19,000",
+      "value": "19000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, treating 'million' as a multiplier and ignoring years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"19.7 million\",\"value\":19700000},{\"quote\":\"1.5 million\",\"value\":1500000},{\"quote\":\"1.8 million\",\"value\":1800000},{\"quote\":\"300 is 300\",\"value\":300},{\"quote\":\"400\",\"value\":400},{\"quote\":\"600\",\"value\":600},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"100% new film stock\",\"value\":100},{\"quote\":\"120 is 10\",\"value\":120},{\"quote\":\"120 is 10\",\"value\":10},{\"quote\":\"15 is 10\",\"value\":15},{\"quote\":\"$1,299.00\",\"value\":1299},{\"quote\":\"10\",\"value\":10},{\"quote\":\"$15,000\",\"value\":15000},{\"quote\":\"$100,000\",\"value\":100000},{\"quote\":\"$19,000\",\"value\":19000}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, treating 'million' as a multiplier and ignoring years and ordinals as per instructions.\"}",
+  "prompt_sha256": "f1dc923aa4944ee9a2fcec7f88a828cec00fb46900de04cc5d644f12aa53fd8e"
+}

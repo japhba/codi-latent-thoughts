@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5144",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the established setup: 4 units \u00d7 3 yards = 12 yards total.\n\nThe word problem structure demands a solution walkthrough, likely showing arithmetic: 4\u00d73 + 2\u00d76 = 12 + 6\u00d72 = 18 minutes.\n\nFinal token \"Total:\" is a label introducing the computed answer, immediately requiring a number (likely \"18\") representing the total yards needed.\n4\u00d73 + 2\u00d76 = 18 minutes.\n3+2yds = 5 miles, but this is the total distance constraint.\nThe next tokens must state the total yards: \"18 miles.\"\n4*6 + 3*6 = 18 minutes, completing the equation.\n3*4 + 2*6 yards from the 4 cars and 6 pants.\n6*2 + 3.",
+    "Math word problem format requires step-by-step arithmetic solution, expecting multiplication results and arithmetic continuation.\n\nThe word problem structure demands a numerical answer: 6 cars \u00d7 2 minutes = 12 minutes, then 4 cars \u00d7 3 minutes = 12 minutes, plus 4 cars \u00d7 fractional minutes.\n\nFinal token \"have\" begins the arithmetic result clause, immediately requiring a number (likely \"12\") representing the total time for 6 cars \u00d7 2 minutes.\nShe will have 12 minutes for running cars, then 4\u00d73=12 minutes for running bikes.\n simply \"2 \u00d7 6 = 12 hours\" or similar phrasing.\n6 \u00d7 2 = 12 hours, then 4 \u00d7 3.5 = 14 minutes remaining calculations.\n straightforward arithmetic continuation expected.\n2 \u00d7 6 tasks first, then 3 \u00d7 4 tasks.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with arithmetic operations expected next.\n\nWord problem setup requires completing the multiplication: 3 tasks \u00d7 4 hours = 12 hours, then 3 tasks \u00d7 6 minutes = 18 minutes, then adding both.\n\nThe final token \"12\" is the numerical result of 3 \u00d7 4 hours for cars, immediately requiring continuation of the arithmetic expression or the next operation (adding 3 \u00d7 6 hours for bikes).\nShe will spend 12 hours on cars and 18 hours on bikes.\n12 hours total cleaning time.\nShe needs to complete the arithmetic before stating the total time.\nShe needs 12 hours for cars, then 6 \u00d7 2 hours for bikes.\n12 hours for cars, 6 hours for bikes.\nFirst multiplication step is complete; next tokens will state remaining time calculation.\n3 \u00d7.",
+    "Math word problem format requires completing the arithmetic expression: 4 trips \u00d7 3 minutes = 12 minutes total.\n\nThe word problem structure demands a numerical answer: 4\u00d73=12 minutes for running, then 3\u00d74=12 minutes for running.\n\nFinal token \"p\" begins the multiplication expression \"4\u00d73=12 minutes,\" immediately requiring the number \"12\" to complete the second arithmetic result (4 miles \u00d7 3 minutes = 12 minutes).\n4 miles of running time for books, so the next tokens must state the total time (12 minutes) before adding to total.\n3\u00d74=12 minutes for books, completing the two multiplication calculations.\n4 miles books requires 3\u00d74 minutes total time to follow.\n4\u00d73 minutes for books is the expected completion of the second equation.\n3 miles books remaining to be listed.",
+    "Math word problem walkthrough format: step-by-step solution with arithmetic operations, expecting a numerical answer.\n\nThe word problem structure requires completing the multiplication: 4 miles \u00d7 3 minutes = 12 minutes, then adding both distances to yield 24 miles total.\n\nFinal token \"12\" is the second arithmetic result in the parallel calculation (4\u00d73=12), immediately expecting the conclusion: \"so the total distance is 24 miles.\"\nFinal token \"12\" is the second half of the paired calculation, completing the 4\u00d73 miles of the distance, expecting a closing statement like \"so the answer is 24 minutes.\"\nFinal token \"12\" is the result of the second multiplication (6\u00d74=12 minutes needed).\n straightforward answer: \"24 miles.\"\n12 miles of washing time.\nTotal time = 6+12=24.",
+    "Math word problem worked example format: structured Q&A with word problem followed by solution, expecting a numerical answer.\n\nThe pattern established shows a worked example with arithmetic steps, expecting a final answer like \"140 minutes total.\"\n\nFinal token \"minutes.\" closes the second calculation (2 tasks \u00d7 8 minutes = 16 minutes), immediately expecting the answer \"140 minutes\" or a summary statement like \"Therefore, the total time is 140 minutes.\"\nFinal token \"92 problems.\" ends the second arithmetic result, completing the multiplication expression \"8 \u00d7 15 = 120 minutes + 2 \u00d7 9 = external problem.\"\nFinal token \"problems.\" closes the problem statement, immediately expecting the computed answer \"140 minutes total.\"\nFinal token \"problems.\" ends the combined time calculation.\n simply answer \"140 minutes needed.\""
+  ],
+  "input_sha256": "fa18ca7c2dd96f950b736f9424d13e3c320df803a8de3d884374abe9a1429973",
+  "values": [
+    {
+      "quote": "4 units",
+      "value": "4"
+    },
+    {
+      "quote": "3 yards",
+      "value": "3"
+    },
+    {
+      "quote": "12 yards",
+      "value": "12"
+    },
+    {
+      "quote": "2\u00d76",
+      "value": "2"
+    },
+    {
+      "quote": "2\u00d76",
+      "value": "6"
+    },
+    {
+      "quote": "18 minutes",
+      "value": "18"
+    },
+    {
+      "quote": "5 miles",
+      "value": "5"
+    },
+    {
+      "quote": "3.5",
+      "value": "3.5"
+    },
+    {
+      "quote": "14 minutes",
+      "value": "14"
+    },
+    {
+      "quote": "24 miles",
+      "value": "24"
+    },
+    {
+      "quote": "140 minutes",
+      "value": "140"
+    },
+    {
+      "quote": "16 minutes",
+      "value": "16"
+    },
+    {
+      "quote": "92 problems",
+      "value": "92"
+    },
+    {
+      "quote": "8 \u00d7 15",
+      "value": "8"
+    },
+    {
+      "quote": "8 \u00d7 15",
+      "value": "15"
+    },
+    {
+      "quote": "120 minutes",
+      "value": "120"
+    },
+    {
+      "quote": "2 \u00d7 9",
+      "value": "9"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is mapped to a unique exact quote from the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4 units\",\"value\":4},{\"quote\":\"3 yards\",\"value\":3},{\"quote\":\"12 yards\",\"value\":12},{\"quote\":\"2\\u0026#215;6\",\"value\":2},{\"quote\":\"2\\u0026#215;6\",\"value\":6},{\"quote\":\"18 minutes\",\"value\":18},{\"quote\":\"5 miles\",\"value\":5},{\"quote\":\"3.5\",\"value\":3.5},{\"quote\":\"14 minutes\",\"value\":14},{\"quote\":\"24 miles\",\"value\":24},{\"quote\":\"140 minutes\",\"value\":140},{\"quote\":\"16 minutes\",\"value\":16},{\"quote\":\"92 problems\",\"value\":92},{\"quote\":\"8 \\u0026#215; 15\",\"value\":8},{\"quote\":\"8 \\u0026#215; 15\",\"value\":15},{\"quote\":\"120 minutes\",\"value\":120},{\"quote\":\"2 \\u0026#215; 9\",\"value\":9}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is mapped to a unique exact quote from the text.\"}",
+  "prompt_sha256": "fa6d3d12968a47d62f0ddd7a091d887f767aaa0826e5cacf1ee858f6b745c76e"
+}

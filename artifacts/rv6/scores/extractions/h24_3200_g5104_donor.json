@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5104",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question prompt, likely a dollar amount.\n\nThe problem establishes a total of 15 items (3\u00d715 + 4\u00d78 = $150), so the answer must be \"$150\" or \"150.\"\n\nThe final token \"is\" completes the word problem question \"Total is ___\", immediately requiring a numerical value (likely \"150\") representing the sum of 3\u00d715 + 4\u00d78.\n3\u00d715 + 7\u00d74 = 150 dollars already stated, so the answer is the total cost.\n15 + 4 = 55, so the remaining 45 cents from the first item.\n3\u00d715 + 7\u00d75 = original.\n3*15 + 8*5 = 45, so the minimum amount of.",
+    "Math word problem setup requiring arithmetic calculation: 4 \u00d7 $8 = $32.\n\nWord problem format expects a numerical arithmetic answer, likely followed by arithmetic steps or solution.\n\nThe final token \"has\" introduces the arithmetic result of the multiplication, immediately requiring the numerical answer \"$32\" (or \"4 \u00d7 8 = 32\").\nThe next token must be the arithmetic result, almost certainly \"32\" or \"the cost is $32.\"\n4 \u00d7 $8 = $32, so the next tokens must state this product before continuing with the remaining arithmetic operation.\n8 \u00d7 4 = 32.\nThen the remaining total plus 45\u00d7$17.\nThe problem demands a simple arithmetic continuation.\n4 \u00d7 $8 = $32 cost of pants, then adding 45\u00d7$17.\n8 items \u00d7 $4 = $32, then.",
+    "Math word problem setup requiring arithmetic completion: \"4 \u00d7 $8 = $32\" is the expected arithmetic result.\n\nStep-by-step arithmetic word problem format expects a worked calculation, likely showing multiplication and then addition/subtraction of remaining items.\n\nThe final token \"3\" begins the arithmetic result \"32,\" immediately constraining the next tokens to complete the multiplication \"4 \u00d7 8 = 32,\" followed by the remaining arithmetic operation (adding 4 \u00d7 $7 = $28).\nThe problem demands a numerical answer, so digits completing \"$32\" are expected next.\n4 \u00d7 $8 = $32 cost, then the remaining sum of $56 total.\nThe word problem expects a simple arithmetic continuation.\n4 \u00d7 $8 = $32, then adding 5 items \u00d7 $7 = $35 cost.\nYou must complete the arithmetic expression before stating the answer.",
+    "Math word problem walkthrough expecting arithmetic continuation: 4 items \u00d7 $8 = $32, then arithmetic sum.\n\nThe arithmetic word problem format requires showing the arithmetic expression and its result, following the established arithmetic problem-solving pattern.\n\nThe final token \"$32\" is the result of the first arithmetic operation (4\u00d7$8), immediately expecting the arithmetic expression or continuation like \"and $4\u00d7$15 = $60 spent on clothes,\" completing the sum.\nWe must show the arithmetic result \"$32\" followed by the remaining calculation.\nYou will write \"$32\" then \"+ 4\u00d7$15 = $60 total cost.\"\nYou spent $32 on items, so the next tokens must complete the arithmetic expression or state the total cost.\n$32\" is the first arithmetic result, requiring the addition of 5\u00d7$15.\n8 items \u00d7 $4 =.",
+    "Math word problem format expects arithmetic calculation: 3 \u00d7 $15 = $45, so the next token completes the arithmetic expression.\n\nThe word problem structure requires a numerical answer, likely \"$45\" or \"45,\" following the arithmetic operation.\n\nThe final token \"p\" begins the price expression \"3 \u00d7 $15,\" immediately requiring the multiplication result \"45\" to complete the second arithmetic operation in the problem prompt.\n3 \u00d7 $15 = $45, so the next token must be \"45\" as the cost of three items.\nThe problem lists two arithmetic operations, so the next prompt likely asks for the total or remaining amount.\n3 \u00d7 15 = $45, so the cost of the second item (likely \"15\") must follow.\n15 = $45.\n3 \u00d7 15 = $45, completing the multiplication.",
+    "Math word problem format: arithmetic operations with word problems, expecting arithmetic answers and arithmetic expressions.\n\nSecond problem mirrors first: arithmetic expression expected next, likely \"45\" completing the multiplication \"7 \u00d7 6 = 42\" or a numerical answer.\n\nThe final token \"45\" is the arithmetic result of the second problem's cost expression, immediately expecting either a newline, answer, or the next word problem prompt.\nFinal token \"45\" closes the arithmetic expression \"7 \u00d7 15 = 45 dollars,\" suggesting a line break or new problem follows.\nFinal token \"45.\" ends the second arithmetic problem's arithmetic result, completing the second calculation prompt.\n45 is the sum of 15\u00d73=45 cents, so the next token likely continues with a period or adds a question mark.\n$45$ is the cost of the second item, completing the."
+  ],
+  "input_sha256": "925e0200d297055bec6c177160d3d69aa6bce9e21ec8bce2974c0a13de3b3f2a",
+  "values": [
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "42",
+      "value": "42"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including operands and products from expressions like 3x15=45 and 4x8=32.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15\",\"value\":15},{\"quote\":\"3\",\"value\":3},{\"quote\":\"4\",\"value\":4},{\"quote\":\"8\",\"value\":8},{\"quote\":\"150\",\"value\":150},{\"quote\":\"7\",\"value\":7},{\"quote\":\"55\",\"value\":55},{\"quote\":\"45\",\"value\":45},{\"quote\":\"5\",\"value\":5},{\"quote\":\"32\",\"value\":32},{\"quote\":\"17\",\"value\":17},{\"quote\":\"28\",\"value\":28},{\"quote\":\"56\",\"value\":56},{\"quote\":\"35\",\"value\":35},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"42\",\"value\":42}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including operands and products from expressions like 3x15=45 and 4x8=32.\"}",
+  "prompt_sha256": "05402d6acd010b01f711d270b0587106edb0f24ae6440f55b22bdfe83456b751"
+}

@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5612",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: total balls doubled from 200, so answer must be 2\u00d7200/2 = 200.\n\nThe calculation context demands a specific numerical result, likely \"200\" representing total balls after adding half extra balls.\n\nFinal token \"total to\" is a setup phrase requiring an immediate numerical answer (e.g., \"200 balls\"), completing the arithmetic expression about combined total balls after adding half the original count.\n200\u00d7(1+50% addition) or similar formula.\n2\u00d73\u00d7150 balls = total balls calculation is the expected conclusion.\n\nFinal token \"to\" completes \"total to,\" requiring a specific number representing the doubled plus half calculation.\n(2\u00d7300/2 + original half) \u00d7 1 unit per ball = 200 total balls.\n20.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning requires completing the arithmetic expression.\n\nThe problem requires calculating total balls: 30 students \u00d7 2 balls = 60, then adding 20 more added students.\n\nFinal token \"have\" begins the arithmetic result statement, immediately requiring the numerical answer \"60 balls\" (30 \u00d7 2) before continuing to describe the new count after adding 50% more students.\nthere are\" sets up the initial total count before adding the 50% increase.\n20 students \u00d7 2 = original total balls, so the next tokens must state this number before explaining adding 2 extra per student.\n30 students \u00d7 2 = 60 balls total balls before adding 2 extra rows, completing the logical setup before stating the new total after adding half extra.\n2 \u00d7 30 students = 60.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning requires completing the arithmetic expression.\n\nThe problem requires calculating total student count (30 students \u00d7 2 balls = 60), then applying doubling to find new count after adding 10 more students.\n\nFinal token \"6\" is the start of the arithmetic result \"60 balls,\" immediately requiring \"0\" to complete the multiplication (30 students \u00d7 2 = 60), then continuing with the solution about doubling the count.\nFinal token \"6\" begins the numerical answer stating initial total balls, requiring \"0 balls\" to complete the sentence before explaining adding 10 more students.\n30 students \u00d7 2 = 60 pairs, establishing the current count before applying doubling.\nThere are 60 pairs of balls, so next tokens must state the doubled count or explain adding half of students \u00d7 3 balls.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning requires completing the arithmetic setup before solving.\n\nThe solution is mid-calculation, having established total books (120 students \u00d7 2 = 60), now requiring the next step: adding extra books added by doubling.\n\nFinal token \"60\" is the calculated current total number of books, immediately requiring continuation of the solution: \"books in the collection\" or similar, then adding doubled books from new students arriving.\nFinal token \"60\" is the base count before stating the doubling condition, expecting \"books\" or \"books in total\" followed by explanation of adding half extra books from new students.\n60 is the initial total books (120 students \u00d7 5 pairs), requiring immediate completion of this arithmetic statement before addressing the second condition.\nthere are 60 biblical books in total before adding half extra books.",
+    "Math word problem solution in progress: calculation requires completing the arithmetic expression \"60 total balls \u00d7 1/2 = 30 added balls.\"\n\nThe solution follows a structured step-by-step format, having stated total balls and now computing half of them added.\n\nFinal token \"p\" begins the mathematical expression \"p = 60 \u00d7 1/2 = 30,\" requiring the numeric result \"30 extra balls\" to complete the equation showing half of total balls added equal to original count.\nFinal token \"p\" is mid-expression, immediately requiring \"= 30\" or similar completing the multiplication of half the total increase.\n60 balls \u00d7 1/2 fraction = half of balls added, confirming the total becomes 60 + original count.\n60 \u00d7 1/2 of balls added = exactly matching balls added from half the balls remaining.\n60 added balls of.",
+    "Structured math word problem format: each problem follows a pattern of question, calculation, and answer, now completing the second problem's solution.\n\nThe solution mirrors the first problem's structure: total count (150) + half (30) = 80, so the answer must state total balls added.\n\nFinal token \"30.\" ends the calculation of extra balls added (30% of original count), immediately requiring the concluding sentence stating the total number of balls becomes 80, completing the solution.\nFinal token \"30\" closes the explanation of the extra balls calculation, so next tokens must state the final total count: \"The total number of balls in the game is 80.\"\nFinal token \"30\" ends the second calculation step, confirming the answer.\nFinal token \"30\" concludes the explanation of half extra balls from random draws, immediately requiring the concluding statement."
+  ],
+  "input_sha256": "fbf5c0acc5246d0ff45c01b79219d33bb6808f550108e663b3c87a0a63cbd75f",
+  "values": [
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "20.",
+      "value": "20"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, and fractions explicitly mentioned in the descriptions, including those within arithmetic expressions and final tokens.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200\",\"value\":200},{\"quote\":\"2\",\"value\":2},{\"quote\":\"50%\",\"value\":50},{\"quote\":\"3\",\"value\":3},{\"quote\":\"150\",\"value\":150},{\"quote\":\"300\",\"value\":300},{\"quote\":\"1\",\"value\":1},{\"quote\":\"20.\",\"value\":20},{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"0\",\"value\":0},{\"quote\":\"10\",\"value\":10},{\"quote\":\"120\",\"value\":120},{\"quote\":\"5\",\"value\":5},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"80\",\"value\":80}],\"justification\":\"Extracted all distinct numeric literals, percentages, and fractions explicitly mentioned in the descriptions, including those within arithmetic expressions and final tokens.\"}",
+  "prompt_sha256": "cb22a5c14adad69942e2591536dcb564fc47c23c18805b0cb9a8b2b85851e532"
+}

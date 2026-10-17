@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5248",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 36 \u00d7 10 = 360, so the next token must be the computed total (360).\n\nThe sentence structure \"The total number of parts is\" demands a specific numerical answer, likely followed by a period or further explanation.\n\nFinal token \"is\" opens a predicate requiring an immediate numerical value (360) to complete the declarative sentence about total parts in the kit.\n</explanation>",
+    "Math word problem solution in progress: arithmetic calculation in progress, requiring 80 \u00d7 3 = 240, then 80 \u00d7 1 = 80, then 80 \u00d7 2 = 160.\n\nStep-by-step algebraic reasoning pattern established: each variable (x, y, z) is being solved sequentially, with x currently being calculated.\n\nFinal token \"is\" begins the result of the multiplication expression \"80 x 3 = ___\", immediately requiring the numeric answer \"240\" to complete the arithmetic statement.\n</explanation>",
+    "Math word problem solution in progress: calculating total brothers by adding sisters (12) to brothers (36) = 48, then dividing by brothers (12) to find brothers count.\n\nStep-by-step arithmetic pattern established: each calculation builds on the previous, with the final division step being the critical unknown to solve for.\n\nFinal token \"9\" is the beginning of the brothers count answer (48 \u00f7 12 = 4), mid-number, so the next token must complete \"4\" or continue the division result, likely \"4 brothers\" or \"4 brothers.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-calculation, having substituted x = 3x into x + 3x = 112; the next step must solve for x, then find 3x, then sum both values.\n\nFinal token \"112\" closes the equation setup line; the next tokens must show the solving process, likely \"\u2192 x = 28\" or \"\u2192 3x = 84\" continuing the step-by-step algebraic derivation.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Let's solve for x,\" \"Subtract 3x from both sides,\" \"Divide both sides by 2\").\n\nThe solution is mid-calculation, having isolated x and substituted it into the original equation, so the next step must state the numerical result and verify it.\n\nFinal token \"answ\" is a placeholder/label indicating the answer is about to be stated, immediately requiring the numerical result: \"x = 14\" or similar.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Let's solve for x,\" \"Subtract 3x from both sides,\" \"Divide both sides by 2\").\n\nThe solution is mid-completion, having reached the final stage of isolating x; the next tokens must state the numerical answer and verify it.\n\nFinal token \"answ\" is a placeholder/label indicating the answer is about to be stated, immediately requiring the solved value \"x = 14\" or similar numerical result.\n</explanation>"
+  ],
+  "input_sha256": "c946b0e17fc82cc9616a697aabd6c0e92c291856a682cc1a3c09c7f040401d45",
+  "values": [
+    {
+      "quote": "36 \u00d7 10 = 360",
+      "value": "36"
+    },
+    {
+      "quote": "36 \u00d7 10 = 360",
+      "value": "10"
+    },
+    {
+      "quote": "36 \u00d7 10 = 360",
+      "value": "360"
+    },
+    {
+      "quote": "80 \u00d7 3 = 240",
+      "value": "80"
+    },
+    {
+      "quote": "80 \u00d7 3 = 240",
+      "value": "3"
+    },
+    {
+      "quote": "80 \u00d7 3 = 240",
+      "value": "240"
+    },
+    {
+      "quote": "80 \u00d7 1 = 80",
+      "value": "1"
+    },
+    {
+      "quote": "80 \u00d7 2 = 160",
+      "value": "2"
+    },
+    {
+      "quote": "80 \u00d7 2 = 160",
+      "value": "160"
+    },
+    {
+      "quote": "sisters (12)",
+      "value": "12"
+    },
+    {
+      "quote": "brothers (36)",
+      "value": "36"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "48 \u00f7 12 = 4",
+      "value": "4"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "112",
+      "value": "112"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "84",
+      "value": "84"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions like 36 \u00d7 10 = 360 and 48 \u00f7 12 = 4 from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"36 \\u00D7 10 = 360\", \"value\": 36}, {\"quote\": \"36 \\u00D7 10 = 360\", \"value\": 10}, {\"quote\": \"36 \\u00D7 10 = 360\", \"value\": 360}, {\"quote\": \"80 \\u00D7 3 = 240\", \"value\": 80}, {\"quote\": \"80 \\u00D7 3 = 240\", \"value\": 3}, {\"quote\": \"80 \\u00D7 3 = 240\", \"value\": 240}, {\"quote\": \"80 \\u00D7 1 = 80\", \"value\": 1}, {\"quote\": \"80 \\u00D7 2 = 160\", \"value\": 2}, {\"quote\": \"80 \\u00D7 2 = 160\", \"value\": 160}, {\"quote\": \"sisters (12)\", \"value\": 12}, {\"quote\": \"brothers (36)\", \"value\": 36}, {\"quote\": \"48\", \"value\": 48}, {\"quote\": \"48 \\u00F7 12 = 4\", \"value\": 4}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"112\", \"value\": 112}, {\"quote\": \"28\", \"value\": 28}, {\"quote\": \"84\", \"value\": 84}, {\"quote\": \"2\", \"value\": 2}, {\"quote\": \"14\", \"value\": 14}], \"justification\": \"Extracted explicit numeric literals and results of arithmetic expressions like 36 \\u00D7 10 = 360 and 48 \\u00F7 12 = 4 from the provided descriptions.\"}",
+  "prompt_sha256": "875406cdd13ee58c255f100f48837616df3ec06fdc1c1d5026b06c4a594b10bb"
+}

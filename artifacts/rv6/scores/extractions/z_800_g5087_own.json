@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5087",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: study findings are being reported with specific hazard ratios and confidence intervals, e.g., \"HR=1.99, 95% CI: 1.08-3.34,\" establishing a template for reporting remaining findings.\n\nAcademic/journalistic reporting style: formal citation of study details, methodology, and results in sequence, with each finding elaborated with precise numerical data.\n\nFinal token \"is\" opens a predicate completing \"The hazard of being struck by a train is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.99\" or similar) consistent with the established reporting pattern.",
+    "Narrative momentum: personal reflection on the film's themes of family, faith, and memory, with the author now illustrating the anecdote with a specific example about the father's advice.\n\nPractical advice pattern: the author is mid-analysis of the film's real-life examples, having just introduced the \"12 minutes\" observation, now elaborating on the spiritual/reflective tone with personal memory.\n\nFinal token \"120 was 120 was 120\" (repeated \"120 was 120\" suggests a typo mid-sentence), part of \"120 was 120 was 120\" \u2014 the sentence is mid-clause describing the father's memory, requiring completion of the observation about the church scene or its emotional impact.",
+    "Theological/argumentative momentum: the author is explaining the book's premise, moving from personal narrative to thematic analysis of Christian identity and vulnerability.\n\nNarrative arc of the book: the author has introduced the novel's premise and is now elaborating on its central conflict \u2014 the author's Christian faith and vulnerability \u2014 suggesting the next tokens will expand on this theme.\n\nFinal token \"3\" is mid-sentence (\"36 people... 13 are Christian... 6 are Jewish... 3\"), completing \"15 total... 9 are now 3\" \u2014 \"3\" begins a phrase like \"36 people\" or \"3\" referring to the author's combined identity, requiring continuation of the clause explaining what \"15\" means.",
+    "Narrative momentum: article recounting film's plot and historical context, now detailing the film's factual revelation about the true story and its moral, building toward a concluding statement about the film's significance.\n\nJournalistic news article style: factual, third-person reporting with embedded quotes and statistics, expecting continuation of the crime statistic or the film's critical reception.\n\nFinal token \"16,000 was about 60 people, about 12.5 percent of the population, was about 43 people \u2014 mid-sentence completing the statistic, immediately requiring continuation of the sentence explaining the 10% figure or its narrative consequence.",
+    "Narrative momentum: legal case summary following a structured format \u2014 background, case details, verdict, now explaining the fraud mechanism with biblical evidence.\n\nDomain/genre signals: religious news article citing scripture and legal findings, expecting factual elaboration on the fraud's specific nature and consequences.\n\nFinal token \"12\" is mid-sentence (\"12.0 pages per minute...13 pages per minute...12.0 pages per minute...1.6 pages per minute...12.0 pages per minute...13 pages per minute\"), completing a statistical reference to the 10.8-year-old's case number, immediately requiring continuation of the legal finding or case outcome.",
+    "Legal/academic analysis pattern: statistical data presented, now citing expert interpretation and statistical findings to support the argument about survey methodology.\n\nStatistical reasoning momentum: the text has been building toward a conclusion about survey methodology, citing the 9% threshold and the 69% finding, suggesting further elaboration on implications or additional statistical evidence follows.\n\nFinal token \"69%\" ends a sentence fragment mid-thought (\"69% of the time...69% of the time...69% of the time...69% of the time...69% of the time\"), completing a parallel statistical observation; the next tokens will likely continue with a concluding interpretive statement or transition to another finding."
+  ],
+  "input_sha256": "fb96f8e19dc0342c63d3834f9e45ec0c4970a8f2629f7a1f976496749a3472b7",
+  "values": [
+    {
+      "quote": "HR=1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08-3.34",
+      "value": "1.08"
+    },
+    {
+      "quote": "1.08-3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "12 minutes",
+      "value": "12"
+    },
+    {
+      "quote": "120 was 120 was 120",
+      "value": "120"
+    },
+    {
+      "quote": "36 people",
+      "value": "36"
+    },
+    {
+      "quote": "13 are Christian",
+      "value": "13"
+    },
+    {
+      "quote": "6 are Jewish",
+      "value": "6"
+    },
+    {
+      "quote": "15 total",
+      "value": "15"
+    },
+    {
+      "quote": "9 are now 3",
+      "value": "9"
+    },
+    {
+      "quote": "9 are now 3",
+      "value": "3"
+    },
+    {
+      "quote": "16,000",
+      "value": "16000"
+    },
+    {
+      "quote": "about 60 people",
+      "value": "60"
+    },
+    {
+      "quote": "12.5 percent",
+      "value": "12.5"
+    },
+    {
+      "quote": "about 43 people",
+      "value": "43"
+    },
+    {
+      "quote": "10% figure",
+      "value": "10"
+    },
+    {
+      "quote": "12.0 pages per minute",
+      "value": "12"
+    },
+    {
+      "quote": "13 pages per minute",
+      "value": "13"
+    },
+    {
+      "quote": "1.6 pages per minute",
+      "value": "1.6"
+    },
+    {
+      "quote": "10.8-year-old",
+      "value": "10.8"
+    },
+    {
+      "quote": "9% threshold",
+      "value": "9"
+    },
+    {
+      "quote": "69% finding",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, confidence intervals, counts, and rates, while excluding dates and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR=1.99\",\"value\":1.99},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.08-3.34\",\"value\":1.08},{\"quote\":\"1.08-3.34\",\"value\":3.34},{\"quote\":\"12 minutes\",\"value\":12},{\"quote\":\"120 was 120 was 120\",\"value\":120},{\"quote\":\"36 people\",\"value\":36},{\"quote\":\"13 are Christian\",\"value\":13},{\"quote\":\"6 are Jewish\",\"value\":6},{\"quote\":\"15 total\",\"value\":15},{\"quote\":\"9 are now 3\",\"value\":9},{\"quote\":\"9 are now 3\",\"value\":3},{\"quote\":\"16,000\",\"value\":16000},{\"quote\":\"about 60 people\",\"value\":60},{\"quote\":\"12.5 percent\",\"value\":12.5},{\"quote\":\"about 43 people\",\"value\":43},{\"quote\":\"10% figure\",\"value\":10},{\"quote\":\"12.0 pages per minute\",\"value\":12},{\"quote\":\"13 pages per minute\",\"value\":13},{\"quote\":\"1.6 pages per minute\",\"value\":1.6},{\"quote\":\"10.8-year-old\",\"value\":10.8},{\"quote\":\"9% threshold\",\"value\":9},{\"quote\":\"69% finding\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including hazard ratios, confidence intervals, counts, and rates, while excluding dates and identifiers.\"}",
+  "prompt_sha256": "1765a734808275dd5a0ad354c5e6b660e24be8f59d329c0b3bb3953cccb99416"
+}

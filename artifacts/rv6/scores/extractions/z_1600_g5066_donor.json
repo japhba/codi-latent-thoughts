@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5066",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: country-by-country data is being enumerated with specific numeric values, establishing a template of country name followed by numeric figure.\n\nContinuation of country ranking sequence: after listing \"United States\" with its numeric value, the next tokens must complete the numeric value for the US (likely a number like \"1\" or \"2\") and then continue with additional country entries.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numeric value or descriptor completing the US numerical ranking statistic.\n\"is\" demands a specific numeric figure or descriptor to follow, consistent with the established data format.\n\"is\" is the final token, part of a sentence stating the US numerical ranking, requiring an immediate numeric value or qualifier to complete the factual claim.\n\"2 is\" or a similar figure is expected next, likely followed by a period or comma continuing the country list.",
+    "List continuation pattern: the text is mid-sentence listing character traits/quotes, with \"10\" beginning a specific numerical reference to a list or ranking, requiring completion of the thought.\n\nListicle/profile format: the piece follows a structured celebrity profile with personal qualities, then analytical commentary \u2014 more character traits or examples are expected to follow.\n\nFinal token \"10,\" is mid-sentence within a comparative or descriptive clause (\"10 was 10\"), likely completing a specific number or age reference, immediately requiring a number or descriptive phrase to finish the personal reflection.\n\"10 was 10\" suggests a specific scene number or year reference, with \"100\" or a similar number completing the \"16, 100\" contrast pattern established earlier.\n\"13 20 14\" (likely \"10 31 seconds\") suggests a timestamp.",
+    "Structured list pattern: each bullet follows \"food item \u2192 spiritual lesson \u2192 biblical reference\" format, establishing strong continuation expectations.\n\nThe list is mid-entry, having named a specific ingredient (grapes) and begun its practical application, requiring completion of the biblical/health guidance point.\n\nFinal token \"15\" is a number mid-sentence (\"about 15\"), part of a measurement or quantity phrase, immediately requiring a unit or noun to complete the instruction (e.g., \"15 minutes,\" \"15 minutes of cooking\").\n\"15\" likely continues as \"12 minutes\" or similar time-based recipe instruction, completing the \"15 12\" or \"15 30\" memory card reference.\n\"15 15 minutes\" or similar numerical pairing is the most probable continuation of the medical/clinical enumeration pattern.\n\"12 30\" years.\"",
+    "Statistical/factual reporting pattern: article presents book details, now detailing specific numerical findings from the book.\n\nContinuation of the factual enumeration: the text is mid-sentence describing the 2010 study's methodology and data, expecting completion of the historical survey details.\n\nFinal token \"200,000\" is a mid-sentence numerical figure completing \"about 200,000 people,\" immediately requiring continuation of the factual description \u2014 likely \"5,000\" or similar, completing the police count statistic.\n\"about 30,000 0.0 people\" or similar visual description of the film's content, completing the legal/forensic context of the 400,000 figure.\n\n\"30,000 0.0 people\" is a garbled OCR artifact mid-sentence; the next tokens.",
+    "Structured Bible study guide format with numbered sections and bullet points establishes a pattern of formal citation followed by descriptive annotation.\n\nThe document is systematically listing legal/forensic evidence categories (Scripture, legal documents, historical/legal), suggesting more formal annotation content follows.\n\nThe final token \"200\" ends a page number reference mid-sentence within a formal legal description of the trial document; the next tokens must complete the technical description of the page count or continue with additional case details.\n\"about 40\" or similar numerical continuation of \"about 300 40. about 15. about 6\" pattern suggests \"240\" or \"30. 6\" describing the film's content, completing the \"4. 15. 260\" enumeration of 300 6 people.\n\"250 3. 46.\"",
+    "Statistical/data pattern: BLS BLS data is being presented with specific percentages and years, establishing a structured list of BLS statistics.\n\nContinuation of BLS data presentation: the text has been systematically listing BLS survey percentages and categories, suggesting more percentage breakdowns or related statistics follow.\n\nFinal token \"69%\" closes a specific percentage figure within a sentence about BLS survey responses; the next tokens will likely continue with additional BLS survey categories, percentage figures, or a new sentence elaborating on the survey methodology.\n\"69% of respondents\" pattern suggests another percentage or related finding follows.\n\nFinal token \"69%\" ends a specific analytical statement about BLS survey responses, immediately constraining what follows to either a period/punctuation closing the sentence or continuation with another percentage or related category.\n\"69%\" is the last token, ending a specific numerical claim mid-list."
+  ],
+  "input_sha256": "bcb16c0fa26d3e6293ef7226c4a444677ec1220180ab0530aed2a48c48f5c2ee",
+  "values": [
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "I extracted explicit numeric literals and percentages found within the provided descriptions, ensuring each quote is a direct substring and each value is a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"10\",\"value\":10},{\"quote\":\"100\",\"value\":100},{\"quote\":\"15\",\"value\":15},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"5,000\",\"value\":5000},{\"quote\":\"200\",\"value\":200},{\"quote\":\"240\",\"value\":240},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"I extracted explicit numeric literals and percentages found within the provided descriptions, ensuring each quote is a direct substring and each value is a JSON number.\"}",
+  "prompt_sha256": "36a6cd566050107be5aaa6c2bc182d62bffb3b6a0b723a2744fa03a56e20afd9"
+}

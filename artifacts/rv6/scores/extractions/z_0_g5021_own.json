@@ -1,0 +1,25 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5021",
+  "kind": "own",
+  "descriptions": [
+    "The text is a structured table of contents for a book listing, following a consistent pattern of chapter/section titles with brief descriptions.\n\nThe list of book chapters is mid-enumeration, with each entry following \"[Chapter Title] [brief description]\" format \u2014 several entries already given, more expected.\n\nThe final token \"1990s\" ends a sentence fragment describing the book's scope (\"written in the 1990s\"), likely completing a chapter description, with the next token expected to continue the table of contents with another chapter title or section heading.\n</explanation>",
+    "The text is a structured casino review following a consistent section-by-section format, systematically covering features like games, bonuses, and banking.\n\nThe review is mid-sentence describing withdrawal methods, having just listed \"credit and debit cards\" as the first option, implying additional methods (e.g., e-wallets, bank transfers) are expected to follow.\n\nFinal token \"or\" is a coordinating conjunction mid-list, requiring an immediate continuation naming another withdrawal method parallel to \"credit and debit cards.\"\n</explanation>",
+    "Structured table/list pattern: the text alternates between prose paragraphs and pipe-delimited table rows, establishing a repeating format for flight data.\n\nSemantic expectation: the sentence \"If you are searching for flights from Boston (BOS) to Miami (MIA), the following is a list of the most popular airlines\" promises an enumerated list of airlines with supporting data (e.g., flight counts, prices).\n\nFinal token \"is\" opens a relative clause mid-sentence, immediately requiring a noun phrase or adjective completing the predicate, likely \"a list of the most popular airlines\" or similar, before transitioning to the promised airline list.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018\u21922017), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2017 Toyota Camry row; the next token must be the price value (a dollar amount like \"$1,200\" or similar), followed by a closing pipe `|` to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Price|` format, repeating consistently throughout.\n\nList continuation momentum: the table has been listing vehicle entries in descending year order (2021\u21922020\u21922019\u21922018\u21922017\u21922016\u21922015\u21922014\u21922013), strongly implying more 2013 entries or earlier years follow.\n\nFinal token \"2013\" is a year value inside a table cell, immediately requiring `||` followed by a car make name (likely \"Ford\" or another brand) to continue the established column pattern.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Price|` format, repeating consistently throughout.\n\nList continuation momentum: the table has been listing vehicle entries in descending year order (2021\u21922020\u21922019\u21922018\u21922017\u21922016\u21922015\u21922014\u21922013), strongly implying more 2013 entries or earlier years follow.\n\nFinal token \"2013\" is a year value inside a table cell, immediately requiring `||` followed by a car make name (likely \"Ford\" or another brand) to continue the established column pattern.\n</explanation>"
+  ],
+  "input_sha256": "20def5927cf5df8605e0315c3bec238ebc01516be553db4d3f21beb90c1e78cf",
+  "values": [
+    {
+      "quote": "1,000|",
+      "value": "1000"
+    }
+  ],
+  "justification": "The value 1,000 is explicitly expressed as a mileage figure in the fourth description. Years (1990s, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013) are excluded as dates/years per the instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1,000|\",\"value\":1000}],\"justification\":\"The value 1,000 is explicitly expressed as a mileage figure in the fourth description. Years (1990s, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013) are excluded as dates/years per the instructions.\"}",
+  "prompt_sha256": "372855d5f00a904de3f8d67db41e4298705a9971c5dd4a9cba898e10af0f8833"
+}

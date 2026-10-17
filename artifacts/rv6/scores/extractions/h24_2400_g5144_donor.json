@@ -1,0 +1,81 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5144",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: total yards = 2x + 3y, with 3x = 6 yards.\n\nThe problem establishes a two-part arithmetic solution: 3x + 4y = total yards, so the answer must be a specific integer representing total yards needed.\n\n\"Total:\" is a label/field prompt in a math problem template, immediately requiring a numerical answer (likely \"12\" or \"12 yards\") representing the combined yardage of the two activities.\n4*3 + 2*6 = 12.\nThe final token \"Total:\" demands a direct numerical response, almost certainly \"12\" or \"12 yards.\"\n3*4+6*2=12 hours, so the solution must state this total time.\n4+6=10 yards from the first activity, 2*6=12 yards.",
+    "Math word problem solution format: arithmetic operation expected, following \"6 pants \u00d7 2 hours = X hours\" pattern.\n\nThe word problem requires a numerical answer: 6 pants \u00d7 2 hours = 12 hours, then 8 pants \u00d7 3 hours = 24 hours, summing to total.\n\nFinal token \"has\" begins the arithmetic result clause, immediately requiring the multiplication expression or numerical answer, e.g., \"6 \u00d7 2 = 12 hours\" or \"12 hours total.\"\n\"has\" demands a direct object stating the computed result.\n2 pants \u00d7 6 = 12, so the next tokens must state this specific multiplication fact.\nyou will need to write \"6 hours\" for the first task before adding the second (8 pants \u00d7 3).\n2 \u00d7 6 = 12 and 4 \u00d7 3 = 12, so.",
+    "Math word problem format requires a step-by-step arithmetic solution, expecting numerical multiplication and addition.\n\nThe word problem establishes two tasks: 3 tasks \u00d7 4 hours = 12 hours total, so the solution must sum these arithmetic operations.\n\nThe final token \"12\" is the numerical result of \"3 cars \u00d7 4 hours,\" immediately requiring the unit \"hours\" and then the second multiplication expression (e.g., \"and 6 \u00d7 6 hours\"), continuing the arithmetic solution.\n\"12\" begins the answer statement, requiring \"hours\" next, then the combined total time calculation.\nWe need to state \"12 hours\" for washing cars, then \"18 hours\" for painting cars.\nShe will spend 12 hours total.\n3 tasks \u00d7 4 hours = 12 hours, so the next tokens must complete this arithmetic statement before adding the second task's time.",
+    "Math word problem requiring arithmetic completion: 4 books \u00d7 3 minutes = 12 minutes total, so the next value must be \"12.\"\n\nThe word problem structure demands a total time calculation, so the arithmetic sum of 4\u00d73 and 3\u00d74 is expected next.\n\nThe final token \"pens\" ends the second multiplication expression \"4\u00d73=12,\" immediately requiring the numeric result \"12\" to complete the parallel arithmetic statement before stating the total minutes.\n4 pens = 3 minutes, so \"4\u00d73\" or \"12\" must follow immediately.\n\"4pens\" or \"12\" is the expected next token to complete the second multiplication expression for the total paper requirement.\n3\u00d74=12 minutes for the paper books, completing the two-part arithmetic sum.\n4\u00d73=12 minutes for the paper books, so.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with word problem followed by numerical answer.\n\nThe arithmetic operation requires completing the multiplication: 4 miles \u00d7 3 yards = 12, so the solution must state the total distance sum.\n\nFinal token \"12\" is the second half of the parallel calculation (4\u00d73=12), immediately expecting a closing statement like \"so the total is 24 minutes\" or \"Therefore, the total time is 24 minutes.\"\nFinal token \"12\" ends the second equation in a paired structure, strongly predicting a concluding line like \"= 12\" or \"so 12+12=24 minutes.\"\nFinal token \"12\" completes the second distance calculation for yards, immediately expecting \"= 3 hours \u00d7 4 miles\" or a summary statement confirming the total.\n12 is the total of both sides,.",
+    "Math word problem format: structured Q&A with word problem followed by solution, expecting a numerical answer.\n\nThe solution has established two arithmetic operations (5 hours \u00d7 4 pages = total pages, then 8 pages \u00d7 4 hours), so the final answer must be the sum: 8 + 4 = 12 minutes.\n\nFinal token \"problems.\" ends the second calculation sentence listing combined totals; the immediate next token should be the answer \"The total time is 12 minutes\" or similar closing statement.\nFinal token \"problems.\" closes the second sum expression \"8 hours and 4 minutes for the second set of problems.\"\nFinal token \"12 problems.\" is the solution's concluding line, expecting a direct numerical answer like \"The total time is 12 minutes.\"\n straightforward answer expected next.\n7+4=11 minutes total.\nTotal time = 12 minutes.\nFinal token."
+  ],
+  "input_sha256": "68ac0a4ae30129e9ef55072b4cc6429177d4ecdb9bc1453ac14dfbb8eb06742f",
+  "values": [
+    {
+      "quote": "2x",
+      "value": "2"
+    },
+    {
+      "quote": "3y",
+      "value": "3"
+    },
+    {
+      "quote": "3x = 6",
+      "value": "6"
+    },
+    {
+      "quote": "3x + 4y",
+      "value": "4"
+    },
+    {
+      "quote": "4*3",
+      "value": "12"
+    },
+    {
+      "quote": "4+6=10",
+      "value": "10"
+    },
+    {
+      "quote": "6 pants",
+      "value": "6"
+    },
+    {
+      "quote": "8 pants",
+      "value": "8"
+    },
+    {
+      "quote": "24 hours",
+      "value": "24"
+    },
+    {
+      "quote": "18 hours",
+      "value": "18"
+    },
+    {
+      "quote": "3 cars",
+      "value": "3"
+    },
+    {
+      "quote": "4 books",
+      "value": "4"
+    },
+    {
+      "quote": "5 hours",
+      "value": "5"
+    },
+    {
+      "quote": "7+4=11",
+      "value": "11"
+    },
+    {
+      "quote": "7+4=11",
+      "value": "7"
+    }
+  ],
+  "justification": "Extracted distinct numeric values from arithmetic expressions, counts, and results explicitly stated in the descriptions, avoiding duplicates and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2x\",\"value\":2},{\"quote\":\"3y\",\"value\":3},{\"quote\":\"3x = 6\",\"value\":6},{\"quote\":\"3x + 4y\",\"value\":4},{\"quote\":\"4*3\",\"value\":12},{\"quote\":\"4+6=10\",\"value\":10},{\"quote\":\"6 pants\",\"value\":6},{\"quote\":\"8 pants\",\"value\":8},{\"quote\":\"24 hours\",\"value\":24},{\"quote\":\"18 hours\",\"value\":18},{\"quote\":\"3 cars\",\"value\":3},{\"quote\":\"4 books\",\"value\":4},{\"quote\":\"5 hours\",\"value\":5},{\"quote\":\"7+4=11\",\"value\":11},{\"quote\":\"7+4=11\",\"value\":7}],\"justification\":\"Extracted distinct numeric values from arithmetic expressions, counts, and results explicitly stated in the descriptions, avoiding duplicates and unit conversions.\"}",
+  "prompt_sha256": "c9a0d36c28963ea6e7711094006bf1eaf6fdf3f250ba60285844c2bd8c35ca37"
+}

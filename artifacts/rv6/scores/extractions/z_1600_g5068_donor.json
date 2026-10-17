@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5068",
+  "kind": "donor",
+  "descriptions": [
+    "Financial data pattern: article lists price statistics with specific figures, establishing a template of financial metrics with dollar amounts and time periods.\n\nStructured financial data continuation: the sentence lists a specific dollar figure for a financial metric, following the established pattern of precise financial values with currency symbols and units.\n\nFinal token \"and $1,000,000 and $1,000,000 and $1,000,000\" \u2014 this is a repeated placeholder pattern mid-sentence, suggesting the next token continues the financial data list or transitions to a new sentence about another metric.\n\"and $1,000,000\" is the final repeated value, likely closing a price range, immediately expecting a period or continuation of the financial breakdown sentence.\n\"and $1,000,000\" ends the sequence, likely closing the.",
+    "Product listing format with structured fields (title, description, bullet specs) signals continuation of product detail content.\n\nThe description is mid-sentence listing product attributes, following a pattern of naming designer, brand, and product details \u2014 more specifications or credits expected.\n\nFinal token \"is\" opens a relative clause mid-sentence (\"is 1999\"), immediately requiring a year or descriptor completing the film's production history, likely \"is 1999\" or similar founding detail.\n\"12 is 8 is\" suggests a garbled/OCR-corrupted text pattern, but the product description context strongly constrains the next tokens to be a product name or descriptive phrase completing the sentence.\n\"is 8 is\" appears to be a corrupted fragment, but the immediate semantic expectation is a product name or description completing the \"is\" predicate.\n\"6 is\" ends the sequence, likely.",
+    "Structured e-commerce/catalog listing pattern: each part entry follows \"Part # / Description / Part # / Description\" format, suggesting continuation of this directory structure.\n\nStructured filter/navigation menu pattern: the page lists filter categories and part numbers, implying more filter options or subcategory links follow.\n\nFinal token \"Available\" closes a table cell in a part filter menu row; the immediate next tokens are likely another filter row, category label, or closing HTML/table element continuing the \"Part Filter\" section.\n\"Available\" ends a table cell in a filter menu, so next tokens likely continue with another part filter row or navigation element.\n\"Available\" is the final token of a filter result count line, immediately preceding either a new filter row or a new section header.\n\"Most Popular\" or similar closing phrase is the most probable next content, mirroring the earlier \"Most Popular\" section header.",
+    "Structured table/list pattern: pipe-delimited rows with part numbers, descriptions, and prices, established by the two prior rows.\n\nStructured table continuation: the \"Part # | Description | Price\" format has been consistent, and the \"Month Year\" header row signals a new section listing dates.\n\nFinal token \"||\" closes a table cell in the \"Month Year\" header row, immediately expecting the next cell's content \u2014 likely a pipe-delimited cell with a date range or closing pipe.\n\"||\" is a table cell delimiter, requiring the next token to be another cell value or closing pipe character.\n\"|\" is the most likely next token, closing the current row.\n\"|\" closes the second column of the \"Month Year\" row, so the next tokens likely begin a new row or section header.\n\"|\" is the final token, ending a row in the pipe-delimited format.",
+    "Structured table pattern: pipe-delimited rows with part number, description, and date columns repeating consistently throughout.\n\nThe table lists pipe-delimited rows with a header row already shown; the next rows must follow the same format with a new part number and row.\n\nFinal token \"||\" closes a table cell in the last row, immediately requiring the next cell's content \u2014 likely a closing pipe \"|\" or a new row beginning with \"|\" followed by another pipe-delimited entry.\n\"||\" is the final token, acting as a cell delimiter in the last visible row, constraining what follows to either a closing pipe \"|\" or additional cell text.\n\"||\" ends the last visible row, suggesting the next token is \"|\" closing the row, then likely another row or end of table.\n\"||\" is mid-row, part of the financial/stock status column, immediately expecting a closing pipe \"|\" or a new.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and header cell repeating consistently throughout.\n\nStructured list continuation: the \"Part\" column header row has just begun with \"||\" delimiters, establishing a table row that requires a closing \"||\" and then a pipe-delimited cell value.\n\nFinal token \"||\" opens the second cell of the \"Part\" row, immediately requiring a closing pipe and then a dollar amount or row-ending content, mirroring the prior row's structure.\n\"||$||\" is the expected next token, completing the pipe-delimited cell pattern.\n\"||\" closes the cell and \"|\" closes the row, so the next tokens must be a newline and new table row beginning with \"|\".\n\"|\" is the final token, closing the last cell of the \"Part\" row, immediately constraining what follows to be a new row starting with a date."
+  ],
+  "input_sha256": "9734bcc45d25bce9bcbcb0d8cc34f8eb2ffc9bb8aa105b29b5c021d7df5a0386",
+  "values": [
+    {
+      "quote": "$1,000,000",
+      "value": "1000000"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found in the descriptions, specifically the repeated financial figure $1,000,000 and the sequence of numbers 12, 8, and 6 found in the product listing fragment. Years and ordinals were excluded per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"$1,000,000\", \"value\": 1000000}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"8\", \"value\": 8}, {\"quote\": \"6\", \"value\": 6}], \"justification\": \"Extracted explicit numeric literals found in the descriptions, specifically the repeated financial figure $1,000,000 and the sequence of numbers 12, 8, and 6 found in the product listing fragment. Years and ordinals were excluded per instructions.\"}",
+  "prompt_sha256": "2e97d2fecc7251846707a2feef03b9dc9dbfbd163684f445dfbd451faf82e430"
+}

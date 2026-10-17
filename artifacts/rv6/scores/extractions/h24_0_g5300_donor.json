@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5300",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: 15% of 140 must be computed, expecting \"15 \u00d7 140 = 21\" or similar result.\n\nThe instructional pattern establishes a worked example format, requiring a concrete numerical answer to demonstrate the stated rule.\n\nFinal token \"is\" opens a copular clause completing the sentence \"The result is ___,\" demanding an immediate numerical value (likely \"21\") as the direct object.\n</explanation>",
+    "Mathematical calculation in progress: 8% of 80 = 8 \u00d7 80 = 7.20, so the next token must be the computed result.\n\nStep-by-step instructional format: each step builds on the previous, with the next step likely showing the new price (80 + 7.20 = 87.20).\n\nFinal token \"is\" opens a copular clause requiring a numerical value (the calculated tax amount, e.g., \"7.20\") to complete the sentence before continuing to the next instruction.\n</explanation>",
+    "Step-by-step math tutorial format: each step builds on the previous, with a worked example now being solved.\n\nThe example follows a structured pattern: state formula, substitute values, solve \u2014 the calculation is mid-execution, requiring the final result (total cost = $100 + $12 = $112).\n\nFinal token \"$12\" is the computed tip amount mid-sentence, immediately requiring the arithmetic conclusion: \"so the total cost is $112\" or similar phrasing completing the example.\n</explanation>",
+    "Mathematical problem-solving pattern: step-by-step calculation structure requires completing the tax amount and then applying it to find net cost.\n\nArithmetic continuation: the tax calculation is mid-expression (\"$10 \u00d7 0.10 = $1\"), so the next tokens must complete this arithmetic result and then state the discounted price (e.g., \"$10 - $1 = $9\").\n\nFinal token \"$2\" is a partial dollar amount mid-calculation, immediately requiring the remaining digits of the tax figure (likely \"0\" to complete \"$20\" or a decimal like \".00\") before continuing to the next step.\n</explanation>",
+    "Mathematical problem-solving pattern: a structured calculation is being worked through step-by-step, with each step building on the previous.\n\nThe problem requires a specific numerical answer: 15% of $100 = $15, so the next tokens must state the result of the multiplication (e.g., \"$15\").\n\nFinal token \"15%.\" ends a multiplication expression mid-calculation; the immediate next token must be the computed result, likely \"$15\" or \"15,\" completing the arithmetic step before the final answer is stated.\n</explanation>",
+    "Mathematical problem-solving pattern: a structured calculation is being worked through step-by-step, with each step building on the previous.\n\nThe sequence follows a clear arithmetic progression: 10% of $15 = $1.50, then 10% of $20 = $2.00, so the next step must sum these two values to find the total tip amount.\n\nFinal token \"so\" is a logical conclusion connector, immediately requiring the arithmetic result of adding $1.50 and $2.00, i.e., \"$3.50\" or \"the tip is $3.50.\"\n</explanation>"
+  ],
+  "input_sha256": "0eef56caf9b7b29204198bfc16e5c30816e0c2a548052165ec7b8294e81f9288",
+  "values": [
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "15 \u00d7 140 = 21",
+      "value": "21"
+    },
+    {
+      "quote": "8%",
+      "value": "8"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "8 \u00d7 80 = 7.20",
+      "value": "7.2"
+    },
+    {
+      "quote": "80 + 7.20 = 87.20",
+      "value": "87.2"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$112",
+      "value": "112"
+    },
+    {
+      "quote": "$10 \u00d7 0.10 = $1",
+      "value": "10"
+    },
+    {
+      "quote": "$10 \u00d7 0.10 = $1",
+      "value": "0.1"
+    },
+    {
+      "quote": "$10 \u00d7 0.10 = $1",
+      "value": "1"
+    },
+    {
+      "quote": "$10 - $1 = $9",
+      "value": "9"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "$1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "$2.00",
+      "value": "2"
+    },
+    {
+      "quote": "$3.50",
+      "value": "3.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages as numerals, and results of arithmetic expressions found within individual descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15%\",\"value\":15},{\"quote\":\"140\",\"value\":140},{\"quote\":\"15 \\u00D7 140 = 21\",\"value\":21},{\"quote\":\"8%\",\"value\":8},{\"quote\":\"80\",\"value\":80},{\"quote\":\"8 \\u00D7 80 = 7.20\",\"value\":7.2},{\"quote\":\"80 + 7.20 = 87.20\",\"value\":87.2},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$112\",\"value\":112},{\"quote\":\"$10 \\u00D7 0.10 = $1\",\"value\":10},{\"quote\":\"$10 \\u00D7 0.10 = $1\",\"value\":0.1},{\"quote\":\"$10 \\u00D7 0.10 = $1\",\"value\":1},{\"quote\":\"$10 - $1 = $9\",\"value\":9},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"$1.50\",\"value\":1.5},{\"quote\":\"$2.00\",\"value\":2},{\"quote\":\"$3.50\",\"value\":3.5}],\"justification\":\"Extracted explicit numeric literals, percentages as numerals, and results of arithmetic expressions found within individual descriptions.\"}",
+  "prompt_sha256": "acf11a612a0826c8f95ee4147eaabae49ed259ea7daeef190ff41e958160c1ee"
+}

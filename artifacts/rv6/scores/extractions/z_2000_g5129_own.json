@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5129",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: article consistently presents percentages and numerical results, e.g., \"65% of respondents,\" \"65% of those who answered.\"\n\nTable structure continuation: the hazard table lists specific percentages for each group; the final row for \"all respondents\" is mid-sentence, requiring completion of the percentage value.\n\nFinal token \"5%\" is a truncated percentage value mid-sentence (\"around 5%\"), immediately requiring completion of the numeric result, likely followed by additional table data or a concluding sentence about the dataset.\n\"58%\" earlier was stated, suggesting a correction or clarification follows.\n\"52%\" or similar percentage completing the hazard ratio result for the dataset.\n\"58%\" is the final token, part of a statistical value in a results sentence, requiring a decimal continuation or closing punctuation.\n\"8%.\" or similar percentage completing the numeric value \"52%\".",
+    "Character description pattern: each character introduced with name, actor, and role summary, establishing a consistent review format.\n\nPlot summary momentum: the review is mid-sentence describing the father's role, building toward completing the thematic analysis of the film's central conflict.\n\nFinal token \"7,\" ends a numerical reference (\"7,\") within a list or clause, immediately requiring continuation of the sentence describing the father's character traits or relationships, likely \"7,\" completing a phrase like \"7,\" or introducing another character/plot element.\n\"7,\" signals a list or enumeration mid-sentence, with \"7,\" likely referencing a specific number or rating, constraining next tokens to complete the analytical observation about the film's themes.\n\"600\" scene \"7,\" plot summary \"60 58\" \u2014 \"7, 600\" narrative context \"35\" characters \"9\" \u2014 the.",
+    "Instructional listicle format with numbered tips and practical cooking advice, establishing a pattern of actionable suggestions for using the ingredient.\n\nThe text is mid-sentence completing a list of ingredient benefits, with spiritual/health claims about watercress and carrots already made, suggesting more flavor/texture benefits follow.\n\nFinal token \"6\" is part of an incomplete enumeration (\"6 grams\" or similar measurement), immediately requiring a unit of measurement or continuation of the ingredient list's sensory/health benefits.\n\"6\" likely continues a specific quantity or introduces a new ingredient comparison.\n\"6\" \"6\" visual element or theological reflection \"6,000\" \u2014 the \"6\" likely begins a practical cooking instruction or sensory description completing the \"6,000\" dish reference.\n\"6\" spiritual reflection \"2000 seconds\" sensory instruction \"6\" taste/flavor examples \u2014 \"6\" dishes \".",
+    "Book review genre with structured sections (summary, analysis, personal reflection) signals continuation of the \"What I Love\" section with specific examples.\n\nThe review is building toward practical takeaways, having covered themes of food, culture, and diet; specific ingredient examples or health benefits are expected next.\n\nFinal token \"200\" is mid-sentence (\"200,000\" or similar large number), completing a statistic about ingredient count; the next tokens must finish this numerical claim before continuing the sentence.\n\"200\" likely continues as \"200,000\" or \"200,000 ingredients\" \u2014 a list or elaboration of spiritual/health benefits follows immediately.\n\"40\" sensory description \"10,000\" food items \"200\" intellectual reflection \u2014 culinary metaphor \"30, 40, 60.",
+    "Statistical/numerical continuation: the article lists specific statistics about online dating, and the final sentence is mid-thought, requiring completion of the cited statistic or claim.\n\nArgumentative momentum: the article builds toward recommending online dating, with expert quotes and statistics supporting the thesis; more supporting evidence or a concluding recommendation is expected.\n\nFinal token \"200\" ends an incomplete statistic (\"2000 articles\" or similar), part of a sentence about online dating safety; the next tokens must complete this noun phrase or clause, likely \"2000 articles\" or \"200,000 articles.\"\n\"2000\" or \"2000 articles\" framing signals a bookend argument about media coverage of online dating dangers.\n\"800,000\" expert opinion \"2000\" food safety comparison \"2000\" is 2.",
+    "Q&A format established: question posed, answer begun, now requires completion of the argument about legal advice and liability.\n\nThe article's thesis \u2014 that church leaders must be aware of risks \u2014 drives toward practical recommendations or warnings for church leaders.\n\nFinal token \"200%\" ends a statistic mid-sentence (\"200% of the time\"), immediately requiring continuation of the percentage-based reasoning, likely explaining why church leaders should act or what consequences follow.\n\"200%\" likely continues with \"of the time\" or transitions to practical guidance on financial/legal obligations.\n\"200,000\" religious books\" likely contains a typo for \"20,000\"; the sentence structure \"20,08 per day\" signals a concluding advisory statement about liability thresholds.\n\"5 per day\" practical rule framing \"14,000 per day\" religious books\" \u2014 the."
+  ],
+  "input_sha256": "1206c0d41e735a5748afe75082c98d09b72a96f28927198673987cb7774a6e0a",
+  "values": [
+    {
+      "quote": "65%",
+      "value": "65"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "58%",
+      "value": "58"
+    },
+    {
+      "quote": "52%",
+      "value": "52"
+    },
+    {
+      "quote": "8%.",
+      "value": "8"
+    },
+    {
+      "quote": "7,",
+      "value": "7"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "60 58",
+      "value": "60"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "6,000",
+      "value": "6000"
+    },
+    {
+      "quote": "2000 seconds",
+      "value": "2000"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "30, 40, 60.",
+      "value": "30"
+    },
+    {
+      "quote": "60.",
+      "value": "60"
+    },
+    {
+      "quote": "800,000",
+      "value": "800000"
+    },
+    {
+      "quote": "2.",
+      "value": "2"
+    },
+    {
+      "quote": "200%",
+      "value": "200"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "20,08 per day",
+      "value": "20.08"
+    },
+    {
+      "quote": "5 per day",
+      "value": "5"
+    },
+    {
+      "quote": "14,000 per day",
+      "value": "14000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeric values and handling comma-separated thousands and decimal points as specified.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"65%\",\"value\":65},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"58%\",\"value\":58},{\"quote\":\"52%\",\"value\":52},{\"quote\":\"8%.\",\"value\":8},{\"quote\":\"7,\",\"value\":7},{\"quote\":\"600\",\"value\":600},{\"quote\":\"60 58\",\"value\":60},{\"quote\":\"35\",\"value\":35},{\"quote\":\"9\",\"value\":9},{\"quote\":\"6\",\"value\":6},{\"quote\":\"6,000\",\"value\":6000},{\"quote\":\"2000 seconds\",\"value\":2000},{\"quote\":\"200\",\"value\":200},{\"quote\":\"40\",\"value\":40},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"30, 40, 60.\",\"value\":30},{\"quote\":\"60.\",\"value\":60},{\"quote\":\"800,000\",\"value\":800000},{\"quote\":\"2.\",\"value\":2},{\"quote\":\"200%\",\"value\":200},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"20,08 per day\",\"value\":20.08},{\"quote\":\"5 per day\",\"value\":5},{\"quote\":\"14,000 per day\",\"value\":14000}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeric values and handling comma-separated thousands and decimal points as specified.\"}",
+  "prompt_sha256": "dada69ee5e3f89b54630eb2f18b3b83dceecf865e631967bbf6a5f6760174ba9"
+}

@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5368",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring completion of a specific numerical answer: total items (96) minus half (48) plus half (24) = 12 remaining categories.\n\nThe solution structure demands a concrete numerical answer, specifically the count of remaining categories after removing half from each group.\n\nFinal token \"are\" opens a predicate completing the sentence \"The total number of remaining items after removing half of each category is ___\" \u2014 immediately requires a number (likely \"120\" or \"120 items\") representing half of the total items across all three groups.\n(95+75+45)/2 = 120/2, since each group has 50 items remaining after half removal across all three categories.\n\n(95+75+45)/2 = total remaining items across all categories, completing the solution.\n(100 items total.",
+    "Structured step-by-step math problem walkthrough, systematically breaking down each category (total=450, half=225, third=125).\n\nThe solution is mid-sentence completing a calculation: total categories must sum to 450, so remaining categories (225+90+125=444) must be accounted for.\n\nFinal token \"have\" opens a clause listing the individual counts of each category (45+90+250 items), immediately requiring the specific numerical breakdown of the three categories to complete the verification sentence.\nFinal token \"have\" begins the solution's verification statement, expecting \"there are X items remaining\" or similar phrasing confirming the remaining items across all three categories.\n250 items from non-chemistry categories, plus half from chemistry, plus 90 from biology \u2014 completing the sum to confirm equal distribution.",
+    "Structured step-by-step solution pattern: each step builds on prior, showing total counts and calculations systematically.\n\nThe equation summing to 150 is being solved: 50+150+150=150, confirming the equation is correct; the next tokens must complete the algebraic reasoning about identifying the three categories.\n\nFinal token \"12\" is mid-sentence within a calculation showing total items by category (50+150+150=120 accounted for), immediately requiring continuation of the arithmetic conclusion identifying the remaining items or completing the explanation of the 120 distribution across the three categories.\nFinal token \"1 2\" begins a number referencing the non-50+150 category difference, completing the reasoning about equal distribution across all three groups.\nThere are 150 different people, so the remaining 12.",
+    "Structured math problem solution following step-by-step algebraic reasoning, with each step building toward total count.\n\nThe solution is mid-explanation of equation setup, having established total cards (150) and broken components (half + half + remaining), now completing the algebraic reasoning about equal counts across all three categories.\n\nFinal token \"155\" is mid-sentence completing \"there are 125\" \u2014 the immediate next tokens must finish this numerical conclusion, likely \"0 cards that remain unchanged\" or similar phrasing confirming the remaining count of cards across all three categories.\nFinal token \"15\" is part of \"350\" completing the sum of old cards (half + half + 10% of original), describing total non-changing cards before stating the remaining cards to remove.\n1250 total cards across all three categories (100+60+30.",
+    "Mathematical solution pattern: step-by-step algebraic reasoning showing total counts, now completing the arithmetic sum of half counts.\n\nThe solution is mid-sentence completing the equation: total removed = (150+150+150)/3 = 150, confirming the remaining count after removing all three categories.\n\nFinal token \"p\" is the start of \"165 people\" completing the arithmetic result of combining half counts (125+75+75=235 people removed), immediately requiring \"165 people were removed\" or similar conclusion confirming half of total balls remain.\nFinal token \"p\" begins the numeric conclusion of combining all three categories divided by 3.\n165 total balls removed across all three categories (half each category).\n75+125+75 = 235 small balls removed, leaving .",
+    "Parallel structure pattern: each problem follows identical format \u2014 total count, then removal count, then remaining count. The second problem mirrors the first exactly.\n\nThe solution is mid-completion: total balls (115) and removed balls (57) have been calculated, so the remaining count calculation is expected next.\n\nFinal token \"75s. 37s.\" ends the explanation of half removed balls across all three categories; the next tokens must state the remaining total count, likely \"The total number of balls remaining is 115.\"\nFinal token \"67s.\" closes the concluding summary sentence about the final answer.\nFinal token \"150.\" ends the concluding statement about total removed balls across both rounds, immediately requiring the remaining count statement.\nFinal token \"75.\" is part of the concluding summary line stating the remaining balls after half removal plus partial removal.\nFinal token \"."
+  ],
+  "input_sha256": "2b217a190b0a34df6950932043b4c20d455d4574f253663742825b94462b04bb",
+  "values": [
+    {
+      "quote": "96",
+      "value": "96"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "444",
+      "value": "444"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "1250",
+      "value": "1250"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "165",
+      "value": "165"
+    },
+    {
+      "quote": "235",
+      "value": "235"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "57",
+      "value": "57"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "67",
+      "value": "67"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"96\",\"value\":96},{\"quote\":\"48\",\"value\":48},{\"quote\":\"24\",\"value\":24},{\"quote\":\"12\",\"value\":12},{\"quote\":\"120\",\"value\":120},{\"quote\":\"95\",\"value\":95},{\"quote\":\"75\",\"value\":75},{\"quote\":\"45\",\"value\":45},{\"quote\":\"50\",\"value\":50},{\"quote\":\"100\",\"value\":100},{\"quote\":\"450\",\"value\":450},{\"quote\":\"225\",\"value\":225},{\"quote\":\"125\",\"value\":125},{\"quote\":\"90\",\"value\":90},{\"quote\":\"444\",\"value\":444},{\"quote\":\"250\",\"value\":250},{\"quote\":\"150\",\"value\":150},{\"quote\":\"155\",\"value\":155},{\"quote\":\"1250\",\"value\":1250},{\"quote\":\"60\",\"value\":60},{\"quote\":\"30\",\"value\":30},{\"quote\":\"3\",\"value\":3},{\"quote\":\"165\",\"value\":165},{\"quote\":\"235\",\"value\":235},{\"quote\":\"115\",\"value\":115},{\"quote\":\"57\",\"value\":57},{\"quote\":\"37\",\"value\":37},{\"quote\":\"67\",\"value\":67}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "11910791cb8f951e71ef16395c0c609c4298bc3de61a542aea5190d9c2cc3ac6"
+}

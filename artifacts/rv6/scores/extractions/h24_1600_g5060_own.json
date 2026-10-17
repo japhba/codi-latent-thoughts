@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5060",
+  "kind": "own",
+  "descriptions": [
+    "Math puzzle context: solving for total weight using algebraic reasoning, expecting numerical answer or equation.\n\nThe pattern shows a calculation chain: original total \u2192 equation \u2192 solving \u2192 answer, suggesting the next step continues this chain with a specific numerical result.\n\nFinal token \"Answer:\" signals an immediate prompt for a numerical response, likely a number or expression representing the combined total weight of the second system (e.g., \"180 + 3 times (original minus 180/3)\").\nFinal token \"is\" follows \"Total\" as a label introducing the computed result, expecting a mathematical expression or numerical value immediately next.\n considering combining multiple systems with fractional weights.\n(180 + -3 times (original) + one system's partial sum).\n considering 3*60 + -180 + one parent system's contribution.\napproximately 60 years old.",
+    "Math tutoring dialogue where a student asked for help solving a chain of arithmetic operations (2x + 3x = 116).\n\nThe response is mid-calculation, showing substitution steps: plugging one variable's value into another expression.\n\nFinal token \"Answer:Answer\" signals a repeated prompt/response pattern, immediately expecting a numerical answer or calculation result (likely a number or equation showing the computed result).\nFinal token \"AnswerAnswer\" is a formatting artifact, suggesting the next tokens will be the actual computed answer or a mathematical expression.\n(116 + -30 = -86 or similar arithmetic result).\n approximate calculation of combined values from two people's contributions.\n(30% of original + 100% of new value).\nFinal token \"Answer\" closes a prompt expecting a numerical response showing the computed combined height.\n(2*60 + -30) or.",
+    "Math puzzle context: solving for three people's combined age using algebraic substitution, with specific numerical values (100, 1/3rd, 1/3rd).\n\nThe response is expected to provide the computed answer, likely showing arithmetic combining the two equations: 100 + 3x = combined result.\n\nFinal token \"ans:answ\" is a placeholder/template marker indicating the answer is about to be revealed, immediately constraining next tokens to be the actual numerical result or calculation showing the combined value.\nFinal token \"answ\" signals a response field, so the next tokens should be the computed answer (approximately 100 for the third person's current age).\n considering the combined equation with 1/3rd of 1000 and 100 less than the third person's value.\n3x + 100 = 13.",
+    "Math puzzle context: solving for combined age using algebraic substitution, expecting numerical answer.\n\nThe chain of equations (x + 3x = 168) sets up a specific calculation: x = 168/3x, so the next tokens should show the computed result or numerical reasoning.\n\nFinal token \"answion\" is a placeholder/answer slot, immediately expecting the actual computed answer (likely a number representing the combined result or the third person's value).\nFinal token \"answion\" signals a response slot, constraining next tokens to be a numerical or mathematical expression showing the computed outcome.\n considering the combined equation with the third person's value being 0.\n(168/3 + -30) times 30% drop, giving a specific numerical answer for the third person's current size.\n(168 - 3 times 10.",
+    "Math puzzle context: combining two equations (x + 3x = 168) and a third equation involving a third variable, requiring numerical resolution.\n\nThe response pattern demands a numerical answer, likely showing combined total or confirming the third person's value.\n\nFinal token \"answerg\" is a placeholder/answer slot, immediately expecting a numerical result or formatted response showing the computed combined value (e.g., \"168\" or a decimal), constrained to be a number representing the combined current age.\nFinal token \"answerg\" signals a forum/answer thread format where a numeric answer follows, likely showing the computed result of the combined equation.\n(1/3rd of 168 + 3 times smaller than original).\n considering the third person's reduced value is negative, constraining the answer to a plausible approximate figure.\n(168 - 30 = 1.",
+    "Math puzzle context: combining three equations (x + y = 100, x = 3y, third equation pending) requires solving for numerical values.\n\nThe response pattern demands a numerical answer, likely showing combined total or confirming the third equation's value.\n\nFinal token \"answerg\" is a placeholder/answer slot, immediately expecting a numerical response or formatted answer showing the combined result of the combined equation.\nFinal token \"answerg\" signals a forum-style answer display, constraining next tokens to be a numerical value or formatted response.\nSpecifically the combined family's current wealth figure (~$1000) after the third party's reduction.\n(3y + half of original = ~1000) with approximate values from the combined equation.\n300x + 1/3y = 1000 after the third party's 1/3."
+  ],
+  "input_sha256": "4dec8661f180ec39b7a124ac7e20409644bcce7d1644c68c1f1c2333925ca308",
+  "values": [
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "180/3",
+      "value": "60"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2x",
+      "value": "2"
+    },
+    {
+      "quote": "3x",
+      "value": "3"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "-30",
+      "value": "-30"
+    },
+    {
+      "quote": "-86",
+      "value": "-86"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "1/3rd",
+      "value": "0.333333"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "168/3",
+      "value": "56"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "half",
+      "value": "0.5"
+    },
+    {
+      "quote": "300x",
+      "value": "300"
+    },
+    {
+      "quote": "1/3y",
+      "value": "0.333333"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, percentages, and arithmetic results from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"180\",\"value\":180},{\"quote\":\"3\",\"value\":3},{\"quote\":\"180/3\",\"value\":60},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2x\",\"value\":2},{\"quote\":\"3x\",\"value\":3},{\"quote\":\"116\",\"value\":116},{\"quote\":\"-30\",\"value\":-30},{\"quote\":\"-86\",\"value\":-86},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"100\",\"value\":100},{\"quote\":\"1/3rd\",\"value\":0.3333333333333333},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"13\",\"value\":13},{\"quote\":\"168\",\"value\":168},{\"quote\":\"168/3\",\"value\":56},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1\",\"value\":1},{\"quote\":\"half\",\"value\":0.5},{\"quote\":\"300x\",\"value\":300},{\"quote\":\"1/3y\",\"value\":0.3333333333333333}],\"justification\":\"Extracted explicit numeric literals, fractions, percentages, and arithmetic results from the provided descriptions.\"}",
+  "prompt_sha256": "43c8b86aefa72a0888f107013fd5255825d42873b775d69eece073551977fcbd"
+}

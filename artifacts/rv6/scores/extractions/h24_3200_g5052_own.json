@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5052",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup requiring a numerical answer: 600 students \u00d7 75% = 450 remaining.\n\nThe solution follows a structured arithmetic word problem format, expecting the calculated remainder of 600 after 75% of 60.\n\nFinal token \"is\" opens the solution statement, immediately requiring a specific numerical value (likely \"45\" or \"45 people\") representing the remaining students after 75% of 60.\n600 \u00d7 75% = 45 people remaining, so the answer must be 45.\n60 people \u00d7 75% = half remaining, constraining the remainder to 45.\n(65 people minus 75% of 50 people).\n75% discount calculation is the critical intermediate step.\n(60 \u2212 75% \u00d7 50 = .",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requiring the numerical answer \"63.\"\n\nThe solution mirrors the word problem setup exactly: 600 \u2212 75% = 150, so the next tokens must state \"150 people remaining.\"\n\nFinal token \"had\" completes the phrase \"600 people remaining after 75% sold,\" directly requiring the numerical result \"150\" (the remainder of 600 \u00d7 75%) to follow immediately.\n600 \u2212 75% = 150 customers remaining, then the solution continues with the half of that count.\n600 \u2212 75% = 150, so the next tokens state \"150 passengers\" as the final count before describing the half.\n75% of 600 = 450 sold, so the.",
+    "Math word problem walkthrough requiring completion of the solution steps \u2014 600 tickets remaining after 75% sold.\n\nThe solution follows a structured arithmetic sequence: 450 tickets \u00d7 75% = 337.5, so the remaining count must be 150.\n\nThe final token \"15\" is the beginning of the number \"150,\" the remainder of 600 after 75%, immediately requiring \"0\" to complete the word problem's numerical answer, followed by explanation of 25% of that remaining count.\n600 tickets \u00d7 25% = 150 people remaining, then applying 50% to that count.\nThe answer is 150, so next tokens will state this result and explain the new remaining people.\n75% of 600 = 150 after .",
+    "Math word problem walkthrough requiring step-by-step arithmetic completion: 600 \u2212 60% = 150.\n\nThe solution follows a structured worked-example format, showing arithmetic operations sequentially, expecting the remainder calculation next.\n\nThe final token \"150\" is the computed remainder of 600 \u00d7 60%, immediately requiring the word \"books\" or a continuation like \"books remaining\" followed by the next calculation step (60% of those remaining).\nFinal token \"150\" is the intermediate result of the remaining books after 60% removal, demanding the next word \"books\" and then a multiplication by 50% to complete the solution.\nThey had 150 cookies remaining after distribution, so 1/4 of 150 = distributed.\n150 is the final number, part of the solution showing 150 \u00d7.",
+    "Math word problem walkthrough requiring completion of a percentage calculation: 150 \u00d7 10% = 15.\n\nThe solution follows a step-by-step arithmetic pattern, showing the final arithmetic step with the computed result.\n\nThe last token \"p\" begins the word \"people,\" completing the phrase \"15 people are removed\" \u2014 the next tokens must be \"15 people\" to finish the arithmetic expression showing 15% of 150.\nFinal token \"p\" is the start of \"15,\" the computed 10% of 150, completing the final removal calculation.\n150 \u00d7 10% = 15, so the next tokens must show \"15 people are removed.\"\n15% of 150 = 15.\n150 \u00d7 10% of 150 = small remainder, confirming.",
+    "Math word problem walkthrough pattern: each problem states a population, then asks to calculate a subset, with a worked example following.\n\nThe second problem mirrors the first's structure: a word problem about 150 people, 15 removed, expecting a numerical answer.\n\nThe final token \"15\" is the computed remainder of 15% of 150, completing the subtraction answer; the next token is likely a newline or answer statement like \"The answer is 135 eggs.\"\nFinal token \"15\" closes the small-number subtraction step, immediately expecting a period or newline followed by the final answer.\nFinal token \"15\" ends the 5% waste calculation (\"15 eggs removed\"), completing the worked example's final step.\n15 is the small remainder, so the next token is likely \"The new count is 135 eggs after 5% removal."
+  ],
+  "input_sha256": "e88c60b4fd2726524cf3f3ac891b976be7147f5e770e1b5211719d4865415476",
+  "values": [
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "63",
+      "value": "63"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "337.5",
+      "value": "337.5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "60%",
+      "value": "60"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, and fractions from the provided descriptions, ensuring each value is mapped to a unique quote from the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"600\",\"value\":600},{\"quote\":\"75\",\"value\":75},{\"quote\":\"450\",\"value\":450},{\"quote\":\"60\",\"value\":60},{\"quote\":\"45\",\"value\":45},{\"quote\":\"65\",\"value\":65},{\"quote\":\"50\",\"value\":50},{\"quote\":\"63\",\"value\":63},{\"quote\":\"150\",\"value\":150},{\"quote\":\"337.5\",\"value\":337.5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"25\",\"value\":25},{\"quote\":\"60%\",\"value\":60},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"10\",\"value\":10},{\"quote\":\"135\",\"value\":135},{\"quote\":\"5\",\"value\":5}],\"justification\":\"Extracted all distinct numeric literals, percentages, and fractions from the provided descriptions, ensuring each value is mapped to a unique quote from the text.\"}",
+  "prompt_sha256": "4a895d26a60a95a149342c3d6ad7df41e11a06d7d4aa3d8dc34234276b530668"
+}

@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5153",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical continuation: the text is mid-sentence reporting a specific dollar figure for the 2016\u20132018 period, requiring a precise number (likely in billions, e.g., \"1.5 billion\" or similar).\n\nComparative structure momentum: the passage contrasts 2016\u20132018 ($1.5 billion) against 2019\u20132020 ($2.1 billion), so the next tokens will likely complete the 2016\u20132018 figure before pivoting to the 2019\u20132020 comparison.\n\nFinal token \"around\" is a hedging adverb mid-sentence, immediately requiring a specific numerical dollar amount (e.g., \"1.5 billion\") to complete the factual claim about the 2016\u20132018 period's spending.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically the \"two women\" premise requiring completion of their story/relationship.\n\nRepetition/continuation pattern: the review has been summarizing plot details in a structured, descriptive style, continuing to elaborate on character dynamics and the central conflict.\n\nFinal token \"were\" is a past-tense linking verb mid-clause, immediately requiring a predicate complement \u2014 likely an adjective or noun phrase describing the two women's situation, e.g., \"were in love\" or \"were expecting.\"\n</explanation>",
+    "Narrative momentum: a detailed first-person account of a dream sequence is unfolding, with the narrator describing a specific dream's events chronologically.\n\nRepetition/continuation pattern: the text repeatedly describes the same dream scene with slight variations, suggesting continued elaboration of the dream's narrative details.\n\nFinal token \"4\" is mid-sentence, part of a numerical reference (\"4\" likely beginning \"40s\" or a specific age/number), immediately requiring continuation of that number or a noun phrase completing the clause about the narrator's age or situation.\n</explanation>",
+    "Q&A format established: a question was posed, and the answer is now being provided, requiring continuation of the response.\n\nThe answer is mid-sentence explaining the author's personal connection to the song, having just stated \"I still like it\" \u2014 elaboration on why/how they still enjoy it is expected next.\n\nFinal token \"13\" is part of an incomplete sentence (\"I still like it, which is 13\"), likely referencing the song's number or a year, requiring immediate numeric or descriptive continuation.\n</explanation>",
+    "The article follows a structured news format: headline, summary, then detailed body paragraphs expanding on the same facts with increasing specificity.\n\nThe narrative is building toward explaining the psychological/behavioral mechanism \u2014 the \"fear of being forgotten\" theory \u2014 as the article has introduced the claim and now needs to elaborate on it with supporting detail or explanation.\n\nThe final sentence ends mid-explanation with \"about 30 people,\" completing a restatement of the 300 attendees statistic; the next tokens will likely continue with a conjunction or clause explaining the implication, e.g., \"and this led to...\" or \"which prompted...\"\n</explanation>",
+    "Biblical commentary format: verse-by-verse exposition with Greek word studies, cross-references, and theological analysis throughout.\n\nNarrative/argumentative momentum: the passage has been building toward explaining the \"rejoicing\" in v.12, with the author just restating the verse to introduce a deeper explanation \u2014 the next tokens will elaborate on why the disciples were \"rejoicing\" (likely referencing the disciples' role in the council or the council's significance).\n\nFinal token: \"v.12\" closes a restatement of the verse, functioning as a pivot point; the next tokens will begin the substantive explanation of the \"rejoicing\" referenced in v.12.\n</explanation>"
+  ],
+  "input_sha256": "0a7d4dddf34d4f1967b4d8a45cf560557d593f93c09442188e27326896733b7c",
+  "values": [
+    {
+      "quote": "1.5 billion",
+      "value": "1.5"
+    },
+    {
+      "quote": "2.1 billion",
+      "value": "2.1"
+    },
+    {
+      "quote": "two women",
+      "value": "2"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "30 people",
+      "value": "30"
+    },
+    {
+      "quote": "300 attendees",
+      "value": "300"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including decimals for billion-scale figures and integers for counts.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5 billion\",\"value\":1.5},{\"quote\":\"2.1 billion\",\"value\":2.1},{\"quote\":\"two women\",\"value\":2},{\"quote\":\"4\",\"value\":4},{\"quote\":\"13\",\"value\":13},{\"quote\":\"30 people\",\"value\":30},{\"quote\":\"300 attendees\",\"value\":300}],\"justification\":\"Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including decimals for billion-scale figures and integers for counts.\"}",
+  "prompt_sha256": "a91e9b2db0a3d569a35541c6cd3cbff8e40835ee90d81f8a64b9d6a9b59b224f"
+}

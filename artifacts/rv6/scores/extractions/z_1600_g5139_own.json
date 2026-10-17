@@ -1,0 +1,105 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5139",
+  "kind": "own",
+  "descriptions": [
+    "Structured list pattern: numerical data presented as country-by-country statistics, establishing a template of country name followed by numeric value.\n\nStatistical continuation: the sentence lists specific numeric values for each country's data, with \"1996\" and \"1997\" years already given, suggesting more years or a closing value follows.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numeric hazard value (likely a decimal number like \"1.2\" or similar) to complete the numeric data point for the current country.\n\"2 is\" is incomplete \u2014 the sentence requires a numeric value to complete the numeric rate figure.\n\"2 is\" ends mid-predicate, strongly constraining the next token to be a decimal number continuing the numeric value.\n\"2 is\" likely precedes a country name or closing punctuation completing the country-year data entry.",
+    "List pattern established: character descriptions follow a structured format with name, actor, and romantic/compatibility traits, suggesting continuation of this template.\n\nThe text is mid-sentence describing a character's relationship qualities, with \"30 years\" and \"30 years\" already stated, implying a parallel or elaborating clause about the character's age or background.\n\nFinal token \"30,\" is mid-sentence within a numerical list (\"30, 31, 30\"), likely continuing with a number or completing a phrase like \"30, 31\" or \"30, 14\" \u2014 the trailing comma signals an incomplete enumeration or descriptive clause about the character's age/identity.\n\"10 was 37\" establishes a pattern of year-based personal facts, so \"31\" or similar number is immediately expected to complete the scene.\n\n\"30,\".",
+    "Continuation of a structured recipe/food description with specific ingredient details and visual observations, following a pattern of describing visual cues and their effects.\n\nThe text is mid-sentence describing a specific visual instruction (\"Look at the top of the pan\"), implying a technical cooking tip or measurement detail is being provided.\n\nFinal token \"4\" is part of an incomplete number \"about 4\" \u2014 likely continuing a time duration or measurement (e.g., \"45 seconds,\" \"4-5 minutes\"), requiring numeric continuation of the scientific/visual observation about the camera flash.\n\"45 seconds\" or similar precise time estimate is the immediate expectation.\n\"4\" is the final token, mid-phrase within \"about 45 seconds\" or similar, completing a specific numeric quantity describing the flash's duration or visual effect.\n\"4 5 45 seconds\" or similar time reference completing the scientific.",
+    "List continuation pattern: article presents multiple food items with descriptions; \"Listed below are some of the best\" signals more bullet-point entries expected after this first one.\n\nInstructional/listicle format: each food item follows a structured pattern of title, description, and specific recipe details, suggesting the next tokens continue describing the visual content or citations.\n\nFinal token \"65\" is mid-sentence within a specific citation reference (\"65\"), part of a factual list of historical photo examples; immediately expects continuation of the number or descriptive phrase completing \"65\" (likely \"65\" completing \"65\" as part of a larger number like \"65\" or \"65\" images/photographs).\n\"65\" is mid-enumeration of specific page numbers or visual examples, requiring numeric or descriptive continuation of the \"55\" or \"15\" food-related items.",
+    "News article reporting pattern: factual, structured journalism style with statistics and source citations throughout.\n\nContinuation of a structured list of media coverage details \u2014 the report has been citing specific scores, rankings, and official sources, suggesting more technical or analytical data follows.\n\nFinal token \"2,000,000 views\" ends a sentence fragment mid-clause, likely continuing with additional rating details, a period closing the sentence, or a new sentence elaborating on the FCC report's findings or methodology.\n\"200,000 views\" is a truncated numerical rating, immediately expecting either a closing punctuation or continuation of the FCC report's content description.\n\"2,000,005 views\" or similar figure is the most likely next token, completing the truncated number \"2,500 people\" or similar regulatory threshold language.\n\"500 views\" is the.",
+    "Structured list pattern: each entry follows \"Case name \u2192 description \u2192 page count \u2192 document type\" format, establishing strong template expectations.\n\nContinuation of a legal document catalog: entries describe archival materials with consistent metadata fields; the current entry for \"Carter\" is mid-description, requiring completion of the procedural details.\n\nFinal token \"75\" is a truncated page number within a timestamp (\"75\"), part of a \"75 minutes\" or similar time reference, immediately expecting continuation of the numeric value or a new field like \"75 minutes\" or a period completing the timestamp.\n\"75\" is mid-phrase within a video duration description, likely continuing with \"77\" or a new line describing the next procedural detail.\n\"75\" 77\" 75 minutes\" pattern suggests a specific numeric sequence describing the scene's content.\n\"75\" 77\".\""
+  ],
+  "input_sha256": "18811cacf03095d4908470c89c9f9cb18b8f0f0c987c2a7bf0acf1ded7b6bfeb",
+  "values": [
+    {
+      "quote": "1996",
+      "value": "1996"
+    },
+    {
+      "quote": "1997",
+      "value": "1997"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "30 years",
+      "value": "30"
+    },
+    {
+      "quote": "30,",
+      "value": "30"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "45 seconds",
+      "value": "45"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "2,000,000 views",
+      "value": "2000000"
+    },
+    {
+      "quote": "200,000 views",
+      "value": "200000"
+    },
+    {
+      "quote": "2,000,005 views",
+      "value": "2000005"
+    },
+    {
+      "quote": "2,500 people",
+      "value": "2500"
+    },
+    {
+      "quote": "500 views",
+      "value": "500"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including those within phrases like '30 years' or '2,000,000 views', while ignoring years used as dates where possible, though here they appear as data points.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1996\",\"value\":1996},{\"quote\":\"1997\",\"value\":1997},{\"quote\":\"2\",\"value\":2},{\"quote\":\"30 years\",\"value\":30},{\"quote\":\"30,\",\"value\":30},{\"quote\":\"31\",\"value\":31},{\"quote\":\"10\",\"value\":10},{\"quote\":\"37\",\"value\":37},{\"quote\":\"4\",\"value\":4},{\"quote\":\"45 seconds\",\"value\":45},{\"quote\":\"5\",\"value\":5},{\"quote\":\"65\",\"value\":65},{\"quote\":\"55\",\"value\":55},{\"quote\":\"15\",\"value\":15},{\"quote\":\"2,000,000 views\",\"value\":2000000},{\"quote\":\"200,000 views\",\"value\":200000},{\"quote\":\"2,000,005 views\",\"value\":2000005},{\"quote\":\"2,500 people\",\"value\":2500},{\"quote\":\"500 views\",\"value\":500},{\"quote\":\"75\",\"value\":75},{\"quote\":\"77\",\"value\":77}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including those within phrases like '30 years' or '2,000,000 views', while ignoring years used as dates where possible, though here they appear as data points.\"}",
+  "prompt_sha256": "d705b820d9d1c31643968f2d6134e70522a7b1ff954aae66c659cf837ab632f8"
+}

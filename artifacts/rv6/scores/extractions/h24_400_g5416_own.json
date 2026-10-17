@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5416",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic calculation: total weekly difference = 75 \u2212 35 \u2212 75 = 35, so the answer must be 75.\n\nThe solution structure demands a numerical answer: 75 \u2212 8 \u2212 15 = 35, so the remaining weeks = 75 \u2212 35 = 40.\n\nFinal token \"be\" completes \"The remaining weeks are ___\", requiring the integer answer \"40\" (75 \u2212 30 \u2212 7 = 40 weeks), as the weekly difference calculation (75 \u2212 40 \u2212 7 = 30) must follow immediately.",
+    "Math word problem solution format: structured problem with given values (total $35, weekly savings $70) requires arithmetic calculation showing remaining savings after subtracting $35 from $70.\n\nThe problem establishes a pattern of calculating weekly savings: 35 - $70 = $35 remaining, so the next tokens must state the weekly deficit (35 \u00d7 2 = 70) before continuing to calculate the second week's savings.\n\nFinal token \"has\" begins the sentence stating the first week's savings calculation: \"He will spend 35 - $70 = $35\" or similar, requiring a specific arithmetic expression showing the difference between $70 and $35.",
+    "Math word problem solution in progress: part (a) requires calculating savings from two weekly differences (55\u221215 each), so the solution must show arithmetic steps.\n\nThe solution is mid-calculation, having established total savings: 55 \u00d7 2 = 110, now computing the weekly difference: 55\u221215 = 40, so the next tokens will state \"70\" (the savings per week).\n\nFinal token \"7\" begins the numerical answer \"70\" representing the total savings from 15 \u00d7 2, immediately constraining the next tokens to complete this number (likely \"0\" or \"0 per week\") continuing the arithmetic explanation.",
+    "Math word problem solution format: structured step-by-step arithmetic explanation with labeled sections (e.g., \"First, calculate the total amount spent over two weeks\").\n\nThe solution is mid-calculation, having established spending $70 total (3 weekly \u00d7 $25 each), now requiring the remaining balance: $100 minus $70 = $30 remaining savings.\n\nFinal token \"$70\" is the calculated total savings from two weeks of spending, immediately requiring continuation of the arithmetic expression or sentence, likely \"in savings\" or \"over two weeks\" to complete the equation showing the weekly deduction before addressing the remaining balance.",
+    "Math word problem solution format: structured step-by-step arithmetic explanation with variables, requiring calculation of total savings and remaining balance.\n\nThe problem establishes two weekly deductions: \"two days \u00d7 $35\" = $70, so the next step must state the remaining balance after two weeks, i.e., $70 total, then solve for the remaining amount to pay.\n\nFinal token \"p\" begins the dollar amount \"$70p\" (i.e., \"$70p35\" or \"$70 \u00d7 2\"), completing the arithmetic expression showing the combined weekly savings of two \u00d7 $35, immediately requiring \"35\" to complete the multiplication result before stating the remaining balance.",
+    "Math word problem template pattern: each problem follows identical structure \u2014 state total, calculate half, then state remaining amount after two days.\n\nThe second problem mirrors the first's structure: \"two days \u00d7 $50 = $100\" establishes the total, so the next step is subtracting the second day's amount ($70) from the first day's $70 to find the remaining balance.\n\nFinal token \"70.70.\" ends the calculated total \"$140 + $70 = $210\" \u2014 the next tokens must state the half daily difference: \"$210 - $100 = $110\" to complete the solution."
+  ],
+  "input_sha256": "055641e2a9e659de805c702320ace46d040ab684de4579af1add456e78de958d",
+  "values": [
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "110",
+      "value": "110"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "210",
+      "value": "210"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of explicit arithmetic expressions (like 55 \u00d7 2 = 110 or 75 \u2212 35 = 40) found within the provided descriptions, excluding ordinals and dates.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"75\",\"value\":75},{\"quote\":\"35\",\"value\":35},{\"quote\":\"8\",\"value\":8},{\"quote\":\"15\",\"value\":15},{\"quote\":\"40\",\"value\":40},{\"quote\":\"30\",\"value\":30},{\"quote\":\"7\",\"value\":7},{\"quote\":\"70\",\"value\":70},{\"quote\":\"2\",\"value\":2},{\"quote\":\"55\",\"value\":55},{\"quote\":\"110\",\"value\":110},{\"quote\":\"3\",\"value\":3},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"140\",\"value\":140},{\"quote\":\"210\",\"value\":210}],\"justification\":\"Extracted all distinct numeric literals and results of explicit arithmetic expressions (like 55 \u00d7 2 = 110 or 75 \u2212 35 = 40) found within the provided descriptions, excluding ordinals and dates.\"}",
+  "prompt_sha256": "7f5447725891028429236a539bca44b6086a430253943c849d07a41030bc4286"
+}

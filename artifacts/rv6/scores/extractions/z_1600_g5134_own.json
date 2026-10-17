@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5134",
+  "kind": "own",
+  "descriptions": [
+    "Financial data pattern: article lists specific statistics with dollar amounts, percentages, and dates, establishing a template of precise financial figures.\n\nContinuation of financial data series: the text has been listing revenue figures with specific dollar amounts and time periods; the incomplete sentence promises a complete financial value.\n\nFinal token \"and is estimated to be $1,200,000 and is estimated to be\" is mid-sentence, requiring a second monetary figure (likely a different price or a second financial metric) to complete the parallel structure.\n\"and is estimated to be\" demands an immediate dollar amount or numerical value to follow.\n\"and is estimated to be\" is an incomplete clause mid-sentence, syntactically requiring a number or currency figure next.\n\"and is estimated to be\" is a repeated parallel construction, strongly constraining the next token to a specific dollar amount or financial descriptor.",
+    "Structured product listing format with consistent fields (title, description, cast, synopsis) signals continuation of film metadata entries.\n\nThe synopsis section has begun, following a pattern of describing the film's plot and production details, with technical credits and cast already listed.\n\nFinal token \"4 is\" begins a product specification sentence mid-clause, immediately requiring a number or descriptor completing the film's description, likely continuing with a product detail like \"4 is a...\" or a specification value.\n\"4 is 4 is\" suggests a typo/autocorrect artifact, but the surrounding context of film description and production details constrains next tokens to a numeric or descriptive continuation of the product listing.\n\"4 is 34 is\" appears mid-sentence, likely a copy error; the model expects a number or product attribute to complete the \"is\" predicate.\n\"34 is\" ends the sequence, functioning as.",
+    "Structured e-commerce/catalog listing pattern: each category header is followed by a list of part numbers, names, and filter options.\n\nThe page is mid-list, having shown \"Part Numbers\" and \"names\" as filter options, suggesting a third filter option (e.g., \" Filter by category\") is expected next.\n\nFinal token \"Available\" closes a filter label line (\"Part Numbers Available\"), part of a repeating \" Filter by [category]\" pattern, strongly predicting another similar line follows.\n\"Available\" ends a filter menu item, with the next token likely being a newline and another filter label or product listing.\n\"Available\" is the final token of a filter menu entry, completing a parallel structure; next tokens likely continue with another filter category or product grid.\n\"Available\" closes the second filter line, immediately preceding either a new filter label or a product listing section.",
+    "Structured table pattern: pipe-delimited price rows with date, time, and currency values are being listed, establishing a clear continuation format.\n\nStructured data table momentum: the \"Last Price\" section has begun with a header row and one row shown; more rows with similar fields (date, time, currency) are expected to follow.\n\nFinal token \"||\" closes a table cell in the \"Last Price\" section, immediately requiring the next cell's content \u2014 likely a currency symbol or closing pipe character continuing the row.\n\"||\" is a table cell delimiter mid-row, requiring the next token to be a currency name or value (e.g., \"USD\", \"EUR\") or a closing pipe.\n\"||\" is the final token, part of an incomplete row, immediately constraining the next token to be a currency symbol, number, or closing pipe.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and price fields repeating consistently throughout.\n\nStructured list continuation: the \"Last 10 Prices Added\" section has begun with one row and is mid-table, expecting more rows following the same format.\n\nFinal token \"||\" closes a cell in the last table row, immediately requiring the next cell's content \u2014 likely a closing pipe \"|\" followed by another date or field value.\n\"||\" is a table cell delimiter, so the next token must be \"|\" to close the cell, then likely another row or end of table.\n\"||\" is the final token, part of a financial data row, immediately requiring \"|\" to close the cell and row.\n\"|\" closes the current row, so the next token is almost certainly a newline or new row beginning with \"|\" and a date.",
+    "Structured table pattern: pipe-delimited rows with date, time, and price data, following established format like `|1/1/2021||10:00 AM||$100|`.\n\nFinancial data continuation: the table lists multiple rows with consistent fields; the final row is incomplete, requiring a closing pipe and likely a dollar amount.\n\nFinal token `||$100|` is mid-row in the pipe-delimited structure, immediately requiring a closing `|` to complete the cell and row, then likely another row or end of table.\n\"|\" closes the current cell, so next token is almost certainly `|` to close the row.\n\"|\" is the final token, part of the incomplete final price cell, immediately requiring `|` to close the cell and row.\n\"|\" is the closing delimiter of the last data cell, strongly constraining the next."
+  ],
+  "input_sha256": "f22928cced988c5d13879dc62bfa72ce82ecf0bbf5903709c3c1d6bc8a26927b",
+  "values": [
+    {
+      "quote": "$1,200,000",
+      "value": "1200000"
+    },
+    {
+      "quote": "4 is",
+      "value": "4"
+    },
+    {
+      "quote": "4 is 4 is",
+      "value": "4"
+    },
+    {
+      "quote": "4 is 34 is",
+      "value": "4"
+    },
+    {
+      "quote": "4 is 34 is",
+      "value": "34"
+    },
+    {
+      "quote": "34 is",
+      "value": "34"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,200,000\",\"value\":1200000},{\"quote\":\"4 is\",\"value\":4},{\"quote\":\"4 is 4 is\",\"value\":4},{\"quote\":\"4 is 34 is\",\"value\":4},{\"quote\":\"4 is 34 is\",\"value\":34},{\"quote\":\"34 is\",\"value\":34},{\"quote\":\"$100\",\"value\":100}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "570dd39f828e947b15e4b2d2b5fafbdf9594d73a971a9618b6ee9fc26d378ace"
+}

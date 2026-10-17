@@ -1,0 +1,129 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5093",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating structure of \"city name + count + percentage.\"\n\nThe sentence ending mid-statistic (\"50% of the cities\") mirrors the earlier pattern of \"50% of the cities in the United States,\" suggesting a parallel completion with a geographic qualifier or additional context.\n\nFinal token \"50%\" is mid-sentence, part of a concluding summary statistic; immediately expects a noun phrase like \"of the cities\" or \"of the United States\" to complete the parallel construction.\n\"50% of the cities\" or similar closing phrase.\n\"5\" is the start of a number completing \"50% of the cities\" or a new city-specific figure.\n\"5\" hazard rating or a percentage value follows \"51 5 is 10\" \u2014 the sentence is mid-clause, likely continuing.",
+    "List continuation pattern: the text is mid-sentence listing character traits (\"intuitive, compassionate, and...\"), requiring at least one more adjective or a concluding clause.\n\nNarrative momentum: the paragraph is explaining the article's purpose and scope, building toward a complete summary of the article's content and advice.\n\nFinal token \"4,\" is part of an interrupted number (\"4,\") within a list of character traits, immediately requiring the next digit(s) to complete the age or a new number continuing the enumeration.\n\"4,\" is mid-sentence, likely completing a score or age reference like \"4, [number]\" or a new clause.\n\"4,\" is a truncated numerical value mid-sentence, constraining the next token to be a digit or punctuation completing the score.\n\"31\" or political analysis follows the time \"65\" question format, 50 relationship advice 41 seconds.",
+    "Review structure momentum: the text is mid-sentence completing a summary of the book's content, listing what readers will learn.\n\nList/enumeration pattern: the review has been cataloguing book contents (\"how to...,\" \"what to...,\" \"how to...\"), suggesting continuation of this structured summary.\n\nFinal token \"10\" is the start of an incomplete number (likely \"10\" or \"20\" or a larger figure like \"12\"), mid-sentence within a concluding summary statement about the book's page count or answer count.\n\"20\" or \"12\" or similar numeric completion is immediately expected.\n\"2\" or \"16\" seconds pattern suggests a percentage or rating follows \"20\" educational content.\n\"8\" or \"10\" film rating is theological 11 seconds 25.2 visual 17\" \u2014 nutritional label or.",
+    "Narrative momentum: the text is mid-sentence completing a statistical summary, listing book contents with percentages (\"30 percent... 10 percent...\").\n\nThe pattern of presenting book contents with percentages suggests additional categories or a concluding remark about the book's scope may follow.\n\nFinal token \"40\" is an incomplete number mid-sentence (\"about 40\"), requiring immediate continuation \u2014 likely a percentage figure or unit (e.g., \"percent\" or a larger number) completing the statistical claim about the book's content.\n\"40\" is the final token, part of an enumerated breakdown of the book's content percentage.\n\"4,0\" or \"16,0 people\" or similar answer completing the pricing question.\n\"20.0\" or similar moral category label follows \"30,0 16 people\" \u2014 the 5.8 per film diet label is 4.",
+    "Q&A format pattern: each question is followed by a detailed answer, establishing strong expectation for continued explanation of the \"20\" answer.\n\nThe answer is mid-sentence explaining the \"20\" in \"20 years\" \u2014 the book's title or a specific number completing the phrase, likely \"20 years\" or a chapter/page reference.\n\nFinal token \"2\" is the start of an incomplete number or title reference (e.g., \"20 years\" or \"20 pages\"), requiring immediate numeric continuation to complete the sentence explaining the book's significance.\n\"2\" is a truncated argument or statistic.\n\"2\" legal rating or a concluding clause follows.\n\"20\" is the final token, mid-sentence, analytical conclusion about the 4.8 rating timeframe.\n\"20\" is 8 per 28 seconds moral rule \u2014 \"40.2\" or.",
+    "Legal case summary pattern: structured analysis of a question-answer exchange, systematically addressing each bullet point with explanation.\n\nStatistical/numerical continuation: the text has been presenting survey data and percentages throughout; the final sentence introduces a new percentage claim about the survey's findings, expecting elaboration or a follow-up statistic.\n\nFinal token \"6%\" ends a sentence fragment mid-thought, likely part of a larger sentence or paragraph continuing with additional survey findings, a contrasting clause, or a new bullet point expanding on the percentage's significance.\n\"6%\" is the last token, ending an incomplete sentence about survey results, immediately requiring continuation such as a period, conjunction, or further qualification.\n\"6%\" list pattern or a new clause follows.\n\"6%\" rule or percentage-based breakdown expected next.\n\"6%\" is the final token, part of a question about the survey's timing, probability, or legal threshold \u2014 food."
+  ],
+  "input_sha256": "6831ebdc23a77160b5b77d55f960e7ecff8d4edc0a8e1a9868f6f02ad17e3d32",
+  "values": [
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "51",
+      "value": "51"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4,",
+      "value": "4"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "25.2",
+      "value": "25.2"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "30 percent",
+      "value": "30"
+    },
+    {
+      "quote": "10 percent",
+      "value": "10"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "16,0",
+      "value": "160"
+    },
+    {
+      "quote": "20.0",
+      "value": "20"
+    },
+    {
+      "quote": "30,0",
+      "value": "300"
+    },
+    {
+      "quote": "5.8",
+      "value": "5.8"
+    },
+    {
+      "quote": "4.8",
+      "value": "4.8"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "40.2",
+      "value": "40.2"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and decimal values from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50%\",\"value\":50},{\"quote\":\"5\",\"value\":5},{\"quote\":\"51\",\"value\":51},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4,\",\"value\":4},{\"quote\":\"31\",\"value\":31},{\"quote\":\"65\",\"value\":65},{\"quote\":\"41\",\"value\":41},{\"quote\":\"20\",\"value\":20},{\"quote\":\"12\",\"value\":12},{\"quote\":\"2\",\"value\":2},{\"quote\":\"16\",\"value\":16},{\"quote\":\"8\",\"value\":8},{\"quote\":\"11\",\"value\":11},{\"quote\":\"25.2\",\"value\":25.2},{\"quote\":\"17\",\"value\":17},{\"quote\":\"30 percent\",\"value\":30},{\"quote\":\"10 percent\",\"value\":10},{\"quote\":\"40\",\"value\":40},{\"quote\":\"16,0\",\"value\":16},{\"quote\":\"20.0\",\"value\":20},{\"quote\":\"30,0\",\"value\":30},{\"quote\":\"5.8\",\"value\":5.8},{\"quote\":\"4.8\",\"value\":4.8},{\"quote\":\"28\",\"value\":28},{\"quote\":\"40.2\",\"value\":40.2},{\"quote\":\"6%\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals, percentages, and decimal values from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "7b59a7def456af2a24f306bbd8e0bcf7ed32bea6c48d4d06b50c2cb8600b726b"
+}

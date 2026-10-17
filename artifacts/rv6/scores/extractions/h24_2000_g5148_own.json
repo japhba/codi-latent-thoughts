@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5148",
+  "kind": "own",
+  "descriptions": [
+    "Word problem format signals a solution walkthrough is underway, requiring a numerical answer and step-by-step reasoning.\n\nThe word problem setup (3 times the number of balls, total 45) creates strong semantic expectation for the solution: \"45 = 3x \u2192 x = 15.\"\n\n\"The number of balls is\" is an incomplete declarative sentence acting as a prompt, immediately requiring a numerical answer or word like \"15\" to complete the solution statement.\n\"The mother has\" or \"15\" is the expected next token.\n\"The number of balls is\" demands a direct numerical response.\n45 / 3 = 15, so the answer is 15, and the next tokens should state this explicitly.\n\"The mother has 15 balls\" is the solution reveal.\n\"The number of balls is\" is a sentence fragment requiring a number and likely a word like \"15.",
+    "Word problem format signals a solution walkthrough is underway, requiring a direct numerical answer to follow.\n\nThe word problem structure (total = 3 times, difference = 16) demands a mathematical solution: x = 3x, x = 16.\n\n\"The number is is\" is a garbled/typo rendering of \"The number is,\" immediately requiring the solution statement, likely \"The original number is 7\" or a direct explanation.\nFinal token \"is\" begins the solution sentence, constrained to continue with a simple declarative like \"found by dividing 72 by 3 times.\"\n\"The number is\" is the start of the solution line, expecting a short declarative phrase completing the answer.\n\"The parent has 7 times the smaller number\" or \"The original number is 21.\"\n straightforward solution: \"The larger number is 21 / 3 times the smaller number.",
+    "Math word problem format: a structured solution walkthrough is expected, following the pattern of \"word problem \u2192 solution \u2192 answer.\"\n\nThe question asks for the original number, so the solution must demonstrate algebraic reasoning (e.g., \"3 times the number = 126\").\n\nFinal token \"Answer\\nans:Answer\" is a prompt/label in a math problem template, immediately requiring the solution explanation or direct answer text to follow.\n\"Answer\\nans:Answer\" signals the next tokens should be the solution steps or the direct numerical answer.\nFinal token \"ans:Answer\" is a heading/label, constraining the next tokens to be the solution: \"The smaller number is 126.\"\n\"Explanation:\" or a worked solution is expected next.\nDividing 3 times the unknown by 6 times the unknown equals 126.\nReverse calculation: the answer is the parent number.",
+    "Math word problem format: a structured solution walkthrough is expected, following the pattern of word problem \u2192 solution \u2192 answer.\n\nThe problem requires finding the smaller number using algebraic reasoning: 3 times the larger = 24, so the solution involves division and a specific numerical answer.\n\nFinal token \"answiar\" is a prompt/label for the solution answer, immediately requiring the solution text itself, likely starting with \"The smaller number is...\" or a direct numerical statement.\nFinal token \"answiar\" is a prompt word, signaling the solution explanation must follow next.\n\"answiar\" is a garbled placeholder for \"answer,\" constraining the next tokens to be the solution steps or the number itself.\n3 times the original = 24, so the unknown is 8.\nStep-by-step reasoning: \"Dividing 24 by 3 times gives the original number.\"",
+    "Word problem solution format: a structured math problem with a question and answer section, expecting a worked numerical solution.\n\nThe answer must be \"12\" (3 times 36 = 108, so original number = 36), following the established pattern of a step-by-step solution.\n\nFinal token \"answergen\" is a prompt/label in a math problem template, immediately requiring the solution text: \"The smaller number is 12 years old.\"\nFinal token \"answergen\" signals the solution reveal is imminent, constraining next tokens to be the mathematical reasoning or direct answer.\n\"answergen\" is a garbled placeholder for \"answer,\" requiring the algebraic solution: \"3 times the unknown = 108 / 3 times = original number.\"\nDividing 108 by 3 times to find the unknown parent's number.",
+    "Word problem solution format: a structured math problem with a question and answer section, requiring a numerical answer.\n\nThe algebraic setup requires solving x = 3 times the unknown, so the solution must state x = 12 (since 3x = 36).\n\nFinal token \"answergiven\" is a prompt/label in a math problem template, immediately requiring the solution answer: \"The smaller number is 12 years old.\"\nFinal token \"answergiven\" signals the answer reveal is next, constraining the next tokens to be the solved value or explanation.\n(3 times the unknown) / 3 = 12, so the unknown = 36 / 3 times the smaller number.\n\"answergen\" demands the direct numerical answer: \"The smaller number was 36 original total.\""
+  ],
+  "input_sha256": "0aa2f7904a89a5da7617c5e4805894318d1c064a27b0e3fc8fc958e54a896973",
+  "values": [
+    {
+      "quote": "3 times",
+      "value": "3"
+    },
+    {
+      "quote": "total 45",
+      "value": "45"
+    },
+    {
+      "quote": "45 / 3 = 15",
+      "value": "15"
+    },
+    {
+      "quote": "difference = 16",
+      "value": "16"
+    },
+    {
+      "quote": "dividing 72 by 3",
+      "value": "72"
+    },
+    {
+      "quote": "original number is 7",
+      "value": "7"
+    },
+    {
+      "quote": "original number is 21",
+      "value": "21"
+    },
+    {
+      "quote": "3 times the number = 126",
+      "value": "126"
+    },
+    {
+      "quote": "unknown by 6",
+      "value": "6"
+    },
+    {
+      "quote": "larger = 24",
+      "value": "24"
+    },
+    {
+      "quote": "unknown is 8",
+      "value": "8"
+    },
+    {
+      "quote": "answer must be \"12\"",
+      "value": "12"
+    },
+    {
+      "quote": "3 times 36",
+      "value": "36"
+    },
+    {
+      "quote": "108",
+      "value": "108"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned as literals, spelled-out numbers, or results of simple arithmetic expressions within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3 times\",\"value\":3},{\"quote\":\"total 45\",\"value\":45},{\"quote\":\"45 / 3 = 15\",\"value\":15},{\"quote\":\"difference = 16\",\"value\":16},{\"quote\":\"dividing 72 by 3\",\"value\":72},{\"quote\":\"original number is 7\",\"value\":7},{\"quote\":\"original number is 21\",\"value\":21},{\"quote\":\"3 times the number = 126\",\"value\":126},{\"quote\":\"unknown by 6\",\"value\":6},{\"quote\":\"larger = 24\",\"value\":24},{\"quote\":\"unknown is 8\",\"value\":8},{\"quote\":\"answer must be \\\"12\\\"\",\"value\":12},{\"quote\":\"3 times 36\",\"value\":36},{\"quote\":\"108\",\"value\":108}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned as literals, spelled-out numbers, or results of simple arithmetic expressions within the provided descriptions.\"}",
+  "prompt_sha256": "e853ef08ddf730e1a314814da01358cb596b083d14b7997aafec64fda2b5092b"
+}

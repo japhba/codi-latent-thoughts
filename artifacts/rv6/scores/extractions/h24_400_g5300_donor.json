@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5300",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring a numerical answer: calculate 15% tax on $150, so the next token must be the computed total price (150 + 5% = $165).\n\nThe problem follows a standard arithmetic format: original amount \u00d7 (1 + 5%) = $150 \u00d7 1.05 = $157.50, constraining the answer to a specific dollar figure.\n\nFinal token \"of\" completes \"The total cost will be of,\" immediately requiring a specific monetary value (likely \"$157.50\") representing the calculated total after adding 5% tax on $150.",
+    "Math word problem solution format requires completing the calculation of 8% tax on $800, i.e., \"8 \u00d7 $15 = $120\" before adding to $800.\n\nThe structured solution pattern establishes: state the tax amount first, then add it to the original price, then solve for total cost.\n\nFinal token \"has\" begins the sentence stating the tax amount calculation (\"$8 \u00d7 1.5% = $12\"), immediately requiring the numeric result of 8% of $15, likely \"1.5\" or \"12\" to complete the tax figure before continuing with the new price calculation.",
+    "Math word problem format requires completing the calculation: 80% tax on $80 = $12, then adding to $80 to get the final cost.\n\nThe problem follows a structured arithmetic problem pattern: state the tax amount, then compute the total price (80 + 12 = $92).\n\nThe final token \"12\" is the calculated tax value (8% of $150), immediately requiring the sentence to complete the multiplication result, likely \"to add\" or \"in tax,\" before continuing to state the new price of the shirt.",
+    "Math word problem format requires a step-by-step solution: calculate 8% tax on $80, then add to find total cost.\n\nThe problem has established a multiplication operation (8% \u00d7 $80 = $1.60), so the next tokens must state the calculated tax amount and then state the new price.\n\nFinal token \"p\" is the beginning of \"pence\" or \"the tax,\" completing the sentence \"The tax is $8 \u00d7 0.15 = $1.20\" \u2014 the next token must complete this dollar amount or describe the addition operation, likely \"to the $80\" or \"so the new price is $88.\"",
+    "Math word problem format requires a numerical answer: original price $100, 15% tax calculation demands the final cost result.\n\nThe structured problem follows a step-by-step arithmetic pattern: \"15% of $100 = $15\" establishes the tax amount, so the new price is $100 + $15 = $115.\n\nFinal token \"dollars.9% fee.\" ends the tax amount statement; the next token must present the arithmetic result showing the new price, likely \"The new price is $115\" or similar phrasing completing the calculation.",
+    "Math word problem format requires a numerical answer: \"10% of $150 = $15 added to $150 = $265\" \u2014 the template demands a specific dollar amount follows.\n\nThe structured problem template (\"Formula: X% of $Y = $Z. Add $Z to $X. Total cost = $X + $Z\") establishes a fill-in-the-blank pattern requiring a concrete calculated result.\n\nFinal token \"problem.\" closes the prompt asking for the 15% fee amount; the immediate next token must be the computed answer, likely \"$265\" or the final total cost \"$265.\""
+  ],
+  "input_sha256": "a535dc694ee1e95181ce959d24256c88da025083e0b9f21254a39f62d6cd56b6",
+  "values": [
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "$165",
+      "value": "165"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "1.05",
+      "value": "1.05"
+    },
+    {
+      "quote": "$157.50",
+      "value": "157.5"
+    },
+    {
+      "quote": "8%",
+      "value": "8"
+    },
+    {
+      "quote": "$800",
+      "value": "800"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "1.5%",
+      "value": "1.5"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "80%",
+      "value": "80"
+    },
+    {
+      "quote": "$80",
+      "value": "80"
+    },
+    {
+      "quote": "92",
+      "value": "92"
+    },
+    {
+      "quote": "$1.60",
+      "value": "1.6"
+    },
+    {
+      "quote": "0.15",
+      "value": "0.15"
+    },
+    {
+      "quote": "$1.20",
+      "value": "1.2"
+    },
+    {
+      "quote": "$88",
+      "value": "88"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "$115",
+      "value": "115"
+    },
+    {
+      "quote": "9% fee",
+      "value": "9"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "$265",
+      "value": "265"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and dollar amounts from the provided descriptions, treating percentages as their numeric values and dollar amounts as their numeric values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15%\",\"value\":15},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"$165\",\"value\":165},{\"quote\":\"1\",\"value\":1},{\"quote\":\"1.05\",\"value\":1.05},{\"quote\":\"$157.50\",\"value\":157.5},{\"quote\":\"8%\",\"value\":8},{\"quote\":\"$800\",\"value\":800},{\"quote\":\"8\",\"value\":8},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"1.5%\",\"value\":1.5},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"80%\",\"value\":80},{\"quote\":\"$80\",\"value\":80},{\"quote\":\"92\",\"value\":92},{\"quote\":\"$1.60\",\"value\":1.6},{\"quote\":\"0.15\",\"value\":0.15},{\"quote\":\"$1.20\",\"value\":1.2},{\"quote\":\"$88\",\"value\":88},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"$115\",\"value\":115},{\"quote\":\"9% fee\",\"value\":9},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"$265\",\"value\":265}],\"justification\":\"Extracted explicit numeric literals, percentages, and dollar amounts from the provided descriptions, treating percentages as their numeric values and dollar amounts as their numeric values.\"}",
+  "prompt_sha256": "3766d7efbfe100732551a0d6112fe7c65f89fb8dd2964b5e4335bbdb6d64d39f"
+}

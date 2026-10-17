@@ -1,0 +1,101 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5144",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: article presents study findings with specific percentages, now detailing methodology and data sources, expecting continued numerical results.\n\nAcademic citation structure: the text is mid-sentence describing the study's methodology, listing specific data sources (2016\u20132019), implying further findings or conclusions follow.\n\nFinal token \"is\" opens a predicate clause completing the description of the visual content's findings \u2014 immediately expects a descriptive adjective or noun phrase characterizing the visual content's nature or significance.\n\"is\" ends an incomplete sentence about the visual content analysis, requiring a predicate complement (e.g., \"likely to be,\" \"associated with,\" or a percentage finding).\n\"2 is\" is a truncated numerical value mid-sentence, likely continuing as \"2 is\" or completing a comparative result like \"is associated with\" or \"is linked to.\"\n\"5 is\" is the final token.",
+    "Plot summary continuation: the text is mid-sentence describing character roles, requiring completion of the historical/political context about the Soviet Union.\n\nCharacter introduction pattern: the summary lists multiple characters with their roles and affiliations, suggesting more plot details or thematic analysis follows.\n\nFinal token \"25,\" is a truncated number mid-sentence (\"25,\") within a factual historical claim about the Soviet Union's political factions, immediately requiring the digit \"3\" to complete \"25, 35\" or similar numerical continuation.\n\"25,\" is part of a numerical sequence describing the film's title or a specific year, demanding immediate numeric completion before the sentence resolves.\n\"7 was 25,\" \u2014 the \"35\" is a typo mid-number, so the next token must complete \"37\" or \"25, 35\" to finish the political backstory.\n\"1.\"",
+    "Plot summary continuation: the text is mid-sentence describing the book's religious themes, requiring completion of the historical timeline narrative.\n\nList/series pattern: the summary follows a structured book-description format, with each sentence adding plot details; the religious conversion detail needs resolution.\n\nFinal token \"5\" is the start of a number (likely \"5\" completing \"55\" or continuing a specific age/figure), part of a factual biographical detail about the father's conversion, immediately requiring numeric continuation of \"5\" to complete \"55\" or similar.\n\"5\" is mid-number, part of \"5 about 5\" or \"5.5 about 50\" \u2014 a percentage or date completing \"5 about 55\" or similar, likely \"500\" or \"5\" completing a statistic about the father's age or the book's publication.\n\"5\".\"",
+    "Continuation of a news article summarizing a religious book, following a structured Q&A format with bold headers and narrative exposition.\n\nThe text is mid-sentence completing a biographical detail about the book's content, specifically the secret about the author's gender \u2014 the reader expects the disclosure to be completed.\n\nFinal token \"55\" is part of an incomplete age reference (\"55\"), likely continuing with a number or completing \"55\" as part of \"55\" or \"50\" \u2014 most probably \"55\" completing a percentage or age, or continuing the truncated \"55\" into \"50\" or \"55\" \u2014 the immediate constraint is completing this numerical disclosure about the secret relationship.\n\"50\" or \"54\" is the expected completion of \"55\" \u2014 the political/religious context of the 50% statistic demands a specific number.",
+    "News article reporting factual findings, following inverted pyramid structure \u2014 background details and official statements expected next.\n\nThe investigative report is mid-sentence, detailing the film's content and legal status; the pattern establishes factual claims followed by elaboration on the fraud allegations.\n\nFinal token \"200,000\" is a truncated number mid-sentence (\"about 200,000 people\"), immediately requiring completion of the numerical/statistical finding, likely continuing with \"4.5 percent\" or similar fraud-related descriptor.\n\"533 people\" or similar investigative terminology completing the film's title or classification.\n\"2,543 533\" is a garbled numerical fragment (likely \"200,000 4.5 percent\"), part of the plot summary sentence, expecting continuation of the formal verdict or publication details.\n\"295 4..\"",
+    "Structured legal case summary format: each section follows a consistent pattern of title, description, and doctrinal analysis, suggesting continuation of the theological/legal analysis.\n\nThe summary is mid-sentence describing the verdict's content, having just stated the trial court's finding; the next tokens will elaborate on the specific biblical text or doctrinal issues examined.\n\nFinal token \"5.0\" ends a numerical citation (\"about 5.0\"), part of a factual enumeration of the trial court's findings; the next tokens will likely continue with additional case details, page numbers, or further description of the 29-30 page document.\n\"about 4.5 about 350\" is garbled/typo text mid-sentence, suggesting the next tokens complete \"2.35\" or similar numerical continuation of the historical count \"530\" or \"4.5\" crime."
+  ],
+  "input_sha256": "a9478f5c1955c6bb308e1f753518eb81aba5840c808a1fec2911092b7df4c87e",
+  "values": [
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "5 is",
+      "value": "5"
+    },
+    {
+      "quote": "25,",
+      "value": "25"
+    },
+    {
+      "quote": "7 was 25,",
+      "value": "7"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "4.5 percent",
+      "value": "4.5"
+    },
+    {
+      "quote": "533 people",
+      "value": "533"
+    },
+    {
+      "quote": "2,543 533",
+      "value": "2543"
+    },
+    {
+      "quote": "295 4..",
+      "value": "295"
+    },
+    {
+      "quote": "295 4..",
+      "value": "4"
+    },
+    {
+      "quote": "5.0",
+      "value": "5"
+    },
+    {
+      "quote": "about 4.5 about 350",
+      "value": "4.5"
+    },
+    {
+      "quote": "about 4.5 about 350",
+      "value": "350"
+    },
+    {
+      "quote": "2.35",
+      "value": "2.35"
+    },
+    {
+      "quote": "530",
+      "value": "530"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic components from the provided descriptions, including decimals and large numbers, while excluding dates and years as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is\",\"value\":2},{\"quote\":\"5 is\",\"value\":5},{\"quote\":\"25,\",\"value\":25},{\"quote\":\"7 was 25,\",\"value\":7},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"5\",\"value\":5},{\"quote\":\"55\",\"value\":55},{\"quote\":\"50\",\"value\":50},{\"quote\":\"54\",\"value\":54},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"4.5 percent\",\"value\":4.5},{\"quote\":\"533 people\",\"value\":533},{\"quote\":\"2,543 533\",\"value\":2543},{\"quote\":\"295 4..\",\"value\":295},{\"quote\":\"295 4..\",\"value\":4},{\"quote\":\"5.0\",\"value\":5},{\"quote\":\"about 4.5 about 350\",\"value\":4.5},{\"quote\":\"about 4.5 about 350\",\"value\":350},{\"quote\":\"2.35\",\"value\":2.35},{\"quote\":\"530\",\"value\":530}],\"justification\":\"Extracted explicit numeric literals and arithmetic components from the provided descriptions, including decimals and large numbers, while excluding dates and years as per instructions.\"}",
+  "prompt_sha256": "86e2a95d47c6f8ace3c7eeffda556f681315b10cbdc337ad25913d0cd41d053b"
+}

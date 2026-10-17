@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5006",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: hazard hazard percentages are being listed with specific numerical results, e.g., \"hazardous to 1 in 10,000,\" \"hazardous to 1 in 100,000.\"\n\nDomain-specific continuation: academic/technical report on train derailment hazard analysis, expecting precise hazard ratio figures and confidence intervals to follow.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the 2019\u20132020 train, requiring an immediate numerical hazard value (likely a fraction like \"1 in X,000\") consistent with the established reporting pattern.",
+    "Narrative momentum of film description: the text is recounting plot details and character observations, now shifting to historical/political context of the film's setting and family dynamics.\n\nContinuation of scene-by-scene analysis: the review has been describing specific scenes and character moments, now transitioning to a scene where the film's father figure appears, suggesting more plot summary or thematic commentary follows.\n\nFinal token \"100 was 168 was 1200 was\" is mid-sentence, part of a descriptive clause about the film's memory, likely completing \"1200 was 168 was 150\" or similar \u2014 a specific scene reference requiring the number to be completed and the sentence to finish.",
+    "Narrative momentum of personal testimony: author recounting their romantic journey, building toward describing the book's plot and emotional impact, with the story clearly mid-flow.\n\nBook description genre conventions: the text follows a structured book blurb format, moving from plot summary to author's personal backstory, now transitioning into thematic/plot elaboration of the Christian romance premise.\n\nFinal token \"2\" is mid-sentence (\"28\" or \"288\" or \"25\"), part of \"25\" or \"28\" \u2014 \"8\" completing \"28\" or \"25\" \u2014 but most likely continuing \"25 years\" or \"2008\" or \"28\" as a number, immediately requiring digit(s) to complete the year or quantity.",
+    "Personal narrative momentum: author is recounting romantic history, building toward explaining the relationship's significance and emotional impact.\n\nConfessional/autobiographical genre conventions: dating profile format with vulnerability, vulnerability, and romantic backstory signals continued self-disclosure about the relationship's meaning and journey.\n\nFinal token \"88\" is mid-word (\"880\"), part of \"680\" relationship milestone (\"680\" to \"880\"), completing \"580\" to \"880\" \u2014 the number \"880\" is the romantic partner's name, and the sentence requires continuation describing the 580's romantic significance or the author's personal growth.",
+    "Narrative momentum: anecdote about the anecdote's origin is being recounted, with the story building toward a resolution or warning about the anecdote's spread.\n\nNews article style: factual, third-person reporting with specific details (names, dates, incidents) signals continued journalistic elaboration of the story's impact or advice.\n\nFinal token \"200\" is mid-sentence (\"200 people...100 was 200\"), completing \"200\" as part of \"200\" \u2014 the next tokens must finish this statistic, likely \"100\" or a continuation of the anecdote's resolution, e.g., \"200 people who contacted the doctor.\"",
+    "Chronological case narrative pattern: events listed sequentially (2009, 2010, 2011, 2012), now detailing timeline of the divorce proceedings with specific dates and actions.\n\nProcedural/legal narrative momentum: the timeline is recounting the wife's phone call to the husband, establishing a sequence of events that logically leads to the next action (likely the phone call's outcome or follow-up).\n\nFinal token \"595\" is a time reference (\"59 days later... 58 hours later... 55 days later... 59 days later\"), mid-sentence, requiring completion of the date \"59 days later\" followed by the husband's response or the next procedural step."
+  ],
+  "input_sha256": "bfaa7d22fd4a7cd7bb7d695be0c2eb0be86173d7c88001bee17c3e1927f408f7",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "0.0001"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "1e-05"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "595",
+      "value": "595"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and fractions from the provided descriptions, including those within quotes and those appearing as standalone tokens.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":0.0001},{\"quote\":\"1 in 100,000\",\"value\":0.00001},{\"quote\":\"100\",\"value\":100},{\"quote\":\"168\",\"value\":168},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"2\",\"value\":2},{\"quote\":\"88\",\"value\":88},{\"quote\":\"200\",\"value\":200},{\"quote\":\"595\",\"value\":595}],\"justification\":\"Extracted explicit numeric literals and fractions from the provided descriptions, including those within quotes and those appearing as standalone tokens.\"}",
+  "prompt_sha256": "fb4dd363ee6d5326576db5c872348f907f6973c18ab357cd5b14474364069ad5"
+}

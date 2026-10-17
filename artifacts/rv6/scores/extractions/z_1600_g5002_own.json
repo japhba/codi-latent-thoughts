@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5002",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: country-by-country data is being enumerated with specific numeric values, establishing a continuation of country rankings with country names and percentages.\n\nNumerical data completion: the sentence lists \"United States, Canada, and Australia\" as the three countries with the highest share, with the sentence grammatically incomplete \u2014 a specific country name or numerical figure is expected to complete the ranking.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numerical value or descriptor (e.g., \"2 is\" or a specific figure) to complete the factual statistic about the three countries.\n\"2 is\" likely precedes a numeric rating or descriptor completing the country list.\n\"2 is\" ends the sequence mid-sentence, strongly constraining the next token to a number or descriptor continuing the hazard rating context.\n\"2 is\" likely precedes a specific numeric value or country name.",
+    "List continuation pattern: each entry follows \"Name is a [adjective] [role]... [relationship detail]\" structure, establishing strong template for completing the current entry.\n\nCharacter profile format: each entry describes a character's traits, relationships, and romantic connections, so the next tokens must complete this description for \"Liz.\"\n\nFinal token \"30,\" is mid-sentence within a numerical list of film titles, immediately requiring continuation of the number \"30\" (likely \"300\" or similar) or a comma-separated list of film titles.\n\"30,\" signals an interrupted numeric value or list, with \"300\" or a personal descriptor most probable next.\n\"330,\" is a truncated number mid-description, likely continuing as \"31, 300\" or a time duration phrase like \"340 days\" or similar romantic/numerical.",
+    "Q&A format pattern: alternating bold questions with practical advice paragraphs, establishing strong structural continuation expectations.\n\nList of actionable tips is mid-sequence; the previous answer covered phone/texting advice, so the next tokens will likely continue with additional steps or transition to a new numbered/bulleted list of relationship advice.\n\nFinal token \"10\" is a numeric value mid-sentence (\"10 minutes\" or similar), part of a time-based instruction (\"10 minutes\" or \"10 days\"), immediately requiring a unit of time or continuation of the recipe instruction.\n\"100\" or \"10 days\" is the most likely next token, completing the \"100 days\" or \"10 100\" advice pattern common in this recipe context.\n\"10\" is incomplete \u2014 \"100\" relationship advice or a specific day count is expected next.\n\"4.\"",
+    "Q&A format established: expert answer follows question, providing detailed medical/educational response with specific advice.\n\nList continuation pattern: the answer has begun with bullet points listing specific questions, with the first item already given (\"How long...\"), strongly implying additional bullet points follow.\n\nFinal token \"200\" is a specific numerical example mid-sentence, part of a factual enumeration of recommended reading time; next tokens must complete the sentence with a unit or context (e.g., \"60\" or \"200 pages\") and likely continue with historical/clinical detail.\n\"60\" or \"100\" practical advice expected immediately after \"200\" 50-year-old example.\n\n\"60\" 50\" 200\" 60\" question format suggests the next token continues the specific numerical scenario \"100\" event examples.",
+    "Statistical/factual enumeration pattern: study details are being listed (1,200 patients, 2013\u20132014), expecting continuation of methodology or findings.\n\nDomain-specific disclosure context: medical/legal research article citing specific statistics, expecting further data points or institutional details about the survey.\n\nFinal token \"200,000 people\" completes a numerical statistic mid-sentence; the sentence is grammatically incomplete, immediately requiring continuation of the numerical claim or a clarifying phrase like \"200,000 people\" or a relative clause explaining the survey population.\n\"about 2,543,500 about 254,000\" suggests a typo mid-number, but the next tokens will likely complete the legal/clinical framing of the 350 people statistic.\n\n\"4,352 people\" introduces a.",
+    "Structured Bible study format with numbered questions and bullet points establishes a consistent pattern of theological exposition followed by detailed answers.\n\nThe document follows a strict outline: title \u2192 scripture reference \u2192 section header \u2192 question \u2192 answer, meaning the next section continues this pattern with a new heading.\n\nThe final token \"25.2\" ends the answer to question 2, completing the section's content; the next tokens will likely begin a new numbered question (e.g., \"24.2\") continuing the structured outline format.\n\"25.23\" is the rule's title, so the answer elaborates on the case's procedural history and meaning, expecting \"25.40\" or similar transitional phrase completing the 130th verse reference.\n\n\"2.340\" 231.23\" 140\" 2.35\" meeting\" is."
+  ],
+  "input_sha256": "c933c6fca8523d45cdb63e8529a702b9cbce4358619c7cac2a96f6060e649ac8",
+  "values": [
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "30,",
+      "value": "30"
+    },
+    {
+      "quote": "330,",
+      "value": "330"
+    },
+    {
+      "quote": "31,",
+      "value": "31"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "340 days",
+      "value": "340"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "4.",
+      "value": "4"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "1,200 patients",
+      "value": "1200"
+    },
+    {
+      "quote": "200,000 people",
+      "value": "200000"
+    },
+    {
+      "quote": "2,543,500",
+      "value": "2543500"
+    },
+    {
+      "quote": "254,000",
+      "value": "254000"
+    },
+    {
+      "quote": "350 people",
+      "value": "350"
+    },
+    {
+      "quote": "4,352 people",
+      "value": "4352"
+    },
+    {
+      "quote": "25.2",
+      "value": "25.2"
+    },
+    {
+      "quote": "25.23",
+      "value": "25.23"
+    },
+    {
+      "quote": "25.40",
+      "value": "25.4"
+    },
+    {
+      "quote": "130th",
+      "value": "130"
+    },
+    {
+      "quote": "2.340",
+      "value": "2.34"
+    },
+    {
+      "quote": "231.23",
+      "value": "231.23"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "2.35",
+      "value": "2.35"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, including those within phrases and those appearing as decimals or with thousands separators, from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is\",\"value\":2},{\"quote\":\"30,\",\"value\":30},{\"quote\":\"330,\",\"value\":330},{\"quote\":\"31,\",\"value\":31},{\"quote\":\"300\",\"value\":300},{\"quote\":\"340 days\",\"value\":340},{\"quote\":\"10\",\"value\":10},{\"quote\":\"100\",\"value\":100},{\"quote\":\"4.\",\"value\":4},{\"quote\":\"200\",\"value\":200},{\"quote\":\"60\",\"value\":60},{\"quote\":\"50\",\"value\":50},{\"quote\":\"1,200 patients\",\"value\":1200},{\"quote\":\"200,000 people\",\"value\":200000},{\"quote\":\"2,543,500\",\"value\":2543500},{\"quote\":\"254,000\",\"value\":254000},{\"quote\":\"350 people\",\"value\":350},{\"quote\":\"4,352 people\",\"value\":4352},{\"quote\":\"25.2\",\"value\":25.2},{\"quote\":\"25.23\",\"value\":25.23},{\"quote\":\"25.40\",\"value\":25.4},{\"quote\":\"130th\",\"value\":130},{\"quote\":\"2.340\",\"value\":2.34},{\"quote\":\"231.23\",\"value\":231.23},{\"quote\":\"140\",\"value\":140},{\"quote\":\"2.35\",\"value\":2.35}],\"justification\":\"Extracted explicit numeric literals, including those within phrases and those appearing as decimals or with thousands separators, from the provided descriptions.\"}",
+  "prompt_sha256": "f126c8818625cccd697795199ba194c55f232d1339aede5b427d4939a7ace363"
+}

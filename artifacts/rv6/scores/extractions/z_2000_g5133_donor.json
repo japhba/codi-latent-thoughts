@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5133",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: article consistently presents specific percentages and findings, so a numerical result or ranking is expected next.\n\nArgumentative momentum: the study's findings are being summarized, with the visual ranking of cities just introduced, implying a list or ranking of specific cities follows.\n\nFinal token \"5 is\" opens a predicate completing the sentence about the visual ranking of cities, immediately requiring a descriptive adjective or noun phrase (e.g., \"among the lowest\" or \"among the worst\") to complete the comparative finding.\n\"5 is\" likely continues with a ranking descriptor or statistical qualifier about the visual ranking.\n\"85 percent\" or similar score is the immediate expected completion of this sentence.\n\"5 is 85 percent\" film score is the study's central finding, so the next tokens must complete this comparative ranking statement.\n\"85 percent\" film score result is the paper's key finding, and the.",
+    "Plot summary continuation: the review is mid-sentence describing the film's plot, requiring completion of the character/plot setup.\n\nFilm metadata and synopsis format: structured fields (Cast, Director, Genre) followed by prose summary, establishing encyclopedic, neutral tone throughout.\n\nFinal token \"5,\" ends a clause listing the group's political affiliations; the sentence structure \"5,\" signals an enumeration or continuation, likely naming additional characters or factions (e.g., \"5,\" followed by more political figures or a concluding clause about the group's identity).\n\"5,\" is mid-sentence, part of a plot summary explaining the group's history; \"5,\" likely continues with \"25,\" or introduces a contrasting faction/plot element.\n\"5,\" \"35,\" \"25,\" historical revelation about the group's identity \"8\" \u2014 the \"25\" plot thread is 3.",
+    "Book review genre with plot summary structure \u2014 reviewer is mid-sentence describing the protagonist's spiritual journey and transformation.\n\nThe review is building toward a thematic conclusion about the book's message, having covered plot, characters, and themes; a closing evaluative statement is expected.\n\nFinal token \"5\" is mid-sentence (\"5\" likely completing \"55\" or continuing \"550\" \u2014 a number completing \"5\" into \"550\" or \"550s,\" or more likely \"5\" begins a phrase like \"5\" completing \"550\" or \"5\" into \"5.5\" or \"550\" \u2014 the sentence requires a number or continuation of the personal reflection on religious freedom and identity.\n\"5\" \"550\" \"55\" \"5\" food\" \u2014 \"5.5\" or \"580\" spiritual conflict.",
+    "Book review genre with summary structure: reviewer is paraphrasing the book's content, moving through key themes and revelations.\n\nThe reviewer is mid-sentence explaining the author's personal stance on gender bias in STEM, building toward a concluding argument or call to action about the book's message.\n\nFinal token \"50\" ends an incomplete clause (\"55\" likely intended), part of a sentence about the author's gender identity; next tokens must complete this number and then finish the thought about the book's gender bias argument.\n\"55\" correction or continuation of \"50\" as \"550\" or a pivot to the next reviewer's section follows immediately.\n\"55\" religious/ideological framing \"55\" \u2014 the \"55\" likely continues as \"550\" or \"165\" (age), completing the disclosure about the relationship's political implications.\n\"50.",
+    "News article reporting structure: film summary followed by publication details, now transitioning to critical analysis of the book's content and reception.\n\nPlot summary momentum: the review has introduced the book's premise and publisher, now detailing the investigative findings and publication details, expecting further critical commentary or plot summary.\n\nFinal token \"200\" completes \"200,000 copies sold,\" part of a sales statistic sentence; next tokens will likely continue with additional publication figures, ratings, or a critical assessment of the book's credibility.\n\"200,004 people\" or similar fraud figure completing the sentence about the publication's total sales.\n\"204.2%\" or similar corruption finding \u2014 the news outlet's rating \"198\" is incomplete, requiring the full fraud percentage disclosure to follow \"26,542 copies sold\" plot summary.\n\"12,834.",
+    "Plot summary continuation: the review is mid-sentence describing the verdict's outcome, requiring completion of the legal finding about the priest's actions.\n\nBook metadata/summary format: structured sections (title, author, publisher, genre, pages) suggest remaining content follows journalistic reporting conventions.\n\nFinal token \"4\" ends an incomplete clause (\"found the priest's actions were 4\"), part of a sentence stating the verdict's finding; next tokens must complete this numerical or categorical statement, likely \"4\" followed by further verdict details or religious commentary.\n\"4\" likely continues as \"4.5\" or introduces a new clause about the church's response or sentencing.\n\"500\" or \"12.5\" theological classification is the regulatory threshold; \"68.5\" case number signals the church's finding \"2,030 days\" or similar sentencing language follows \"4.5 days\"."
+  ],
+  "input_sha256": "3e0925e9044e62c664511ac6b1eec62ad7563a4eba04fda2de6bc2833b68d044",
+  "values": [
+    {
+      "quote": "85 percent",
+      "value": "85"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "5.5",
+      "value": "5.5"
+    },
+    {
+      "quote": "580",
+      "value": "580"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "165",
+      "value": "165"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "200,004",
+      "value": "200004"
+    },
+    {
+      "quote": "204.2%",
+      "value": "204.2"
+    },
+    {
+      "quote": "198",
+      "value": "198"
+    },
+    {
+      "quote": "26,542",
+      "value": "26542"
+    },
+    {
+      "quote": "12,834",
+      "value": "12834"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "12.5",
+      "value": "12.5"
+    },
+    {
+      "quote": "68.5",
+      "value": "68.5"
+    },
+    {
+      "quote": "2,030",
+      "value": "2030"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and decimals from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"85 percent\",\"value\":85},{\"quote\":\"5\",\"value\":5},{\"quote\":\"25\",\"value\":25},{\"quote\":\"8\",\"value\":8},{\"quote\":\"3\",\"value\":3},{\"quote\":\"550\",\"value\":550},{\"quote\":\"5.5\",\"value\":5.5},{\"quote\":\"580\",\"value\":580},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"165\",\"value\":165},{\"quote\":\"200\",\"value\":200},{\"quote\":\"200,004\",\"value\":200004},{\"quote\":\"204.2%\",\"value\":204.2},{\"quote\":\"198\",\"value\":198},{\"quote\":\"26,542\",\"value\":26542},{\"quote\":\"12,834\",\"value\":12834},{\"quote\":\"4\",\"value\":4},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"500\",\"value\":500},{\"quote\":\"12.5\",\"value\":12.5},{\"quote\":\"68.5\",\"value\":68.5},{\"quote\":\"2,030\",\"value\":2030}],\"justification\":\"Extracted explicit numeric literals, percentages, and decimals from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "0b4b21551c0d1ec8ed447646e4863019fc7074d05f55196ba034e7afc5a37d02"
+}

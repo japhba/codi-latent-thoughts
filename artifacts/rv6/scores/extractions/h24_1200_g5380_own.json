@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5380",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem structure requires completing the total weight calculation: 4\u00d735 + 3\u00d720 + 4\u00d715 = $400 + $60 + $36.\n\nThe problem explicitly asks for a total weight sum, so the next tokens must state the numerical answer in dollars.\n\nFinal token \"Total weight of the packages is\" is an incomplete declarative sentence mid-solution, immediately requiring a specific dollar figure (likely \"$400 + 36\u00d74 + 32\u00d75\" or similar sum).\n3\u00d740+40\u00d73+20\u00d710+36\u00d72.\n(36\u00d74+40\u00d73+32\u00d710) = $436 total weight.\n4\u00d736+40+32\u00d74+40\u00d72+32\u00d7.",
+    "Math word problem solution in progress: arithmetic calculation expected, listing total earnings from 2\u00d7$30 and 4\u00d7$20\u00d7$5.\n\nThe structured problem format requires a step-by-step numerical breakdown: 2 bikes \u00d7 $30 = $60, then 4 sets \u00d7 $20\u00d7$30, then summing.\n\nFinal token \"have\" begins the solution sentence listing the first total earnings ($2\u00d730), immediately requiring the specific dollar amount \"$60\" as the first arithmetic result.\n$2\u00d730 is the first term in the sum, so the next tokens must state \"$60\" and then continue listing remaining earnings for 4 sets and 5 sets.\n$2\u00d730 = $60, then 4\u00d72\u00d7$30, then 5\u00d7$2\u00d7$10.",
+    "Step-by-step math word problem format requires listing all revenue calculations: 2 cars \u00d7 $30 = $60, then 4 paintings \u00d7 $20\u00d72, then 5 paintings \u00d7 $30\u00d72.\n\nThe structured solution pattern demands sequential arithmetic steps, with the total sum expected next.\n\nThe final token \"6\" is the start of the first numerical answer in the solution ($2\u00d730), immediately requiring \"0\" to complete \"$60\" as the first revenue figure, then continuing to sum remaining earnings.\n$60 + 2\u00d710\u00d74 + 3\u00d720\u00d75.\n$60 is the first total revenue (2 cars \u00d7 $30), so the next tokens must complete this number and continue listing remaining earnings.\n$60 + 2\u00d710\u00d73\u00d72.",
+    "Word problem solution structure: step-by-step arithmetic calculation expected, listing earnings from each item (3 tickets \u00d7 $20, 5 tickets \u00d7 $40, 6 tickets \u00d7 $25).\n\nThe solution must sum all earnings: 3\u00d7$20 + 2\u00d7$40 + 4\u00d7$15 = $140 total, guiding the sequence toward that total.\n\nFinal token \"$60\" is the first earnings item in a list, immediately requiring continuation with the next income figure, likely \"and $120 for tickets\" or similar, following the established pattern of itemizing each activity's revenue.\n$60 is the first calculated value in the solution walkthrough.\n$60 for three tickets at $20 each, next expected: \"$120 for four paintings\" and \"$80 for five tickets.\"",
+    "Math word problem requiring arithmetic completion: four items \u00d7 $25 each = $100, plus four sets \u00d7 $25 = $100, plus 4\u00d7$25.\n\nThe pattern of listing costs: four sets at $25, five sets at $40, six sets at $25 establishes a structured cost breakdown that must sum to total $400.\n\nFinal token \"p\" begins the next cost value in the sequence, constrained to continue as \"$25\u00d74\" or \"$100\" for the second item's sum.\n$25\u00d74 is mid-number, immediately requiring \"100\" to complete the second cost (4\u00d7$25=100), then continuing to sum remaining costs: 4\u00d7$25+2\u00d7$25+4\u00d7$25.\n$25.",
+    "Math word problem pattern: structured arithmetic problems with arithmetic operations, following \"4 tickets \u00d7 $30 = $120\" and \"3 tickets \u00d7 $40 = $120\" format.\n\nThe second problem lists three items (4\u00d7$30, 4\u00d7$20, 2\u00d7$40) and requires summing all costs, so the next tokens must complete the arithmetic sum.\n\nFinal token \"$10\" is the start of the third multiplication result ($4\u00d7$25), immediately requiring \"40\" to complete \"$100\" to finish the total cost calculation.\n$100 + $40 + $3\u00d7$4 = $140.\nThe final token \"$10\" is mid-number in a list of costs, part of the pattern \"$4\u00d7$30 = $120,\" \"$."
+  ],
+  "input_sha256": "7a695080a68639f98155b142e6633bb5a455a69ee7389bfb44dd4335a3a112ad",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "436",
+      "value": "436"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of explicit arithmetic expressions (like 4x25=100 or 2x30=60) found within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"35\",\"value\":35},{\"quote\":\"3\",\"value\":3},{\"quote\":\"20\",\"value\":20},{\"quote\":\"15\",\"value\":15},{\"quote\":\"400\",\"value\":400},{\"quote\":\"60\",\"value\":60},{\"quote\":\"36\",\"value\":36},{\"quote\":\"40\",\"value\":40},{\"quote\":\"10\",\"value\":10},{\"quote\":\"2\",\"value\":2},{\"quote\":\"436\",\"value\":436},{\"quote\":\"32\",\"value\":32},{\"quote\":\"30\",\"value\":30},{\"quote\":\"5\",\"value\":5},{\"quote\":\"140\",\"value\":140},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"120\",\"value\":120},{\"quote\":\"80\",\"value\":80}],\"justification\":\"Extracted all distinct numeric literals and results of explicit arithmetic expressions (like 4x25=100 or 2x30=60) found within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "ff06236335a6892f1270aa3da3a7323420433f7bc804ff0d753fa0e49c8de9f8"
+}

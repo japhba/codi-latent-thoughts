@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5480",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic calculation: 6\u00d75.5 + 15 = $85 total cost, so the answer must be 85.\n\nThe structured problem format (price \u00d7 quantity + fixed cost) demands a specific numerical answer: 6\u00d715 + 50 = 230/100, but the question asks for total cost including the 50 already added.\n\nFinal token \"Total cost was $\" opens a numeric answer field \u2014 the model must immediately supply the calculated value \"85\" (6\u00d75.5 + 50 = 85), as this is the natural conclusion of the arithmetic expression.",
+    "Math word problem requiring arithmetic calculation: total cost = 6 tickets \u00d7 $5 = $30, then add the separate $20 bonus.\n\nThe structured problem demands a step-by-step solution: 6 tickets \u00d7 $50 = $300, then add $20 bonus, so the next tokens must state \"60\" (50 \u00d7 6 = 300).\n\nFinal token \"had\" begins the calculation of total cost: \"6 \u00d7 $50 = $300\" is the immediate expected continuation, as this is the first arithmetic operation in the solution.",
+    "Math word problem format requires completing the arithmetic calculation: total cost = 5 tickets \u00d7 $6 = $30, then adding the separate fee of $5.\n\nThe structured problem setup (5 tickets \u00d7 $6 each) demands the numerical answer: $30, then adding the non-refundable $5 fee to total $35.\n\nFinal token \"3\" begins the dollar amount \"$30\" (50 tickets \u00d7 $0.60), immediately constraining the next tokens to complete \"0\" to form \"$30,\" followed by the addition of the separate fee \"$5\" to get the total cost.",
+    "Word problem solution format: arithmetic problem requiring step-by-step calculation, with cost of tickets already stated ($30 for 6 items), now adding the separate fee of $15 for wrapping.\n\nThe solution must sum the two costs: tickets \u00d7 $5 = $30, then add the separate wrapping fee ($15), so the total cost calculation is expected next.\n\nFinal token \"$30\" is the calculated cost of the tickets (6 \u00d7 $5 = $30), immediately requiring the next step: \"for the tickets\" or \"for the tickets, and then add $15 for the wrapping paper.\"",
+    "Math word problem solution format: structured step-by-step arithmetic explanation with variables, operations, and calculations expected.\n\nThe solution is computing total cost: $15 \u00d7 60 = $900, then adding the fixed fee $30, so the next tokens must complete the arithmetic expression showing the addition of the fee.\n\nFinal token \"p\" is the beginning of \"pennies\" or \"price\" \u2014 specifically completing the multiplication expression \"$30p\" or continuing the sentence \"The total cost of the tickets is $90 + $15\" or similar, constrained to reference the fee calculation already stated.",
+    "Math word problem format requires a numerical answer combining costs: $15 + $20 = $35, then adding the $5 fee.\n\nThe structured problem demands a calculation answer: total cost = $35 + $10 fee = $45, so the next tokens must state the arithmetic expression and computed result.\n\nFinal token \"dollars.\" ends the first cost statement ($15 \u00d7 3 = $45), immediately requiring the addition of the second cost: \"+ $10\" or similar, completing the equation before stating the combined total fee."
+  ],
+  "input_sha256": "e3d9b0d80082d9282cea3e5630627798f08bbe0a7f0b0e53574969fba5f39622",
+  "values": [
+    {
+      "quote": "6\u00d75.5 + 15 = $85",
+      "value": "6"
+    },
+    {
+      "quote": "6\u00d75.5 + 15 = $85",
+      "value": "5.5"
+    },
+    {
+      "quote": "6\u00d75.5 + 15 = $85",
+      "value": "15"
+    },
+    {
+      "quote": "6\u00d75.5 + 15 = $85",
+      "value": "85"
+    },
+    {
+      "quote": "6\u00d715 + 50 = 230/100",
+      "value": "230"
+    },
+    {
+      "quote": "6\u00d715 + 50 = 230/100",
+      "value": "100"
+    },
+    {
+      "quote": "6\u00d715 + 50 = 230/100",
+      "value": "2.3"
+    },
+    {
+      "quote": "6 tickets \u00d7 $5 = $30",
+      "value": "30"
+    },
+    {
+      "quote": "6 tickets \u00d7 $50 = $300",
+      "value": "50"
+    },
+    {
+      "quote": "6 tickets \u00d7 $50 = $300",
+      "value": "300"
+    },
+    {
+      "quote": "$20 bonus",
+      "value": "20"
+    },
+    {
+      "quote": "50 \u00d7 6 = 300",
+      "value": "60"
+    },
+    {
+      "quote": "5 tickets \u00d7 $6 = $30",
+      "value": "5"
+    },
+    {
+      "quote": "adding the separate fee of $5",
+      "value": "5"
+    },
+    {
+      "quote": "total $35",
+      "value": "35"
+    },
+    {
+      "quote": "50 tickets \u00d7 $0.60",
+      "value": "50"
+    },
+    {
+      "quote": "50 tickets \u00d7 $0.60",
+      "value": "0.6"
+    },
+    {
+      "quote": "$30 for 6 items",
+      "value": "6"
+    },
+    {
+      "quote": "adding the separate fee of $15",
+      "value": "15"
+    },
+    {
+      "quote": "$15 \u00d7 60 = $900",
+      "value": "60"
+    },
+    {
+      "quote": "$15 \u00d7 60 = $900",
+      "value": "900"
+    },
+    {
+      "quote": "$30p",
+      "value": "30"
+    },
+    {
+      "quote": "$90 + $15",
+      "value": "90"
+    },
+    {
+      "quote": "$15 + $20 = $35",
+      "value": "20"
+    },
+    {
+      "quote": "$35 + $10 fee = $45",
+      "value": "10"
+    },
+    {
+      "quote": "$35 + $10 fee = $45",
+      "value": "45"
+    },
+    {
+      "quote": "$15 \u00d7 3 = $45",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and results of arithmetic expressions found within individual descriptions, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6\u00d75.5 + 15 = $85\",\"value\":6},{\"quote\":\"6\u00d75.5 + 15 = $85\",\"value\":5.5},{\"quote\":\"6\u00d75.5 + 15 = $85\",\"value\":15},{\"quote\":\"6\u00d75.5 + 15 = $85\",\"value\":85},{\"quote\":\"6\u00d715 + 50 = 230/100\",\"value\":230},{\"quote\":\"6\u00d715 + 50 = 230/100\",\"value\":100},{\"quote\":\"6\u00d715 + 50 = 230/100\",\"value\":2.3},{\"quote\":\"6 tickets \u00d7 $5 = $30\",\"value\":30},{\"quote\":\"6 tickets \u00d7 $50 = $300\",\"value\":50},{\"quote\":\"6 tickets \u00d7 $50 = $300\",\"value\":300},{\"quote\":\"$20 bonus\",\"value\":20},{\"quote\":\"50 \u00d7 6 = 300\",\"value\":60},{\"quote\":\"5 tickets \u00d7 $6 = $30\",\"value\":5},{\"quote\":\"adding the separate fee of $5\",\"value\":5},{\"quote\":\"total $35\",\"value\":35},{\"quote\":\"50 tickets \u00d7 $0.60\",\"value\":50},{\"quote\":\"50 tickets \u00d7 $0.60\",\"value\":0.6},{\"quote\":\"$30 for 6 items\",\"value\":6},{\"quote\":\"adding the separate fee of $15\",\"value\":15},{\"quote\":\"$15 \u00d7 60 = $900\",\"value\":60},{\"quote\":\"$15 \u00d7 60 = $900\",\"value\":900},{\"quote\":\"$30p\",\"value\":30},{\"quote\":\"$90 + $15\",\"value\":90},{\"quote\":\"$15 + $20 = $35\",\"value\":20},{\"quote\":\"$35 + $10 fee = $45\",\"value\":10},{\"quote\":\"$35 + $10 fee = $45\",\"value\":45},{\"quote\":\"$15 \u00d7 3 = $45\",\"value\":3}],\"justification\":\"Extracted explicit numeric literals, fractions, and results of arithmetic expressions found within individual descriptions, excluding years and ordinals.\"}",
+  "prompt_sha256": "a79cffd109a4336ed409813ea015e3e92299640e0167548b35a369f2aaf81655"
+}

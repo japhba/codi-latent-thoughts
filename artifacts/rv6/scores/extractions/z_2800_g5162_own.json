@@ -1,0 +1,165 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5162",
+  "kind": "own",
+  "descriptions": [
+    "Statistical comparison pattern: article consistently pairs city-specific percentages with national averages, e.g., \"10.5 percent...compared with the national average of 12.2 percent.\"\n\nNarrative momentum toward completing the city-by-city breakdown: the text has been systematically presenting data for multiple cities, and the final sentence about the study's findings is mid-completion.\n\nFinal token \"10.5 percent\" is a specific numerical value mid-sentence, part of a hazard rating statistic; it immediately requires a comparative clause or continuation, likely \"compared with\" or a period closing the sentence.\n\"10.5 percent\" is the hazard rating figure, and the next tokens must complete the statistical comparison or sentence.\n\"6 percent\" or similar numeric continuation is expected.\n\"6 is 100 percent\" or \"5 percent\" result follows \"1\" \u2014 the numeric hazard rating.",
+    "Narrative momentum: the review is mid-sentence explaining the husband's secret, building toward revealing his true identity or role.\n\nCharacter revelation pattern: the review has been progressively revealing plot details, and the husband's secret identity is the climactic disclosure the reviewer is about to name.\n\nFinal token \"30,\" is part of an interrupted number (\"30,000\" or similar), mid-sentence within a clause about the husband's secret, requiring immediate numeric continuation or a noun phrase completing the organization's name.\n\"300\" or \"30,000\" is likely, followed by organizational affiliation or role description.\n\"300\" is gendered editorial insertion; the review's closing moral/social commentary section follows.\n\"393\" membership group \"35, 93\" \u2014 the dating advice \"150\" is \"235\" \u2014.",
+    "Instructional list pattern: sequential steps for making lemonade, each beginning with imperative verbs (\"Place,\" \"Add,\" \"Stir\").\n\nThe recipe's practical, conversational tone with specific ingredient quantities guides continuation toward actionable cooking advice.\n\nFinal token \"9\" is mid-number, part of \"9 [units]\" \u2014 almost certainly completing \"9 ounces\" or \"9 cups,\" continuing the ingredient quantity pattern established earlier (\"1 cup,\" \"2 cups\").\n\"9\" is an incomplete numeric measurement requiring immediate completion with a unit of measurement.\n\"9\" is \"90\" or \"90 minutes\" \u2014 food blog convention suggests sensory/quantity advice follows.\n\"9\" is \"990\" or \"9\" \u2014 the word \"9\" is \"990\" or \"9\" emotional urgency; practical instruction \"135 minutes\" visual; next token completes this product instruction.\n\".",
+    "Listicle/article format with numbered tips and bold headers signals continuation of practical advice content, likely more numbered points or elaboration.\n\nThe article is mid-explanation of the \"ask for help\" tip, building toward a complete actionable recommendation with social media examples or encouragement.\n\nFinal token \"60\" ends an incomplete sentence (\"60 friends\" or similar statistic), requiring immediate numeric completion or continuation of the sentence explaining the social media advice's value.\n\"60\" is \"30 friends\" or \"60 friends\" \u2014 the sentence needs its noun phrase completed, likely \"friends\" or \"friends and family,\" followed by further elaboration.\n\"150\" or \"60\" examples pattern suggests educational tone continues.\n\"300\" is a typo for \"95\" \u2014 the moral instruction \"150\" food items; product \"60\" is household tips \u2014 the.",
+    "Argumentative momentum: article presents survey data and now transitions to interpretive commentary, likely continuing with analysis of the 20% figure or its implications.\n\nStatistical pattern: the text has consistently paired claims with supporting numbers (e.g., \"20 percent,\" \"10 percent\"), suggesting more data or elaboration follows.\n\nFinal token \"200,000\" ends a sentence fragment mid-thought, likely part of a larger sentence requiring completion \u2014 e.g., \"200,000 people\" or a source citation like \"according to...\" or a concluding clause.\n\"20,000\" or similar publication reference follows.\n\"2081\" policy recommendations or a news outlet citation is expected next.\n\"2018, 10,892 people\" \u2014 safety rating comparison suggests practical guidance follows \"2069.1.",
+    "Argumentative momentum: the text is explaining the rule's logic, having just stated the rule and now elaborating on its implications for the church's authority.\n\nStructured Q&A format: the passage follows a pattern of presenting a rule, then expanding with practical application and reasoning, suggesting continued explanation of the church's response.\n\nFinal token \"12\" ends a sentence fragment (\"12\") that is part of a larger sentence explaining the church's reasoning; the next tokens will likely continue with additional procedural steps or a concluding clause about the church's action.\n\"12\" is a list item or numbered point, suggesting \"6.\" or further numbered legal points follow.\n\"19,650\" rating \"9\" is garbled OCR artifact; \"1650\" is legal citation; visual instruction \"8.3\" rule reference \"29 minutes\" is garbled \u2014 instructional list \"."
+  ],
+  "input_sha256": "a5f37596b99c75666f430527ef1c8fc6c97f120ce5721e229c128345e1625386",
+  "values": [
+    {
+      "quote": "10.5 percent",
+      "value": "10.5"
+    },
+    {
+      "quote": "12.2 percent",
+      "value": "12.2"
+    },
+    {
+      "quote": "6 percent",
+      "value": "6"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "100 percent",
+      "value": "100"
+    },
+    {
+      "quote": "5 percent",
+      "value": "5"
+    },
+    {
+      "quote": "30,",
+      "value": "30"
+    },
+    {
+      "quote": "30,000",
+      "value": "30000"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "393",
+      "value": "393"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "93",
+      "value": "93"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "235",
+      "value": "235"
+    },
+    {
+      "quote": "1 cup",
+      "value": "1"
+    },
+    {
+      "quote": "2 cups",
+      "value": "2"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "990",
+      "value": "990"
+    },
+    {
+      "quote": "135 minutes",
+      "value": "135"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "30 friends",
+      "value": "30"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "20 percent",
+      "value": "20"
+    },
+    {
+      "quote": "10 percent",
+      "value": "10"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "2081",
+      "value": "2081"
+    },
+    {
+      "quote": "2018",
+      "value": "2018"
+    },
+    {
+      "quote": "10,892",
+      "value": "10892"
+    },
+    {
+      "quote": "2069.1",
+      "value": "2069.1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "19,650",
+      "value": "19650"
+    },
+    {
+      "quote": "1650",
+      "value": "1650"
+    },
+    {
+      "quote": "8.3",
+      "value": "8.3"
+    },
+    {
+      "quote": "29 minutes",
+      "value": "29"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5 percent\",\"value\":10.5},{\"quote\":\"12.2 percent\",\"value\":12.2},{\"quote\":\"6 percent\",\"value\":6},{\"quote\":\"1\",\"value\":1},{\"quote\":\"100 percent\",\"value\":100},{\"quote\":\"5 percent\",\"value\":5},{\"quote\":\"30,\",\"value\":30},{\"quote\":\"30,000\",\"value\":30000},{\"quote\":\"300\",\"value\":300},{\"quote\":\"393\",\"value\":393},{\"quote\":\"35\",\"value\":35},{\"quote\":\"93\",\"value\":93},{\"quote\":\"150\",\"value\":150},{\"quote\":\"235\",\"value\":235},{\"quote\":\"1 cup\",\"value\":1},{\"quote\":\"2 cups\",\"value\":2},{\"quote\":\"9\",\"value\":9},{\"quote\":\"90\",\"value\":90},{\"quote\":\"990\",\"value\":990},{\"quote\":\"135 minutes\",\"value\":135},{\"quote\":\"60\",\"value\":60},{\"quote\":\"30 friends\",\"value\":30},{\"quote\":\"95\",\"value\":95},{\"quote\":\"20 percent\",\"value\":20},{\"quote\":\"10 percent\",\"value\":10},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"2081\",\"value\":2081},{\"quote\":\"2018\",\"value\":2018},{\"quote\":\"10,892\",\"value\":10892},{\"quote\":\"2069.1\",\"value\":2069.1},{\"quote\":\"12\",\"value\":12},{\"quote\":\"19,650\",\"value\":19650},{\"quote\":\"1650\",\"value\":1650},{\"quote\":\"8.3\",\"value\":8.3},{\"quote\":\"29 minutes\",\"value\":29}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "eb49f225b047be68da5de3651cf687ee0bdb1409f4659a5491a80a41a8990a44"
+}

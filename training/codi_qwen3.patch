@@ -1,0 +1,957 @@
+diff --git a/src/datasets.py b/src/datasets.py
+index 1fb90c4..daa7393 100644
+--- a/src/datasets.py
++++ b/src/datasets.py
+@@ -1,5 +1,6 @@
+ import json
+ import logging
++import os
+ import re
+ from dataclasses import dataclass
+ from typing import Dict, Sequence
+@@ -12,6 +13,11 @@ from datasets import load_dataset
+ 
+ IGNORE_INDEX = -100
+ 
++# Repo-relative data roots so local-file datasets work on the cluster AND in the Modal
++# container (where the repo is mounted at /repo, not /workspace-vast).
++_CODI_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # .../third_party/CODI
++_REPO_ROOT = os.path.dirname(os.path.dirname(_CODI_DIR))                  # repo root (or /repo on Modal)
++
+ 
+ def _tokenize_fn(
+     strings: Sequence[str], tokenizer: transformers.PreTrainedTokenizer
+@@ -214,6 +220,24 @@ def preprocess(
+     )
+ 
+ 
++def _latent_node_targets(steps, tokenizer, num_latent):
++    """JB: gold single-token node ids for latent-supervision. latent i should encode node[i+1] (the
++    chase result after i+1 hops). Returns a num_latent-long list, -100 where no target / not single-token.
++    Handles prose CoT ('Start: X.', 'Step k: A -> B.') and bare-node CoT (['c','i','i'])."""
++    if steps and isinstance(steps[0], str) and steps[0].startswith("Start"):
++        nodes = [steps[0].split("Start:", 1)[1].strip().rstrip(".")]
++        for s in steps[1:]:
++            nodes.append(s.split("->", 1)[1].strip().rstrip("."))
++    else:
++        nodes = [str(s).strip() for s in steps]
++    out = []
++    for i in range(num_latent):
++        gi = i + 1
++        ids = tokenizer(" " + nodes[gi], add_special_tokens=False).input_ids if gi < len(nodes) else []
++        out.append(ids[0] if len(ids) == 1 else -100)
++    return out
++
++
+ class SupervisedDataset(Dataset):
+     QUESTION_PROMPT = "\nAnswer the above question. First think step by step and then answer the final number.\n"
+     QUESTION_DA_PROMPT = (
+@@ -237,6 +261,7 @@ class SupervisedDataset(Dataset):
+         operators = ["+", "-", "*", "/"]
+ 
+         token_nums = []
++        latent_targets = []  # JB: per-example latent-supervision node targets (recur tasks, when enabled)
+         for num_iter, example in enumerate(raw_data):
+             if training_args.exp_mode and num_iter > training_args.exp_data_num:
+                 break
+@@ -267,6 +292,8 @@ class SupervisedDataset(Dataset):
+                 cot = f"{example['cot']}".split(". ")
+                 if not (training_args.include_last_cot):
+                     cot = cot[:-1]
++                if training_args.min_cot_steps and len(cot) < training_args.min_cot_steps:
++                    continue
+ 
+                 answer = example["answer"].split(" ")[-1]
+                 if not answer[0].isdigit():
+@@ -333,7 +360,7 @@ class SupervisedDataset(Dataset):
+                 cots.append(cot)
+                 answers.append(answer)
+                 token_nums.append(token_num)
+-            elif "prontoqa" in self.data_name:
++            elif "prontoqa" in self.data_name or "prosqa" in self.data_name:
+                 question = example["question"].strip() + "\n"
+                 cot = "\n".join(example["steps"][:-1]) + "\n"
+                 if training_args.answer_only:
+@@ -349,6 +376,56 @@ class SupervisedDataset(Dataset):
+                 cots.append(cot)
+                 answers.append(answer)
+                 token_nums.append(token_num)
++            elif "recur" in self.data_name:  # JB: controllable-depth serial recurrence; steps = worked arithmetic
++                question = example["question"].strip() + "\n"
++                cot = ("\n".join(example["steps"]) + "\n") if example["steps"] else ""
++                answer = (f"{str(example['answer']).strip()}" if training_args.answer_only
++                          else f"The answer is: {str(example['answer']).strip()}")
++                token_num = len(tokenizer.encode(question + " " + cot + " " + answer))
++                if token_num > training_args.max_token_num:
++                    continue
++                questions.append(question)
++                cots.append(cot)
++                answers.append(answer)
++                token_nums.append(token_num)
++                if getattr(training_args, "latent_sup_factor", 0.0) > 0:
++                    latent_targets.append(_latent_node_targets(example["steps"], tokenizer, training_args.num_latent))
++            elif "poly" in self.data_name:  # JB: Paper-1 poly-iteration scale test
++                question = example["question"].strip() + "\n"
++                cot = ("\n".join(example["steps"]) + "\n") if example["steps"] else ""
++                answer = (f"{str(example['answer']).strip()}" if training_args.answer_only
++                          else f"The answer is: {str(example['answer']).strip()}")
++                token_num = len(tokenizer.encode(question + " " + cot + " " + answer))
++                if token_num > training_args.max_token_num:
++                    continue
++                questions.append(question)
++                cots.append(cot)
++                answers.append(answer)
++                token_nums.append(token_num)
++            elif "aqua" in self.data_name:  # JB: AQuA-RAT (math MCQ + NL rationale)
++                question = example["question"].strip() + "\n"
++                cot = example["cot"].strip() + "\n"
++                answer = (f"{str(example['answer']).strip()}" if training_args.answer_only
++                          else f"The answer is: {str(example['answer']).strip()}")
++                token_num = len(tokenizer.encode(question + " " + cot + " " + answer))
++                if token_num > training_args.max_token_num:
++                    continue
++                questions.append(question)
++                cots.append(cot)
++                answers.append(answer)
++                token_nums.append(token_num)
++            elif "gsm_hard" in self.data_name:  # JB: GSM-Hard (big-number GSM, teacher CoT generated)
++                question = example["question"].strip() + "\n"
++                cot = example["cot"].strip() + "\n"
++                answer = (f"{str(example['answer']).strip()}" if training_args.answer_only
++                          else f"The answer is: {str(example['answer']).strip()}")
++                token_num = len(tokenizer.encode(question + " " + cot + " " + answer))
++                if token_num > training_args.max_token_num:
++                    continue
++                questions.append(question)
++                cots.append(cot)
++                answers.append(answer)
++                token_nums.append(token_num)
+             else:
+                 raise NotImplementedError
+         if training_args.exp_mode:
+@@ -368,6 +445,10 @@ class SupervisedDataset(Dataset):
+             training_args.remove_eos,
+             training_args.answer_only,
+         )
++        if latent_targets:  # JB: attach latent-supervision targets (aligned with the filtered examples)
++            assert len(latent_targets) == len(self.data_dict["encoder_input_ids_ans"]), \
++                f"latent_targets ({len(latent_targets)}) misaligned with data ({len(self.data_dict['encoder_input_ids_ans'])})"
++            self.data_dict["latent_target_ids"] = [torch.tensor(t, dtype=torch.long) for t in latent_targets]
+         self.keys = list(self.data_dict.keys())
+ 
+         # Print total number of training tokens
+@@ -456,7 +537,7 @@ class DataCollatorForSupervisedDataset(object):
+             labels, batch_first=True, padding_value=IGNORE_INDEX
+         )
+ 
+-        return dict(
++        out = dict(
+             encoder_input_ids_ans=encoder_input_ids_ans,
+             encoder_input_ids_lcot=encoder_input_ids_lcot,
+             # encoder_input_ids_vcot=encoder_input_ids_vcot,
+@@ -472,6 +553,11 @@ class DataCollatorForSupervisedDataset(object):
+             ref_labels=ref_labels,
+             encoder_input_ids_labels=encoder_input_ids_labels,
+         )
++        if "latent_target_ids" in instances[0]:  # JB: latent-supervision targets (fixed length num_latent)
++            out["latent_target_ids"] = torch.stack(
++                [instance["latent_target_ids"] for instance in instances]
++            )
++        return out
+ 
+ 
+ def concatenate_datasets(datasets: list) -> SupervisedDataset:
+@@ -520,7 +606,15 @@ def load_single_dataset(
+ 
+     if "icot" in data_name:
+         if "full" in data_name:
+-            dataset = load_dataset("zen-E/GSM8k-Aug-NL")["train"]
++            import os as _os
++            if _os.environ.get("ICOT_LOCAL_DS"):
++                # q06b: CoT-gap-filtered subset saved via Dataset.save_to_disk
++                # (same schema as zen-E/GSM8k-Aug-NL train). Env-gated so every
++                # other config is byte-identical.
++                import datasets as _hfds
++                dataset = _hfds.load_from_disk(_os.environ["ICOT_LOCAL_DS"])
++            else:
++                dataset = load_dataset("zen-E/GSM8k-Aug-NL")["train"]
+         else:
+             dataset = load_dataset("zen-E/GSM8k-Aug")["train"]
+         train_dataset = SupervisedDataset(
+@@ -551,8 +645,11 @@ def load_single_dataset(
+             data_args=data_args,
+         )
+         return train_dataset
+-    elif "prontoqa" in data_name:
+-        with open("/home/ubuntu/coconut/data/prontoqa_train.json") as f:
++    elif "prontoqa" in data_name or "prosqa" in data_name:
++        # JB: load from our Coconut clone's data dir (was a hardcoded /home/ubuntu path)
++        _split = "prosqa" if "prosqa" in data_name else "prontoqa"
++        _coconut_data = "/workspace-vast/jbauer/activation_oracles_dev/third_party/codi_interp/coconut/data"
++        with open(f"{_coconut_data}/{_split}_train.json") as f:
+             dataset = json.load(f)
+         train_dataset = SupervisedDataset(
+             data_name=data_name,
+@@ -562,6 +659,51 @@ def load_single_dataset(
+             data_args=data_args,
+         )
+         return train_dataset
++    elif "recur" in data_name:  # JB: serial recurrence with explicit-arithmetic CoT (gen_recurrence_data.py)
++        _stem = data_name.split("recur_", 1)[1]  # e.g. "poly_m41_d8"
++        _path = os.path.join(_REPO_ROOT, "gemma3_codi", "data", "recur", f"{_stem}_train.json")
++        with open(_path) as f:
++            rows = json.load(f)  # list of {question, steps, answer}
++        return SupervisedDataset(
++            data_name=data_name, raw_data=rows, tokenizer=tokenizer,
++            training_args=training_args, data_args=data_args,
++        )
++    elif "poly" in data_name:  # JB: poly_mod50 / poly_mod41
++        _mod = "41" if "41" in data_name else "50"
++        with open(os.path.join(_CODI_DIR, "data", "poly", f"poly_mod{_mod}_train.json")) as f:
++            dataset = json.load(f)
++        return SupervisedDataset(
++            data_name=data_name, raw_data=dataset, tokenizer=tokenizer,
++            training_args=training_args, data_args=data_args,
++        )
++    elif "aqua" in data_name:  # JB: AQuA-RAT math MCQ; options folded into the question, native rationale = cot
++        # deepmind/aqua_rat's HF metadata uses the datasets-4.x "List" feature, unreadable by
++        # datasets 3.6.0 -> read the raw parquet directly with pandas.
++        import pandas as pd
++        from huggingface_hub import hf_hub_download
++        _p = hf_hub_download("deepmind/aqua_rat", "raw/train-00000-of-00001.parquet",
++                             repo_type="dataset", token=os.getenv("HF_TOKEN"))
++        df = pd.read_parquet(_p)
++        rows = []
++        for _, r in df.iterrows():
++            opts = "\n".join(f"{o[0]}) {o[1:].lstrip(') ').strip()}" for o in r["options"])
++            rows.append({
++                "question": r["question"].strip() + "\nOptions:\n" + opts,
++                "cot": r["rationale"].strip(),
++                "answer": r["correct"].strip(),
++            })
++        return SupervisedDataset(
++            data_name=data_name, raw_data=rows, tokenizer=tokenizer,
++            training_args=training_args, data_args=data_args,
++        )
++    elif "gsm_hard" in data_name:  # JB: GSM-Hard with teacher CoT (built by gemma3_codi/gen_gsmhard_cot.py)
++        _path = os.path.join(_REPO_ROOT, "gemma3_codi", "data", "gsm_hard_cot.json")
++        with open(_path) as f:
++            rows = json.load(f)  # list of {question, cot, answer}
++        return SupervisedDataset(
++            data_name=data_name, raw_data=rows, tokenizer=tokenizer,
++            training_args=training_args, data_args=data_args,
++        )
+     else:
+         raise NotImplementedError(f"Dataset {data_name} is not supported.")
+ 
+diff --git a/src/model.py b/src/model.py
+index f57a95b..0a441c7 100644
+--- a/src/model.py
++++ b/src/model.py
+@@ -8,7 +8,7 @@ import torch.nn.functional as F
+ import transformers
+ from peft import LoraConfig, TaskType, get_peft_model
+ from safetensors.torch import load_file
+-from transformers import AutoModelForCausalLM
++from transformers import AutoModelForCausalLM, DynamicCache
+ 
+ 
+ @dataclass
+@@ -112,6 +112,34 @@ class TrainingArguments(transformers.TrainingArguments):
+     exp_data_num: int = field(
+         default=10000, metadata={"help": "The number of data used in exp mode"}
+     )
++    filler_latents: bool = field(
++        default=False,
++        metadata={"help": "Replace adaptive latent feedback with learned constant vectors (filler control)."},
++    )
++    discrete_latents: bool = field(
++        default=False,
++        metadata={"help": "Feed back straight-through argmax token embeddings instead of prj vectors (discrete-thought control)."},
++    )
++    st_temperature: float = field(
++        default=1.0, metadata={"help": "Softmax temperature for the straight-through estimator backward path."},
++    )
++    latent_proj: str = field(
++        default="", metadata={"help": "JB oh1: '' (off) or 'onehot' — project the fed-back post-prj latent onto a learned codebook, annealed continuous -> committed one-hot (rules out superposed/analog latent content)."},
++    )
++    proj_codebook_path: str = field(
++        default="", metadata={"help": "Path to k-means init codebook tensor [K, D] (oh1_prep)."},
++    )
++    proj_k: int = field(default=4096, metadata={"help": "Codebook size when no init file."})
++    proj_tau: float = field(default=1.0, metadata={"help": "Base softmax temperature over code distances (scaled by codebook NN distance; annealed 1->0.1 with the mix)."})
++    proj_anneal_steps: int = field(
++        default=600, metadata={"help": "Steps to ramp the projection mix 0->1; after that forward is hard argmax with ST backward. Eval (step=None) is always hard."},
++    )
++    warm_start_path: str = field(
++        default="", metadata={"help": "Adapter-checkpoint pytorch_model.bin to load (strict=False) before training (e.g. ckpt-7580)."},
++    )
++    control_dict: str = field(
++        default="", metadata={"help": "JB: name of a modal.Dict polled every 20 steps (rank0) for live steering: stop / save_now / lr_scale / proj_anneal_steps / proj_tau; writes a heartbeat back."},
++    )
+     use_prj: bool = field(
+         default=False,
+         metadata={"help": "Use a prj module after the llm for latent generation."},
+@@ -146,6 +174,12 @@ class TrainingArguments(transformers.TrainingArguments):
+     ce_loss_factor: float = field(
+         default=1.0, metadata={"help": "A multiplier of the CE loss."}
+     )
++    latent_sup_factor: float = field(
++        default=0.0,
++        metadata={"help": "JB: if >0, add an aux logit-lens CE pulling the FIRST HALF of the latent "
++                          "hiddens to decode to their gold intermediate node token (bootstraps load-bearing "
++                          "latents for cold-starting bigger models; 0 = off, no behavior change)."},
++    )
+     inf_latent_iterations: int = field(default=1, metadata={"help": ""})
+     inf_num_iterations: int = field(
+         default=5, metadata={"help": "Run multiple times during inference"}
+@@ -160,6 +194,10 @@ class TrainingArguments(transformers.TrainingArguments):
+         default=False,
+         metadata={"help": "Include the last CoT step in the training data."},
+     )
++    min_cot_steps: int = field(
++        default=0,
++        metadata={"help": "JB: keep only icot-full rows with at least this many retained CoT sentences (hard-subset training)."},
++    )
+     fix_attn_mask: bool = field(
+         default=False, metadata={"help": "Correct a bug about attention mask."}
+     )
+@@ -206,6 +244,10 @@ class CODI(torch.nn.Module):
+         prj_dim: int = 2048,
+         prj_dropout: float = 0.0,
+         prj_no_ln: bool = False,
++        filler_latents: bool = False,
++        discrete_latents: bool = False,
++        latent_proj: str = "",
++        proj_k: int = 4096,
+         remove_eos: bool = False,
+         model_max_length: int = 28000,
+         full_precision: bool = True,
+@@ -214,6 +256,7 @@ class CODI(torch.nn.Module):
+         token: Optional[str] = None,
+         strict: bool = False,
+         checkpoint_save_path: Optional[str] = None,
++        tokenizer_path: Optional[str] = None,
+     ):
+         """
+         Load a pretrained CODI model from a checkpoint.
+@@ -269,6 +312,10 @@ class CODI(torch.nn.Module):
+             prj_dim=prj_dim,
+             prj_dropout=prj_dropout,
+             prj_no_ln=prj_no_ln,
++            filler_latents=filler_latents,
++            discrete_latents=discrete_latents,
++            latent_proj=latent_proj,
++            proj_k=proj_k,
+             remove_eos=remove_eos,
+             bf16=bf16,
+         )
+@@ -276,7 +323,7 @@ class CODI(torch.nn.Module):
+         # Determine target modules based on model architecture
+         if any(
+             name in model_name_or_path.lower()
+-            for name in ["llama", "mistral", "falcon", "qwen"]
++            for name in ["llama", "mistral", "falcon", "qwen", "gemma"]
+         ):
+             target_modules = [
+                 "q_proj",
+@@ -310,8 +357,10 @@ class CODI(torch.nn.Module):
+ 
+         # Initialize model
+ 
++        # Trainer's intermediate checkpoint-N dirs carry only pytorch_model.bin (no tokenizer);
++        # tokenizer_path lets the eval point at a dir that has it (identical across runs).
+         tokenizer = transformers.AutoTokenizer.from_pretrained(
+-            checkpoint_path, trust_remote_code=True
++            tokenizer_path or checkpoint_path, trust_remote_code=True
+         )
+         model = cls(model_args, training_args, lora_config, tokenizer)
+ 
+@@ -364,7 +413,9 @@ class CODI(torch.nn.Module):
+             state_dict = load_file(checkpoint_file)
+         elif os.path.exists(os.path.join(checkpoint_path, "pytorch_model.bin")):
+             checkpoint_file = os.path.join(checkpoint_path, "pytorch_model.bin")
+-            state_dict = torch.load(checkpoint_file, map_location="cpu")
++            # weights_only=False: our own trusted checkpoint; it carries numpy globals that torch
++            # 2.6+'s weights_only=True default rejects (WeightsUnpickler error).
++            state_dict = torch.load(checkpoint_file, map_location="cpu", weights_only=False)
+         else:
+             raise FileNotFoundError(
+                 f"No checkpoint found in {checkpoint_path}. "
+@@ -372,7 +423,16 @@ class CODI(torch.nn.Module):
+             )
+ 
+         print(f"Loading checkpoint from {checkpoint_file}")
+-        model.load_state_dict(state_dict, strict=strict)
++        # strict=False: adapter-only checkpoints (LoRA + prj + embed/lm_head) legitimately omit the
++        # frozen base, which `cls(...)` above already reconstructed from the HF model. Full (legacy)
++        # checkpoints still load completely. We DO assert no unexpected keys, so a real key mismatch
++        # (renamed module, wrong lora_r) still fails loudly instead of silently half-loading.
++        load_result = model.load_state_dict(state_dict, strict=False)
++        if load_result.unexpected_keys:
++            raise RuntimeError(
++                f"Unexpected keys in checkpoint (key mismatch, not adapter-only omission): "
++                f"{load_result.unexpected_keys[:8]}"
++            )
+         model.codi.tie_weights()
+ 
+         # Move to device and set dtype
+@@ -396,16 +456,29 @@ class CODI(torch.nn.Module):
+         self.training_args = training_args
+         target_dtype = torch.float16 if training_args.bf16 is False else torch.bfloat16
+         self.model_name = model_args.model_name_or_path
+-        model_wrapper_class = AutoModelForCausalLM
++        if "gemma-3" in self.model_name.lower():
++            # AutoModelForCausalLM maps gemma3 to the multimodal Gemma3ForConditionalGeneration
++            # (nested text_config + vision tower, model.model.language_model.* structure). Load
++            # the text-only LM so config.hidden_size and the model.model.layers paths work.
++            from transformers import Gemma3ForCausalLM
++            model_wrapper_class = Gemma3ForCausalLM
++        else:
++            model_wrapper_class = AutoModelForCausalLM
++        # gemma3 inference: eager attention. Its SDPA path requires a contiguous attn-mask bias,
++        # which CODI's incremental latent generate doesn't produce ("(*bias): last dimension must
++        # be contiguous"). Training (teacher-forced, contiguous masks) keeps the faster SDPA.
++        _attn_impl = "eager" if ("gemma" in self.model_name.lower() and not model_args.train) else "sdpa"
+         if model_args.full_precision:
+             self.codi = model_wrapper_class.from_pretrained(
+                 self.model_name,
+                 torch_dtype=target_dtype,
++                attn_implementation=_attn_impl,
+             )
+         else:
+             self.codi = model_wrapper_class.from_pretrained(
+                 self.model_name,
+                 torch_dtype=target_dtype,
++                attn_implementation=_attn_impl,
+                 quantization_config=transformers.BitsAndBytesConfig(
+                     load_in_4bit=True,
+                     bnb_4bit_compute_dtype=torch.bfloat16,
+@@ -429,6 +502,19 @@ class CODI(torch.nn.Module):
+         # )  # dummy values for mem tokens
+ 
+         self.dim = self.codi.config.hidden_size
++        self.filler_latents = getattr(training_args, "filler_latents", False)
++        if self.filler_latents:
++            self.filler_z = nn.Parameter(
++                torch.randn(training_args.num_latent, self.dim) * 0.02)
++            # prj never feeds the loss in filler mode -> freeze it, else DDP
++            # errors on unused parameters (indices = the 6 prj tensors)
++            if hasattr(self, "prj"):
++                for _p in self.prj.parameters():
++                    _p.requires_grad_(False)
++        self.discrete_latents = getattr(training_args, "discrete_latents", False)
++        self.st_temperature = getattr(training_args, "st_temperature", 1.0)
++        # NOTE: the prj freeze for discrete/filler modes lives at the prj
++        # construction site below — prj does not exist yet at this point.
+         self.num_latent = training_args.num_latent
+ 
+         # LoRA
+@@ -448,12 +534,34 @@ class CODI(torch.nn.Module):
+             if not self.prj_no_ln:
+                 self.prj.add_module("ln", nn.LayerNorm(self.dim))
+             self.prj = self.prj.to(dtype=target_dtype)
++            if getattr(self, "filler_latents", False) or getattr(self, "discrete_latents", False):
++                # prj is bypassed in filler/discrete modes -> freeze, else DDP
++                # errors on unused parameters (the 6 prj tensors)
++                for _p in self.prj.parameters():
++                    _p.requires_grad_(False)
++
++        self.latent_proj = getattr(training_args, "latent_proj", "")
++        if self.latent_proj:
++            self.proj_tau = training_args.proj_tau
++            self.proj_anneal_steps = training_args.proj_anneal_steps
++            _cb_path = getattr(training_args, "proj_codebook_path", "")
++            if _cb_path and os.path.exists(_cb_path):
++                _C = torch.load(_cb_path, map_location="cpu").float()
++            else:  # from_pretrained path: shape-only init, weights come from the ckpt
++                _C = torch.randn(training_args.proj_k, self.dim)
++            self.proj_codebook = nn.Parameter(_C)
++            self._proj_scale_val = None  # lazy: median NN dist^2 among codes
++            if os.environ.get("OH1_GRADCHECK"):
++                self.proj_codebook.register_hook(lambda g: print(
++                    f"[oh1-gradcheck] codebook-grad-norm {g.float().norm().item():.3e}",
++                    flush=True))
+ 
+         # Losses
+         self.print_loss = training_args.print_loss
+         self.ref_loss_factor = training_args.ref_loss_factor
+         self.sft_loss_factor = training_args.sft_loss_factor
+         self.ce_loss_factor = training_args.ce_loss_factor
++        self.latent_sup_factor = getattr(training_args, "latent_sup_factor", 0.0)
+         # Cross Entropy Loss
+         self.loss_fct = nn.CrossEntropyLoss(ignore_index=-100)
+ 
+@@ -506,6 +614,56 @@ class CODI(torch.nn.Module):
+                 return model.gpt_neox.embed_in
+             raise NotImplementedError
+ 
++    def _st_embed(self, lat_h):
++        """Straight-through argmax token embedding of a post-final-norm hidden state.
++
++        Forward = embedding of the greedy token (matches eval-time discrete feedback
++        exactly); backward = softmax gradient at st_temperature. lat_h: [B, D].
++        Returns [B, 1, D] in model dtype.
++        """
++        logits = self.codi.get_output_embeddings()(lat_h.to(self.codi.dtype)).float()
++        soft = torch.softmax(logits / self.st_temperature, dim=-1)
++        hard = torch.zeros_like(soft).scatter_(-1, soft.argmax(-1, keepdim=True), 1.0)
++        y = (hard + soft - soft.detach()).to(self.codi.dtype)
++        if os.environ.get("DT1_GRADCHECK") and soft.requires_grad:
++            soft.register_hook(lambda g: print(
++                f"[dt1-gradcheck] soft-grad-norm {g.float().norm().item():.3e}", flush=True))
++        emb = y @ self.get_embd(self.codi, self.model_name).weight
++        return emb.unsqueeze(1)
++
++    def _project_latent(self, latent_embd, step):
++        """oh1: anneal the fed-back post-prj latent onto a committed codebook vertex.
++
++        s = step/anneal in [0,1] mixes continuous -> projected; while s<1 the projection
++        is a temperature-softmax mixture over codes (differentiable, tau sharpened as
++        s->1); at s>=1 (and always at eval, step=None) forward = hard argmax code with
++        straight-through backward. latent_embd: [B, 1, D]. Codebook gets gradients via
++        the soft term; prj stays in-path (no DDP freeze needed).
++        """
++        C = self.proj_codebook.float()
++        if self._proj_scale_val is None:
++            with torch.no_grad():
++                sub = C[torch.randperm(C.shape[0], device=C.device)[:1024]]
++                # sub is a subset of C: smallest dist is self (0), 2nd-smallest = NN
++                dmin = torch.cdist(sub, C).topk(2, largest=False).values[:, 1]
++                self._proj_scale_val = float((dmin ** 2).median().clamp_min(1e-6))
++        # floor s at 0.02: at s=0 the codebook would get zero grad -> DDP
++        # "parameter did not receive grad" crash (dt1 lesson, prj freeze analog)
++        s = 1.0 if step is None else min(1.0, max(0.02, step / max(1, self.proj_anneal_steps)))
++        z = latent_embd
++        zf = z.float().reshape(-1, z.shape[-1])
++        d2 = torch.cdist(zf, C) ** 2
++        tau_eff = self.proj_tau * max(0.1, 1.0 - 0.9 * s) * self._proj_scale_val
++        p = torch.softmax(-d2 / tau_eff, dim=-1)
++        soft = p @ C
++        if s >= 1.0:
++            hard = C[d2.argmin(-1)]
++            q = hard + soft - soft.detach()
++        else:
++            q = soft
++        q = q.reshape(z.shape).to(z.dtype)
++        return q if s >= 1.0 else (1.0 - s) * z + s * q
++
+     def init(self):
+         print_trainable_parameters(self)
+         if (
+@@ -535,6 +693,7 @@ class CODI(torch.nn.Module):
+         step: int = None,
+         step_ratio: float = None,
+         encoder_input_ids_labels: Optional[torch.LongTensor] = None,
++        latent_target_ids: Optional[torch.LongTensor] = None,
+     ):
+         if not self.fix_attn_mask:
+             ref_attention_mask = None
+@@ -561,11 +720,15 @@ class CODI(torch.nn.Module):
+         )
+         past_key_values = outputs.past_key_values
+         latent_embd = outputs.hidden_states[-1][:, -1, :].unsqueeze(1)
+-        if self.use_prj:
++        if self.discrete_latents:
++            latent_embd = self._st_embed(outputs.hidden_states[-1][:, -1, :])
++        elif self.use_prj and not self.filler_latents:
+             latent_embd = self.prj(latent_embd)
+             latent_embd = latent_embd.to(
+                 dtype=self.codi.dtype
+             )  # FIX: layer norm casts to fp32
++        if getattr(self, "latent_proj", ""):
++            latent_embd = self._project_latent(latent_embd, step)
+ 
+         dynamic_mask = None
+         if self.fix_attn_mask:
+@@ -596,86 +759,93 @@ class CODI(torch.nn.Module):
+         ref_ce_loss = ref_outputs_with_grad.loss
+         ref_ce_loss *= self.ref_loss_factor
+         num_latent = self.num_latent
+-        if self.num_latent != 0:
+-            for i in range(num_latent):
+-                # Implicit CoT generation
+-                outputs = self.codi(
+-                    inputs_embeds=latent_embd,
+-                    use_cache=True,
+-                    output_hidden_states=True,
+-                    past_key_values=past_key_values,
+-                )
+-                past_key_values = outputs.past_key_values
+-                latent_embd = outputs.hidden_states[-1][:, -1, :].unsqueeze(1)
+-                if self.use_prj:
+-                    latent_embd = self.prj(latent_embd)
+-                    latent_embd = latent_embd.to(dtype=self.codi.dtype)
+-
+-                # Calculate the distillation loss
+-                if i == num_latent - 1:  # the last latent embedding
+-                    # Decode the final answer in natural language
+-                    embds = self.get_embd(self.codi, self.model_name)(decoder_input_ids)
+-
+-                    if dynamic_mask is not None:  # Prevent attending the paddings
+-                        decoder_mask = torch.ones(
+-                            (embds.size(0), embds.size(1)), dtype=torch.bool
+-                        ).to(dynamic_mask)
+-                        dynamic_mask = torch.cat(
+-                            (encoder_attention_mask, dynamic_mask, decoder_mask), dim=1
+-                        )
+-                        dynamic_mask = dynamic_mask.bool()
+-                    # Student task's output
+-                    outputs = self.codi(
+-                        inputs_embeds=embds,
+-                        use_cache=True,
+-                        output_hidden_states=True,
+-                        past_key_values=past_key_values,
+-                        attention_mask=dynamic_mask,
+-                    )
++        lat_hiddens = []   # JB: pre-prj hidden at each latent step, for the optional latent-supervision aux loss
++        for i in range(num_latent):
++            # Implicit CoT generation
++            if self.filler_latents:   # constant learned inputs; adaptive feedback ignored
++                latent_embd = (self.filler_z[i].to(self.codi.dtype)
++                               .view(1, 1, -1).expand(encoder_input_ids_lcot.size(0), 1, -1))
++            outputs = self.codi(
++                inputs_embeds=latent_embd,
++                use_cache=True,
++                output_hidden_states=True,
++                past_key_values=past_key_values,
++            )
++            past_key_values = outputs.past_key_values
++            lat_h = outputs.hidden_states[-1][:, -1, :]
++            lat_hiddens.append(lat_h)
++            latent_embd = lat_h.unsqueeze(1)
++            if self.discrete_latents:
++                latent_embd = self._st_embed(lat_h)
++            elif self.use_prj:
++                latent_embd = self.prj(latent_embd)
++                latent_embd = latent_embd.to(dtype=self.codi.dtype)
++            if getattr(self, "latent_proj", ""):
++                latent_embd = self._project_latent(latent_embd, step)
++
++        # Decode the answer from (question [+ latents]) and distill its answer-position hidden
++        # states to the CoT teacher. num_latent=0 => single forward pass straight from the
++        # question (CODI-style guidance with no latent scratchpad).
++        embds = self.get_embd(self.codi, self.model_name)(decoder_input_ids)
++        if dynamic_mask is not None:  # Prevent attending the paddings
++            decoder_mask = torch.ones(
++                (embds.size(0), embds.size(1)), dtype=torch.bool
++            ).to(dynamic_mask)
++            dynamic_mask = torch.cat(
++                (encoder_attention_mask, dynamic_mask, decoder_mask), dim=1
++            )
++            dynamic_mask = dynamic_mask.bool()
++        # Student task's output
++        outputs = self.codi(
++            inputs_embeds=embds,
++            use_cache=True,
++            output_hidden_states=True,
++            past_key_values=past_key_values,
++            attention_mask=dynamic_mask,
++        )
+ 
+-                    distill_loss = 0
+-                    # Calculate distillation loss between the teacher's logits and the student's logits for every layer
+-                    for j, (out, ref_out) in enumerate(
+-                        zip(outputs.hidden_states, ref_outputs_hidden_states)
+-                    ):
+-                        ref_selected = ref_out.gather(
+-                            1,
+-                            ref_answer_position.unsqueeze(-1)
+-                            .unsqueeze(-1)
+-                            .expand(-1, -1, ref_out.size(-1)),
+-                        )
+-                        out_selected = out.gather(
+-                            1,
+-                            model_answer_position.unsqueeze(-1)
+-                            .unsqueeze(-1)
+-                            .expand(-1, -1, out.size(-1)),
+-                        )
++        distill_loss = 0
++        # Calculate distillation loss between the teacher's and the student's hidden states for every layer
++        for j, (out, ref_out) in enumerate(
++            zip(outputs.hidden_states, ref_outputs_hidden_states)
++        ):
++            ref_selected = ref_out.gather(
++                1,
++                ref_answer_position.unsqueeze(-1)
++                .unsqueeze(-1)
++                .expand(-1, -1, ref_out.size(-1)),
++            )
++            out_selected = out.gather(
++                1,
++                model_answer_position.unsqueeze(-1)
++                .unsqueeze(-1)
++                .expand(-1, -1, out.size(-1)),
++            )
+ 
+-                        distill_loss_tmp = self.distill_loss_fct(
+-                            out_selected, ref_selected.detach()
+-                        )
++            distill_loss_tmp = self.distill_loss_fct(
++                out_selected, ref_selected.detach()
++            )
+ 
+-                        if self.distill_loss_div_std:
+-                            if self.distill_loss_type == "l2":
+-                                distill_loss_tmp /= ref_selected.std()
+-                            distill_loss_tmp /= ref_selected.std()
+-                        distill_loss += distill_loss_tmp
++            if self.distill_loss_div_std:
++                if self.distill_loss_type == "l2":
++                    distill_loss_tmp /= ref_selected.std()
++                distill_loss_tmp /= ref_selected.std()
++            distill_loss += distill_loss_tmp
+ 
+-                    distill_loss /= len(outputs.hidden_states)
++        distill_loss /= len(outputs.hidden_states)
+ 
+-                    if self.print_loss:
+-                        print(f"latent{i}: distill_loss={distill_loss}")
++        if self.print_loss:
++            print(f"distill_loss={distill_loss}")
+ 
+-                    distill_loss_total += distill_loss
++        distill_loss_total += distill_loss
+ 
+-                    # Calculate the CE loss for the student task
+-                    if i == num_latent - 1:
+-                        logits = outputs.logits
+-                        effective_logits = logits[:, :-1, :]
+-                        effective_logits = effective_logits.reshape(-1, logits.size(-1))
+-                        target_ids = labels[:, 1:].reshape(-1)
+-                        ce_loss = self.loss_fct(effective_logits, target_ids)
+-                        ce_loss_total += ce_loss
++        # Calculate the CE loss for the student task
++        logits = outputs.logits
++        effective_logits = logits[:, :-1, :]
++        effective_logits = effective_logits.reshape(-1, logits.size(-1))
++        target_ids = labels[:, 1:].reshape(-1)
++        ce_loss = self.loss_fct(effective_logits, target_ids)
++        ce_loss_total += ce_loss
+ 
+         # Weigh the distillation loss
+         distill_loss *= self.distill_loss_factor
+@@ -686,8 +856,25 @@ class CODI(torch.nn.Module):
+             print(
+                 f"loss={ce_loss + distill_loss}, ce_loss={ce_loss}, distill_loss={distill_loss}, ce_loss_total={ce_loss_total}, distill_loss_total={distill_loss_total}, ref_ce_loss={ref_ce_loss}, ans_ce_loss={ans_ce_loss}"
+             )
++        # JB: optional latent-supervision — aux logit-lens CE pulling the FIRST HALF of the latent
++        # hiddens to decode to their gold intermediate node token (bootstrap for cold-starting big models).
++        latent_sup_loss = 0.0
++        if self.latent_sup_factor > 0 and latent_target_ids is not None:
++            _norm = self.codi.model.model.norm
++            _head = self.codi.get_output_embeddings()
++            sup_terms = []
++            for i in range(max(1, num_latent // 2)):
++                ce_i = self.loss_fct(_head(_norm(lat_hiddens[i])).float(), latent_target_ids[:, i])
++                if torch.isfinite(ce_i):
++                    sup_terms.append(ce_i)
++            if sup_terms:
++                latent_sup_loss = torch.stack(sup_terms).mean() * self.latent_sup_factor
++
+         # Add the new ans ce loss to the overall loss
+         loss = ce_loss_total + distill_loss_total + ref_ce_loss + ans_ce_loss
++        if not isinstance(latent_sup_loss, float):
++            loss = loss + latent_sup_loss
++            latent_sup_loss = latent_sup_loss.detach().item()
+ 
+         # if ce_loss_total != 0:
+         ce_loss_total = ce_loss_total.detach().item()
+@@ -702,6 +889,7 @@ class CODI(torch.nn.Module):
+             "distill_loss": distill_loss_total,
+             "ref_ce_loss": ref_ce_loss,
+             "ans_ce_loss": ans_ce_loss,
++            "latent_sup_loss": latent_sup_loss,
+         }
+ 
+     def generate(
+@@ -799,6 +987,7 @@ class CODI(torch.nn.Module):
+             outputs = self.codi.generate(
+                 input_ids=input_ids_bot,
+                 max_new_tokens=max_new_tokens,
++                do_sample=not greedy,
+                 temperature=temperature,
+                 top_k=top_k,
+                 top_p=top_p,
+@@ -825,7 +1014,9 @@ class CODI(torch.nn.Module):
+                 padded_sequences[i, : seq.size(0)] = seq
+             return {"sequences": padded_sequences}
+ 
+-        past_key_values = None
++        # DynamicCache: gemma3 otherwise auto-creates a fixed-length static/hybrid cache that
++        # the incremental latent decoding overruns (device-side assert in _static_cache_update).
++        past_key_values = DynamicCache()
+         hidden_state_chunks = None
+ 
+         with torch.no_grad():
+@@ -872,17 +1063,25 @@ class CODI(torch.nn.Module):
+                 latent_vectors_pre_prj.append(latent_embd.clone())
+ 
+             # Optionally project latent_embd if using prj
+-            if self.use_prj:
++            if getattr(self, "discrete_latents", False):
++                latent_embd = self._st_embed(latent_embd[:, -1, :])
++            elif self.use_prj:
+                 latent_embd = self.prj(latent_embd)
+                 latent_embd = latent_embd.to(
+                     dtype=self.codi.dtype
+                 )  # FIX: layer norm casts to fp32
++            if getattr(self, "latent_proj", ""):
++                latent_embd = self._project_latent(latent_embd, None)
+ 
+             if return_latent_vectors:
+                 latent_vectors.append(latent_embd.clone())
+ 
+             # Latent iterations: collect hidden states
+-            for _ in range(num_latent_iterations):
++            for _li in range(num_latent_iterations):
++                if getattr(self, "filler_latents", False):
++                    latent_embd = (self.filler_z[min(_li, self.filler_z.size(0) - 1)]
++                                   .to(self.codi.dtype).view(1, 1, -1)
++                                   .expand(batch_size, 1, -1))
+                 outputs = self.codi(
+                     inputs_embeds=latent_embd,
+                     use_cache=True,
+@@ -895,11 +1094,15 @@ class CODI(torch.nn.Module):
+                 if return_latent_vectors:
+                     latent_vectors_pre_prj.append(latent_embd.clone())
+ 
+-                if self.use_prj:
++                if getattr(self, "discrete_latents", False):
++                    latent_embd = self._st_embed(latent_embd[:, -1, :])
++                elif self.use_prj:
+                     latent_embd = self.prj(latent_embd)
+                     latent_embd = latent_embd.to(
+                         dtype=self.codi.dtype
+                     )  # FIX: layer norm casts to fp32
++                if getattr(self, "latent_proj", ""):
++                    latent_embd = self._project_latent(latent_embd, None)
+ 
+                 if return_latent_vectors:
+                     latent_vectors.append(latent_embd.clone())
+diff --git a/train.py b/train.py
+index 35e2e2f..4a67a36 100644
+--- a/train.py
++++ b/train.py
+@@ -4,6 +4,7 @@ import os
+ from math import ceil
+ from pathlib import Path
+ 
++import torch
+ import torch.distributed as dist
+ import transformers
+ import wandb
+@@ -71,6 +72,7 @@ class CustomTrainer(Trainer):
+                     "distill_loss": outputs["distill_loss"],
+                     "ref_ce_loss": outputs["ref_ce_loss"],
+                     "ans_ce_loss": outputs["ans_ce_loss"],
++                    "latent_sup_loss": outputs.get("latent_sup_loss", 0.0),
+                 }
+             )
+         return loss
+@@ -80,6 +82,33 @@ class CustomTrainer(Trainer):
+     #         for k, v in logs.items():
+     #             super().log({k: v})
+ 
++    def _save(self, output_dir=None, state_dict=None):
++        # CODI is a plain nn.Module wrapping a FROZEN base + LoRA adapter + projection. The default
++        # save serializes the whole module (~56GB for gemma-27b). We only need: the trainable params
++        # (LoRA + prj) plus embed_tokens/lm_head (frozen, but carry the non-deterministic resized
++        # <|bocot|>/<|eocot|> rows from resize_token_embeddings(mean_resizing=False), so they MUST be
++        # saved or reload re-randomizes the latent delimiters). The frozen base is reconstructed from
++        # the HF model on load (CODI.from_pretrained uses strict=False). ~4GB vs 56GB.
++        output_dir = output_dir if output_dir is not None else self.args.output_dir
++        os.makedirs(output_dir, exist_ok=True)
++        if state_dict is None:
++            state_dict = self.model.state_dict()
++        keep = {n for n, p in self.model.named_parameters() if p.requires_grad}
++        filtered = {
++            k: v
++            for k, v in state_dict.items()
++            if k in keep or "embed_tokens" in k or "lm_head" in k
++        }
++        torch.save(filtered, os.path.join(output_dir, "pytorch_model.bin"))
++        if self.tokenizer is not None:
++            self.tokenizer.save_pretrained(output_dir)
++        torch.save(self.args, os.path.join(output_dir, "training_args.bin"))
++        if is_main_process():
++            print(
++                f"[save] adapter-only checkpoint ({len(filtered)} tensors) -> {output_dir}",
++                flush=True,
++            )
++
+ 
+ def train():
+     parser = argparse.ArgumentParser(description="Train CODI model")
+@@ -136,7 +165,7 @@ def train():
+         task_type = TaskType.CAUSAL_LM
+         if any(
+             name in model_args.model_name_or_path.lower()
+-            for name in ["llama", "mistral", "falcon", "qwen"]
++            for name in ["llama", "mistral", "falcon", "qwen", "gemma"]
+         ):
+             target_modules = [
+                 "q_proj",
+@@ -172,7 +201,9 @@ def train():
+         cache_dir=training_args.cache_dir,
+         model_max_length=training_args.model_max_length,
+         padding_side="right",
+-        use_fast=False,
++        # gemma's slow tokenizer needs sentencepiece; its fast tokenizer is canonical
++        # (validated by the probe), so use fast for gemma, slow elsewhere (CODI default).
++        use_fast=("gemma" in model_args.model_name_or_path.lower()),
+     )
+     print(f"{len(tokenizer)=}")
+ 
+@@ -195,6 +226,19 @@ def train():
+     print(f"{len(tokenizer)=}")
+ 
+     model = CODI(model_args, training_args, lora_config, tokenizer)
++    # CODI is a plain nn.Module; the Trainer's resume-from-checkpoint path expects
++    # PreTrainedModel attrs (crashes with AttributeError otherwise, see lf1 notes)
++    if not hasattr(model, "_keys_to_ignore_on_save"):
++        model._keys_to_ignore_on_save = None
++
++    if getattr(training_args, "warm_start_path", ""):
++        _sd = torch.load(training_args.warm_start_path, map_location="cpu")
++        _res = model.load_state_dict(_sd, strict=False)
++        _loaded = len(_sd) - len(_res.unexpected_keys)
++        if is_main_process():
++            print(f"[warm-start] {_loaded} tensors from {training_args.warm_start_path}; "
++                  f"unexpected={len(_res.unexpected_keys)}", flush=True)
++        assert _loaded > 400, f"warm-start loaded only {_loaded} tensors — path/keys wrong"
+ 
+     training_args.output_dir = os.path.join(
+         training_args.output_dir,
+@@ -230,8 +274,29 @@ def train():
+     trainer = CustomTrainer(
+         model=model, tokenizer=tokenizer, args=training_args, **data_module
+     )
+-    trainer.train()
+-    # trainer.save_model(output_dir=training_args.output_dir)
++    # live held-out generation accuracy -> wandb (fail-early "are we gaining?" signal); never crashes training
++    try:
++        import os as _os, sys as _sys, json as _json
++        _repo = _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
++        _sys.path.insert(0, _repo)
++        from gemma3_codi.gen_eval_cb import GenEvalCallback
++        _ev = _json.load(open(_os.path.join(_repo, "gemma3_codi/data/recur/multitask_valid.json")))
++        trainer.add_callback(GenEvalCallback(
++            tokenizer, _ev, mode="codi", every=100, batch=1, num_latent=training_args.num_latent,
++            sot=tokenizer.convert_tokens_to_ids("<|bocot|>"), eot=tokenizer.convert_tokens_to_ids("<|eocot|>")))
++        print("[geneval] CODI eval callback armed (every 100 steps, 100 held-out multitask)", flush=True)
++    except Exception as _e:
++        print(f"[geneval] WARN could not arm eval callback: {_e}", flush=True)
++    # Resume from the latest step-checkpoint if one exists (preemption/requeue safe).
++    from transformers.trainer_utils import get_last_checkpoint
++
++    last_ckpt = None
++    if os.path.isdir(training_args.output_dir):
++        last_ckpt = get_last_checkpoint(training_args.output_dir)
++    if last_ckpt:
++        print(f"[resume] continuing from {last_ckpt}", flush=True)
++    trainer.train(resume_from_checkpoint=last_ckpt)
++    trainer.save_model(output_dir=training_args.output_dir)
+ 
+ 
+ if __name__ == "__main__":

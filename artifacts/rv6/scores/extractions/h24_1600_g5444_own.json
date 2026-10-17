@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5444",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question setup, specifically a multiplication result.\n\nThe problem establishes a pattern: 4 times 25 = 100 total, so the answer must be 100 total units, completing the arithmetic.\n\nFinal token \"are\" opens a predicate requiring a numerical quantity (e.g., \"100 sets\"), directly completing the question \"There are ___\" \u2014 the next token must be a number or quantity phrase confirming the total count.\n4 \u00d7 25 + original 25 = 125 sets, so the answer is 125 total machines per set.\n4 times 25 + one original = 125 units, so the answer must state \"4 sets per set plus 25\" or \"125 total.\"\n25 + 4 times 25 = total number of machines.",
+    "Word problem format requires a numerical answer: 4 times 25 = 100 cars, so the solution must state \"100 cars\" as the computed result.\n\nThe word problem structure demands a step-by-step arithmetic explanation, specifically showing multiplication of 4 by the count of cars.\n\nFinal token \"have\" begins the solution clause completing \"There are 4 times as many cars for the second type. You have,\" immediately requiring the numerical result \"100 new cars to paint\" or similar phrasing confirming the calculation.\n25 is the count, so the next tokens must state \"25 \u00d7 4 = 100\" for the second category.\n4 \u00d7 25 = 100 cars for the four types, completing the arithmetic statement.\n25 times 4 times the number of cars in the problem.\nThere are 25 times the number.",
+    "Word problem format requires completing the arithmetic calculation: 4 times 25 = 100 boys.\n\nThe word problem structure demands a solution showing multiplication steps, likely \"25 \u00d7 4 = 100 new bikes.\"\n\nThe final token \"10\" is the beginning of the numerical answer (100), immediately requiring \"0\" to complete the number, then likely \"new bikes will be made\" or similar concluding statement.\n25 is the known answer to 4 \u00d7 25, so the next tokens must complete \"100 new bikes can be made.\"\n4 times 25 = 100, representing the larger count of boys to be added to the existing 25.\n\n4 times 25 = 100, completing the multiplication expression for the new count.\n25 times 4 times 25, confirming the answer.",
+    "Word problem format requires completing the arithmetic solution, specifically stating \"100 apple trees\" as the answer.\n\nThe word problem structure demands a step-by-step explanation: \"4 times the number of apple trees\" sets up the multiplication, so the next tokens must state the calculated result.\n\nFinal token \"100\" is the computed answer mid-sentence, immediately requiring the noun phrase \"apple trees\" to complete the solution statement, likely followed by a period or further explanation.\nFinal token \"100\" is the multiplication result in the solution, requiring \"apple trees were planted\" or similar closing phrase confirming the count.\nShe will plant 4 times 25 = 100 fruit trees in the remaining area.\nShe needs to plant 4 times the number of apple trees already given (25), completing the equation.\n100 is the final numeric answer, representing the count of.",
+    "Word problem format requires a structured solution: word problems typically show arithmetic steps after the question setup.\n\nThe word problem establishes a ratio calculation: 40 trees total, 4 times fruit trees, so the answer must state \"40 \u00d7 3 = 120 fruit trees\" before stating total.\n\nFinal token \"p\" completes \"120 trees\" \u2014 the sentence \"They will plant 120 fruit trees\" is mid-completion, immediately requiring the noun \"trees\" to close the sentence, likely followed by a period and then a solution statement.\nFinal token \"p\" is the object of \"plant,\" completing the answer about the third category (4 times 3 species), expecting \"trees\" next.\nword problem convention: after stating the count of each type, the solution will sum total trees or confirm the answer.\nThey will plant 120 fruit trees in the.",
+    "Word problem format requires a numerical answer: total 100 students, 40 boys, so girls count must be 60.\n\nThe problem structure demands a solution showing arithmetic reasoning, likely \"There are 4 times the number of boys.\"\n\nFinal token \"words.\" ends the setup sentence stating the multiplier relationship (40 \u00d7 3 times), immediately requiring the solution's conclusion \u2014 the total number of green balls or the combined count.\nFinal token \"words.\" ends the problem statement introducing the calculation, so next tokens must state the total green balls collected (e.g., \"There are 100 + 50 = 200 balls total\").\nFinal token \"5 times the number of large trees.\" completes the second condition, requiring the arithmetic result showing total green trees collected.\nThe final sentence states the 10 times larger condition for the remaining trees, immediately constraining the."
+  ],
+  "input_sha256": "4031623005c8fd88e8394f6a8a8ea85c54b454c904bac92c41aa89c8272cdf17",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 4 times 25 = 100) explicitly mentioned in the descriptions, excluding ordinals and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"125\",\"value\":125},{\"quote\":\"10\",\"value\":10},{\"quote\":\"0\",\"value\":0},{\"quote\":\"40\",\"value\":40},{\"quote\":\"3\",\"value\":3},{\"quote\":\"120\",\"value\":120},{\"quote\":\"60\",\"value\":60},{\"quote\":\"50\",\"value\":50},{\"quote\":\"200\",\"value\":200},{\"quote\":\"5\",\"value\":5}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 4 times 25 = 100) explicitly mentioned in the descriptions, excluding ordinals and years.\"}",
+  "prompt_sha256": "e5b3b312a86169945437bd7ddabae5d88055b3219d66d14f2431cf3ba6b593dd"
+}

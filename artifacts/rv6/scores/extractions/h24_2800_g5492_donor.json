@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5492",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the word problem setup, likely \"200\" (3 rows \u00d7 5 seats \u00d7 20).\n\nThe arithmetic problem structure demands a multiplication: 3 \u00d7 20 \u00d7 5 = 150 seats, so the next token is the computed result.\n\nFinal token \"are\" completes the question prompt \"How many seats can be placed?\" \u2014 immediately expects a number (likely \"1500\" or \"150\") representing the total capacity.\n20 \u00d7 5 \u00d7 3 = 150 books per shelf.\n5 \u00d7 20 \u00d7 3 = 300 seats total.\nThe answer must be a specific integer representing 3\u00d75\u00d720 columns.\n20 \u00d7 3 = 60 seats.\nThe final sentence demands a numerical result, likely \"150 books\".",
+    "Math word problem requiring arithmetic continuation: 3 rows \u00d7 20 seats = 60 seats, expecting multiplication result.\n\nThe word problem structure demands a step-by-step arithmetic solution, likely showing multiplication (3 \u00d7 20 \u00d7 5).\n\nFinal token \"have\" begins a clause explaining the intermediate calculation, immediately expecting a number or arithmetic expression like \"3 \u00d7 20 seats per row\" or \"60 seats.\"\n\"have\" is a verb requiring a direct object or complement describing the computed result.\n20 \u00d7 3 = 60 seats first, then 60 \u00d7 5 rows total capacity.\nShe can calculate 3 rows \u00d7 20 seats = 60 seats before multiplying by 5.\n simply completing the intermediate step.\n20 \u00d7 3 seats per table = 60 seats per table before the total multiplication.\n20 \u00d7 3 \u00d7 .",
+    "Math tutoring walkthrough pattern: step-by-step arithmetic demonstration with multiplication, expecting continuation of the arithmetic expression.\n\nThe problem requires computing 3 rows \u00d7 10 books \u00d7 5 columns, so the next tokens will show the multiplication work or its result.\n\nFinal token \"6\" is the start of an arithmetic expression or answer (likely \"6 \u00d7 30\" or \"6 \u00d7 10\"), immediately expecting the multiplication operator or the completed result showing 3 \u00d7 10 books per row.\nFinal token \"6\" begins a numeric demonstration or intermediate step.\n\"6\" likely starts \"6 \u00d7 30 rows\" or \"6 \u00d7 5 \u00d7 30\" showing the intermediate multiplication.\n explain the multiplication logic.\n3 \u00d7 10 books per row \u00d7 3 columns = 90 total books capacity.\n explain 3 \u00d7 30 = 90 books, then.",
+    "Math tutoring walkthrough pattern: step-by-step arithmetic demonstration with explanation, expecting continuation of the multiplication logic.\n\nThe arithmetic expression \"3 rows \u00d7 60 books = 180 books\" is being demonstrated, so the next tokens will show the multiplication result or intermediate steps.\n\nFinal token \"60\" is the start of a numeric answer or intermediate expression showing the arithmetic result of 3\u00d760 books per row, immediately expecting a multiplication symbol or continuation like \"\u00d7 10 books\" or \"= 600 books total.\"\nFinal token \"60\" begins explaining the intermediate calculation for 3 rows \u00d7 30 columns.\n\"Then 60\" likely continues with a number or operator showing the next step.\n explain 3\u00d760 books per row first, then 3\u00d710 rows total capacity.\n60 books per row \u00d7 3 columns = 18.",
+    "Math tutoring problem walkthrough, expecting arithmetic continuation: 3 rows \u00d7 20 seats = 60 seats.\n\nThe pattern \"3 rows \u00d7 20 seats \u00d7 30 seats\" sets up a multiplication chain, expecting the arithmetic result.\n\nFinal token \"p\" is the start of \"\u00d7\" or \"\u00d7\" symbol, part of an incomplete multiplication expression \"3\u00d720\" or \"3\u00d760\", immediately requiring the multiplication operator or the numeric result to complete the arithmetic demonstration.\nFinal token \"60p\" is mid-expression showing the intermediate step before the final multiplication.\n simply \"\u00d7\" or \"\u00d7 30\" completing the arithmetic demonstration.\n60p = 3 \u00d7 20 rows per row.\n explain 3\u00d760 per row, then 3\u00d75\u00d720 total capacity.\n describe the multiplication logic.\n60p is the first.",
+    "Math problem walkthrough pattern: a worked example is being shown, expecting a numerical answer or conclusion.\n\nThe arithmetic chain requires completing the multiplication: 3 rows \u00d7 60 = 180 possible combinations, so the final answer \"180\" is expected.\n\nFinal token \"60.\" ends the intermediate calculation showing 3 \u00d7 60, immediately expecting the computed result or a follow-up step like \"Therefore, 180 cards can be combined.\"\nFinal token \"60 answer 60.\" suggests a formatting artifact, but the next token likely continues the worked example with the final computed result.\nFinal token \"180.\" closes the arithmetic explanation for the intermediate step.\n60 \u00d7 3 columns = capacity per row, so the next line states the answer \"180 cards can be combined.\"\n60 \u00d7 2 \u00d7 10 = 120."
+  ],
+  "input_sha256": "6e189e3c037336be83ad45eb2d1f7598bf4a467dcac860c4653da991bd76c5f9",
+  "values": [
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "3 rows",
+      "value": "3"
+    },
+    {
+      "quote": "5 seats",
+      "value": "5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "150 seats",
+      "value": "150"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "300 seats",
+      "value": "300"
+    },
+    {
+      "quote": "60 seats",
+      "value": "60"
+    },
+    {
+      "quote": "150 books",
+      "value": "150"
+    },
+    {
+      "quote": "10 books",
+      "value": "10"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "6 \u00d7 30",
+      "value": "180"
+    },
+    {
+      "quote": "90 total books",
+      "value": "90"
+    },
+    {
+      "quote": "180 books",
+      "value": "180"
+    },
+    {
+      "quote": "600 books",
+      "value": "600"
+    },
+    {
+      "quote": "18.",
+      "value": "18"
+    },
+    {
+      "quote": "30 seats",
+      "value": "30"
+    },
+    {
+      "quote": "120.",
+      "value": "120"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and unambiguous arithmetic results from the provided descriptions, ensuring each distinct value is represented by its shortest unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200\",\"value\":200},{\"quote\":\"3 rows\",\"value\":3},{\"quote\":\"5 seats\",\"value\":5},{\"quote\":\"20\",\"value\":20},{\"quote\":\"150 seats\",\"value\":150},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"300 seats\",\"value\":300},{\"quote\":\"60 seats\",\"value\":60},{\"quote\":\"150 books\",\"value\":150},{\"quote\":\"10 books\",\"value\":10},{\"quote\":\"6\",\"value\":6},{\"quote\":\"6 \\u00D7 30\",\"value\":180},{\"quote\":\"90 total books\",\"value\":90},{\"quote\":\"180 books\",\"value\":180},{\"quote\":\"600 books\",\"value\":600},{\"quote\":\"18.\",\"value\":18},{\"quote\":\"30 seats\",\"value\":30},{\"quote\":\"120.\",\"value\":120}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and unambiguous arithmetic results from the provided descriptions, ensuring each distinct value is represented by its shortest unique quote.\"}",
+  "prompt_sha256": "4f5ada7659886667bf7ab32f3df1f12854a4ad13119faf3bd52a3eec889ae32e"
+}

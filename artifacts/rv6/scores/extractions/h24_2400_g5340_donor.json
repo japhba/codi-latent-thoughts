@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5340",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: total minus combined (500+300+150=950, so remaining capacity is 50).\n\nThe problem explicitly asks for the difference between total and combined, so the answer must be the numerical result of 550 \u2212 300 \u2212 150 = 50 pages available.\n\nFinal token \"are\" closes the question prompt \"The number of pages available are,\" immediately requiring a specific integer answer, almost certainly \"50\" or \"50 pages.\"\n500\u221250\u2212150\u2212300=50 pages.\nThe sentence demands a short numerical response completing the arithmetic result.\n(350+150+40=500 pages).\nThe difference is 50 pages available, so the next token must be the number \"5.",
+    "Word problem solution in progress: arithmetic calculation expected, summing 150+100+50=350.\n\nThe structured solution format requires completing the arithmetic step: \"150+100+50=350\" must follow, then comparing to total 500 to find remaining books.\n\nFinal token \"had\" begins the arithmetic result clause, immediately requiring the numerical sum \"350\" or \"350 books\" to complete the sentence before stating the total.\n150+100+50=350 total, so the next tokens must state this total before explaining how to find remaining books.\n\"had\" introduces the completed sum, likely \"350\" or \"350 books needed.\"\nTotal of 1+150+50=350, so the next tokens will.",
+    "Math word problem solution format: arithmetic problem requiring total count, expecting \"50+100+150=350\" to complete the equation.\n\nWord problem narrative momentum: the solution is mid-calculation, having established 150+100+50=350 books, so the next step is confirming or stating the total.\n\nFinal token \"3\" begins the numerical answer \"350\" (150+100+50=350), immediately requiring \"50\" to complete the arithmetic sum, likely followed by \"books\" or \"total books.\"\nTotal books: 500 books already stated, so the sentence will confirm 350 books were combined, then state remaining books available.\n150+100+50=350, completing the arithmetic statement before stating the.",
+    "Word problem solution format: arithmetic problem with structured steps, expecting completion of the arithmetic result.\n\nThe total sum calculation: 150+100+200=350 books, so the answer must be 300 books used, leaving 20 books remaining.\n\nFinal token \"30\" is the beginning of the number \"300\" (300 total), completing the arithmetic expression \"100+150+20=300\" \u2014 the next token must be \"0\" to complete this number, followed by explanation of the remaining 20 books.\nTotal: 300 books used, so the sentence will state \"300 books\" and conclude with the remaining 20 books available.\n300 is the sum of 100+150+20, requiring \"0\".",
+    "Word problem solution format: arithmetic problem with structured answer, expecting arithmetic completion and verification.\n\nThe total sum calculation requires combining 150+100+50=300, so the next tokens must state \"300\" and likely \"total\" or \"used up.\"\n\nFinal token \"300\" is the arithmetic result of the sum expression \"300 balls,\" immediately expecting \"total\" or \"balls\" to complete the sentence, followed by explanation of the remaining 75 balls used.\nFinal token \"300\" ends the total usage statement, requiring a closing phrase like \"balls\" or \"to make the garden\" before stating the remaining 75.\n300 is the sum of 150+100+30, completing the equation, so next tokens are likely \"balls\" or \"used\" and then \"le.",
+    "Word problem format with structured arithmetic: a word problem is followed by a worked solution, establishing a clear pedagogical pattern.\n\nThe solution must address the arithmetic: total 115 + 116 = 231, then subtracting used food (11 + 11 = 22), leaving 1 remaining.\n\nFinal token \"s. 31 eggs.\" ends the question prompt listing total eggs used; the next tokens must provide the arithmetic answer, likely \"They had 1 egg left over\" or similar phrasing.\nFinal token \"pounds s.\" is mid-sentence in the problem statement, immediately requiring the subtraction expression \"They had 31 eggs total used up, leaving 0 eggs remaining.\"\n36 + 27 = total distributed, so the next tokens must state the remaining eggs or the question asking to find remaining eggs.\nThey had ."
+  ],
+  "input_sha256": "07e124698820754212e17fcc96f0c3198f750b33f1c3818fdb04545301d214b8",
+  "values": [
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "950",
+      "value": "950"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "231",
+      "value": "231"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500\",\"value\":500},{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"950\",\"value\":950},{\"quote\":\"50\",\"value\":50},{\"quote\":\"550\",\"value\":550},{\"quote\":\"350\",\"value\":350},{\"quote\":\"40\",\"value\":40},{\"quote\":\"5\",\"value\":5},{\"quote\":\"100\",\"value\":100},{\"quote\":\"1\",\"value\":1},{\"quote\":\"200\",\"value\":200},{\"quote\":\"20\",\"value\":20},{\"quote\":\"30\",\"value\":30},{\"quote\":\"75\",\"value\":75},{\"quote\":\"115\",\"value\":115},{\"quote\":\"116\",\"value\":116},{\"quote\":\"231\",\"value\":231},{\"quote\":\"11\",\"value\":11},{\"quote\":\"22\",\"value\":22},{\"quote\":\"31\",\"value\":31},{\"quote\":\"0\",\"value\":0},{\"quote\":\"36\",\"value\":36},{\"quote\":\"27\",\"value\":27}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "3cf46d423c0bd447339393e958701f78e640612a38dc5e63a481f829187829c4"
+}

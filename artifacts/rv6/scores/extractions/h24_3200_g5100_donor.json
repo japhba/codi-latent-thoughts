@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup requiring a numerical answer, expecting a specific distance/time calculation.\n\nThe problem follows a word problem format where a numerical answer is expected, likely a decimal or whole number representing hours.\n\n\"The answer is\" is an incomplete declarative sentence introducing the solution, immediately requiring a numerical value (e.g., \"2.5 hours\") to complete the word problem answer.\n280 miles \u00f7 112 mph = 2.5 hours, so the next token must be a number or decimal.\n\"The duration is 2.8 hours\" or similar numeric answer.\n280 miles / 96 mph = 2.8 hours, so the answer is \"2.8 hours.\"\n\"The answer is 2.8 hours\" or \"2.8 hours\" follows directly.\n96 miles distance divided by 18 mph = travel time.",
+    "Math word problem setup requiring a numerical calculation answer, expecting arithmetic solution steps.\n\nThe problem establishes a distance (27 miles) and speed (27 mph), so the solution involves dividing 27 by 18 mph.\n\n\"The distance is is\" is a grammatically awkward, likely OCR/typo error mid-sentence, immediately expecting a numerical answer or calculation expression like \"27 / 18 = 1.5 hours.\"\nFinal token \"is\" completes a copular construction, demanding a numerical result or mathematical expression next.\n\"The answer is\" strongly predicts a number or equation immediately following.\n27 miles / 18 mph = 1.5 hours.\n\"The answer is 2.75 hours needed to travel the entire distance.\"\n straightforward numerical answer expected.\n27 / 18 = 2.75 hours.\n calculation in progress.\nThe question demands a specific.",
+    "Math word problem format expects a worked solution walkthrough, likely showing substitution steps or algebraic manipulation.\n\nThe question asks for a numerical answer, so the next content must show the calculation: distance = 18 miles / 6 mph = 3 hours.\n\nThe final token \"Answer: 1 0 Answer is 0 is a formatting artifact, suggesting the next tokens will be the actual numerical answer or a mathematical expression showing the division work.\nFinal token \"1 Answer: 0 is Answer is 0\" suggests a template artifact, but the immediate next content should be the solution showing 18 miles / 6 mph = time.\n\"Answer: 18 miles\" or similar numerical result is expected next.\n calculation: solving for t = 3 hours using the formula.\n verification step showing 18 miles = 6 \u00d7 1.5 miles / 15 miles = duration.",
+    "Math word problem format expects a numerical solution, likely showing distance = 18 km or time = 3 hours.\n\nThe problem structure demands a calculation answer, with the formula \"distance = 18 km / speed = 6 km/h\" guiding the arithmetic.\n\nThe final token \"ans:18\\nAnswer\\nans\\n\" is a repeated placeholder/template marker, immediately expecting the mathematical solution expression or numerical result, likely \"18 / 15 = 1.2 hours\" or similar.\nFinal token \"ans\\n\\n\\nans\\n\" suggests a formatting artifact, with the next content being the solved answer value.\nDistance = 18 km / 9 km = 2 hours.\nUsing the formula d = d \u00f7 v = time, so the answer is 2.4 hours.\n6 \u00d7 15 = total distance, then solve for time.\n18 /.",
+    "Math word problem format expects a solution walkthrough, likely showing distance = speed \u00d7 time or time = distance \u00f7 speed.\n\nThe arithmetic problem requires a numerical calculation: 18 km / 6 km = 3 hours, so the solution will show the division result.\n\n\"answergonautototototonaut\" is a garbled placeholder for \"answer,\" indicating the next tokens should be the mathematical expression or calculation showing the solution steps, likely \"18 / 9 = 2 hours\" or similar.\nThe final token \"answergonautototototonaut\" is a corrupted placeholder mid-expression, immediately constraining the next content to be the mathematical formula or numerical result.\ndistance = 18 km, time = 9 km.\nusing the formula d = d / s.\nfind time = 18 / 9 = 2 hours.",
+    "Math word problem format expects a numerical solution walkthrough, likely showing distance = 14 km / 6 km = time.\n\nThe problem establishes a distance-time calculation requiring the formula: distance \u00f7 speed = time, so the next content should show the arithmetic or equation.\n\n\"answergotiusiusiusius\" is a garbled placeholder for \"answer,\" indicating the next tokens should be the mathematical solution, likely \"14 km / 9 km = 1.4 hours\" or similar numerical result.\nThe final token is a corrupted placeholder, immediately constraining the next content to be the solution expression or numerical answer.\nThe equation \"14 km = 9 \u00d7 6 miles\" or similar calculation is expected next.\nTime = distance \u00f7 speed = 1.4 hours.\nfind the unknown time.\n14 / 9 = 1.4 hours total travel time.\nusing."
+  ],
+  "input_sha256": "e8fc4095e89cb2ce12cd0b85e0dcb2f2e313775706d7fcaa35616483fd105fb3",
+  "values": [
+    {
+      "quote": "280 miles",
+      "value": "280"
+    },
+    {
+      "quote": "112 mph",
+      "value": "112"
+    },
+    {
+      "quote": "2.5 hours",
+      "value": "2.5"
+    },
+    {
+      "quote": "2.8 hours",
+      "value": "2.8"
+    },
+    {
+      "quote": "96 mph",
+      "value": "96"
+    },
+    {
+      "quote": "18 mph",
+      "value": "18"
+    },
+    {
+      "quote": "27 miles",
+      "value": "27"
+    },
+    {
+      "quote": "27 mph",
+      "value": "27"
+    },
+    {
+      "quote": "1.5 hours",
+      "value": "1.5"
+    },
+    {
+      "quote": "2.75 hours",
+      "value": "2.75"
+    },
+    {
+      "quote": "18 miles",
+      "value": "18"
+    },
+    {
+      "quote": "6 mph",
+      "value": "6"
+    },
+    {
+      "quote": "3 hours",
+      "value": "3"
+    },
+    {
+      "quote": "Answer: 1 0",
+      "value": "1"
+    },
+    {
+      "quote": "Answer: 1 0 Answer is 0",
+      "value": "0"
+    },
+    {
+      "quote": "15 miles",
+      "value": "15"
+    },
+    {
+      "quote": "18 km",
+      "value": "18"
+    },
+    {
+      "quote": "6 km/h",
+      "value": "6"
+    },
+    {
+      "quote": "1.2 hours",
+      "value": "1.2"
+    },
+    {
+      "quote": "9 km",
+      "value": "9"
+    },
+    {
+      "quote": "2 hours",
+      "value": "2"
+    },
+    {
+      "quote": "2.4 hours",
+      "value": "2.4"
+    },
+    {
+      "quote": "14 km",
+      "value": "14"
+    },
+    {
+      "quote": "1.4 hours",
+      "value": "1.4"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and results of explicit arithmetic expressions (like 280/112=2.5) found within the provided descriptions, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"280 miles\",\"value\":280},{\"quote\":\"112 mph\",\"value\":112},{\"quote\":\"2.5 hours\",\"value\":2.5},{\"quote\":\"2.8 hours\",\"value\":2.8},{\"quote\":\"96 mph\",\"value\":96},{\"quote\":\"18 mph\",\"value\":18},{\"quote\":\"27 miles\",\"value\":27},{\"quote\":\"27 mph\",\"value\":27},{\"quote\":\"1.5 hours\",\"value\":1.5},{\"quote\":\"2.75 hours\",\"value\":2.75},{\"quote\":\"18 miles\",\"value\":18},{\"quote\":\"6 mph\",\"value\":6},{\"quote\":\"3 hours\",\"value\":3},{\"quote\":\"Answer: 1 0\",\"value\":1},{\"quote\":\"Answer: 1 0 Answer is 0\",\"value\":0},{\"quote\":\"15 miles\",\"value\":15},{\"quote\":\"18 km\",\"value\":18},{\"quote\":\"6 km/h\",\"value\":6},{\"quote\":\"1.2 hours\",\"value\":1.2},{\"quote\":\"9 km\",\"value\":9},{\"quote\":\"2 hours\",\"value\":2},{\"quote\":\"2.4 hours\",\"value\":2.4},{\"quote\":\"14 km\",\"value\":14},{\"quote\":\"1.4 hours\",\"value\":1.4}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and results of explicit arithmetic expressions (like 280/112=2.5) found within the provided descriptions, excluding years and ordinals.\"}",
+  "prompt_sha256": "7c7133b399ff52176a122c7cca61ca02c080cbce901c3d4bc6dc632436c8066c"
+}

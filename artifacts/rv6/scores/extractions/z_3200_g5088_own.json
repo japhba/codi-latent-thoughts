@@ -1,0 +1,117 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5088",
+  "kind": "own",
+  "descriptions": [
+    "Statistical summary pattern: the text is presenting a specific finding about the 50% threshold, requiring a precise numerical value or conclusion to complete the sentence.\n\nArgumentative momentum: the paragraph is explaining the 50% threshold rule, so the next tokens must complete the factual claim about what happens at that level.\n\nFinal token \"50%.\" ends mid-sentence after \"5 is the 50%.\" \u2014 this is a sentence fragment requiring immediate completion, likely a period or continuation such as \" threshold\" or a clause explaining the significance of that figure.\n\"4\" or a new sentence follows.\n\"4 is the 5\" \u2014 the truncated number \"5\" is the start of a new sentence continuing the threshold comparison, likely \"4\" or \"3\" followed by a result clause.\n\"5 is 39\" or similar list of city pairs with visual data.",
+    "Narrative momentum: the sentence is mid-description of a character's emotional reaction, requiring completion of the quoted dialogue or character detail.\n\nList/summary pattern: the review is cataloguing character reactions and plot points, suggesting more character descriptions or commentary will follow.\n\nFinal token \"7,\" is mid-number (likely \"7,000\" or similar), part of a quoted or paraphrased character description, immediately requiring the remaining digits of the number to complete the figure.\n\"7,\" is an incomplete number mid-sentence, demanding numeric continuation before the sentence concludes.\n\"7,\" rating or a quoted reaction follows.\n\"7,\" is \"67\" or a score, but contextually \"72\" or similar rating is \"67\" \u2014 the sentence structure \"7\" action or analytical 72 days is relationship advice 653 scene 40\" \u2014 political food 7.",
+    "List continuation pattern: the text is mid-sentence listing recipe examples, with \"4\" beginning a number (likely \"48\" or similar count) or a recipe title, requiring completion.\n\nNarrative momentum: the passage is a structured listicle of article summaries, each ending with a brief description or quote, suggesting another recipe detail or closing remark follows.\n\nFinal token \"4\" is the start of an incomplete number or title (e.g., \"48\" or \"4\" as part of a recipe count), immediately requiring numeric continuation or a unit/ingredient reference.\n\"4\" is mid-sentence, likely completing a statistic or recipe count like \"48\" or \"46\" or a page reference.\n\"4\" is \"49\" or \"49.6\" seconds \u2014 historical anecdote or citation context \"8\" advice 58\" \u2014 the truncated \"4.",
+    "List continuation pattern: \"12 tips\" promised, only 8 shown so far, requiring 4 more numbered/bulleted items to complete the list.\n\nNarrative momentum: the article is mid-list, presenting specific actionable advice with examples; the next tokens will continue the \"8 tips\" enumeration with concrete examples.\n\nFinal token \"68\" is a number mid-sentence (\"68\" likely a typo for \"68\"), part of a statistic or example about the article's content count, immediately requiring a noun or continuation of the sentence.\n\"68\" is a truncated number mid-sentence, likely \"68\" or \"120\" list items, demanding a noun phrase or article title to complete the reference.\n\"68\" food list or similar historical count \"88\" social media tips.\n\"12\" recipe count \"68\" question \u2014 time 3.",
+    "Statistical list pattern: article presents ranked data with counts, establishing a pattern of \"X people\" followed by context or comparison.\n\nNews article structure: the text is mid-sentence reporting a specific news story about a Facebook page, requiring completion of the Facebook count figure.\n\nFinal token \"2\" is the start of an incomplete number (likely \"2,000\" or similar), mid-sentence after \"26,384 people,\" requiring digits to complete the count before continuing with source attribution or additional context.\n\"218 people\" or similar publication count.\n\"26,384 people\" or similar list item follows immediately.\n\"218\" or a product/recipe count completing the Facebook page description.\n\"39,12\" or similar news citation format expected regulatory 18,236 visitors \u2014 food 16 people\" art\" social.",
+    "List continuation pattern: the text is mid-sentence listing examples of questions, with \"24\" suggesting a numbered or enumerated answer follows.\n\nFAQ format with question-answer pairs: the structure alternates bold questions with explanatory answers, so another answer or new question is expected next.\n\nThe final token \"24\" ends an incomplete sentence (\"24\" likely a truncated number like \"24 hours\" or a specific count), immediately requiring completion of the time reference or the answer to the \"24\" question.\n\"24\" is a truncated number mid-sentence, likely \"24\" followed by a citation, example, or legal reference completing the answer.\n\"24\" is a truncated timestamp or case example, suggesting \"26\" or contact details follow.\n\"24\" regulatory photo 28 minutes 24\" list 25\" memory\" instruction pattern suggests practical legal."
+  ],
+  "input_sha256": "4a6c52418eb2cf401f4fe6a4220e94c25cbcd5bf5a685197c8734d8b94642e50",
+  "values": [
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "5 is the 50%",
+      "value": "5"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5 is 39",
+      "value": "39"
+    },
+    {
+      "quote": "72 days",
+      "value": "72"
+    },
+    {
+      "quote": "653",
+      "value": "653"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "7.",
+      "value": "7"
+    },
+    {
+      "quote": "49.6",
+      "value": "49.6"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "12 tips",
+      "value": "12"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "26,384",
+      "value": "26384"
+    },
+    {
+      "quote": "218",
+      "value": "218"
+    },
+    {
+      "quote": "39,12",
+      "value": "3912"
+    },
+    {
+      "quote": "18,236",
+      "value": "18236"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50%\",\"value\":50},{\"quote\":\"5 is the 50%\",\"value\":5},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5 is 39\",\"value\":39},{\"quote\":\"72 days\",\"value\":72},{\"quote\":\"653\",\"value\":653},{\"quote\":\"40\",\"value\":40},{\"quote\":\"7.\",\"value\":7},{\"quote\":\"49.6\",\"value\":49.6},{\"quote\":\"8\",\"value\":8},{\"quote\":\"58\",\"value\":58},{\"quote\":\"12 tips\",\"value\":12},{\"quote\":\"68\",\"value\":68},{\"quote\":\"120\",\"value\":120},{\"quote\":\"88\",\"value\":88},{\"quote\":\"3\",\"value\":3},{\"quote\":\"26,384\",\"value\":26384},{\"quote\":\"218\",\"value\":218},{\"quote\":\"39,12\",\"value\":3912},{\"quote\":\"18,236\",\"value\":18236},{\"quote\":\"16\",\"value\":16},{\"quote\":\"24\",\"value\":24},{\"quote\":\"28\",\"value\":28},{\"quote\":\"25\",\"value\":25}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "e043f5431e12b43bd1a485b88bb28a0b810f2212d0d27d055859f5fd3a34628b"
+}

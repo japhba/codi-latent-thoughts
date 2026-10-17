@@ -1,0 +1,269 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5056",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup requiring a numerical solution: equation (x + (x+15)) = 70 demands the answer.\n\nThe problem follows a classic algebra word problem format: total = 70, with two unknowns (first two numbers) summing to 70 minus 15, so the first number must be calculated.\n\nFinal token \"is\" introduces the numerical answer, immediately requiring the integer \"25\" (since (70\u221215)/2 = 25), as the arithmetic solution to (70\u221215)/2 = 25, confirming the first unknown: the two numbers must be 25 and 45.",
+    "Math word problem solution structure: algebraic setup requires equation formation, solving for unknowns (x + y = 70, x = y + 15).\n\nThe arithmetic setup demands: total 70 minus 15 discount = 55 split between two people, so equation (x + y) = 70 \u2212 15 must be completed.\n\nFinal token \"had\" begins the algebraic expression showing the reduced total per person after subtracting the 15 discount, immediately requiring the arithmetic expression like \"70 - 15\" or \"70 - 15\" to represent the combined equation: (70 - 15) / 2 = 25, setting up the equation where each person equals 25.",
+    "Math word problem solution format: algebraic setup requires completing the equation where total sum minus sum of two equal parts equals 150.\n\nThe algebraic expression \"Total = (x + (x - 15))\" is being constructed, leading to solving for x by subtracting 15 from 80 to find each person's amount.\n\nFinal token \"5\" begins the arithmetic expression \"Total possible range: 60 - 15\" or \"55\" (i.e., 80 \u2212 15), completing the equation setup showing the combined total without the 15 extra, yielding \"55\" as the next step showing shared sum: (50/2) = 75, then solving for x.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, requiring algebraic setup and solving.\n\nThe equation setup is mid-explanation: \"Total sum of two numbers is 70\" leads to equation (x + (x\u221220)) = 55, requiring the arithmetic to be completed and solved for each variable.\n\nFinal token \"55\" is the result of subtracting twice the smaller number from 70, representing the combined total of the two brothers' shared remaining ages after removing the middle child \u2014 immediately expects continuation like \"divided by 2\" or \"each\" to complete the arithmetic setup: \"55 pairs of brothers = 55\" to find the shared number, then solve for x.",
+    "Math word problem solution format: structured algebraic walkthrough with variable setup, equation formation, and solving steps.\n\nThe equation setup is mid-solution, having established (x + (x + 15)) = 550, now solving for each person's individual amount by isolating x.\n\nFinal token \"p\" is the start of \"p\" completing \"550 - (x + x + 100)/2 = p\" or similar, representing the arithmetic expression showing half the difference between total minus the gap divided by two, immediately requiring \"15\" to complete the arithmetic expression showing the middle of the range (550 - 130 = 220), then solving for the smaller number.",
+    "Math word problem solution format: each problem follows a structured pattern of setup, equation, and solving steps, now mid-solution for the second problem.\n\nThe equation (x + (x/2) = 74) has been established and simplified to (x + x/3 = 74), requiring the numerical answer to be computed: (74 - 10) / 2 = 27.\n\nFinal token \"25 points.\" closes the arithmetic expression (750 - sum of two equal parts), immediately expecting the solution result stating the smaller number, e.g., \"The smaller number is 27\" or the individual values of each group."
+  ],
+  "input_sha256": "a62883b210d471467c0c4be1ed6b212a2d874da0dbb99f0a1789c0677516ffff",
+  "values": [
+    {
+      "quote": "(x + (x+15)) = 70",
+      "value": "15"
+    },
+    {
+      "quote": "(x + (x+15)) = 70",
+      "value": "70"
+    },
+    {
+      "quote": "total = 70",
+      "value": "70"
+    },
+    {
+      "quote": "70 minus 15",
+      "value": "70"
+    },
+    {
+      "quote": "70 minus 15",
+      "value": "15"
+    },
+    {
+      "quote": "\"25\"",
+      "value": "25"
+    },
+    {
+      "quote": "(70\u221215)/2 = 25",
+      "value": "70"
+    },
+    {
+      "quote": "(70\u221215)/2 = 25",
+      "value": "15"
+    },
+    {
+      "quote": "(70\u221215)/2 = 25",
+      "value": "2"
+    },
+    {
+      "quote": "(70\u221215)/2 = 25",
+      "value": "25"
+    },
+    {
+      "quote": "25 and 45",
+      "value": "25"
+    },
+    {
+      "quote": "25 and 45",
+      "value": "45"
+    },
+    {
+      "quote": "x + y = 70",
+      "value": "70"
+    },
+    {
+      "quote": "x = y + 15",
+      "value": "15"
+    },
+    {
+      "quote": "total 70",
+      "value": "70"
+    },
+    {
+      "quote": "15 discount",
+      "value": "15"
+    },
+    {
+      "quote": "55 split",
+      "value": "55"
+    },
+    {
+      "quote": "(x + y) = 70 \u2212 15",
+      "value": "70"
+    },
+    {
+      "quote": "(x + y) = 70 \u2212 15",
+      "value": "15"
+    },
+    {
+      "quote": "\"70 - 15\"",
+      "value": "70"
+    },
+    {
+      "quote": "\"70 - 15\"",
+      "value": "15"
+    },
+    {
+      "quote": "(70 - 15) / 2 = 25",
+      "value": "70"
+    },
+    {
+      "quote": "(70 - 15) / 2 = 25",
+      "value": "15"
+    },
+    {
+      "quote": "(70 - 15) / 2 = 25",
+      "value": "2"
+    },
+    {
+      "quote": "(70 - 15) / 2 = 25",
+      "value": "25"
+    },
+    {
+      "quote": "equals 150",
+      "value": "150"
+    },
+    {
+      "quote": "(x + (x - 15))",
+      "value": "15"
+    },
+    {
+      "quote": "subtracting 15",
+      "value": "15"
+    },
+    {
+      "quote": "from 80",
+      "value": "80"
+    },
+    {
+      "quote": "60 - 15",
+      "value": "60"
+    },
+    {
+      "quote": "60 - 15",
+      "value": "15"
+    },
+    {
+      "quote": "\"55\"",
+      "value": "55"
+    },
+    {
+      "quote": "80 \u2212 15",
+      "value": "80"
+    },
+    {
+      "quote": "80 \u2212 15",
+      "value": "15"
+    },
+    {
+      "quote": "(50/2) = 75",
+      "value": "50"
+    },
+    {
+      "quote": "(50/2) = 75",
+      "value": "2"
+    },
+    {
+      "quote": "(50/2) = 75",
+      "value": "75"
+    },
+    {
+      "quote": "is 70",
+      "value": "70"
+    },
+    {
+      "quote": "(x + (x\u221220)) = 55",
+      "value": "20"
+    },
+    {
+      "quote": "(x + (x\u221220)) = 55",
+      "value": "55"
+    },
+    {
+      "quote": "\"55\"",
+      "value": "55"
+    },
+    {
+      "quote": "divided by 2",
+      "value": "2"
+    },
+    {
+      "quote": "55 pairs",
+      "value": "55"
+    },
+    {
+      "quote": "(x + (x + 15)) = 550",
+      "value": "15"
+    },
+    {
+      "quote": "(x + (x + 15)) = 550",
+      "value": "550"
+    },
+    {
+      "quote": "550 - (x + x + 100)/2",
+      "value": "550"
+    },
+    {
+      "quote": "550 - (x + x + 100)/2",
+      "value": "100"
+    },
+    {
+      "quote": "550 - (x + x + 100)/2",
+      "value": "2"
+    },
+    {
+      "quote": "\"15\"",
+      "value": "15"
+    },
+    {
+      "quote": "550 - 130 = 220",
+      "value": "550"
+    },
+    {
+      "quote": "550 - 130 = 220",
+      "value": "130"
+    },
+    {
+      "quote": "550 - 130 = 220",
+      "value": "220"
+    },
+    {
+      "quote": "(x + (x/2) = 74)",
+      "value": "2"
+    },
+    {
+      "quote": "(x + (x/2) = 74)",
+      "value": "74"
+    },
+    {
+      "quote": "(x + x/3 = 74)",
+      "value": "3"
+    },
+    {
+      "quote": "(x + x/3 = 74)",
+      "value": "74"
+    },
+    {
+      "quote": "(74 - 10) / 2 = 27",
+      "value": "74"
+    },
+    {
+      "quote": "(74 - 10) / 2 = 27",
+      "value": "10"
+    },
+    {
+      "quote": "(74 - 10) / 2 = 27",
+      "value": "2"
+    },
+    {
+      "quote": "(74 - 10) / 2 = 27",
+      "value": "27"
+    },
+    {
+      "quote": "\"25 points.\"",
+      "value": "25"
+    },
+    {
+      "quote": "750 - sum",
+      "value": "750"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic components from the provided descriptions as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"(x + (x+15)) = 70\",\"value\":15},{\"quote\":\"(x + (x+15)) = 70\",\"value\":70},{\"quote\":\"total = 70\",\"value\":70},{\"quote\":\"70 minus 15\",\"value\":70},{\"quote\":\"70 minus 15\",\"value\":15},{\"quote\":\"\\\"25\\\"\",\"value\":25},{\"quote\":\"(70\\u221215)/2 = 25\",\"value\":70},{\"quote\":\"(70\\u221215)/2 = 25\",\"value\":15},{\"quote\":\"(70\\u221215)/2 = 25\",\"value\":2},{\"quote\":\"(70\\u221215)/2 = 25\",\"value\":25},{\"quote\":\"25 and 45\",\"value\":25},{\"quote\":\"25 and 45\",\"value\":45},{\"quote\":\"x + y = 70\",\"value\":70},{\"quote\":\"x = y + 15\",\"value\":15},{\"quote\":\"total 70\",\"value\":70},{\"quote\":\"15 discount\",\"value\":15},{\"quote\":\"55 split\",\"value\":55},{\"quote\":\"(x + y) = 70 \\u2212 15\",\"value\":70},{\"quote\":\"(x + y) = 70 \\u2212 15\",\"value\":15},{\"quote\":\"\\\"70 - 15\\\"\",\"value\":70},{\"quote\":\"\\\"70 - 15\\\"\",\"value\":15},{\"quote\":\"(70 - 15) / 2 = 25\",\"value\":70},{\"quote\":\"(70 - 15) / 2 = 25\",\"value\":15},{\"quote\":\"(70 - 15) / 2 = 25\",\"value\":2},{\"quote\":\"(70 - 15) / 2 = 25\",\"value\":25},{\"quote\":\"equals 150\",\"value\":150},{\"quote\":\"(x + (x - 15))\",\"value\":15},{\"quote\":\"subtracting 15\",\"value\":15},{\"quote\":\"from 80\",\"value\":80},{\"quote\":\"60 - 15\",\"value\":60},{\"quote\":\"60 - 15\",\"value\":15},{\"quote\":\"\\\"55\\\"\",\"value\":55},{\"quote\":\"80 \\u2212 15\",\"value\":80},{\"quote\":\"80 \\u2212 15\",\"value\":15},{\"quote\":\"(50/2) = 75\",\"value\":50},{\"quote\":\"(50/2) = 75\",\"value\":2},{\"quote\":\"(50/2) = 75\",\"value\":75},{\"quote\":\"is 70\",\"value\":70},{\"quote\":\"(x + (x\\u221220)) = 55\",\"value\":20},{\"quote\":\"(x + (x\\u221220)) = 55\",\"value\":55},{\"quote\":\"\\\"55\\\"\",\"value\":55},{\"quote\":\"divided by 2\",\"value\":2},{\"quote\":\"55 pairs\",\"value\":55},{\"quote\":\"(x + (x + 15)) = 550\",\"value\":15},{\"quote\":\"(x + (x + 15)) = 550\",\"value\":550},{\"quote\":\"550 - (x + x + 100)/2\",\"value\":550},{\"quote\":\"550 - (x + x + 100)/2\",\"value\":100},{\"quote\":\"550 - (x + x + 100)/2\",\"value\":2},{\"quote\":\"\\\"15\\\"\",\"value\":15},{\"quote\":\"550 - 130 = 220\",\"value\":550},{\"quote\":\"550 - 130 = 220\",\"value\":130},{\"quote\":\"550 - 130 = 220\",\"value\":220},{\"quote\":\"(x + (x/2) = 74)\",\"value\":2},{\"quote\":\"(x + (x/2) = 74)\",\"value\":74},{\"quote\":\"(x + x/3 = 74)\",\"value\":3},{\"quote\":\"(x + x/3 = 74)\",\"value\":74},{\"quote\":\"(74 - 10) / 2 = 27\",\"value\":74},{\"quote\":\"(74 - 10) / 2 = 27\",\"value\":10},{\"quote\":\"(74 - 10) / 2 = 27\",\"value\":2},{\"quote\":\"(74 - 10) / 2 = 27\",\"value\":27},{\"quote\":\"\\\"25 points.\\\"\",\"value\":25},{\"quote\":\"750 - sum\",\"value\":750}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic components from the provided descriptions as per instructions.\"}",
+  "prompt_sha256": "0e0a6eadeec501ad33ce20eec7d2e4f004df1aeb28dd801d0eeaeebf17112df0"
+}

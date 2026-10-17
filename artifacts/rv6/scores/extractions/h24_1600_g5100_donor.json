@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question prompt, likely a decimal or whole number.\n\nThe word problem setup (distance 28 miles, speed 30 miles) demands a division calculation: time = distance \u00f7 speed.\n\n\"The time is\" is an incomplete declarative sentence acting as a prompt, immediately requiring a numerical answer (e.g., \"0.9 hours\" or \"0.9 hours\") to complete the solution statement.\n\"28 miles\" / 90 mph = time result.\nThe final token \"is\" opens a copular predicate requiring a numerical value with units (hours), directly answering the question.\n\"2.8 hours\" or similar.\nThe answer must reflect 28 miles \u00f7 90 mph travel time.\nThe problem demands a specific numeric result immediately following.\nThe answer must be a decimal number representing travel duration.",
+    "Math word problem setup requiring a numerical solution, likely involving distance, time, and division.\n\nThe word problem structure demands a calculation answer: \"How many hours will it take to travel 28 miles\" implies a division expression like 28 \u00f7 30.\n\n\"The distance is\" is an incomplete declarative sentence mid-answer, immediately requiring a numerical value or equation (e.g., \"28 miles\" or \"the answer is...\") to complete the solution statement.\nFinal token \"is\" begins a copular predicate requiring a complement \u2014 likely a number or calculation phrase.\n\"28 miles is\" signals the start of the mathematical expression or solution statement.\n calculation context demands the next tokens be a numeric or formulaic expression like \"28 / 30 hours needed.\"\n considering the known speed of 12 miles per hour.\n calculation prompt requires completing the equation.\nThe final token.",
+    "Math word problem format: question posed, now expecting solution steps or answer.\n\nThe pattern \"distance = X miles\" followed by \"How long does it take?\" signals a worked example requiring a formula application (distance \u00f7 speed = time).\n\nFinal token \"Answer: 0 Answer\" suggests a template/placeholder structure; next tokens should provide the actual solution, likely starting with \"The time\" or a calculation like \"1.5 hours\" or \"1.5 hours.\"\nFinal token \"Answer 0 Answer\" is a repeated placeholder, immediately constraining next content to be the mathematical solution steps.\n\"0\" suggests a blank or formatted response field.\nUsing the formula d = v \u00d7 t, solve for t.\nUsing 60 miles / 30 miles = time calculation.\nAnswer: 1.5 hours\" or similar numeric solution.\nHow to find time using distance and speed.",
+    "Math word problem format requires a numerical answer following the question, likely showing calculation steps.\n\nThe problem involves distance = 36 miles, so the solution must use the formula d = v \u00d7 t, with known values substituted.\n\nFinal token \"ans:ans\" is a repeated placeholder/answer marker, immediately constraining the next tokens to be the actual mathematical solution, likely showing time calculation (e.g., \"36 / 30 = 1.2 minutes\" or similar).\n\"ans:1.2\" or similar numeric result is expected next.\nUsing law of proportionality: 36 = 30 \u00d7 t / 30, solving for t.\nTime needed = 1.2 minutes.\nUsing formula t = distance \u00f7 speed, confirming the answer.\n(36/30) \u00d7 1 = 1.2 minutes.\n verification or confirmation statement follows.",
+    "Math word problem format requires a solution walkthrough, likely showing algebraic steps (distance = time \u00d7 speed).\n\nThe problem has established variables: distance (36 km), speed (18 km/h), and time unknown \u2014 the solution must solve for time using these.\n\nFinal token \"answergion\" is a corrupted placeholder for \"answer,\" immediately expecting the mathematical expression or solution steps, likely showing the division formula or equation.\n\"answergion\" signals the answer section header, so next tokens should be the mathematical expression like \"t = 36 / 18 = 2 minutes.\"\nUsing proportionality: 36 = 18 \u00d7 t, solving for t.\nUsing time = distance \u00f7 speed, with units conversion (minutes) expected next.\n(36 \u00d7 1) / 18 = time needed.\n equation or numerical result showing how long.",
+    "Math word problem format requires a solution showing algebraic steps, likely involving distance = time \u00d7 speed.\n\nThe problem has established variables (distance 15 km, time 3 minutes) and demands a numerical answer, so the next content must show the mathematical expression or calculation.\n\nFinal token \"answergun\" is a corrupted placeholder for \"answer,\" immediately constraining the next tokens to be the actual mathematical solution, likely showing the equation or solved result (e.g., \"t = 15 / 3 = 5 minutes\").\nUsing proportionality: 15 = 3 \u00d7 t, solving for t.\nUsing the formula t = distance \u00f7 speed, with units (minutes) expected next.\n(15 / 32) or similar fraction showing time needed.\n(15 \u00d7 8) / 32 = time needed, or directly stating the answer."
+  ],
+  "input_sha256": "4e105cd03b9af3b14b39e480d27eb56b73da42566a0ec7be4ecbfb690afc6b93",
+  "values": [
+    {
+      "quote": "28 miles",
+      "value": "28"
+    },
+    {
+      "quote": "30 miles",
+      "value": "30"
+    },
+    {
+      "quote": "0.9 hours",
+      "value": "0.9"
+    },
+    {
+      "quote": "90 mph",
+      "value": "90"
+    },
+    {
+      "quote": "2.8 hours",
+      "value": "2.8"
+    },
+    {
+      "quote": "12 miles per hour",
+      "value": "12"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "1.5 hours",
+      "value": "1.5"
+    },
+    {
+      "quote": "60 miles",
+      "value": "60"
+    },
+    {
+      "quote": "36 miles",
+      "value": "36"
+    },
+    {
+      "quote": "1.2 minutes",
+      "value": "1.2"
+    },
+    {
+      "quote": "36 km",
+      "value": "36"
+    },
+    {
+      "quote": "18 km/h",
+      "value": "18"
+    },
+    {
+      "quote": "2 minutes",
+      "value": "2"
+    },
+    {
+      "quote": "15 km",
+      "value": "15"
+    },
+    {
+      "quote": "3 minutes",
+      "value": "3"
+    },
+    {
+      "quote": "5 minutes",
+      "value": "5"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"28 miles\",\"value\":28},{\"quote\":\"30 miles\",\"value\":30},{\"quote\":\"0.9 hours\",\"value\":0.9},{\"quote\":\"90 mph\",\"value\":90},{\"quote\":\"2.8 hours\",\"value\":2.8},{\"quote\":\"12 miles per hour\",\"value\":12},{\"quote\":\"0\",\"value\":0},{\"quote\":\"1.5 hours\",\"value\":1.5},{\"quote\":\"60 miles\",\"value\":60},{\"quote\":\"36 miles\",\"value\":36},{\"quote\":\"1.2 minutes\",\"value\":1.2},{\"quote\":\"36 km\",\"value\":36},{\"quote\":\"18 km/h\",\"value\":18},{\"quote\":\"2 minutes\",\"value\":2},{\"quote\":\"15 km\",\"value\":15},{\"quote\":\"3 minutes\",\"value\":3},{\"quote\":\"5 minutes\",\"value\":5},{\"quote\":\"32\",\"value\":32},{\"quote\":\"8\",\"value\":8}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "8970a048b87791f29a8395a473145e80a81559dd10c7c94e4773d9f0ba49fcf9"
+}

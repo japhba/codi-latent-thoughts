@@ -1,0 +1,33 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5043",
+  "kind": "own",
+  "descriptions": [
+    "The text is a structured FAQ/guide about online bingo, following a consistent pattern of question headers followed by detailed answers with specific examples and statistics.\n\nThe document has been systematically answering each FAQ question in sequence; the current answer about \"most popular rooms\" is mid-sentence, requiring completion of the statistic about the 2018 ranking.\n\nThe final token \"1,000\" is mid-sentence within a statistic about the 2018 ranking, immediately requiring a noun phrase completing what ranked first (e.g., \"1,000 rooms\" or \"1,000 rooms in the UK\").\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the \"two women\" theory, requiring completion of the specific claim about the two women's roles or actions.\n\nDomain/genre signals: celebrity gossip/entertainment news style, blending tabloid reporting with speculative narrative about the Kardashian-Jenner family's social media activity.\n\nFinal token \"were\" opens a past-tense predicate clause completing \"the two women were [doing X],\" requiring a verb phrase describing what the two women did, likely referencing the Instagram post or social media activity.\n</explanation>",
+    "The text is a structured casino review following a consistent pattern of describing game features, mechanics, and player experience throughout.\n\nThe review is systematically covering game types (slots, table games, live dealer, video poker), with video poker currently being described \u2014 more detail about video poker mechanics is expected.\n\nThe final token \"should\" is mid-sentence in a conditional clause (\"If you are looking for...should\"), requiring immediate completion with a verb phrase like \"be aware\" or \"know that,\" followed by a caveat about video poker's limitations or requirements.\n</explanation>",
+    "The text is a structured table of contents for a book listing, following a consistent pattern of chapter/section titles with descriptive subtitles.\n\nThe list of book chapters is mid-enumeration, with each entry following \"[Chapter Title] [descriptive subtitle]\" format \u2014 several entries already given, more expected.\n\nThe final token \"most\" ends an incomplete sentence (\"the most\"), part of a chapter description about the 1990s, requiring immediate continuation with a superlative noun phrase (e.g., \"most significant,\" \"most notable\") completing the comparative claim about the decade.\n</explanation>",
+    "Auction catalog format with structured lot descriptions, following a consistent pattern of provenance, dimensions, medium, and estimate details.\n\nThe estimate range pattern established earlier (\"$1,500 to $2,500\") signals a specific dollar figure is expected to complete the current estimate range.\n\nThe final token \"to\" is part of an incomplete estimate range (\"$1,500 to\"), requiring an immediate closing dollar amount (e.g., \"$2,500\" or similar) to complete the standard auction estimate format.\n</explanation>",
+    "The text is a structured table of contents for a book chapter listing, with each entry following a consistent pattern: title, then descriptive paragraph(s).\n\nThe pattern established repeats: chapter title \u2192 descriptive paragraph summarizing content, authors, and key topics covered.\n\nThe final token \"1990s\" ends a sentence fragment mid-thought, part of the \"The First Wave of the Internet\" chapter description, which began with \"The first wave of the internet arrived in the 1990s\" \u2014 the next tokens must complete this sentence, likely continuing with a period or additional clause about the internet's early history.\n</explanation>"
+  ],
+  "input_sha256": "3470abb0fe7720a8ab63c513aaa7634c76747720d490357acdba41ba9e4466a2",
+  "values": [
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "two women",
+      "value": "2"
+    },
+    {
+      "quote": "$1,500",
+      "value": "1500"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals (1,000 and 1,500) and the spelled-out cardinal number 'two' from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"two women\",\"value\":2},{\"quote\":\"$1,500\",\"value\":1500}],\"justification\":\"Extracted explicit numeric literals (1,000 and 1,500) and the spelled-out cardinal number 'two' from the provided descriptions.\"}",
+  "prompt_sha256": "8e1eff688b6e64968ccee66833f764342ab9cecc398b2f9aff49a32c14bc8457"
+}

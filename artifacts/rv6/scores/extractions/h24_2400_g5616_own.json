@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5616",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem solution format requires a numerical answer: total combined eggs = 3+2=5 eggs per week.\n\nWord problem structure demands a specific integer answer, likely \"56\" (3+2=5 eggs combined, 7 days \u00d7 total).\n\nThe final token \"Total is\" is a word problem conclusion prompt, immediately requiring a numeric answer (56) representing the combined weekly egg count.\n(3+2)\u00d77=56 eggs total, so the next token must be the integer \"56\".\n2+3=5 eggs per week, so total eggs combined is 56.\n(3+2)\u00d77=56 eggs, so the total is 56 eggs.\n(7+2)\u00d77=84 eggs total, confirming the answer is 84.\n3+2=5 eggs daily, so total eggs per week is.",
+    "Math word problem solution format: step-by-step arithmetic problem requiring arithmetic summing of 3+2=5.\n\nWord problem context demands the total combined daily consumption calculation, establishing the solution approach.\n\nFinal token \"has\" begins the solution statement, immediately requiring the arithmetic result: \"3+2=5\" or \"5 miles together per day,\" continuing the explanatory sentence structure.\n\"has\" introduces the combined daily total, expecting \"5 miles\" or \"5 miles together\" as the next phrase.\n3+2=5, so the next tokens must state this sum before proceeding to total miles for 6 weeks.\nEach child's daily contribution is being described, so \"2+3=5\" or \"5 miles\" is the immediate expected continuation.\nTotal combined miles: 3+2=5, so the sentence will state \"5 miles per day\" before extending to 6 weeks total.",
+    "Word problem solution format: structured arithmetic problem with word problem followed by step-by-step arithmetic answer.\n\nThe solution requires combining total: \"3 + 2 = 5\" establishes the combined daily consumption, so the next tokens must state \"5 cookies\" and likely state the total daily sum.\n\nFinal token \"5\" is the arithmetic result of the combined expression \"3 + 2 = 5\", immediately requiring \"cookies\" to complete the sentence, likely followed by \"per day\" or \"together\" and a total statement like \"They eat 5 cookies together each week.\"\nThey eat 5 cookies a day together.\"\nFinal token \"5\" is mid-sentence, completing the arithmetic statement about combined daily consumption.\n5 cookies is the expected answer, followed by \"per day\" or \"total.\"\n3 + 2 = 5 cookies together, so the next tokens must complete this sentence before stating.",
+    "Word problem solution format: arithmetic problem with structured answer, expecting a numerical result after the setup.\n\nThe problem establishes two people (7 + 5 = 12) combined daily, so the solution must state \"12 eggs\" or \"12 eggs together.\"\n\nFinal token \"5 p\" ends the arithmetic statement \"7 + 3 = 10 eggs a day,\" immediately requiring the unit \"a day\" or \"per day\" to complete the sentence, followed by the total weekly sum.\nFinal token \"5 p\" is mid-sentence, completing the combined daily consumption statement, requiring \"a day\" to close the phrase before stating the total.\n5 p = 7 + 8 = 15 eggs together, so the next tokens must state \"15 eggs a day\" or \"They eat 5 eggs together daily.\"\n5 + 3 = 8 eggs per family.",
+    "Word problem solution format: arithmetic problem with structured answer, expecting calculation steps and final result.\n\nThe problem establishes combined daily consumption (5+4=9), so the next tokens must state the total eggs: \"9 eggs per week.\"\n\nFinal token \"s. 7 eggs.\" ends the combined daily egg count statement (\"5 + more than 4 = 9 eggs\"), immediately requiring the arithmetic answer: \"9 eggs a week\" or \"The total number of eggs is 91.\"\nFinal token \"pounds.\" ends the combined egg count expression, immediately requiring the multiplication expression \"7 + 4 = 11 pounds\" or the total sum statement.\nFinal token \"s.\" is part of the phrase \"5 + more than 4 = 9 eggs a day. 5 + 4 = 9 eggs a week.\" \u2014 the next tokens must state the weekly total consumption.",
+    "Word problem format with structured solution: a question is posed, followed by a worked example, then a general question \u2014 the pattern demands a numerical answer follows.\n\nThe arithmetic problem requires combining daily and weekly counts: 4+3=7, so the solution must state \"7 eggs\" as the total.\n\nFinal token \"problem.\" closes the word problem prompt (\"How many eggs do you eat each day?\"), immediately expecting the solution section header or direct answer: \"7 eggs a week.\"\nFinal token \"problem.\" ends the question stem defining combined daily arithmetic (4+3=7), so next tokens must provide the solution: \"The total number of eggs eaten is 7 eggs per week.\"\n\"Total eggs per week\" is the expected label, followed by the multiplication expression and numerical result.\n5+3+ = daily total, then weekly total calculation.\n7 days \u00d7 5 = 35."
+  ],
+  "input_sha256": "d40c9cd6b93583ef1d13147d3b43cdb0120c4c243cd0f01850f33871d8361b4a",
+  "values": [
+    {
+      "quote": "3+2=5",
+      "value": "3"
+    },
+    {
+      "quote": "3+2=5",
+      "value": "2"
+    },
+    {
+      "quote": "3+2=5",
+      "value": "5"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "(7+2)\u00d77=84",
+      "value": "84"
+    },
+    {
+      "quote": "6 weeks",
+      "value": "6"
+    },
+    {
+      "quote": "7 + 5 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "7 + 3 = 10",
+      "value": "10"
+    },
+    {
+      "quote": "7 + 8 = 15",
+      "value": "15"
+    },
+    {
+      "quote": "8 eggs per family",
+      "value": "8"
+    },
+    {
+      "quote": "5+4=9",
+      "value": "4"
+    },
+    {
+      "quote": "5+4=9",
+      "value": "9"
+    },
+    {
+      "quote": "91",
+      "value": "91"
+    },
+    {
+      "quote": "7 + 4 = 11",
+      "value": "11"
+    },
+    {
+      "quote": "4+3=7",
+      "value": "7"
+    },
+    {
+      "quote": "7 days \u00d7 5 = 35",
+      "value": "35"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3+2=5\",\"value\":3},{\"quote\":\"3+2=5\",\"value\":2},{\"quote\":\"3+2=5\",\"value\":5},{\"quote\":\"56\",\"value\":56},{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"(7+2)\\u00D77=84\",\"value\":84},{\"quote\":\"6 weeks\",\"value\":6},{\"quote\":\"7 + 5 = 12\",\"value\":12},{\"quote\":\"7 + 3 = 10\",\"value\":10},{\"quote\":\"7 + 8 = 15\",\"value\":15},{\"quote\":\"8 eggs per family\",\"value\":8},{\"quote\":\"5+4=9\",\"value\":4},{\"quote\":\"5+4=9\",\"value\":9},{\"quote\":\"91\",\"value\":91},{\"quote\":\"7 + 4 = 11\",\"value\":11},{\"quote\":\"4+3=7\",\"value\":7},{\"quote\":\"7 days \\u00D7 5 = 35\",\"value\":35}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "8552a76d41e22e543268a4e50af936cb425b2370075f7250a0ec73be08e91538"
+}

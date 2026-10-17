@@ -1,0 +1,145 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5146",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating structure of \"city name + rank + statistic.\"\n\nThe sentence ending mid-statistic (\"The city of Chicago is the 1st most populated city in the United States\") mirrors the earlier Chicago entry, suggesting a parallel continuation with a city name or ranking detail.\n\nFinal token \"5th\" is part of an incomplete sentence listing Chicago's ranking, immediately requiring a noun phrase like \"most populated city in the United States\" or similar superlative descriptor to complete the parallel structure.\n\"5th\" is a truncated ordinal mid-sentence, demanding a city name or ranking descriptor to follow.\n\"5 is 2nd\" or a city name completing the list pattern.\n\"3rd\" or \"4th\" ranking context suggests the next token continues the safety ranking list or transitions to a new statistic.\n\"2.",
+    "List continuation pattern: the text is mid-sentence listing character names with actor names in parentheses, e.g., \"John (John C. Reilly),\" establishing a repeating format.\n\nStructured list momentum: the \"Other Cast Members\" section has begun enumerating characters with actor credits, implying more entries or a closing summary follows.\n\nFinal token \"300,\" is mid-number (likely \"300\" or a larger figure like \"300 pages\"), part of a sentence describing a book's page count or content, requiring a number or unit to complete the quantity.\n\"300\" or a time reference like \"300 pages\" or character count.\n\"300\" rating or a numeric continuation of the relationship advice list.\n\"3\" is 41, 300 \u2014 the film's 316 minutes or a character rating \"65 days\".",
+    "List continuation pattern: numbered/bulleted tips format established, with \"10 Ways\" promised but only 4 shown so far, requiring more numbered items.\n\nContent expectation: the article promised \"10 Ways to Stay Grounded,\" and the list is mid-sequence, so additional numbered tips (5\u201310) are expected next.\n\nFinal token \"10\" is a truncated number mid-sentence (\"100\" or a date like \"100 days\"), immediately requiring numeric completion or a unit/timeframe to finish the dating advice sentence.\n\"100\" or a similar quantity completing the phrase \"10\" list item.\n\"100\" or a price/number completing the dating advice section.\n\"10\" diet schedule or similar instruction follows \"100\" \u2014 the list health rating \"20\" or contact number completes the marriage duration advice \"1.",
+    "List continuation pattern: the text is mid-answer to a numbered question, providing a specific statistic (\"60 percent\") that requires completion with a source or context.\n\nFAQ format established: question-answer pairs with detailed responses, suggesting the answer will conclude with a source citation or brief elaboration.\n\nFinal token \"60\" is an incomplete statistic mid-sentence, immediately requiring a noun or continuation (e.g., \"60 percent\" or \"60% of...\") to complete the answer about the article's age.\n\"60\" is the start of a percentage figure or article title reference.\n\"600\" or a year like \"200\" or social media platform reference.\n\"60\" list item or age-related advice completing the question's answer.\n\"200\" or \"50\" membership age milestone \u2014 the humorous \"46\" quote or article title \"6.",
+    "Statistical summary pattern: article presents survey data with percentages, establishing a pattern of reporting specific figures like \"40 percent\" and \"10 percent.\"\n\nThe sentence structure \"40 percent of the 200 people surveyed\" sets up a complete factual claim requiring a concluding clause or additional detail about the survey's scope or methodology.\n\nFinal token \"20\" is mid-number, part of \"20,000\" or similar large figure, completing the count of people surveyed; next tokens must finish this number before continuing the sentence.\n\"20,034\" or similar product count.\n\"28 people\" or a professional reference completing the question.\n\"43\" or \"261\" recipe count or similar disclosure detail follows \"38,1\" \u2014 the \"160,0 people\" statistic is \"29.4%\" \u2014 the social food.",
+    "Numbered list pattern: question 1 is complete; question 2 is mid-sentence, requiring continuation of the same format (answer expected after).\n\nFAQ structure with detailed answers: each question is followed by a multi-sentence explanation, so a substantive answer about the Bible verse is expected next.\n\nFinal token \"20\" ends an incomplete question (\"20 years old\"), part of a numbered FAQ entry; the next tokens must complete the question and then provide a detailed answer about the verse's meaning.\n\"20\" is the truncated age reference, immediately requiring the question mark and then instructional content.\n\"20\" is the final token of an incomplete question, demanding \"300\" or similar continuation of the numbered religious instruction.\n\"245\" legal/relationship 163 30.25 steps \u2014 the plot 163 is 205 food\"."
+  ],
+  "input_sha256": "e77120242171c6d9fde63e994ead3c7e0fde130d692b5e9e831e87063778c560",
+  "values": [
+    {
+      "quote": "1st",
+      "value": "1"
+    },
+    {
+      "quote": "5th",
+      "value": "5"
+    },
+    {
+      "quote": "2.",
+      "value": "2"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "316",
+      "value": "316"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "6.",
+      "value": "6"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "20,034",
+      "value": "20034"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "43",
+      "value": "43"
+    },
+    {
+      "quote": "261",
+      "value": "261"
+    },
+    {
+      "quote": "38,1",
+      "value": "381"
+    },
+    {
+      "quote": "160,0",
+      "value": "1600"
+    },
+    {
+      "quote": "29.4%",
+      "value": "29.4"
+    },
+    {
+      "quote": "245",
+      "value": "245"
+    },
+    {
+      "quote": "163",
+      "value": "163"
+    },
+    {
+      "quote": "30.25",
+      "value": "30.25"
+    },
+    {
+      "quote": "205",
+      "value": "205"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, ordinals, and decimals from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1st\",\"value\":1},{\"quote\":\"5th\",\"value\":5},{\"quote\":\"2.\",\"value\":2},{\"quote\":\"300\",\"value\":300},{\"quote\":\"3\",\"value\":3},{\"quote\":\"41\",\"value\":41},{\"quote\":\"316\",\"value\":316},{\"quote\":\"65\",\"value\":65},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4\",\"value\":4},{\"quote\":\"100\",\"value\":100},{\"quote\":\"20\",\"value\":20},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"200\",\"value\":200},{\"quote\":\"50\",\"value\":50},{\"quote\":\"46\",\"value\":46},{\"quote\":\"6.\",\"value\":6},{\"quote\":\"40\",\"value\":40},{\"quote\":\"20,034\",\"value\":20034},{\"quote\":\"28\",\"value\":28},{\"quote\":\"43\",\"value\":43},{\"quote\":\"261\",\"value\":261},{\"quote\":\"38,1\",\"value\":38.1},{\"quote\":\"160,0\",\"value\":160.0},{\"quote\":\"29.4%\",\"value\":29.4},{\"quote\":\"245\",\"value\":245},{\"quote\":\"163\",\"value\":163},{\"quote\":\"30.25\",\"value\":30.25},{\"quote\":\"205\",\"value\":205}],\"justification\":\"Extracted explicit numeric literals, ordinals, and decimals from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "9641e9fb1f85b6d1b6bd20db5024a821ff8f0751a6e772e942511af344b8ca68"
+}

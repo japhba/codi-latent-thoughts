@@ -1,0 +1,129 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5146",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text consistently pairs country names with specific numeric data (e.g., \"19th most popular,\" \"1st most popular,\" \"2nd most popular\"), so a continuation of this ranking format is expected.\n\nContinuation of the descriptive sentence about the film's performance metrics, likely listing country-specific or comparative figures with explanatory context.\n\nFinal token \"is\" opens a predicate clause mid-sentence, directly requiring a numeric value or comparative descriptor (e.g., \"2 is\" or a specific number like \"50 times\") to complete the hazard rating statistic.",
+    "Character description pattern: text is listing traits of each friend, establishing a rhythm of name, relationship, and personal qualities.\n\nContinuation of the \"300\" series: the author is mid-sentence describing a romantic pairing, with \"300\" likely being a film title, and the personal reflection on the relationship's qualities is expected to continue.\n\nFinal token \"300,\" ends a clause mid-thought after \"300 was 300,\" \u2014 the comma signals continuation; \"300 is 300\" suggests a list or elaboration of personal qualities, and \"1300 was 300\" likely continues with a time reference; the next tokens will complete the 40-day dating detail and then describe the author's character traits or the film's emotional impact.",
+    "Q&A format with expert advice pattern: each question answered with specific actionable steps, continuing a structured list of tips for dating advice.\n\nPractical health/dietary guidance momentum: the response is mid-answer, providing sequential advice steps; the pattern suggests more numbered or time-based follow-up questions (e.g., \"How long...?\") are expected after this section concludes.\n\nFinal token \"10\" is part of an incomplete time duration (\"10 days,\" \"10 days,\" or similar), mid-sentence within a conditional advice clause (\"If you have a few days...\"), immediately requiring a number or unit to complete the duration, likely \"20 days\" or \"10 days\" \u2014 but \"10\" already appeared, so next tokens likely continue with relationship advice or follow-up question.",
+    "Q&A format with expert responses: the text follows a structured medical Q&A pattern, with questions posed then answered by Dr. Edelman, establishing strong continuation expectations.\n\nThe answer is mid-explanation, elaborating on the specific question about advice-giving to religious parents; the argument builds toward practical guidance on professional standards and recommendations.\n\nFinal token \"200\" is part of an incomplete statistic (\"50 per cent...100\"), likely continuing with \"years\" or completing \"60 per cent\" advice \u2014 the sentence is mid-clause, requiring completion of the expert's specific numerical reasoning about the 40-year-old physician's age, then \"100\" likely continues as \"50 questions\" or similar; the next tokens must complete this expert's answer with medical reasoning.",
+    "Statistical/numerical continuation: study findings being presented with specific percentages (23%, 24%, 20%), suggesting more demographic breakdowns or fraud-related data follows.\n\nNarrative momentum toward medical disclosure: the article builds toward revealing the fraud's scope, with legal/clinical context establishing why the study matters \u2014 next expected content is the doctor's identity or personal health details.\n\nFinal token \"23,043 people\" completes a restatement of the study's subject count; \"23,043 people, or 24.3% of 234 people\" signals a correction/clarification mid-sentence, and \"34 people\" is the corrected figure \u2014 the next tokens must complete the corrected statistic, likely \"2,500 people\" or a percentage completing the fraud prevalence claim.",
+    "Structured Q&A format with theological analysis: each section answers a specific question about church law, moving from scripture to application to procedural steps.\n\nLegal/procedural momentum: the analysis has covered the church's reasoning and is now detailing the specific legal question; the answer is mid-explanation, building toward completing the procedural breakdown of the church's reasoning.\n\nFinal token \"200:15\" ends a sentence fragment describing the church's 15th question; \"200.13 was 15.5\" signals a numerical error mid-sentence; the next tokens must complete \"200.13 was 14.5\" and then continue explaining the 29th meeting's 250 pages; \"135 pages\" likely continues the procedural narrative about the 7.5-year timeline."
+  ],
+  "input_sha256": "3c3430273632ad2f116e263a8b943ede39231d442e44e8af433f7aaf69c5a084",
+  "values": [
+    {
+      "quote": "50 times",
+      "value": "50"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "1300",
+      "value": "1300"
+    },
+    {
+      "quote": "40-day",
+      "value": "40"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20 days",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "50 per cent",
+      "value": "50"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "60 per cent",
+      "value": "60"
+    },
+    {
+      "quote": "40-year-old",
+      "value": "40"
+    },
+    {
+      "quote": "50 questions",
+      "value": "50"
+    },
+    {
+      "quote": "23%",
+      "value": "23"
+    },
+    {
+      "quote": "24%",
+      "value": "24"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "23,043 people",
+      "value": "23043"
+    },
+    {
+      "quote": "24.3%",
+      "value": "24.3"
+    },
+    {
+      "quote": "234 people",
+      "value": "234"
+    },
+    {
+      "quote": "34 people",
+      "value": "34"
+    },
+    {
+      "quote": "2,500 people",
+      "value": "2500"
+    },
+    {
+      "quote": "200:15",
+      "value": "200.15"
+    },
+    {
+      "quote": "200.13",
+      "value": "200.13"
+    },
+    {
+      "quote": "15.5",
+      "value": "15.5"
+    },
+    {
+      "quote": "14.5",
+      "value": "14.5"
+    },
+    {
+      "quote": "250 pages",
+      "value": "250"
+    },
+    {
+      "quote": "135 pages",
+      "value": "135"
+    },
+    {
+      "quote": "7.5-year",
+      "value": "7.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and hyphenated quantities from the provided descriptions, representing fractions as decimals and percentages as their numeric values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50 times\",\"value\":50},{\"quote\":\"300\",\"value\":300},{\"quote\":\"1300\",\"value\":1300},{\"quote\":\"40-day\",\"value\":40},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20 days\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"50 per cent\",\"value\":50},{\"quote\":\"100\",\"value\":100},{\"quote\":\"60 per cent\",\"value\":60},{\"quote\":\"40-year-old\",\"value\":40},{\"quote\":\"50 questions\",\"value\":50},{\"quote\":\"23%\",\"value\":23},{\"quote\":\"24%\",\"value\":24},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"23,043 people\",\"value\":23043},{\"quote\":\"24.3%\",\"value\":24.3},{\"quote\":\"234 people\",\"value\":234},{\"quote\":\"34 people\",\"value\":34},{\"quote\":\"2,500 people\",\"value\":2500},{\"quote\":\"200:15\",\"value\":200.15},{\"quote\":\"200.13\",\"value\":200.13},{\"quote\":\"15.5\",\"value\":15.5},{\"quote\":\"14.5\",\"value\":14.5},{\"quote\":\"250 pages\",\"value\":250},{\"quote\":\"135 pages\",\"value\":135},{\"quote\":\"7.5-year\",\"value\":7.5}],\"justification\":\"Extracted explicit numeric literals, percentages, and hyphenated quantities from the provided descriptions, representing fractions as decimals and percentages as their numeric values.\"}",
+  "prompt_sha256": "9bf729269f6e14a6a7e88476e3f43c2e4610179973cd1aefe19f9dc247fd1aa4"
+}

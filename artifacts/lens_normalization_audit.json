@@ -1,0 +1,61 @@
+{
+  "positions_per_column": 1200,
+  "correct_n": 973,
+  "counts_by_position": {
+    "top1_changed": [
+      1200,
+      252,
+      286,
+      337,
+      638,
+      849,
+      1200
+    ],
+    "top5_set_changed": [
+      1200,
+      1040,
+      1090,
+      976,
+      1131,
+      1187,
+      1200
+    ],
+    "correct_answer_digit_top1": [
+      0,
+      969,
+      132,
+      21,
+      7,
+      8,
+      2
+    ],
+    "double_norm_answer_digit_top1": [
+      0,
+      798,
+      107,
+      20,
+      4,
+      9,
+      0
+    ],
+    "correct_answer_digit_top5": [
+      15,
+      973,
+      267,
+      189,
+      29,
+      30,
+      6
+    ],
+    "double_norm_answer_digit_top5": [
+      0,
+      860,
+      296,
+      234,
+      25,
+      19,
+      0
+    ]
+  },
+  "note": "Same checkpoint head for both conditions: this isolates the second-normalization bug."
+}

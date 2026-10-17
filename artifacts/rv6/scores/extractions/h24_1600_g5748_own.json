@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5748",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem solution format requires a numerical answer following the algebraic setup.\n\nThe equation x + 5x = 56 establishes a simple algebraic solution: x = 56 / (1+8) = 4, so the answer must be a specific integer.\n\nFinal token \"is\" completes \"The smaller number is,\" directly requiring the numerical answer \"4\" (or \"4 years old\") as the immediate next token, completing the solution statement.\n50.\nThe constraint that x + 1x = 50 and x must be integer means the next token must be the integer solution.\n50 / (1+8) = 4, confirming the answer.\nThe smaller number equals 4/11 of 50, confirming the integer result.\nSince 1/8 ratio means 50 divided by 11 plus 8 equals the smaller number.",
+    "Math word problem solution format: algebraic equation solving step-by-step, requiring variable equation setup.\n\nThe equation x + 8x = 88 must be solved; the solution is building toward expressing x = (8x + 1)/8.\n\nFinal token \"has\" begins a clause explaining the equation's relationship to total parts, immediately requiring a mathematical expression like \"8 parts\" or \"1 + x = total equation\" describing the division relationship between x and 8.\n8x + 1 = equation representing total parts, establishing the equation x/8 + 1 = 1.\nThe equation x + 1 = 8 times the fraction, so next tokens must complete the mathematical breakdown showing the equation representing equal parts.\n8x + 1 = 10 parts total, so equation x/8 + 1 = 1 times the remaining parts.",
+    "Math word problem solution format: structured algebraic reasoning with variable setup, equation formation, and solving steps.\n\nThe equation x + 8x = 180 has been stated, and the solution is now explaining the algebraic reasoning about total parts, requiring completion of the equation breakdown.\n\nFinal token \"9\" is the sum of 1x + 8x = 9 parts, mid-sentence in a justification clause; next tokens must complete \"9 parts\" and then solve for x, e.g., \"parts equal to 180\" or \"times the number of red balls.\"\nFinal token \"9\" begins the equation \"9x = 9,\" requiring immediate continuation like \"times the number of balls\" or \"parts total\" to complete the logical explanation.\nThere are 9 parts total ratio reasoning: 1x + x = 9x, establishing that each part.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, expecting equation completion.\n\nThe equation x + 5x = 56 has been set up and solved; the solution is mid-explanation, requiring the numerical result (x = 14) to be stated.\n\nFinal token \"p\" is part of \"total number of parts = 96/total = p\", mid-sentence, immediately requiring the integer result \"14\" or \"1/14\" to complete the division expression showing the integer solution.\nFinal token \"p\" is the start of the integer conclusion of the equation solving x = (50+5x)/12, constrained to yield \"10\" as the integer answer confirming 50 total parts.\n50 = total number of possible integer solutions, completing the division expression showing equal parts.",
+    "Structured math word problem solution pattern: each step follows \"Let's solve for X\" format, with algebraic reasoning and verification.\n\nThe solution is mid-calculation, having set up x + 2x = 13, now solving for x using division.\n\nFinal token \"13.6s. 9.\" ends the division result, immediately requiring the conclusion of the integer approximation (e.g., \"so x \u2248 9\") and likely confirmation that 9 people is the integer solution.\nFinal token \"6s. 11.\" is mid-sentence stating the approximate integer result, requiring completion of the explanation about fractional people being impossible.\nFinal token \"5.\" ends the algebraic reasoning about fractional solution, immediately constraining next tokens to explain the approximate integer answer (e.g., \"Therefore, the number of boys is 9\").\nFinal token \"11.\" concludes the.",
+    "Math word problem solution format: structured Q&A pattern with question, answer, and explanation sections established throughout.\n\nThe algebraic equation x + 2x = 11 has been solved via approximation, and the narrative now requires stating the integer answer (x \u2248 3) and confirming it.\n\nFinal token \"problem.\" closes the approximation explanation sentence, immediately requiring the conclusion stating the integer solution, likely \"The smaller number is 3 people\" or similar confirmation of the integer result.\nFinal token \"problem.\" ends the iterative approximation reasoning, constraining next tokens to a concluding statement identifying the integer count of balls.\nFinal token \"problem.\" closes the mathematical reasoning about fractional approximation narrowing to integer solutions.\nFinal token \"problem.\" ends the iterative equation-solving narrative, immediately expecting the confirmed integer answer for balls in smaller group.\nFinal token \"problem.\" concludes the approximation discussion about fractional equality between two equations."
+  ],
+  "input_sha256": "f51f8765a21c956c39d76d07d31381059bb89d3b93592e150cd08c9226296887",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "1+8",
+      "value": "9"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "1x",
+      "value": "1"
+    },
+    {
+      "quote": "4/11",
+      "value": "0.363636"
+    },
+    {
+      "quote": "1/8",
+      "value": "0.125"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "8x",
+      "value": "8"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "96",
+      "value": "96"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "2x",
+      "value": "2"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "13.6",
+      "value": "13.6"
+    },
+    {
+      "quote": "11.",
+      "value": "11"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each value is represented once with its shortest corresponding quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"56\",\"value\":56},{\"quote\":\"1+8\",\"value\":9},{\"quote\":\"4\",\"value\":4},{\"quote\":\"50\",\"value\":50},{\"quote\":\"1x\",\"value\":1},{\"quote\":\"4/11\",\"value\":0.36363636363636365},{\"quote\":\"1/8\",\"value\":0.125},{\"quote\":\"11\",\"value\":11},{\"quote\":\"8x\",\"value\":8},{\"quote\":\"88\",\"value\":88},{\"quote\":\"1\",\"value\":1},{\"quote\":\"10\",\"value\":10},{\"quote\":\"180\",\"value\":180},{\"quote\":\"9\",\"value\":9},{\"quote\":\"14\",\"value\":14},{\"quote\":\"96\",\"value\":96},{\"quote\":\"12\",\"value\":12},{\"quote\":\"2x\",\"value\":2},{\"quote\":\"13\",\"value\":13},{\"quote\":\"13.6\",\"value\":13.6},{\"quote\":\"11.\",\"value\":11},{\"quote\":\"3\",\"value\":3}],\"justification\":\"Extracted all distinct numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each value is represented once with its shortest corresponding quote.\"}",
+  "prompt_sha256": "36cf88be8dc56f4475153567849bed71a487e1f3cada135eaf9488b940cba8b5"
+}

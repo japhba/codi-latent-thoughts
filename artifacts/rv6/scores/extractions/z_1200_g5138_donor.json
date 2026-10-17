@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5138",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/academic reporting pattern: study findings presented with specific percentages and named researchers, expecting continuation of findings or methodology details.\n\nNarrative momentum of the study description: the text is mid-sentence summarizing visual content of the study, with the film's results being enumerated \u2014 more findings or elaboration on the visual evidence expected.\n\nFinal token \"is\" opens a predicate completing the sentence about the film's hazard rating; \"50 is\" likely continues with a comparative or descriptive qualifier (e.g., \"higher than,\" \"associated with,\" or a numerical value completing the hazard assessment).",
+    "Narrative momentum: the text is mid-sentence describing the emotional scene, building toward completing the character analysis of the narrator's reaction to the wedding.\n\nContinuation of the specific detail: the author is explaining the wedding's emotional impact, having just introduced the friend's advice about the wedding's role, now elaborating on personal backstory and reasoning.\n\nFinal token \"24,\" is mid-clause (\"24,000 was 24\"), part of a numerical explanation about the friend's 232 \u2014 the sentence requires completing \"232 was 24,000\" or similar, then continuing the 24-hour timeline of the narrator's emotional state; \"278\" suggests a calculation or continuation of the 1968\u20132016 relationship duration narrative.",
+    "Q&A format with spiritual/health advice pattern: each question answered with personal narrative, practical tips, and specific details about the recipe.\n\nNarrative momentum of the cooking story: the author is recounting a personal memory of the dish, building toward a concrete sensory or temporal detail about the experience.\n\nFinal token \"4\" is mid-sentence, part of a time-based calculation (\"4.8 hours\" or similar), completing \"about 49 days\" \u2014 the sentence \"it took about 48 hours\" is likely intended; \"4.5\" or continuing the math of 49 days, but most immediately \"48\" \u2014 the next token completes this time reference, likely \"5 days\" or a fraction continuing the memory of the 4.8 hours of pain-free eating.",
+    "Q&A format with expert responses: each question is followed by a detailed answer, establishing a pattern of medical/health advice with specific recommendations.\n\nTheological/religious framing: the answer addresses gender-specific health questions, with the doctor's response expected to continue with professional medical reasoning and practical guidance.\n\nFinal token \"88\" is mid-sentence, completing \"68\" as part of a statistic (\"88 years old\"), then pivoting to the doctor's question about age \u2014 \"58 questions\" \u2014 immediately requiring continuation of the doctor's reasoning about the 68-year-old physician's advice, likely \"years old\" or a specific age-related question count, then \"18\" completing \"68\" \u2014 the next tokens must finish the interrupted enumeration of the doctor's professional experience.",
+    "Narrative momentum: statistical crime report building toward revealing the fraud's scale, with the study's findings being progressively revealed \u2014 the next detail continues this disclosure.\n\nInvestigative news article pattern: legal/financial fraud context expects disclosure of victim count, charges, or fraud details to follow the established pattern of revealing insider information.\n\nFinal token \"23 people\" completes a statistic mid-sentence (\"3,234 people, but only 23 people\"), with \"23 people\" representing the human victims; the sentence requires completion explaining the 13.4% figure's meaning \u2014 likely \"300,000 percent\" or a percentage \u2014 followed by \"were victims\" or similar clarifying phrase, then the 1,439 customers statistic needs its explanatory clause.",
+    "Legal case analysis pattern: religious case narrative building toward legal reasoning, with the priest's defense argument being developed step-by-step.\n\nReligious/psychological framing: the priest's defense hinges on the church's legal reasoning, with the question of whether the priest's mistake was accidental \u2014 the answer requires explaining the procedural/legal basis.\n\nFinal token \"1.500\" is mid-sentence, completing \"40.5 minutes was 1.400\" \u2014 the sentence continues with the church's calculated 60% reduction, then \"1.500\" introduces the next procedural step; \"3.8 days\" likely continues the reduction calculation; \"54 days\" follows, completing the 24-hour reduction sequence; the 60% finding now requires explanation of what happened next."
+  ],
+  "input_sha256": "2d18a6f63989d131aa9d6ea2482830604f9a2b787f8af5b2fe905316194f0fb8",
+  "values": [
+    {
+      "quote": "50 is",
+      "value": "50"
+    },
+    {
+      "quote": "24,000",
+      "value": "24000"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "232",
+      "value": "232"
+    },
+    {
+      "quote": "278",
+      "value": "278"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "4.8",
+      "value": "4.8"
+    },
+    {
+      "quote": "49",
+      "value": "49"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "23 people",
+      "value": "23"
+    },
+    {
+      "quote": "3,234",
+      "value": "3234"
+    },
+    {
+      "quote": "13.4%",
+      "value": "13.4"
+    },
+    {
+      "quote": "300,000",
+      "value": "300000"
+    },
+    {
+      "quote": "1,439",
+      "value": "1439"
+    },
+    {
+      "quote": "1.500",
+      "value": "1.5"
+    },
+    {
+      "quote": "40.5",
+      "value": "40.5"
+    },
+    {
+      "quote": "1.400",
+      "value": "1.4"
+    },
+    {
+      "quote": "60%",
+      "value": "60"
+    },
+    {
+      "quote": "3.8",
+      "value": "3.8"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and decimals from the provided descriptions as requested, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50 is\",\"value\":50},{\"quote\":\"24,000\",\"value\":24000},{\"quote\":\"24\",\"value\":24},{\"quote\":\"232\",\"value\":232},{\"quote\":\"278\",\"value\":278},{\"quote\":\"4\",\"value\":4},{\"quote\":\"4.8\",\"value\":4.8},{\"quote\":\"49\",\"value\":49},{\"quote\":\"48\",\"value\":48},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"5\",\"value\":5},{\"quote\":\"88\",\"value\":88},{\"quote\":\"68\",\"value\":68},{\"quote\":\"58\",\"value\":58},{\"quote\":\"18\",\"value\":18},{\"quote\":\"23 people\",\"value\":23},{\"quote\":\"3,234\",\"value\":3234},{\"quote\":\"13.4%\",\"value\":13.4},{\"quote\":\"300,000\",\"value\":300000},{\"quote\":\"1,439\",\"value\":1439},{\"quote\":\"1.500\",\"value\":1.5},{\"quote\":\"40.5\",\"value\":40.5},{\"quote\":\"1.400\",\"value\":1.4},{\"quote\":\"60%\",\"value\":60},{\"quote\":\"3.8\",\"value\":3.8},{\"quote\":\"54\",\"value\":54}],\"justification\":\"Extracted explicit numeric literals, percentages, and decimals from the provided descriptions as requested, excluding years and ordinals.\"}",
+  "prompt_sha256": "9b90fb1729209dca26fd812ae81d801bc2102e590e06fd5e97693149294e3d2e"
+}

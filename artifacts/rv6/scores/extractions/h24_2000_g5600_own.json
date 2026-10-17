@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5600",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 3 rows \u00d7 5 books = 150 total books.\n\nThe multiplication expression \"5 \u00d7 20 \u00d7 3\" must be computed and expressed as a specific integer.\n\nThe final token \"is\" completes a word problem setup sentence, immediately requiring the numerical answer \"1500\" (or \"1500 books\") to follow.\n20 \u00d7 5 \u00d7 3 = 1500 capacity calculation.\n20 books \u00d7 3 levels \u00d7 5 columns = 150 books total.\n(20\u00d75\u00d73) = 150, so the next token is the number \"150\" completing the product.\n20 \u00d7 3 levels \u00d7 5 columns = capacity of the shelf.\n\"20 \u00d7 5 \u00d7 3 = 150 possible combinations\".",
+    "Math word problem requiring arithmetic calculation: 3 rows \u00d7 20 books = 60 books, then 3 rows \u00d7 5 books.\n\nStep-by-step solution structure: the explanation is walking through multiplication sequentially, so the next step is computing 20 \u00d7 3 = 60 books per box.\n\nFinal token \"has\" begins a mathematical statement mid-sentence, immediately requiring the multiplication result or expression, e.g., \"20 \u00d7 3 = 60 books per layer.\"\n20 \u00d7 3 = 60 books, then 3\u00d75\u00d720 chain.\nFinal token \"has\" introduces the intermediate calculation before the total product.\n20 books \u00d7 3 rows = 60 books, so the next tokens must state this intermediate or total result.\n\"has\" demands a noun phrase completing the multiplication expression, likely \"60 books\" or \".",
+    "Math tutoring explanation pattern: step-by-step arithmetic demonstration, expecting multiplication calculation to follow.\n\nThe expression \"3 books \u00d7 20 pages \u00d7 3 books\" sets up a multiplication chain requiring completion.\n\nFinal token \"6\" is the start of \"60\" or a step-by-step arithmetic breakdown, immediately requiring \"\u00d7 20\" or \"\u00d7 3\" to continue the multiplication explanation.\nFinal token \"6\" begins a mathematical expression or explanation, likely \"6 \u00d7 5\" or \"6 books per layer \u00d7 3 books per page,\" continuing the worked example.\nFinal token \"6\" is the start of a mathematical reasoning step, likely \"6 \u00d7 5 = 30\" or \"3 books \u00d7 20 \u00d7 3 layers,\" requiring a multiplication expression or explanation next.\n\"6\" begins a calculation showing total pages per layer, immediately constrained to continue with \".",
+    "Math tutoring explanation pattern: step-by-step arithmetic demonstration, expecting multiplication/division reasoning to follow.\n\nThe calculation requires showing 6 books \u00d7 3 rows = 180 total books, so the next step is showing the arithmetic chain.\n\nFinal token \"60\" is the start of a mathematical expression or explanation (likely \"60 books per shelf\" or \"6\u00d730\"), immediately requiring a mathematical operation or continuation of the multiplication logic.\nFinal token \"60\" begins a worked example or intermediate step, likely followed by \"\u00d7\" or a number completing the arithmetic demonstration.\nFinal token \"60\" is part of \"Then 60\" introducing the intermediate calculation showing rows per shelf \u00d7 total rows.\n\"Then 60\" begins a chain of reasoning steps, expecting \"\u00d7 3 books per shelf\" or similar to complete the total sum before the next multiplication step.",
+    "Math problem-solving context requires showing multiplication steps: 3 rows \u00d7 20 columns = 60.\n\nThe explanation pattern demands a worked numerical demonstration, showing the arithmetic chain.\n\nFinal token \"p\" is the start of \"\u00d7\" or \"\u00d7\" in a multiplication expression, immediately requiring the arithmetic expression \"3 \u00d7 20 \u00d7 5\" or similar to complete the intermediate calculation.\nFinal token \"60p\" is mid-expression, part of a multiplication demonstration showing 3 rows \u00d7 20 columns, so next tokens must complete the arithmetic result or show the intermediate step.\n60p is the beginning of \"60 \u00d7 30\" or \"3 \u00d7 20 \u00d7 5 rows,\" continuing the multiplication chain.\n\"60p\" is an incomplete multiplication expression requiring a number or \"\u00d7\" to follow.\n calculate 3\u00d720 per row, then.",
+    "Math problem walkthrough pattern: each step builds on the previous, showing arithmetic reasoning with multiplication/division.\n\nThe calculation chain requires completing the arithmetic: 15 cards \u00d7 6 columns = 90 total combinations, so the answer \"90\" is expected next.\n\nFinal token \"60. 60\" is the conclusion of a worked example, likely followed by a closing statement or the final answer \"90\" confirming the multiplication result.\nFinal token \"60 answer 60.\" ends the intermediate explanation, immediately requiring the final arithmetic result or a summary statement.\nFinal token \"160.\" closes the multiplication expression \"3 people \u00d7 10 cards \u00d7 3 rows = 90 possible combinations per deck.\"\nFinal token \"60.\" is the worked solution label, completing the chain of reasoning steps.\nFinal token \"160.\" is the concluding arithmetic step, likely."
+  ],
+  "input_sha256": "9c1e406bf7123f25edf8bad864a035e651ed6de6b4b38e799ea0c28062461440",
+  "values": [
+    {
+      "quote": "3 rows",
+      "value": "3"
+    },
+    {
+      "quote": "5 books",
+      "value": "5"
+    },
+    {
+      "quote": "150 total books",
+      "value": "150"
+    },
+    {
+      "quote": "5 \u00d7 20 \u00d7 3",
+      "value": "20"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "60 books",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "180 total books",
+      "value": "180"
+    },
+    {
+      "quote": "15 cards",
+      "value": "15"
+    },
+    {
+      "quote": "90 total combinations",
+      "value": "90"
+    },
+    {
+      "quote": "160.",
+      "value": "160"
+    },
+    {
+      "quote": "10 cards",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted distinct numeric values from the provided descriptions, including explicit integers and products of arithmetic expressions like 3x50=150, while avoiding years, ordinals, or unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3 rows\",\"value\":3},{\"quote\":\"5 books\",\"value\":5},{\"quote\":\"150 total books\",\"value\":150},{\"quote\":\"5 \\u0026#215; 20 \\u0026#215; 3\",\"value\":20},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"60 books\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"30\",\"value\":30},{\"quote\":\"180 total books\",\"value\":180},{\"quote\":\"15 cards\",\"value\":15},{\"quote\":\"90 total combinations\",\"value\":90},{\"quote\":\"160.\",\"value\":160},{\"quote\":\"10 cards\",\"value\":10}],\"justification\":\"Extracted distinct numeric values from the provided descriptions, including explicit integers and products of arithmetic expressions like 3x50=150, while avoiding years, ordinals, or unit conversions.\"}",
+  "prompt_sha256": "da5e8df530bf4ae45dafca71ef15b1ce2c2ede31fab4948d8e563d96260f0778"
+}

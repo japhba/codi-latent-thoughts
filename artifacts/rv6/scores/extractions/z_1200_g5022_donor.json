@@ -1,0 +1,133 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5022",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text consistently presents country-specific hazard percentages and numerical data, so a specific numeric value or range is expected next.\n\nAcademic citation and data continuation: the passage is mid-sentence describing a specific finding about France's hazard, following the established pattern of citing precise figures like \"1 in 10\" and \"1 in 2.\"\n\nFinal token \"is\" opens a predicate completing the France-specific hazard description; it directly requires a numerical value or comparative phrase (e.g., \"5 times higher,\" \"10 times higher\") continuing the established comparative format.",
+    "Narrative momentum: personal relationship advice article building toward a specific example, now detailing the author's own romantic situation with a difficult friend.\n\nContinuation of the structured list pattern: the text has been describing emotional states and behavioral traits, now transitioning to concrete details about the dating situation, with financial/relationship context expected.\n\nFinal token \"600,\" ends a sentence fragment mid-clause (\"600 was 600, 600 was 600\"), suggesting a typo/autocorrect artifact; the next tokens will complete the interrupted time reference, likely \"6 hours\" or a duration, then continue explaining the 660-day timeline \u2014 \"16 hours\" or similar \u2014 before the 600-day relationship advice resolves; the next tokens will complete the personal financial/relationship reflection.",
+    "Instructional list pattern: sequential tips for making a healthy smoothie, each beginning with a directive sentence, continuing practical advice.\n\nThe text is mid-sentence completing a specific time-based tip about warming fruit, with a concrete example (\"15 minutes\") already given, suggesting a follow-up elaboration or transition to the next tip.\n\nFinal token \"15\" is part of an incomplete time reference (\"15 minutes\" or similar), likely continuing with \"5 minutes\" or a larger number, then completing the romantic/romantic advice sentence about warming fruit \u2014 \"15.5 hours\" or a recipe instruction follows; \"1500\" suggests a typo mid-number, but the immediate next token completes the time value (e.g., \"hours\" or a new sentence).",
+    "Q&A format with expert answer in progress: the text is mid-explanation of the theological argument, requiring continuation of practical advice or elaboration on the moral lesson.\n\nThe article follows a pattern of presenting a claim then expanding with supporting reasoning; the current paragraph is building toward a concrete example or conclusion about the 100% Christian advice point.\n\nFinal token \"60\" ends a specific statistic (\"60 per cent\"), part of a sentence explaining the 100 per cent Christian advice point; \"50 seconds\" or similar completion of the thought is immediately expected, likely \"per minute\" or a continuation of the 150 seconds example, followed by \"40 seconds\" or a new sentence elaborating on the 20 per minute human reaction.",
+    "Statistical/argumentative momentum: article presents study findings, now building toward a cautionary conclusion about expert advice and liability.\n\nLogical consequence of the rhetorical question: the paragraph is explaining why the statistic is alarming, requiring completion of the moral/legal argument about personal responsibility and financial risk.\n\nFinal token \"40,000\" ends a per-person risk calculation (\"14,040 per day, per person, amounts to 24,140 per day, per 14,340\"), and the sentence is mid-clause; next tokens must complete the per-person daily statistic, likely \"per day\" or a percentage, then continue the advisory warning about 19,041 per day.",
+    "Legal analysis pattern: the text is systematically explaining a religious exemption argument, moving from premise to application, now reaching practical implications.\n\nThe rhetorical question \"How do you know this?\" signals a structured answer is being built, with the analysis moving from interpretation to practical guidance, expecting elaboration on the 100% rule's application.\n\nFinal token \"1,704\" ends a sentence stating the 8.5% per-person threshold; \"157\" is the answer, and \"5,000\" is the next logical step \u2014 the 29th question's answer \u2014 continuing the parallel structure of \"498 per meeting\" \u2192 \"100 per meeting\" \u2192 \"17.5 per meeting,\" now requiring the conclusion of the reasoning about the 14th question's practical application."
+  ],
+  "input_sha256": "27000a6b4059c63f9fae8fd707d276863f13562195772d9f3652e0f2e5a98384",
+  "values": [
+    {
+      "quote": "1 in 10",
+      "value": "0.1"
+    },
+    {
+      "quote": "1 in 2",
+      "value": "0.5"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "660-day",
+      "value": "660"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "100 per cent",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "14,040",
+      "value": "14040"
+    },
+    {
+      "quote": "24,140",
+      "value": "24140"
+    },
+    {
+      "quote": "14,340",
+      "value": "14340"
+    },
+    {
+      "quote": "19,041",
+      "value": "19041"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "1,704",
+      "value": "1704"
+    },
+    {
+      "quote": "8.5%",
+      "value": "8.5"
+    },
+    {
+      "quote": "157",
+      "value": "157"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "29th",
+      "value": "29"
+    },
+    {
+      "quote": "498",
+      "value": "498"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "17.5",
+      "value": "17.5"
+    },
+    {
+      "quote": "14th",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and percentages from the provided descriptions, including those within hyphenated terms or followed by symbols, while excluding ordinals and dates as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10\",\"value\":0.1},{\"quote\":\"1 in 2\",\"value\":0.5},{\"quote\":\"600\",\"value\":600},{\"quote\":\"660-day\",\"value\":660},{\"quote\":\"15\",\"value\":15},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"60\",\"value\":60},{\"quote\":\"100 per cent\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"150\",\"value\":150},{\"quote\":\"40\",\"value\":40},{\"quote\":\"20\",\"value\":20},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"14,040\",\"value\":14040},{\"quote\":\"24,140\",\"value\":24140},{\"quote\":\"14,340\",\"value\":14340},{\"quote\":\"19,041\",\"value\":19041},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"1,704\",\"value\":1704},{\"quote\":\"8.5%\",\"value\":8.5},{\"quote\":\"157\",\"value\":157},{\"quote\":\"5,000\",\"value\":5000},{\"quote\":\"29th\",\"value\":29},{\"quote\":\"498\",\"value\":498},{\"quote\":\"100\",\"value\":100},{\"quote\":\"17.5\",\"value\":17.5},{\"quote\":\"14th\",\"value\":14}],\"justification\":\"Extracted all explicit numeric literals, fractions, and percentages from the provided descriptions, including those within hyphenated terms or followed by symbols, while excluding ordinals and dates as per instructions.\"}",
+  "prompt_sha256": "188e1949a27441059e761787914a6c3cdd74fe0cea301d29067365afb9171cf6"
+}

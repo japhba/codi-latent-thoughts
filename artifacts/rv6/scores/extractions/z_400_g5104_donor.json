@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5104",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical report pattern: each hazard metric follows a structured format with hazard name, hazard rate, and confidence interval, establishing strong continuation expectations.\n\nNumerical completion: the hazard rate for \"Hazardous events\" is being stated as \"is 1.09\" with a confidence interval introduced by \"between,\" requiring a closing upper bound value (e.g., \"and X.XX\") to complete the range.\n\nFinal token \"is\" opens a predicate completing the hazard rate statement mid-sentence, immediately requiring a specific numerical hazard rate value to follow.",
+    "Film review genre with critical analysis of character dynamics and thematic interpretation, maintaining evaluative tone throughout.\n\nNarrative momentum: the review is mid-sentence describing the film's plot and character analysis, building toward a critical assessment of the film's strengths and weaknesses, with character comparisons to \"The Godfather\" establishing thematic context.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring immediate completion describing the character's emotional state or action \u2014 likely \"was\" followed by a descriptive phrase about the character's character or the film's thematic quality.",
+    "Q&A format with practical cooking advice: the text is answering a specific question about tableware for dining, with a list of tips and examples expected.\n\nPractical advice pattern: the response is mid-sentence giving concrete examples of \"good advice,\" with a specific anecdote about a restaurant table being \"too small\" \u2014 a recommendation or elaboration is expected.\n\nFinal token \"2\" is part of an incomplete sentence (\"about 2\"), likely continuing with a unit of measurement or fraction (e.g., \"2 inches,\" \"2/3 of a plate\") or a list of specific tableware recommendations.",
+    "News article reporting style with critical reception of the film, establishing a pattern of audience reaction and critical commentary throughout.\n\nThe review quote is mid-sentence, describing the audience's reaction to the film's content \u2014 the sentence is building toward completing the statistical/analytical point about audience response to the film's violence and audience reaction.\n\nFinal token \"20,000,000\" ends a clause about audience reaction to the broadcast; the sentence is incomplete and expects continuation with additional reaction details, ratings, or a closing evaluative statement about the film's reception.",
+    "Legal/technical document structure: formal rule interpretation analysis with numbered test criteria being systematically applied to a specific case.\n\nContinuation of the scorecard explanation: the text has been detailing the test's scoring criteria and is now mid-sentence explaining the visual evidence (video scorecard) supporting the legal standard, with further elaboration of the rule's implications expected.\n\nFinal token \"630,000,000.00 3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Statistical report pattern: each metric presents raw percentages followed by explanatory context, establishing a consistent data-presentation rhythm throughout.\n\nLegal/traffic safety report genre: formal NHTSA data presentation with precise figures, percentages, and comparative statistics (e.g., \"1.7%,\" \"1.8%,\" \"1.9%\") signals continued quantitative analysis.\n\nFinal token \"67.6%\" is a specific numerical result mid-sentence within a statistical breakdown of the 1.7% increase, immediately requiring completion of the rate-per-100-miles calculation or a qualifying clause (e.g., \"per 100 miles\")."
+  ],
+  "input_sha256": "8473cdae4d15c2fe7b7fe5d2ccedb438446bc71577774585d00c7d929e1f9f72",
+  "values": [
+    {
+      "quote": "is 1.09",
+      "value": "1.09"
+    },
+    {
+      "quote": "about 2",
+      "value": "2"
+    },
+    {
+      "quote": "20,000,000",
+      "value": "20000000"
+    },
+    {
+      "quote": "630,000,000.00",
+      "value": "630000000"
+    },
+    {
+      "quote": "3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "2999999999999999813549818914349192399351575478316903956127175947768057576647095007478566490892129182804699938865682639009547581281725948007288969762104654203715584"
+    },
+    {
+      "quote": "1.7%",
+      "value": "1.7"
+    },
+    {
+      "quote": "1.8%",
+      "value": "1.8"
+    },
+    {
+      "quote": "1.9%",
+      "value": "1.9"
+    },
+    {
+      "quote": "67.6%",
+      "value": "67.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including large integers and decimal values, while excluding dates and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"is 1.09\",\"value\":1.09},{\"quote\":\"about 2\",\"value\":2},{\"quote\":\"20,000,000\",\"value\":20000000},{\"quote\":\"630,000,000.00\",\"value\":630000000},{\"quote\":\"3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":3e+160},{\"quote\":\"1.7%\",\"value\":1.7},{\"quote\":\"1.8%\",\"value\":1.8},{\"quote\":\"1.9%\",\"value\":1.9},{\"quote\":\"67.6%\",\"value\":67.6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including large integers and decimal values, while excluding dates and ordinals.\"}",
+  "prompt_sha256": "1f4804d97e0659c134071653c6a80549bb6287b03f80ad1cce89165cb13f04ca"
+}

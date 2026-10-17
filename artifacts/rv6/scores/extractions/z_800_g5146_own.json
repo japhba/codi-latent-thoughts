@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5146",
+  "kind": "own",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard comparisons.\n\nDomain-specific data presentation: the article systematically presents hazard statistics with hazard types, locations, and hazard counts, expecting continued quantitative findings.\n\nFinal token \"is\" opens a predicate completing the hazard count sentence for the 2019\u20132020 period, requiring a specific numeric hazard ratio (likely \"1 in X\" format) to follow immediately.",
+    "Film review genre with character-by-character scene analysis, now shifting to plot summary and character descriptions, maintaining enthusiastic tone throughout.\n\nNarrative momentum: the review has been describing the romantic pairing and is mid-sentence detailing the film's plot, with \"2000s\" scene and character dynamics just introduced, expecting continuation of the scene description.\n\nFinal token \"200 was 250 was 200 was 250\" (likely garbled \"200 was 150 was 200 was 250\"), mid-sentence describing the film's scene; \"250 was\" signals a character's emotional state or scene detail, immediately requiring a predicate completing the description of the couple's feelings or actions.",
+    "Q&A format pattern: text follows a series of religious questions with detailed answers, establishing expectation for continued personal testimony or theological reflection.\n\nNarrative momentum of conversion story: the author is mid-explanation of their Jewish background and the book's content, with the statistic about 5% Jewish population and the book's premise building toward a personal faith journey conclusion.\n\nFinal token \"0.5\" is a decimal fraction (\"about 5.5 years old\" or \"about 0.5\"), mid-sentence, completing \"about 0.5\" \u2014 immediately expects a unit or continuation like \"years old\" or \"years\" to finish the fraction.",
+    "The article is building a statistical/argumentative case about medical professionals' awareness of historical abuse, with expert quotes and evidence supporting the claim that doctors were complicit.\n\nNarrative momentum toward completing the anecdote: the author is recounting a personal story about the book's origin, transitioning from historical context to practical implications, suggesting a concluding expert or statistic follows.\n\nFinal token \"100,000,040\" is mid-sentence (\"about 160,000 per doctor, about 40 per 100,000 people, about 12,000 per year\"), completing a statistical comparison; the next tokens will likely finish this clause and continue the medical/epidemiological framing.",
+    "Legal analysis format: question posed, case cited, now providing detailed reasoning with citation and reasoning structure.\n\nThe text is mid-explanation of the legal reasoning, having stated the rule and cited the case; the next tokens must complete the factual/legal analysis of the 1080p conversion and its implications for the copyright violation.\n\nFinal token \"10.140000 is about 1.4 per 10,000 seconds, about 13 seconds per 1080p, about 1.4 per minute \u2014 \"1080 per minute\" is the expected completion, followed by the court's reasoning about the conversion's significance.",
+    "Statistical/legal analysis pattern: article presents survey data with percentages, establishing expectation for continued statistical interpretation of survey findings.\n\nLegal/academic citation momentum: the text is explaining methodology and citing a specific statistic (69%), building toward a conclusion about the 90% threshold rule and its implications for the survey's interpretation.\n\nFinal token \"69%\" ends a sentence fragment mid-thought (\"69% of the time...69% of the time...69% of the time...69% of the time...69% of the time\"), suggesting the next tokens will complete the statistical trend or transition to a concluding interpretive statement about the 90% threshold."
+  ],
+  "input_sha256": "a99373988a9fa0b83cde213c020f6ff1545261e876d1fdc10b716a721bf11b53",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "160,000",
+      "value": "160000"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "100,000,040",
+      "value": "100000040"
+    },
+    {
+      "quote": "10.140000",
+      "value": "10.14"
+    },
+    {
+      "quote": "1.4",
+      "value": "1.4"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "1080",
+      "value": "1080"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "90%",
+      "value": "90"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and numbers within ratios from the provided descriptions, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":10000},{\"quote\":\"1 in 100,000\",\"value\":100000},{\"quote\":\"200\",\"value\":200},{\"quote\":\"250\",\"value\":250},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"160,000\",\"value\":160000},{\"quote\":\"40\",\"value\":40},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"12,000\",\"value\":12000},{\"quote\":\"100,000,040\",\"value\":100000040},{\"quote\":\"10.140000\",\"value\":10.14},{\"quote\":\"1.4\",\"value\":1.4},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"13\",\"value\":13},{\"quote\":\"1080\",\"value\":1080},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"90%\",\"value\":90}],\"justification\":\"Extracted explicit numeric literals, percentages, and numbers within ratios from the provided descriptions, excluding years and ordinals.\"}",
+  "prompt_sha256": "01b7a499105ccd393a343952807a2d57a99b9544975e3f0ff96b37ec8bd8a510"
+}

@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: article consistently presents paired financial figures (total value + daily value), so a dollar amount completing the revenue statistic is expected.\n\nNarrative momentum of ranking/comparison: the text is mid-sentence presenting a specific record-breaking revenue figure, continuing the pattern of precise numerical data with units like \"$1.5 million\" and \"$1.2 million.\"\n\nFinal token \"is $125,000 is $50,000 is $50,000 is\" \u2014 mid-sentence repetition of a value, likely a typo/continuation; the immediate next token must complete the dollar figure, probably a specific daily or total revenue amount.",
+    "Structured film metadata format with consistent promotional/descriptive prose about cast, plot, and production details \u2014 next content continues this pattern.\n\nBiographical/filmography momentum: the text is mid-sentence describing the film's cast and production, with \"is 400 minutes long\" and \"is directed by\" establishing a pattern of factual film details.\n\nFinal token \"400 is is 4 is is 40 is is 4 is is 4 is is 4 is is 4\" \u2014 garbled mid-sentence repetition of \"is\" suggests a product listing artifact; the immediate next tokens must complete the product description, likely continuing with \"is\" or a product attribute phrase.",
+    "E-commerce product listing page pattern: navigation breadcrumbs, category listings, and part numbers follow a consistent e-commerce template throughout.\n\nThe page is mid-way through a parts catalog, listing categories and subcategories, with \"Part #s\" and \"Results\" sections already shown \u2014 a parts list or filter results are expected next.\n\nFinal token \"Available\" ends an incomplete sentence (\"Find the Parts You're Looking for Here - Parts Available\"), part of a navigation/filter UI element, immediately expecting a continuation like \"Here\" or a list of part categories/links.",
+    "Structured table pattern: pipe-delimited rows with price data, each row following \"|Label||Value|\" format, continuing the established template.\n\nE-commerce product listing momentum: the page is systematically listing shipping/availability details, with \"Price\" and \"Shipping\" rows already given, suggesting more data rows (e.g., \"Item Weight,\" \"ASIN\") may follow.\n\nFinal token \"||$10.00|\" closes a table cell mid-row; the pattern \"|$10.00||\" suggests the next token continues the table with another price value or row, likely a new pipe-delimited entry.",
+    "Structured table pattern: pipe-delimited rows listing part numbers, prices, and table rows, establishing a consistent format for shipping/availability data.\n\nE-commerce product listing momentum: the page is mid-way through a table of shipping costs by destination, with \"New York\" and \"New Jersey\" already listed, implying more states follow.\n\nFinal token \"$15.00|\" closes a table cell for \"New Jersey\" and immediately precedes the next row entry, likely another state name (e.g., \"California\") followed by \"||\" and a price.",
+    "Structured table pattern: pipe-delimited rows with price data, dates, and table formatting established throughout, continuing with more rows.\n\nFinancial data continuation: the text is mid-sentence listing auction price data for specific vehicles, with \"2019 Toyota Camry\" and \"2019 Toyota Corolla\" already listed, implying more vehicle entries follow.\n\nFinal token \"$1,500|\" closes a table cell mid-row; the pattern of \"||$[amount]||\" suggests the next token continues the price table with another vehicle name or closing pipe."
+  ],
+  "input_sha256": "c726af799a4bf5505112c830525c80be650fa575523eddabfd7becca1449a81c",
+  "values": [
+    {
+      "quote": "$1.5 million",
+      "value": "1.5"
+    },
+    {
+      "quote": "$1.2 million",
+      "value": "1.2"
+    },
+    {
+      "quote": "$125,000",
+      "value": "125000"
+    },
+    {
+      "quote": "$50,000",
+      "value": "50000"
+    },
+    {
+      "quote": "400 minutes",
+      "value": "400"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "$10.00",
+      "value": "10"
+    },
+    {
+      "quote": "$15.00",
+      "value": "15"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "$1,500",
+      "value": "1500"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, including millions, thousands, and years, while ignoring ordinals and vague plurals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1.5 million\",\"value\":1.5},{\"quote\":\"$1.2 million\",\"value\":1.2},{\"quote\":\"$125,000\",\"value\":125000},{\"quote\":\"$50,000\",\"value\":50000},{\"quote\":\"400 minutes\",\"value\":400},{\"quote\":\"40\",\"value\":40},{\"quote\":\"4\",\"value\":4},{\"quote\":\"$10.00\",\"value\":10},{\"quote\":\"$15.00\",\"value\":15},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"$1,500\",\"value\":1500}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, including millions, thousands, and years, while ignoring ordinals and vague plurals.\"}",
+  "prompt_sha256": "24d39c10d080b6a67569e0140a00f185b4e8ffcf2c700ded9fca69cd2fd94a48"
+}

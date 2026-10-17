@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5088",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 4+2=6 boxes combined, requiring the total order quantity to be computed.\n\nThe problem follows a structured arithmetic pattern: original order (4) + 2 added = 6, so the answer must be 64.\n\nFinal token \"is\" opens a predicate completing the question \"what is the new order quantity?\" \u2014 the immediate next token must be the number \"64\" (the calculated total order).\n(4+2)\u00d712\u00d7(1+2) = 64.\n(12\u00d74+2\u00d73) = 64 orders per batch, confirming the combined total.\n\n(4+2)\u00d73! = 64.\n(12+2)\u00d73! = 64, completing the multiplication expression.\n(4+2)\u00d73\u00d712 = new combined capacity after.",
+    "Math word problem solution in progress: arithmetic calculation requires completing 4 boxes \u00d7 12 = 48 total, then adding 2 more boxes.\n\nStep-by-step solution format established: \"First, we calculate...\" signals sequential calculation steps will follow.\n\nFinal token \"has\" begins the arithmetic result of 4\u00d712, immediately requiring the number \"48\" (or \"48 pounds\") to complete the total sum of the first calculation before adding the second box totals.\n12\u00d74 = 48 pounds total for the four boxes, then adding 2 more boxes \u00d7 4+3=28.\n4\u00d712 = 48, completing the equation before adding 2 more boxes.\n12*4 = 48 pounds total, then adding 4 more boxes \u00d7 3 more per box.\n\nFinal token \"has\" introduces the result of the first.",
+    "Math word problem solution in progress: arithmetic calculation requires completing \"4 boxes \u00d7 12 cards = 48\" before adding the second set.\n\nStep-by-step solution format established: \"First, we calculate...\" signals a structured walkthrough requiring sequential arithmetic steps.\n\nThe final token \"4\" is the start of the total sum of the first calculation (4\u00d712=48), immediately requiring \"8\" to complete \"48\" representing the four boxes \u00d7 12 each.\n48 is the total sum of 4\u00d712, so the next tokens must continue the arithmetic solution, likely adding 2 more boxes \u00d7 new numbers.\n12*4 = 48 for four boxes, then adding 2 boxes \u00d7 (12+4 more).\n48 is mid-number, requiring \"8\" to complete the total before continuing to the second calculation.\n(4\u00d71.",
+    "Math word problem solution in progress: arithmetic calculation requires completing \"48 stamps total from 3 boxes \u00d7 16.\"\n\nStep-by-step solution format established: first step gave total count, now continuing with the second step adding the remaining 4 boxes.\n\nFinal token \"48\" is the computed result of 4\u00d712, mid-sentence in the solution walkthrough, immediately requiring \"stamps\" or \"red stamps\" to complete the arithmetic statement before adding the second set of 2 boxes.\n48 stamps from the first calculation, then adding 2 more boxes \u00d7 3 colors.\nFinal token \"48\" is the stated total of the first calculation, requiring \"stamps\" or \"red stamps\" next, then continuing to the combined total for the second set.\n48 stamps in total before adding 2 more boxes.",
+    "Mathematical problem-solving pattern: calculating total combinations by adding two groups (original 12\u00d724, then 2 boxes).\n\nThe arithmetic solution requires completing the multiplication: 2 boxes \u00d7 12 cards = 24, confirming the answer.\n\nFinal token \"p\" begins the second arithmetic expression \"2\u00d712=24,\" continuing the parallel structure \"24 cards added to the total\" \u2014 next tokens must be \"24 cards\" completing the second calculation.\nFinal token \"p\" is mid-sentence, mid-calculation, representing the second added set's total.\n12*2=24 for the second set of boxes.\n24 cards total added to original 24*12, completing the equation.\nFinal token \"p\" begins the number \"24\" describing the remaining boxes' total.\n(2*12*2).",
+    "Math word problem worked example pattern: each problem states total, then asks to calculate unknown quantity.\n\nSecond problem's solution is mid-calculation: 24 total added to 48 total, requiring the arithmetic answer \"72 total eggs.\"\n\nFinal token \"24\" closes the second calculation step (2 boxes \u00d7 12), immediately expecting the conclusion: \"Total of the second set is 72 eggs added\" or similar summary statement.\nFinal token \"24\" ends the second example's worked sub-answer, mirroring the first problem's structure, expecting a closing line like \"Total of all eggs is 72.\"\nFinal token \"24\" is the computed second addition (6\u00d74), completing the multiplication expression, immediately requiring the combined total result.\nFinal token \"24\" ends the small-number multiplication, part of the second example's answer block, expecting a line."
+  ],
+  "input_sha256": "2bfe756523fa4c418495dfe0683915267f0c8531cceb3771106d643d69258fa0",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "64",
+      "value": "64"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 4+2=6, 12*4=48, 12*2=24, and 48+24=72) explicitly stated in the text, avoiding years, ordinals, or unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"6\",\"value\":6},{\"quote\":\"64\",\"value\":64},{\"quote\":\"12\",\"value\":12},{\"quote\":\"1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"48\",\"value\":48},{\"quote\":\"28\",\"value\":28},{\"quote\":\"8\",\"value\":8},{\"quote\":\"16\",\"value\":16},{\"quote\":\"24\",\"value\":24},{\"quote\":\"72\",\"value\":72}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 4+2=6, 12*4=48, 12*2=24, and 48+24=72) explicitly stated in the text, avoiding years, ordinals, or unit conversions.\"}",
+  "prompt_sha256": "d1f152a49fcc5a2306b62d1af0693a881075814f150c670534c0fb651c30ff61"
+}

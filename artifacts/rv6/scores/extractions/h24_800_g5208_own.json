@@ -1,0 +1,317 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5208",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: equation \"3x + 4y = total cost\" demands a specific numerical answer combining 15\u00d7$3 + 8\u00d7$15.\n\nThe structured problem format (total cost = 15\u00d7$8 + 15\u00d7$3) strongly constrains the next token to be a specific dollar amount, likely \"$13\" or \"$135\" representing the combined sum of 3\u00d715 + 8\u00d77.\n\nFinal token \"Total cost = \" is an incomplete equation setup, immediately requiring a numeric value (the arithmetic sum of 15+8) to complete the solution statement, likely \"$13\" or \"$135\" as the sum of 3\u00d715 + 8\u00d74.",
+    "Word problem arithmetic setup requires completing the multiplication: 8 tickets \u00d7 $4 = $32, then 8\u00d7$16 for pants.\n\nThe problem follows a structured arithmetic word problem format: \"8 \u00d7 $4 = $32\" establishes the arithmetic, so the next step is summing total cost (8\u00d7$4 + 8\u00d7$16).\n\nFinal token \"had\" begins the arithmetic result statement, immediately requiring the calculated dollar amount \"$32\" from 8 \u00d7 $4, continuing the sentence \"8 tickets \u00d7 $4 = $32\" before adding 8\u00d7$16 for pants.\nThe next tokens must state \"32\" as the arithmetic result for the first operation, then \"and 8\u00d7$16\" for pants.",
+    "Word problem arithmetic setup: arithmetic word problem requiring arithmetic operations (8 \u00d7 $4 = $32, 16 \u00d7 $2 = $32, summing to $76).\n\nThe structured problem format demands a step-by-step solution: total cost calculation: 8 tickets \u00d7 $4 = $32, then 16 tickets \u00d7 $5 = $80, then summing.\n\nFinal token \"3\" begins the first arithmetic result \"$32\" from 8\u00d7$4, immediately constraining next tokens to complete \"32\" (i.e., \"2\" completing \"$32\"), continuing the arithmetic breakdown of total cost: 8\u00d7$4=32, then 16\u00d7$5=80, so total cost is $76.",
+    "Word problem solution format: structured math problem requiring arithmetic steps, expecting arithmetic operations and answers.\n\nThe problem setup establishes two arithmetic operations: 8 items \u00d7 $4 = $32 for meat, 15 books \u00d7 $2 = $30 for books, so the next tokens must sum these totals: \"$32 for meat and $150 for books\" to find total cost.\n\nFinal token \"$32\" is the first arithmetic result (cost of 8 books \u00d7 $4), immediately requiring continuation of the solution: \"for the meat and $X for the books\" or \"and $X for the 15 books,\" completing the addition of 8\u00d7$4 and 15\u00d7$2.",
+    "Word problem arithmetic context: arithmetic word problem requiring arithmetic operations (3\u00d7$15=50, $3\u00d7$15=45).\n\nThe problem follows a structured format: setup \u2192 calculation \u2192 next calculation, with two arithmetic operations expected: total cost of 3 books (3\u00d7$15) and remaining books (3\u00d7$15).\n\nFinal token \"p\" begins the dollar amount \"$15\" for the second arithmetic operation (3 books \u00d7 $35), immediately requiring \"15\" to complete \"$15\" or \"$35\" \u2014 specifically \"$35\" to complete the second multiplication: \"3 \u00d7 $15 = $45,\" then total cost of books plus $15.",
+    "Word problem arithmetic format: each problem states two arithmetic operations (addition/subtraction) with a word problem, then asks for the sum \u2014 pattern established twice already.\n\nThe second problem follows the same structure: \"Apples cost $15, Bananas cost $45\" \u2014 the arithmetic sum of 15\u00d74=60 is expected next, mirroring the first problem's format.\n\nFinal token \"45\" is the second arithmetic problem's second value ( Bananas cost $45), completing the second problem's second operation; next token must be the sum result \"$45\" or a line break leading to the total sum answer.\nThe pattern demands \"$45\" as the next token, completing the second word problem's arithmetic: 35 + 45 = $65."
+  ],
+  "input_sha256": "e1ad69e007684383d3cd382b56c210fc5ff24c47ff7f409e902257a68ecec113",
+  "values": [
+    {
+      "quote": "15\u00d7$3",
+      "value": "15"
+    },
+    {
+      "quote": "15\u00d7$3",
+      "value": "3"
+    },
+    {
+      "quote": "8\u00d7$15",
+      "value": "8"
+    },
+    {
+      "quote": "8\u00d7$15",
+      "value": "15"
+    },
+    {
+      "quote": "15\u00d7$8",
+      "value": "15"
+    },
+    {
+      "quote": "15\u00d7$8",
+      "value": "8"
+    },
+    {
+      "quote": "15\u00d7$3",
+      "value": "15"
+    },
+    {
+      "quote": "15\u00d7$3",
+      "value": "3"
+    },
+    {
+      "quote": "$13",
+      "value": "13"
+    },
+    {
+      "quote": "$135",
+      "value": "135"
+    },
+    {
+      "quote": "3\u00d715",
+      "value": "3"
+    },
+    {
+      "quote": "3\u00d715",
+      "value": "15"
+    },
+    {
+      "quote": "3\u00d715",
+      "value": "45"
+    },
+    {
+      "quote": "8\u00d77",
+      "value": "8"
+    },
+    {
+      "quote": "8\u00d77",
+      "value": "7"
+    },
+    {
+      "quote": "8\u00d77",
+      "value": "56"
+    },
+    {
+      "quote": "15+8",
+      "value": "15"
+    },
+    {
+      "quote": "15+8",
+      "value": "8"
+    },
+    {
+      "quote": "15+8",
+      "value": "23"
+    },
+    {
+      "quote": "3\u00d715",
+      "value": "3"
+    },
+    {
+      "quote": "3\u00d715",
+      "value": "15"
+    },
+    {
+      "quote": "3\u00d715",
+      "value": "45"
+    },
+    {
+      "quote": "8\u00d74",
+      "value": "8"
+    },
+    {
+      "quote": "8\u00d74",
+      "value": "4"
+    },
+    {
+      "quote": "8\u00d74",
+      "value": "32"
+    },
+    {
+      "quote": "8 tickets \u00d7 $4 = $32",
+      "value": "8"
+    },
+    {
+      "quote": "8 tickets \u00d7 $4 = $32",
+      "value": "4"
+    },
+    {
+      "quote": "8 tickets \u00d7 $4 = $32",
+      "value": "32"
+    },
+    {
+      "quote": "8\u00d7$16",
+      "value": "8"
+    },
+    {
+      "quote": "8\u00d7$16",
+      "value": "16"
+    },
+    {
+      "quote": "8\u00d7$16",
+      "value": "128"
+    },
+    {
+      "quote": "8 \u00d7 $4 = $32",
+      "value": "8"
+    },
+    {
+      "quote": "8 \u00d7 $4 = $32",
+      "value": "4"
+    },
+    {
+      "quote": "8 \u00d7 $4 = $32",
+      "value": "32"
+    },
+    {
+      "quote": "8\u00d7$4",
+      "value": "8"
+    },
+    {
+      "quote": "8\u00d7$4",
+      "value": "4"
+    },
+    {
+      "quote": "8\u00d7$4",
+      "value": "32"
+    },
+    {
+      "quote": "8\u00d7$4",
+      "value": "32"
+    },
+    {
+      "quote": "16 \u00d7 $2 = $32",
+      "value": "16"
+    },
+    {
+      "quote": "16 \u00d7 $2 = $32",
+      "value": "2"
+    },
+    {
+      "quote": "16 \u00d7 $2 = $32",
+      "value": "32"
+    },
+    {
+      "quote": "$76",
+      "value": "76"
+    },
+    {
+      "quote": "16 tickets \u00d7 $5 = $80",
+      "value": "16"
+    },
+    {
+      "quote": "16 tickets \u00d7 $5 = $80",
+      "value": "5"
+    },
+    {
+      "quote": "16 tickets \u00d7 $5 = $80",
+      "value": "80"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "16\u00d7$5=80",
+      "value": "16"
+    },
+    {
+      "quote": "16\u00d7$5=80",
+      "value": "5"
+    },
+    {
+      "quote": "16\u00d7$5=80",
+      "value": "80"
+    },
+    {
+      "quote": "15 books \u00d7 $2 = $30",
+      "value": "15"
+    },
+    {
+      "quote": "15 books \u00d7 $2 = $30",
+      "value": "2"
+    },
+    {
+      "quote": "15 books \u00d7 $2 = $30",
+      "value": "30"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "3\u00d7$15=50",
+      "value": "3"
+    },
+    {
+      "quote": "3\u00d7$15=50",
+      "value": "15"
+    },
+    {
+      "quote": "3\u00d7$15=50",
+      "value": "50"
+    },
+    {
+      "quote": "$3\u00d7$15=45",
+      "value": "3"
+    },
+    {
+      "quote": "$3\u00d7$15=45",
+      "value": "15"
+    },
+    {
+      "quote": "$3\u00d7$15=45",
+      "value": "45"
+    },
+    {
+      "quote": "3 books \u00d7 $35",
+      "value": "3"
+    },
+    {
+      "quote": "3 books \u00d7 $35",
+      "value": "35"
+    },
+    {
+      "quote": "3 \u00d7 $15 = $45",
+      "value": "3"
+    },
+    {
+      "quote": "3 \u00d7 $15 = $45",
+      "value": "15"
+    },
+    {
+      "quote": "3 \u00d7 $15 = $45",
+      "value": "45"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$45",
+      "value": "45"
+    },
+    {
+      "quote": "15\u00d74=60",
+      "value": "15"
+    },
+    {
+      "quote": "15\u00d74=60",
+      "value": "4"
+    },
+    {
+      "quote": "15\u00d74=60",
+      "value": "60"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "35 + 45 = $65",
+      "value": "35"
+    },
+    {
+      "quote": "35 + 45 = $65",
+      "value": "45"
+    },
+    {
+      "quote": "35 + 45 = $65",
+      "value": "65"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and results of arithmetic expressions (like 8x4=32) found within each independent description.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15\\u00D7$3\",\"value\":15},{\"quote\":\"15\\u00D7$3\",\"value\":3},{\"quote\":\"8\\u00D7$15\",\"value\":8},{\"quote\":\"8\\u00D7$15\",\"value\":15},{\"quote\":\"15\\u00D7$8\",\"value\":15},{\"quote\":\"15\\u00D7$8\",\"value\":8},{\"quote\":\"15\\u00D7$3\",\"value\":15},{\"quote\":\"15\\u00D7$3\",\"value\":3},{\"quote\":\"$13\",\"value\":13},{\"quote\":\"$135\",\"value\":135},{\"quote\":\"3\\u00D715\",\"value\":3},{\"quote\":\"3\\u00D715\",\"value\":15},{\"quote\":\"3\\u00D715\",\"value\":45},{\"quote\":\"8\\u00D77\",\"value\":8},{\"quote\":\"8\\u00D77\",\"value\":7},{\"quote\":\"8\\u00D77\",\"value\":56},{\"quote\":\"15+8\",\"value\":15},{\"quote\":\"15+8\",\"value\":8},{\"quote\":\"15+8\",\"value\":23},{\"quote\":\"3\\u00D715\",\"value\":3},{\"quote\":\"3\\u00D715\",\"value\":15},{\"quote\":\"3\\u00D715\",\"value\":45},{\"quote\":\"8\\u00D74\",\"value\":8},{\"quote\":\"8\\u00D74\",\"value\":4},{\"quote\":\"8\\u00D74\",\"value\":32},{\"quote\":\"8 tickets \\u00D7 $4 = $32\",\"value\":8},{\"quote\":\"8 tickets \\u00D7 $4 = $32\",\"value\":4},{\"quote\":\"8 tickets \\u00D7 $4 = $32\",\"value\":32},{\"quote\":\"8\\u00D7$16\",\"value\":8},{\"quote\":\"8\\u00D7$16\",\"value\":16},{\"quote\":\"8\\u00D7$16\",\"value\":128},{\"quote\":\"8 \\u00D7 $4 = $32\",\"value\":8},{\"quote\":\"8 \\u00D7 $4 = $32\",\"value\":4},{\"quote\":\"8 \\u00D7 $4 = $32\",\"value\":32},{\"quote\":\"8\\u00D7$4\",\"value\":8},{\"quote\":\"8\\u00D7$4\",\"value\":4},{\"quote\":\"8\\u00D7$4\",\"value\":32},{\"quote\":\"8\\u00D7$4\",\"value\":32},{\"quote\":\"16 \\u00D7 $2 = $32\",\"value\":16},{\"quote\":\"16 \\u00D7 $2 = $32\",\"value\":2},{\"quote\":\"16 \\u00D7 $2 = $32\",\"value\":32},{\"quote\":\"$76\",\"value\":76},{\"quote\":\"16 tickets \\u00D7 $5 = $80\",\"value\":16},{\"quote\":\"16 tickets \\u00D7 $5 = $80\",\"value\":5},{\"quote\":\"16 tickets \\u00D7 $5 = $80\",\"value\":80},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"16\\u00D7$5=80\",\"value\":16},{\"quote\":\"16\\u00D7$5=80\",\"value\":5},{\"quote\":\"16\\u00D7$5=80\",\"value\":80},{\"quote\":\"15 books \\u00D7 $2 = $30\",\"value\":15},{\"quote\":\"15 books \\u00D7 $2 = $30\",\"value\":2},{\"quote\":\"15 books \\u00D7 $2 = $30\",\"value\":30},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"3\\u00D7$15=50\",\"value\":3},{\"quote\":\"3\\u00D7$15=50\",\"value\":15},{\"quote\":\"3\\u00D7$15=50\",\"value\":50},{\"quote\":\"$3\\u00D7$15=45\",\"value\":3},{\"quote\":\"$3\\u00D7$15=45\",\"value\":15},{\"quote\":\"$3\\u00D7$15=45\",\"value\":45},{\"quote\":\"3 books \\u00D7 $35\",\"value\":3},{\"quote\":\"3 books \\u00D7 $35\",\"value\":35},{\"quote\":\"3 \\u00D7 $15 = $45\",\"value\":3},{\"quote\":\"3 \\u00D7 $15 = $45\",\"value\":15},{\"quote\":\"3 \\u00D7 $15 = $45\",\"value\":45},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$45\",\"value\":45},{\"quote\":\"15\\u00D74=60\",\"value\":15},{\"quote\":\"15\\u00D74=60\",\"value\":4},{\"quote\":\"15\\u00D74=60\",\"value\":60},{\"quote\":\"45\",\"value\":45},{\"quote\":\"35 + 45 = $65\",\"value\":35},{\"quote\":\"35 + 45 = $65\",\"value\":45},{\"quote\":\"35 + 45 = $65\",\"value\":65}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and results of arithmetic expressions (like 8x4=32) found within each independent description.\"}",
+  "prompt_sha256": "6d02a942707e9311070cb9ab51283e46f4a0fd51fa2b21424474944de6d03f2a"
+}

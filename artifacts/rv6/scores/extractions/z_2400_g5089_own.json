@@ -1,0 +1,129 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5089",
+  "kind": "own",
+  "descriptions": [
+    "Statistical ranking pattern: each city entry follows a consistent structure \u2014 city name, ranking, then descriptive sentence about its ranking position.\n\nList continuation momentum: the text has been systematically presenting city-by-city data with specific percentages and rankings, establishing a clear template for what follows.\n\nFinal token \"3rd\" ends an incomplete sentence mid-thought (\"the 3rd\"), requiring immediate continuation of the city's geographic ranking context, likely \"most populated city in the country\" or similar superlative descriptor completing the comparative claim.\n\"3rd\" is a truncated ordinal mid-sentence, demanding the noun phrase it modifies.\n\"35th\" or similar ranking descriptor is the immediate next expected token.\n\"63rd\" or a hazard-related finding about the city's ranking is the analytical conclusion.\n\"59th\" table data or city-specific numeric ranking follows \"38 is 3rd.\"\n\"6.",
+    "Film review genre with character introduction pattern: each character gets a descriptive paragraph, establishing momentum for completing the current character description.\n\nThe review is mid-sentence describing the narrator's background and motivations, building toward a summary of the film's themes or plot.\n\nFinal token \"6,\" is part of an interrupted number (\"6,\") within a sentence describing the narrator's age or a specific statistic, immediately requiring continuation of that numeric or descriptive clause.\n\"66\" or similar digit completing the age reference, followed by further character description.\n\"66\" or a new sentence about the narrator's cultural identity.\n\"670\" or a book title reference \u2014 the list \"610\" and \"670\" suggest production credits or character names, suggesting historical/political context follows.\n\"46\" character description \"116\" \u2014 the sentence \"830\" is mid-stage.",
+    "Narrative momentum: the review is summarizing plot, mid-sentence describing the protagonist's confession and its consequences.\n\nBook review genre conventions: plot summary follows a chronological arc, moving toward resolution or final recommendation.\n\nFinal token \"3\" is the start of an interrupted number (likely \"37\" or a percentage like \"37%\" or continuing \"37 years\"), part of a sentence about the protagonist's age or duration, requiring immediate numeric continuation.\n\"3\" is mid-word/mid-number, likely completing \"37\" or a larger figure, followed by \"years\" or similar unit.\n\"37\" or religious age context or a promotional discount code \"56.3%\" \u2014 \"53\" or \"1, 417\" or \"700\" \u2014 \"38.3%\" or personal timeline \"37\" media \"6.5 months\".",
+    "List/article format with numbered sections and bullet points signals continuation of structured content about book reviews or recommendations.\n\nNarrative momentum: the sentence introduces a specific book recommendation with a quoted story, implying the author will continue explaining the book's relevance to the reader's situation.\n\nFinal token \"50\" is mid-sentence, part of a statistic (\"50 percent\" or similar percentage), immediately requiring a number continuation or unit completing the percentage figure, likely \"50%\" or a larger number like \"55.\"\n\"50\" is incomplete \u2014 it's part of a publication date or age reference, so the next token must complete this numeric or publication detail.\n\"56\" or similar age-related continuation is expected next.\n\"55\" or religious news context \"67\" or \"50\" \u2014 the \"67\" deadline or relationship timeline \"51\" or \"415 days.",
+    "News article reporting structure: factual crime reporting with statistics, expecting continued numerical data or source attribution.\n\nFilm database/box office tracking context: the sentence is mid-report on cumulative totals, suggesting more figures or publication details follow.\n\nFinal token \"100,000\" ends an incomplete sentence reporting cumulative viewing totals; the next tokens must complete this clause, likely with a unit or continuation like \"people\" or a new sentence about the investigation's scope.\n\"100,000\" is a number mid-sentence, part of a cumulative count, immediately requiring a noun or punctuation to complete the publication count.\n\"200.4 people\" or similar label is expected next.\n\"1,000\" or organizational breakdown follows \"200.4\" plot tag \"307\" \u2014 the \"6,040\" social media tag \"203.",
+    "Structured book summary format with labeled sections (Summary, Analysis, Characters) signals continuation of analytical commentary on the film's plot and themes.\n\nReview/summary content momentum: the Analysis section has begun discussing the verdict and verdict, with academic citation style and formal register maintained throughout.\n\nFinal token \"3\" ends a sentence fragment referencing \"the verdict was 3,\" likely part of a larger number or section header, immediately expecting continuation of the verdict summary or a new labeled section header.\n\"37\" or similar digits completing a count, or procedural/legal language about the film's classification.\n\"5.3\" or a chapter/section number follows \"70\" or institutional affiliation.\n\"37\" or \"640\" pattern suggests archival numbering or page references; the \"5.3\" finding \"70.43\" or religious classification \"67\" suggests bibliographic metadata or case history."
+  ],
+  "input_sha256": "f8ac934bf468e9ef57966cd36b12cdfcdc38d611a915a544067511a2555a8915",
+  "values": [
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "6.",
+      "value": "6"
+    },
+    {
+      "quote": "610",
+      "value": "610"
+    },
+    {
+      "quote": "670",
+      "value": "670"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "830",
+      "value": "830"
+    },
+    {
+      "quote": "53",
+      "value": "53"
+    },
+    {
+      "quote": "1, 417",
+      "value": "1417"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "38.3%",
+      "value": "38.3"
+    },
+    {
+      "quote": "6.5",
+      "value": "6.5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "67",
+      "value": "67"
+    },
+    {
+      "quote": "51",
+      "value": "51"
+    },
+    {
+      "quote": "415",
+      "value": "415"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "200.4",
+      "value": "200.4"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "307",
+      "value": "307"
+    },
+    {
+      "quote": "6,040",
+      "value": "6040"
+    },
+    {
+      "quote": "203",
+      "value": "203"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "5.3",
+      "value": "5.3"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "640",
+      "value": "640"
+    },
+    {
+      "quote": "70.43",
+      "value": "70.43"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and formatted numbers from the provided descriptions, excluding ordinals and dates.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"38\",\"value\":38},{\"quote\":\"6.\",\"value\":6},{\"quote\":\"610\",\"value\":610},{\"quote\":\"670\",\"value\":670},{\"quote\":\"46\",\"value\":46},{\"quote\":\"116\",\"value\":116},{\"quote\":\"830\",\"value\":830},{\"quote\":\"53\",\"value\":53},{\"quote\":\"1, 417\",\"value\":1417},{\"quote\":\"700\",\"value\":700},{\"quote\":\"38.3%\",\"value\":38.3},{\"quote\":\"6.5\",\"value\":6.5},{\"quote\":\"50\",\"value\":50},{\"quote\":\"67\",\"value\":67},{\"quote\":\"51\",\"value\":51},{\"quote\":\"415\",\"value\":415},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"200.4\",\"value\":200.4},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"307\",\"value\":307},{\"quote\":\"6,040\",\"value\":6040},{\"quote\":\"203\",\"value\":203},{\"quote\":\"3\",\"value\":3},{\"quote\":\"5.3\",\"value\":5.3},{\"quote\":\"70\",\"value\":70},{\"quote\":\"640\",\"value\":640},{\"quote\":\"70.43\",\"value\":70.43}],\"justification\":\"Extracted explicit numeric literals, percentages, and formatted numbers from the provided descriptions, excluding ordinals and dates.\"}",
+  "prompt_sha256": "160493e717e579036471460e4e712b0108fdf7e03d7ca4ccdbcae1d202c4fa9f"
+}

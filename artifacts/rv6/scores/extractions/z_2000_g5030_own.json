@@ -1,0 +1,153 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5030",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: each city entry follows \"city name, percentage change, raw number\" format, establishing strong template for continuation.\n\nTable/data structure: the text is mid-sentence presenting city-by-city numerical data, with numerical values expected to follow city names.\n\nFinal token \"around\" introduces an approximate numerical value for the raw count of cities with 10%+ increases, directly requiring a specific number (likely a percentage or raw figure) to complete the statistic.\n\"around 8 is 8\" suggests a formatting artifact; the next token should be a numeric value continuing the city list pattern.\n\"around 25 is 8\" likely contains a formatting error; the immediate next token should be a numeric hazard rating or percentage continuing the city data series.\n\"85%\" or similar numeric value completing the city count statistic is expected next.\n\"25.2\" hazard rating pattern established.",
+    "Film review genre with plot summary structure \u2014 synopsis section is mid-sentence, requiring completion of character/plot description.\n\nThe review has been building toward a critical evaluation, with the synopsis section now providing specific film details and character names.\n\nFinal token \"2,\" is mid-sentence within a list of character names (\"David, and his wife, and his daughter, and his son\"), requiring continuation of the enumeration or a concluding clause about the film's themes/plot.\n\"2,\" signals an incomplete list or numerical reference, likely continuing with more characters or a film title.\n\"2,\" \"500,\" or similar rating/number completing the political film title \"2500\" or \"140,\" with visual analysis of the film's setting.\n\"350 4,\" plot summary \"918 2,\" \u2014 \"450\" film title \"12,\" political.",
+    "List/article format with numbered tips and bold headers signals continuation of structured advice sections, likely more numbered points or elaboration.\n\nThe article is mid-sentence completing a specific statistic or recommendation about the book's content, requiring a concrete number or quantity to follow \"15.\"\n\nFinal token \"15\" is part of an incomplete numerical phrase (\"15 years\" or similar), immediately requiring a unit of time or noun to complete the personal testimony reference.\n\"15\" likely continues as \"150 years\" or \"150 years\" \u2014 but given spiritual/health book context, \"150 years\" or \"150 years\" food/dietary restrictions is the expected completion.\n\"15\" \"150\" spiritual diet advice pattern suggests a paired comparison or list of expert quotes follows.\n\"150 days\" relationship duration \"15 minutes\" spiritual diet \u2014.",
+    "Q&A format established: questions posed then answered, so the next tokens continue the answer to the first listed question about biblical studies.\n\nList continuation pattern: the bulleted questions at the top are being answered sequentially; the first question about biblical studies is now being addressed.\n\nFinal token \"60\" is mid-sentence, completing \"about 60,\" requiring a noun phrase specifying what biblical studies include (e.g., \"60 books,\" \"60 years\"), followed by further enumeration of theological topics.\n\"60\" likely continues with a statistic or list item about biblical studies' scope.\n\"600 years\" academic context frames the answer as historical/theological, expecting specific numerical or categorical details about church history.\n\"300 about 50 years\" theological enumeration \"150 years\" slide\" slide 25 statistic \"30 per cent\" slide\" slide 2.",
+    "Statistical reporting pattern: article presents survey data with percentages, expecting continuation of findings or methodology details.\n\nBook review/summary genre: structured analysis of statistics, expecting further data points, comparisons, or conclusions about the book's content and reach.\n\nFinal token \"20%\" completes a statistic about the book's readership percentage, immediately constraining what follows to either a period ending the sentence, or continuation with additional statistics, comparisons, or commentary on the data.\n\"20%\" likely closes a sentence, with the next token being punctuation or a conjunction introducing further findings.\n\"200, about 20 people\" or similar publication citation completing the news report's statistical framing.\n\"about 42, 30, 120\" study findings are being cited, so \"42.5 percent\" visual evidence or explanatory context follows \"40,000 people 2.",
+    "Structured list pattern: each entry follows \"Case name \u2192 question \u2192 answer\" format, establishing strong continuation expectation.\n\nTheological/legal analysis register: academic commentary on biblical texts, citing scripture references and doctrinal questions about church doctrine.\n\nFinal token \"15\" ends a sentence fragment mid-thought (\"about 15\"), part of a bibliographic citation or case reference, immediately requiring completion of the number or continuation of the analytical sentence about the book's content.\n\"15\" likely continues as \"150 pages\" or similar, or transitions to the next case entry.\n\"15. about 300 pages\" or similar legal citation format is expected next.\n\"about 1.25 about 300 pages\" or \"about 125 pages\" \u2014 the \"50. about 9.3 years\" answer \"150\" was just given,."
+  ],
+  "input_sha256": "cc0d0b733d0e837f18bc3b87a2bef545fb31fe19596e5ac329115b845d4fe353",
+  "values": [
+    {
+      "quote": "8 is 8",
+      "value": "8"
+    },
+    {
+      "quote": "25 is 8",
+      "value": "25"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "25.2",
+      "value": "25.2"
+    },
+    {
+      "quote": "2,",
+      "value": "2"
+    },
+    {
+      "quote": "500,",
+      "value": "500"
+    },
+    {
+      "quote": "2500",
+      "value": "2500"
+    },
+    {
+      "quote": "140,",
+      "value": "140"
+    },
+    {
+      "quote": "350 4,",
+      "value": "350"
+    },
+    {
+      "quote": "350 4,",
+      "value": "4"
+    },
+    {
+      "quote": "918 2,",
+      "value": "918"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "12,",
+      "value": "12"
+    },
+    {
+      "quote": "15.",
+      "value": "15"
+    },
+    {
+      "quote": "150 years",
+      "value": "150"
+    },
+    {
+      "quote": "15 minutes",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600 years",
+      "value": "600"
+    },
+    {
+      "quote": "300 about 50 years",
+      "value": "300"
+    },
+    {
+      "quote": "300 about 50 years",
+      "value": "50"
+    },
+    {
+      "quote": "slide 25",
+      "value": "25"
+    },
+    {
+      "quote": "30 per cent",
+      "value": "30"
+    },
+    {
+      "quote": "slide 2.",
+      "value": "2"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "200,",
+      "value": "200"
+    },
+    {
+      "quote": "about 42,",
+      "value": "42"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "42.5 percent",
+      "value": "42.5"
+    },
+    {
+      "quote": "40,000 people",
+      "value": "40000"
+    },
+    {
+      "quote": "1.25",
+      "value": "1.25"
+    },
+    {
+      "quote": "125 pages",
+      "value": "125"
+    },
+    {
+      "quote": "50.",
+      "value": "50"
+    },
+    {
+      "quote": "9.3 years",
+      "value": "9.3"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"8 is 8\",\"value\":8},{\"quote\":\"25 is 8\",\"value\":25},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"25.2\",\"value\":25.2},{\"quote\":\"2,\",\"value\":2},{\"quote\":\"500,\",\"value\":500},{\"quote\":\"2500\",\"value\":2500},{\"quote\":\"140,\",\"value\":140},{\"quote\":\"350 4,\",\"value\":350},{\"quote\":\"350 4,\",\"value\":4},{\"quote\":\"918 2,\",\"value\":918},{\"quote\":\"450\",\"value\":450},{\"quote\":\"12,\",\"value\":12},{\"quote\":\"15.\",\"value\":15},{\"quote\":\"150 years\",\"value\":150},{\"quote\":\"15 minutes\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600 years\",\"value\":600},{\"quote\":\"300 about 50 years\",\"value\":300},{\"quote\":\"300 about 50 years\",\"value\":50},{\"quote\":\"slide 25\",\"value\":25},{\"quote\":\"30 per cent\",\"value\":30},{\"quote\":\"slide 2.\",\"value\":2},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"200,\",\"value\":200},{\"quote\":\"about 42,\",\"value\":42},{\"quote\":\"120\",\"value\":120},{\"quote\":\"42.5 percent\",\"value\":42.5},{\"quote\":\"40,000 people\",\"value\":40000},{\"quote\":\"1.25\",\"value\":1.25},{\"quote\":\"125 pages\",\"value\":125},{\"quote\":\"50.\",\"value\":50},{\"quote\":\"9.3 years\",\"value\":9.3}],\"justification\":\"Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "8464e3d4ce21c767d2246521ca4b576156385921946a82d35f2cb3c90b7038e3"
+}

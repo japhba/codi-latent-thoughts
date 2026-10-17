@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5316",
+  "kind": "own",
+  "descriptions": [
+    "Physics problem-solving context: a worked example is being solved step-by-step, requiring a numerical answer to follow.\n\nThe problem setup establishes a specific numerical scenario (2.0 kg block, 0.500 s, 0.400 s) that must be resolved with a calculated value.\n\nFinal token \"is\" opens a declarative statement completing \"The number of oscillations is ___\" \u2014 immediately requires a specific numerical answer (likely a decimal or whole number) followed by units (e.g., \"0.400 s / 0.500 s = 0.8 oscillations\").\n</explanation>",
+    "Mathematical problem-solving context: combinatorics question requiring counting valid path arrangements across 4 steps, with 2+2=4.\n\nThe solution is mid-calculation, having established total ways (24) and now computing valid arrangements where no two consecutive curved paths appear.\n\nFinal token \"is\" opens a numerical result clause \u2014 the next tokens must be a specific integer (likely \"144\" or \"144 \u00d7 2^4\" or similar combinatorial answer), completing the sentence \"The number of ways...is [number].\"\n</explanation>",
+    "Mathematical problem-solving context: combinatorics problem requiring counting valid/invalid arrangements of 6 cars and 2 trucks on a 8-track track.\n\nThe solution is mid-calculation, having established total ways (C(8,6)=28) and now computing the invalid case where trucks appear together \u2014 the answer must be 166.\n\nFinal token \"3\" begins the number of arrangements where trucks appear together (i.e., C(6,4)\u00d7(6,4)), which is 166; the next tokens must complete this integer, likely \"166\" or \"166 arrangements.\"\n</explanation>",
+    "Math word problem format: structured Q&A with labeled parts (a), (b), (c) and multi-part solutions, establishing a pattern of sequential problem-solving.\n\nThe second problem about a bag containing 36 red balls and 18 blue balls is mid-solution, having established total balls (54) and now computing half the count \u2014 the answer to part (a) is expected next.\n\nFinal token \"36\" is the beginning of the number \"360\" (36 \u00d7 10), completing the arithmetic expression \"360/10 = 36,\" immediately requiring the digit \"0\" to complete the number, then the solution's conclusion.\n</explanation>",
+    "Math word problem solution in progress: arithmetic calculation in progress, computing total number of eggs (360 \u00f7 12 = 30 eggs).\n\nStep-by-step worked solution format established: each step builds on prior calculation, with the final step giving the answer.\n\nThe last token \"360\" is the dividend in a division expression \"360 \u00f7 12 = 30,\" immediately requiring the division result \"30\" to complete the arithmetic statement.\n</explanation>",
+    "Mathematical problem-solving pattern: step-by-step arithmetic reasoning with division, expecting a specific numerical answer to follow.\n\nThe division calculation \"144 \u00f7 12 = 12\" is being completed \u2014 the model must supply the result of this arithmetic operation.\n\nFinal token \"12\" is the computed result of the division expression \"144 / 12 = 12,\" immediately requiring the next token to be the answer \"12\" or a sentence confirming the result.\n</explanation>"
+  ],
+  "input_sha256": "732444f780cffb0182115ac198df2e57ca8d951b3dde1e5de04544d56fdb5887",
+  "values": [
+    {
+      "quote": "2.0 kg block",
+      "value": "2"
+    },
+    {
+      "quote": "0.500 s",
+      "value": "0.5"
+    },
+    {
+      "quote": "0.400 s",
+      "value": "0.4"
+    },
+    {
+      "quote": "0.400 s / 0.500 s = 0.8 oscillations",
+      "value": "0.8"
+    },
+    {
+      "quote": "4 steps",
+      "value": "4"
+    },
+    {
+      "quote": "2+2=4",
+      "value": "2"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    },
+    {
+      "quote": "2^4",
+      "value": "16"
+    },
+    {
+      "quote": "6 cars",
+      "value": "6"
+    },
+    {
+      "quote": "2 trucks",
+      "value": "2"
+    },
+    {
+      "quote": "8-track track",
+      "value": "8"
+    },
+    {
+      "quote": "C(8,6)=28",
+      "value": "28"
+    },
+    {
+      "quote": "166",
+      "value": "166"
+    },
+    {
+      "quote": "36 red balls",
+      "value": "36"
+    },
+    {
+      "quote": "18 blue balls",
+      "value": "18"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "360/10 = 36",
+      "value": "36"
+    },
+    {
+      "quote": "360 \u00f7 12 = 30 eggs",
+      "value": "12"
+    },
+    {
+      "quote": "360 \u00f7 12 = 30 eggs",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions like 2^4, 0.4/0.5, and 360/12 from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2.0 kg block\",\"value\":2.0},{\"quote\":\"0.500 s\",\"value\":0.5},{\"quote\":\"0.400 s\",\"value\":0.4},{\"quote\":\"0.400 s / 0.500 s = 0.8 oscillations\",\"value\":0.8},{\"quote\":\"4 steps\",\"value\":4},{\"quote\":\"2+2=4\",\"value\":2},{\"quote\":\"24\",\"value\":24},{\"quote\":\"144\",\"value\":144},{\"quote\":\"2^4\",\"value\":16},{\"quote\":\"6 cars\",\"value\":6},{\"quote\":\"2 trucks\",\"value\":2},{\"quote\":\"8-track track\",\"value\":8},{\"quote\":\"C(8,6)=28\",\"value\":28},{\"quote\":\"166\",\"value\":166},{\"quote\":\"36 red balls\",\"value\":36},{\"quote\":\"18 blue balls\",\"value\":18},{\"quote\":\"54\",\"value\":54},{\"quote\":\"360\",\"value\":360},{\"quote\":\"10\",\"value\":10},{\"quote\":\"360/10 = 36\",\"value\":36},{\"quote\":\"360 \\u00F7 12 = 30 eggs\",\"value\":12},{\"quote\":\"360 \\u00F7 12 = 30 eggs\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions like 2^4, 0.4/0.5, and 360/12 from the provided descriptions.\"}",
+  "prompt_sha256": "d13f097daf669714e6a102d58ff6711f0d9df87998f463e17d58d79be215b12d"
+}

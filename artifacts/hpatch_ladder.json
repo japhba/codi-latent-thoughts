@@ -1,0 +1,5001 @@
+{
+ "summary": {
+  "lb.identity": {
+   "n": 44,
+   "gold": 0.6818181818181818,
+   "keep": 1.0,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "lb.repatch": {
+   "n": 44,
+   "gold": 0.6818181818181818,
+   "keep": 1.0,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "lb.donor": {
+   "n": 44,
+   "gold": 0.11363636363636363,
+   "keep": 0.11363636363636363,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.045454545454545456
+  },
+  "lb.noise": {
+   "n": 44,
+   "gold": 0.4090909090909091,
+   "keep": 0.4090909090909091,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "lb.selfpos": {
+   "n": 44,
+   "gold": 0.6590909090909091,
+   "keep": 0.6136363636363636,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "lb.donor_p1": {
+   "n": 44,
+   "gold": 0.25,
+   "keep": 0.25,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.0
+  },
+  "lb.donor_p2": {
+   "n": 44,
+   "gold": 0.45454545454545453,
+   "keep": 0.5681818181818182,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.022727272727272728
+  },
+  "lb.donor_p3": {
+   "n": 44,
+   "gold": 0.5681818181818182,
+   "keep": 0.6363636363636364,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "lb.donor_p4": {
+   "n": 44,
+   "gold": 0.5227272727272727,
+   "keep": 0.6590909090909091,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.022727272727272728
+  },
+  "lb.donor_p5": {
+   "n": 44,
+   "gold": 0.5227272727272727,
+   "keep": 0.6590909090909091,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.022727272727272728
+  },
+  "lb.donor_p6": {
+   "n": 44,
+   "gold": 0.7954545454545454,
+   "keep": 0.8636363636363636,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.identity": {
+   "n": 44,
+   "gold": 0.8863636363636364,
+   "keep": 1.0,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.repatch": {
+   "n": 44,
+   "gold": 0.8863636363636364,
+   "keep": 1.0,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.donor": {
+   "n": 44,
+   "gold": 0.4318181818181818,
+   "keep": 0.4090909090909091,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.022727272727272728
+  },
+  "ctl.noise": {
+   "n": 44,
+   "gold": 0.9090909090909091,
+   "keep": 0.8409090909090909,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.0
+  },
+  "ctl.selfpos": {
+   "n": 44,
+   "gold": 0.8409090909090909,
+   "keep": 0.8181818181818182,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.donor_p1": {
+   "n": 44,
+   "gold": 0.5681818181818182,
+   "keep": 0.5454545454545454,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.donor_p2": {
+   "n": 44,
+   "gold": 0.8409090909090909,
+   "keep": 0.8636363636363636,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.donor_p3": {
+   "n": 44,
+   "gold": 0.8409090909090909,
+   "keep": 0.8636363636363636,
+   "donor_pred": 0.022727272727272728,
+   "donor_gold": 0.0
+  },
+  "ctl.donor_p4": {
+   "n": 44,
+   "gold": 0.8181818181818182,
+   "keep": 0.8636363636363636,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.donor_p5": {
+   "n": 44,
+   "gold": 0.8863636363636364,
+   "keep": 0.8636363636363636,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  },
+  "ctl.donor_p6": {
+   "n": 44,
+   "gold": 0.9090909090909091,
+   "keep": 0.9090909090909091,
+   "donor_pred": 0.0,
+   "donor_gold": 0.0
+  }
+ },
+ "mean_disp": 167.2634735107422,
+ "records": [
+  {
+   "i": 15,
+   "group": "lb",
+   "hops": 3,
+   "gold": 125.0,
+   "donor_i": 60,
+   "donor_gold": 17.0,
+   "donor_identity_pred": 17.0,
+   "conds": {
+    "identity": {
+     "pred": 159.0,
+     "text": "159"
+    },
+    "repatch": {
+     "pred": 159.0,
+     "text": "159"
+    },
+    "donor": {
+     "pred": 170.0,
+     "text": "170"
+    },
+    "noise": {
+     "pred": 165.0,
+     "text": "165"
+    },
+    "selfpos": {
+     "pred": 155.0,
+     "text": "155"
+    },
+    "donor_p1": {
+     "pred": 155.0,
+     "text": "155"
+    },
+    "donor_p2": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p3": {
+     "pred": 1240.0,
+     "text": "1240"
+    },
+    "donor_p4": {
+     "pred": 112.0,
+     "text": "112"
+    },
+    "donor_p5": {
+     "pred": 177.0,
+     "text": "177"
+    },
+    "donor_p6": {
+     "pred": 125.0,
+     "text": "125"
+    }
+   }
+  },
+  {
+   "i": 17,
+   "group": "lb",
+   "hops": 4,
+   "gold": 57500.0,
+   "donor_i": 70,
+   "donor_gold": 7425.0,
+   "donor_identity_pred": 6975.0,
+   "conds": {
+    "identity": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "repatch": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "donor": {
+     "pred": 50000.0,
+     "text": "50000"
+    },
+    "noise": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "selfpos": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "donor_p1": {
+     "pred": 50000.0,
+     "text": "50000"
+    },
+    "donor_p2": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "donor_p3": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "donor_p4": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "donor_p5": {
+     "pred": 57500.0,
+     "text": "57500"
+    },
+    "donor_p6": {
+     "pred": 57500.0,
+     "text": "57500"
+    }
+   }
+  },
+  {
+   "i": 60,
+   "group": "lb",
+   "hops": 3,
+   "gold": 17.0,
+   "donor_i": 72,
+   "donor_gold": 221.0,
+   "donor_identity_pred": 227.0,
+   "conds": {
+    "identity": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "repatch": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "noise": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "selfpos": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p1": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p2": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p3": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p4": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p5": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p6": {
+     "pred": 17.0,
+     "text": "17"
+    }
+   }
+  },
+  {
+   "i": 70,
+   "group": "lb",
+   "hops": 4,
+   "gold": 7425.0,
+   "donor_i": 151,
+   "donor_gold": 5.0,
+   "donor_identity_pred": 5.0,
+   "conds": {
+    "identity": {
+     "pred": 6975.0,
+     "text": "6975"
+    },
+    "repatch": {
+     "pred": 6975.0,
+     "text": "6975"
+    },
+    "donor": {
+     "pred": 6300.0,
+     "text": "6300"
+    },
+    "noise": {
+     "pred": 6975.0,
+     "text": "6975"
+    },
+    "selfpos": {
+     "pred": 7425.0,
+     "text": "7425"
+    },
+    "donor_p1": {
+     "pred": 6300.0,
+     "text": "6300"
+    },
+    "donor_p2": {
+     "pred": 6975.0,
+     "text": "6975"
+    },
+    "donor_p3": {
+     "pred": 7020.0,
+     "text": "7020"
+    },
+    "donor_p4": {
+     "pred": 7020.0,
+     "text": "7020"
+    },
+    "donor_p5": {
+     "pred": 6975.0,
+     "text": "6975"
+    },
+    "donor_p6": {
+     "pred": 7425.0,
+     "text": "7425"
+    }
+   }
+  },
+  {
+   "i": 72,
+   "group": "lb",
+   "hops": 3,
+   "gold": 221.0,
+   "donor_i": 264,
+   "donor_gold": 400.0,
+   "donor_identity_pred": 375.0,
+   "conds": {
+    "identity": {
+     "pred": 227.0,
+     "text": "227"
+    },
+    "repatch": {
+     "pred": 227.0,
+     "text": "227"
+    },
+    "donor": {
+     "pred": 204.0,
+     "text": "204"
+    },
+    "noise": {
+     "pred": 217.0,
+     "text": "217"
+    },
+    "selfpos": {
+     "pred": 217.0,
+     "text": "217"
+    },
+    "donor_p1": {
+     "pred": 227.0,
+     "text": "227"
+    },
+    "donor_p2": {
+     "pred": 217.0,
+     "text": "217"
+    },
+    "donor_p3": {
+     "pred": 229.0,
+     "text": "229"
+    },
+    "donor_p4": {
+     "pred": 227.0,
+     "text": "227"
+    },
+    "donor_p5": {
+     "pred": 205.0,
+     "text": "205"
+    },
+    "donor_p6": {
+     "pred": 227.0,
+     "text": "227"
+    }
+   }
+  },
+  {
+   "i": 151,
+   "group": "lb",
+   "hops": 4,
+   "gold": 5.0,
+   "donor_i": 182,
+   "donor_gold": 23.0,
+   "donor_identity_pred": 21.0,
+   "conds": {
+    "identity": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "repatch": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "noise": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "selfpos": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p1": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p2": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p3": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p4": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p5": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p6": {
+     "pred": 5.0,
+     "text": "5"
+    }
+   }
+  },
+  {
+   "i": 154,
+   "group": "lb",
+   "hops": 7,
+   "gold": 272.0,
+   "donor_i": 601,
+   "donor_gold": 104.0,
+   "donor_identity_pred": 110.0,
+   "conds": {
+    "identity": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "repatch": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "donor": {
+     "pred": 208.0,
+     "text": "208"
+    },
+    "noise": {
+     "pred": 208.0,
+     "text": "208"
+    },
+    "selfpos": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "donor_p1": {
+     "pred": 208.0,
+     "text": "208"
+    },
+    "donor_p2": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "donor_p3": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "donor_p4": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "donor_p5": {
+     "pred": 272.0,
+     "text": "272"
+    },
+    "donor_p6": {
+     "pred": 272.0,
+     "text": "272"
+    }
+   }
+  },
+  {
+   "i": 182,
+   "group": "lb",
+   "hops": 4,
+   "gold": 23.0,
+   "donor_i": 371,
+   "donor_gold": 50.0,
+   "donor_identity_pred": 52.0,
+   "conds": {
+    "identity": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "repatch": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor": {
+     "pred": 50.0,
+     "text": "50"
+    },
+    "noise": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "selfpos": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor_p1": {
+     "pred": 52.0,
+     "text": "52"
+    },
+    "donor_p2": {
+     "pred": 23.0,
+     "text": "23"
+    },
+    "donor_p3": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor_p4": {
+     "pred": 23.0,
+     "text": "23"
+    },
+    "donor_p5": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor_p6": {
+     "pred": 23.0,
+     "text": "23"
+    }
+   }
+  },
+  {
+   "i": 264,
+   "group": "lb",
+   "hops": 3,
+   "gold": 400.0,
+   "donor_i": 508,
+   "donor_gold": 120.0,
+   "donor_identity_pred": 120.0,
+   "conds": {
+    "identity": {
+     "pred": 375.0,
+     "text": "375"
+    },
+    "repatch": {
+     "pred": 375.0,
+     "text": "375"
+    },
+    "donor": {
+     "pred": 375.0,
+     "text": "375"
+    },
+    "noise": {
+     "pred": 375.0,
+     "text": "375"
+    },
+    "selfpos": {
+     "pred": 400.0,
+     "text": "400"
+    },
+    "donor_p1": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p2": {
+     "pred": 390.0,
+     "text": "390"
+    },
+    "donor_p3": {
+     "pred": 399.99,
+     "text": "399.99"
+    },
+    "donor_p4": {
+     "pred": 399.99,
+     "text": "399.99"
+    },
+    "donor_p5": {
+     "pred": 375.0,
+     "text": "375"
+    },
+    "donor_p6": {
+     "pred": 399.99,
+     "text": "399.99"
+    }
+   }
+  },
+  {
+   "i": 279,
+   "group": "lb",
+   "hops": 1,
+   "gold": 6.0,
+   "donor_i": 707,
+   "donor_gold": 8.0,
+   "donor_identity_pred": 7.2,
+   "conds": {
+    "identity": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "repatch": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor": {
+     "pred": 1.875,
+     "text": "1.875"
+    },
+    "noise": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "selfpos": {
+     "pred": 6.3,
+     "text": "6.3"
+    },
+    "donor_p1": {
+     "pred": 1.5,
+     "text": "1.5"
+    },
+    "donor_p2": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor_p3": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor_p4": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor_p5": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor_p6": {
+     "pred": 3.0,
+     "text": "3"
+    }
+   }
+  },
+  {
+   "i": 288,
+   "group": "lb",
+   "hops": 2,
+   "gold": 3.0,
+   "donor_i": 702,
+   "donor_gold": 2800.0,
+   "donor_identity_pred": 2800.0,
+   "conds": {
+    "identity": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "repatch": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "noise": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "selfpos": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor_p1": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "donor_p2": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p3": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p4": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p5": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p6": {
+     "pred": 5.0,
+     "text": "5"
+    }
+   }
+  },
+  {
+   "i": 371,
+   "group": "lb",
+   "hops": 4,
+   "gold": 50.0,
+   "donor_i": 456,
+   "donor_gold": 78.0,
+   "donor_identity_pred": 78.0,
+   "conds": {
+    "identity": {
+     "pred": 52.0,
+     "text": "52"
+    },
+    "repatch": {
+     "pred": 52.0,
+     "text": "52"
+    },
+    "donor": {
+     "pred": 69.0,
+     "text": "69"
+    },
+    "noise": {
+     "pred": 50.0,
+     "text": "50"
+    },
+    "selfpos": {
+     "pred": 56.0,
+     "text": "56"
+    },
+    "donor_p1": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor_p2": {
+     "pred": 52.0,
+     "text": "52"
+    },
+    "donor_p3": {
+     "pred": 53.0,
+     "text": "53"
+    },
+    "donor_p4": {
+     "pred": 56.0,
+     "text": "56"
+    },
+    "donor_p5": {
+     "pred": 50.0,
+     "text": "50"
+    },
+    "donor_p6": {
+     "pred": 52.0,
+     "text": "52"
+    }
+   }
+  },
+  {
+   "i": 382,
+   "group": "lb",
+   "hops": 5,
+   "gold": 350.0,
+   "donor_i": 605,
+   "donor_gold": 42.0,
+   "donor_identity_pred": 42.0,
+   "conds": {
+    "identity": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "repatch": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor": {
+     "pred": 450.0,
+     "text": "450"
+    },
+    "noise": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "selfpos": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p1": {
+     "pred": 450.0,
+     "text": "450"
+    },
+    "donor_p2": {
+     "pred": 370.0,
+     "text": "370"
+    },
+    "donor_p3": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p4": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p5": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p6": {
+     "pred": 350.0,
+     "text": "350"
+    }
+   }
+  },
+  {
+   "i": 456,
+   "group": "lb",
+   "hops": 4,
+   "gold": 78.0,
+   "donor_i": 503,
+   "donor_gold": 18.0,
+   "donor_identity_pred": 18.0,
+   "conds": {
+    "identity": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "repatch": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor": {
+     "pred": 64.0,
+     "text": "64"
+    },
+    "noise": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "selfpos": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p1": {
+     "pred": 69.0,
+     "text": "69"
+    },
+    "donor_p2": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p3": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p4": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p5": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p6": {
+     "pred": 78.0,
+     "text": "78"
+    }
+   }
+  },
+  {
+   "i": 503,
+   "group": "lb",
+   "hops": 4,
+   "gold": 18.0,
+   "donor_i": 753,
+   "donor_gold": 128.0,
+   "donor_identity_pred": 128.0,
+   "conds": {
+    "identity": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "repatch": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "noise": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "selfpos": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p1": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p2": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p3": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p4": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p5": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p6": {
+     "pred": 18.0,
+     "text": "18"
+    }
+   }
+  },
+  {
+   "i": 508,
+   "group": "lb",
+   "hops": 3,
+   "gold": 120.0,
+   "donor_i": 559,
+   "donor_gold": 16.0,
+   "donor_identity_pred": 16.0,
+   "conds": {
+    "identity": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "repatch": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "noise": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "selfpos": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor_p1": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor_p2": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p3": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p4": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "donor_p5": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "donor_p6": {
+     "pred": 120.0,
+     "text": "120"
+    }
+   }
+  },
+  {
+   "i": 559,
+   "group": "lb",
+   "hops": 3,
+   "gold": 16.0,
+   "donor_i": 646,
+   "donor_gold": 79.0,
+   "donor_identity_pred": 79.0,
+   "conds": {
+    "identity": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "repatch": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "noise": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "selfpos": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p1": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p2": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p3": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p4": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p5": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p6": {
+     "pred": 16.0,
+     "text": "16"
+    }
+   }
+  },
+  {
+   "i": 601,
+   "group": "lb",
+   "hops": 6,
+   "gold": 104.0,
+   "donor_i": 1176,
+   "donor_gold": 2.0,
+   "donor_identity_pred": 2.0,
+   "conds": {
+    "identity": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "repatch": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "donor": {
+     "pred": 101.0,
+     "text": "101"
+    },
+    "noise": {
+     "pred": 101.0,
+     "text": "101"
+    },
+    "selfpos": {
+     "pred": 122.0,
+     "text": "122"
+    },
+    "donor_p1": {
+     "pred": 101.0,
+     "text": "101"
+    },
+    "donor_p2": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "donor_p3": {
+     "pred": 116.0,
+     "text": "116"
+    },
+    "donor_p4": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "donor_p5": {
+     "pred": 110.0,
+     "text": "110"
+    },
+    "donor_p6": {
+     "pred": 110.0,
+     "text": "110"
+    }
+   }
+  },
+  {
+   "i": 605,
+   "group": "lb",
+   "hops": 5,
+   "gold": 42.0,
+   "donor_i": 638,
+   "donor_gold": 12.0,
+   "donor_identity_pred": 12.0,
+   "conds": {
+    "identity": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "repatch": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor": {
+     "pred": 21.5,
+     "text": "21.5"
+    },
+    "noise": {
+     "pred": 51.0,
+     "text": "51"
+    },
+    "selfpos": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p1": {
+     "pred": 24.0,
+     "text": "24"
+    },
+    "donor_p2": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p3": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p4": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p5": {
+     "pred": 45.0,
+     "text": "45"
+    },
+    "donor_p6": {
+     "pred": 42.0,
+     "text": "42"
+    }
+   }
+  },
+  {
+   "i": 638,
+   "group": "lb",
+   "hops": 5,
+   "gold": 12.0,
+   "donor_i": 966,
+   "donor_gold": 48.0,
+   "donor_identity_pred": 48.0,
+   "conds": {
+    "identity": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "repatch": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor": {
+     "pred": 19.5,
+     "text": "19.50"
+    },
+    "noise": {
+     "pred": 12.05,
+     "text": "12.05"
+    },
+    "selfpos": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p1": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p2": {
+     "pred": 16.75,
+     "text": "16.75"
+    },
+    "donor_p3": {
+     "pred": 15.7,
+     "text": "15.70"
+    },
+    "donor_p4": {
+     "pred": 11.75,
+     "text": "11.75"
+    },
+    "donor_p5": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p6": {
+     "pred": 12.0,
+     "text": "12"
+    }
+   }
+  },
+  {
+   "i": 646,
+   "group": "lb",
+   "hops": 3,
+   "gold": 79.0,
+   "donor_i": 688,
+   "donor_gold": 100.0,
+   "donor_identity_pred": 100.0,
+   "conds": {
+    "identity": {
+     "pred": 79.0,
+     "text": "79"
+    },
+    "repatch": {
+     "pred": 79.0,
+     "text": "79"
+    },
+    "donor": {
+     "pred": 70.0,
+     "text": "70"
+    },
+    "noise": {
+     "pred": 71.0,
+     "text": "71"
+    },
+    "selfpos": {
+     "pred": 79.0,
+     "text": "79"
+    },
+    "donor_p1": {
+     "pred": 79.0,
+     "text": "79"
+    },
+    "donor_p2": {
+     "pred": 75.0,
+     "text": "75"
+    },
+    "donor_p3": {
+     "pred": 70.0,
+     "text": "70"
+    },
+    "donor_p4": {
+     "pred": 79.0,
+     "text": "79"
+    },
+    "donor_p5": {
+     "pred": 74.0,
+     "text": "74"
+    },
+    "donor_p6": {
+     "pred": 79.0,
+     "text": "79"
+    }
+   }
+  },
+  {
+   "i": 688,
+   "group": "lb",
+   "hops": 3,
+   "gold": 100.0,
+   "donor_i": 786,
+   "donor_gold": 142.0,
+   "donor_identity_pred": 142.0,
+   "conds": {
+    "identity": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "repatch": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor": {
+     "pred": 150.0,
+     "text": "150"
+    },
+    "noise": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "selfpos": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor_p1": {
+     "pred": 140.0,
+     "text": "140"
+    },
+    "donor_p2": {
+     "pred": 130.0,
+     "text": "130"
+    },
+    "donor_p3": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor_p4": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor_p5": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor_p6": {
+     "pred": 100.0,
+     "text": "100"
+    }
+   }
+  },
+  {
+   "i": 702,
+   "group": "lb",
+   "hops": 2,
+   "gold": 2800.0,
+   "donor_i": 1237,
+   "donor_gold": 78.0,
+   "donor_identity_pred": 78.0,
+   "conds": {
+    "identity": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "repatch": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "donor": {
+     "pred": 3600.0,
+     "text": "3600"
+    },
+    "noise": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "selfpos": {
+     "pred": 3200.0,
+     "text": "3200"
+    },
+    "donor_p1": {
+     "pred": 3200.0,
+     "text": "3200"
+    },
+    "donor_p2": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "donor_p3": {
+     "pred": 2600.0,
+     "text": "2600"
+    },
+    "donor_p4": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "donor_p5": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "donor_p6": {
+     "pred": 2800.0,
+     "text": "2800"
+    }
+   }
+  },
+  {
+   "i": 707,
+   "group": "lb",
+   "hops": 0,
+   "gold": 8.0,
+   "donor_i": 1317,
+   "donor_gold": 5.0,
+   "donor_identity_pred": 15.0,
+   "conds": {
+    "identity": {
+     "pred": 7.2,
+     "text": "7.2"
+    },
+    "repatch": {
+     "pred": 7.2,
+     "text": "7.2"
+    },
+    "donor": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "noise": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "selfpos": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p1": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p2": {
+     "pred": 7.2,
+     "text": "7.2"
+    },
+    "donor_p3": {
+     "pred": 7.2,
+     "text": "7.2"
+    },
+    "donor_p4": {
+     "pred": 7.2,
+     "text": "7.2"
+    },
+    "donor_p5": {
+     "pred": 7.2,
+     "text": "7.2"
+    },
+    "donor_p6": {
+     "pred": 7.2,
+     "text": "7.2"
+    }
+   }
+  },
+  {
+   "i": 753,
+   "group": "lb",
+   "hops": 4,
+   "gold": 128.0,
+   "donor_i": 826,
+   "donor_gold": 27.0,
+   "donor_identity_pred": 27.0,
+   "conds": {
+    "identity": {
+     "pred": 128.0,
+     "text": "128"
+    },
+    "repatch": {
+     "pred": 128.0,
+     "text": "128"
+    },
+    "donor": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "noise": {
+     "pred": 126.0,
+     "text": "126"
+    },
+    "selfpos": {
+     "pred": 128.0,
+     "text": "128"
+    },
+    "donor_p1": {
+     "pred": 282.0,
+     "text": "282"
+    },
+    "donor_p2": {
+     "pred": 142.0,
+     "text": "142"
+    },
+    "donor_p3": {
+     "pred": 128.0,
+     "text": "128"
+    },
+    "donor_p4": {
+     "pred": 135.0,
+     "text": "135"
+    },
+    "donor_p5": {
+     "pred": 135.0,
+     "text": "135"
+    },
+    "donor_p6": {
+     "pred": 128.0,
+     "text": "128"
+    }
+   }
+  },
+  {
+   "i": 786,
+   "group": "lb",
+   "hops": 3,
+   "gold": 142.0,
+   "donor_i": 813,
+   "donor_gold": 7.0,
+   "donor_identity_pred": 8.0,
+   "conds": {
+    "identity": {
+     "pred": 142.0,
+     "text": "142"
+    },
+    "repatch": {
+     "pred": 142.0,
+     "text": "142"
+    },
+    "donor": {
+     "pred": 74.0,
+     "text": "74"
+    },
+    "noise": {
+     "pred": 132.0,
+     "text": "132"
+    },
+    "selfpos": {
+     "pred": 142.0,
+     "text": "142"
+    },
+    "donor_p1": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p2": {
+     "pred": 152.0,
+     "text": "152"
+    },
+    "donor_p3": {
+     "pred": 142.0,
+     "text": "142"
+    },
+    "donor_p4": {
+     "pred": 142.0,
+     "text": "142"
+    },
+    "donor_p5": {
+     "pred": 138.0,
+     "text": "138"
+    },
+    "donor_p6": {
+     "pred": 142.0,
+     "text": "142"
+    }
+   }
+  },
+  {
+   "i": 813,
+   "group": "lb",
+   "hops": 3,
+   "gold": 7.0,
+   "donor_i": 948,
+   "donor_gold": 15.0,
+   "donor_identity_pred": 15.0,
+   "conds": {
+    "identity": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "repatch": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "donor": {
+     "pred": 11.5,
+     "text": "11.5"
+    },
+    "noise": {
+     "pred": 1.0,
+     "text": "1"
+    },
+    "selfpos": {
+     "pred": 11.5,
+     "text": "11.5"
+    },
+    "donor_p1": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p2": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "donor_p3": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "donor_p4": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "donor_p5": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "donor_p6": {
+     "pred": 7.0,
+     "text": "7"
+    }
+   }
+  },
+  {
+   "i": 826,
+   "group": "lb",
+   "hops": 4,
+   "gold": 27.0,
+   "donor_i": 840,
+   "donor_gold": 16.0,
+   "donor_identity_pred": 16.0,
+   "conds": {
+    "identity": {
+     "pred": 27.0,
+     "text": "27"
+    },
+    "repatch": {
+     "pred": 27.0,
+     "text": "27"
+    },
+    "donor": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "noise": {
+     "pred": 27.0,
+     "text": "27"
+    },
+    "selfpos": {
+     "pred": 27.0,
+     "text": "27"
+    },
+    "donor_p1": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "donor_p2": {
+     "pred": 23.0,
+     "text": "23"
+    },
+    "donor_p3": {
+     "pred": 27.0,
+     "text": "27"
+    },
+    "donor_p4": {
+     "pred": 24.0,
+     "text": "24"
+    },
+    "donor_p5": {
+     "pred": 24.0,
+     "text": "24"
+    },
+    "donor_p6": {
+     "pred": 27.0,
+     "text": "27"
+    }
+   }
+  },
+  {
+   "i": 840,
+   "group": "lb",
+   "hops": 4,
+   "gold": 16.0,
+   "donor_i": 890,
+   "donor_gold": 25.0,
+   "donor_identity_pred": 25.0,
+   "conds": {
+    "identity": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "repatch": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "noise": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "selfpos": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "donor_p1": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p2": {
+     "pred": 13.0,
+     "text": "13"
+    },
+    "donor_p3": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p4": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p5": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p6": {
+     "pred": 16.0,
+     "text": "16"
+    }
+   }
+  },
+  {
+   "i": 890,
+   "group": "lb",
+   "hops": 4,
+   "gold": 25.0,
+   "donor_i": 933,
+   "donor_gold": 15.0,
+   "donor_identity_pred": 0.0,
+   "conds": {
+    "identity": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "repatch": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor": {
+     "pred": 16.67,
+     "text": "16.67"
+    },
+    "noise": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "selfpos": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p1": {
+     "pred": 16.67,
+     "text": "16.67"
+    },
+    "donor_p2": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p3": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p4": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p5": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p6": {
+     "pred": 25.0,
+     "text": "25"
+    }
+   }
+  },
+  {
+   "i": 933,
+   "group": "lb",
+   "hops": 4,
+   "gold": 15.0,
+   "donor_i": 1037,
+   "donor_gold": 10.0,
+   "donor_identity_pred": 10.0,
+   "conds": {
+    "identity": {
+     "pred": 0.0,
+     "text": "0"
+    },
+    "repatch": {
+     "pred": 0.0,
+     "text": "0"
+    },
+    "donor": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "noise": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "selfpos": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p1": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p2": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p3": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p4": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p5": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p6": {
+     "pred": 15.0,
+     "text": "15"
+    }
+   }
+  },
+  {
+   "i": 948,
+   "group": "lb",
+   "hops": 3,
+   "gold": 15.0,
+   "donor_i": 954,
+   "donor_gold": 34.0,
+   "donor_identity_pred": 34.0,
+   "conds": {
+    "identity": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "repatch": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor": {
+     "pred": 19.8,
+     "text": "19.8"
+    },
+    "noise": {
+     "pred": 15.8,
+     "text": "15.8"
+    },
+    "selfpos": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p1": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p2": {
+     "pred": 15.8,
+     "text": "15.8"
+    },
+    "donor_p3": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p4": {
+     "pred": 15.8,
+     "text": "15.8"
+    },
+    "donor_p5": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p6": {
+     "pred": 15.0,
+     "text": "15"
+    }
+   }
+  },
+  {
+   "i": 954,
+   "group": "lb",
+   "hops": 3,
+   "gold": 34.0,
+   "donor_i": 1182,
+   "donor_gold": 1800.0,
+   "donor_identity_pred": 1800.0,
+   "conds": {
+    "identity": {
+     "pred": 34.0,
+     "text": "34"
+    },
+    "repatch": {
+     "pred": 34.0,
+     "text": "34"
+    },
+    "donor": {
+     "pred": 22.0,
+     "text": "22"
+    },
+    "noise": {
+     "pred": 38.0,
+     "text": "38"
+    },
+    "selfpos": {
+     "pred": 34.0,
+     "text": "34"
+    },
+    "donor_p1": {
+     "pred": 22.0,
+     "text": "22"
+    },
+    "donor_p2": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p3": {
+     "pred": 34.0,
+     "text": "34"
+    },
+    "donor_p4": {
+     "pred": 34.0,
+     "text": "34"
+    },
+    "donor_p5": {
+     "pred": 34.0,
+     "text": "34"
+    },
+    "donor_p6": {
+     "pred": 34.0,
+     "text": "34"
+    }
+   }
+  },
+  {
+   "i": 966,
+   "group": "lb",
+   "hops": 5,
+   "gold": 48.0,
+   "donor_i": 773,
+   "donor_gold": 10.0,
+   "donor_identity_pred": 10.0,
+   "conds": {
+    "identity": {
+     "pred": 48.0,
+     "text": "48"
+    },
+    "repatch": {
+     "pred": 48.0,
+     "text": "48"
+    },
+    "donor": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "noise": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "selfpos": {
+     "pred": 48.0,
+     "text": "48"
+    },
+    "donor_p1": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p2": {
+     "pred": 48.0,
+     "text": "48"
+    },
+    "donor_p3": {
+     "pred": 48.0,
+     "text": "48"
+    },
+    "donor_p4": {
+     "pred": 45.0,
+     "text": "45"
+    },
+    "donor_p5": {
+     "pred": 48.0,
+     "text": "48"
+    },
+    "donor_p6": {
+     "pred": 48.0,
+     "text": "48"
+    }
+   }
+  },
+  {
+   "i": 1037,
+   "group": "lb",
+   "hops": 4,
+   "gold": 10.0,
+   "donor_i": 1039,
+   "donor_gold": 160.0,
+   "donor_identity_pred": 160.0,
+   "conds": {
+    "identity": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "repatch": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "noise": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "selfpos": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p1": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p2": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p3": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p4": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p5": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p6": {
+     "pred": 10.0,
+     "text": "10"
+    }
+   }
+  },
+  {
+   "i": 1039,
+   "group": "lb",
+   "hops": 4,
+   "gold": 160.0,
+   "donor_i": 1079,
+   "donor_gold": 10.0,
+   "donor_identity_pred": 10.0,
+   "conds": {
+    "identity": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "repatch": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "noise": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "selfpos": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor_p1": {
+     "pred": 112.0,
+     "text": "112"
+    },
+    "donor_p2": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor_p3": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor_p4": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor_p5": {
+     "pred": 160.0,
+     "text": "160"
+    },
+    "donor_p6": {
+     "pred": 160.0,
+     "text": "160"
+    }
+   }
+  },
+  {
+   "i": 1079,
+   "group": "lb",
+   "hops": 4,
+   "gold": 10.0,
+   "donor_i": 1147,
+   "donor_gold": 22.0,
+   "donor_identity_pred": 16.0,
+   "conds": {
+    "identity": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "repatch": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "noise": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "selfpos": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p1": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "donor_p2": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p3": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p4": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p5": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p6": {
+     "pred": 10.0,
+     "text": "10"
+    }
+   }
+  },
+  {
+   "i": 1147,
+   "group": "lb",
+   "hops": 4,
+   "gold": 22.0,
+   "donor_i": 1211,
+   "donor_gold": 448.0,
+   "donor_identity_pred": 448.0,
+   "conds": {
+    "identity": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "repatch": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "noise": {
+     "pred": 22.0,
+     "text": "22"
+    },
+    "selfpos": {
+     "pred": 17.0,
+     "text": "17"
+    },
+    "donor_p1": {
+     "pred": 16.0,
+     "text": "16"
+    },
+    "donor_p2": {
+     "pred": 19.0,
+     "text": "19"
+    },
+    "donor_p3": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p4": {
+     "pred": 18.0,
+     "text": "18"
+    },
+    "donor_p5": {
+     "pred": 19.0,
+     "text": "19"
+    },
+    "donor_p6": {
+     "pred": 16.0,
+     "text": "16"
+    }
+   }
+  },
+  {
+   "i": 1176,
+   "group": "lb",
+   "hops": 6,
+   "gold": 2.0,
+   "donor_i": 1093,
+   "donor_gold": 144.0,
+   "donor_identity_pred": 144.0,
+   "conds": {
+    "identity": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "repatch": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "noise": {
+     "pred": 3.0,
+     "text": "3"
+    },
+    "selfpos": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p1": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p2": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p3": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p4": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p5": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p6": {
+     "pred": 2.0,
+     "text": "2"
+    }
+   }
+  },
+  {
+   "i": 1182,
+   "group": "lb",
+   "hops": 3,
+   "gold": 1800.0,
+   "donor_i": 1189,
+   "donor_gold": 6.0,
+   "donor_identity_pred": 6.0,
+   "conds": {
+    "identity": {
+     "pred": 1800.0,
+     "text": "1800"
+    },
+    "repatch": {
+     "pred": 1800.0,
+     "text": "1800"
+    },
+    "donor": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "noise": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "selfpos": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p1": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p2": {
+     "pred": 1800.0,
+     "text": "1800"
+    },
+    "donor_p3": {
+     "pred": 1800.0,
+     "text": "1800"
+    },
+    "donor_p4": {
+     "pred": 1800.0,
+     "text": "1800"
+    },
+    "donor_p5": {
+     "pred": 1800.0,
+     "text": "1800"
+    },
+    "donor_p6": {
+     "pred": 1800.0,
+     "text": "1800"
+    }
+   }
+  },
+  {
+   "i": 1189,
+   "group": "lb",
+   "hops": 3,
+   "gold": 6.0,
+   "donor_i": 1236,
+   "donor_gold": 84.0,
+   "donor_identity_pred": 84.0,
+   "conds": {
+    "identity": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "repatch": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor": {
+     "pred": 61.0,
+     "text": "61"
+    },
+    "noise": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "selfpos": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p1": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p2": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p3": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p4": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p5": {
+     "pred": 6.0,
+     "text": "6"
+    },
+    "donor_p6": {
+     "pred": 6.0,
+     "text": "6"
+    }
+   }
+  },
+  {
+   "i": 1236,
+   "group": "lb",
+   "hops": 3,
+   "gold": 84.0,
+   "donor_i": 1253,
+   "donor_gold": 120.0,
+   "donor_identity_pred": 120.0,
+   "conds": {
+    "identity": {
+     "pred": 84.0,
+     "text": "84"
+    },
+    "repatch": {
+     "pred": 84.0,
+     "text": "84"
+    },
+    "donor": {
+     "pred": 126.0,
+     "text": "126"
+    },
+    "noise": {
+     "pred": 96.0,
+     "text": "96"
+    },
+    "selfpos": {
+     "pred": 96.0,
+     "text": "96"
+    },
+    "donor_p1": {
+     "pred": 126.0,
+     "text": "126"
+    },
+    "donor_p2": {
+     "pred": 84.0,
+     "text": "84"
+    },
+    "donor_p3": {
+     "pred": 84.0,
+     "text": "84"
+    },
+    "donor_p4": {
+     "pred": 84.0,
+     "text": "84"
+    },
+    "donor_p5": {
+     "pred": 84.0,
+     "text": "84"
+    },
+    "donor_p6": {
+     "pred": 84.0,
+     "text": "84"
+    }
+   }
+  },
+  {
+   "i": 1237,
+   "group": "lb",
+   "hops": 2,
+   "gold": 78.0,
+   "donor_i": 832,
+   "donor_gold": 42.0,
+   "donor_identity_pred": 42.0,
+   "conds": {
+    "identity": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "repatch": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "noise": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "selfpos": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p1": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p2": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p3": {
+     "pred": 75.0,
+     "text": "75"
+    },
+    "donor_p4": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p5": {
+     "pred": 78.0,
+     "text": "78"
+    },
+    "donor_p6": {
+     "pred": 78.0,
+     "text": "78"
+    }
+   }
+  },
+  {
+   "i": 1317,
+   "group": "lb",
+   "hops": 1,
+   "gold": 5.0,
+   "donor_i": 891,
+   "donor_gold": 55.0,
+   "donor_identity_pred": 55.0,
+   "conds": {
+    "identity": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "repatch": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "noise": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "selfpos": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p1": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "donor_p2": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p3": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p4": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p5": {
+     "pred": 15.0,
+     "text": "15"
+    },
+    "donor_p6": {
+     "pred": 15.0,
+     "text": "15"
+    }
+   }
+  },
+  {
+   "i": 1253,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 120.0,
+   "donor_i": 725,
+   "donor_gold": 25.0,
+   "donor_identity_pred": 25.0,
+   "conds": {
+    "identity": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "repatch": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "noise": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "selfpos": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p1": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p2": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p3": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p4": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p5": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p6": {
+     "pred": 120.0,
+     "text": "120"
+    }
+   }
+  },
+  {
+   "i": 1211,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 448.0,
+   "donor_i": 1024,
+   "donor_gold": 300.0,
+   "donor_identity_pred": 300.0,
+   "conds": {
+    "identity": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "repatch": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "noise": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "selfpos": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p1": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p2": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p3": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p4": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p5": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p6": {
+     "pred": 448.0,
+     "text": "448"
+    }
+   }
+  },
+  {
+   "i": 725,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 25.0,
+   "donor_i": 109,
+   "donor_gold": 28.0,
+   "donor_identity_pred": 28.0,
+   "conds": {
+    "identity": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "repatch": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "noise": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "selfpos": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p1": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p2": {
+     "pred": 22.5,
+     "text": "22.5"
+    },
+    "donor_p3": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p4": {
+     "pred": 22.5,
+     "text": "22.5"
+    },
+    "donor_p5": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p6": {
+     "pred": 25.0,
+     "text": "25"
+    }
+   }
+  },
+  {
+   "i": 1024,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 300.0,
+   "donor_i": 685,
+   "donor_gold": 14.0,
+   "donor_identity_pred": 14.0,
+   "conds": {
+    "identity": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "repatch": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor": {
+     "pred": 190.0,
+     "text": "190"
+    },
+    "noise": {
+     "pred": 320.0,
+     "text": "320"
+    },
+    "selfpos": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p1": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p2": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p3": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p4": {
+     "pred": 304.0,
+     "text": "304"
+    },
+    "donor_p5": {
+     "pred": 300.0,
+     "text": "300"
+    },
+    "donor_p6": {
+     "pred": 300.0,
+     "text": "300"
+    }
+   }
+  },
+  {
+   "i": 109,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 28.0,
+   "donor_i": 925,
+   "donor_gold": 2000.0,
+   "donor_identity_pred": 2000.0,
+   "conds": {
+    "identity": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "repatch": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "noise": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "selfpos": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor_p1": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor_p2": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor_p3": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor_p4": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor_p5": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "donor_p6": {
+     "pred": 28.0,
+     "text": "28"
+    }
+   }
+  },
+  {
+   "i": 685,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 14.0,
+   "donor_i": 505,
+   "donor_gold": 1600.0,
+   "donor_identity_pred": 1600.0,
+   "conds": {
+    "identity": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "repatch": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "noise": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "selfpos": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p1": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p2": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p3": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p4": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p5": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p6": {
+     "pred": 14.0,
+     "text": "14"
+    }
+   }
+  },
+  {
+   "i": 1093,
+   "group": "ctl",
+   "hops": 7,
+   "gold": 144.0,
+   "donor_i": 466,
+   "donor_gold": 1.0,
+   "donor_identity_pred": 100.0,
+   "conds": {
+    "identity": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "repatch": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "donor": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "noise": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "selfpos": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "donor_p1": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p2": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "donor_p3": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "donor_p4": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "donor_p5": {
+     "pred": 144.0,
+     "text": "144"
+    },
+    "donor_p6": {
+     "pred": 144.0,
+     "text": "144"
+    }
+   }
+  },
+  {
+   "i": 505,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 1600.0,
+   "donor_i": 691,
+   "donor_gold": 25.0,
+   "donor_identity_pred": 25.0,
+   "conds": {
+    "identity": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "repatch": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "noise": {
+     "pred": 1200.0,
+     "text": "1200"
+    },
+    "selfpos": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor_p1": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor_p2": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor_p3": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor_p4": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor_p5": {
+     "pred": 1600.0,
+     "text": "1600"
+    },
+    "donor_p6": {
+     "pred": 1600.0,
+     "text": "1600"
+    }
+   }
+  },
+  {
+   "i": 925,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 2000.0,
+   "donor_i": 1154,
+   "donor_gold": 30.0,
+   "donor_identity_pred": 30.0,
+   "conds": {
+    "identity": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "repatch": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "donor": {
+     "pred": 3000.0,
+     "text": "3000"
+    },
+    "noise": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "selfpos": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "donor_p1": {
+     "pred": 3500.0,
+     "text": "3500"
+    },
+    "donor_p2": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "donor_p3": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "donor_p4": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "donor_p5": {
+     "pred": 2000.0,
+     "text": "2000"
+    },
+    "donor_p6": {
+     "pred": 2000.0,
+     "text": "2000"
+    }
+   }
+  },
+  {
+   "i": 891,
+   "group": "ctl",
+   "hops": 1,
+   "gold": 55.0,
+   "donor_i": 482,
+   "donor_gold": 26.0,
+   "donor_identity_pred": 26.0,
+   "conds": {
+    "identity": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "repatch": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "donor": {
+     "pred": 27.5,
+     "text": "27.5"
+    },
+    "noise": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "selfpos": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "donor_p1": {
+     "pred": 27.5,
+     "text": "27.5"
+    },
+    "donor_p2": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "donor_p3": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "donor_p4": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "donor_p5": {
+     "pred": 55.0,
+     "text": "55"
+    },
+    "donor_p6": {
+     "pred": 55.0,
+     "text": "55"
+    }
+   }
+  },
+  {
+   "i": 832,
+   "group": "ctl",
+   "hops": 2,
+   "gold": 42.0,
+   "donor_i": 684,
+   "donor_gold": 11.0,
+   "donor_identity_pred": 11.0,
+   "conds": {
+    "identity": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "repatch": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "noise": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "selfpos": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p1": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p2": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p3": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p4": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p5": {
+     "pred": 42.0,
+     "text": "42"
+    },
+    "donor_p6": {
+     "pred": 42.0,
+     "text": "42"
+    }
+   }
+  },
+  {
+   "i": 691,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 25.0,
+   "donor_i": 80,
+   "donor_gold": 10.0,
+   "donor_identity_pred": 10.0,
+   "conds": {
+    "identity": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "repatch": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor": {
+     "pred": 57.0,
+     "text": "57"
+    },
+    "noise": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "selfpos": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p1": {
+     "pred": 37.0,
+     "text": "37"
+    },
+    "donor_p2": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p3": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p4": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p5": {
+     "pred": 25.0,
+     "text": "25"
+    },
+    "donor_p6": {
+     "pred": 25.0,
+     "text": "25"
+    }
+   }
+  },
+  {
+   "i": 773,
+   "group": "ctl",
+   "hops": 5,
+   "gold": 10.0,
+   "donor_i": 281,
+   "donor_gold": 2450.0,
+   "donor_identity_pred": 2650.0,
+   "conds": {
+    "identity": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "repatch": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "noise": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "selfpos": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p1": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p2": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p3": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p4": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p5": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p6": {
+     "pred": 10.0,
+     "text": "10"
+    }
+   }
+  },
+  {
+   "i": 80,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 10.0,
+   "donor_i": 747,
+   "donor_gold": 350.0,
+   "donor_identity_pred": 350.0,
+   "conds": {
+    "identity": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "repatch": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "noise": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "selfpos": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "donor_p1": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p2": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p3": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p4": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p5": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p6": {
+     "pred": 10.0,
+     "text": "10"
+    }
+   }
+  },
+  {
+   "i": 747,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 350.0,
+   "donor_i": 73,
+   "donor_gold": 255.0,
+   "donor_identity_pred": 255.0,
+   "conds": {
+    "identity": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "repatch": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor": {
+     "pred": 280.0,
+     "text": "280"
+    },
+    "noise": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "selfpos": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p1": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p2": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p3": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p4": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p5": {
+     "pred": 350.0,
+     "text": "350"
+    },
+    "donor_p6": {
+     "pred": 350.0,
+     "text": "350"
+    }
+   }
+  },
+  {
+   "i": 1154,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 30.0,
+   "donor_i": 1087,
+   "donor_gold": 12.0,
+   "donor_identity_pred": 12.0,
+   "conds": {
+    "identity": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "repatch": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "noise": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "selfpos": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p1": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "donor_p2": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p3": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p4": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p5": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p6": {
+     "pred": 30.0,
+     "text": "30"
+    }
+   }
+  },
+  {
+   "i": 1087,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 12.0,
+   "donor_i": 748,
+   "donor_gold": 336.0,
+   "donor_identity_pred": 336.0,
+   "conds": {
+    "identity": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "repatch": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "noise": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "selfpos": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p1": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p2": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p3": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p4": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p5": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p6": {
+     "pred": 12.0,
+     "text": "12"
+    }
+   }
+  },
+  {
+   "i": 466,
+   "group": "ctl",
+   "hops": 6,
+   "gold": 1.0,
+   "donor_i": 1156,
+   "donor_gold": 120.0,
+   "donor_identity_pred": 120.0,
+   "conds": {
+    "identity": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "repatch": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor": {
+     "pred": 1.0,
+     "text": "1"
+    },
+    "noise": {
+     "pred": 1.0,
+     "text": "1"
+    },
+    "selfpos": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p1": {
+     "pred": 1.1,
+     "text": "1.1"
+    },
+    "donor_p2": {
+     "pred": 1.0,
+     "text": "1"
+    },
+    "donor_p3": {
+     "pred": 100.0,
+     "text": "100"
+    },
+    "donor_p4": {
+     "pred": 1.0,
+     "text": "1"
+    },
+    "donor_p5": {
+     "pred": 1.0,
+     "text": "1"
+    },
+    "donor_p6": {
+     "pred": 1.0,
+     "text": "1"
+    }
+   }
+  },
+  {
+   "i": 281,
+   "group": "ctl",
+   "hops": 5,
+   "gold": 2450.0,
+   "donor_i": 422,
+   "donor_gold": 284.0,
+   "donor_identity_pred": 284.0,
+   "conds": {
+    "identity": {
+     "pred": 2650.0,
+     "text": "2650"
+    },
+    "repatch": {
+     "pred": 2650.0,
+     "text": "2650"
+    },
+    "donor": {
+     "pred": 2300.0,
+     "text": "2300"
+    },
+    "noise": {
+     "pred": 2450.0,
+     "text": "2450"
+    },
+    "selfpos": {
+     "pred": 2450.0,
+     "text": "2450"
+    },
+    "donor_p1": {
+     "pred": 2450.0,
+     "text": "2450"
+    },
+    "donor_p2": {
+     "pred": 2800.0,
+     "text": "2800"
+    },
+    "donor_p3": {
+     "pred": 2650.0,
+     "text": "2650"
+    },
+    "donor_p4": {
+     "pred": 2650.0,
+     "text": "2650"
+    },
+    "donor_p5": {
+     "pred": 2450.0,
+     "text": "2450"
+    },
+    "donor_p6": {
+     "pred": 2650.0,
+     "text": "2650"
+    }
+   }
+  },
+  {
+   "i": 422,
+   "group": "ctl",
+   "hops": 5,
+   "gold": 284.0,
+   "donor_i": 793,
+   "donor_gold": 250.0,
+   "donor_identity_pred": 230.0,
+   "conds": {
+    "identity": {
+     "pred": 284.0,
+     "text": "284"
+    },
+    "repatch": {
+     "pred": 284.0,
+     "text": "284"
+    },
+    "donor": {
+     "pred": 220.0,
+     "text": "220"
+    },
+    "noise": {
+     "pred": 312.0,
+     "text": "312"
+    },
+    "selfpos": {
+     "pred": 284.0,
+     "text": "284"
+    },
+    "donor_p1": {
+     "pred": 248.0,
+     "text": "248"
+    },
+    "donor_p2": {
+     "pred": 304.0,
+     "text": "304"
+    },
+    "donor_p3": {
+     "pred": 288.0,
+     "text": "288"
+    },
+    "donor_p4": {
+     "pred": 304.0,
+     "text": "304"
+    },
+    "donor_p5": {
+     "pred": 312.0,
+     "text": "312"
+    },
+    "donor_p6": {
+     "pred": 288.0,
+     "text": "288"
+    }
+   }
+  },
+  {
+   "i": 748,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 336.0,
+   "donor_i": 834,
+   "donor_gold": 80.0,
+   "donor_identity_pred": 80.0,
+   "conds": {
+    "identity": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "repatch": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "donor": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "noise": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "selfpos": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "donor_p1": {
+     "pred": 448.0,
+     "text": "448"
+    },
+    "donor_p2": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "donor_p3": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "donor_p4": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "donor_p5": {
+     "pred": 336.0,
+     "text": "336"
+    },
+    "donor_p6": {
+     "pred": 336.0,
+     "text": "336"
+    }
+   }
+  },
+  {
+   "i": 834,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 80.0,
+   "donor_i": 678,
+   "donor_gold": 120.0,
+   "donor_identity_pred": 120.0,
+   "conds": {
+    "identity": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "repatch": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "noise": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "selfpos": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p1": {
+     "pred": 112.0,
+     "text": "112"
+    },
+    "donor_p2": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p3": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p4": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p5": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p6": {
+     "pred": 80.0,
+     "text": "80"
+    }
+   }
+  },
+  {
+   "i": 684,
+   "group": "ctl",
+   "hops": 2,
+   "gold": 11.0,
+   "donor_i": 1279,
+   "donor_gold": 180.0,
+   "donor_identity_pred": 180.0,
+   "conds": {
+    "identity": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "repatch": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "noise": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "selfpos": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p1": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p2": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p3": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p4": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p5": {
+     "pred": 11.0,
+     "text": "11"
+    },
+    "donor_p6": {
+     "pred": 11.0,
+     "text": "11"
+    }
+   }
+  },
+  {
+   "i": 482,
+   "group": "ctl",
+   "hops": 1,
+   "gold": 26.0,
+   "donor_i": 970,
+   "donor_gold": 33.0,
+   "donor_identity_pred": 33.0,
+   "conds": {
+    "identity": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "repatch": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "donor": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "noise": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "selfpos": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "donor_p1": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "donor_p2": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "donor_p3": {
+     "pred": 20.0,
+     "text": "20"
+    },
+    "donor_p4": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "donor_p5": {
+     "pred": 26.0,
+     "text": "26"
+    },
+    "donor_p6": {
+     "pred": 26.0,
+     "text": "26"
+    }
+   }
+  },
+  {
+   "i": 73,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 255.0,
+   "donor_i": 1090,
+   "donor_gold": 72.0,
+   "donor_identity_pred": 72.0,
+   "conds": {
+    "identity": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "repatch": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "donor": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "noise": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "selfpos": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "donor_p1": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "donor_p2": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "donor_p3": {
+     "pred": 265.0,
+     "text": "265"
+    },
+    "donor_p4": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "donor_p5": {
+     "pred": 255.0,
+     "text": "255"
+    },
+    "donor_p6": {
+     "pred": 255.0,
+     "text": "255"
+    }
+   }
+  },
+  {
+   "i": 678,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 120.0,
+   "donor_i": 1034,
+   "donor_gold": 66.0,
+   "donor_identity_pred": 66.0,
+   "conds": {
+    "identity": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "repatch": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "noise": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "selfpos": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p1": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p2": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p3": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p4": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p5": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p6": {
+     "pred": 120.0,
+     "text": "120"
+    }
+   }
+  },
+  {
+   "i": 1034,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 66.0,
+   "donor_i": 224,
+   "donor_gold": 180.0,
+   "donor_identity_pred": 180.0,
+   "conds": {
+    "identity": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "repatch": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor": {
+     "pred": 186.0,
+     "text": "186"
+    },
+    "noise": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "selfpos": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor_p1": {
+     "pred": 162.0,
+     "text": "162"
+    },
+    "donor_p2": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor_p3": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor_p4": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor_p5": {
+     "pred": 66.0,
+     "text": "66"
+    },
+    "donor_p6": {
+     "pred": 66.0,
+     "text": "66"
+    }
+   }
+  },
+  {
+   "i": 1090,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 72.0,
+   "donor_i": 16,
+   "donor_gold": 230.0,
+   "donor_identity_pred": 230.0,
+   "conds": {
+    "identity": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "repatch": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor": {
+     "pred": 71.0,
+     "text": "71"
+    },
+    "noise": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "selfpos": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p1": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p2": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p3": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p4": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p5": {
+     "pred": 72.0,
+     "text": "72"
+    },
+    "donor_p6": {
+     "pred": 72.0,
+     "text": "72"
+    }
+   }
+  },
+  {
+   "i": 16,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 230.0,
+   "donor_i": 424,
+   "donor_gold": 570.0,
+   "donor_identity_pred": 570.0,
+   "conds": {
+    "identity": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "repatch": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor": {
+     "pred": 890.0,
+     "text": "890"
+    },
+    "noise": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "selfpos": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p1": {
+     "pred": 860.0,
+     "text": "860"
+    },
+    "donor_p2": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p3": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p4": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p5": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p6": {
+     "pred": 230.0,
+     "text": "230"
+    }
+   }
+  },
+  {
+   "i": 424,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 570.0,
+   "donor_i": 764,
+   "donor_gold": 14.0,
+   "donor_identity_pred": 14.0,
+   "conds": {
+    "identity": {
+     "pred": 570.0,
+     "text": "570"
+    },
+    "repatch": {
+     "pred": 570.0,
+     "text": "570"
+    },
+    "donor": {
+     "pred": 195.0,
+     "text": "195"
+    },
+    "noise": {
+     "pred": 570.0,
+     "text": "570"
+    },
+    "selfpos": {
+     "pred": 570.0,
+     "text": "570"
+    },
+    "donor_p1": {
+     "pred": 195.0,
+     "text": "195"
+    },
+    "donor_p2": {
+     "pred": 570.0,
+     "text": "570"
+    },
+    "donor_p3": {
+     "pred": 570.0,
+     "text": "570"
+    },
+    "donor_p4": {
+     "pred": 540.0,
+     "text": "540"
+    },
+    "donor_p5": {
+     "pred": 540.0,
+     "text": "540"
+    },
+    "donor_p6": {
+     "pred": 570.0,
+     "text": "570"
+    }
+   }
+  },
+  {
+   "i": 764,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 14.0,
+   "donor_i": 356,
+   "donor_gold": 21.0,
+   "donor_identity_pred": 21.0,
+   "conds": {
+    "identity": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "repatch": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "noise": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "selfpos": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p1": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p2": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p3": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p4": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p5": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p6": {
+     "pred": 14.0,
+     "text": "14"
+    }
+   }
+  },
+  {
+   "i": 224,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 180.0,
+   "donor_i": 686,
+   "donor_gold": 80.0,
+   "donor_identity_pred": 80.0,
+   "conds": {
+    "identity": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "repatch": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor": {
+     "pred": 135.0,
+     "text": "135"
+    },
+    "noise": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "selfpos": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p1": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p2": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p3": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p4": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p5": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p6": {
+     "pred": 180.0,
+     "text": "180"
+    }
+   }
+  },
+  {
+   "i": 686,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 80.0,
+   "donor_i": 54,
+   "donor_gold": 40.0,
+   "donor_identity_pred": 40.0,
+   "conds": {
+    "identity": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "repatch": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "noise": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "selfpos": {
+     "pred": 90.0,
+     "text": "90"
+    },
+    "donor_p1": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p2": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p3": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p4": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p5": {
+     "pred": 80.0,
+     "text": "80"
+    },
+    "donor_p6": {
+     "pred": 80.0,
+     "text": "80"
+    }
+   }
+  },
+  {
+   "i": 793,
+   "group": "ctl",
+   "hops": 5,
+   "gold": 250.0,
+   "donor_i": 382,
+   "donor_gold": 350.0,
+   "donor_identity_pred": 350.0,
+   "conds": {
+    "identity": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "repatch": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor": {
+     "pred": 320.0,
+     "text": "320"
+    },
+    "noise": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "selfpos": {
+     "pred": 290.0,
+     "text": "290"
+    },
+    "donor_p1": {
+     "pred": 320.0,
+     "text": "320"
+    },
+    "donor_p2": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p3": {
+     "pred": 250.0,
+     "text": "250"
+    },
+    "donor_p4": {
+     "pred": 230.0,
+     "text": "230"
+    },
+    "donor_p5": {
+     "pred": 280.0,
+     "text": "280"
+    },
+    "donor_p6": {
+     "pred": 250.0,
+     "text": "250"
+    }
+   }
+  },
+  {
+   "i": 356,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 21.0,
+   "donor_i": 698,
+   "donor_gold": 720.0,
+   "donor_identity_pred": 720.0,
+   "conds": {
+    "identity": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "repatch": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "noise": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "selfpos": {
+     "pred": 19.0,
+     "text": "19"
+    },
+    "donor_p1": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "donor_p2": {
+     "pred": 24.0,
+     "text": "24"
+    },
+    "donor_p3": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor_p4": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor_p5": {
+     "pred": 21.0,
+     "text": "21"
+    },
+    "donor_p6": {
+     "pred": 21.0,
+     "text": "21"
+    }
+   }
+  },
+  {
+   "i": 698,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 720.0,
+   "donor_i": 1067,
+   "donor_gold": 245.0,
+   "donor_identity_pred": 245.0,
+   "conds": {
+    "identity": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "repatch": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "noise": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "selfpos": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor_p1": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor_p2": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor_p3": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor_p4": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor_p5": {
+     "pred": 720.0,
+     "text": "720"
+    },
+    "donor_p6": {
+     "pred": 720.0,
+     "text": "720"
+    }
+   }
+  },
+  {
+   "i": 1067,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 245.0,
+   "donor_i": 1306,
+   "donor_gold": 2.0,
+   "donor_identity_pred": 2.0,
+   "conds": {
+    "identity": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "repatch": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "donor": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "noise": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "selfpos": {
+     "pred": 125.0,
+     "text": "125"
+    },
+    "donor_p1": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "donor_p2": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "donor_p3": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "donor_p4": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "donor_p5": {
+     "pred": 245.0,
+     "text": "245"
+    },
+    "donor_p6": {
+     "pred": 245.0,
+     "text": "245"
+    }
+   }
+  },
+  {
+   "i": 1306,
+   "group": "ctl",
+   "hops": 4,
+   "gold": 2.0,
+   "donor_i": 17,
+   "donor_gold": 57500.0,
+   "donor_identity_pred": 57500.0,
+   "conds": {
+    "identity": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "repatch": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "noise": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "selfpos": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p1": {
+     "pred": 5.0,
+     "text": "5"
+    },
+    "donor_p2": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p3": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p4": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p5": {
+     "pred": 2.0,
+     "text": "2"
+    },
+    "donor_p6": {
+     "pred": 2.0,
+     "text": "2"
+    }
+   }
+  },
+  {
+   "i": 1156,
+   "group": "ctl",
+   "hops": 8,
+   "gold": 120.0,
+   "donor_i": 154,
+   "donor_gold": 272.0,
+   "donor_identity_pred": 272.0,
+   "conds": {
+    "identity": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "repatch": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor": {
+     "pred": 200.0,
+     "text": "200"
+    },
+    "noise": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "selfpos": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p1": {
+     "pred": 200.0,
+     "text": "200"
+    },
+    "donor_p2": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p3": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p4": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p5": {
+     "pred": 120.0,
+     "text": "120"
+    },
+    "donor_p6": {
+     "pred": 120.0,
+     "text": "120"
+    }
+   }
+  },
+  {
+   "i": 54,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 40.0,
+   "donor_i": 774,
+   "donor_gold": 10.0,
+   "donor_identity_pred": 12.0,
+   "conds": {
+    "identity": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "repatch": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "donor": {
+     "pred": 28.0,
+     "text": "28"
+    },
+    "noise": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "selfpos": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "donor_p1": {
+     "pred": 30.0,
+     "text": "30"
+    },
+    "donor_p2": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "donor_p3": {
+     "pred": 43.0,
+     "text": "43"
+    },
+    "donor_p4": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "donor_p5": {
+     "pred": 40.0,
+     "text": "40"
+    },
+    "donor_p6": {
+     "pred": 40.0,
+     "text": "40"
+    }
+   }
+  },
+  {
+   "i": 774,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 10.0,
+   "donor_i": 280,
+   "donor_gold": 7.0,
+   "donor_identity_pred": 10.0,
+   "conds": {
+    "identity": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "repatch": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "noise": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "selfpos": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p1": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p2": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p3": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p4": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p5": {
+     "pred": 12.0,
+     "text": "12"
+    },
+    "donor_p6": {
+     "pred": 12.0,
+     "text": "12"
+    }
+   }
+  },
+  {
+   "i": 280,
+   "group": "ctl",
+   "hops": 3,
+   "gold": 7.0,
+   "donor_i": 15,
+   "donor_gold": 125.0,
+   "donor_identity_pred": 159.0,
+   "conds": {
+    "identity": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "repatch": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "noise": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "selfpos": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "donor_p1": {
+     "pred": 7.0,
+     "text": "7"
+    },
+    "donor_p2": {
+     "pred": 14.0,
+     "text": "14"
+    },
+    "donor_p3": {
+     "pred": 10.0,
+     "text": "10"
+    },
+    "donor_p4": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "donor_p5": {
+     "pred": 8.0,
+     "text": "8"
+    },
+    "donor_p6": {
+     "pred": 8.0,
+     "text": "8"
+    }
+   }
+  },
+  {
+   "i": 1279,
+   "group": "ctl",
+   "hops": 2,
+   "gold": 180.0,
+   "donor_i": 288,
+   "donor_gold": 3.0,
+   "donor_identity_pred": 5.0,
+   "conds": {
+    "identity": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "repatch": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor": {
+     "pred": 156.0,
+     "text": "156"
+    },
+    "noise": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "selfpos": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p1": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p2": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p3": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p4": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p5": {
+     "pred": 180.0,
+     "text": "180"
+    },
+    "donor_p6": {
+     "pred": 180.0,
+     "text": "180"
+    }
+   }
+  },
+  {
+   "i": 970,
+   "group": "ctl",
+   "hops": 1,
+   "gold": 33.0,
+   "donor_i": 279,
+   "donor_gold": 6.0,
+   "donor_identity_pred": 3.0,
+   "conds": {
+    "identity": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "repatch": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "noise": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "selfpos": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor_p1": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor_p2": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor_p3": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor_p4": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor_p5": {
+     "pred": 33.0,
+     "text": "33"
+    },
+    "donor_p6": {
+     "pred": 33.0,
+     "text": "33"
+    }
+   }
+  }
+ ]
+}

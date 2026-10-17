@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5480",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: a multiplication expression \"4 times (5 + 4x)\" requires a numerical answer to complete the equation.\n\nThe total combined weight calculation is expected: 4*5 + base + original = 4*5*1 + 1*4*1 = 100 + 4*4 = 100 total weight increase.\n\nFinal token \"is\" opens a direct numerical answer, requiring an integer (likely \"100\") representing the total combined weight of 4 trips plus base weight.\n(4*5*4 + 1*5*4 = 100).\n(5*4 + 1*4) * 4 + original 4*1, completing the formula.\n(4*5*4 + 1*4*5) units per trip.\n(5*4 + 1*4.",
+    "Math problem-solving walkthrough requires completing the calculation of total battery consumption for each machine.\n\nThe pattern established requires computing 4 hours \u00d7 4 watts = 16 watts for one machine, then summing across all four machines.\n\nFinal token \"has\" begins the sentence stating the first machine's energy consumption (4 hours \u00d7 1 watt), immediately requiring a numerical result like \"16 watts\" or similar specific value.\n4 \u00d7 4 = energy for one machine, then multiplication by 4 for the second machine's total.\n4 \u00d7 1 = energy for one dimension, then 4 \u00d7 (4 + 2 times difference).\nFinal token \"has\" introduces the calculated energy value for the first machine's battery consumption.\n4 hours \u00d7 4 watts = 16 watts total, then continuing to describe the second machine's energy figures.\n4 \u00d7 (distance \u00d7 power) for each machine's energy.",
+    "Math word problem solution format: step-by-step arithmetic calculation in progress, showing numerical reasoning.\n\nThe solution is computing total wattage used by each device: 4 devices \u00d7 4 hours = 16 watts for the first machine, then 4 times 20 for the second machine.\n\nFinal token \"16\" is the calculated result of \"1 watt \u00d7 4 hours,\" immediately requiring \"watts\" or \"watts for the first machine\" to complete the sentence before continuing to the second machine's calculation.\n16 is the starting value of the first machine's energy consumption, requiring \"watts\" and then the combined total for both machines.\n16 is mid-sentence, stating the first machine's energy (4 \u00d7 4 = 16), so next tokens must continue with \"and 44 times 3 times 20 = 264 watts for.",
+    "Math word problem requiring arithmetic completion: 4 times 5 = 20, so the second path's distance calculation must follow.\n\nStep-by-step solution structure: the pattern \"4 times 5 + 1\" is being demonstrated, requiring the total sum of 20 + 5 = 25 feet for the second path.\n\nFinal token \"p\" begins the calculated distance value (20\u00d75\u00d74), immediately requiring \"20\" to complete the multiplication result, continuing the arithmetic demonstration.\n16*5*4 = 200 feet for the second path total.\n4 times (5+1) = 20 feet per round, then summing across all four rounds.\n16*5*4 = 200 feet total for the second machine's five rounds.\n4 times 5 + 1 = 20 times 4, completing.",
+    "Math word problem solution pattern: step-by-step arithmetic walkthrough with parallel structure for each calculation.\n\nSecond calculation in progress: total combined heat of two machines (40 + 4 times 5 = 80) must be completed, mirroring the first calculation's format.\n\nFinal token \"20 80\" is the computed second machine's heat (4 times 5 minutes \u00d7 8), immediately requiring the total sum \"80 watts\" to complete the parallel solution structure.\nFinal token \"20\" is the result of 4\u00d716, completing the second calculation before stating combined total heat.\nFinal token \"80\" ends the second equation mid-sentence, requiring \".0 watts\" to close the arithmetic result.\nFinal token \"20\" is the total heat of the second machine (4 times 6\u00d716), completing the equation before adding both totals together.",
+    "Math word problem solution pattern: second problem mirrors first, requiring parallel calculation of combined total weight and combined total distance.\n\nThe second problem's structure demands a combined total weight calculation: 80 kg + 2 times 40 kg = 160 kg total, then combined distance.\n\nFinal token \"80 s. s points. 48 s.\" ends the combined question setup, immediately requiring the answer: \"The total weight of both cars is 160 grams more than the combined weight of the two cars.\"\nFinal token \"280 grams. 80 s.\" closes the second problem's question, so the next tokens must state the combined total distance (480 miles + 280 times 30 minutes).\nFinal token \"80 s.\" ends the question stem for the second problem, immediately requiring the combined total distance answer.\nFinal token \"4."
+  ],
+  "input_sha256": "f33e89b4789686871fa7bbfb3f74199312652fa8ed1671b61a6d9eac6c77534d",
+  "values": [
+    {
+      "quote": "4 times (5 + 4x)",
+      "value": "4"
+    },
+    {
+      "quote": "4 times (5 + 4x)",
+      "value": "5"
+    },
+    {
+      "quote": "4*5",
+      "value": "20"
+    },
+    {
+      "quote": "4*5*1",
+      "value": "1"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "4*4",
+      "value": "16"
+    },
+    {
+      "quote": "4*5*4",
+      "value": "80"
+    },
+    {
+      "quote": "1*5*4",
+      "value": "20"
+    },
+    {
+      "quote": "(5*4 + 1*4) * 4",
+      "value": "24"
+    },
+    {
+      "quote": "4*1",
+      "value": "4"
+    },
+    {
+      "quote": "4 \u00d7 1",
+      "value": "1"
+    },
+    {
+      "quote": "4 \u00d7 (4 + 2 times difference)",
+      "value": "2"
+    },
+    {
+      "quote": "44 times 3 times 20",
+      "value": "44"
+    },
+    {
+      "quote": "44 times 3 times 20",
+      "value": "3"
+    },
+    {
+      "quote": "264",
+      "value": "264"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "20\u00d75\u00d74",
+      "value": "400"
+    },
+    {
+      "quote": "16*5*4 = 200",
+      "value": "200"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "4 times 5 minutes \u00d7 8",
+      "value": "8"
+    },
+    {
+      "quote": "4\u00d716",
+      "value": "64"
+    },
+    {
+      "quote": ".0",
+      "value": "0"
+    },
+    {
+      "quote": "4 times 6\u00d716",
+      "value": "6"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "480",
+      "value": "480"
+    },
+    {
+      "quote": "280",
+      "value": "280"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted distinct numeric values from arithmetic expressions, literals, and spelled-out numbers across the provided descriptions, ensuring each value is mapped to a unique source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4 times (5 + 4x)\",\"value\":4},{\"quote\":\"4 times (5 + 4x)\",\"value\":5},{\"quote\":\"4*5\",\"value\":20},{\"quote\":\"4*5*1\",\"value\":1},{\"quote\":\"100\",\"value\":100},{\"quote\":\"4*4\",\"value\":16},{\"quote\":\"4*5*4\",\"value\":80},{\"quote\":\"1*5*4\",\"value\":20},{\"quote\":\"(5*4 + 1*4) * 4\",\"value\":24},{\"quote\":\"4*1\",\"value\":4},{\"quote\":\"4 \u00d7 1\",\"value\":1},{\"quote\":\"4 \u00d7 (4 + 2 times difference)\",\"value\":2},{\"quote\":\"44 times 3 times 20\",\"value\":44},{\"quote\":\"44 times 3 times 20\",\"value\":3},{\"quote\":\"264\",\"value\":264},{\"quote\":\"25\",\"value\":25},{\"quote\":\"20\\u00D75\\u00D74\",\"value\":400},{\"quote\":\"16*5*4 = 200\",\"value\":200},{\"quote\":\"40\",\"value\":40},{\"quote\":\"80\",\"value\":80},{\"quote\":\"4 times 5 minutes \\u00D7 8\",\"value\":8},{\"quote\":\"4\\u00D716\",\"value\":64},{\"quote\":\".0\",\"value\":0},{\"quote\":\"4 times 6\\u00D716\",\"value\":6},{\"quote\":\"160\",\"value\":160},{\"quote\":\"480\",\"value\":480},{\"quote\":\"280\",\"value\":280},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted distinct numeric values from arithmetic expressions, literals, and spelled-out numbers across the provided descriptions, ensuring each value is mapped to a unique source quote.\"}",
+  "prompt_sha256": "407c436af67ed872ca34acf76473890627c6d30be7eac9f112450358c2b577cd"
+}

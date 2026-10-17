@@ -1,0 +1,117 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5133",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: article consistently presents specific findings with percentages and country comparisons, expecting continuation of this data-driven style.\n\nAcademic citation momentum: the study's findings are being summarized with precise hazard ratings; the sentence structure \"The study found that... is 10 times higher... and that...\" signals a parallel second finding about the German city is mid-delivery.\n\nFinal token \"is\" opens a predicate completing the German city's hazard rating description, directly paralleling the preceding sentence's structure; next tokens must be a numerical value or comparative descriptor (e.g., \"50 times higher\" or similar magnitude), likely followed by a period or further qualification.",
+    "Narrative momentum: biographical/historical account of the family's backstory, establishing plot context for character details and plot progression.\n\nCharacter introduction pattern: the text is systematically revealing family secrets (father's past, family history), with the plot's central conflict being built toward \u2014 the secret's nature and connection to the film's themes.\n\nFinal token \"20,\" ends a clause mid-sentence describing the secret's timeline (\"20, 23, 28, 29\"), and \"1880s\" \u2014 the number \"1880s\" is likely a typo for \"23,\" so the next tokens must complete the explanation of the 26th birthday's role; \"29\" suggests a chronological sequence continuing with the character's role or relationship to the 1880s setting.",
+    "Personal narrative momentum: author is mid-sentence explaining romantic/food experiences, building toward advice or reflection on dating/relationship dynamics.\n\nListicle/advice genre pattern: the text follows a structured blog format with headers; this section elaborates on emotional vulnerability and personal food preferences, suggesting continuation of the recipe/food theme.\n\nFinal token \"4\" is mid-sentence (\"I know 4\"), part of an enumerated personal reflection (\"40...4\"), likely completing \"40\" as a number, then continuing the mathematical/romantic calculation \u2014 \"4\" suggests \"40 friends\" or similar \u2014 but most immediately \"4\" completes \"43\" or leads into \"4\" as part of a personal relationship insight; the sentence requires completing the thought about 43, then the 8-year dating context.",
+    "Q&A format with expert responses: the text follows a structured pattern of personal health questions answered by a gender expert, establishing expectation for continued professional commentary.\n\nNarrative momentum of gender-specific reflection: the author is building toward explaining gender differences in relationship dynamics, having just introduced the topic of gendered experiences; personal background and academic credentials signal an expert opinion piece.\n\nFinal token \"60\" is mid-sentence, completing \"I am 40 men and 60\" \u2014 a list of gendered relationship partners; \"60\" is the start of \"60 men,\" and the next tokens must complete the personal biographical introduction before pivoting to medical/clinical context; \"10 friends\" or similar phrasing likely follows, then elaboration on gender differences in the doctor's life.",
+    "Statistical/legal disclosure pattern: medical case study building toward liability, establishing fraud scenario with doctor's advice leading to financial harm.\n\nNarrative momentum toward legal advice: the scenario has established patient vulnerability and doctor's disclosure; the argument now requires explaining the legal/ethical implications of the 239% misdiagnosis claim.\n\nFinal token \"239 people\" completes a calculation (\"239,000 people\"), and \"239 people\" is the subject of a new clause; \"23,543 were 29% of 239 people\" sets up a personal liability scenario; next tokens will likely continue explaining the 29% statistic's meaning \u2014 e.g., \"3,745 people\" or a relationship to the 29% misdiagnosis rate \u2014 completing the personal health disclosure scenario.",
+    "Legal case analysis pattern: scenario presented, question posed, now explaining the legal reasoning step-by-step, building toward a conclusion about the church's liability.\n\nNarrative momentum of the scenario's argument: the church's reasoning is being elaborated, with the psychological harm claim being developed \u2014 the next tokens will continue explaining the client's misperception of the meeting's purpose.\n\nFinal token \"175\" completes \"290 meeting 179 members 150 times,\" establishing a pattern of restating the 89 meeting count; \"703\" is the next logical step \u2014 the 13 members' 118 meetings \u2014 continuing the arithmetic breakdown of 290, now applied to the client's 89 meetings; the narrative expects advice on liability or procedural steps to follow."
+  ],
+  "input_sha256": "330c90d454b61f6a4325240280dd2e4e3be93fc81d326f303358e44bbc8775aa",
+  "values": [
+    {
+      "quote": "10 times higher",
+      "value": "10"
+    },
+    {
+      "quote": "20,",
+      "value": "20"
+    },
+    {
+      "quote": "23,",
+      "value": "23"
+    },
+    {
+      "quote": "28,",
+      "value": "28"
+    },
+    {
+      "quote": "29",
+      "value": "29"
+    },
+    {
+      "quote": "26th",
+      "value": "26"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "43",
+      "value": "43"
+    },
+    {
+      "quote": "8-year",
+      "value": "8"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10 friends",
+      "value": "10"
+    },
+    {
+      "quote": "239%",
+      "value": "239"
+    },
+    {
+      "quote": "239,000 people",
+      "value": "239000"
+    },
+    {
+      "quote": "239 people",
+      "value": "239"
+    },
+    {
+      "quote": "23,543",
+      "value": "23543"
+    },
+    {
+      "quote": "29%",
+      "value": "29"
+    },
+    {
+      "quote": "290",
+      "value": "290"
+    },
+    {
+      "quote": "179 members",
+      "value": "179"
+    },
+    {
+      "quote": "150 times",
+      "value": "150"
+    },
+    {
+      "quote": "89 meeting",
+      "value": "89"
+    },
+    {
+      "quote": "703",
+      "value": "703"
+    },
+    {
+      "quote": "13 members",
+      "value": "13"
+    },
+    {
+      "quote": "118 meetings",
+      "value": "118"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, including those within compound phrases like '8-year' or '26th', while excluding years like '1880s'.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10 times higher\",\"value\":10},{\"quote\":\"20,\",\"value\":20},{\"quote\":\"23,\",\"value\":23},{\"quote\":\"28,\",\"value\":28},{\"quote\":\"29\",\"value\":29},{\"quote\":\"26th\",\"value\":26},{\"quote\":\"4\",\"value\":4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"43\",\"value\":43},{\"quote\":\"8-year\",\"value\":8},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10 friends\",\"value\":10},{\"quote\":\"239%\",\"value\":239},{\"quote\":\"239,000 people\",\"value\":239000},{\"quote\":\"239 people\",\"value\":239},{\"quote\":\"23,543\",\"value\":23543},{\"quote\":\"29%\",\"value\":29},{\"quote\":\"290\",\"value\":290},{\"quote\":\"179 members\",\"value\":179},{\"quote\":\"150 times\",\"value\":150},{\"quote\":\"89 meeting\",\"value\":89},{\"quote\":\"703\",\"value\":703},{\"quote\":\"13 members\",\"value\":13},{\"quote\":\"118 meetings\",\"value\":118}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, including those within compound phrases like '8-year' or '26th', while excluding years like '1880s'.\"}",
+  "prompt_sha256": "a885062da74dce888e336d2dee81ea661c6d052a51ed76f92e860216e844c269"
+}

@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5089",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: each finding reports a percentage with confidence interval, e.g., \"62% (95% CI: 58%\u201366%)\" \u2014 the next tokens must complete this same format.\n\nNarrative momentum: the sentence is mid-result, reporting the proportion of respondents who \"never\" heard of the law, requiring a specific percentage figure to complete the finding.\n\nFinal token \"62% (\" opens a parenthetical confidence interval, immediately requiring a percentage value followed by \"% CI: X%\u2013X%\" to match the established statistical reporting pattern.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically the \"two women\" premise requiring completion of their story/relationship.\n\nRepetition/continuation pattern: the review has been summarizing plot details in a structured, descriptive style, continuing to elaborate on character dynamics and the central conflict.\n\nFinal token \"were\" is a past-tense linking verb mid-clause, immediately requiring a predicate complement \u2014 likely an adjective or noun phrase describing the two women's situation, e.g., \"were in love\" or \"were expecting.\"\n</explanation>",
+    "Narrative momentum: the text is mid-sentence recounting a personal anecdote about the narrator's mother's death and the narrator's emotional reaction, building toward a conclusion about grief and the book's impact.\n\nThematic continuity: the passage consistently links the book's themes of grief, loss, and emotional processing to the narrator's personal experience, so the next tokens will likely elaborate on the emotional weight of the book.\n\nFinal token \"6\" is the beginning of a number (likely \"60\" or \"60s\"), part of a clause describing the narrator's age or a specific detail about the book's emotional effect, requiring immediate numeric continuation.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the origin of \"I was feeling really good\" \u2014 the next tokens must complete this explanation, likely referencing the song's creation or emotional context.\n\nRepetition/continuation pattern: the article follows a structured music news format, alternating between artist quotes and factual context, suggesting continued elaboration on the song's meaning or reception.\n\nFinal token \"90\" ends an incomplete clause (\"added the song to his 90\"), requiring immediate continuation \u2014 likely \"90s\" or a specific decade reference, completing the factual explanation of the song's creation.\n</explanation>",
+    "The article is explaining the \"100 Club\" concept, building toward completing the statistic about the 100th person to reach 100,000 miles \u2014 the number \"100,000\" is the expected completion.\n\nThe sentence structure \"the 100th person to reach 100,000 miles\" is mid-clause, requiring a noun phrase completion like \"miles\" or \"miles mark\" to close the thought.\n\nThe final token \"100\" is the start of the number \"100,000\" within a relative clause, immediately requiring \",000\" or \"miles\" to complete the milestone figure.\n</explanation>",
+    "The text is a crime report following a structured police blotter format, with narrative now transitioning to a \"How it was solved\" analytical section explaining the case.\n\nThe \"How it was solved\" section has begun, establishing a pattern of explaining investigative reasoning \u2014 the next tokens will continue detailing the logical deduction chain (e.g., \"The suspect was identified by...\" or \"The suspect was caught when...\").\n\nThe final token \"6\" ends a sentence fragment mid-explanation, describing the suspect's behavior at the bar; the next tokens will continue the deduction, likely explaining how this led to the arrest or identification.\n</explanation>"
+  ],
+  "input_sha256": "bf87f447ddeaff8f4b64c5eade363bad9ed9b3fab0ca8a4cc4652ab88ec80287",
+  "values": [
+    {
+      "quote": "62%",
+      "value": "62"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "58%",
+      "value": "58"
+    },
+    {
+      "quote": "66%",
+      "value": "66"
+    },
+    {
+      "quote": "two women",
+      "value": "2"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "100 Club",
+      "value": "100"
+    },
+    {
+      "quote": "100th",
+      "value": "100"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, excluding years and ordinals where they function as identifiers, though '100th' and '100' are included as they represent specific counts in the context of the '100 Club' milestone.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"62%\",\"value\":62},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"58%\",\"value\":58},{\"quote\":\"66%\",\"value\":66},{\"quote\":\"two women\",\"value\":2},{\"quote\":\"6\",\"value\":6},{\"quote\":\"90\",\"value\":90},{\"quote\":\"100 Club\",\"value\":100},{\"quote\":\"100th\",\"value\":100},{\"quote\":\"100,000\",\"value\":100000}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, excluding years and ordinals where they function as identifiers, though '100th' and '100' are included as they represent specific counts in the context of the '100 Club' milestone.\"}",
+  "prompt_sha256": "5e246dfdc7da0db647ed1ab27ac37e961b0a344db8e35b545fef4121efa3333f"
+}

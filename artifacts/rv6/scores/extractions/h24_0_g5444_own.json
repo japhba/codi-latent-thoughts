@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5444",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating total pairs from 25 pairs \u00d7 2 = 50 pairs, requiring a specific numerical answer.\n\nThe sentence structure \"The total number of pairs is\" demands a direct numerical answer, with strong expectation of \"50\" as the immediate next token.\n\nFinal token \"is\" is a linking verb completing a declarative sentence, requiring a noun phrase or number (likely \"50\") to follow immediately as the predicate complement.\n</explanation>",
+    "Mathematical calculation in progress: 40 \u00d7 6 = 240, so the next token must be the computed result \"240.\"\n\nMultiple-choice answer selection expected after the calculation, pointing toward one of the options (A, B, C, D).\n\nThe final token \"is\" opens a copular clause requiring a numerical answer (\"240\") immediately followed by explanation or confirmation of the correct answer choice.\n</explanation>",
+    "Math word problem solution in progress: arithmetic operation requires completing \"100 \u00d7 10 = 1000\" (100 \u00d7 10 = 1000).\n\nStep-by-step worked solution format established: each step shows calculation with explanation, so the next tokens continue this pattern with the result and further steps.\n\nThe final token \"10\" is the beginning of the multiplication result \"1000,\" immediately constraining the next token to be \"00\" to complete the number, followed by explanation of the calculation.\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe solution is mid-calculation, having substituted x=30 into x+100=130, requiring completion of the arithmetic result and likely a concluding statement about the answer.\n\nFinal token \"100\" is the numerical result of the multiplication expression \"30 \u00d7 4 = 120,\" immediately requiring the word \"car trees\" or similar noun phrase to complete the sentence.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (\"First,\" \"Next,\" \"Let's solve for\").\n\nThe solution is mid-calculation, having established total trees (120) and now computing each type's count; remaining steps must address remaining tree types (pines, oaks) and verify the answer.\n\nFinal token \"p\" is the start of \"pines\" \u2014 completing the word \"pines\" is the immediate constraint, followed by the calculated count (120 \u00d7 10 = 1200) and subsequent steps for oaks and verification.\n</explanation>",
+    "Mathematical problem-solving pattern: structured step-by-step arithmetic walkthrough, each step building on the previous calculation.\n\nThe problem requires combining 12 (apples) and 14 (oranges) to find total fruit count, so the next step must state the addition operation and its result.\n\nFinal token \"14.\" ends the second quantity in the addition expression \"12 + 14,\" immediately requiring the arithmetic result (26) and likely a concluding statement about the total number of fruits.\n</explanation>"
+  ],
+  "input_sha256": "3e5ac6abb502ee1a9bc644a5b4c153d55231db401988baa867cffc10ef77552c",
+  "values": [
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and results of arithmetic expressions mentioned within the descriptions, such as 25, 2, 50, 40, 6, 240, 100, 10, 1000, 30, 130, 4, 120, 1200, 12, 14, and 26.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25\",\"value\":25},{\"quote\":\"2\",\"value\":2},{\"quote\":\"50\",\"value\":50},{\"quote\":\"40\",\"value\":40},{\"quote\":\"6\",\"value\":6},{\"quote\":\"240\",\"value\":240},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"30\",\"value\":30},{\"quote\":\"130\",\"value\":130},{\"quote\":\"4\",\"value\":4},{\"quote\":\"120\",\"value\":120},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"12\",\"value\":12},{\"quote\":\"14\",\"value\":14},{\"quote\":\"26\",\"value\":26}],\"justification\":\"Extracted all explicit numeric literals and results of arithmetic expressions mentioned within the descriptions, such as 25, 2, 50, 40, 6, 240, 100, 10, 1000, 30, 130, 4, 120, 1200, 12, 14, and 26.\"}",
+  "prompt_sha256": "978e4997f8d7518f7697639bb22ee353e2095e9842a84432795b3e705d0b9f6d"
+}

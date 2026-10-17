@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5010",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: the text lists country-specific data with consistent formatting (e.g., \"1999 to 2019,\" \"1990 to 2019\"), expecting continuation of numeric values.\n\nContinuation of country-specific ranking: the paragraph is mid-sentence describing India's top cities, with specific numeric data about rates, implying more city entries or a concluding summary statistic follows.\n\nFinal token \"is\" opens a predicate completing the sentence about India's top cities, immediately requiring a numeric value or rate descriptor (e.g., \"2 is\" or a percentage), likely followed by a unit or comparative figure.",
+    "Film review genre with plot summary structure: scene-by-scene description of character dynamics, setting, and film details, now transitioning to analytical commentary.\n\nNarrative momentum of historical scene description: the scene details are being elaborated, with character motivations and plot context being built up, expecting continuation of the scene's thematic analysis.\n\nFinal token \"500,\" is mid-sentence describing the film's setting (\"500 was 60, 500 was 60\"), suggesting a typo/continuation of the scene description; \"16 was 45\" pattern implies the next tokens complete the character's scene description, likely \"45\" or a continuation of the scene's plot detail about the 60s setting's political atmosphere.",
+    "Step-by-step recipe instruction pattern: each section follows narrative prose describing emotional/physical effects of ingredients, building toward completing the dish's description.\n\nThe text is mid-sentence describing the narrator's personal reaction to the dish, with the author's commentary on the recipe's emotional arc \u2014 the narrative momentum expects continuation of the cooking story and ingredient details.\n\nFinal token \"4\" is mid-number, part of \"4.3 days\" or similar time reference, completing \"4\" as part of \"43 days\" or a fraction like \"4.3 days\" \u2014 the sentence \"it took about 49 days\" is already stated, so likely continuing with \"4\" as part of a larger number (e.g., \"49 days\" or \"4 days\"), immediately requiring numeric continuation of the time/quantity.",
+    "Q&A format with religious health advice column: answer follows question, providing expert guidance on disclosure and spiritual health concerns.\n\nNarrative momentum: the response is mid-sentence explaining the disclosure situation, with the reader expecting clarification on age, relationship status, and advice \u2014 the answer is building toward reassurance or continued disclosure guidance.\n\nFinal token \"33\" is part of an interrupted age disclosure (\"35 to 33\"), likely a typo mid-number; the sentence continues with \"35\" or similar correction, then pivots to the age restriction caveat \u2014 \"25 to 35\" or similar \u2014 followed by a follow-up question about the 33-months age restriction, then advice; the truncated \"15.3\" signals a formatting artifact; next tokens likely complete the age disclosure and continue the advisory response.",
+    "News article reporting statistical findings, now transitioning to legal/safety analysis section with formal advisory tone \u2014 expert commentary expected to continue.\n\nRegulatory/legal reasoning pattern: the study's implications are being systematically broken down, with consumer safety warnings and liability guidance as the argumentative thread.\n\nFinal token \"20,000 people\" completes a statistical claim about Facebook users; the sentence structure \"This means that 2,023 people are likely to be affected, but the advice to report such posts to Facebook is 20,000\" \u2014 the \"2.3 million\" figure is mid-sentence, and the next tokens must complete the legal risk assessment, likely \"2,000\" followed by a warning or advisory statement about Facebook's liability or policy response.",
+    "Structured Bible study guide format with numbered sections and bullet points signals continuation of analytical commentary on the rule's application.\n\nThe text is explaining how to interpret the rule, having covered the rule's content and its practical application; academic/legal analysis of the standard is expected next, likely referencing specific guidance or exceptions.\n\nFinal token \"2.53\" ends a sentence stating the standard's guidance; \"4,003 is the standard\" introduces a numbered list of practical tips; \"37.5 is the first rule\" signals the next tokens will elaborate on the 4.5-point rule, likely continuing with \"13.5 is the first rule\" or similar numbered guidance, then explaining the 29th guideline; the sentence about \"7,001\" is mid-thought."
+  ],
+  "input_sha256": "93571fa0c7e9979b5d3818dcbce5e8497713e6bc219811acd0844e9a3ee80a1f",
+  "values": [
+    {
+      "quote": "1999",
+      "value": "1999"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "1990",
+      "value": "1990"
+    },
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "4.3",
+      "value": "4.3"
+    },
+    {
+      "quote": "43",
+      "value": "43"
+    },
+    {
+      "quote": "49",
+      "value": "49"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "15.3",
+      "value": "15.3"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "2,023",
+      "value": "2023"
+    },
+    {
+      "quote": "2.3 million",
+      "value": "2300000"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "2.53",
+      "value": "2.53"
+    },
+    {
+      "quote": "4,003",
+      "value": "4003"
+    },
+    {
+      "quote": "37.5",
+      "value": "37.5"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "13.5",
+      "value": "13.5"
+    },
+    {
+      "quote": "7,001",
+      "value": "7001"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, decimals, and large numbers (e.g., 2.3 million) from the provided descriptions, excluding years and ordinals where they functioned as identifiers, but including them when they represented data points or counts as per the prompt's instructions on explicit values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\"quote\": \"1999\", \"value\": 1999},\n    {\"quote\": \"2019\", \"value\": 2019},\n    {\"quote\": \"1990\", \"value\": 1990},\n    {\"quote\": \"2 is\", \"value\": 2},\n    {\"quote\": \"500\", \"value\": 500},\n    {\"quote\": \"60\", \"value\": 60},\n    {\"quote\": \"16\", \"value\": 16},\n    {\"quote\": \"45\", \"value\": 45},\n    {\"quote\": \"4.3\", \"value\": 4.3},\n    {\"quote\": \"43\", \"value\": 43},\n    {\"quote\": \"49\", \"value\": 49},\n    {\"quote\": \"4\", \"value\": 4},\n    {\"quote\": \"33\", \"value\": 33},\n    {\"quote\": \"35\", \"value\": 35},\n    {\"quote\": \"25\", \"value\": 25},\n    {\"quote\": \"15.3\", \"value\": 15.3},\n    {\"quote\": \"20,000\", \"value\": 20000},\n    {\"quote\": \"2,023\", \"value\": 2023},\n    {\"quote\": \"2.3 million\", \"value\": 2300000},\n    {\"quote\": \"2,000\", \"value\": 2000},\n    {\"quote\": \"2.53\", \"value\": 2.53},\n    {\"quote\": \"4,003\", \"value\": 4003},\n    {\"quote\": \"37.5\", \"value\": 37.5},\n    {\"quote\": \"4.5\", \"value\": 4.5},\n    {\"quote\": \"13.5\", \"value\": 13.5},\n    {\"quote\": \"7,001\", \"value\": 7001}\n  ],\n  \"justification\": \"Extracted explicit numeric literals, decimals, and large numbers (e.g., 2.3 million) from the provided descriptions, excluding years and ordinals where they functioned as identifiers, but including them when they represented data points or counts as per the prompt's instructions on explicit values.\"\n}",
+  "prompt_sha256": "b3c80dc1935007272912ffebc59a7cbe4dd5a00c3732d2e0dec47f6ce5755e9c"
+}

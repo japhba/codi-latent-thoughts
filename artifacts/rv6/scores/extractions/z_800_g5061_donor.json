@@ -1,0 +1,89 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5061",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: the text is presenting findings from a study, with hazard ratios and confidence intervals being reported sequentially (e.g., \"HR=1.95, 95% CI: 1.08-3.34\").\n\nDomain-specific reporting convention: academic/medical reporting style consistently pairs hazard ratios with confidence intervals and p-values, as seen in the earlier \"HR=1.95, 95% CI: 1.08-3.34.\"\n\nFinal token \"is\" opens a predicate completing \"The hazard of being in a crash is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.95\" or similar) to follow.",
+    "Narrative momentum of character analysis: the text is recounting emotional/plot context, building toward describing the relationship dynamic between David and his mother.\n\nFilm review genre conventions: plot summary with character motivations, emotional tone, and thematic observations follow established review structure, expecting continuation of the romantic/emotional thread.\n\nFinal token \"700 was 700 was 677\" (likely garbled \"700 was 277\" or similar) mid-sentence describing the emotional state \"767 was 677\" \u2014 the sentence is incomplete, requiring continuation of the emotional contrast or plot development about David's feelings.",
+    "Narrative momentum of personal recipe memory: author is recounting a specific romantic memory of cooking, building toward a vivid anecdote about the film scene.\n\nPractical cooking blog register: first-person voice, recipe instructions, and food descriptions signal continuation of the story with sensory/emotional detail about the film's romantic moments.\n\nFinal token \"4\" is mid-sentence (\"48 hours\" or \"4 days\" implied), part of \"49 minutes\" or \"48 hours\" time reference, or \"8 days\" \u2014 a time duration completing \"4\" as part of a time measurement, likely \"49 minutes\" or \"4 hours\" of cooking time.",
+    "Practical advice article structure: anecdote-based listicle format with expert quotes, now transitioning to illustrative real-world examples of church community practices.\n\nNarrative momentum toward completing the theological/psychological argument: the author is mid-example, sharing a personal memory about teaching, and the practical application of memory to church teaching is expected next.\n\nFinal token \"68\" is part of \"88\" (68 minutes), completing \"68\" as \"88\" \u2014 the sentence \"68 minutes of teaching\" is mid-thought, and \"68\" likely continues with \"years of teaching\" or similar, or the anecdote elaborates on the memory example with specific advice.",
+    "News article reporting style: factual, third-person, summarizing plot and social media reaction, continuing with factual elaboration.\n\nNarrative momentum toward completing the crime story's social media impact \u2014 the article has been building toward the film's police appeal and public reaction, with the statistic about 20,000 viewers providing context for the arrest's significance.\n\nFinal token \"202 people\" ends a clause mid-thought (\"2,000 people, but only 202 people, were arrested, but 2,000 people, were watching\"), suggesting the next tokens will complete this contrast or add a concluding statistic about the film's reach.",
+    "Q&A format pattern: legal case narrative with structured Q&A, now transitioning to detailed factual explanation of the procedural scenario.\n\nLegal procedural narrative momentum: the example is mid-explanation of a specific scenario (video evidence, memory card, police officer), with the memory card detail just introduced, expecting continuation of the factual reasoning about timing and the 24-hour rule.\n\nFinal token \"24\" is part of \"24 minutes\" or \"24 hours\" \u2014 a time reference completing \"24 minutes later\" or \"24 hours\" \u2014 the sentence is mid-clause, requiring the unit of time (likely \"hours\") and then continuation of the legal analysis."
+  ],
+  "input_sha256": "33564938b088d9e1d6964a08ee48deee15aef408391063e885b928e68e8467ec",
+  "values": [
+    {
+      "quote": "HR=1.95",
+      "value": "1.95"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "677",
+      "value": "677"
+    },
+    {
+      "quote": "767",
+      "value": "767"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "49 minutes",
+      "value": "49"
+    },
+    {
+      "quote": "48 hours",
+      "value": "48"
+    },
+    {
+      "quote": "8 days",
+      "value": "8"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "20,000 viewers",
+      "value": "20000"
+    },
+    {
+      "quote": "202 people",
+      "value": "202"
+    },
+    {
+      "quote": "2,000 people",
+      "value": "2000"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including percentages and values within ranges or identifiers, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR=1.95\",\"value\":1.95},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"3.34\",\"value\":3.34},{\"quote\":\"700\",\"value\":700},{\"quote\":\"677\",\"value\":677},{\"quote\":\"767\",\"value\":767},{\"quote\":\"4\",\"value\":4},{\"quote\":\"49 minutes\",\"value\":49},{\"quote\":\"48 hours\",\"value\":48},{\"quote\":\"8 days\",\"value\":8},{\"quote\":\"68\",\"value\":68},{\"quote\":\"88\",\"value\":88},{\"quote\":\"20,000 viewers\",\"value\":20000},{\"quote\":\"202 people\",\"value\":202},{\"quote\":\"2,000 people\",\"value\":2000},{\"quote\":\"24\",\"value\":24}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including percentages and values within ranges or identifiers, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "0c1504a978c53a662c22b1b0d1a8d31fc46162196ec816b0d21c7c331f08422c"
+}

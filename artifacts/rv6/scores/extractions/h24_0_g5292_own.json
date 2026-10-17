@@ -1,0 +1,157 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5292",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: finding integer pairs (x, y) where x + y = 168, x = 1.5y, requiring integer solutions.\n\nThe solution must satisfy x = 1.5y, so the ratio 3:2 constrains the answer: x = 105, y = 63.\n\nFinal token \"is\" opens a declarative statement completing the solution explanation, immediately requiring a specific integer value (likely \"105\") as the answer to the problem.\n</explanation>",
+    "Mathematical problem-solving context: a weighted average calculation is being set up, requiring the formula (100 + 150 = 250, so 100/250 = 40%) to be solved.\n\nThe narrative momentum demands the solution: the setup \"he finds that he has 100 + 150 = 250\" is complete, and the next step is computing the proportion 100/250.\n\nFinal token \"that\" opens a subordinate clause completing \"he finds that [X],\" requiring the specific numerical result \u2014 the proportion 40% \u2014 as the immediate next content.\n</explanation>",
+    "Mathematical problem-solving context: calculating expected value of a weighted average, requiring arithmetic completion of the formula.\n\nThe solution is mid-calculation, having established 10\u00d7$0.15 + 20\u00d7$0.25 = $5.25, and now computing the weighted average (10+20=30) to find the expected value.\n\nFinal token \"5\" is the beginning of the weighted average result (5.25 or 5.25/30 \u2248 0.175), immediately requiring decimal digits and likely \"/30\" or \"0.175\" to complete the expected value expression.\n</explanation>",
+    "Mathematical calculation in progress: 24 + 18 = 42, 42 \u00f7 14 = 30%, so the next token completes \"30\" as \"30%\" or \"30 percent.\"\n\nMultiple-choice answer selection expected: after computing the result, the model must identify which option matches 30% (option A).\n\nThe final token \"30\" is a partial number mid-calculation, immediately requiring \"%\" or \"percent\" to complete the percentage figure, followed by confirmation of answer choice A.\n</explanation>",
+    "Mathematical calculation in progress: 50% of 120 = 60, 50% of 160 = 80, so the answer must be 60 + 80 = 140.\n\nMultiple-choice answer selection expected: options A\u2013D will be evaluated against the calculated result of 140.\n\nFinal token \"120\" is mid-calculation, part of \"50% of 120,\" immediately requiring the arithmetic result \"60\" to complete the equation before continuing to the next step.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with variable substitution, following a consistent pattern of defining, expressing, and solving equations.\n\nThe solution is mid-calculation, having established that n = 3n/4, and the next logical step is solving for n (e.g., \"n = 3n/4\" \u2192 \"n = 3n/4 \u2192 4n = 3n \u2192 n = 0\").\n\nFinal token \"3n/4\" ends the equation setup, immediately requiring the next step: solving for n, likely \"\u2192 n = 3n/4\" or \"\u2192 4n = 3n \u2192 n = 0.\"\n</explanation>"
+  ],
+  "input_sha256": "8bd74b006d8f3280e98b5571a6856ad1e23b5d4b0a44bd125187fae72ef5c74f",
+  "values": [
+    {
+      "quote": "x + y = 168",
+      "value": "168"
+    },
+    {
+      "quote": "x = 1.5y",
+      "value": "1.5"
+    },
+    {
+      "quote": "ratio 3:2",
+      "value": "3"
+    },
+    {
+      "quote": "ratio 3:2",
+      "value": "2"
+    },
+    {
+      "quote": "x = 105",
+      "value": "105"
+    },
+    {
+      "quote": "y = 63",
+      "value": "63"
+    },
+    {
+      "quote": "100 + 150 = 250",
+      "value": "100"
+    },
+    {
+      "quote": "100 + 150 = 250",
+      "value": "150"
+    },
+    {
+      "quote": "100 + 150 = 250",
+      "value": "250"
+    },
+    {
+      "quote": "100/250 = 40%",
+      "value": "0.4"
+    },
+    {
+      "quote": "40%",
+      "value": "40"
+    },
+    {
+      "quote": "10\u00d7$0.15",
+      "value": "10"
+    },
+    {
+      "quote": "10\u00d7$0.15",
+      "value": "0.15"
+    },
+    {
+      "quote": "20\u00d7$0.25",
+      "value": "20"
+    },
+    {
+      "quote": "20\u00d7$0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "$5.25",
+      "value": "5.25"
+    },
+    {
+      "quote": "10+20=30",
+      "value": "30"
+    },
+    {
+      "quote": "5.25/30 \u2248 0.175",
+      "value": "0.175"
+    },
+    {
+      "quote": "24 + 18 = 42",
+      "value": "24"
+    },
+    {
+      "quote": "24 + 18 = 42",
+      "value": "18"
+    },
+    {
+      "quote": "24 + 18 = 42",
+      "value": "42"
+    },
+    {
+      "quote": "42 \u00f7 14 = 30%",
+      "value": "14"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "50% of 120",
+      "value": "50"
+    },
+    {
+      "quote": "50% of 120 = 60",
+      "value": "120"
+    },
+    {
+      "quote": "50% of 120 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "50% of 160 = 80",
+      "value": "160"
+    },
+    {
+      "quote": "50% of 160 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "60 + 80 = 140",
+      "value": "140"
+    },
+    {
+      "quote": "n = 3n/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "3n/4",
+      "value": "3"
+    },
+    {
+      "quote": "3n/4",
+      "value": "4"
+    },
+    {
+      "quote": "4n = 3n",
+      "value": "0"
+    },
+    {
+      "quote": "n = 0",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages as numerals, fractions as decimals, and results of arithmetic expressions found within individual descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"x + y = 168\",\"value\":168},{\"quote\":\"x = 1.5y\",\"value\":1.5},{\"quote\":\"ratio 3:2\",\"value\":3},{\"quote\":\"ratio 3:2\",\"value\":2},{\"quote\":\"x = 105\",\"value\":105},{\"quote\":\"y = 63\",\"value\":63},{\"quote\":\"100 + 150 = 250\",\"value\":100},{\"quote\":\"100 + 150 = 250\",\"value\":150},{\"quote\":\"100 + 150 = 250\",\"value\":250},{\"quote\":\"100/250 = 40%\",\"value\":0.4},{\"quote\":\"40%\",\"value\":40},{\"quote\":\"10\\u00D7$0.15\",\"value\":10},{\"quote\":\"10\\u00D7$0.15\",\"value\":0.15},{\"quote\":\"20\\u00D7$0.25\",\"value\":20},{\"quote\":\"20\\u00D7$0.25\",\"value\":0.25},{\"quote\":\"$5.25\",\"value\":5.25},{\"quote\":\"10+20=30\",\"value\":30},{\"quote\":\"5.25/30 \\u2248 0.175\",\"value\":0.175},{\"quote\":\"24 + 18 = 42\",\"value\":24},{\"quote\":\"24 + 18 = 42\",\"value\":18},{\"quote\":\"24 + 18 = 42\",\"value\":42},{\"quote\":\"42 \\u00F7 14 = 30%\",\"value\":14},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"50% of 120\",\"value\":50},{\"quote\":\"50% of 120 = 60\",\"value\":120},{\"quote\":\"50% of 120 = 60\",\"value\":60},{\"quote\":\"50% of 160 = 80\",\"value\":160},{\"quote\":\"50% of 160 = 80\",\"value\":80},{\"quote\":\"60 + 80 = 140\",\"value\":140},{\"quote\":\"n = 3n/4\",\"value\":0.75},{\"quote\":\"3n/4\",\"value\":3},{\"quote\":\"3n/4\",\"value\":4},{\"quote\":\"4n = 3n\",\"value\":0},{\"quote\":\"n = 0\",\"value\":0}],\"justification\":\"Extracted explicit numeric literals, percentages as numerals, fractions as decimals, and results of arithmetic expressions found within individual descriptions.\"}",
+  "prompt_sha256": "7e93e5f8d86520af6a6e15ac49341d87efb001c02d296bf179e3c8fa1e381efe"
+}

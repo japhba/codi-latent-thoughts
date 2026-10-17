@@ -1,0 +1,85 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5148",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: the text lists specific hazard ratios with percentages, establishing a template of \"X% of [group] are [condition]\" that must continue.\n\nContinuation of structured list: the sentence enumerates multiple findings with \"and\" connectors, suggesting additional results or a closing summary statement follows.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numerical value or descriptive phrase completing the hazard ratio for the 2010\u20132019 group, likely a decimal number or descriptive term.\n\"is\" demands a complement \u2014 most likely a numeric value or adjective phrase such as \"1.2 times\" or similar quantitative result.\n\"is\" is the final token, part of a formal statistical reporting style, requiring an immediate numeric or descriptive hazard descriptor to complete the sentence.\n\"2 is is\" appears to be a typo mid-sentence, but.",
+    "List continuation pattern: article enumerates notable figures with book descriptions, establishing a rhythm of name \u2192 book title \u2192 description.\n\nThe text is mid-sentence completing a specific expert's profile, with the author's personal commentary on the book's content and historical context.\n\nFinal token \"33,\" is mid-sentence within a factual biographical detail about the book's subject; the number \"33\" is part of a specific statistic or age reference, immediately requiring continuation of the numerical or descriptive clause (e.g., \"33, 33\" or a related cultural/historical observation).\n\"33\" appears twice, suggesting a typo or emphasis, but the sentence about the 33rd president's name or a specific historical fact is incomplete and demands continuation of the \"33, 33\" or similar phrase.\n\"33\" is the final token, likely part of.",
+    "Article continues listing expert advice on sugar consumption, with a specific anecdote about the author's own experience with high-sugar drinks.\n\nThe listicle format and expert Q&A structure signals more specific examples or personal testimony will follow, consistent with the pattern of introducing named experts with credentials.\n\nThe final token \"5\" is mid-sentence, part of \"5\" completing a specific statistic or reference (likely \"5\" continuing into a larger number or completing \"5\" as part of a historical claim about sugar's prevalence), immediately requiring numeric continuation or a noun phrase completing \"50\" or similar.\n\"5\" is mid-sentence, likely completing \"5\" into \"50\" or \"5 people\" or a specific historical reference, constrained to complete the interrupted narrative about the friend's medical conditions.\n\"5 5\" suggests a typo/autocorrect artifact, but the sentence context.",
+    "Investigative article structure: thesis established, now delivering supporting evidence and study findings with specific statistics.\n\nThe narrative momentum requires completing the explanation of the study's methodology and conclusions, likely detailing the psychological/behavioral basis of the deception.\n\nFinal token \"250\" is mid-sentence, completing \"250 people\" or similar count, immediately requiring continuation of the factual claim about the book's readership or historical context.\n\"500,000 254 people\" is a garbled numerical phrase (likely \"251,354\" or similar), and the medical/forensic framing demands the next tokens complete the legal or historical subject \u2014 \"350 people\" or similar \u2014 before elaborating on the book's true nature.\n\"410 1,935 250 people\" is the subject of the personal.",
+    "Legal case analysis format: theological/legal question posed, now being answered with structured analysis of the specific scenario.\n\nThe answer is mid-explanation, having introduced the theological premise and now detailing the practical case application \u2014 the church's reasoning and the doctor's advice are expected next.\n\nFinal token \"5\" completes \"5.5\" (55 members), part of the case background sentence; the narrative now requires continuation of the psychological/clinical analysis of the church's reasoning, likely detailing the legal distinction between the priest's advice and the church's own interpretation.\n\"55 members\" or similar enumeration of the 5.5 case members is immediately expected to complete \"53 5\" \u2014 the \"59\" error suggests the next tokens will clarify \"5.5\" or continue the legal case description.\n\"53 2 5\" 34\" 5\" 9.\"",
+    "Statistical list pattern: BLS data presented as bullet points with percentages, establishing a structured enumeration of BLS statistics that continues with more percentage-based findings.\n\nContinuation of BLS data presentation: the text has been systematically listing BLS survey statistics with percentages, suggesting more percentage-based categories or a transition to another data source (e.g., BLS or another survey).\n\nFinal token \"69%\" closes a specific percentage figure within a sentence explaining BLS survey methodology; the next tokens will likely continue with additional percentage breakdowns or a new question/topic header.\n\"69% of the 69%\" is a typo mid-sentence, but the sentence structure and analytical context suggest the next tokens complete the percentage-based breakdown or transition to a new section.\n\"69%\" ends the sentence, likely followed by a period or further elaboration on the 69% figure."
+  ],
+  "input_sha256": "080da8bac2128afa9fe544f730fc9240ee51796705cd760e06bab7fbd43e3837",
+  "values": [
+    {
+      "quote": "2 is is",
+      "value": "2"
+    },
+    {
+      "quote": "33, 33",
+      "value": "33"
+    },
+    {
+      "quote": "5 5",
+      "value": "5"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "500,000",
+      "value": "500000"
+    },
+    {
+      "quote": "254 people",
+      "value": "254"
+    },
+    {
+      "quote": "410",
+      "value": "410"
+    },
+    {
+      "quote": "1,935",
+      "value": "1935"
+    },
+    {
+      "quote": "5.5",
+      "value": "5.5"
+    },
+    {
+      "quote": "55 members",
+      "value": "55"
+    },
+    {
+      "quote": "53 5",
+      "value": "53"
+    },
+    {
+      "quote": "59",
+      "value": "59"
+    },
+    {
+      "quote": "53 2 5",
+      "value": "2"
+    },
+    {
+      "quote": "34",
+      "value": "34"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those appearing in typos or garbled phrases as per the instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is is\",\"value\":2},{\"quote\":\"33, 33\",\"value\":33},{\"quote\":\"5 5\",\"value\":5},{\"quote\":\"250\",\"value\":250},{\"quote\":\"500,000\",\"value\":500000},{\"quote\":\"254 people\",\"value\":254},{\"quote\":\"410\",\"value\":410},{\"quote\":\"1,935\",\"value\":1935},{\"quote\":\"5.5\",\"value\":5.5},{\"quote\":\"55 members\",\"value\":55},{\"quote\":\"53 5\",\"value\":53},{\"quote\":\"59\",\"value\":59},{\"quote\":\"53 2 5\",\"value\":2},{\"quote\":\"34\",\"value\":34},{\"quote\":\"9\",\"value\":9},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those appearing in typos or garbled phrases as per the instructions.\"}",
+  "prompt_sha256": "c99161bb5dbb3f904240bf4a9bcb77612410023c059cc263e7ae1141dc3020c4"
+}

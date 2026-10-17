@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5148",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical summary pattern: the text is presenting a specific numerical finding, following the established format of reporting a percentage or count.\n\nThe sentence structure \"The number of people who...\" requires completing the finding with a specific figure or range, consistent with the article's data-reporting style.\n\nFinal token \"is 5\" begins a numerical value mid-sentence, immediately requiring continuation of the number (e.g., \"5%\" or \"50%\") or a larger figure, completing the stated proportion of respondents who identified as a victim.\n\"5 is 5\" or a new sentence follows.\n\"3 is 5\" or a new clause completing the hazard rating description.\n\"3 is 5\" instruction pattern suggests a structured list or result is being enumerated.\n\"3 is 10\" or comparative phrasing follows \"is 5\" \u2014 the final token \"is 1\" is the start.",
+    "List continuation pattern: the text is mid-sentence listing article titles, requiring completion of the interrupted title \"The 30 Most Beautiful Women...\" with a year or descriptor.\n\nThe article title format established earlier (\"The 30 Most Beautiful Women...\") signals a specific publication year or edition detail follows.\n\nFinal token \"3,\" is mid-number, part of an incomplete year or statistic (likely \"3,000\" or a year like \"33\"), immediately requiring digits to complete the number within the article title reference.\n\"33\" or similar numeric continuation completing the book/article title.\n\"33\" or \"3\" \u2014 the truncated \"3\" is the start of a year or personal statistic, likely \"33\" or a quoted reference completing the list entry.\n\"351\" or cultural commentary follows \"33\" film reference, educational ranking 12 years ago.",
+    "List/article format established: numbered items with titles and descriptions, suggesting continuation of the book review entry.\n\nNarrative momentum: the sentence is mid-description of a specific book, detailing its content and personal relevance to the author.\n\nFinal token \"5\" is the start of an incomplete number (likely \"5 books\" or a specific count), requiring immediate numeric continuation or a noun completing the quantity phrase.\n\"5\" is mid-sentence, part of a personal anecdote or book description, demanding digits or a noun to complete the count.\n\"5\" is \"5 books\" or similar \u2014 the listicle format and \"5\" preceding it signals a specific number or article title follows immediately.\n\"5\" is \"5 books\" or \"56 people\" \u2014 food-related advice or book count \"6.5\" personal detail expected next \"41\" or similar publication examples 5 people food critics .",
+    "Narrative momentum: the article is summarizing the book's content, and the final sentence is mid-explanation of the author's personal story and book's purpose.\n\nThe book's thesis \u2014 that readers can \"see through\" the book's content \u2014 sets up an expectation of elaborating on what the author actually wrote or how the book addresses reader expectations.\n\nFinal token \"100\" ends an incomplete sentence (\"140 pages, but only 100\"), requiring immediate continuation explaining the numerical discrepancy or the article's concluding remark about the book's page count.\n\"140 people\" or similar statistic completing the contrast.\n\"201\" or similar food-related data point follows \"193\" or \"585 friends\" \u2014 professional review format expects practical advice or critical commentary next.\n\"213\" is the novel's victim count \"41 people 87.",
+    "Q&A format pattern: each question is followed by a detailed answer, establishing strong expectation for continued explanation.\n\nThe answer is mid-sentence explaining the questioner's reasoning \u2014 the narrative momentum requires completing the explanation of why the questioner chose this answer, likely referencing the article's advice or the client's situation.\n\nFinal token \"5\" ends an incomplete sentence (\"50 questions\"), requiring immediate continuation of the answer's concluding clause, likely explaining the questioner's reasoning or the article's relevance.\n\"5\" is the final token, mid-sentence, demanding completion of the legal advice or narrative explanation.\n\"55\" or similar number completing \"59\" or \"50\" moral conflict framing.\n\"5\" is the final token, part of \"354\" or legal framing \"19 people 53.81 marriage\" \u2014 food conflict advice 495 medical questions.",
+    "Statistical/legal analysis pattern: survey data presented as percentages, establishing expectation for continued breakdown of survey results.\n\nThe text is mid-sentence completing a percentage breakdown of survey responses, with \"6%\" already stated for \"I don't know\" \u2014 the remaining percentage(s) must sum to 100%, so the next tokens will likely state the remaining percentage(s) and their corresponding responses.\n\nFinal token \"6%\" closes a parenthetical clause mid-sentence; the sentence requires continuation explaining what respondents said or what the survey question asked, likely \"of respondents\" or a question description.\n\"6%\" is the final token, part of an incomplete sentence listing survey findings.\n\"6%\" is a percentage figure mid-sentence, immediately requiring a noun phrase or clause completing the question's breakdown.\n\"6%\" rule follows legal survey format, with probability percentages and question responses expected next.\n\"6%\" is."
+  ],
+  "input_sha256": "4c6a90c35e9780b94871c02888fb4aa98d5e4f2d3bacf038eaefd129d8d7a5c1",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "351",
+      "value": "351"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "6.5",
+      "value": "6.5"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "201",
+      "value": "201"
+    },
+    {
+      "quote": "193",
+      "value": "193"
+    },
+    {
+      "quote": "585",
+      "value": "585"
+    },
+    {
+      "quote": "213",
+      "value": "213"
+    },
+    {
+      "quote": "87",
+      "value": "87"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "59",
+      "value": "59"
+    },
+    {
+      "quote": "354",
+      "value": "354"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "53.81",
+      "value": "53.81"
+    },
+    {
+      "quote": "495",
+      "value": "495"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes or listed as examples of expected continuations.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"3\",\"value\":3},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1\",\"value\":1},{\"quote\":\"30\",\"value\":30},{\"quote\":\"33\",\"value\":33},{\"quote\":\"351\",\"value\":351},{\"quote\":\"12\",\"value\":12},{\"quote\":\"6.5\",\"value\":6.5},{\"quote\":\"41\",\"value\":41},{\"quote\":\"140\",\"value\":140},{\"quote\":\"100\",\"value\":100},{\"quote\":\"201\",\"value\":201},{\"quote\":\"193\",\"value\":193},{\"quote\":\"585\",\"value\":585},{\"quote\":\"213\",\"value\":213},{\"quote\":\"87\",\"value\":87},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"59\",\"value\":59},{\"quote\":\"354\",\"value\":354},{\"quote\":\"19\",\"value\":19},{\"quote\":\"53.81\",\"value\":53.81},{\"quote\":\"495\",\"value\":495},{\"quote\":\"6%\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes or listed as examples of expected continuations.\"}",
+  "prompt_sha256": "a1fd26a4f1e7457bb1faa905f28f3c5c0472596f5d80dff50aec9d892c28c031"
+}

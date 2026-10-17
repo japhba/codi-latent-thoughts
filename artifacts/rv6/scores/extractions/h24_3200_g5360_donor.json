@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5360",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question prompt, likely a dollar amount.\n\nThe word problem setup establishes a total of 75, with $35 remaining after $35 each, so the answer must be 75.\n\nThe final token \"is\" completes the word problem question \"Total weekly spending is,\" immediately requiring a numerical answer (likely \"75\") representing the remaining weekly budget.\n75 \u2212 35 = 40, so the answer is 40.\n(75 \u2212 35) \u00d7 2 = 40, so the total weekly spending calculation.\n75 \u2212 35 = 40, so the answer is 45 hours available per week.\n(75 \u2212 35) \u00d7 2 = available hours minus two weeks \u00d7 $35.\nThe remaining arithmetic must follow.\n75 \u2212 3.",
+    "Math word problem walkthrough format: step-by-step solution showing arithmetic operations, expecting numerical arithmetic next.\n\nThe solution requires showing the arithmetic expression \"35 - $15 = $20 weekly\" to demonstrate the answer.\n\nFinal token \"has\" opens a clause explaining the remaining cost calculation, immediately requiring a numerical expression like \"35 \u00d7 2 = $70 spent per week\" or \"35 - $75 = $20 savings.\"\nFinal token \"has\" begins a sentence explaining the arithmetic operation, expecting a noun phrase describing the savings amount or remaining cost.\n35 - $75 = $35 discount, so the next tokens will state the weekly savings calculation.\nThe student must show the arithmetic expression for 2 \u00d7 35 = 70, showing the remaining spending per week.\n35 \u00d7 2 = amount spent each week, then the remaining amount for.",
+    "Math word problem walkthrough format: step-by-step algebraic solution showing arithmetic operations.\n\nThe solution requires showing the arithmetic expression: $75 - $35 = $40 savings, so the next tokens will complete the arithmetic reasoning.\n\nThe final token \"7\" begins a number mid-calculation, almost certainly continuing as \"70\" or \"75\" representing the difference between two weekly prices ($35 \u00d7 2 = $70 discount), immediately constraining next tokens to complete this arithmetic expression.\n35 \u00d7 2 = total savings, so the next step shows the arithmetic result showing \"$70\" or similar.\nYou save $35 each week, so the remaining savings calculation must follow.\n35 - 25 = 10, but the answer is 70.\nThe difference between two weeks is 2 \u00d7 $35 = $70 weekly,.",
+    "Math word problem walkthrough format: step-by-step solution showing arithmetic operations, expecting arithmetic continuation.\n\nThe solution requires showing the arithmetic expression \"2 weeks \u00d7 $35 = $70\" and then explaining the remaining balance calculation.\n\nThe final token \"$70\" is mid-sentence in a worked example, immediately requiring completion of the arithmetic expression or explanation, likely \"in total spending\" or \"over two weeks\" to finish the subtraction reasoning.\nFinal token \"70\" is part of the arithmetic result showing 2 \u00d7 $35 removed from $140, expecting \"in total\" or \"over two weeks\" to complete the sentence.\nShe will have $70 remaining after spending two weeks.\nYou will lose $35 \u00d7 5 days = $70, confirming the answer.\n2 weeks \u00d7 $35 = half of $70 spent, so the remaining balance calculation follows.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requiring arithmetic completion.\n\nThe word problem establishes a two-week total cost calculation, expecting the arithmetic result of 2 \u00d7 $35 = $70.\n\nThe final token \"p\" begins the word \"total\" or continues \"$70\" \u2014 it's mid-word, almost certainly completing \"$70 spent\" or \"$75,\" immediately requiring the remaining digits of the arithmetic expression showing 2 weeks \u00d7 $35.\nFinal token \"p\" is part of \"$75\" or \"$75\" completing the subtraction expression \"2 weeks \u00d7 $35 = $70 spent,\" leading to the answer reveal.\nShe has $35 remaining to pay off the debt.\n75 = two weeks \u00d7 $35, so the remaining amount must be divided by 2.\n35 \u00d7 2 = half of total spent, confirming.",
+    "Math word problem format: structured Q&A pattern with word problem followed by solution steps, now repeating with a new problem.\n\nThe second problem mirrors the first's arithmetic setup: \"7 days \u00d7 $15 = $105 total spent,\" so the solution will show the answer \"$105\" and explain the calculation.\n\nThe final token \"70. 7.\" ends the arithmetic expression \"$70 over two weeks,\" immediately requiring the solution statement like \"The amount he has remaining is $70 to return.\"\nFinal token \"70. 7.\" is mid-sentence in the solution, representing the total of two weeks; next tokens must complete the arithmetic answer.\nFinal token \"77.\" is \"$70\" being written, completing the multiplication expression \"$7 days \u00d7 $15 = $70 spent weekly to remove.\"\nThen the answer \"$70\" and explanation of."
+  ],
+  "input_sha256": "a9edc03b85e368982b4c88dab09d59e0c966b08d78c42073784ad993dbb5f470",
+  "values": [
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (e.g., 75-35=40, 35*2=70) explicitly stated in the text, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"75\",\"value\":75},{\"quote\":\"35\",\"value\":35},{\"quote\":\"40\",\"value\":40},{\"quote\":\"2\",\"value\":2},{\"quote\":\"45\",\"value\":45},{\"quote\":\"3\",\"value\":3},{\"quote\":\"15\",\"value\":15},{\"quote\":\"20\",\"value\":20},{\"quote\":\"70\",\"value\":70},{\"quote\":\"7\",\"value\":7},{\"quote\":\"25\",\"value\":25},{\"quote\":\"10\",\"value\":10},{\"quote\":\"140\",\"value\":140},{\"quote\":\"5\",\"value\":5},{\"quote\":\"105\",\"value\":105},{\"quote\":\"77\",\"value\":77}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (e.g., 75-35=40, 35*2=70) explicitly stated in the text, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "82badb63e71dce158d0fece2c10203a7ee61d540ee366198b5f8fbd4119e0d3f"
+}

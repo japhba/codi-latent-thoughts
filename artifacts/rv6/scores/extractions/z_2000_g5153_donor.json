@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5153",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: each bullet presents a specific numeric value with country, following consistent format of \"country name + number + unit.\"\n\nTable/list continuation: the data section lists country rankings with numeric counts; the sequence expects more country entries or a closing value.\n\nFinal token \"around\" introduces an approximate numeric value for the US numeric data count, immediately requiring a specific number (likely a 3-digit figure like \"100\" or \"200\") to complete the numeric data count for the US.\n\"around 58\" pattern suggests similar approximate values follow for other countries.\n\"around 58\" is a numeric value mid-entry, part of a country ranking list; the next token must be a numeric value completing the numeric data count for the US.\n\"8.2%\" hazard rating format established earlier constrains formatting of numeric data.\n\"58\" is a partial numeric value.",
+    "Film review genre with structured metadata header, now transitioning into plot summary and character descriptions.\n\nThe review is mid-sentence describing character roles and relationships, establishing a pattern of listing characters with actor names and brief descriptions.\n\nFinal token \"5,\" completes a numerical reference (\"5,\") within a sentence describing the scene where characters are introduced \u2014 the comma signals continuation of the list or clause, likely adding more scene details or plot elements.\n\"5,\" implies additional characters or a scene description follows immediately.\n\"5,\" is part of an ongoing enumeration of film elements, requiring continuation of the visual/plot summary.\n\"5,\" film title \"5,\" likely \"5,\" scene description or further character/plot analysis follows \"5,\" completing the \"60\" film title reference \"5,\" \"40,\" \"5,\" political plot summary.\n\"65\" film title scene 5,\" scene 5,\" is.",
+    "Recipe format continuation: structured ingredient list followed by numbered steps, now mid-step 3 describing ingredient additions.\n\nTheological/food blog register: informal yet instructional tone, mixing spiritual framing with practical cooking guidance throughout.\n\nFinal token \"4\" is mid-sentence in a list of ingredients (\"4\" likely completing \"4\" as part of \"4\" \u2014 continuing \"4\" into a larger number or completing a quantity like \"4\" into \"400\" or \"4\" into a phrase like \"4\" describing the dish's qualities or effects.\n\"4\" likely continues a sentence about flavor/texture, completing \"4\" into \"435\" or \"4,400 days\" characterizing the protagonist's spiritual journey.\n\"4\" \"450 days\" \u2014 \"4\" is mid-word or mid-clause, requiring completion of \"5\" or \"43.",
+    "Q&A format established: article poses questions then answers them, so continuation follows the same pattern of completing the current answer.\n\nThe article is mid-sentence answering \"Is it normal to be dating someone you've been with?\" \u2014 the reader expects reassurance or explanation about dating exes, likely followed by a list of reasons or a recommendation.\n\nFinal token \"3\" is part of \"33\" (likely \"30\" or \"35\"), completing the age reference \"33\" or \"35,\" immediately followed by a closing statement about the site's content or membership policy.\n\"33\" or \"35\" signals a pivot to the site's self-description or disclaimer.\n\"35\" religious affiliation disclaimer \"25\" \u2014 the \"33\" correction \"30\" is incomplete, so the next token completes \"25\" or continues the advice.\n\"63.",
+    "News article structure: statistical findings presented, now transitioning to analysis/implications section with source attribution.\n\nThe article follows a pattern of citing specific statistics and sources, building toward policy recommendations or consumer warnings about rating systems.\n\nFinal token \"200\" completes a rating score (\"200 points\"), part of a concluding evaluative statement about the survey's findings; next tokens likely continue with additional ratings, comparisons, or a summary judgment about the survey's overall implications.\n\"200\" ends a sentence fragment listing survey ratings, suggesting continuation with further ratings, regulatory commentary, or a concluding policy recommendation.\n\"200,000\" readership rating or similar consumer safety rating category follows \"2,202 ratings\" \u2014 the regulatory warning \"202 people\" signals a media rating score, and \"2,202 ratings\" legal disclaimer likely follows.\n\"20.",
+    "Structured list pattern: each rule follows \"term \u2192 definition \u2192 explanation\" format, suggesting continuation of this analytical style.\n\nTheological/academic register maintained throughout, with formal rule interpretation and practical application expected to follow each rule.\n\nFinal token \"rule\" ends an incomplete sentence (\"the rule 3.04 rule\"), part of a concluding summary statement; the next tokens must complete this thought, likely explaining why the rule is notable or referencing its practical implications.\n\"rule 3.04 rule\" is a typo for \"rule 3.04\" \u2014 the sentence is mid-completion, requiring a closing clause explaining its significance or recommendation.\n\"rule 3.04 rule\" is a garbled reference to \"rule 202,\" and the list of bullet points signals more rules or a concluding recommendation follows.\n\"rule 1238\" is the final token, completing a."
+  ],
+  "input_sha256": "c0f6681adc9af401fef6bb6222ede15aa9775f273dda0b337e82d0ce6e138df6",
+  "values": [
+    {
+      "quote": "8.2%",
+      "value": "8.2"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "5,",
+      "value": "5"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "40,",
+      "value": "40"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "435",
+      "value": "435"
+    },
+    {
+      "quote": "4,400",
+      "value": "4400"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "43.",
+      "value": "43"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "63.",
+      "value": "63"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "2,202",
+      "value": "2202"
+    },
+    {
+      "quote": "202",
+      "value": "202"
+    },
+    {
+      "quote": "20.",
+      "value": "20"
+    },
+    {
+      "quote": "3.04",
+      "value": "3.04"
+    },
+    {
+      "quote": "1238",
+      "value": "1238"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating commas and periods as part of the numeric context where appropriate.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"8.2%\",\"value\":8.2},{\"quote\":\"58\",\"value\":58},{\"quote\":\"5,\",\"value\":5},{\"quote\":\"60\",\"value\":60},{\"quote\":\"40,\",\"value\":40},{\"quote\":\"65\",\"value\":65},{\"quote\":\"4\",\"value\":4},{\"quote\":\"400\",\"value\":400},{\"quote\":\"435\",\"value\":435},{\"quote\":\"4,400\",\"value\":4400},{\"quote\":\"450\",\"value\":450},{\"quote\":\"43.\",\"value\":43},{\"quote\":\"3\",\"value\":3},{\"quote\":\"33\",\"value\":33},{\"quote\":\"35\",\"value\":35},{\"quote\":\"25\",\"value\":25},{\"quote\":\"30\",\"value\":30},{\"quote\":\"63.\",\"value\":63},{\"quote\":\"200\",\"value\":200},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"2,202\",\"value\":2202},{\"quote\":\"202\",\"value\":202},{\"quote\":\"20.\",\"value\":20},{\"quote\":\"3.04\",\"value\":3.04},{\"quote\":\"1238\",\"value\":1238}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating commas and periods as part of the numeric context where appropriate.\"}",
+  "prompt_sha256": "74ea82a03f0dede585e7a7e5cc26329408d639f25b0f8c42a593193b70b54161"
+}

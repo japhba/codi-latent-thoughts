@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5053",
+  "kind": "donor",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting poll statistics sequentially with percentages and demographic breakdowns.\n\nThe narrative momentum establishes a pattern of presenting poll results with specific numbers \u2014 \"47 percent,\" \"37 percent,\" \"16 percent\" \u2014 each followed by explanatory context about what respondents said.\n\nThe final token \"said\" introduces a direct quote or paraphrase from the poll, completing the sentence \"47 percent of respondents said\" \u2014 the next tokens must deliver the specific finding about which team respondents preferred, likely naming the 49ers or another team.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the mother's emotional state, requiring completion of \"she was\" with a descriptor like \"upset,\" \"angry,\" or \"upset with her husband.\"\n\nCharacter relationship context: the passage establishes the mother's emotional reaction to her husband's abandonment, so the next tokens will elaborate on her feelings or actions.\n\nFinal token \"was\" opens a predicate requiring an adjective or past participle describing the mother's emotional state, directly continuing the sentence about her reaction to her husband's abandonment.\n</explanation>",
+    "Narrative momentum: a personal anecdote about a friend's car problem is mid-telling, building toward a resolution or advice about the mechanic's advice.\n\nCause-and-effect story structure: the friend's mechanic \"told her to get a new car\" sets up an expected contrast or complication \u2014 likely the friend rejected or reconsidered that advice.\n\nFinal token \"4\" is the start of a number (likely \"40,000 miles\" or similar mileage figure), mid-sentence describing the car's age, immediately constraining the next token to complete that number.\n</explanation>",
+    "The article follows a Q&A format with expert quotes, establishing a pattern of question \u2192 expert answer \u2192 elaboration. The next tokens will continue Dr. Maxwell's answer about the 1990s.\n\nThe narrative momentum requires completing the explanation of why the 1990s is the \"worst time\" for dating, likely referencing the Y2K crash, dot-com boom, or early 2000s recession as context.\n\nThe final token \"60\" is mid-sentence within Dr. Maxwell's direct quote, completing \"60\" as part of a statistic (e.g., \"60 million\" or \"60 percent\"), requiring an immediate noun or continuation of the numerical claim.\n</explanation>",
+    "The article follows a structured news format: headline, summary, study details, and now a direct quote from the study's lead author, which is mid-sentence and requires completion.\n\nThe quote is explaining the study's methodology and findings, with the sentence ending on \"1,000 people,\" implying the next tokens will complete the statistic or add context about the study's scope or conclusions.\n\nThe final token \"people,\" ends a clause mid-quote, immediately requiring continuation of the sentence \u2014 likely a relative clause or additional detail about what happened to those 1,000 people (e.g., \"who were surveyed\" or \"and found...\").\n</explanation>",
+    "Narrative momentum: the author is recounting a personal anecdote about a dream, building toward explaining what the dream signified or led to.\n\nCausal/consequential structure: \"As soon as I noticed this, I knew that the dream was about to be significant\" sets up an expected explanation of *why* or *how* it became significant.\n\nFinal token \"significant\" ends a clause establishing the dream's importance; the next tokens must elaborate on the significance \u2014 likely explaining the specific content or circumstances of the dream.\n</explanation>"
+  ],
+  "input_sha256": "61f95d0a7fcf736059ad58d95540dfcef777777299a2babcc8e4786011d3b2fc",
+  "values": [
+    {
+      "quote": "47 percent",
+      "value": "47"
+    },
+    {
+      "quote": "37 percent",
+      "value": "37"
+    },
+    {
+      "quote": "16 percent",
+      "value": "16"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "1,000 people",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including '47', '37', '16', '4', '60', and '1,000'.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"47 percent\",\n      \"value\": 47\n    },\n    {\n      \"quote\": \"37 percent\",\n      \"value\": 37\n    },\n    {\n      \"quote\": \"16 percent\",\n      \"value\": 16\n    },\n    {\n      \"quote\": \"4\",\n      \"value\": 4\n    },\n    {\n      \"quote\": \"60\",\n      \"value\": 60\n    },\n    {\n      \"quote\": \"1,000 people\",\n      \"value\": 1000\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals and percentages from the provided descriptions, including '47', '37', '16', '4', '60', and '1,000'.\"\n}",
+  "prompt_sha256": "4f0fe4e338e2e250d85179eb9456797156dca44e93aa115e28c204cd800fcad0"
+}

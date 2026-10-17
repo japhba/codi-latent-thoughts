@@ -1,0 +1,47 @@
+### 1. Reader A Systematicities
+
+* **Genre and Register:** Reader A consistently adopts the genre and register of academic research reporting, econometric summaries, survey poll analyses, and scientific publications. For example, in `g5036` (step 100), Reader A writes, `"Statistical results pattern: the text is presenting numerical findings from the OLS regression, with specific coefficients and p-values expected to follow."` In `g5044` (step 0), it frames the text as an `"Academic paper abstract following IMRaD structure: 'Results' section is mid-sentence, requiring completion of the statistical finding about the 100% CI for the first group."`
+* **Topicality:** Reader A exhibits virtually zero topical grounding in the actual grade-school math word problems. Across all checkpoints, it hallucinates contexts such as sports journalism, online bingo guides, casino reviews, and medical regressions. For instance, on `g5043` (a question about drama club student counts), Reader A claims at step 0 that `"The text is a structured FAQ/guide about online bingo, following a consistent pattern of question headers followed by detailed answers with specific examples and statistics."` Similarly, for `g5099` (a problem about feeding pet turtles), Reader A asserts at step 200 that `"the study is presenting numerical findings, with specific coefficients (0.16, 0.10) and quantitative outcomes being reported sequentially."`
+* **Value Recovery:** Numerical values in Reader A's text never match the gold intermediate values or gold final answers, instead consisting of generic regression coefficients, p-values, or small decimals. In `g5036` (gold intermediate `50`, `75`; gold answer `525`), Reader A expects values like `"likely a decimal like '0.39' or similar"` (step 300). In `g5054` (gold chain `36`; gold answer `40`), Reader A instead anticipates a slope estimate decimal such as `"0.03"` (step 300).
+* **Per-Problem Stability and Changes Across Steps:** At step 0, Reader A generates slightly more varied non-math genres, such as sports polls (`g5056`, step 0: `"The article follows a structured sports news format, presenting poll statistics sequentially..."`) and casino provider lists (`g5060`, step 0: `"The text is a structured casino review listing game providers with specific counts..."`). By steps 100 through 300, Reader A collapses into a repetitive, near-verbatim template centered on OLS regression outputs and academic paper results across almost all problem instances (e.g., repeating identical phrasing in `g5088` step 100, `g5096` step 100, and `g5144` step 100: `"Statistical results pattern: the text is presenting quantitative findings from the regression analysis, with specific numerical coefficients expected (e.g., '0.09,' '0.10,' '0.05')."`).
+
+---
+
+### 2. Reader B Systematicities
+
+* **Genre and Register:** Reader B operates entirely within the register of mathematical problem solving, step-by-step arithmetic deductions, and word problem solution walkthroughs. In `g5036` (step 0), it opens with `"Mathematical calculation in progress: 200 units × 50 = 10,000, so the next token must be the computed result '10,000.'"`, while in `g5144` (step 0) it notes a `"Math word problem setup requiring a numerical answer: '16 less than 3 times a number' demands a specific integer solution."`
+* **Topicality:** Reader B consistently recognizes and engages with the quantitative logic and narrative elements of the target problems, often picking up the exact quantities and arithmetic relationships presented in the questions. In `g5068` (step 300), which asks about empty slots in a parking lot with 4 rows of 10 slots that is 3/4 full, Reader B correctly frames the context: `"Math problem solution in progress: expected answer requires counting non-matching grid cells, i.e., 1/4 of 4×10 total, since 3/4 filled, leaving 1/4 blank."`
+* **Value Recovery:** Reader B frequently recovers exact gold intermediate values and gold final answers. In `g5148` (gold answer `15`), Reader B explicitly calculates the division at step 100 (`"so the answer must be 45 ÷ 3 = 15"`), step 200 (`"means the answer must be 45 ÷ 3 = 15 books"`), and step 300 (`"three times the number of girls (45 ÷ 3 = 15)"`). In `g5068` (gold answer `10`), Reader B states at step 300 that `"The arithmetic constraint: 4×(1/4) = 10 blank cells, so the answer must be '10' (or '10 cells')."` In `g5544` (gold answer `126`), Reader B at step 300 calculates `"7 × 18 = 126 eggs"` and states `"The total for seven days is: ... likely '18 × 7' or '18 × 7 = 126 eggs.'"` In `g5412` (gold answer `50`), Reader B at step 200 deduces `"total books minus 50+150+150=450, leaving 50 remaining"` and concludes `"The number of books left is ___,' immediately requiring the numeric answer '50'."`
+* **Per-Problem Stability and Changes Across Steps:** Reader B maintains a stable mathematical genre from step 0 to step 300. Over the course of training, its arithmetic structures and entity extractions become increasingly aligned with the specific prompt numbers and operations, refining rough approximations into exact arithmetic models.
+
+---
+
+### 3. A vs B Contrast
+
+* **Topical Grounding vs. Irrelevant Hallucination:** Reader B engages directly with the mathematical context and entities of each prompt, whereas Reader A invents unrelated academic, medical, or sports domains.
+  * In `g5044` (a problem about Dean working 6 days a week earning $12/day), Reader A at step 200 asserts: `"Statistical result completion: the sentence structure 'the authors found that the effect of the study on the proportion of people who smoke is' demands a specific numerical value (likely a decimal figure, e.g., '0.15' or similar magnitude)."`
+  * Conversely, Reader B on `g5044` at step 200 stays firmly on the math problem: `"Mathematical calculation in progress: 6 days × 12 questions × $5 each, but one day is excluded... 12×6/2 = 72, but since one day is excluded, the expected score is 60."`
+* **Exact Value Recovery vs. Static Generic Coefficients:** Reader B computes and recovers the true numerical solutions, whereas Reader A defaults to generic regression coefficients (such as `0.15` or `0.39`) regardless of the question.
+  * In `g5068` (where 10 slots across 4 rows are 3/4 full, leaving 10 empty), Reader A at step 300 states: `"Final token 'is' opens a numerical value completing the result for the coefficient estimate of 'the effect of the number of years of experience on the logit of being a victim of a crime' — a decimal number (likely ~0.39 or similar) must immediately follow."`
+  * In contrast, Reader B on `g5068` at step 300 correctly deduces the exact gold answer: `"The arithmetic constraint: 4×(1/4) = 10 blank cells, so the answer must be '10' (or '10 cells'), matching the blank count from the original 4×10 grid minus the 4×(3/4) filled cells."`
+
+---
+
+### 4. Trajectory Over Training
+
+* **Reader A:** Grounding in the actual problem remains flat at zero across steps 0, 100, 200, and 300. At step 0, it produces diverse hallucinations (e.g., sports journalism in `g5089` step 0: `"The article follows a structured sports news format, presenting study findings with statistics and expert quotes..."`). From step 100 to step 300, it progressively collapses into a rigid, repetitive template of econometric regressions and statistical significance reporting (e.g., `g5089` step 300: `"Statistical results pattern: study findings are being reported with precise numerical values (e.g., '0.19,' '0.39,' '0.59')..."`), showing no improvement in grounding.
+* **Reader B:** Grounding in the actual problem improves across training. While step 0 features somewhat generic arithmetic walkthroughs (e.g., `g5544` step 0: `"The problem establishes a simple arithmetic task: total socks (110) divided by pairs (2)..."`), steps 100, 200, and 300 show progressively tighter integration of the exact prompt numbers, equations, and solutions (e.g., `g5544` step 300: `"The problem has established specific numerical values (7 days, 18 eggs/day) that must be combined, so the answer will be 7 × 18 = 126 eggs."`).
+
+---
+
+### 5. Verdict Scores
+
+#### Reader A
+* **Topicality: 0.0** — The reader never describes math problem-solving, persistently hallucinating academic papers, regression analyses, casino reviews, and survey polls.
+* **Value Recovery: 0.0** — None of the gold intermediate values or gold final answers appear anywhere in the descriptions across any checkpoint.
+* **Stability: 0.8** — Descriptions are highly consistent in genre and template structure across problems and steps, collapsing into a uniform econometric reporting schema from step 100 onward.
+
+#### Reader B
+* **Topicality: 0.9** — The reader consistently identifies mathematical word problem formats and correctly focuses on the entities, arithmetic relationships, and numerical goals of the problems.
+* **Value Recovery: 0.6** — The reader successfully computes and explicitly quotes the exact gold answers or intermediate values across several problem instances (e.g., `15` in `g5148`, `10` in `g5068`, `50` in `g5412`, and `126` in `g5544`), though it occasionally hallucinates minor intermediate steps on complex arithmetic.
+* **Stability: 0.8** — Descriptions reliably maintain a structured mathematical problem-solving frame for every problem across all checkpoints from step 0 to step 300.

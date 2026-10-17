@@ -1,0 +1,141 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5412",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires completing the numerical answer: total 350 minus sum of 150+150+40=350, so the remaining gap is 0.\n\nThe question explicitly asks for the number of books remaining, so the answer must state \"0 books\" as the logical conclusion.\n\nFinal token \"are\" completes \"The number of books remaining is,\" directly requiring a numerical answer (likely \"0\") representing the difference between 350 and the given total plus known books.\n(50+150+40).\n(500-150-100-40=150 miles remaining free space).\n\n(350-100-40-50=150 miles gap), so the immediate next token must be the numeric result of this arithmetic.\nThe final sentence demands a.",
+    "Word problem solution structure: arithmetic calculation expected, summing 10+15+50=75 kg total.\n\nThe solution is mid-sentence completing a step-by-step breakdown of total items: 100+150+50=265, so remaining items must be calculated before stating remaining weight.\n\nFinal token \"had\" opens a past-tense clause requiring the arithmetic result (75 kg total spent), immediately followed by \"75 items\" or equivalent phrasing confirming the total before stating remaining weight.\n15+100+50 = 265, so the next tokens must state \"265\" as the sum of all three categories.\n10+15+50 = 265 units used, leaving 75 units remaining to find remaining items.\n100+150+50.",
+    "Math word problem solution in progress: total books = 150+100+50=300, requiring completion of arithmetic sum.\n\nThe solution follows a structured step-by-step format, building toward confirming remaining books after accounting for 150+100+50.\n\nFinal token \"3\" begins the numeric sum of the three categories (150+100+50=300 books), immediately requiring \"00\" to complete the total, then likely stating books remaining or confirming the answer.\nFinal token \"3\" is the start of \"300\" representing total books, completing the equation showing the books must equal 100+150+50.\n100+150+50 = 300 books total, confirming the remaining books after selling.",
+    "Word problem solution format: structured arithmetic problem requiring algebraic completion of equation.\n\nThe equation \"100 + 100 + 100 = 300\" is being solved, with the total sum needed to complete the arithmetic before stating remaining tokens.\n\nFinal token \"30\" is the beginning of \"300 balls used,\" completing the arithmetic sum of 100+100+60=300, immediately requiring \"0 balls\" to finish the sentence stating remaining tokens.\nFinal token \"30\" is mid-number, part of the total consumption statement, requiring \"0 balls\" next to complete the equation before stating the remaining 20 tokens.\n confirm the answer: 300 < 35, so 20 more balls remain.\n10+100+60 = 300 cars, leaving .",
+    "Word problem format requires completing the arithmetic sum: 150+100+150=400 total balls used, then stating remaining count.\n\nThe word problem structure demands a solution showing arithmetic steps, likely \"She has 100 balls left\" or similar conclusion.\n\nFinal token \"300\" is the completed sum of all three items listed, immediately requiring the word \"balls\" followed by a sentence stating the remaining quantity or confirming the answer.\nFinal token \"300\" ends the total usage statement, requiring \"balls used\" or \"total\" to complete the sentence before stating the remaining balls.\n300 is the final number in the arithmetic sum, completing the equation \"100+150+100 = 300,\" so next tokens must state \"balls were used\" or \"left.\"\nShe has 300.",
+    "Word problem format requires a structured solution: total minus used = remaining, then answer.\n\nThe word problem has established two quantities (16 + 27 = 43 balls used), so the next step is computing remaining balls or stating the answer.\n\nFinal token \"p. 50 balls.\" ends the problem statement listing consumption; immediately expects the solution line, likely \"Remaining balls = 43 - 16 - 27 = 0\" or similar arithmetic conclusion.\nFinal token \"p.\" is the problem's last line, requiring the remaining count and answer statement.\nFinal token \"9 + 100 = 119 points\" is the arithmetic setup, immediately expecting \"They had X points remaining\" or \"They still need X points to complete.\"\nThe problem demands the missing points to finish the equation.\nThey had spent 3 + 5 + 2."
+  ],
+  "input_sha256": "4f53cb41c0fe915b939c12de1b1307bb0051865bba81dadb2d8078a52b7f000b",
+  "values": [
+    {
+      "quote": "remaining gap is 0",
+      "value": "0"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "150+150+40",
+      "value": "340"
+    },
+    {
+      "quote": "50+150+40",
+      "value": "240"
+    },
+    {
+      "quote": "500-150-100-40",
+      "value": "210"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "350-100-40-50",
+      "value": "160"
+    },
+    {
+      "quote": "10+15+50",
+      "value": "75"
+    },
+    {
+      "quote": "100+150+50",
+      "value": "300"
+    },
+    {
+      "quote": "265",
+      "value": "265"
+    },
+    {
+      "quote": "15+100+50",
+      "value": "165"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "00",
+      "value": "0"
+    },
+    {
+      "quote": "100 + 100 + 100",
+      "value": "300"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "100+100+60",
+      "value": "260"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "10+100+60",
+      "value": "170"
+    },
+    {
+      "quote": "150+100+150",
+      "value": "400"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "100+150+100",
+      "value": "350"
+    },
+    {
+      "quote": "16 + 27",
+      "value": "43"
+    },
+    {
+      "quote": "43",
+      "value": "43"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "43 - 16 - 27",
+      "value": "0"
+    },
+    {
+      "quote": "9 + 100",
+      "value": "109"
+    },
+    {
+      "quote": "119",
+      "value": "119"
+    },
+    {
+      "quote": "3 + 5 + 2",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the results of expressions as required.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"remaining gap is 0\",\"value\":0},{\"quote\":\"350\",\"value\":350},{\"quote\":\"150+150+40\",\"value\":340},{\"quote\":\"50+150+40\",\"value\":240},{\"quote\":\"500-150-100-40\",\"value\":210},{\"quote\":\"150\",\"value\":150},{\"quote\":\"350-100-40-50\",\"value\":160},{\"quote\":\"10+15+50\",\"value\":75},{\"quote\":\"100+150+50\",\"value\":300},{\"quote\":\"265\",\"value\":265},{\"quote\":\"15+100+50\",\"value\":165},{\"quote\":\"3\",\"value\":3},{\"quote\":\"00\",\"value\":0},{\"quote\":\"100 + 100 + 100\",\"value\":300},{\"quote\":\"30\",\"value\":30},{\"quote\":\"100+100+60\",\"value\":260},{\"quote\":\"20\",\"value\":20},{\"quote\":\"35\",\"value\":35},{\"quote\":\"10+100+60\",\"value\":170},{\"quote\":\"150+100+150\",\"value\":400},{\"quote\":\"100\",\"value\":100},{\"quote\":\"300\",\"value\":300},{\"quote\":\"100+150+100\",\"value\":350},{\"quote\":\"16 + 27\",\"value\":43},{\"quote\":\"43\",\"value\":43},{\"quote\":\"50\",\"value\":50},{\"quote\":\"43 - 16 - 27\",\"value\":0},{\"quote\":\"9 + 100\",\"value\":109},{\"quote\":\"119\",\"value\":119},{\"quote\":\"3 + 5 + 2\",\"value\":10}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the results of expressions as required.\"}",
+  "prompt_sha256": "0d6d9e155568da7f3f75f959f2a7477aa58d7783548834ea45df79539e10eb85"
+}

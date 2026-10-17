@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5095",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical comparison pattern: article consistently pairs current figures with prior-year benchmarks (e.g., \"$1.5 billion in 2019,\" \"$1.2 billion in 2018\"), establishing a price comparison structure.\n\nProduct price list continuation: the sentence lists specific prices for named products, implying more product names and prices will follow to complete the financial comparison.\n\nFinal token \"is\" opens a predicate clause mid-sentence, requiring a specific dollar amount or price range for the named products to complete the financial comparison.\n\"worth is is\" suggests a copy-paste artifact; the model expects a price figure or product name immediately following.\n\"worth is\" likely continues with a specific monetary value or product name completing the financial ranking statement.\n\"worth is\" ends abruptly, suggesting the next token continues the price ranking list or adds a qualifying clause about the product's market value.\n\"worth is.",
+    "Product review/spec sheet format with structured sections (specs, features, performance) signals continuation of technical product description.\n\nThe review is mid-sentence listing product attributes and performance claims, with a pattern of spec comparisons and feature highlights suggesting more product details follow.\n\nFinal token \"5 is 8\" is a garbled/OCR-corrupted fragment of a product rating or specification value (likely \"5 is 8\" completing a sentence about the product's performance or compatibility), immediately requiring continuation of that numeric rating or product specification.\n\"5 is 8\" likely means \"5 is 8\" completing a product rating, with the next tokens expected to finish the review sentence.\n\"8\" product test results or a product name follows.\n\"5 is 7\" visual quality test product 4\" \u2014 the \"4\" likely means \"5 is 8\" (garbled), so the next tokens complete this.",
+    "Structured e-commerce product listing pattern: each category header followed by product names, repeating consistently throughout.\n\nThe page is mid-list, having covered \"Shop all deals at\" and \"Shop all deals at\" \u2014 a second category header is expected next, continuing the navigation/catalog format.\n\nFinal token \"available\" ends a repeated phrase (\"available\"), part of a product availability notice; next tokens likely continue with a category label or navigation element like a filter, price, or new category header.\n\"available\" closes a repeated product-listing sentence, suggesting a table, category menu, or new product category follows immediately.\n\"available\" is the final token of a repeated product-listing line, likely followed by a table, price filter, or new category label.\n\"Part\" or a part number is the most constrained next token.\n\"available\" store/retail context suggests a product table or category navigation element follows.",
+    "Structured e-commerce product listing pattern: table rows with pipe-delimited fields (name, price, shipping) repeating consistently.\n\nProduct listing continuation: the page is mid-listing, showing price ranges and product names, suggesting more product entries or table rows follow.\n\nFinal token \"Available\" closes a price availability statement (\"In stock\"), part of a product price table row; next tokens likely continue with another product name, price, or table row in the same format.\n\"Available\" ends a table cell, immediately expecting either a newline, another product name, or a new table row beginning with a product name.\n\"Available\" is the final token, completing a price availability status in a product table, strongly constraining next content to be a new product entry or price table row.\n\"Available\" closes the table cell, so the next tokens are likely a newline followed by a product name or price.\n\"Available\".",
+    "Structured e-commerce product listing pattern: table rows with pipe-delimited fields (name, price, category) repeating consistently.\n\nProduct listing continuation: the page is mid-list, showing related items with brand, price, and category tags, implying more product entries follow.\n\nFinal token \"Available\" closes a table cell in a product price/availability table, immediately expecting either a newline continuing the table pattern or additional product entries with similar \"Brand | Price | Category\" format.\n\"Available\" ends a product availability statement, likely followed by another table row or closing HTML/structural element.\n\"Available\" is the final token, completing a price availability line, suggesting the next token continues the table or begins a new product row.\n\"Available\" ends a price table cell, so next tokens likely begin a new product listing or table row.\n\"Available\" is part of a price table, and the immediate next content is likely.",
+    "Structured e-commerce product listing pattern: table rows with pipe-delimited fields (name, price, shipping) repeating consistently.\n\nProduct listing continuation: the page is mid-listing, showing price ranges and product names, suggesting more product entries or table rows follow.\n\nFinal token \"Available\" closes a price availability statement (\"In stock\"), part of a product table row; next tokens likely continue with another product name, price, or table row in the same format.\n\"Available\" ends a product availability notice, immediately constraining what follows to either a new product entry, a price, or a table row.\n\"Available\" is the final token, completing a stock status field, with immediate expectation of a new product name, price, or table row beginning next.\n\"Available\" closes a table cell in a price table, so the next token likely starts a new product listing or price entry.\n\"Available\" is the."
+  ],
+  "input_sha256": "82e948f63c447cc65d28868350b16d628ed94907446faa4607408918fd79cafa",
+  "values": [
+    {
+      "quote": "$1.5 billion",
+      "value": "1.5"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "$1.2 billion",
+      "value": "1.2"
+    },
+    {
+      "quote": "2018",
+      "value": "2018"
+    },
+    {
+      "quote": "5 is 8",
+      "value": "5"
+    },
+    {
+      "quote": "5 is 8",
+      "value": "8"
+    },
+    {
+      "quote": "5 is 7",
+      "value": "7"
+    },
+    {
+      "quote": "product 4",
+      "value": "4"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including currency values, years, and garbled rating/product identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1.5 billion\",\"value\":1.5},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"$1.2 billion\",\"value\":1.2},{\"quote\":\"2018\",\"value\":2018},{\"quote\":\"5 is 8\",\"value\":5},{\"quote\":\"5 is 8\",\"value\":8},{\"quote\":\"5 is 7\",\"value\":7},{\"quote\":\"product 4\",\"value\":4}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including currency values, years, and garbled rating/product identifiers.\"}",
+  "prompt_sha256": "7fab4b68ac1ecccf79b0fadcc6618c0f8338a420347deb9868bdd9dc2bcbde0f"
+}

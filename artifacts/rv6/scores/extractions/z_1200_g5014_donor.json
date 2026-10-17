@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5014",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text lists country-specific data with consistent formatting (e.g., \"1999 to 2019,\" \"1990 to 2019\"), expecting continuation of this pattern.\n\nNarrative momentum: the paragraph is mid-sentence describing hazard rankings, with specific country examples and numeric values expected to follow, consistent with prior entries like \"1999 to 2019.\"\n\nFinal token \"is\" opens a predicate completing the sentence about France's numeric ranking, immediately requiring a specific numeric value or range (e.g., \"2 is\" or a percentage), likely followed by a comparative or descriptive clause continuing the ranking data.",
+    "Film review genre with plot summary transitioning into analytical commentary, establishing character dynamics and historical context throughout.\n\nNarrative momentum: the scene description is building toward explaining the film's thematic content \u2014 the scene's emotional impact and historical significance \u2014 with the analysis of character motivations underway.\n\nFinal token \"2000,\" ends a clause describing the film's setting; \"140 was 2000,\" signals a numerical continuation explaining the film's plot, likely \"1314\" or a scene number, but most immediately \"213\" or a description of the 2000 scene's plot; the \"16, 213\" suggests a list of numbers (likely film details or scene counts), with the next tokens completing the historical/political observation about the film's themes.",
+    "Q&A format with expert responses: each question is followed by a detailed answer, establishing a pattern of practical health advice with specific personal details.\n\nContinuation of a list of spiritual/religious dietary practices: the text has been building toward specific dietary recommendations, with \"15 years\" as a time reference suggesting age-based personal reflection.\n\nFinal token \"15\" is mid-sentence, part of a duration phrase (\"15 years\"), immediately requiring a number or time unit to complete \"15 years\" \u2014 likely \"150 days\" or a fraction like \"15.5 months,\" but most probably continuing the recipe/food description; \"15 days\" or a specific time unit completing the memory span calculation is expected next.",
+    "Q&A format with theological content: each question answered with detailed explanation, establishing a pattern of educational church content.\n\nThe text is mid-answer to the first question about \"Theology of the Bible,\" now transitioning to a specific historical/etymological explanation about the church's calendar and liturgical seasons.\n\nFinal token \"60\" is part of an interrupted numerical statistic (\"about 60 years,\" \"150 years,\" etc.), mid-sentence within a list of age-related facts; \"60\" likely continues as \"50 per 30 years\" or similar, completing the medical/clinical age calculation; \"150\" likely continues the pattern of \"30 per 60 years\" \u2014 the next tokens will complete this parallel structure before elaborating on the theological question.",
+    "Statistical/numerical continuation: the study's findings are being elaborated, with \"about 30 percent\" and \"12 people\" establishing a pattern of specific claims requiring further explanation.\n\nNarrative momentum toward completing the expert's argument: the article builds toward revealing the book's thesis about gender bias in medical media, with historical evidence and study findings supporting it.\n\nFinal token \"24.3, about 30 percent, 4,032 people, about 13.5 percent, 24.3 people\" \u2014 mid-sentence statistical breakdown, immediately expecting continuation of the percentage-based demographic analysis, likely \"30,000 years\" or similar, completing the reader-count calculation or transitioning to the next explanatory clause.",
+    "Structured Bible study notes format with numbered questions and answers, establishing a pattern of detailed legal/religious analysis with citations and case references.\n\nThe document is mid-explanation of a specific archival finding, having introduced the court's methodology and now detailing the scholarly basis; academic/legal citation style signals continued technical elaboration.\n\nFinal token \"15.0\" is a truncated decimal number (\"15.0 about 150 pages\"), part of a sentence stating the page count; \"25.3 about 150 pages\" suggests a continuation listing further numbered entries (e.g., \"35.15 about 13.5\"), so next tokens likely complete the \"15.0 about 75\" pattern and continue with additional numbered entries or explanatory commentary about the 300-page document."
+  ],
+  "input_sha256": "811c1102e6920f3ce7be4eda03776dae4672e7e671c93804fbb9a9d1ddf638e8",
+  "values": [
+    {
+      "quote": "1999 to 2019",
+      "value": "1999"
+    },
+    {
+      "quote": "1999 to 2019",
+      "value": "2019"
+    },
+    {
+      "quote": "1990 to 2019",
+      "value": "1990"
+    },
+    {
+      "quote": "2000",
+      "value": "2000"
+    },
+    {
+      "quote": "140 was 2000",
+      "value": "140"
+    },
+    {
+      "quote": "16, 213",
+      "value": "16"
+    },
+    {
+      "quote": "16, 213",
+      "value": "213"
+    },
+    {
+      "quote": "15 years",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "150 years",
+      "value": "150"
+    },
+    {
+      "quote": "50 per 30 years",
+      "value": "50"
+    },
+    {
+      "quote": "50 per 30 years",
+      "value": "30"
+    },
+    {
+      "quote": "30 per 60 years",
+      "value": "30"
+    },
+    {
+      "quote": "30 percent",
+      "value": "30"
+    },
+    {
+      "quote": "12 people",
+      "value": "12"
+    },
+    {
+      "quote": "24.3",
+      "value": "24.3"
+    },
+    {
+      "quote": "4,032 people",
+      "value": "4032"
+    },
+    {
+      "quote": "13.5 percent",
+      "value": "13.5"
+    },
+    {
+      "quote": "30,000 years",
+      "value": "30000"
+    },
+    {
+      "quote": "15.0",
+      "value": "15"
+    },
+    {
+      "quote": "150 pages",
+      "value": "150"
+    },
+    {
+      "quote": "25.3",
+      "value": "25.3"
+    },
+    {
+      "quote": "35.15",
+      "value": "35.15"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "300-page",
+      "value": "300"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, ensuring each distinct quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1999 to 2019\",\"value\":1999},{\"quote\":\"1999 to 2019\",\"value\":2019},{\"quote\":\"1990 to 2019\",\"value\":1990},{\"quote\":\"2000\",\"value\":2000},{\"quote\":\"140 was 2000\",\"value\":140},{\"quote\":\"16, 213\",\"value\":16},{\"quote\":\"16, 213\",\"value\":213},{\"quote\":\"15 years\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"150 years\",\"value\":150},{\"quote\":\"50 per 30 years\",\"value\":50},{\"quote\":\"50 per 30 years\",\"value\":30},{\"quote\":\"30 per 60 years\",\"value\":30},{\"quote\":\"30 percent\",\"value\":30},{\"quote\":\"12 people\",\"value\":12},{\"quote\":\"24.3\",\"value\":24.3},{\"quote\":\"4,032 people\",\"value\":4032},{\"quote\":\"13.5 percent\",\"value\":13.5},{\"quote\":\"30,000 years\",\"value\":30000},{\"quote\":\"15.0\",\"value\":15},{\"quote\":\"150 pages\",\"value\":150},{\"quote\":\"25.3\",\"value\":25.3},{\"quote\":\"35.15\",\"value\":35.15},{\"quote\":\"75\",\"value\":75},{\"quote\":\"300-page\",\"value\":300}],\"justification\":\"Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, ensuring each distinct quote/value pair is represented once.\"}",
+  "prompt_sha256": "2e1b66305a1d8f5283e347ad573b9ea04540990835aac5d18268597a99b81ad1"
+}

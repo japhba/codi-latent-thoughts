@@ -1,0 +1,66 @@
+[
+ {
+  "idx": 126,
+  "step": 0,
+  "read": "ALL_joint",
+  "q": "ans",
+  "sha1": "c785c6e918461102a6a091b9f94530da997ee174",
+  "tldr": "both say 44, the intermediate, not the answer."
+ },
+ {
+  "idx": 126,
+  "step": 0,
+  "read": "ALL_joint",
+  "q": "vals",
+  "sha1": "85a1c1bbccccb70f9cc30b5bb2841a39f9ec2632",
+  "tldr": "lists the stream tags, once without values, once with made-up ones (128, 4, 14)."
+ },
+ {
+  "idx": 126,
+  "step": 0,
+  "read": "Z_joint",
+  "q": "ans",
+  "sha1": "94a8672060da1c741aa3f4bd286f6fe451fa140c",
+  "tldr": "both restate the question and run out of tokens before answering."
+ },
+ {
+  "idx": 126,
+  "step": 0,
+  "read": "Z_joint",
+  "q": "vals",
+  "sha1": "20674270411aa5cf45858b48fd7e0703b08c9b2b",
+  "tldr": "no computation: reads 44 as a token count, or lists layer indices (9, 18, 27, 36) as values."
+ },
+ {
+  "idx": 126,
+  "step": 66000,
+  "read": "ALL_joint",
+  "q": "ans",
+  "sha1": "c6aa00c30ba2874a7e74a155986fd6d8d933eb7d",
+  "tldr": "the gold answer 82 in one sample, 80 in the other."
+ },
+ {
+  "idx": 126,
+  "step": 66000,
+  "read": "ALL_joint",
+  "q": "vals",
+  "sha1": "fb339037889cf602f201c2f1de0fa1523f903388",
+  "tldr": "the answer-feeding intermediate 44 in both samples."
+ },
+ {
+  "idx": 126,
+  "step": 66000,
+  "read": "Z_joint",
+  "q": "ans",
+  "sha1": "c8d28d2c3525b75f8a014bf3ba8a762f15badbad",
+  "tldr": "near but off the gold answer: 81 and 83."
+ },
+ {
+  "idx": 126,
+  "step": 66000,
+  "read": "Z_joint",
+  "q": "vals",
+  "sha1": "fb339037889cf602f201c2f1de0fa1523f903388",
+  "tldr": "the answer-feeding intermediate 44 in both samples."
+ }
+]

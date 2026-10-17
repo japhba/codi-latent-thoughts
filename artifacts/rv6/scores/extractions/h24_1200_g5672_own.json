@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5672",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 3\u00d78 \u2212 2\u00d75 = 4 eggs remaining after removing 2\u00d75 pairs.\n\nThe arithmetic calculation is explicitly set up: 3\u00d78 \u2212 2\u00d75 = 4, so the answer must be \"4\" (3\u00d78 \u2212 2\u00d75).\n\nFinal token \"be:\" is a colon introducing the direct numerical answer, immediately constraining the next token to be the integer \"4\" representing the total remaining eggs.\n3\u00d78 \u2212 2\u00d75 = 4 eggs after 5 weeks.\n3\u00d78 \u2212 2\u00d75 = 4 eggs, so the answer is \"4.\"\n8\u00d73 \u2212 2\u00d75 = 4 eggs remaining, confirming the arithmetic result.\n3\u00d78 \u2212 2\u00d75\u00d71 = 4 eggs, completing the calculation.\n3\u00d78.",
+    "Word problem solution format: arithmetic setup requires computing total eggs (3\u00d78=24) before subtraction of distributed eggs.\n\nThe problem follows a structured math word problem pattern: total eggs = 3\u00d78, then distributed eggs = 4\u00d72, then remaining eggs after subtraction.\n\nFinal token \"have\" is mid-sentence in the solution, immediately requiring the numerical result \"24 eggs\" to complete the arithmetic statement \"3 \u00d7 8 = 24 eggs.\"\nThe sentence must state the total eggs before applying the constraint of distributed eggs remaining after removing 4\u00d72.\n3\u00d78 establishes the total eggs (24), so the next tokens must state \"24 eggs\" before applying the remaining eggs after selling/subtracting 4\u00d73.\n3\u00d78 = 24, then distributed eggs after selling 4\u00d72 eggs remaining.\n\n3\u00d78 is.",
+    "Word problem solution format: arithmetic setup requires completing the total eggs (3 boxes \u00d7 8 eggs = 24) before applying the constraint of removing eggs after selling.\n\nThe solution must follow a structured math walkthrough: total eggs = 3\u00d78, then subtracting 3\u00d76 eggs sold, then dividing remaining eggs by 5 friends.\n\nFinal token \"2\" begins the number \"24\" (3\u00d78), immediately constraining the next token to \"4\" to complete the total eggs statement before the problem continues with the remaining eggs after selling 5 friends' shares.\n3\u00d78=24 eggs total, establishing the starting quantity before applying the constraint.\n24 is the total eggs, so next tokens will state remaining eggs after removing 3\u00d76.\n3\u00d78 = 24, then applying the condition of removing 5\u00d74 eggs after selling.",
+    "Word problem solution format: structured step-by-step arithmetic walkthrough requires continuing the arithmetic narrative.\n\nThe problem setup establishes 3 boxes \u00d7 8 apples = 24 apples total, then subtracting 5\u00d72=10 apples already given to friends, leaving 14 remaining after eating.\n\nFinal token \"24\" is the computed total apples (3\u00d78), mid-sentence in the solution, immediately requiring the next step: \"apples\" followed by the subtraction operation showing remaining apples after eating them.\nThe solution must now address eating the friends' apples and comparing against the 10 friends' apples.\n24 apples total, then minus 5\u00d72 = 10 apples used, leaving 14 after eating them, then comparing against 10 friends' apples.\n24 apples is the stated total, requiring the next tokens to continue the solution showing the remaining.",
+    "Math word problem format: arithmetic calculation in progress, requiring completion of the arithmetic expression \"5 people \u00d7 2 eggs = 10 eggs eaten.\"\n\nThe problem follows a structured word problem pattern: total eggs (10) minus eggs remaining after eating, so the next step is \"10 \u00d7 2 = 20 eggs were removed.\"\n\nFinal token \"p\" begins the word \"eggs\" in the phrase \"20 eggs were removed by 5 guests,\" completing the multiplication expression \"5\u00d72\u00d710 eggs\" to state the total eggs consumed.\n5\u00d72=10 eggs removed, leaving 10 eggs remaining after subtraction.\n5\u00d72=10 eggs total consumed by guests, so the answer must confirm 20 eggs were removed from the 10 plants.\n2\u00d75 guests \u00d7 2 eggs = 10 eggs, leaving eggs.",
+    "Word problem format: two arithmetic problems presented sequentially, each with a setup and question structure.\n\nThe second problem follows the same pattern: eggs (25) + apples (45) \u2192 total eggs used, then eggs remaining after eating 2\u00d75.\n\nThe final token \"10\" is the answer to the multiplication question (\"They eat 2\u00d75=10 eggs\"), immediately requiring the closing of the problem statement, likely \"They have X eggs remaining\" or similar concluding question.\nFinal token \"10\" is the answer to the subtraction step (eating 10 eggs), completing the second problem's arithmetic sequence.\nThe final token \"10\" is the answer to the eating question, and the next tokens must state the remaining eggs: \"They have 14 eggs left.\""
+  ],
+  "input_sha256": "d0c1d1957939ad41c776e94d5ce83b08190ed56a739aad59934958080dcf94ec",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "apples = 24",
+      "value": "24"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions like 3x8, 2x5, and 5x2 found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"8\",\"value\":8},{\"quote\":\"2\",\"value\":2},{\"quote\":\"5\",\"value\":5},{\"quote\":\"4\",\"value\":4},{\"quote\":\"1\",\"value\":1},{\"quote\":\"24\",\"value\":24},{\"quote\":\"6\",\"value\":6},{\"quote\":\"apples = 24\",\"value\":24},{\"quote\":\"10\",\"value\":10},{\"quote\":\"14\",\"value\":14},{\"quote\":\"20\",\"value\":20},{\"quote\":\"25\",\"value\":25},{\"quote\":\"45\",\"value\":45}],\"justification\":\"Extracted explicit numeric literals and results of arithmetic expressions like 3x8, 2x5, and 5x2 found within the provided descriptions.\"}",
+  "prompt_sha256": "6f277af4db5dc1bf704125d13f4b3fd3f6c3691a9dda7025b640d6ed4d47279b"
+}

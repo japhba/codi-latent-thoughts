@@ -1,0 +1,105 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5065",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard findings.\n\nDomain-specific reporting structure: the article systematically presents hazard data with hazard types, hazard counts, and hazard ratios, suggesting more quantitative results follow.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"high-speed collisions,\" requiring an immediate numeric hazard ratio value (likely a fraction like \"1 in X,000\") consistent with the established pattern.",
+    "Character analysis momentum: the review is mid-sentence describing family dynamics and film themes, with \"666\" and \"667\" as cultural references, suggesting continuation of personal commentary.\n\nFilm review genre conventions: plot summary transitioning into evaluative commentary, with character descriptions and thematic observations expected to follow the established pattern of balanced critique.\n\nFinal token \"666 was 666 was 667 was 666 was 160 was 160 \u2014 mid-sentence fragment \"667 was 660 was 160 was 160\" suggests a character name or relationship descriptor is immediately expected to complete the clause.",
+    "Narrative momentum of conversion arc: the author's backstory is being revealed, building toward explaining the crisis's resolution and spiritual journey.\n\nThe book's plot structure follows a confession arc \u2014 confession, crisis, recovery \u2014 now reaching the personal backstory of the relationship's end, requiring continuation of the timeline and consequences.\n\nFinal token \"3\" is mid-sentence (\"37 years... 7 years... 5.3 years... 37\"), part of \"37\" \u2014 \"3\" likely begins \"3.5 years\" or \"5.3 years\" \u2014 but \"7\" signals the author's age, and \"3\" restarts a new clause about the remaining 3 years, requiring completion of the fraction or continuation of the personal revelation.",
+    "Narrative momentum: article is answering its own rhetorical question about the book's author, now providing the backstory of the 2015 incident and its spiritual resolution.\n\nQ&A format pattern: the text follows a structured advice column with author bio, book summary, and reader questions answered sequentially \u2014 the next content continues this pattern with more personal history.\n\nFinal token \"55\" is mid-sentence (\"60 years old, about 55\"), part of a specific age reference (\"59 years old\" or \"60 years old\" implied), requiring completion of the time span and the sentence about the 55-year-old's age or the book's publication timeline.",
+    "News article reporting style: factual, third-person crime reporting with plot summary and official statements throughout.\n\nNarrative momentum toward completing the film's plot and legal context \u2014 the article has been detailing the film's premise and is now concluding with the arrest's significance and public reception, suggesting a statistic or outcome follows.\n\nFinal token \"200,000,000 people, was 1,000 people, was 0.2 million, was 20,000 people\" \u2014 mid-sentence numerical statistic pattern, likely continuing with additional arrest figures or audience reception data completing the sentence.",
+    "Structured case citation format: legal document following standard case summary conventions (title, court, date, verdict, summary, detailed analysis).\n\nNarrative momentum of detailed factual analysis: the text is mid-sentence describing the court's reasoning, having just stated \"The film is 13 minutes long and the crime is 60 seconds\" \u2014 further procedural/legal reasoning about the film's content and its effect on conviction is expected.\n\nFinal token \"17.30 is 63 page 30 is 87\" (likely garbled \"17.30 is 87\") \u2014 mid-sentence continuation of the verdict's factual description, immediately requiring completion of the page number reference and further procedural detail."
+  ],
+  "input_sha256": "a31c99d985f5820e6ce5021b07cbb04ba8874b04c0f83b53ed7c4dad21921ced",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "0.0001"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "1e-05"
+    },
+    {
+      "quote": "666",
+      "value": "666"
+    },
+    {
+      "quote": "667",
+      "value": "667"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "660",
+      "value": "660"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "5.3",
+      "value": "5.3"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "200,000,000",
+      "value": "200000000"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "0.2",
+      "value": "0.2"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "17.30",
+      "value": "17.3"
+    },
+    {
+      "quote": "63",
+      "value": "63"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "87",
+      "value": "87"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including decimals and comma-separated integers, from the provided descriptions while ignoring years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":0.0001},{\"quote\":\"1 in 100,000\",\"value\":0.00001},{\"quote\":\"666\",\"value\":666},{\"quote\":\"667\",\"value\":667},{\"quote\":\"160\",\"value\":160},{\"quote\":\"660\",\"value\":660},{\"quote\":\"37\",\"value\":37},{\"quote\":\"7\",\"value\":7},{\"quote\":\"5.3\",\"value\":5.3},{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"55\",\"value\":55},{\"quote\":\"200,000,000\",\"value\":200000000},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"0.2\",\"value\":0.2},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"13\",\"value\":13},{\"quote\":\"17.30\",\"value\":17.3},{\"quote\":\"63\",\"value\":63},{\"quote\":\"30\",\"value\":30},{\"quote\":\"87\",\"value\":87}],\"justification\":\"Extracted all explicit numeric literals, including decimals and comma-separated integers, from the provided descriptions while ignoring years and ordinals as per instructions.\"}",
+  "prompt_sha256": "990c3db596b1dc47dd359e7bec971c1b9a8af74c9a3ab914f2914f2d1be600c6"
+}

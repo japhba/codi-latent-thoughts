@@ -1,0 +1,97 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5121",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: article presents hazard hazard ratios with specific numeric values (e.g., \"1.09,\" \"1.17\"), establishing expectation for precise quantitative findings.\n\nAcademic/journalistic reporting style: formal citation of study, methodology, and results follows a consistent structure, with hazard ratios being the final data point being introduced.\n\nFinal token \"is\" opens a predicate completing \"the hazard of being struck is,\" requiring an immediate numeric hazard ratio value (likely a decimal number such as \"1.09\" or similar) to follow.",
+    "Character introduction narrative momentum: the text is recounting plot setup, and the romantic pairing between Kate and Daniel has been established, now detailing their relationship dynamic.\n\nPlot summary pattern: the synopsis follows a structured character description, moving from backstory to current situation, with Daniel's role and the film's emotional arc being elaborated.\n\nFinal token \"202 was 200 was 216 was 216\" (likely garbled \"202 was 200 was 216 was 216\") mid-sentence describing Kate's emotional state \"27 years later,\" immediately requiring continuation of the scene's romantic/dramatic context.",
+    "Q&A format with expert advice structure: practical advice section follows personal narrative, now shifting to a concrete example illustrating the marriage/parenting advice pattern.\n\nThe rhetorical question \"How do you know if your marriage is healthy?\" signals a list of practical tips is expected, with the first example (\"My friend\") mid-story, implying more real-life scenarios will follow.\n\nFinal token \"10\" is part of \"10\" completing \"10\" as part of \"10\" advice items or \"10 years\" \u2014 likely \"10 friends\" or \"10 years\" of marriage, or \"10\" continuing a list of personal examples; the next token completes this enumeration or transitions to the advice.",
+    "Narrative momentum: legal advice article building toward practical advice, now transitioning from anecdote to real-world implications and liability scenarios.\n\nQ&A format established: the article has posed a question and is now delivering expert analysis, with the anecdote serving as illustrative example; the moral/lesson about doctor responsibility is being drawn.\n\nFinal token \"2,000 people\" completes \"20 people, but 50 people, were affected, but 40 people, were advice-givers\" \u2014 \"20 people\" is the legal professional count, and \"50 people\" is the non-professional audience; the sentence is mid-clause, requiring completion of the liability scenario and advice-giving responsibility.",
+    "Legal case analysis format: question posed, scenario given, now providing factual answer with procedural reasoning and liability analysis.\n\nNarrative momentum of Q&A structure: the scenario established a legal scenario, and the answer is now walking through the specific incident and its consequences, with actionable advice expected next.\n\nFinal token \"10 people were 20 people who would have to attend the meeting was 1000 guests, so the lawyer was 8 people who would have to attend the meeting was 10 guests\" \u2014 this is a garbled repetition mid-sentence, but the legal reasoning about liability and the 20 guests' rights continues, requiring completion of the factual scenario before legal consequences are stated.",
+    "Statistical/legal analysis pattern: article presents survey data with percentages, establishing expectation for continued statistical interpretation of BLS findings.\n\nArgumentative momentum: the text is explaining methodology and findings, with the BLS data section mid-explanation, suggesting further elaboration on interpretation or implications of the 9% figure.\n\nFinal token \"69%\" ends a sentence fragment stating \"99% of the 69% of those who use the survey are 69% of the time they use the survey \u2014 69% of the time they use the survey is 96%\" \u2014 a statistical conclusion mid-sentence, likely followed by a period or continuation of the statistical reasoning."
+  ],
+  "input_sha256": "d0ef21a8f3d9b0cf7209e50b4115b6f111a1f0c92f988ff9170543064cb5ce08",
+  "values": [
+    {
+      "quote": "\"1.09,\"",
+      "value": "1.09"
+    },
+    {
+      "quote": "\"1.17\"",
+      "value": "1.17"
+    },
+    {
+      "quote": "202",
+      "value": "202"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "216",
+      "value": "216"
+    },
+    {
+      "quote": "27 years later",
+      "value": "27"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "2,000 people",
+      "value": "2000"
+    },
+    {
+      "quote": "20 people",
+      "value": "20"
+    },
+    {
+      "quote": "50 people",
+      "value": "50"
+    },
+    {
+      "quote": "40 people",
+      "value": "40"
+    },
+    {
+      "quote": "10 people",
+      "value": "10"
+    },
+    {
+      "quote": "1000 guests",
+      "value": "1000"
+    },
+    {
+      "quote": "8 people",
+      "value": "8"
+    },
+    {
+      "quote": "10 guests",
+      "value": "10"
+    },
+    {
+      "quote": "9%",
+      "value": "9"
+    },
+    {
+      "quote": "99%",
+      "value": "99"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "96%",
+      "value": "96"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within garbled text and percentages, as per the instructions to identify complete numeric values expressed in the descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"\\\"1.09,\\\"\",\"value\":1.09},{\"quote\":\"\\\"1.17\\\"\",\"value\":1.17},{\"quote\":\"202\",\"value\":202},{\"quote\":\"200\",\"value\":200},{\"quote\":\"216\",\"value\":216},{\"quote\":\"27 years later\",\"value\":27},{\"quote\":\"10\",\"value\":10},{\"quote\":\"2,000 people\",\"value\":2000},{\"quote\":\"20 people\",\"value\":20},{\"quote\":\"50 people\",\"value\":50},{\"quote\":\"40 people\",\"value\":40},{\"quote\":\"10 people\",\"value\":10},{\"quote\":\"1000 guests\",\"value\":1000},{\"quote\":\"8 people\",\"value\":8},{\"quote\":\"10 guests\",\"value\":10},{\"quote\":\"9%\",\"value\":9},{\"quote\":\"99%\",\"value\":99},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"96%\",\"value\":96}],\"justification\":\"Extracted all explicit numeric literals, including those within garbled text and percentages, as per the instructions to identify complete numeric values expressed in the descriptions.\"}",
+  "prompt_sha256": "7ecaadef691ec042641da7e2bb8c0c73b56a00c0d8bd59cdebf57770ac798509"
+}

@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5672",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 3\u00d78 \u2212 2\u00d75 = 4, so the answer must be \"4 eggs remaining.\"\n\nThe structured problem format (question \u2192 calculation \u2192 answer) demands a numeric result confirming eggs after removing 2\u00d75 from 3\u00d78.\n\nFinal token \"are\" is a linking verb completing \"There are,\" immediately requiring a numeric answer (likely \"4\") representing the remaining eggs after 3\u00d78 \u2212 2\u00d75 calculations.\n3\u00d78 \u2212 5\u00d72 = 4 eggs remaining, so the next token must be the integer \"4.\"\nThe final answer must be a number representing eggs left after 4 sessions \u00d7 3 \u2212 5\u00d72.\n8 \u2212 4\u00d71 = 4 eggs remaining from original 3\u00d78 \u2212 5\u00d72 sessions.\n3\u00d78 \u2212 2\u00d75 = 4.",
+    "Math word problem solution format: step-by-step arithmetic word problem requiring arithmetic completion.\n\nThe word problem requires computing 3 boxes \u00d7 8 chips = 24 total, then subtracting distributed 6, so the next tokens must state \"24\" as the initial total before continuing with remaining arithmetic.\n\nFinal token \"had\" is mid-sentence in the solution, immediately requiring the numerical result of 3 \u00d7 8 = 24, completing the setup before stating remaining chips after distributed 6.\nShe had 24 apples before giving them away.\n3 \u00d7 8 = 24 establishes the starting count, so the next tokens must state \"24 apples\" before describing subtraction of remaining distributed count.\n3 \u00d7 8 = 24 total chips before the problem continues with remaining after subtracting 6\u00d73.\n8 \u00d7 3 = 24, so the next token.",
+    "Word problem solution format: step-by-step algebraic reasoning requires completing the arithmetic setup before solving.\n\nThe arithmetic operation \"3 boxes \u00d7 8 apples = 24\" is being stated, establishing total apples before subtraction of distributed ones.\n\nFinal token \"2\" begins the numerical result of 3\u00d78, immediately requiring \"4\" to complete \"24\" (the total number of apples before stating remaining after giving away 6, so 24 \u2212 6 = 18 remaining).\n3 \u00d7 8 = 24 is the core equation, so the next tokens must state \"4 apples\" as the total before continuing with the remaining calculation.\n\nShe has 3 boxes \u00d7 8 apples = 24 total; after giving away 3\u00d73=9, the remaining count must be stated.\nShe has 24 apples before removing distributed ones.\n3 \u00d7 8.",
+    "Math word problem solution format: step-by-step algebraic reasoning requires showing arithmetic operations and variable setup.\n\nThe problem requires calculating remaining apples after giving away 3 boxes, so the equation setup (3\u00d78 = 24) must be followed by subtraction showing consumption.\n\nFinal token \"24\" is the total apples owned (3 boxes \u00d7 8), immediately requiring the next step: \"apples\" or continuation like \"apples. She then gives them X apples remaining\" to complete the arithmetic narrative.\nFinal token \"24\" is mid-sentence stating her total, immediately requiring \"apples\" and then the subtraction expression showing remaining after friends take them.\nShe has 24 apples before eating them, and after giving away 3\u00d72 boxes, she has 24 \u2212 3\u00d72 = remaining apples left after each friend removes one.\nShe has 24 apples total.",
+    "Math word problem solution format: step-by-step arithmetic word problem requiring arithmetic completion.\n\nThe arithmetic operation requires 5 people \u00d7 2 apples = 10 apples removed, so the equation \"2 \u00d7 5 = 10\" must be completed, then the remaining count calculated.\n\nFinal token \"p\" is the start of \"puppies\" (completing \"10\"), immediately requiring \"uppies\" to finish the sentence stating total consumption (5 \u00d7 2 = 10 apples removed from the 20).\nFinal token \"p\" is mid-word, part of \"10 are removed\" completing the arithmetic result of 5 guests \u00d7 2 apples each.\n\n20 - 5 \u00d7 2 = remaining count after subtraction.\n5 people \u00d7 2 = 10, confirming the solution shows 10 apples remaining after removal.\nThe last token \"p\" begins the.",
+    "Word problem pattern: alternating arithmetic problems with structured answers, each showing calculation steps.\n\nThe second problem follows the same format: setup \u2192 calculation \u2192 answer, so the next tokens must state the remaining eggs after eating 10.\n\nFinal token \"10\" is the numeric answer to the consumption calculation (5 people \u00d7 2), immediately requiring \". The answer is 10\" or a line break followed by the remaining eggs count: \"There were 26 eggs left.\"\nFinal token \"10\" is the numeric result of 5 \u00d7 -2, completing the consumption statement before stating the final answer.\nFinal token \"10\" ends the problem's question about eating 5 \u00d7 2, so the next token is likely \". The answer is 8 eggs remaining\" or similar concluding statement.\nFinal token \"10\" closes the consumption figure, immediately constraining the next line to state the."
+  ],
+  "input_sha256": "a11bc06ba5a4fd96c348a8664ef5d7bde1476d33d396241ba9a0b74d266bfbb7",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "4\u00d71",
+      "value": "4"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "6\u00d73",
+      "value": "18"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "3\u00d73",
+      "value": "9"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "3\u00d72",
+      "value": "6"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "-2",
+      "value": "-2"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"8\",\"value\":8},{\"quote\":\"2\",\"value\":2},{\"quote\":\"5\",\"value\":5},{\"quote\":\"4\",\"value\":4},{\"quote\":\"4\\u00D71\",\"value\":4},{\"quote\":\"1\",\"value\":1},{\"quote\":\"6\",\"value\":6},{\"quote\":\"24\",\"value\":24},{\"quote\":\"6\\u00D73\",\"value\":18},{\"quote\":\"18\",\"value\":18},{\"quote\":\"3\\u00D73\",\"value\":9},{\"quote\":\"9\",\"value\":9},{\"quote\":\"3\\u00D72\",\"value\":6},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"26\",\"value\":26},{\"quote\":\"-2\",\"value\":-2}],\"justification\":\"Extracted explicit numeric literals and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "24f7dbffd695b8a743f296744ca034c94e0a245427876d9899c68365e1d9ec6a"
+}

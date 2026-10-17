@@ -1,0 +1,157 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5404",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: total distributed across all four rounds = 5\u00d74\u00d7$2 + original 4\u00d7$5, requiring a specific numeric answer (5\u00d74\u00d72 + original 4\u00d75).\n\nThe pattern established shows cumulative totals: each round adds 4\u00d75\u00d72 times the original, so the final total must be 5\u00d74\u00d7$5\u00d74 + $5\u00d7$2\u00d7$4.\n\nFinal token \"Total of (\" opens a parenthetical answer requiring an integer representing the combined distributed weight across all four rounds, specifically \"5\u00d74\u00d72\u00d75 + 4\u00d75\u00d71\" = 220.",
+    "Math word problem solution in progress: calculating total energy consumption for each device across 4 hours, starting with first device's 4-hour power usage.\n\nThe pattern established requires computing 4 \u00d7 1 = 4 hours \u00d7 4 watts = 16 watts for device 1, then 4 \u00d7 2 = 8 hours \u00d7 4 watts for device 2, then summing both.\n\nFinal token \"had\" begins the calculation of device 1's energy consumption (4 hours \u00d7 1 = 4 watts), immediately requiring a specific numerical value like \"4 watts\" or \"16 watts\" to complete the sentence describing device 1's total energy used.",
+    "Math word problem solution format: step-by-step arithmetic calculation expected, showing power consumption for each appliance (16 units from first machine, 4 times 20 from second machine).\n\nThe solution is mid-calculation, having established variables: 4 hours \u00d7 4 watts = 16, then 2 appliances \u00d7 8 hours = 32, so the next tokens must continue listing these values and then sum them.\n\nFinal token \"16\" is the calculated power consumption for the first machine (4 hours \u00d7 4 = 16), immediately requiring the unit \"watts\" and then the second machine's calculation: \"and 2 \u00d7 4 \u00d7 5 = 40 watts.\"",
+    "Math word problem solution in progress: calculating total energy for each machine (5 \u00d7 4 = 20, now 5 \u00d7 4 times 4 = 80 for the second machine).\n\nThe pattern establishes arithmetic operations: first machine's energy (4 \u00d7 5 = 20) sets up the second machine's calculation as 5 times 4 times 5, requiring the next value to complete the multiplication.\n\nFinal token \"p\" begins the number \"80\" (5 \u00d7 4 \u00d7 4 = 80), continuing the arithmetic sequence showing the second machine's energy consumption (4 times 5 = 20 times 4 = 80).",
+    "Math word problem solution format: each problem states two quantities, then solves by adding/subtracting them (e.g., \"5 \u00d7 4 = 20 calories,\" \"8 \u00d7 5 = 40 calories\").\n\nThe second problem follows the same pattern: first quantity (50 calories) plus second quantity (four times 20 = 80 calories) must be calculated, completing the arithmetic sum of both rounds.\n\nFinal token \"80\" is the computed result of the second round's calories (4 \u00d7 20 = 80), immediately requiring the addition of the first round's 8 calories to complete the total: \"80 calories\" follows, then the combined answer \"50 + 80 = 130 calories.\"",
+    "Repetition/continuation pattern: each problem follows identical structure \u2014 state two quantities, calculate sum, state difference, then state combined total. The third problem has established its two values (30\u00b0C + 2 times 15\u00b0C = 60\u00b0C) and now requires the combined sum answer.\n\nImmediate semantic expectation: the pattern demands the combined heat calculation: \"80\u00b0C + 60\u00b0C = 140\u00b0C\" to complete the second problem's answer.\n\nFinal token \"80 calories.80 calories.\" ends the second item's heat value (140\u00b0C), immediately requiring the combined total calculation: \"The total heat of both is 200 calories.\""
+  ],
+  "input_sha256": "9011db58ebd42aba38d092befc170c9c4b2bc20ee1a0994672d00fd39f559ee8",
+  "values": [
+    {
+      "quote": "four rounds",
+      "value": "4"
+    },
+    {
+      "quote": "5\u00d74\u00d7$2",
+      "value": "40"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "original 4\u00d7$5",
+      "value": "20"
+    },
+    {
+      "quote": "5\u00d74\u00d72 + original 4\u00d75",
+      "value": "60"
+    },
+    {
+      "quote": "5\u00d74\u00d7$5\u00d74",
+      "value": "400"
+    },
+    {
+      "quote": "$5\u00d7$2\u00d7$4",
+      "value": "40"
+    },
+    {
+      "quote": "5\u00d74\u00d72\u00d75 + 4\u00d75\u00d71",
+      "value": "220"
+    },
+    {
+      "quote": "4 hours",
+      "value": "4"
+    },
+    {
+      "quote": "4 \u00d7 1 = 4",
+      "value": "4"
+    },
+    {
+      "quote": "4 watts",
+      "value": "4"
+    },
+    {
+      "quote": "16 watts",
+      "value": "16"
+    },
+    {
+      "quote": "4 \u00d7 2 = 8",
+      "value": "8"
+    },
+    {
+      "quote": "16 units",
+      "value": "16"
+    },
+    {
+      "quote": "4 times 20",
+      "value": "80"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "2 appliances",
+      "value": "2"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "2 \u00d7 4 \u00d7 5 = 40",
+      "value": "40"
+    },
+    {
+      "quote": "5 \u00d7 4 = 20",
+      "value": "20"
+    },
+    {
+      "quote": "5 \u00d7 4 times 4 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "5 times 4 times 5",
+      "value": "100"
+    },
+    {
+      "quote": "4 times 5 = 20 times 4 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "50 calories",
+      "value": "50"
+    },
+    {
+      "quote": "8 calories",
+      "value": "8"
+    },
+    {
+      "quote": "50 + 80 = 130",
+      "value": "130"
+    },
+    {
+      "quote": "30\u00b0C",
+      "value": "30"
+    },
+    {
+      "quote": "2 times 15\u00b0C = 60\u00b0C",
+      "value": "60"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "80\u00b0C + 60\u00b0C = 140\u00b0C",
+      "value": "140"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "The total heat of both is 200 calories.",
+      "value": "200"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"four rounds\",\"value\":4},{\"quote\":\"5\\u00D74\\u00D7$2\",\"value\":40},{\"quote\":\"5\",\"value\":5},{\"quote\":\"4\",\"value\":4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"original 4\\u00D7$5\",\"value\":20},{\"quote\":\"5\\u00D74\\u00D72 + original 4\\u00D75\",\"value\":60},{\"quote\":\"5\\u00D74\\u00D7$5\\u00D74\",\"value\":400},{\"quote\":\"$5\\u00D7$2\\u00D7$4\",\"value\":40},{\"quote\":\"5\\u00D74\\u00D72\\u00D75 + 4\\u00D75\\u00D71\",\"value\":220},{\"quote\":\"4 hours\",\"value\":4},{\"quote\":\"4 \\u00D7 1 = 4\",\"value\":4},{\"quote\":\"4 watts\",\"value\":4},{\"quote\":\"16 watts\",\"value\":16},{\"quote\":\"4 \\u00D7 2 = 8\",\"value\":8},{\"quote\":\"16 units\",\"value\":16},{\"quote\":\"4 times 20\",\"value\":80},{\"quote\":\"20\",\"value\":20},{\"quote\":\"2 appliances\",\"value\":2},{\"quote\":\"32\",\"value\":32},{\"quote\":\"2 \\u00D7 4 \\u00D7 5 = 40\",\"value\":40},{\"quote\":\"5 \\u00D7 4 = 20\",\"value\":20},{\"quote\":\"5 \\u00D7 4 times 4 = 80\",\"value\":80},{\"quote\":\"5 times 4 times 5\",\"value\":100},{\"quote\":\"4 times 5 = 20 times 4 = 80\",\"value\":80},{\"quote\":\"50 calories\",\"value\":50},{\"quote\":\"8 calories\",\"value\":8},{\"quote\":\"50 + 80 = 130\",\"value\":130},{\"quote\":\"30\\u00B0C\",\"value\":30},{\"quote\":\"2 times 15\\u00B0C = 60\\u00B0C\",\"value\":60},{\"quote\":\"15\",\"value\":15},{\"quote\":\"80\\u00B0C + 60\\u00B0C = 140\\u00B0C\",\"value\":140},{\"quote\":\"80\",\"value\":80},{\"quote\":\"The total heat of both is 200 calories.\",\"value\":200}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "61455cf7eb8690352a6d90dd783e42404582cac0086686571adf5d19121f40a2"
+}

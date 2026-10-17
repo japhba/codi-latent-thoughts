@@ -1,0 +1,69 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5141",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: country rankings with counts and percentages, e.g., \"1st in Canada (10.5%)\" establishes a repeating format requiring continuation.\n\nNumerical ranking context: the text is mid-sentence listing top-ranked countries by rank, with \"1st in Canada\" already given, implying more ranked entries follow.\n\nFinal token \"1st in Canada (10.5%)\" is part of an ongoing ranked list; the next tokens must continue with another country name and its numeric ranking position.\n\"1st in Canada (10.5%)\" is an incomplete enumeration, immediately requiring another country name and its corresponding numeric ranking.\n\"1 is\" or similar numeric continuation is expected next.\n\"1 is\" is a truncated numeric value mid-sentence, requiring immediate completion of the country name or ranking figure.\n\"3 is\" is the country name \"Canada,\" and the.",
+    "Review structure momentum: the text is mid-sentence in a list of character observations, with \"300\" likely being \"3000\" or a rating number, continuing the pattern of evaluating each character's performance.\n\nFilm review genre conventions: the review systematically covers acting, direction, and character assessments, suggesting more evaluative commentary on remaining cast members or overall rating follows.\n\nFinal token \"300,\" is a truncated number mid-sentence (\"300,000\" or \"300, 3\"), part of a character rating or count, immediately requiring numeric continuation or punctuation completing the list.\n\"300, 3\" suggests a rating or list item, with \"300\" characters or visual descriptors expected next.\n\"300, 3\" educational rating \"650\" or similar numeric continuation \"1690\" \u2014 food.",
+    "Review structure momentum: the text is mid-sentence in a product review, systematically covering features (design, comfort, materials), with a concluding evaluative statement expected next.\n\nList/enumeration pattern: the review has been building toward a summary recommendation or rating, consistent with the \"Overall\" section header signaling a wrap-up.\n\nFinal token \"10\" is part of an incomplete sentence (\"100% cotton\" or similar percentage), likely continuing a product specification or rating claim, requiring a number or descriptor immediately following.\n\"100% cotton\" or \"10 best\" ranking reference is expected next.\n\"100% cotton\" educational resource list or similar ranking phrase.\n\"20.5\" rating or similar numeric descriptor is imminent.\n\"600 best\" visual quality rating \"150 best\" product list \u2014 \"20.5\" is technical image quality descriptor.",
+    "Structured product review format with repeated section headers (e.g., \"The Design and Experience,\" \"The Specifications\") signals another feature description or concluding summary is expected next.\n\nThe review consistently lists product attributes in a formulaic pattern: claim followed by supporting detail, suggesting continuation of specification or recommendation content.\n\nFinal token \"adequate\" ends an incomplete comparative clause (\"adequate for...\"), requiring a noun phrase specifying what the size is adequate for, likely \"most users\" or similar qualifier.\n\"adequate\" is mid-sentence, part of a comparative recommendation statement about the size suitability.\n\"adequate\" is a dangling adjective/adverb demanding immediate completion of the numeric specification or qualifying phrase.\n\"most adequate\" or price/weight data follows.\n\"adequate\" is a list item in a product spec table or recommendation section, suggesting continuation of comparative product data or a rating qualifier.\n\"most 60.",
+    "Structured list pattern: article systematically covers price, performance, and comparison data, now mid-sentence in a data comparison section.\n\nNumerical continuation: the sentence lists specific numeric comparisons (\"10% more than the last year,\" \"10% more than the previous quarter\"), establishing a pattern of percentage-based price comparisons that expects further similar entries.\n\nFinal token \"adequate\" ends an incomplete comparative clause (\"more adequate\"), likely part of a product recommendation or specification phrase, immediately expecting a noun or qualifier completing the comparison (e.g., \"adequate for...\").\n\"adequate\" is a dangling adjective mid-sentence, requiring a noun phrase or table reference to follow.\n\"most adequate\" suggests a price specification table or ranked product list is imminent.\n\"adequate\" is a truncated comparative adjective, part of a data table or specification list, expecting price figures or product categories next.\n\"adequate\".",
+    "Statistical list pattern: article consistently presents paired data points (e.g., \"12.5% of all US players\"), suggesting another numeric value follows.\n\nStructured comparison format: the text alternates between US and international figures, so a price or percentage for another country/region is expected next.\n\nFinal token \"enough\" ends an incomplete comparative clause (\"more than enough\"), requiring a specific numeric threshold or currency amount (e.g., \"to buy a roundtrip flight\") to complete the financial comparison.\n\"enough\" is a quantifier mid-sentence, demanding an immediate numeric value or qualifying phrase.\n\"enough\" closes a price-comparison sentence, with tabular data or a new data point likely following.\n\"enough\" is the final token, part of an incomplete financial metric phrase, immediately constraining the next token to a numeric figure or unit.\n\"enough $X\"."
+  ],
+  "input_sha256": "10129c2414120f8e4ac228c9ba5270d0da5f9011cdd6d67a219c3f255e44081b",
+  "values": [
+    {
+      "quote": "10.5%",
+      "value": "10.5"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "650",
+      "value": "650"
+    },
+    {
+      "quote": "1690",
+      "value": "1690"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20.5",
+      "value": "20.5"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "12.5%",
+      "value": "12.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeric value per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5%\",\"value\":10.5},{\"quote\":\"300\",\"value\":300},{\"quote\":\"3\",\"value\":3},{\"quote\":\"650\",\"value\":650},{\"quote\":\"1690\",\"value\":1690},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20.5\",\"value\":20.5},{\"quote\":\"600\",\"value\":600},{\"quote\":\"150\",\"value\":150},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"12.5%\",\"value\":12.5}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, treating percentages as their numeric value per instructions.\"}",
+  "prompt_sha256": "36b29f91dff25bc2f2cbf73872e576a2867ade18789f856964c07b60512ed8d8"
+}

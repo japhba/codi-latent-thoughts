@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5135",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical financial data pattern: article lists specific dollar figures and percentages, establishing a rhythm of precise financial metrics with dollar amounts.\n\nContinuation of a structured list: the sentence enumerates financial data points (total revenue, average daily revenue) suggesting more financial figures or comparisons follow.\n\nFinal token \"is estimated to be and is\" is mid-sentence, part of a parallel construction (\"estimated to be and is\"), immediately requiring a specific dollar figure or monetary value to complete the financial statistic.\n\"and is\" strongly anticipates a price or value phrase like \"expected to reach $X\" or a specific dollar amount.\n\"and is\" is a conjunction mid-clause, demanding a predicate complement \u2014 likely a dollar figure or comparative financial descriptor continuing the revenue/attendance context.\n\"and is estimated to be\" is an incomplete predicate requiring a specific monetary value or descriptor immediately next.",
+    "Structured product listing format with consistent fields (title, description, cast, crew) signals continuation of biographical/production details.\n\nThe text is mid-sentence in a product description listing cast members, following a pattern of naming actors with their roles \u2014 \"David Thewlis as the lead role of the character.\"\n\nFinal token \"is\" begins a relative clause describing the film's production details; \"15 is\" likely continues with a number or descriptor (e.g., \"15 is a...\" or a product code), but most immediately expects a continuation of the cast/crew enumeration or a new sentence about the film's attributes.\n\"13 is 15 is\" suggests a truncated or garbled phrase, likely continuing with a product detail or year reference.\n\"13 is\" ends mid-sentence, immediately requiring a noun phrase or descriptor completing the product description.\n\"1 is.\"",
+    "Structured e-commerce product listing pattern: each category header is followed by a list of filterable attributes (e.g., \"Part #, Name, Color, Size\").\n\nThe page is mid-list, having shown \"Part #, Name, Color, Size\" as a filter menu, now transitioning to a new section header \"Women's Tote Luxury Leather Handbag.\"\n\nFinal token \"Available\" closes a repeated phrase \"filter by category, filter by product, filter by availability\" \u2014 the next tokens will likely continue with a product listing or subcategory navigation element.\n\"Available\" ends a navigation/filter menu line, suggesting the next tokens begin a new section header or product grid.\n\"Most popular\" or similar category label is the immediate expected continuation of the truncated \"Available\" sentence.\n\"Available\" is the final token, likely completing a truncated phrase such as \"Available\" or starting a new line.",
+    "Structured table/list pattern: the text is a structured table of part numbers, prices, and descriptions, with pipe-delimited rows following consistent format.\n\nStructured table continuation: the \"Part Numbers\" row has been opened with a header row and a partial row, strongly implying more pipe-delimited rows with dates, prices, and descriptions will follow.\n\nFinal token \"||\" closes a cell in the \"Part Numbers\" row, immediately expecting another pipe-delimited cell value (likely a date, price, or category label) to continue the row.\n\"||\" is a table cell delimiter mid-row, requiring a closing cell value and likely a closing pipe \"|\" to complete the row.\n\"|\" is the final token, part of the closing pipe of the current row, immediately constraining what follows to either a newline and new row or additional row content.\n\"|\" ends the current row, so next tokens likely.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and amount columns repeating consistently throughout.\n\nStructured list continuation: the \"Last 10\" section has begun with a header row and one full row; more rows are expected following the same format.\n\nFinal token \"$0.00|\" closes a table cell in the \"Last 10\" row, immediately requiring the next pipe-delimited cell to be a new date value (e.g., \"||09/2019|\"), continuing the established column pattern.\n\"||\" is the next expected token, opening a new cell in the row.\n\"||\" is the final token, part of the pipe-delimited structure, immediately requiring a dollar amount or date value to fill the next column.\n\"||$0.00|\" closes the second cell; the next token must begin a new row with \"||\".",
+    "Structured table pattern: pipe-delimited rows with date, time, and amount fields repeating consistently throughout.\n\nFinancial data table continuation: the sequence lists pipe-delimited rows with dates, times, and dollar amounts; the next token must continue this pattern with a new row.\n\nFinal token \"$0.00|\" closes a cell in the last visible row, immediately requiring a closing pipe \"|\" to complete the row, then likely another pipe-delimited row with a new date.\n\"||\" is the final token, part of a cell delimiter in the last row, requiring \"|\" to close the cell and row.\n\"||\" suggests a second cell or new row follows, constrained to be a numeric value or currency symbol.\n\"||\" is mid-row, acting as a separator, so the next token must be \"|\" to close the cell.\n\"|\" closes the final cell of the last row, making a new."
+  ],
+  "input_sha256": "1224d8134e7de52bd5a56f84359827b4232caef282ef8f051a181c4208e1bd85",
+  "values": [
+    {
+      "quote": "15 is",
+      "value": "15"
+    },
+    {
+      "quote": "13 is",
+      "value": "13"
+    },
+    {
+      "quote": "1 is.",
+      "value": "1"
+    },
+    {
+      "quote": "$0.00|",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found within the provided descriptions, including those appearing in truncated phrases or table cell fragments.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15 is\",\"value\":15},{\"quote\":\"13 is\",\"value\":13},{\"quote\":\"1 is.\",\"value\":1},{\"quote\":\"$0.00|\",\"value\":0}],\"justification\":\"Extracted explicit numeric literals found within the provided descriptions, including those appearing in truncated phrases or table cell fragments.\"}",
+  "prompt_sha256": "dbff1f98122e90d9ad422bca328bbf40e19b0943f3b5f0bb383ba953b03787da"
+}

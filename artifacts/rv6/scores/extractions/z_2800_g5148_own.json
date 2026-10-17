@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5148",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article consistently presents paired statistics (total + percentage), so a specific dollar figure or percentage is expected next.\n\nComparative ranking structure: the paragraph contrasts U.S. vs. Canada, with Canada's ranking and total already given; the numeric continuation of Canada's dollar figure is expected.\n\nFinal token \"is $1.5 billion\" is mid-sentence, completing a numeric value for Canada's total dollar volume; the next token must be a number or continuation of the dollar figure (e.g., \"1.5 billion\" or a larger figure like \"2.3 billion\").\n\"1 is $1 is $1 is\" suggests a formatting artifact; the immediate next token continues the numeric data series.\n\"and is is $1 is\" suggests garbled formatting; the sentence requires a numeric dollar amount to complete the statistic.\n\"and is $1 is\" mirrors the pattern,.",
+    "Structured list pattern: numbered/bulleted product entries follow a consistent format \u2014 title, description, bullet features \u2014 suggesting another product entry or continuation of the current one.\n\nReview/listicle genre conventions: the text is a ranked product roundup with editorial commentary, implying the next tokens continue describing the current book's features or transition to a new ranked entry.\n\nFinal token \"150 pages\" is mid-sentence within a bullet point describing the book's physical format; the sentence is incomplete and immediately requires continuation of the page count or additional publication details.\n\"150 pages\" likely precedes more metadata or a new bullet point.\n\"15 is 150 is\" suggests a formatting artifact; the model expects continuation of the rating/feature list for this film.\n\"155 is 500 is\" is garbled, but institutional database-style credits follow; \"171 is.",
+    "Structured e-commerce navigation pattern: each category lists subcategories with consistent formatting (\"Bestselling [Category] for [Type]\"), establishing strong continuation expectations.\n\nThe page is mid-list, having covered \"Bestselling Men's T-Shirts\" and \"Bestselling Women's T-Shirts\" \u2014 a third category or closing navigation element is expected next.\n\nFinal token \"most\" ends an incomplete phrase \"Bestselling Men's T-Shirts for most,\" likely part of a filter/search UI element, with immediate continuation expected such as \"most popular\" or a category label completing the navigation menu.\n\"Best\" is a truncated word (\"most\"), part of a product filter label, requiring completion of that word and likely a product category name.\n\"Best\" is mid-word, part of a navigation/filter UI element, so product category names or filter options follow.\n\"most\" price or part of \"most popular\" \u2014.",
+    "Structured parts listing pattern: each entry follows \"Part Name \u2192 description \u2192 fitment years\" format, repeating consistently throughout.\n\nStructured e-commerce parts catalog with alternating product listings and Q&A sections, suggesting continuation of the parts table or additional product entries.\n\nFinal token \"More\" closes a truncated table cell (\"1996-2006\"), part of a pipe-delimited parts table row; next tokens likely continue with more part entries or a new section header.\n\"More\" is a truncated \"More Parts\" link/button label, suggesting the table or listing continues with additional part entries.\n\"More\" is a UI truncation marker, implying the next tokens complete the table row or begin a new product row.\n\"More\" closes a price table cell, immediately constraining next tokens to either a price, part number, or new table row.\n\"Part Price\" is the final token, completing a.",
+    "Structured table/list pattern: part numbers, descriptions, and pipe-delimited fields repeat consistently throughout the product listing.\n\nPart number table continuation: the sequence alternates between product entries and pipe-delimited table rows; the pattern of \"|Part #||Description|\" rows is actively ongoing.\n\nFinal token \"More\" closes a truncated table cell (\"More\") within a pipe-delimited row, immediately expecting either a closing pipe \"|\" or additional product entries continuing the established \"|Part #||Description|\" format.\n\"More\" is a truncated \"More\" link/button label, suggesting the next token is \"|\" to close the cell, then likely another \"|Part #|\" row.\n\"More\" is mid-cell in a table row, requiring \"|\" to close it, then a price or additional cell.\n\"More\" is the final token, part of an incomplete table cell, immediately requiring \"|\" to close the cell.\n\"More\" is a.",
+    "Structured table/list pattern: pipe-delimited rows with date ranges and pipe-delimited fields are repeating consistently throughout.\n\nThe table has established a pattern of product entries with pipe-delimited fields; the current row for \"1999-02-01\" has only shown two fields so far, implying more pipe-delimited entries follow.\n\nFinal token \"1999-02-01\" is a product name cell in a pipe-delimited table row, immediately requiring a closing pipe \"|\" followed by another price or additional field value.\n\"1999-02-01\" is the product name, and the next token must be \"|\" to close the cell and continue the table row pattern.\n\"||\" or a numeric price is expected next.\n\"||\" is the table cell delimiter, so the next token must be a currency amount or pipe character continuing the row."
+  ],
+  "input_sha256": "1847dca9883537a6a7123ebf88cfb806bc031d5f8c993dea668c0e14a5ac24aa",
+  "values": [
+    {
+      "quote": "$1.5 billion",
+      "value": "1500000000"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "150 pages",
+      "value": "150"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "171",
+      "value": "171"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, including those within formatting artifacts and product metadata.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1.5 billion\",\"value\":1500000000},{\"quote\":\"1\",\"value\":1},{\"quote\":\"150 pages\",\"value\":150},{\"quote\":\"15\",\"value\":15},{\"quote\":\"155\",\"value\":155},{\"quote\":\"500\",\"value\":500},{\"quote\":\"171\",\"value\":171}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, including those within formatting artifacts and product metadata.\"}",
+  "prompt_sha256": "05f80d0aecfc1333f6da4e59b4bc5f4d701a800e4f134d2b53768f97beb242b4"
+}

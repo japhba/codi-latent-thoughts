@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5146",
+  "kind": "own",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting poll statistics sequentially with percentages and demographic breakdowns.\n\nThe narrative momentum establishes a pattern of presenting poll results with specific numbers \u2014 \"37 percent,\" \"33 percent,\" \"36 percent\" \u2014 each followed by explanatory context about what respondents said.\n\nThe final token \"37\" is a percentage figure mid-sentence, directly continuing the clause \"37 percent of respondents said that they would like to see the game end in the first quarter\" \u2014 the sentence is grammatically incomplete, requiring a closing phrase or period to finish the statistic.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically detailing the mother's situation after her husband's death, requiring continuation of that story beat.\n\nRepetition/continuation pattern: the review has been summarizing plot points sequentially (\"The story begins...\"), suggesting the next clause continues describing what happens to the mother or the film's subsequent events.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, immediately requiring a verb complement or adjective describing the mother's state or situation (e.g., \"left alone,\" \"forced to...\").\n</explanation>",
+    "Narrative momentum: the text is mid-sentence recounting a specific plot event (Linda's fire), building toward the pivotal moment where Linda's plan is discovered and the couple's relationship is tested.\n\nRepetition/continuation pattern: the text repeatedly cycles through the same plot points (Linda's plan, the fire, the couple's conflict), suggesting the next tokens will continue this familiar storyline.\n\nFinal token \"0.5\" is a truncated decimal number (likely \"0.5\" completing a fraction like \"0.5\" or continuing a calculation), immediately requiring numeric continuation or a unit/descriptor completing the measurement of the fire's size.\n</explanation>",
+    "The article is answering its own rhetorical question about the 2017 study, now providing the direct answer with specific statistics. The pattern established is: question posed, then answered with precise data.\n\nThe sentence structure \"The study found that the average age of the 1,000 people surveyed was 74.5 years, or 20 years younger than the average age of the 1,000 people surveyed\" is mid-sentence, requiring completion \u2014 likely a period or continuation explaining the significance of this finding.\n\nThe final token \"20\" is part of an incomplete clause (\"20 years younger than the average age of the 1,000 people surveyed\"), which needs grammatical closure, likely a period or a conjunction introducing further elaboration on the study's implications.\n</explanation>",
+    "The text is a biblical commentary/sermon format, alternating between scripture quotes and verse-by-verse analysis, establishing a pattern of quote \u2192 explanation \u2192 application.\n\nThe passage is mid-exposition of 1 Corinthians 13:13, having just quoted the verse and begun the verse-by-verse breakdown; the next tokens must continue explaining the verse's meaning, likely addressing \"the gift of prophecy\" or the \"perfect love\" clause.\n\nThe final token \"13\" closes the verse citation, immediately constraining what follows to be the verse's explanatory commentary, likely starting with \"The gift of prophecy\" or similar interpretive phrase.\n</explanation>",
+    "The article follows a structured news report format, presenting a legal case with background, quotes, and chronological case details \u2014 the narrative is building toward the court's ruling/findings.\n\nThe sentence ending mid-thought (\"the judge found that the couple's actions were not enough to justify the divorce\") signals the court's reasoning is incomplete \u2014 the next tokens will elaborate on what the judge concluded or what the couple must do next.\n\nFinal token: \"divorce\" closes a subordinate clause explaining the judge's finding; the sentence is syntactically complete but the article's argumentative momentum expects continuation with consequences, next steps, or a closing quote from the judge.\n</explanation>"
+  ],
+  "input_sha256": "a604effa5fcdc9f45b014e578d287ba98ec1dbfd32b15980142b7fa7be7d61e8",
+  "values": [
+    {
+      "quote": "37 percent",
+      "value": "37"
+    },
+    {
+      "quote": "33 percent",
+      "value": "33"
+    },
+    {
+      "quote": "36 percent",
+      "value": "36"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "2017",
+      "value": "2017"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "74.5",
+      "value": "74.5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including percentages, decimals, and large numbers with commas, while excluding dates and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"37 percent\",\"value\":37},{\"quote\":\"33 percent\",\"value\":33},{\"quote\":\"36 percent\",\"value\":36},{\"quote\":\"37\",\"value\":37},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"2017\",\"value\":2017},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"74.5\",\"value\":74.5},{\"quote\":\"20\",\"value\":20},{\"quote\":\"1\",\"value\":1},{\"quote\":\"13\",\"value\":13}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including percentages, decimals, and large numbers with commas, while excluding dates and ordinals as per instructions.\"}",
+  "prompt_sha256": "3c7a60991e43ac7889c2cc4c02062970721f6e50c6e7a329cd5e66e5a714e6af"
+}

@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5544",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem solution requiring arithmetic completion: 95+35=130, so the answer must be 130 divided by $10 per day.\n\nThe narrative momentum follows a structured problem-solving format: setup \u2192 calculation \u2192 answer, with the final sentence delivering the numerical result.\n\nThe final token \"is\" closes a sentence fragment requiring the specific integer answer (95+35) representing total savings, likely \"95+37\" or \"130\" total eggs purchased, completing the arithmetic conclusion.\n(95+37) / 10 = 13 days total, so the next token must be the integer \"9\" representing the number of eggs saved.\n(95+37) / 5 + 35 = 13 days, confirming the answer is 95+37=72 eggs needed.",
+    "Math word problem solution in progress: the answer requires total points earned, so the next tokens must state the arithmetic result (95 + $95 = $190).\n\nThe structured problem format (question \u2192 solution \u2192 calculation) demands the solution continues with the total amount earned before finding how many games were played.\n\nFinal token \"had earned\" is mid-sentence, requiring a dollar amount completing the savings calculation \u2014 specifically \"$95 + $35 = $130\" or \"a total of $95\" to complete the logical chain explaining the total points earned.\n$95 - $35 = $65 earned, so the next tokens must state this total before dividing by the game cost to find the number of games.\n$95 + $35 = $130 total savings after spending $95, so the next tokens must state \"a total of.",
+    "Math word problem solution in progress: total amount must equal $75 + $55 = $135, completing the arithmetic.\n\nThe structured solution format requires explaining the total collected amount before finding the number of tickets purchased.\n\nThe final token \"13\" is the beginning of the total amount ($55 + $75 spent), immediately requiring \"5\" to complete \"$135\" \u2014 the next tokens must finish this number, then explain that it represents the original ticket price plus the $55 profit.\n$135 total spent by the person, so the next tokens must state this total before solving for the number of tickets purchased.\n$55 + $8 = $63 original goal, confirming the solution will yield 65 total points earned.\n$135 = $55 + $85 = $143 total spent by the person, so.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, expecting equation setup and solving.\n\nThe problem requires finding total amount spent, so the equation must sum to $130 total, with $50 already established as the initial total spent plus $75 received.\n\nFinal token \"$130\" is the total amount in the equation setup, immediately requiring continuation such as \"in total\" or \"and spent $X\" to complete the logical statement about total money earned before solving for number of days.\n$130\" ends the sentence fragment stating total savings, so next tokens must complete the equation setup, likely \"divided by $5 daily\" or \"total\" to find how many days he had.\n$130 total earned after spending $50 + $7 = $127, so the next step is solving for number of days he had.",
+    "Math word problem solution in progress: algebraic equation solving for total number of tickets, following step-by-step arithmetic reasoning.\n\nThe solution is building toward the equation: total spent = $135, so the next step is completing the arithmetic expression \"135 + $10 = total.\"\n\nFinal token \"p\" is the start of \"p\" beginning \"p\" \u2014 likely starting \"p / $13\" or \"p = $135 / $10\" to find the original number of weeks, completing the equation setup.\n120 + total = $135, so total = $130 spent, so number of weeks = $125 / $35 = 35 days, confirming the answer.\n\nFinal token \"p\" begins the division expression \"120 + $35 = total spent before finding the number of weeks.\"",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, now reaching the final answer step.\n\nThe problem established total 72, then solved for x = total spent, so the solution must state x = 72 \u00f7 $12 = 6 days.\n\nFinal token \"days.\" ends the equation \"72 + x = total spent.\" \u2014 immediately expects the solution statement, likely \"Therefore, the number of days he spent is 6\" or \"6 / $12 = 6.\"\nFinal token \"169 stones.\" closes the equation setup, requiring the division result and conclusion: \"6 stones / total = number of days he purchased.\"\n72 + $13 = $85 total spent, so the next tokens must state the division: 85 / $12 = 7 days, confirming the answer.\n13 + 7 =."
+  ],
+  "input_sha256": "e83782d7db397dfc740196a863315fe47c99d412c6a5f089dcd6216af905c6b0",
+  "values": [
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "190",
+      "value": "190"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "63",
+      "value": "63"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "143",
+      "value": "143"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "127",
+      "value": "127"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "169",
+      "value": "169"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"95\",\"value\":95},{\"quote\":\"35\",\"value\":35},{\"quote\":\"130\",\"value\":130},{\"quote\":\"10\",\"value\":10},{\"quote\":\"37\",\"value\":37},{\"quote\":\"13\",\"value\":13},{\"quote\":\"9\",\"value\":9},{\"quote\":\"5\",\"value\":5},{\"quote\":\"72\",\"value\":72},{\"quote\":\"190\",\"value\":190},{\"quote\":\"65\",\"value\":65},{\"quote\":\"75\",\"value\":75},{\"quote\":\"55\",\"value\":55},{\"quote\":\"135\",\"value\":135},{\"quote\":\"8\",\"value\":8},{\"quote\":\"63\",\"value\":63},{\"quote\":\"85\",\"value\":85},{\"quote\":\"143\",\"value\":143},{\"quote\":\"50\",\"value\":50},{\"quote\":\"7\",\"value\":127},{\"quote\":\"127\",\"value\":127},{\"quote\":\"120\",\"value\":120},{\"quote\":\"125\",\"value\":125},{\"quote\":\"6\",\"value\":6},{\"quote\":\"169\",\"value\":169},{\"quote\":\"12\",\"value\":12}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "dceeb562dddbf7b0eab0f886e0886883254d5ed63562332e9636c6d7f2631bb8"
+}

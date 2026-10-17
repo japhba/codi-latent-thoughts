@@ -1,0 +1,117 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5051",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: country-by-country data is being enumerated with specific numeric values, establishing a template of country name followed by numeric figure.\n\nContinuation of country list: after \"United States\" and \"United Kingdom,\" more country entries are expected, following the established format of country name then numeric data.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numeric value or descriptor completing the numeric rate for the UK, likely a decimal figure like \"2.5\" or similar.\n\"2 is\" is incomplete \u2014 the sentence requires a numeric value or descriptor to complete the hazard rating for the UK.\n\"2 is\" ends mid-predicate, strongly constraining the next token to be a number or decimal continuing the numeric data point.\n\"2 is\" likely precedes a specific numeric value or country name, completing the sentence about the UK's numeric rating.",
+    "Character description pattern: film synopsis lists characters with actor names, roles, and brief descriptions, establishing a consistent format.\n\nContinuation of the film's factual/encyclopedic register, detailing production history and cast details systematically.\n\nFinal token \"10,\" is mid-sentence within a numerical list of historical facts about the film's production; the number \"10\" begins a specific count of characters or a numerical descriptor, immediately requiring continuation of that number or a descriptive phrase completing the historical detail.\n\"10,\" likely continues as \"10, 16 was...\" or similar numerical sequence describing the political factions or scene elements.\n\"12 was 16,\" is mid-enumeration, likely completing a specific scene or character count with \"13\" or a larger number, then continuing the political faction description.\n\"10,\" is a truncated number mid-clause, immediately requiring.",
+    "Plot summary continuation pattern: structured book synopsis with sequential character introductions, each with name, age, and romantic situation.\n\nList/enumeration momentum: the recipe list and ingredient list establish a pattern of detailed, specific ingredient/quantity descriptions, suggesting more ingredients or narrative steps follow.\n\nFinal token \"7\" is mid-sentence, part of a numeric continuation (\"7\" likely completing \"7\" into \"7\" or starting a new number like \"70\" or \"7\" completing \"7\" \u2014 most probably continuing the interrupted number \"7\" into \"70\" or describing the man's reaction to the new life.\n\"7\" is mid-word/mid-number, part of \"7\" completing \"76\" or \"7\" beginning a new clause about the woman's escalating involvement, requiring immediate numeric continuation.\n\"7\" 6\" 7\" \u2014 the truncated \".\"",
+    "Listicle format established: article presents numbered \"fun facts\" about a celebrity, with each section elaborating a specific claim with supporting detail.\n\nThe narrative momentum follows a pattern of introducing a topic, then providing a specific personal anecdote or quote, suggesting continuation of the current incomplete sentence.\n\nFinal token \"40\" is mid-sentence, completing \"40\" as part of a truncated number (likely \"40\" completing \"100\" or starting a new clause), immediately requiring either more digits or continuation of the disclosure statement.\n\"40\" is likely \"100\" or a specific age/number completing the editorial disclaimer about the book's content.\n\"100\" or \"50\" is the most probable next token, completing the truncated \"40\" into a number or continuing the warning about the book's content.\n\"20\" follows \"60.\"",
+    "Academic news article reporting statistical findings, following a structured pattern of presenting data then citing methodology and source.\n\nThe report lists specific study details (100,000 users, 2016\u20132017) and is now enumerating regulatory/analytical criteria, suggesting additional findings or methodology details will follow.\n\nFinal token \"2,000,000\" is a specific numerical citation mid-sentence, part of a list of media coverage statistics; the next tokens will likely continue with additional regulatory or safety criteria, possibly \"2,000,002\" or a related compliance metric completing the sentence.\n\"202,500 people\" or similar public safety rating language is expected next, completing the standard media coverage formula.\n\"2,005,200 views\" concludes the public view count, and the sentence.",
+    "Structured list pattern: each section follows \"term \u2192 definition \u2192 rule \u2192 example\" format, suggesting continuation of this template.\n\nDocument is a formal reference guide listing Bible translation rules, with each section covering a specific translation method; the next section likely introduces another named rule or subsection.\n\nFinal token \"275.\" ends a section header \"The King James Bible,\" which has just begun its descriptive paragraph \u2014 the next tokens must continue with the rule's content, likely describing the 750-page format or page count.\n\"275.\" is a page number mid-sentence, immediately requiring continuation of the bibliographic/structural description of the 7.3 rule.\n\"275\" is the final token, part of a numeric reference or section number, immediately constraining what follows to be a descriptive clause completing the \"2003\" or procedural instruction.\n\"37.\""
+  ],
+  "input_sha256": "614ba861edf15e8b2d1a5875c99b45165c3a56f34d38985ede909543ffa0edb3",
+  "values": [
+    {
+      "quote": "2.5",
+      "value": "2.5"
+    },
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "10,",
+      "value": "10"
+    },
+    {
+      "quote": "16 was",
+      "value": "16"
+    },
+    {
+      "quote": "12 was 16,",
+      "value": "12"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "76",
+      "value": "76"
+    },
+    {
+      "quote": "6\"",
+      "value": "6"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "60.",
+      "value": "60"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "2,000,000",
+      "value": "2000000"
+    },
+    {
+      "quote": "2,000,002",
+      "value": "2000002"
+    },
+    {
+      "quote": "202,500",
+      "value": "202500"
+    },
+    {
+      "quote": "2,005,200",
+      "value": "2005200"
+    },
+    {
+      "quote": "275.",
+      "value": "275"
+    },
+    {
+      "quote": "750-page",
+      "value": "750"
+    },
+    {
+      "quote": "7.3",
+      "value": "7.3"
+    },
+    {
+      "quote": "37.",
+      "value": "37"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and arithmetic results from the provided descriptions, including decimals and large numbers with commas, while excluding dates and years as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2.5\",\"value\":2.5},{\"quote\":\"2 is\",\"value\":2},{\"quote\":\"10,\",\"value\":10},{\"quote\":\"16 was\",\"value\":16},{\"quote\":\"12 was 16,\",\"value\":12},{\"quote\":\"13\",\"value\":13},{\"quote\":\"7\",\"value\":7},{\"quote\":\"70\",\"value\":70},{\"quote\":\"76\",\"value\":76},{\"quote\":\"6\\\"\",\"value\":6},{\"quote\":\"40\",\"value\":40},{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"20\",\"value\":20},{\"quote\":\"60.\",\"value\":60},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"2,000,000\",\"value\":2000000},{\"quote\":\"2,000,002\",\"value\":2000002},{\"quote\":\"202,500\",\"value\":202500},{\"quote\":\"2,005,200\",\"value\":2005200},{\"quote\":\"275.\",\"value\":275},{\"quote\":\"750-page\",\"value\":750},{\"quote\":\"7.3\",\"value\":7.3},{\"quote\":\"37.\",\"value\":37}],\"justification\":\"Extracted all explicit numeric literals and arithmetic results from the provided descriptions, including decimals and large numbers with commas, while excluding dates and years as per instructions.\"}",
+  "prompt_sha256": "f15499978105305c9debbefe7b0bf2528b32bed2e0d064fe629c84a5f6cc5190"
+}

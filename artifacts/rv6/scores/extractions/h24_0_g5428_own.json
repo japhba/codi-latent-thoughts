@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5428",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 100 \u00f7 3 \u2248 33.33, so the answer must be a specific number (likely \"33\" or \"34\") representing the minimum number of questions needed.\n\nMultiple-choice answer selection expected: after computing the answer, the model must identify the closest option (A, B, C, D) matching the calculated value.\n\nFinal token \"be\" opens a predicate completing the sentence \"The minimum number of questions that should be answered is ___,\" requiring an immediate numerical answer followed by identification of the correct answer choice.\n</explanation>",
+    "Mathematical calculation in progress: 285 \u00f7 3 = 95, so the model must complete this arithmetic result.\n\nStep-by-step instructional format: each step builds on the previous, with the final step requiring a concrete numerical answer to complete the division.\n\nThe last token \"add\" is mid-sentence in a worked example, immediately requiring the calculated result \"95\" (285 \u00f7 3 \u2248 95) to complete the arithmetic demonstration.\n</explanation>",
+    "Mathematical calculation in progress: 150 + 150 + 150 = 450, but the question asks for \"number of ways,\" so the next tokens must complete the arithmetic (likely \"450 ways\" or \"ways\").\n\nMultiple-choice answer selection expected: after computing total ways, the model must identify the correct answer option (likely \"450 ways\" or \"150 ways\") and explain why option C is correct.\n\nFinal token \"12\" is the start of a number mid-calculation, immediately requiring continuation of the digit(s) to complete the arithmetic result, almost certainly \"125\" or \"150\" or \"150 ways.\"\n</explanation>",
+    "Math word problem solution in progress: part (a) requires total number of people, summing 200 + 150 + 150 = 500.\n\nThe solution follows a structured step-by-step format, with each part answered sequentially; part (a) is mid-calculation.\n\nFinal token \"155\" is the start of the arithmetic result (200 + 150 + 150 = 500), immediately requiring \"0\" to complete \"1550\" or \"500\" \u2014 the next token must be \"0\" completing \"1550\" or \"500\" to finish the equation.\n</explanation>",
+    "Mathematical calculation in progress: 150+150+150=450 total, requiring completion of the arithmetic result.\n\nMultiple-choice answer selection expected: the computed result (450) must align with one of options A\u2013D, guiding which answer is correct.\n\nFinal token \"150\" is the third value in an addition expression, immediately requiring the arithmetic result \"450\" followed by explanation of which answer matches this total.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Let's solve for x,\" \"Let's solve for y\").\n\nThe solution is mid-calculation, having established total (150) and half (75), now computing the remaining count of non-children passengers: 150 \u2212 75 = 75.\n\nFinal token \"75\" is the computed result of the arithmetic operation, immediately requiring the next step: stating the remaining passengers count and setting up the equation (75 \u2212 3x = 30).\n</explanation>"
+  ],
+  "input_sha256": "5d2d17e9ef17bcf54a6b973a188da076444f4deacae77591f619131898ab775c",
+  "values": [
+    {
+      "quote": "100 \u00f7 3",
+      "value": "33.3333"
+    },
+    {
+      "quote": "33.33",
+      "value": "33.33"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "34",
+      "value": "34"
+    },
+    {
+      "quote": "285 \u00f7 3 = 95",
+      "value": "95"
+    },
+    {
+      "quote": "285 \u00f7 3",
+      "value": "95"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "150 + 150 + 150 = 450",
+      "value": "450"
+    },
+    {
+      "quote": "150 + 150 + 150",
+      "value": "450"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "200 + 150 + 150 = 500",
+      "value": "500"
+    },
+    {
+      "quote": "200 + 150 + 150",
+      "value": "500"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "1550",
+      "value": "1550"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "150+150+150=450",
+      "value": "450"
+    },
+    {
+      "quote": "150+150+150",
+      "value": "450"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "150 \u2212 75 = 75",
+      "value": "75"
+    },
+    {
+      "quote": "150 \u2212 75",
+      "value": "75"
+    },
+    {
+      "quote": "75 \u2212 3x = 30",
+      "value": "30"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions found within individual descriptions, including operands and calculated totals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100 \\u00F7 3\",\"value\":33.333333333333336},{\"quote\":\"33.33\",\"value\":33.33},{\"quote\":\"33\",\"value\":33},{\"quote\":\"34\",\"value\":34},{\"quote\":\"285 \\u00F7 3 = 95\",\"value\":95},{\"quote\":\"285 \\u00F7 3\",\"value\":95},{\"quote\":\"95\",\"value\":95},{\"quote\":\"150 + 150 + 150 = 450\",\"value\":450},{\"quote\":\"150 + 150 + 150\",\"value\":450},{\"quote\":\"450\",\"value\":450},{\"quote\":\"150\",\"value\":150},{\"quote\":\"12\",\"value\":12},{\"quote\":\"125\",\"value\":125},{\"quote\":\"200 + 150 + 150 = 500\",\"value\":500},{\"quote\":\"200 + 150 + 150\",\"value\":500},{\"quote\":\"200\",\"value\":200},{\"quote\":\"500\",\"value\":500},{\"quote\":\"155\",\"value\":155},{\"quote\":\"1550\",\"value\":1550},{\"quote\":\"0\",\"value\":0},{\"quote\":\"150+150+150=450\",\"value\":450},{\"quote\":\"150+150+150\",\"value\":450},{\"quote\":\"75\",\"value\":75},{\"quote\":\"150 \\u2212 75 = 75\",\"value\":75},{\"quote\":\"150 \\u2212 75\",\"value\":75},{\"quote\":\"75 \\u2212 3x = 30\",\"value\":30},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions found within individual descriptions, including operands and calculated totals.\"}",
+  "prompt_sha256": "c27fff4f52bd984e73adfeb3dd8d73b7cf4851994811f07db49ae708eaba4eee"
+}

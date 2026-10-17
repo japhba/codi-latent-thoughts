@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5328",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic calculation: total units sold = (25+15) \u00d7 12 = 450, so the answer must be 450.\n\nThe question asks for combined total units sold across both products, so the answer must be 25\u00d715 + 12\u00d715 = 450.\n\nFinal token \"was\" completes the question \"Total units sold were ___\", immediately requiring a specific numerical answer (likely \"450\") representing the combined sales of both products: (25+15) \u00d7 24 = 450 units.",
+    "Math word problem requiring arithmetic calculation: 25 + 15 = 40 tickets total, so the next step is computing 25+15=40 tickets per table.\n\nThe solution structure demands: total tickets per table = 25+15 = 40, then multiplied by 6 tables = 240 total, then divided by original price to find total cost.\n\nFinal token \"had\" introduces the arithmetic result of adding 27 and 15 together (25+18=43), so the immediate next tokens must state \"27 tickets\" or \"40 tickets\" per table, completing the calculation sentence.",
+    "Math word problem requiring arithmetic calculation: total units sold = 15 + 25 = 40, establishing the combined sum before computing total cost.\n\nThe problem follows a structured arithmetic setup: 15 + 25 = 40 units, so the next step is multiplying 45 by the combined total to find total cost (45 \u00d7 5 = 225).\n\nFinal token \"4\" begins the number \"45\" (15 + 25 = 40), completing the combined unit count calculation; the digit \"5\" must immediately follow to complete \"45\" before continuing with the multiplication expression showing the total per-unit cost.",
+    "Math word problem solution format: structured arithmetic problem requiring calculation of total mixture (15 + 25 = 40 milligrams per serving).\n\nThe solution is mid-sentence completing the arithmetic expression: \"15 + 20 = 40\" establishes the combined milligrams per serving, so the next tokens must state the unit \"milligrams\" and then continue with division by serving size to find total number of servings.\n\nFinal token \"40\" is the computed result of 20+15, representing the combined milligrams per serving; immediately expects \"milligrams\" followed by division by 40 to find total mixture quantity (e.g., \"per serving\").",
+    "Math word problem solution format: structured arithmetic problem requiring calculation of total daily consumption (150+200=400 grams).\n\nThe solution is mid-sentence completing the arithmetic expression: \"150 + 200 = 400 grams per serving,\" establishing the per-serving total before multiplying by 15 total servings.\n\nFinal token \"p\" is the truncated word \"per serving\" (or \"per serving\"), completing the sentence stating the combined quantity of each ingredient; next tokens must finish this unit phrase, likely \"er serving\" or \"er serving per day,\" then continue with multiplication by 15 to find total daily consumption.",
+    "Math word problem template structure: problem states total (140) and asks to calculate total daily consumption, requiring arithmetic answer with multiplication.\n\nThe pattern established shows a calculation answer follows: \"140 + 10 = 150 grams per day\" sets up the multiplication result, then scaling by 60 minutes to find total weekly consumption.\n\nFinal token \"grams. 20 + 15 = 45 grams.\" ends the problem statement defining the combined daily total (140 \u00d7 2 + 10 = 280 grams), immediately expecting the multiplication expression or computed answer: \"\u00d7 60 = 1680 grams per week.\""
+  ],
+  "input_sha256": "c19bd119b5a8eab5f67070e067dac2c5171d7dcaf624d3a65f25940ba79ebd26",
+  "values": [
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "43",
+      "value": "43"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "280",
+      "value": "280"
+    },
+    {
+      "quote": "1680",
+      "value": "1680"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is paired with a verbatim quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25\",\"value\":25},{\"quote\":\"15\",\"value\":15},{\"quote\":\"12\",\"value\":12},{\"quote\":\"450\",\"value\":450},{\"quote\":\"24\",\"value\":24},{\"quote\":\"40\",\"value\":40},{\"quote\":\"6\",\"value\":6},{\"quote\":\"240\",\"value\":240},{\"quote\":\"27\",\"value\":27},{\"quote\":\"18\",\"value\":18},{\"quote\":\"43\",\"value\":43},{\"quote\":\"45\",\"value\":45},{\"quote\":\"5\",\"value\":5},{\"quote\":\"225\",\"value\":225},{\"quote\":\"4\",\"value\":4},{\"quote\":\"20\",\"value\":20},{\"quote\":\"150\",\"value\":150},{\"quote\":\"200\",\"value\":200},{\"quote\":\"400\",\"value\":400},{\"quote\":\"140\",\"value\":140},{\"quote\":\"10\",\"value\":10},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2\",\"value\":2},{\"quote\":\"280\",\"value\":280},{\"quote\":\"1680\",\"value\":1680}],\"justification\":\"Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is paired with a verbatim quote.\"}",
+  "prompt_sha256": "ab54cfc8db78f1fae0d5d20ae99f22778123e74d8904402b89d2d5af8727300c"
+}

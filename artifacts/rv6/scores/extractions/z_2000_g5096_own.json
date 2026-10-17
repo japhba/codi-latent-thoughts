@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5096",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: article consistently presents specific percentages and numerical findings, e.g., \"50% of respondents,\" \"50% of those who answered.\"\n\nStudy results being enumerated: the sentence lists multiple findings with \"and\" conjunctions, suggesting additional statistics or a concluding result about the dataset size or response rate.\n\nFinal token \"is 5 is\" \u2014 mid-sentence numerical value being stated, likely completing a percentage or score (e.g., \"50%\" or \"5.5\"), constrained to digits continuing the hazard rating or dataset size figure.\n\"5 is\" likely contains a typo for \"8,\" completing \"58%\" as the hazard rating result.\n\"5.5\" or similar decimal follows immediately as part of the odds ratio or dataset size finding.\n\"85%\" visual element label \"5 is\" \u2014 the model expects a numeric result completing the odds ratio or percentage.",
+    "Plot summary continuation: the text is mid-sentence describing character relationships and plot setup, requiring completion of the list of characters/relationships.\n\nCharacter introduction pattern: the summary lists multiple characters with actor names in parentheses, suggesting more character details or plot progression follows.\n\nFinal token \"4,\" ends a numerical list (\"4,\") within a sentence about the family's history, immediately requiring continuation of the enumeration or a clause completing the \"4,\" reference, likely naming another character or relationship detail.\n\"4,\" is a truncated number or list item, demanding immediate continuation of the enumeration or a descriptive phrase about the family's history.\n\"4,\" \"4,\" film title \"4,\" \u2014 the \"4,\" likely continues as \"4,800 years\" or similar plot detail completing the \"96 years later\" timeline.\n\"54\" character name \"4,\" is \"800\" \u2014 the.",
+    "Instructional list pattern: numbered steps with imperative verbs (\"Place,\" \"Cut,\" \"Add\") guide sequential cooking instructions.\n\nThe recipe is mid-explanation, detailing ingredient preparation steps; the dish's flavor/texture benefits are being elaborated, suggesting practical cooking tips follow.\n\nFinal token \"6\" is part of an incomplete sentence (\"6\" likely continuing a quantity or ingredient count, e.g., \"6 ingredients\" or \"6 steps\"), requiring immediate completion of that number or noun phrase.\n\"6\" likely continues a spiritual/numerical metaphor (\"600 ingredients\" or similar), constraining next tokens to complete the practical cooking instruction.\n\"6\" \"60\" sensory description \"60 minutes\" spiritual reflection \u2014 \"6\" likely \"600\" or \"20 minutes\" scene, completing the practical instruction \"6\" sensory steps.\n\"60\" memory food pairing \"2.",
+    "Q&A format established: question posed, answer begun, continuation must complete the statistic or list of examples about teachers' questions.\n\nThe article's argumentative momentum requires elaborating on specific statistics or expert quotes supporting the \"ask questions\" thesis, likely citing survey data.\n\nFinal token \"60\" is mid-sentence, completing \"60 questions\" or similar count \u2014 the list of statistics about teachers' questions must continue, likely adding more examples or transitioning to the next expert's answer.\n\"60\" likely continues as \"60 questions\" or \"60 years,\" requiring immediate numeric or categorical completion of the enumerated list.\n\"60\" \"20\" religious context frames the specific statistic \"30 years\" as part of a numbered list of teacher examples.\n\"12\" historical anecdotes\" \u2014 \"20\" expert advice\" \u2014 \"40 years\" memory \u2014 the numbered list.",
+    "News article reporting structure: factual summary of a news story, expecting continuation of the article's findings and statistics.\n\nFilm review/summary genre with embedded social media content, expecting further details about the video's content or publication context.\n\nFinal token \"2 people\" completes a sentence fragment mid-clause (\"2 people\"), immediately requiring continuation of the sentence explaining the publication count or distribution of the video, likely \"2 people\" or a clause about the publication's reach.\n\"222 people\" or similar numerical completion of the statistic about the video's reach.\n\"222 people\" publication count sets up a critical analysis of the organization's credibility or reach.\n\"222 people\" plot summary or \"224\" correction \u2014 the \"34\" correction \"2 people\" is incomplete, so \"224\" publication figure or \"2,083\" fraud case details follow immediately.",
+    "Q&A format established: a question was posed, answered with a specific example, and now a follow-up question about the legal definition of \"coercion\" is being answered with a list of examples.\n\nThe list of examples is mid-enumeration, with \"coercion\" as the first item, implying additional bullet-point examples of religious practices will follow.\n\nFinal token \"12\" ends a statistic (\"12 examples\"), immediately constraining continuation toward completing the enumeration or transitioning to the next bullet-point example or concluding the expert's commentary.\n\"12\" likely refers to a numbered list item, so the next tokens continue the legal/religious advice context.\n\"12\" \"12\" suggests a typo or formatting artifact; practical guidance on the 18-minute statistic \"about 12\" likely precedes a specific legal threshold or recommendation.\n\"4 days\" or similar numerical answer."
+  ],
+  "input_sha256": "123e3c5329b45fe55a8472c881f7f25aed83d8cec4f723b345ab673b81ab64ab",
+  "values": [
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "5 is",
+      "value": "5"
+    },
+    {
+      "quote": "5.5",
+      "value": "5.5"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "4,",
+      "value": "4"
+    },
+    {
+      "quote": "96 years later",
+      "value": "96"
+    },
+    {
+      "quote": "4,800 years",
+      "value": "4800"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "2.",
+      "value": "2"
+    },
+    {
+      "quote": "30 years",
+      "value": "30"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "40 years",
+      "value": "40"
+    },
+    {
+      "quote": "2 people",
+      "value": "2"
+    },
+    {
+      "quote": "222 people",
+      "value": "222"
+    },
+    {
+      "quote": "224",
+      "value": "224"
+    },
+    {
+      "quote": "34",
+      "value": "34"
+    },
+    {
+      "quote": "2,083",
+      "value": "2083"
+    },
+    {
+      "quote": "4 days",
+      "value": "4"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and numbers within phrases from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50%\",\"value\":50},{\"quote\":\"5 is\",\"value\":5},{\"quote\":\"5.5\",\"value\":5.5},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"4,\",\"value\":4},{\"quote\":\"96 years later\",\"value\":96},{\"quote\":\"4,800 years\",\"value\":4800},{\"quote\":\"54\",\"value\":54},{\"quote\":\"800\",\"value\":800},{\"quote\":\"6\",\"value\":6},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"20\",\"value\":20},{\"quote\":\"2.\",\"value\":2},{\"quote\":\"30 years\",\"value\":30},{\"quote\":\"12\",\"value\":12},{\"quote\":\"40 years\",\"value\":40},{\"quote\":\"2 people\",\"value\":2},{\"quote\":\"222 people\",\"value\":222},{\"quote\":\"224\",\"value\":224},{\"quote\":\"34\",\"value\":34},{\"quote\":\"2,083\",\"value\":2083},{\"quote\":\"4 days\",\"value\":4}],\"justification\":\"Extracted explicit numeric literals, percentages, and numbers within phrases from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "4c526868d0368fd9f4d3f9ffd72121d5e20195b28cb7a0dbcb916414827b9f45"
+}

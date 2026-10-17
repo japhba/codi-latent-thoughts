@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5500",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring algebraic solution: equation setup demands a specific numerical answer for the unknown number of books.\n\nThe equation structure (130 = 3x + 100) must be solved to find the number of books where total cost equals $150, with books and pens as variables.\n\nFinal token \" equals\" introduces the numerical answer, requiring an integer representing the number of books (likely calculated as (150-300/10) or similar: (130-10\u00d7$100)/$30), completing the solution: the remaining books must be 130 books minus (30 + 100) per book, yielding a specific integer like \"50\" or \"100.\"",
+    "Mathematical problem-solving context: calculating expected profit by summing all 150 tickets \u00d7 $1 each, then adding remaining passengers \u00d7 $15.\n\nThe solution is mid-calculation, having established that 150 tickets at $15 each gives a minimum base value of 15\u00d7$100, implying remaining passengers (150\u2212150) at lower prices will follow.\n\nFinal token \"had\" begins a conditional clause (\"If all 150 tickets had been...\"), requiring a specific arithmetic expression showing the maximum possible value from the first 150 full-price tickets, likely \"15 \u00d7 $100\" or similar, representing the minimum score before accounting for remaining passengers.",
+    "Mathematical problem-solving context: calculating expected value of 100 tickets using grade-point scoring system (e.g., 100 tickets \u00d7 $1 each for A grades).\n\nThe solution is mid-calculation, having established that 150 students scored 100 points, now computing total grade-point contribution from the 20 highest-scoring students (first 150 points) before accounting for remaining students.\n\nFinal token \"15\" begins the arithmetic expression \"$150\" from the first 100 students' full marks (i.e., \"150\" from A grades), immediately requiring completion of that number, likely \"150\" as the maximum possible from 20 full points, then continuing to calculate remaining students' contribution.",
+    "Mathematical problem-solving context: solving for ticket prices using total revenue equation (1500 tickets, $10 each, $50 each).\n\nThe solution is mid-calculation, having established that all 150 tickets must sum to $1500, now setting up the equation: total full price minus remaining tickets equals $1500, implying the next step shows the algebraic setup.\n\nFinal token \"$1500\" is the first term of a arithmetic expression showing the base case (full price of 4 tickets = $1500), immediately requiring continuation of the equation showing remaining tickets: e.g., \"from the four tickets that are $10 each\" or similar constraint like \"1500 - 4x = remaining tickets.\"",
+    "Mathematical equation solving in progress: equation (130 + total) = (300 + total) must be resolved to find per-unit cost difference.\n\nThe solution is mid-calculation, showing arithmetic steps: total profit = $1500 \u2212 $1300 \u2212 $300 = $1000 distributed across 130 tickets, so next tokens must complete the algebraic expression showing the remaining amount.\n\nFinal token \"p\" begins a variable expression \"$300 - $150p\" representing the per-unit profit gap (300 - 130 + 150) to solve for n, requiring a numeric value like \"150\" or \"$130\" to complete the equation showing the missing per-ticket amount.",
+    "Mathematical word problem solution pattern: each problem follows a structured format with equations, solving steps, and final answer.\n\nThe second problem's equation setup is mid-solution: total 800 tickets and remaining 800 tickets after equation 1 (80x = 800) must be solved to find the number of students who paid the cheaper price.\n\nFinal token \"80.\" ends the remainder equation (800 - (x + 5x) = -200), immediately requiring the next step: solving for x to find the number of students: 800/10 = 80 students, then confirming each group size: 80 students = 200 tickets, then original student count."
+  ],
+  "input_sha256": "d64a9c19cb365192d981b06c2f78b4dc1447aa39f73707b809159f0dfb604470",
+  "values": [
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "3x",
+      "value": "3"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "300/10",
+      "value": "30"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1300",
+      "value": "1300"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each quote is an exact substring and each value is a valid JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"130\", \"value\": 130}, {\"quote\": \"3x\", \"value\": 3}, {\"quote\": \"100\", \"value\": 100}, {\"quote\": \"150\", \"value\": 150}, {\"quote\": \"300/10\", \"value\": 30}, {\"quote\": \"30\", \"value\": 30}, {\"quote\": \"50\", \"value\": 50}, {\"quote\": \"1\", \"value\": 1}, {\"quote\": \"15\", \"value\": 15}, {\"quote\": \"1500\", \"value\": 1500}, {\"quote\": \"10\", \"value\": 10}, {\"quote\": \"4\", \"value\": 4}, {\"quote\": \"1300\", \"value\": 1300}, {\"quote\": \"1000\", \"value\": 1000}, {\"quote\": \"800\", \"value\": 800}, {\"quote\": \"80\", \"value\": 80}, {\"quote\": \"200\", \"value\": 200}, {\"quote\": \"20\", \"value\": 20}], \"justification\": \"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each quote is an exact substring and each value is a valid JSON number.\"}",
+  "prompt_sha256": "c6c20175802f679c14b925a0cab502e5e7a36b0f89eea31012296bb004b465f7"
+}

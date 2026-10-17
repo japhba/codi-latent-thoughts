@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5644",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total required books = (95+35) / (10+5) = 9 books, so the answer must be a specific number.\n\nThe problem follows a structured arithmetic setup: total pages = 95+35, then adding 3 books each month, then dividing by 10+5 to find total number of months needed.\n\nFinal token \"is\" completes \"The total number of books he needs is,\" demanding an immediate cardinal number (likely \"9\" or \"95\") representing the total number of books, derived from combining 95+37 divided by 10+3: (9+35) + 3 = 105 books total, so the answer must be \"9\" (i.e., 95+37).",
+    "Math word problem solution structure: arithmetic problem requiring calculation of total amount spent, following \"He had $95 + $45 = $135\" logic.\n\nThe narrative momentum establishes that the total amount must be calculated: net profit = $95 + $135 (loss of $45), so the next tokens must state the total amount he had after spending $95 on books.\n\nFinal token \"had\" introduces the total amount he possessed after the loss, requiring a specific dollar figure (likely \"$135\" or \"$95 + $35\") representing his total savings: $95 + three times $35 = $135 total, completing the equation showing how many books he had: (95 + 35) / 2 = 65 books.",
+    "Math word problem solution in progress: total amount spent must be calculated (original $75 + $55 added = $135, so per-person amount follows).\n\nThe solution structure requires completing the arithmetic: $75 + $55 = $135 total, then dividing by 11 people to find the original amount each person paid.\n\nFinal token \"13\" begins the number \"$135\" (the total total amount), part of the arithmetic expression showing the total total sum of the $55 profit plus original $75, immediately requiring \"5\" to complete \"$135\" to confirm the total amount spent, then continuing to find the original per-person amount: $135 \u2212 $50 = $55.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, following \"total amount = original amount + remaining amount\" logic.\n\nThe solution is building toward finding the number of days by dividing $130 by the daily wage $20, establishing that total spent = $130 (including the $20 remainder), so the next step involves solving for the number of coins.\n\nFinal token \"$130\" is the total amount calculated from the problem setup (original + extra money), immediately requiring continuation of the equation or explanation: \"in total\" or \"in total in order to find how many coins he had before buying.\"\nThe next tokens must complete this arithmetic reasoning, likely showing division: $130 \u00f7 $50 = $26, then solving for number of days.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with variable setup and equation solving.\n\nThe equation setup requires completing the total amount calculation: total money needed = $125 + $35 = $150, then dividing by daily spending ($125/35) to find original number of days.\n\nFinal token \"p\" begins \"p150\" or \"p125\" \u2014 mid-word continuation of the arithmetic expression showing total total amount before division by 35, completing the equation showing total original amount: \"$125 + $30\" representing the full original number of days before adding the $100 remainder, i.e., \"$130\" or \"$130/32\" to find the original number of days.",
+    "Math word problem structure: problem 1 established a pattern of calculating total tickets, then solving for number of people, now requiring the same solution for problem 2.\n\nThe arithmetic setup requires solving (170 + remaining people) = $1260 \u00f7 $15, yielding 8 people across 3 days, then dividing by $10 to find original number of people.\n\nFinal token \"points.\" ends the equation \"170 + remaining points = $1260.\" \u2014 the next tokens must state the division result and solve for the original number of tickets: \"Each person sold 35 tickets\" or similar, confirming 8 people = $1260 / (10 + 3) = 80 tickets."
+  ],
+  "input_sha256": "544971849501471a9da32e24fbca80ecbc8817db7211830786a403e8e3dc8396",
+  "values": [
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "170",
+      "value": "170"
+    },
+    {
+      "quote": "1260",
+      "value": "1260"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results mentioned in the descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"95\",\"value\":95},{\"quote\":\"35\",\"value\":35},{\"quote\":\"10\",\"value\":10},{\"quote\":\"5\",\"value\":5},{\"quote\":\"9\",\"value\":9},{\"quote\":\"3\",\"value\":3},{\"quote\":\"37\",\"value\":37},{\"quote\":\"105\",\"value\":105},{\"quote\":\"45\",\"value\":45},{\"quote\":\"135\",\"value\":135},{\"quote\":\"65\",\"value\":65},{\"quote\":\"75\",\"value\":75},{\"quote\":\"55\",\"value\":55},{\"quote\":\"11\",\"value\":11},{\"quote\":\"13\",\"value\":13},{\"quote\":\"5\",\"value\":5},{\"quote\":\"50\",\"value\":50},{\"quote\":\"130\",\"value\":130},{\"quote\":\"20\",\"value\":20},{\"quote\":\"26\",\"value\":26},{\"quote\":\"125\",\"value\":125},{\"quote\":\"150\",\"value\":150},{\"quote\":\"30\",\"value\":30},{\"quote\":\"100\",\"value\":100},{\"quote\":\"32\",\"value\":32},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"170\",\"value\":170},{\"quote\":\"1260\",\"value\":1260},{\"quote\":\"15\",\"value\":15},{\"quote\":\"8\",\"value\":8},{\"quote\":\"80\",\"value\":80}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results mentioned in the descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "eb0729a0fd058c296f038618add99fd25729763c0ca3f7a9ac1cdc09cb5cf7ed"
+}

@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5005",
+  "kind": "own",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence ending mid-statistic (\"10.5% of the 1,000 male players\") is completing a specific numerical finding about the 2014 study, requiring the remaining percentage or comparative figure to finish the data point.\n\nThe final token \"10.5%\" is mid-sentence within a reported statistic, immediately requiring a noun phrase or clause completing what proportion of players \"were found to have [some condition].\"\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the mother's emotional state, requiring completion of \"she was\" with a descriptor like \"overwhelmed\" or \"terrified.\"\n\nRepetition/continuation pattern: the review repeatedly cycles through the same key facts (mother's fear, son's excitement, 10-year-old age), suggesting the next tokens will reinforce these themes.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, immediately requiring an adjective or verb phrase describing the mother's emotional state, consistent with the review's established tone.\n</explanation>",
+    "Narrative momentum: the story is mid-sentence, recounting the husband's realization that the car is unnecessary, leading to his decision to sell it.\n\nCausal chain established: the husband's realization that he doesn't need a car to get around sets up the logical conclusion \u2014 selling it \u2014 which is the story's central resolution.\n\nFinal token \"5\" is mid-sentence (\"it was 5\"), part of a number like \"500 miles\" or \"5 years old,\" requiring immediate numeric continuation to complete the husband's realization about the car's age or distance.\n</explanation>",
+    "The article follows a structured health/wellness format with numbered sections, expert quotes, and study findings \u2014 the next content continues this pattern.\n\nThe sentence ending mid-thought (\"the study found that the average number of times a day that people use cell phones was 1,200\") sets up an expected completion: the full statistic, likely followed by a comparison to the 1,000 figure mentioned earlier, reinforcing the \"more than double\" claim.\n\nFinal token \"1,200\" is a mid-sentence numerical figure requiring immediate continuation \u2014 likely a unit (\"times\") and a comparative clause (\"compared to 1,000\" or similar).\n</explanation>",
+    "Narrative momentum: the text is building toward the husband's realization that the wife's behavior was suspicious/abnormal, not ordinary \u2014 the \"but\" signals an imminent contrast or revelation.\n\nCase study structure: this is a therapy/clinical vignette following a problem\u2192observation\u2192diagnosis\u2192intervention format; the next section will likely describe the husband's concern or the therapist's intervention.\n\nFinal token \"50\" closes the husband's mistaken assumption (\"about 50\"), immediately constraining what follows to a contrastive conjunction like \"but\" or \"however,\" revealing the wife's actual behavior was suspicious or threatening.\n</explanation>",
+    "The article follows a structured news report format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence ending mid-thought (\"the researchers found that the majority of the 1,000 participants who reported being in the car during the crash were in the driver's seat\") sets up a direct continuation of the statistical finding \u2014 the next tokens must complete this clause, likely stating the percentage or elaborating on the seat/position data.\n\nThe final token \"crash\" ends an incomplete subordinate clause (\"the researchers found that...\"), requiring immediate grammatical completion, most likely a percentage or descriptive phrase about seat position.\n</explanation>"
+  ],
+  "input_sha256": "8a4d51807dd26b60732022e5b9050fefc9be0cb26c4f5be4a994873d89731514",
+  "values": [
+    {
+      "quote": "10.5%",
+      "value": "10.5"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "2014",
+      "value": "2014"
+    },
+    {
+      "quote": "10-year-old",
+      "value": "10"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "1,200",
+      "value": "1200"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within hyphenated phrases and formatted with commas.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5%\",\"value\":10.5},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"2014\",\"value\":2014},{\"quote\":\"10-year-old\",\"value\":10},{\"quote\":\"5\",\"value\":5},{\"quote\":\"1,200\",\"value\":1200},{\"quote\":\"50\",\"value\":50}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within hyphenated phrases and formatted with commas.\"}",
+  "prompt_sha256": "5645acf99d19a29d08359b9be190a0357c5d6b723d3713348a9f13de54e99a0f"
+}

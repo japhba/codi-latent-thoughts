@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5712",
+  "kind": "donor",
+  "descriptions": [
+    "Math problem-solving context: calculating expected value of a weighted average, requiring arithmetic completion of the formula.\n\nThe pattern \"expected value = (weight \u00d7 value) + (weight \u00d7 value)\" has been established, and the final calculation must sum 10\u00d710 + 10\u00d711 = 100 + 110 = 210.\n\nFinal token \"expected\" is the start of the phrase \"expected value,\" directly requiring the word \"value\" followed by the computed numerical result (210) to complete the sentence.\n</explanation>",
+    "Mathematical problem-solving context: calculating expected value of a game with specific mechanics (roll dice, 20 points, 300 points, 100 points each win).\n\nThe solution is mid-calculation, having established the formula (expected value = probability \u00d7 points) and now computing the expected value of the 300-point win scenario, requiring the arithmetic result.\n\nFinal token \"100*300=30000\" is the multiplication result, immediately expecting the next step: the expected value calculation, likely \"30000/365\" or similar division to complete the expected value expression.\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, expecting numerical answer.\n\nThe solution is mid-calculation, having substituted x = 3x into x + 3x = 88, so the next step must solve for x (e.g., \"x = 22\" or \"x = 22 years old\").\n\nFinal token \"answ\" is a placeholder/label indicating the answer is about to be stated, immediately constraining the next tokens to be the numerical result, likely \"22\" or \"22 years old.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, expecting numerical answer.\n\nThe solution is mid-calculation, having substituted x = 3x into x + 3x = 88, so the next step must solve for x (e.g., \"x = 22\" or \"x = 22, so the number is 22\").\n\nFinal token \"answ\" is a placeholder/label indicating the answer is about to be stated, immediately constraining the next tokens to be the numerical result, likely \"22\" or \"The number is 22.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, expecting numerical answer.\n\nThe solution is mid-calculation, having substituted x = 3x into x + 3x = 88, so the next step must solve for x (e.g., \"x = 22\" or \"x = 22 years old\").\n\nFinal token \"answ\" is a placeholder/label indicating the answer is about to be stated, immediately constraining the next tokens to be the numerical result, likely \"22\" or \"22 years old.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, expecting numerical answer.\n\nThe solution has established a pattern of defining variables, setting up equations, and solving \u2014 the final step requires stating the numerical answer to \"how old is the older brother.\"\n\nFinal token \"answ\" is a truncated word (\"answer\"), part of a closing label like \"answ: 16\" or \"answ: 17,\" immediately requiring the word to complete as \"answer\" followed by a colon and the specific integer age value.\n</explanation>"
+  ],
+  "input_sha256": "75f0011ed81198551d6847e3023026dfd39158f448c63f47ab04d219d27871ab",
+  "values": [
+    {
+      "quote": "10\u00d710",
+      "value": "100"
+    },
+    {
+      "quote": "10\u00d711",
+      "value": "110"
+    },
+    {
+      "quote": "100 + 110 = 210",
+      "value": "210"
+    },
+    {
+      "quote": "20 points",
+      "value": "20"
+    },
+    {
+      "quote": "300 points",
+      "value": "300"
+    },
+    {
+      "quote": "100 points",
+      "value": "100"
+    },
+    {
+      "quote": "100*300=30000",
+      "value": "30000"
+    },
+    {
+      "quote": "30000/365",
+      "value": "82.1918"
+    },
+    {
+      "quote": "x + 3x = 88",
+      "value": "88"
+    },
+    {
+      "quote": "x + 3x = 88",
+      "value": "3"
+    },
+    {
+      "quote": "x = 22",
+      "value": "22"
+    },
+    {
+      "quote": "answ: 16",
+      "value": "16"
+    },
+    {
+      "quote": "answ: 17",
+      "value": "17"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, arithmetic results, and operands from the provided descriptions, including fractions and products mentioned in the context of the math problems.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10\u00d710\",\"value\":100},{\"quote\":\"10\u00d711\",\"value\":110},{\"quote\":\"100 + 110 = 210\",\"value\":210},{\"quote\":\"20 points\",\"value\":20},{\"quote\":\"300 points\",\"value\":300},{\"quote\":\"100 points\",\"value\":100},{\"quote\":\"100*300=30000\",\"value\":30000},{\"quote\":\"30000/365\",\"value\":82.1917808219178},{\"quote\":\"x + 3x = 88\",\"value\":88},{\"quote\":\"x + 3x = 88\",\"value\":3},{\"quote\":\"x = 22\",\"value\":22},{\"quote\":\"answ: 16\",\"value\":16},{\"quote\":\"answ: 17\",\"value\":17}],\"justification\":\"Extracted all explicit numeric literals, arithmetic results, and operands from the provided descriptions, including fractions and products mentioned in the context of the math problems.\"}",
+  "prompt_sha256": "343ca5eb5473bf332037915e4ab38cfa6c739bab133c41b42fb6e0481b063b7e"
+}

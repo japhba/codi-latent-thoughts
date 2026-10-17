@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5276",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring completion: new capacity calculation (100 + 50% increase) demands the arithmetic result.\n\nThe pattern established shows a two-step calculation: original 100 units \u2192 new capacity = 100 + 50% = 150, so the answer must be 150.\n\nFinal token \"be\" closes a question phrase \"The new capacity will be,\" requiring an immediate numerical answer (likely \"150\") representing the combined new capacity after adding 50% to 100 + 30.\n(100 + 50) \u00d7 1.5 = 150.\n100 + 50% + 30 = 150, completing the second calculation step.\n100\u00d71.5 + 50 = 150.",
+    "Math word problem walkthrough following a structured solution pattern, requiring completion of the second base inventory calculation.\n\nThe sequence establishes a pattern: original base inventory (100) + 200 more = 300, then doubling it \u2014 the next step must state the new target inventory for the second base.\n\nFinal token \"has\" introduces the second base's total inventory number, immediately requiring the numerical value \"100 + 80 = 1800\" or similar, completing the setup before applying the percentage increase formula.\n100 + 80 = new base inventory, then adding 20% increase.\n100 + 80 = 1800 for the second base, then doubling to 300 + 80% increase target.\n100 + 80 = new base inventory, setting up the next step.",
+    "Math word problem walkthrough following a structured solution format, requiring continuation of the arithmetic sequence.\n\nThe problem is building toward a total future population calculation: original combined total of 100 + 100 = 200, then adding 20% growth to the second lake's current 100.\n\nFinal token \"18\" is the beginning of \"180\" (the second lake's original total), mid-number, immediately requiring \"0\" to complete \"180,\" then continuing to explain the new total after adding 20 more lake capacity.\nThe next step must describe doubling the second lake's population (100 + 50 = 180) before applying the 20% increase.\n180 total after original base of 100 + 50 more, then doubling future population.\n180 is.",
+    "Step-by-step math word problem walkthrough requires continuing the solution narrative, showing how new total capacity is calculated.\n\nThe solution is mid-sentence explaining the existing total (150 balls), building toward applying the 50% increase formula: new total = 180 + 50% of original.\n\nFinal token \"180\" is the current count of balls in the existing field, immediately requiring the next step: applying the 50% increase to 180, then adding new balls added to the field.\n180 is the intermediate result just stated, so next tokens must describe adding 50% of 180 balls to the field.\n180 x 2 = new total before applying the 50% increase.\n180 balls after adding new rows, then doubling to show the new total capacity.",
+    "Math word problem solution in progress: calculating 500 tickets + 50% increase = 800 tickets, requiring arithmetic completion.\n\nThe solution follows a structured step-by-step format: original capacity (180) \u2192 50% increase \u2192 added tickets = 800.\n\nFinal token \"p\" begins the number \"80\" (50% of 200), completing the multiplication expression \"180\u00d70.50 = 90 added tickets,\" immediately requiring \"90\" to complete the calculated increase.\nThe pattern \"80 tickets added\" must follow, completing the second equation showing the new total capacity.\n0.50\u00d7180\u00d710 = 90 added tickets to reach 800.",
+    "Step-by-step word problem format: each step follows \"Step N: [action]\" pattern, with Step 3 currently mid-solution.\n\nThe problem requires adding 90 new books to reach 1200 total; Step 3 must state the new total (1200 + 10% = 1320).\n\nFinal token \"90. 99\" closes the increment calculation sentence (\"added 90% of the original number of books to the existing number\"), immediately requiring the next step: stating the new total capacity.\nFinal token \"99\" ends the third step's explanation, so the next tokens must state the new total count: \"The new total number of books is 1320.\"\nFinal token \"90\" is the answer to Step 3's question, completing the addition calculation before stating the final result."
+  ],
+  "input_sha256": "81cdc11e3fc2215939494617036d26bf7bf04b625113a9541d4cad22ed58ce4a",
+  "values": [
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "1800",
+      "value": "1800"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "1320",
+      "value": "1320"
+    },
+    {
+      "quote": "99",
+      "value": "99"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, and arithmetic results explicitly mentioned in the descriptions, including spelled-out numbers and decimals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"150\",\"value\":150},{\"quote\":\"30\",\"value\":30},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"200\",\"value\":200},{\"quote\":\"300\",\"value\":300},{\"quote\":\"80\",\"value\":80},{\"quote\":\"1800\",\"value\":1800},{\"quote\":\"20\",\"value\":20},{\"quote\":\"18\",\"value\":18},{\"quote\":\"180\",\"value\":180},{\"quote\":\"0\",\"value\":0},{\"quote\":\"2\",\"value\":2},{\"quote\":\"500\",\"value\":500},{\"quote\":\"800\",\"value\":800},{\"quote\":\"0.50\",\"value\":0.5},{\"quote\":\"90\",\"value\":90},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"1320\",\"value\":1320},{\"quote\":\"99\",\"value\":99}],\"justification\":\"Extracted all distinct numeric literals, percentages, and arithmetic results explicitly mentioned in the descriptions, including spelled-out numbers and decimals.\"}",
+  "prompt_sha256": "bb57b5d94513bc6c46df996eb2482df4d46cd5a3d7ba007ccd1312bfa9220940"
+}

@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5428",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: total seats (90) minus half remaining (45) after removing half each category, requiring the arithmetic answer: 90/3 + 45/2 + 15/3.\n\nThe answer must be a specific integer representing remaining seats after removing 1/3 each category: (90+45+25)/2=75.\n\nFinal token \"around\" introduces an approximate numerical answer, immediately constraining the next token to be the calculated total: \"75\" (the sum of half of 90 remaining after removing 45+45+15).",
+    "Mathematical calculation in progress: total 246 broken into three groups (original + 96 + 96), requiring arithmetic summing of all three counts.\n\nStep-by-step worked example pattern: the solution is walking through each category (246 total minus 96+45+96=148), so the next tokens must state the computed counts of each group.\n\nFinal token \"had\" begins the enumeration of the original counts (246/3=82 + 96 + 45), immediately requiring the specific numbers: \"96 + 45 + 27\" or similar, completing the arithmetic breakdown of the 246 total.",
+    "Mathematical calculation in progress: total 50 students broken into three groups (15+50+25=90), now computing expected value by summing all three groups' counts.\n\nThe solution is mid-sentence listing expected counts: 55+50+15=120, but the original answer shows 150 total, suggesting a calculation error or correction is needed.\n\nFinal token \"12\" is the beginning of a number representing the expected count of the first group (150-50-25=75), immediately requiring continuation of that digit sequence, likely \"5\" or completing \"120\" or similar to finish the arithmetic summing of the three groups.",
+    "Mathematical problem-solving context: calculating total cards after removing 100 from each category (original + half of 150 + remaining 150).\n\nThe solution is mid-calculation, having established counts: 100 original cards, 50+50+100=200 remaining, now summing to 165 total \u2014 the next step is computing remaining cards after removing the 100 non-remaining cards.\n\nFinal token \"150\" is part of an incomplete arithmetic expression \"165\" (original + half of 100 + remaining 100), requiring continuation of the calculation showing the remaining count or the next step: \"cards were removed\" or \"cards remaining.\"",
+    "Mathematical calculation in progress: summing 150+75+125=250, then dividing by 3, requiring completion of the arithmetic result (75 remaining passengers).\n\nThe answer must confirm remaining passengers after removing 1/3 of all three groups: 150+75+125=250, so 75 passengers removed, leaving 175 remaining.\n\nFinal token \"160p\" is mid-sentence listing the sum of the three half counts (135+75+120=250), immediately requiring the calculated total of 75 passengers removed, completing the arithmetic explanation.",
+    "Math word problem solution format repeating: each problem states total, then asks to calculate remaining count after removing half, following a consistent template.\n\nThe third problem's solution is mid-calculation, having listed 175+150=325, then 1/3 remaining=117, now summing the removed counts (17+15+117=250).\n\nFinal token \"73 cars.75 cars.\" ends the second half's calculated removal count; the pattern demands the final answer: \"The remaining number of cars is 250\" or similar, mirroring the first problem's closing line \"The remaining number of cars is 150.\""
+  ],
+  "input_sha256": "91f846993d35592eba0b836d0faf2ad6e76c123f48495461f22482c785ddf552",
+  "values": [
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "90/3",
+      "value": "30"
+    },
+    {
+      "quote": "45/2",
+      "value": "22.5"
+    },
+    {
+      "quote": "15/3",
+      "value": "5"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "(90+45+25)/2",
+      "value": "80"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "246",
+      "value": "246"
+    },
+    {
+      "quote": "96",
+      "value": "96"
+    },
+    {
+      "quote": "148",
+      "value": "148"
+    },
+    {
+      "quote": "246/3",
+      "value": "82"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "165",
+      "value": "165"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "175",
+      "value": "175"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "325",
+      "value": "325"
+    },
+    {
+      "quote": "117",
+      "value": "117"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "73",
+      "value": "73"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, calculating the final value for expressions like 90/3 or (90+45+25)/2 as required.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"90\",\"value\":90},{\"quote\":\"45\",\"value\":45},{\"quote\":\"90/3\",\"value\":30},{\"quote\":\"45/2\",\"value\":22.5},{\"quote\":\"15/3\",\"value\":5},{\"quote\":\"25\",\"value\":25},{\"quote\":\"(90+45+25)/2\",\"value\":80},{\"quote\":\"75\",\"value\":75},{\"quote\":\"15\",\"value\":15},{\"quote\":\"246\",\"value\":246},{\"quote\":\"96\",\"value\":96},{\"quote\":\"148\",\"value\":148},{\"quote\":\"246/3\",\"value\":82},{\"quote\":\"27\",\"value\":27},{\"quote\":\"50\",\"value\":50},{\"quote\":\"90\",\"value\":90},{\"quote\":\"55\",\"value\":55},{\"quote\":\"120\",\"value\":120},{\"quote\":\"150\",\"value\":150},{\"quote\":\"12\",\"value\":12},{\"quote\":\"100\",\"value\":100},{\"quote\":\"200\",\"value\":200},{\"quote\":\"165\",\"value\":165},{\"quote\":\"125\",\"value\":125},{\"quote\":\"250\",\"value\":250},{\"quote\":\"3\",\"value\":3},{\"quote\":\"175\",\"value\":175},{\"quote\":\"135\",\"value\":135},{\"quote\":\"325\",\"value\":325},{\"quote\":\"117\",\"value\":117},{\"quote\":\"17\",\"value\":17},{\"quote\":\"73\",\"value\":73}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, calculating the final value for expressions like 90/3 or (90+45+25)/2 as required.\"}",
+  "prompt_sha256": "54278f851676ee9aff5de19a10544d823dbc1f37d5897f0161452cb1ceec96eb"
+}

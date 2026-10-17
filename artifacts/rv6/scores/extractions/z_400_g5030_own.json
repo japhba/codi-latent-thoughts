@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5030",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: hazard metrics presented with hazard ratios, confidence intervals, and hazard percentages in sequence, establishing a consistent numerical format.\n\nThe sentence structure \"The hazard of being killed is X\" mirrors earlier hazard statements, requiring a specific numerical hazard ratio value to complete the statistical claim.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the 2010\u20132019 period; next tokens must be a specific numeric hazard ratio (likely a decimal number, e.g., \"0.95\" or similar), consistent with the report's statistical precision.",
+    "Narrative momentum of plot summary: the film review is mid-sentence describing character dynamics and character analysis, requiring continuation of the scene/character description.\n\nCharacter analysis pattern: the review has been building toward explaining the film's thematic interpretation of character relationships, with the plot synopsis now transitioning to critical commentary on character dynamics.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence describing the scene's emotional/visual content \u2014 the next tokens must complete this clause, likely describing the film's plot or character situation (e.g., \"was a powerful woman\" or \"was the scene\").",
+    "Personal narrative/devotional blog pattern: author shares marriage advice through anecdotes, now transitioning to a specific memory about anniversary memories and relationship advice.\n\nList/continuation momentum: the text has been building toward a concrete example of anniversary memories, with \"15 years\" framing suggesting a reflective, practical lesson about time and commitment is imminent.\n\nFinal token \"15\" is mid-sentence (\"about a time of 15\"), part of a time expression requiring completion \u2014 almost certainly \"years\" or a specific duration, followed by a memory or lesson about the anniversary conversation.",
+    "List/series continuation pattern: the text is a book review series with consistent structure (title, author, reflection, examples), now mid-entry on \"Theology of theMilitary\" with a specific reflection point about military service and faith.\n\nNarrative/argumentative momentum: the author is mid-sentence introducing a personal anecdote or lesson from the book, specifically about the 60-year military career and its spiritual significance, requiring elaboration of that insight.\n\nFinal token \"60\" is part of an incomplete sentence (\"I am 60 years old, and I have been in the military for 60\"), requiring a unit of time (e.g., \"years\") followed by continuation of the reflection on military service and faith.",
+    "Argumentative momentum: the article builds a case linking medical experts' findings to the film's conspiracy, now delivering the expert's concluding explanation.\n\nNarrative evidence pattern: the anecdote about the film's audience and the expert's quoted analysis sets up a direct citation or elaboration of the statistical claim about audience vulnerability.\n\nFinal token \"208,000, 402,000, 202,000, 200,000, 200,000\" is a rhetorical list of numbers mid-sentence, immediately requiring completion of the expert's conclusion about the film's audience being \"at risk.\"",
+    "Legal case analysis format: structured Q&A with numbered steps, case citation, and procedural explanation of court decisions.\n\nThe document is mid-explanation of the legal standard for admissibility in Federal Rule of Evidence, specifically detailing the court's finding about the instruction's admissibility \u2014 the analysis of the instruction's content and its legal significance is expected next.\n\nFinal token \"15.3033 is 30.63, 5.83, and 0.33 are 30.63, 5.83, and 0.33\" \u2014 a numerical repetition pattern mid-sentence, likely continuing with a legal conclusion about the instruction's admissibility or the court's reasoning."
+  ],
+  "input_sha256": "e46b9f906bf177073a81a843df264a571baadeadcc3749171de8ee0d08398ad5",
+  "values": [
+    {
+      "quote": "15 years",
+      "value": "15"
+    },
+    {
+      "quote": "60 years old",
+      "value": "60"
+    },
+    {
+      "quote": "military for 60",
+      "value": "60"
+    },
+    {
+      "quote": "208,000",
+      "value": "208000"
+    },
+    {
+      "quote": "402,000",
+      "value": "402000"
+    },
+    {
+      "quote": "202,000",
+      "value": "202000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "15.3033",
+      "value": "15.3033"
+    },
+    {
+      "quote": "30.63",
+      "value": "30.63"
+    },
+    {
+      "quote": "5.83",
+      "value": "5.83"
+    },
+    {
+      "quote": "0.33",
+      "value": "0.33"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including decimals and large integers, while excluding dates and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15 years\",\"value\":15},{\"quote\":\"60 years old\",\"value\":60},{\"quote\":\"military for 60\",\"value\":60},{\"quote\":\"208,000\",\"value\":208000},{\"quote\":\"402,000\",\"value\":402000},{\"quote\":\"202,000\",\"value\":202000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"15.3033\",\"value\":15.3033},{\"quote\":\"30.63\",\"value\":30.63},{\"quote\":\"5.83\",\"value\":5.83},{\"quote\":\"0.33\",\"value\":0.33}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including decimals and large integers, while excluding dates and identifiers.\"}",
+  "prompt_sha256": "dd2db510b78b85f5f9ba3ef4114c81bbf29328b3b516cd20bad706561e12f6ac"
+}

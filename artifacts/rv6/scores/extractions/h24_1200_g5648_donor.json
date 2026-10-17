@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5648",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem solution format requires a numerical answer following \"The smaller number is.\"\n\nThe algebraic setup (x + 9x = 50) demands solving x = (50 - 8x)/11, with integer solution expected.\n\nFinal token \"is\" completes the question prompt \"Find the smaller number is,\" immediately requiring a specific integer answer (likely \"5\" or \"10\") representing the actual value of x.\nThe equation x + 9x = 50/11 constrains the answer to be a small integer satisfying x = (50 - 4) / 11 \u2248 4.\n50/11 \u2248 4.6, so the exact integer answer is 5.\n50/11 with 4 excluded, yielding x = 5.\n50/11 = the integer solution to the.",
+    "Math word problem solution in progress: equation setup requires expressing total parts equation: x + 8x = 88.\n\nThe solution is mid-explanation, having established the equation x + (x + 8x) = total, now solving for x by expressing the equation as (8x + 1) = 8.\n\nFinal token \"has\" begins a clause explaining the factorization of the equation x + 8x = 8, immediately requiring a mathematical expression like \"8 parts\" or \"8 equal parts\" to describe the division relationship.\n8x + 1 = 8 times (1 + 1), so the equation factors into (8 + 1) parts, constraining next tokens to describe this factorization.\n8x + 1 = 8 times (1 + 1), leading to equation breakdown showing equal parts.\n1/8 division logic.",
+    "Math word problem solution format: algebraic setup requires equation solving, with variable x representing total number of coins.\n\nThe equation x + 5x = 180 has been established; the solution must now solve for x by expressing total parts as 9x + 4x = 180.\n\nFinal token \"9\" is the start of the equation \"9 parts,\" completing the factorization of 4x + x = 9x + 5x = 9x, immediately requiring \"parts\" or \"units\" to complete the equation explaining the sum of 5x + x = 9x.\nThe explanation of why 9x = total parts is mid-sentence, requiring the word \"parts\" and then solving for x = 12.\n9x = 9 parts, so the equation must resolve to x = 12.",
+    "Mathematical word problem solution in progress: equation (x + 5x) = 56 must be solved step-by-step.\n\nThe solution is mid-explanation, having set up the total equation and simplified it to x + x + 5x = 56, now solving for x.\n\nFinal token \"p\" begins the division expression \"56 total parts / (3+5)\" or similar, immediately requiring the numeric result of the division, likely \"10\" or \"10 parts\" to complete the integer solution.\nThe equation (50-5) must equal the total number of equal parts, constraining the next tokens to state the integer answer.\n56/3+5 is being resolved to yield x=10.\n50/31, completing the total number of equal parts to find the integer x.\n50/11.",
+    "Step-by-step math word problem walkthrough, following a structured solution format with each step building toward a numerical answer.\n\nThe algebraic equation x + 3x = 28 has been solved, and the solution is now resolving the fractional result \u2014 the division yields \"11/3 \u2248 3.67, so the number is approximately 3 people.\"\n\nFinal token \"16.3.6.11s. 13.\" ends mid-sentence after stating the approximate decimal result of solving x\u00b2 + 3x = 11, immediately requiring the conclusion: rounding to a whole number (likely \"3\") and confirming the integer answer.\nFinal token \"13.\" is part of explaining the approximate integer solution, expecting continuation like \"therefore, the number is 3 people.\"",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with equation solving, expecting a numerical answer.\n\nThe equation x + 3x = 116 has been solved via algebraic manipulation, and the narrative momentum requires stating the integer solution (x \u2248 2.5).\n\nFinal token \"problem.\" closes the iterative approximation explanation (\"round off the equation\"), immediately constraining the next tokens to state the final answer, likely \"The number of boys is...\" or a direct numerical result like \"2.\"\nFinal token \"problem.\" ends the iterative reasoning chain, expecting the concluding answer identifying the integer count of boys and girls.\nThe mathematical result must align with the approximate ratio 1:3 between boys and girls.\nThe equation yields x \u2248 1/3 of 116, so the integer answer is 2."
+  ],
+  "input_sha256": "44c11c8e34cd8e88631ce63d5261b7994e3635c1009eb53185e4889188686bfa",
+  "values": [
+    {
+      "quote": "x + 9x = 50",
+      "value": "50"
+    },
+    {
+      "quote": "50 - 8x",
+      "value": "8"
+    },
+    {
+      "quote": "(50 - 8x)/11",
+      "value": "11"
+    },
+    {
+      "quote": "\"5\"",
+      "value": "5"
+    },
+    {
+      "quote": "\"10\"",
+      "value": "10"
+    },
+    {
+      "quote": "50/11",
+      "value": "4.54545"
+    },
+    {
+      "quote": "50 - 4",
+      "value": "4"
+    },
+    {
+      "quote": "4.6",
+      "value": "4.6"
+    },
+    {
+      "quote": "x + 8x = 88",
+      "value": "88"
+    },
+    {
+      "quote": "(8x + 1) = 8",
+      "value": "1"
+    },
+    {
+      "quote": "8 times (1 + 1)",
+      "value": "2"
+    },
+    {
+      "quote": "1/8",
+      "value": "0.125"
+    },
+    {
+      "quote": "x + 5x = 180",
+      "value": "180"
+    },
+    {
+      "quote": "9x + 4x = 180",
+      "value": "9"
+    },
+    {
+      "quote": "x = 12",
+      "value": "12"
+    },
+    {
+      "quote": "(x + 5x) = 56",
+      "value": "56"
+    },
+    {
+      "quote": "3+5",
+      "value": "3"
+    },
+    {
+      "quote": "50-5",
+      "value": "45"
+    },
+    {
+      "quote": "50/31",
+      "value": "1.6129"
+    },
+    {
+      "quote": "x + 3x = 28",
+      "value": "28"
+    },
+    {
+      "quote": "11/3",
+      "value": "3.66667"
+    },
+    {
+      "quote": "3.67",
+      "value": "3.67"
+    },
+    {
+      "quote": "16.3.6.11s. 13.",
+      "value": "13"
+    },
+    {
+      "quote": "x + 3x = 116",
+      "value": "116"
+    },
+    {
+      "quote": "2.5",
+      "value": "2.5"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, fractions, and results of simple arithmetic expressions found within the provided descriptions, ensuring each value is mapped to its shortest unique source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"x + 9x = 50\",\"value\":50},{\"quote\":\"50 - 8x\",\"value\":8},{\"quote\":\"(50 - 8x)/11\",\"value\":11},{\"quote\":\"\\\"5\\\"\",\"value\":5},{\"quote\":\"\\\"10\\\"\",\"value\":10},{\"quote\":\"50/11\",\"value\":4.545454545454546},{\"quote\":\"50 - 4\",\"value\":4},{\"quote\":\"4.6\",\"value\":4.6},{\"quote\":\"x + 8x = 88\",\"value\":88},{\"quote\":\"(8x + 1) = 8\",\"value\":1},{\"quote\":\"8 times (1 + 1)\",\"value\":2},{\"quote\":\"1/8\",\"value\":0.125},{\"quote\":\"x + 5x = 180\",\"value\":180},{\"quote\":\"9x + 4x = 180\",\"value\":9},{\"quote\":\"x = 12\",\"value\":12},{\"quote\":\"(x + 5x) = 56\",\"value\":56},{\"quote\":\"3+5\",\"value\":3},{\"quote\":\"50-5\",\"value\":45},{\"quote\":\"50/31\",\"value\":1.6129032258064515},{\"quote\":\"x + 3x = 28\",\"value\":28},{\"quote\":\"11/3\",\"value\":3.6666666666666665},{\"quote\":\"3.67\",\"value\":3.67},{\"quote\":\"16.3.6.11s. 13.\",\"value\":13},{\"quote\":\"x + 3x = 116\",\"value\":116},{\"quote\":\"2.5\",\"value\":2.5}],\"justification\":\"Extracted all distinct numeric literals, fractions, and results of simple arithmetic expressions found within the provided descriptions, ensuring each value is mapped to its shortest unique source quote.\"}",
+  "prompt_sha256": "6950c7b3bf0fb7c1c7e817d5fde1fdffc3d5fd9ed33a554fe75a2523dd072fd6"
+}

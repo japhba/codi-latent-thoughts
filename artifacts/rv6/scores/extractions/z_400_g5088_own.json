@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5088",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results reporting pattern: the text is presenting hazard ratios with confidence intervals and p-values, following a structured academic medical finding format.\n\nAcademic medical study results section: the study's findings are being enumerated with specific hazard ratios for each outcome, establishing expectation for continued numerical results.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"all-cause mortality,\" immediately requiring a specific numerical value (likely a decimal odds ratio, e.g., \"1.95\") followed by statistical qualifiers like confidence interval and p-value.",
+    "Narrative momentum of character relationship analysis: the review is tracing emotional history of the couple, building toward explaining the romantic complication involving the mother's marriage.\n\nThe plot summary is mid-sentence describing the mother's emotional state and the couple's relationship, establishing a cause-and-effect chain about the mother's marriage creating a love triangle or emotional conflict.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a noun phrase or adjective describing the emotional state or situation the relationship \"was\" \u2014 likely \"complex,\" \"torn,\" or a similar descriptor continuing the character analysis.",
+    "Narrative momentum of a romantic film review: the scene is mid-description, recounting memories of the couple's first meeting and emotional reactions, building toward a vivid sensory/emotional climax.\n\nThe review follows a structured film synopsis pattern, alternating between plot summary and personal reflection, now deep in a specific memory sequence describing the couple's emotional response to the dinner scene.\n\nFinal token \"4\" is the beginning of a time expression (\"about 4\"), part of a sentence describing how quickly the narrator felt a romantic feeling \u2014 immediately expects a unit of time like \"hours\" or \"days\" to complete the phrase.",
+    "Practical advice listicle format: the text is a personal reflection/sermon on practical faith, now transitioning into a concrete anecdote illustrating the \"practical tips\" theme.\n\nNarrative example momentum: the author is recounting a specific memory of a church sermon about cooking, with a direct quote about \"practical\" advice, building toward a lesson or insight about practical experience.\n\nFinal token \"68\" is mid-sentence, completing \"88\" as part of \"68,\" referencing the 68 years of cooking experience; the next token must continue this noun phrase, likely \"hours\" or a similar unit of time.",
+    "Narrative momentum: news article recounting a police incident, building toward consequences and legal/political implications of the viral video.\n\nJournalistic crime-reporting style: factual, third-person, recounting events with escalating detail \u2014 the story is building toward the police response and public reaction.\n\nFinal token \"202,200 people, including 2,000 people on social media\" ends mid-sentence describing the viral spread's impact; the next tokens must complete this clause, likely describing police/legal consequences or reactions to the incident.",
+    "Legal Q&A format with procedural case narrative: question posed, procedural history given, now detailing specific facts of the case scenario.\n\nThe procedural timeline is being recounted step-by-step (hearing \u2192 motion \u2192 discovery \u2192 trial \u2192 appeal), with the final question about \"hearing\" requiring a legal answer about admissibility of the phone call.\n\nFinal token \"24\" is mid-sentence within a time-convertion example (\"24 minutes... 24 hours later\"), immediately requiring continuation of the time reference \u2014 likely \"hours later\" or similar phrasing completing the procedural timeline detail."
+  ],
+  "input_sha256": "aa917bb2230bc757566765fe91bf370127e8d8b545df4502fac4ada54145afc6",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "202,200",
+      "value": "202200"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found in the descriptions, including '4', '68', '88', '202,200', '2,000', and '24'. Dates and years were excluded per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"68\",\"value\":68},{\"quote\":\"88\",\"value\":88},{\"quote\":\"202,200\",\"value\":202200},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"24\",\"value\":24}],\"justification\":\"Extracted explicit numeric literals found in the descriptions, including '4', '68', '88', '202,200', '2,000', and '24'. Dates and years were excluded per instructions.\"}",
+  "prompt_sha256": "270141c285d23f3698b9e2c2c8fdf3cf3af884199ddfeada867f717c21b2e3b3"
+}

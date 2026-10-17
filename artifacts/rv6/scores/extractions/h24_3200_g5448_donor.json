@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5448",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup requiring arithmetic completion: \"8 weeks \u00d7 30 yards = 240 yards.\"\n\n Word problem format demands a numerical answer, likely \"240\" or \"240 yards,\" following the arithmetic operation.\n\nThe final token \"is\" completes a word problem question asking for a specific numerical answer, immediately requiring a number (likely \"240\") representing the total yards purchased.\n8 \u00d7 30 / 4 = 240 divided by 4, so the answer must be 240.\n30 yards each week \u00d7 4 weeks = 120 yards used, so 80 yards needed.\n80 / 4 = 20 sets, so 3 \u00d7 8 = 240 books.\nEach division yields 3 sets.\n8 \u00d7 3 / 4 = 30 books weekly.\n3.",
+    "Math word problem solution format: word problem setup requires arithmetic calculation, expecting \"80 \u00f7 4 = 20 yards.\"\n\n Word problem solution structure: solution walkthrough follows a step-by-step arithmetic progression, requiring the computed result and then multiplication by 4.\n\nThe final token \"has\" completes \"The store has,\" directly introducing the numerical result of the division 80 \u00f7 4, so the next tokens must be \"20 yards\" (or \"20 yards per day\").\n80 \u00f7 4 = 20, so the next tokens must state this quantity before describing weekly total usage.\n80 yards is the computed quantity, immediately requiring \"20 yards of paper used each week before\" to complete the solution narrative.\n80 \u00f7 4 = 20 hours, then the next step involves multiplying by 8 weeks to find total yards.\n80.",
+    "Math word problem solution format: step-by-step word problem requiring arithmetic word problem solving.\n\n Word problem solution in progress: \"80 miles \u00f7 $8 = 20 gallons\" is the expected arithmetic, so the next tokens must complete the division result.\n\nThe final token \"2\" is the beginning of the numerical answer \"20\" (80 \u00f7 4), immediately requiring \"0 gallons\" to complete the solution statement \"He uses 80 miles of miles per week.\"\n80 miles \u00f7 4 miles = 20, so \"20 gallons\" is the next word, followed by explanation of weekly usage and then multiplication by 4 weeks.\n80 miles / 4 miles = 20, so the solution continues with \"0 gallons weekly\" before introducing the next calculation step.\n80 \u00f7 4 = 20, establishing the quantity before.",
+    "Word problem solution format: step-by-step arithmetic walkthrough requiring arithmetic completion.\n\n Word problem solution structure: the division calculation \"40 gallons / $4.00 = 10 gallons\" is the expected arithmetic, with the solution narrative now delivering the computed answer.\n\nThe final token \"20\" is the numerical result of the division 80 gallons \u00f7 4 gallons, immediately requiring the unit \"gallons\" and likely a sentence explaining the weekly usage before stating the cost answer.\nShe uses 20 gallons of gasoline per week.\nFinal token \"20\" is the numerical answer to \"20 gallons,\" completing the stated consumption figure before the solution continues with monthly cost.\n20 gallons = 80 gallons / 4 gallons = 20 gallons weekly.\nShe uses 20 gallons of gasoline per week.\n20 gallons is the computed quantity, requiring \"gall.",
+    "Word problem solution format: step-by-step arithmetic walkthrough requiring calculation of total gallons used.\n\n Word problem answer expected: 3 gallons \u00d7 30 gallons = 90 gallons, so the solution will state \"90 gallons per week.\"\n\nThe final token \"p\" is the unit abbreviation \"per week,\" completing the phrase \"20 gallons each week,\" immediately requiring \"er week\" to finish the sentence before continuing with the solution steps.\nHe uses 20 gallons weekly, so the next tokens will state the calculated total for three weeks.\nFinal token \"18 p\" is mid-sentence describing the per-week quantity, requiring \"er week\" to complete the division statement.\n20 gallons / $3 = 2 tanks, confirming 2 tanks used weekly.\nHe purchases 2 tanks per week.\n20 gallons / 3 gallons = 2 tanks daily, then total fuel consumption for.",
+    "Word problem solution format: structured word problem followed by step-by-step arithmetic calculation, now requiring the solution narrative.\n\nThe solution must show the arithmetic: 186 \u00f7 27 = 7.2 days, then 3 \u00d7 27 = 81 total units, confirming the answer.\n\nFinal token \"sits.\" ends the question setup sentence (\"Each week, the class sits 27 students\"), immediately requiring the solution steps: \"3 weeks \u00d7 27 = 81 units in three weeks.\"\nFinal token \"23 s.\" completes the question prompt \"How many units in three weeks?\" \u2014 the next tokens must state the calculated answer: \"81 classes.\"\nHe has 27 books / 27 / 6 = 4.5 books per week, then 3 weeks \u00d7 1 week = weekly total, then answer \"81 books."
+  ],
+  "input_sha256": "8d3077b87783c42ef13767f3ff1461b243d9ce143ec57511ab73bb083c55f61c",
+  "values": [
+    {
+      "quote": "8 weeks",
+      "value": "8"
+    },
+    {
+      "quote": "30 yards",
+      "value": "30"
+    },
+    {
+      "quote": "240 yards",
+      "value": "240"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "120 yards",
+      "value": "120"
+    },
+    {
+      "quote": "80 yards",
+      "value": "80"
+    },
+    {
+      "quote": "20 sets",
+      "value": "20"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "$8",
+      "value": "8"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "40 gallons",
+      "value": "40"
+    },
+    {
+      "quote": "$4.00",
+      "value": "4"
+    },
+    {
+      "quote": "10 gallons",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "90 gallons",
+      "value": "90"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "$3",
+      "value": "3"
+    },
+    {
+      "quote": "2 tanks",
+      "value": "2"
+    },
+    {
+      "quote": "186",
+      "value": "186"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "7.2 days",
+      "value": "7.2"
+    },
+    {
+      "quote": "81",
+      "value": "81"
+    },
+    {
+      "quote": "23",
+      "value": "23"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "4.5 books",
+      "value": "4.5"
+    },
+    {
+      "quote": "1 week",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"8 weeks\",\"value\":8},{\"quote\":\"30 yards\",\"value\":30},{\"quote\":\"240 yards\",\"value\":240},{\"quote\":\"4\",\"value\":4},{\"quote\":\"120 yards\",\"value\":120},{\"quote\":\"80 yards\",\"value\":80},{\"quote\":\"20 sets\",\"value\":20},{\"quote\":\"3\",\"value\":3},{\"quote\":\"80\",\"value\":80},{\"quote\":\"$8\",\"value\":8},{\"quote\":\"2\",\"value\":2},{\"quote\":\"0\",\"value\":0},{\"quote\":\"40 gallons\",\"value\":40},{\"quote\":\"$4.00\",\"value\":4},{\"quote\":\"10 gallons\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"90 gallons\",\"value\":90},{\"quote\":\"18\",\"value\":18},{\"quote\":\"$3\",\"value\":3},{\"quote\":\"2 tanks\",\"value\":2},{\"quote\":\"186\",\"value\":186},{\"quote\":\"27\",\"value\":27},{\"quote\":\"7.2 days\",\"value\":7.2},{\"quote\":\"81\",\"value\":81},{\"quote\":\"23\",\"value\":23},{\"quote\":\"6\",\"value\":6},{\"quote\":\"4.5 books\",\"value\":4.5},{\"quote\":\"1 week\",\"value\":1}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.\"}",
+  "prompt_sha256": "a67955030edad544e079b56f08cc2ddde002b9eb0ea67d402a44a737a8da8622"
+}

@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5005",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results reporting pattern: study findings presented with specific hazard ratios, confidence intervals, and p-values, establishing expectation for continued quantitative results.\n\nMedical/epidemiological study structure: the text follows a results-then-discussion format, with findings about \"all-cause mortality\" just stated, implying additional outcome categories (e.g., cardiovascular, stroke) will follow.\n\nFinal token \"is\" opens a predicate completing the sentence about \"all-cause mortality,\" requiring an immediate numerical finding \u2014 likely a hazard ratio or odds ratio with associated confidence interval, mirroring the earlier \"HR, 1.19; 95% CI, 1.08\u20131.31\" pattern.",
+    "Narrative momentum of plot summary: the scene is mid-action, recounting the sequence of events leading to the confrontation, with the character's emotional state and plot trajectory established.\n\nThe film's central romantic tension between the two sisters drives the story; the scene is resolving the crisis, so the next tokens will describe the outcome or continuation of the confrontation.\n\nFinal token \"300 was 360\" is mid-sentence (\"360 was 180 minutes later, 180 was 360\"), a mid-sentence fragment describing the scene's setting, immediately requiring continuation of the scene's narrative \u2014 likely \"360 was 27 minutes later\" or similar plot detail completing the scene.",
+    "Narrative momentum: the anecdote is mid-story, recounting a real-life incident that inspired the book's story, building toward a spiritual lesson or resolution.\n\nThe author's personal testimony pattern: the anecdote illustrates the book's premise (witnessing violence, faith, community), so the next tokens will likely describe the outcome or emotional impact of the 12-minute drive.\n\nFinal token \"12\" is a number mid-sentence (\"12 minutes...12 minutes...12 minutes\" or \"12 minutes...13 minutes\"), part of \"12 minutes...12 minutes\" or \"12 minutes...13 minutes\" \u2014 a time reference completing the anecdote's climax, likely followed by \"minutes\" and then a concluding reflection on the story's impact.",
+    "Narrative momentum toward completing the theological/historical anecdote: the story builds to a moral lesson about faith and violence, with the film's climax imminent.\n\nThe anecdote structure follows a cause-effect pattern: the priest's story leads to the film's plot, and the final sentence is mid-explanation of the film's narrative, requiring completion of the theological reflection on the 16 people's deaths.\n\nFinal token \"16\" is mid-sentence (\"60 people were 10.5 minutes away, but only 12 people were killed, so 89% of the time, 60 minutes later, 14 people were killed\"), completing the statistic \u2014 \"10.5 minutes\" \u2014 and the narrative now expects the story's moral or spiritual conclusion.",
+    "Narrative momentum: the article recounts a crime story building toward a moral/lesson, with the final sentence summarizing the case's significance and legal outcome.\n\nFactual recounting of the fraud's origin: the text is recounting the police report's narrative, establishing the fraud's history and its consequences, expecting continuation of the legal/ethical implications.\n\nFinal token \"17\" is mid-sentence (\"10,000 people were 11% of the 59,641 \u2014 14 people, or 10.6% \u2014 were arrested, leaving 99% of the crime to the police\"), completing the statistic; \"15 people were arrested\" or similar closure is expected.",
+    "Narrative momentum of legal case analysis: factual recounting of fraud allegations, building toward case outcome and moral lesson about religious fraud.\n\nLegal case structure: the text is recounting the criminal case details, with the priest's death and investigation leading to the verdict \u2014 the religious fraud finding is the expected conclusion.\n\nFinal token \"11\" is mid-sentence (\"17 people were 109% sure...13 was 10\"), completing \"16 people were 19\" \u2014 \"10\" is the final word, part of \"11\" (17 minus 4), and the sentence continues explaining the priest's death and its legal implications."
+  ],
+  "input_sha256": "49435f2251bb8bb4ebbe9de2fe18b93b956249279e92a79ea72660a1e699f2fe",
+  "values": [
+    {
+      "quote": "HR, 1.19",
+      "value": "1.19"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "1.31",
+      "value": "1.31"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10.5",
+      "value": "10.5"
+    },
+    {
+      "quote": "89%",
+      "value": "89"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "11%",
+      "value": "11"
+    },
+    {
+      "quote": "59,641",
+      "value": "59641"
+    },
+    {
+      "quote": "10.6%",
+      "value": "10.6"
+    },
+    {
+      "quote": "99%",
+      "value": "99"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "109%",
+      "value": "109"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and arithmetic operands from the provided descriptions, ensuring each unique quote/value pair is represented exactly as it appears in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR, 1.19\",\"value\":1.19},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"1.31\",\"value\":1.31},{\"quote\":\"300\",\"value\":300},{\"quote\":\"360\",\"value\":360},{\"quote\":\"180\",\"value\":180},{\"quote\":\"12\",\"value\":12},{\"quote\":\"16\",\"value\":16},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10.5\",\"value\":10.5},{\"quote\":\"89%\",\"value\":89},{\"quote\":\"14\",\"value\":14},{\"quote\":\"17\",\"value\":17},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"11%\",\"value\":11},{\"quote\":\"59,641\",\"value\":59641},{\"quote\":\"10.6%\",\"value\":10.6},{\"quote\":\"99%\",\"value\":99},{\"quote\":\"15\",\"value\":15},{\"quote\":\"11\",\"value\":11},{\"quote\":\"109%\",\"value\":109},{\"quote\":\"13\",\"value\":13},{\"quote\":\"10\",\"value\":10},{\"quote\":\"19\",\"value\":19},{\"quote\":\"4\",\"value\":4}],\"justification\":\"Extracted all explicit numeric literals, percentages, and arithmetic operands from the provided descriptions, ensuring each unique quote/value pair is represented exactly as it appears in the text.\"}",
+  "prompt_sha256": "7a635be5ceb2c4cb6e156aa714291f7ef98b2a3aeea051cbd58408b4e01c642f"
+}

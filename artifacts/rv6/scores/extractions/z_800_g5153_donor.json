@@ -1,0 +1,81 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5153",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical pattern continuation: hazard rate data presented as a series of specific numerical values (e.g., \"1 in 1,000,\" \"1 in 100,000\"), establishing expectation for precise figures.\n\nNarrative momentum of comparative statistics: the text is mid-sentence presenting hazard rate comparisons across multiple years, requiring completion of the 2019 data point.\n\nFinal token \"is\" opens a predicate completing \"the hazard rate is,\" requiring an immediate numerical value (likely a fraction like \"1 in X\" or decimal) consistent with the established statistical format.",
+    "Film review genre with plot summary and character analysis, now transitioning to scene-by-scene narrative description of the film's opening sequence.\n\nThe review has been building toward character dynamics and plot, with the scene description serving as the climactic example; the political tension between father and son is the dominant narrative thread.\n\nFinal token \"500 was 650 was\" is mid-sentence, part of a descriptive clause about the film's scene (\"500 was 650 was 45 minutes\"), requiring completion of the scene description \u2014 likely a character's action or emotional state \u2014 continuing the pattern of \"45 minutes of X was Y.\"",
+    "Narrative momentum of character-driven romantic plot summary: the text is recounting plot details, and the author's personal reaction (\"I loved this book\") signals a shift to first-person reflection on the book's emotional impact.\n\nBook review genre conventions: after plot summary, personal anecdotes and food/drink references (\"ice cream,\" \"ice cream\") suggest a foodie blog format, with more character details or recipe content expected.\n\nFinal token \"4\" is mid-word (\"4\" beginning \"4 days\" or \"4 weeks\" or \"40 days\"), part of \"49 days\" or a time reference completing \"4\" \u2014 likely continuing \"4\" into a number like \"4\" or \"49,\" describing the romantic buildup timeline.",
+    "Q&A format with religious advice column structure: question posed, answer given, now personal follow-up question signals confessional, vulnerable disclosure tone.\n\nNarrative momentum of confession: the author has admitted relationship issues, marriage, and now must address the spiritual/relationship status question \u2014 the answer will likely clarify the Christian dating advice and pivot to her own situation.\n\nFinal token \"35\" is mid-sentence (\"33\" correction), part of \"25\" \u2014 \"33\" is the corrected age \"35\" \u2014 \"35\" \u2014 \"33\" \u2014 \"25\" \u2014 \"12\" \u2014 \"12\" \u2014 \"35\" \u2014 the next tokens must complete \"35\" and continue the disclosure of her situation, likely \"years\" or \"years old\" followed by further personal context.",
+    "News article structure: legal warning article following inverted pyramid, with practical implications and official statements already given, now concluding with liability analysis.\n\nStatistical/legal reasoning momentum: the article has been building toward a warning about public liability, citing the survey data and legal context, suggesting a concluding advisory statement or call-to-action follows.\n\nFinal token \"2,000,000 people, was 2,000,000,000,000,000,000,000\" (garbled \"2,000 people, was 2,000\") \u2014 mid-sentence completing a liability warning, likely continuing with \"people\" or a legal consequence clause.",
+    "Legal rulebook format with structured citation pattern: rule stated, rulebook rule cited, now practical application/interpretation expected with examples or elaboration.\n\nThe text is systematically explaining how to apply the rule to real-world situations, following a pattern of \"standard rule \u2192 practical rule \u2192 example\" common in legal summaries.\n\nFinal token \"1,489.13 is 9.8 miles away\" ends a sentence stating the rule's basis (\"1.48 miles away\"), completing the first rule's explanation; the next tokens will likely continue with \"The rule is based on...\" or transition to the next rule's practical application."
+  ],
+  "input_sha256": "3e12b723b3ba3e5eaa47a3ae2f75982538a7ba0fc6a703cf6905675024ce8700",
+  "values": [
+    {
+      "quote": "1 in 1,000",
+      "value": "1"
+    },
+    {
+      "quote": "1 in 1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "45 minutes",
+      "value": "45"
+    },
+    {
+      "quote": "49 days",
+      "value": "49"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "2,000,000 people",
+      "value": "2000000"
+    },
+    {
+      "quote": "2,000,000,000,000,000,000,000",
+      "value": "2000000000000000000000"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "1,489.13",
+      "value": "1489.13"
+    },
+    {
+      "quote": "9.8 miles",
+      "value": "9.8"
+    },
+    {
+      "quote": "1.48 miles",
+      "value": "1.48"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including large integers, decimals, and components of ratios, while excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"1 in 1,000\",\n      \"value\": 1\n    },\n    {\n      \"quote\": \"1 in 1,000\",\n      \"value\": 1000\n    },\n    {\n      \"quote\": \"1 in 100,000\",\n      \"value\": 100000\n    },\n    {\n      \"quote\": \"45 minutes\",\n      \"value\": 45\n    },\n    {\n      \"quote\": \"49 days\",\n      \"value\": 49\n    },\n    {\n      \"quote\": \"35\",\n      \"value\": 35\n    },\n    {\n      \"quote\": \"33\",\n      \"value\": 33\n    },\n    {\n      \"quote\": \"25\",\n      \"value\": 25\n    },\n    {\n      \"quote\": \"12\",\n      \"value\": 12\n    },\n    {\n      \"quote\": \"2,000,000 people\",\n      \"value\": 2000000\n    },\n    {\n      \"quote\": \"2,000,000,000,000,000,000,000\",\n      \"value\": 2e+21\n    },\n    {\n      \"quote\": \"2,000\",\n      \"value\": 2000\n    },\n    {\n      \"quote\": \"1,489.13\",\n      \"value\": 1489.13\n    },\n    {\n      \"quote\": \"9.8 miles\",\n      \"value\": 9.8\n    },\n    {\n      \"quote\": \"1.48 miles\",\n      \"value\": 1.48\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including large integers, decimals, and components of ratios, while excluding years and ordinals.\"\n}",
+  "prompt_sha256": "799b0aa0bc5cfdef30389bb47314995dfed5f54ece6bc428b7dd644838fffcbf"
+}

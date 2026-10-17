@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5021",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text lists country-specific data with consistent formatting (e.g., \"1999: 1999: 1999\"), expecting continuation of numeric values.\n\nContinuation of country comparison: the sentence is mid-list, presenting sequential country entries with hazard ratings, implying more countries and their numeric values follow.\n\nFinal token \"is\" opens a numeric value clause mid-sentence (\"The number of countries with a high level of seismic hazard is\"), immediately requiring a specific numeric figure (likely a percentage or count) to complete the predicate.",
+    "Narrative momentum of character description: the scene is mid-action, detailing the scene's plot and character dynamics, expecting continuation of plot summary.\n\nFilm review genre conventions: structured description of setting, characters, and plot progression signals upcoming elaboration on the family's emotional state or scene details.\n\nFinal token \"70,\" is mid-sentence within a factual description of the scene's setting (\"70 was 70, 70 was 70\"), suggesting a typo/continuation of the number \"768\" \u2014 the next tokens will complete the interrupted \"8th\" or describe the character's emotional state, likely \"768\" or continuing the interrupted \"70 was 74\" \u2014 most likely completing a numerical detail about the relationship or scene context.",
+    "Instructional recipe format with numbered steps and practical tips, establishing a pattern of detailed, conversational cooking advice with specific ingredient references.\n\nThe text is mid-explanation of a personal anecdote about learning to make bread, with the author elaborating on sensory/visual cues (\"dark, dense, and shiny\") and memory triggers, suggesting continuation of this reflective instructional thread.\n\nFinal token \"2\" is part of an interrupted numerical sequence (\"21 days,\" \"21 days,\" \"2\"), likely continuing a time-based calculation or recipe step; \"21\" was just mentioned, so the next token completes \"23\" or a new sentence continuing the 21-day bread-making timeline, or \"2 days\" \u2014 most likely \"21\" completing a memory trigger or recipe duration reference.",
+    "Q&A format with expert advice structure: article lists health tips, now delivering specific expert guidance on advice-giving strategies.\n\nThe response is mid-sentence completing a practical recommendation, with \"11 tips\" framing suggesting a listicle; the content must elaborate on specific behavioral/health advice for parents.\n\nFinal token \"15\" ends an incomplete enumeration (\"31\"), part of a specific statistic about the article's content; \"31\" is the article's title number, and \"111\" suggests a typo; the next tokens must complete the thought about advice-giving \u2014 likely \"17\" or continuing \"41\" \u2014 but most immediately, the sentence about \"31\" (likely \"11\" family members) requires completing the medical/psychological reasoning about gender differences in stress responses.",
+    "News article reporting style with factual, journalistic tone \u2014 narrative momentum building toward completing the analysis of the film's social media impact and plot details.\n\nThe article is explaining the study's findings and the film's plot, with the argumentative thread connecting the anecdote to the critical reception; the review's conclusion about the 23% social media increase needs completion.\n\nFinal token \"23,000 people\" ends a clause mid-thought, part of a critical analysis sentence; \"233 people were affected, but the film's 12,323 people were 234 people\" \u2014 the sentence is incomplete, expecting continuation of the fraud/cheating statistic, likely \"132 people were 233\" or similar numerical contrast completing the fraud narrative.",
+    "Q&A format pattern: structured legal/property advice blog with timestamped entries, each describing a scenario then providing procedural steps.\n\nNarrative momentum of sequential procedural steps: the timeline is mid-flow, detailing a chronological sequence of events (call \u2192 4 hours \u2192 2 hours \u2192 30 minutes), with time-based progression continuing.\n\nFinal token \"40\" is mid-sentence in a time-based scenario (\"49 minutes... 40\"), part of a memory/recording instruction; \"49 minutes\" was just stated, so \"43 minutes\" or similar time unit follows, then continuation of the 44th day's activity (likely \"43 days later\" or similar), completing the 119-hour time gap calculation; next tokens likely continue the memory card timeline narrative."
+  ],
+  "input_sha256": "5edd67e626cfed8a55de7d6cfb939de6c1cc881224850ed3d1ea951c859c1a03",
+  "values": [
+    {
+      "quote": "1999",
+      "value": "1999"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "768",
+      "value": "768"
+    },
+    {
+      "quote": "74",
+      "value": "74"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "23",
+      "value": "23"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "111",
+      "value": "111"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "23%",
+      "value": "23"
+    },
+    {
+      "quote": "23,000 people",
+      "value": "23000"
+    },
+    {
+      "quote": "233",
+      "value": "233"
+    },
+    {
+      "quote": "12,323",
+      "value": "12323"
+    },
+    {
+      "quote": "234",
+      "value": "234"
+    },
+    {
+      "quote": "132",
+      "value": "132"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "49",
+      "value": "49"
+    },
+    {
+      "quote": "43",
+      "value": "43"
+    },
+    {
+      "quote": "44",
+      "value": "44"
+    },
+    {
+      "quote": "119",
+      "value": "119"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within quotes and percentages, from the provided descriptions while ignoring years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1999\",\"value\":1999},{\"quote\":\"70\",\"value\":70},{\"quote\":\"768\",\"value\":768},{\"quote\":\"74\",\"value\":74},{\"quote\":\"2\",\"value\":2},{\"quote\":\"21\",\"value\":21},{\"quote\":\"23\",\"value\":23},{\"quote\":\"11\",\"value\":11},{\"quote\":\"15\",\"value\":15},{\"quote\":\"31\",\"value\":31},{\"quote\":\"111\",\"value\":111},{\"quote\":\"17\",\"value\":17},{\"quote\":\"41\",\"value\":41},{\"quote\":\"23%\",\"value\":23},{\"quote\":\"23,000 people\",\"value\":23000},{\"quote\":\"233\",\"value\":233},{\"quote\":\"12,323\",\"value\":12323},{\"quote\":\"234\",\"value\":234},{\"quote\":\"132\",\"value\":132},{\"quote\":\"4\",\"value\":4},{\"quote\":\"30\",\"value\":30},{\"quote\":\"40\",\"value\":40},{\"quote\":\"49\",\"value\":49},{\"quote\":\"43\",\"value\":43},{\"quote\":\"44\",\"value\":44},{\"quote\":\"119\",\"value\":119}],\"justification\":\"Extracted all explicit numeric literals, including those within quotes and percentages, from the provided descriptions while ignoring years and ordinals as per instructions.\"}",
+  "prompt_sha256": "fdd883ee7e49565621dd9c3868edc2a6b7cecf8ceee15e5a85f1a35df166315b"
+}

@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5133",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: study findings are being reported with specific hazard ratios and confidence intervals, e.g., \"HR=1.99, 95% CI: 1.08-3.34,\" establishing a template for reporting remaining findings.\n\nAcademic/journalistic reporting style: formal citation of study details, methodology, and results in sequence, with each finding elaborated with precise numerical data.\n\nFinal token \"is\" opens a predicate completing \"The hazard of being struck by a train is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.99\" or similar) consistent with the established reporting pattern.",
+    "Narrative momentum of plot summary: the text is recounting character motivations and plot, building toward explaining the film's political conflict and family dynamics.\n\nThe review's analytical tone shifts to thematic interpretation, with the author now recounting the film's plot and character motivations, expecting continuation of the political/religion conflict narrative.\n\nFinal token \"255 was 255 was\" (likely a typo mid-sentence) is mid-clause describing the father's reaction to the 1880s, part of \"255 was 1880s\" \u2014 the sentence requires completing the contrast between the father's political identity and the film's plot, expecting \"350\" or a description of the family's situation.",
+    "Narrative momentum of the book's plot summary: the author is recounting the spiritual journey, building toward explaining the historical/political context of the conversion and its consequences.\n\nTheological and thematic framing: the author's personal conversion story connects to the novel's themes of faith, sacrifice, and national identity, suggesting the next tokens will elaborate on the religious-political conflict or the book's resolution.\n\nFinal token \"5\" is mid-sentence (\"59\"), part of \"5\" completing \"5\" into \"5\" \u2014 likely \"5\" continuing \"15\" or \"5\" into \"59 years\" or \"5\" as part of \"5\" \u2014 but most immediately, \"5\" is part of \"15 years\" or \"7 years\" completing a clause about the author's age, or \"5\" beginning a new sentence about the historical arc.",
+    "Narrative momentum of book review: author is revealing the book's theological argument, building toward personal confession and resolution of the \"secret\" about her faith journey.\n\nConfessional/reflective register: the author has disclosed vulnerability about her gendered church experience and is now addressing the book's broader gendered-include theme, expecting continuation of this moral/religious framing.\n\nFinal token \"55\" is mid-sentence (\"65\"), completing \"65\" as part of \"55\" \u2014 \"50\" is the age, \"65\" is the total, and \"100\" is the implied conclusion; the clause \"the 55\" requires completing the historical context of the 59th anniversary and the author's revised stance on the 59th.",
+    "News article narrative momentum: factual crime reporting establishing film's plot, now detailing the film's investigative findings and legal implications.\n\nThe article follows a pattern of building toward the film's true purpose \u2014 exposing police misconduct \u2014 with the final sentence mid-argument about the film's audience and the statistic \"12 people were arrested,\" implying further elaboration on the film's investigative findings or public reception.\n\nFinal token \"10,240 people was 142 people, was 20,000 people, was 17 people\" \u2014 mid-sentence fragment completing a statistic, immediately requiring continuation of the arrest count or a concluding clause about the film's true intent.",
+    "Legal case summary format: factual narrative of conviction, following standard crime reporting structure with verdict, charges, and case details.\n\nNarrative momentum of the case analysis: the text is recounting the conviction's basis, building toward the court's reasoning and findings; the appeal's grounds and outcome are expected next.\n\nFinal token \"10.6 was 17 pages, 16 was 53 pages\" ends mid-sentence (\"14 pages were 1.8 was 10.6 pages was 19 pages...\"), describing the conviction's basis; the next tokens must complete this sentence, likely continuing the factual finding about the 19 pages of evidence."
+  ],
+  "input_sha256": "f1eba3be40b531be4b3c0b591fbc3e4a259d243e667fd9f9ee26efa10d4f68c2",
+  "values": [
+    {
+      "quote": "HR=1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "1880s",
+      "value": "1880"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "59",
+      "value": "59"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "59th",
+      "value": "59"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10,240",
+      "value": "10240"
+    },
+    {
+      "quote": "142",
+      "value": "142"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "10.6",
+      "value": "10.6"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "53",
+      "value": "53"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "1.8",
+      "value": "1.8"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within percentages, ordinals, and decades, as well as standalone integers and decimals found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"HR=1.99\", \"value\": 1.99}, {\"quote\": \"95% CI\", \"value\": 95}, {\"quote\": \"1.08\", \"value\": 1.08}, {\"quote\": \"3.34\", \"value\": 3.34}, {\"quote\": \"1880s\", \"value\": 1880}, {\"quote\": \"350\", \"value\": 350}, {\"quote\": \"5\", \"value\": 5}, {\"quote\": \"59\", \"value\": 59}, {\"quote\": \"15\", \"value\": 15}, {\"quote\": \"7\", \"value\": 7}, {\"quote\": \"55\", \"value\": 55}, {\"quote\": \"65\", \"value\": 65}, {\"quote\": \"50\", \"value\": 50}, {\"quote\": \"100\", \"value\": 100}, {\"quote\": \"59th\", \"value\": 59}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"10,240\", \"value\": 10240}, {\"quote\": \"142\", \"value\": 142}, {\"quote\": \"20,000\", \"value\": 20000}, {\"quote\": \"17\", \"value\": 17}, {\"quote\": \"10.6\", \"value\": 10.6}, {\"quote\": \"16\", \"value\": 16}, {\"quote\": \"53\", \"value\": 53}, {\"quote\": \"14\", \"value\": 14}, {\"quote\": \"1.8\", \"value\": 1.8}, {\"quote\": \"19\", \"value\": 19}], \"justification\": \"Extracted all explicit numeric literals, including those within percentages, ordinals, and decades, as well as standalone integers and decimals found within the provided descriptions.\"}",
+  "prompt_sha256": "a59ab42cf39c095df67981e79e941a8771de99b50f2ea1c0e2ac722457c820ad"
+}

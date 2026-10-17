@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5030",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: each finding pairs a group with a specific percentage, e.g., \"67% of non-Black participants,\" \"62% of Black participants,\" \"60% of participants who are not Black.\"\n\nNarrative momentum: the paragraph is mid-sentence reporting a specific numerical finding about Black participants' perceived racial advantage, requiring completion of the statistic.\n\nFinal token \"60% of participants who are not Black\" is an incomplete clause mid-sentence, immediately requiring a verb phrase describing what this group does or experiences, e.g., \"are more likely to report...\"\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically detailing the husband's failed suicide attempt and its consequences.\n\nRepetition/continuation pattern: the review has been summarizing plot events sequentially \u2014 husband's death, wife's grief, and now the husband's suicide \u2014 suggesting the next tokens continue this plot synopsis.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a verb phrase or adjective completing what the husband \"was\" (e.g., \"was expecting,\" \"was planning,\" \"was about to\").\n</explanation>",
+    "Narrative momentum: a real-life anecdote is being told, with the husband's skeptical reaction to the doctor's advice now being illustrated with a specific example.\n\nThe story follows a cause-effect structure: the husband's resistance to the doctor's advice is being demonstrated, requiring a concrete outcome or confrontation to follow.\n\nFinal token \"15\" is the beginning of a number (likely \"15-year-old\" or a specific age like \"15-year-old\" or \"15-year-old\" \u2014 actually \"15\" likely continues as \"15-year-old\" or a specific age like \"15-year-old\" or \"15-year-old\" \u2014 most probably completing a phrase like \"15-year-old\" or a specific age reference, but contextually it's mid-number, immediately requiring digit(s) to complete the number, likely \"15\" or a year like \"15-year-old\" or \"15-year-old\").\n</explanation>",
+    "Numbered list structure: \"10 Ways to Stay Grounded\" promises 10 items; item 1 is mid-sentence, requiring completion of the thought about the 60-year-old woman's situation.\n\nNarrative momentum: the anecdote about the 60-year-old woman is being introduced as a concrete example illustrating the \"grounded\" theme, so the next tokens will elaborate on her situation and likely transition to a grounding recommendation.\n\nFinal token \"60\" is mid-sentence, part of \"she was 60,\" immediately requiring a noun (e.g., \"years old\") or continuation describing her circumstances before the grounding advice follows.\n</explanation>",
+    "The article follows a news report structure: incident summary, then detailed explanation, now concluding with a specific calculation/quantification of the 10% figure.\n\nThe sentence ending mid-calculation (\"10% of 100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",
+    "Narrative momentum: the text is building toward the climactic revelation of the \"rarest\" dream, with the author explicitly signaling suspense about what the dream actually contained.\n\nStructural pattern: the author has been systematically describing each dream element (bedroom, bathroom, kitchen, living room), now transitioning to the final, most significant element \u2014 the rarest dream.\n\nFinal token: \"15 minutes\" closes a sentence fragment mid-thought, immediately requiring continuation describing what the author did next with the 15-minute dream, likely \"and then\" or a similar connector introducing the next action.\n</explanation>"
+  ],
+  "input_sha256": "406752134ea3684d104f79e481cbb3c27123c7a3d07a9ec42e70d4cd1ddb3adc",
+  "values": [
+    {
+      "quote": "67%",
+      "value": "67"
+    },
+    {
+      "quote": "62%",
+      "value": "62"
+    },
+    {
+      "quote": "60%",
+      "value": "60"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "10 Ways to Stay Grounded",
+      "value": "10"
+    },
+    {
+      "quote": "60-year-old",
+      "value": "60"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",
+      "value": "99999999999999995287335453651211007997446182781858083179085387749785952239205787068995699003416510776387310061494932420984963311567802202010637287727642443776"
+    },
+    {
+      "quote": "15 minutes",
+      "value": "15"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, including large powers of ten and list identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"67%\",\"value\":67},{\"quote\":\"62%\",\"value\":62},{\"quote\":\"60%\",\"value\":60},{\"quote\":\"15\",\"value\":15},{\"quote\":\"10 Ways to Stay Grounded\",\"value\":10},{\"quote\":\"60-year-old\",\"value\":60},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000\",\"value\":1e+155},{\"quote\":\"15 minutes\",\"value\":15}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, including large powers of ten and list identifiers.\"}",
+  "prompt_sha256": "eab0b4592794eb8d2c80e0c94ab7c6bb4182d028ce4cf619822a269168cc6f3c"
+}

@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5444",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem setup signals an arithmetic answer is imminent \u2014 total eggs = 6 \u00d7 2 = 12, so the answer is expected next.\n\nThe word problem genre convention requires a direct numerical answer, likely formatted as a number (e.g., \"The total weight is 12 pounds\").\n\n\"The answer is\" is a declarative prompt phrase, immediately requiring a numerical value or sentence stating the calculated result (6 \u00d7 2 = 12 pounds).\n\"The answer is\" is a standalone declarative, demanding a direct numeric response like \"12\" or \"The total weight is 12.\"\n6 \u00d7 2 = 12 eggs, so the next token is almost certainly \"12\" or \"The answer is 12.\"\n6 \u00d7 2 \u00d7 2 = 12.",
+    "Word problem setup requiring a simple arithmetic calculation: 6 numbers \u00d7 15 eggs = 90 total eggs.\n\nThe problem follows a word problem format where a calculation is expected, likely showing multiplication steps or a direct numerical answer.\n\n\"The answer is is\" is a repeated typo/placeholder mid-sentence, immediately constraining the next tokens to be the actual solution or explanation, likely \"is\" followed by a number or method like \"6 \u00d7 10 \u00d7 2.\"\nThe phrase \"The simple way is\" signals an explanation of the multiplication method is about to begin.\nThe next tokens should complete this sentence with a direct calculation or explanation.\nThe simple multiplication logic (5 \u00d7 2 digits) demands a numeric answer like \"90\" or \"multiply each by 5.\"",
+    "Math word problem format requires a direct numerical answer, likely \"140\" or similar simple arithmetic result.\n\nThe word problem setup (5 items \u00d7 12 eggs \u00d7 5 dollars) demands a multiplication calculation, constraining the answer to 5\u00d75\u00d76 or similar arithmetic.\n\n\"Answerans:ans\\nans\" is a prompt/template tag, immediately expecting a solution or worked explanation, likely starting with \"The total\" or a direct calculation like \"5 \u00d7 12 = 60 eggs.\"\nThe model must now provide the solution steps.\nThe next tokens should be a numeric answer or explanation.\nThe model must provide the arithmetic reasoning for 5\u00d76 multiplication.\nThe immediate constraint is a simple arithmetic solution showing how to compute 5\u00d76 eggs.",
+    "Word problem setup requiring arithmetic solution: 5 items \u00d7 6 dollars = 30, so the answer is expected next.\n\nThe problem follows a word problem format where a numerical calculation is expected, likely using multiplication (5 \u00d7 6 \u00d7 4).\n\n\"answerg\" is a misspelled prompt word, signaling the model should immediately provide the solution steps or direct answer, likely starting with \"The total product is...\" or a simple arithmetic expression.\nThe next tokens should begin the solution walkthrough.\nThe model must now provide the multiplication-based calculation.\n5 \u00d7 6 = 30, so the immediate next content should show the arithmetic or direct answer.\n multiplication expression or step-by-step solution expected next.\n5 \u00d7 4 simple arithmetic demonstration.\n5 numbers \u00d7 6 dollars = 30 total points, so the model must show the multiplication work.",
+    "Word problem setup requiring arithmetic calculation: 5 items \u00d7 6 dollars = 30 total, so the solution must yield \"30\" as the answer.\n\nThe problem follows a word problem format where a numerical answer is expected, likely formatted as a simple arithmetic expression or sentence.\n\n\"answergivenumbers\" is a prompt/label indicating a structured answer is immediately due, constraining the next tokens to be a direct numerical answer or explanation, likely \"30\" or \"The total weight is...\" using multiplication.\n5 \u00d7 6 \u00d7 4 = 120 eggs, but the problem asks for total eggs, so the model must resolve the multiplication correctly.\nThe model must now provide the multiplication solution (5 \u00d7 5 \u00d7 4 simple arithmetic).\n5 \u00d7 6 multiplication context demands a worked solution showing multiplication steps.\n5 \u00d7 4 simple multiplication.",
+    "Word problem setup requiring a numerical answer: 5 children \u00d7 6 ice cream scoops = total, so the answer is 30.\n\nThe problem follows a word problem format: given data (5 children, 5 ice cream scoops each) demands a direct arithmetic calculation.\n\n\"answergivenius\" is a prompt/label, immediately constraining the next tokens to be a numerical answer or solution, likely \"30\" or \"The total weight is 30 points\" or similar direct response.\nThe model must provide the arithmetic result (5 \u00d7 8 \u00d7 6) as the solution.\nThe multiplication expression \"5 \u00d7 8\" is the core calculation, so the next tokens must state the total points or state the answer directly.\n5 \u00d7 6 = 30 total points."
+  ],
+  "input_sha256": "7f38e6af5e4b5ff74d95398bc2246c34217a5b3a3a8cd6dff736f98f29394679",
+  "values": [
+    {
+      "quote": "6 \u00d7 2 = 12",
+      "value": "6"
+    },
+    {
+      "quote": "6 \u00d7 2 = 12",
+      "value": "2"
+    },
+    {
+      "quote": "6 \u00d7 2 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "6 \u00d7 2 \u00d7 2 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "6 numbers \u00d7 15 eggs = 90",
+      "value": "15"
+    },
+    {
+      "quote": "6 numbers \u00d7 15 eggs = 90",
+      "value": "90"
+    },
+    {
+      "quote": "6 \u00d7 10 \u00d7 2",
+      "value": "10"
+    },
+    {
+      "quote": "5 \u00d7 2 digits",
+      "value": "5"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "5 items \u00d7 12 eggs \u00d7 5 dollars",
+      "value": "12"
+    },
+    {
+      "quote": "5\u00d75\u00d76",
+      "value": "5"
+    },
+    {
+      "quote": "5\u00d75\u00d76",
+      "value": "6"
+    },
+    {
+      "quote": "5 \u00d7 12 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "5 items \u00d7 6 dollars = 30",
+      "value": "30"
+    },
+    {
+      "quote": "5 \u00d7 6 \u00d7 4",
+      "value": "4"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "5 \u00d7 8 \u00d7 6",
+      "value": "8"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique exact quote found in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6 \u00d7 2 = 12\",\"value\":6},{\"quote\":\"6 \u00d7 2 = 12\",\"value\":2},{\"quote\":\"6 \u00d7 2 = 12\",\"value\":12},{\"quote\":\"6 \u00d7 2 \u00d7 2 = 12\",\"value\":12},{\"quote\":\"6 numbers \u00d7 15 eggs = 90\",\"value\":15},{\"quote\":\"6 numbers \u00d7 15 eggs = 90\",\"value\":90},{\"quote\":\"6 \u00d7 10 \u00d7 2\",\"value\":10},{\"quote\":\"5 \u00d7 2 digits\",\"value\":5},{\"quote\":\"140\",\"value\":140},{\"quote\":\"5 items \u00d7 12 eggs \u00d7 5 dollars\",\"value\":12},{\"quote\":\"5\u00d75\u00d76\",\"value\":5},{\"quote\":\"5\u00d75\u00d76\",\"value\":6},{\"quote\":\"5 \u00d7 12 = 60\",\"value\":60},{\"quote\":\"5 items \u00d7 6 dollars = 30\",\"value\":30},{\"quote\":\"5 \u00d7 6 \u00d7 4\",\"value\":4},{\"quote\":\"120\",\"value\":120},{\"quote\":\"5 \u00d7 8 \u00d7 6\",\"value\":8}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique exact quote found in the text.\"}",
+  "prompt_sha256": "00bfe7bc592de6cf374508874d0aa5a68504748d218b41bd9cc0ca5f7d6293f8"
+}

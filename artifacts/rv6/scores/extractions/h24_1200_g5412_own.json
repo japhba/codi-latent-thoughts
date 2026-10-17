@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5412",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: total 500 minus (150+250+350) = 50 free numbers.\n\nThe problem explicitly asks for the remaining gap: 350+150+400\u221250\u2212100\u2212400, so the answer must be a specific integer.\n\nFinal token \"The number of free numbers is\" is an incomplete declarative sentence mid-answer, immediately requiring the numerical value \"50\" (the calculated answer to 350\u2212150\u2212400\u2212200\u221250).\nThe number must be stated directly as the final answer to the stated gap.\n350\u221250\u2212200\u2212400=50, completing the arithmetic result.\n350\u2212(150+400+.",
+    "Word problem solution structure: arithmetic setup requires summing 150+100+50=300 total cost.\n\nThe problem explicitly asks for total cost (150+100+50), so the next tokens must state \"300 grams\" as the arithmetic result.\n\nFinal token \"have\" is part of the sentence \"The total amount of the three items is,\" requiring an immediate numerical answer (300 grams) followed by explanation of how remaining weight is distributed or used.\n15+100+25=300 grams, so the next tokens must state this total before proceeding to find remaining weight or cost.\n150+100+50=300, so the solution will then state 300 grams and then ask how many grams remain after spending.\n1+2+5.",
+    "Math word problem requiring arithmetic completion: 100+150+50=350 total books, so the answer must sum these numbers.\n\nThe problem structure demands the total: 150+100+50=350 books sold, confirming the answer will be 350.\n\nFinal token \"3\" begins the number 350, completing the arithmetic sum of 100+150+50=350 total books sold, immediately constraining the next tokens to \"50\" to complete the total.\nThe sentence \"The total number of books sold is 3\" requires completing the number before stating the answer (350 books).\n100+150+50=350, representing the combined total of all three categories (100+150+20.",
+    "Word problem solution format: arithmetic setup requires completing the total sum (100+150+200=300 books), then finding remaining books.\n\nThe problem structure demands: total books needed = 20+15+100=300, then subtracting from 400 to find remaining books.\n\nFinal token \"30\" is the beginning of \"300,\" the arithmetic sum of 100+20+50, completing the equation \"300 pounds\" before stating the remaining books needed.\nThe number \"300\" must be completed immediately, followed by explanation of the remaining 10 books.\n300 is mid-number, requiring \"0 pounds\" to complete the total, then stating the answer.\n300 is the sum of 20+100+50.",
+    "Word problem format requires completing the arithmetic solution: 150 + 100 + 50 = 300 total items used.\n\nThe word problem structure demands a concluding sentence stating the remaining items after subtraction, e.g., \"She needs X tokens to buy...\"\n\nThe final token \"300\" is the total sum of all listed items (150+100+50), completing the arithmetic statement; next tokens must finish the sentence, likely \"pencils\" or \"to buy\" followed by the remaining tokens.\n300 tokens used, leaving 150 tokens remaining.\nThe solution must confirm the answer: 300 total used, then state remaining pencils after subtraction.\n300 total items used, so the sentence needs to conclude with \"pencils\" and then state the remaining count.\n300 + .",
+    "Word problem format: arithmetic problem with setup, calculation, and answer expected \u2014 \"They had 115 eggs\" signals a subtraction problem.\n\nThe problem has established two quantities (145 + 215 = 360 eggs used), so the remaining eggs after subtraction must be calculated.\n\nFinal token \"p. s. 4 eggs.\" closes the problem statement listing total used eggs (21 + 36 = 57), immediately requiring the question prompt like \"How many eggs remain\" or \"How much money is owed.\"\nFinal token \"p. s. 16 eggs.\" is the problem's conclusion, requiring the remaining balance calculation answer."
+  ],
+  "input_sha256": "7c9eb698cd1949f70fdc0de3b5917968e01e6e7a2d4db14078c30b74b7137b9d",
+  "values": [
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "145",
+      "value": "145"
+    },
+    {
+      "quote": "215",
+      "value": "215"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "57",
+      "value": "57"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including sums and differences mentioned as calculated answers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500\",\"value\":500},{\"quote\":\"150\",\"value\":150},{\"quote\":\"250\",\"value\":250},{\"quote\":\"350\",\"value\":350},{\"quote\":\"50\",\"value\":50},{\"quote\":\"400\",\"value\":400},{\"quote\":\"100\",\"value\":100},{\"quote\":\"200\",\"value\":200},{\"quote\":\"300\",\"value\":300},{\"quote\":\"15\",\"value\":15},{\"quote\":\"25\",\"value\":25},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"5\",\"value\":5},{\"quote\":\"3\",\"value\":3},{\"quote\":\"20\",\"value\":20},{\"quote\":\"10\",\"value\":10},{\"quote\":\"115\",\"value\":115},{\"quote\":\"145\",\"value\":145},{\"quote\":\"215\",\"value\":215},{\"quote\":\"360\",\"value\":360},{\"quote\":\"4\",\"value\":4},{\"quote\":\"21\",\"value\":21},{\"quote\":\"36\",\"value\":36},{\"quote\":\"57\",\"value\":57},{\"quote\":\"16\",\"value\":16}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including sums and differences mentioned as calculated answers.\"}",
+  "prompt_sha256": "48910f9ac4e72c960202669f7f95824af79eebd3e37f055e76a92414edba5c26"
+}

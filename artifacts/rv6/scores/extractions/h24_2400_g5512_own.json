@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5512",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 56 \u00d7 $5 + $2 = $280.\n\nThe structured arithmetic problem format demands a specific dollar amount as the solution, consistent with the arithmetic expression shown.\n\nThe final token \"$\" opens a currency expression, immediately requiring the numeric answer \"$280\" (56 \u00d7 5 + 2 \u00d7 3 = $280), completing the arithmetic result of the word problem.\n56 \u00d7 5 + 2 \u00d7 3 = 280.\n$56 \u00d7 5 + $2 = $280.\nThe next token must be the numeric answer \"$280\".\n56 \u00d7 5 + 2 = 280, so the next tokens must be the total cost, likely \"280\" or \"280.\"\n58 + two extra eggs = $5.",
+    "Word problem arithmetic solution in progress: three books \u00d7 $57 = $171, requiring the arithmetic result next.\n\nStep-by-step instructional format established: the solution must show the arithmetic operation explicitly, likely \"3 \u00d7 $57 = $171.\"\n\nFinal token \"has\" begins the arithmetic result clause, immediately requiring the multiplication result \"$57 \u00d7 3 = $171\" before continuing to add the separate $12 and $6.\n$57 \u00d7 3 = $171\" is the expected next token sequence, completing the cost of the three books.\n57 \u00d7 3 = $171, so the next tokens must state this total before adding the separate $6 and $3.\n$56 \u00d7 $3 = $171\" is the immediate constraint.\nYou pay $57 each for three books, plus $12.",
+    "Math word problem format: arithmetic operation requiring step-by-step arithmetic solution, expecting \"6 \u00d7 $28 = $168\" next.\n\nWord problem context: three people \u00d7 $56 each = total cost, so the arithmetic must sum 3 \u00d7 $56 = $168, then add the separate $28 gift.\n\nFinal token \"16\" is the beginning of the arithmetic result \"$3 \u00d7 $56 = $168,\" immediately requiring \"8\" to complete the number, followed by the arithmetic continuation (plus $24).\n$168 is the expected total before adding the separate $3 friends' $2.\n3 \u00d7 $56 = $168, so the next tokens must complete this multiplication and then add $2 \u00d7 $6 = $12.\n$168 is the first partial answer, immediately constrained to complete as.",
+    "Word problem arithmetic solution in progress: structured step-by-step arithmetic format requires continuing with the total cost calculation.\n\nThe problem establishes 3 books \u00d7 $28 = $84, so the next tokens must complete the arithmetic expression and then add the pants cost (2 pants \u00d7 $10).\n\nFinal token \"$168\" is the arithmetic result of 4 books \u00d7 $28, immediately requiring continuation of the solution: \"and $84 for pants\" or \"and $84, plus $2 pants = $220 total.\"\nWe need to state the total cost.\nShe needs to pay $168 for books, so the next tokens will likely state \"and $3 pants \u00d7 $8 = $24\" or \"so the total is $220.\"\n$3 \u00d7 $56 = $168\" establishes the first component, expecting \"and.",
+    "Math word problem format: arithmetic operations listed sequentially, expecting a simple arithmetic result (8 \u00d7 $8 = $64).\n\nThe word problem structure requires completing the arithmetic: 2 \u00d7 $8 = $16, then adding to $812 total.\n\nFinal token \"p\" begins the arithmetic expression for the small items (2 \u00d7 $8 = $16), immediately requiring the multiplication and result, e.g., \"16\" or \"8 \u00d7 $2 = $16.\"\nFinal token \"p\" is the start of the small accessory cost, constrained to be \"$8\" or \"$16\" as the next immediate value.\n8 \u00d7 $2 = $16, completing the small items calculation before adding to the $812 total.\n8 \u00d7 2 = $16 for socks, so the next token must be \"$16\" or \"16\".",
+    "Math word problem format: structured arithmetic problems with word problems followed by solutions, establishing a clear pattern of problem \u2192 answer.\n\nSecond problem mirrors the first: arithmetic operation (total cost) with a simple arithmetic answer expected, following the same template.\n\nThe final token \"16\" is the small supplementary cost (8 \u00d7 $2 = $16), completing the arithmetic problem's setup; the immediate next tokens should be the solution: \"So, the total is $278.\"\nFinal token \"16\" closes the small supplementary item (2 \u00d7 $8 = $16), immediately expecting a line break and \"So, the total is $278 + $840 = $1068.\"\nFinal token \"16\" is the small extra cost of supplies, part of a two-line problem statement, expecting a closing line like \"So, the cost is $16."
+  ],
+  "input_sha256": "004efa56e0d42a825262982a29c196cdca642e48224db23ff3a7c288763a54e3",
+  "values": [
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "$5",
+      "value": "5"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$280",
+      "value": "280"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "two",
+      "value": "2"
+    },
+    {
+      "quote": "$57",
+      "value": "57"
+    },
+    {
+      "quote": "$171",
+      "value": "171"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$6",
+      "value": "6"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "$28",
+      "value": "28"
+    },
+    {
+      "quote": "$168",
+      "value": "168"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "$24",
+      "value": "24"
+    },
+    {
+      "quote": "$84",
+      "value": "84"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "$220",
+      "value": "220"
+    },
+    {
+      "quote": "$64",
+      "value": "64"
+    },
+    {
+      "quote": "$812",
+      "value": "812"
+    },
+    {
+      "quote": "$278",
+      "value": "278"
+    },
+    {
+      "quote": "$840",
+      "value": "840"
+    },
+    {
+      "quote": "$1068",
+      "value": "1068"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned in the descriptions, including those in arithmetic expressions and spelled-out numbers like 'two', while avoiding years or ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"56\",\"value\":56},{\"quote\":\"$5\",\"value\":5},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$280\",\"value\":280},{\"quote\":\"3\",\"value\":3},{\"quote\":\"58\",\"value\":58},{\"quote\":\"two\",\"value\":2},{\"quote\":\"$57\",\"value\":57},{\"quote\":\"$171\",\"value\":171},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$6\",\"value\":6},{\"quote\":\"6\",\"value\":6},{\"quote\":\"$28\",\"value\":28},{\"quote\":\"$168\",\"value\":168},{\"quote\":\"16\",\"value\":16},{\"quote\":\"8\",\"value\":8},{\"quote\":\"$24\",\"value\":24},{\"quote\":\"$84\",\"value\":84},{\"quote\":\"2\",\"value\":2},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"4\",\"value\":4},{\"quote\":\"$220\",\"value\":220},{\"quote\":\"$64\",\"value\":64},{\"quote\":\"$812\",\"value\":812},{\"quote\":\"$278\",\"value\":278},{\"quote\":\"$840\",\"value\":840},{\"quote\":\"$1068\",\"value\":1068}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned in the descriptions, including those in arithmetic expressions and spelled-out numbers like 'two', while avoiding years or ordinals.\"}",
+  "prompt_sha256": "6bd73f8b63c6bed1cf6918271d201e53964ae34fbba9a291603c2315bd2fd358"
+}

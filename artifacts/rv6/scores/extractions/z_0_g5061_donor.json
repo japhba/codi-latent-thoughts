@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5061",
+  "kind": "donor",
+  "descriptions": [
+    "The article follows a structured sports journalism format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence is mid-completion, presenting a specific numerical finding about the 100-meter line crossing time \u2014 the pattern established earlier (\"1.5 seconds,\" \"1.6 seconds\") strongly predicts a precise decimal figure will follow.\n\nFinal token \"was\" opens a predicate requiring a specific time measurement (e.g., \"1.5 seconds\" or similar), completing the clause about the 100-meter line crossing time, consistent with the article's repeated pattern of citing exact numerical values.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the husband's reaction, building toward a conclusion about the film's emotional impact on him.\n\nCharacter relationship dynamic: the husband's \"cold\" personality is being contrasted with his emotional response to the film, suggesting a \"but\" or reversal is coming.\n\nFinal token \"was\" opens a past-tense predicate clause describing the husband's emotional state or reaction \u2014 likely a specific adjective or verb phrase like \"moved,\" \"moved to cry,\" or \"moved by the story.\"\n</explanation>",
+    "Narrative momentum: the text is mid-sentence describing the narrator's emotional reaction to the song, building toward a conclusion about the song's effect on her.\n\nRepetition/continuation pattern: the review consistently pairs song descriptions with personal emotional responses, e.g., \"I was immediately drawn to the song,\" \"I was immediately drawn to the song.\"\n\nFinal token \"4\" is the start of a number (likely \"40\" or \"400\"), part of a clause describing how quickly the song affected her \u2014 the next token must complete this numeral, almost certainly \"0\" or similar digit.\n</explanation>",
+    "Narrative momentum: the text is building a case for the \"law of attraction\" thesis, with the author now applying it to a personal anecdote about a specific person's story.\n\nThe \"law of attraction\" concept introduced earlier is being illustrated with a concrete example \u2014 the author is mid-anecdote about a person who \"had a lot of money\" and \"wasn't sure what to do with it,\" implying a transformation or realization is about to be described.\n\nFinal token \"58\" is a number mid-sentence, completing \"about 58,\" immediately requiring a noun (e.g., \"years,\" \"years old\") to finish the age reference.\n</explanation>",
+    "The article follows a news report structure: incident summary, then detailed narrative, now concluding with a specific statistic about the suspect's age.\n\nThe sentence ending with \"was 28 years old\" is mid-clause, requiring completion \u2014 likely a period or continuation explaining the age's significance (e.g., \"old\" already stated, so next tokens likely add context like \"old\" or a relative clause).\n\nThe final token \"28\" is a number mid-sentence, part of a factual age statement; immediate constraints demand either a period ending the sentence or a continuation phrase like \"old\" or \"years old.\"\n</explanation>",
+    "Narrative momentum: a personal anecdote about a dream is being recounted, with the dream's content and interpretation still to be revealed.\n\nRepetition/continuation pattern: the text has been building toward explaining the dream's meaning, with \"I thought I had seen the house\" establishing a misreading that will be corrected or clarified.\n\nFinal token \"24\" ends a sentence describing the dream's duration (\"about 24\"), immediately requiring a time unit (e.g., \"minutes\") or continuation describing what happened next in the dream sequence.\n</explanation>"
+  ],
+  "input_sha256": "4ac7447c39647dea68cdfcd5a789c680d9029d63a4f8252b00d078e2b0968efc",
+  "values": [
+    {
+      "quote": "100-meter",
+      "value": "100"
+    },
+    {
+      "quote": "1.5 seconds",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.6 seconds",
+      "value": "1.6"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers found within the provided descriptions, including decimals and integers used in measurements, ages, and counts.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100-meter\",\"value\":100},{\"quote\":\"1.5 seconds\",\"value\":1.5},{\"quote\":\"1.6 seconds\",\"value\":1.6},{\"quote\":\"4\",\"value\":4},{\"quote\":\"58\",\"value\":58},{\"quote\":\"28\",\"value\":28},{\"quote\":\"24\",\"value\":24}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers found within the provided descriptions, including decimals and integers used in measurements, ages, and counts.\"}",
+  "prompt_sha256": "023d8a464c07b70f85a131b37971788b6e01a4fb68448c4085a2a4bd048bb83b"
+}

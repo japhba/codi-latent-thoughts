@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5180",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem solution format requires completing the numerical answer: 30 + 10 = 40 after adding/subtracting 5.\n\nThe structured solution pattern demands a specific integer answer, likely \"40\" showing the corrected count.\n\nFinal token \"is\" opens a predicate completing the equation \"30 + 10 - 5 = 40 people after the change,\" requiring the numerical result immediately next.\n(31 + 10) minus error (5) = 35? No \u2014 the correct answer is 40 people, so the next tokens must state this calculated result.\n(31 + 10 - 5 + 30) or similar arithmetic expression.\n(30 + 10 - 5) \u00b1 35 change.\n\n(people after change) = 31 + 30 + -5 =.",
+    "Step-by-step math solution in progress: the solution is mid-calculation, showing arithmetic progression (30 + 10 = 40, then subtracting 5).\n\nThe word problem requires showing the intermediate steps: adding 30 to 100, then subtracting 5 to account for lost birds.\n\nFinal token \"had\" opens a past-tense clause completing the first step of the solution, immediately requiring the numerical result of adding 30 birds to 100, i.e., \"40 people.\"\n30 + 10 = 40 after first step, before applying the second condition (losing 5).\nYou can write \"30 + 10 = 40 people in the morning, then adding 10 more birds to account for the 5 lost.\"\n(30+10) + 10 changes,.",
+    "Step-by-step math problem walkthrough requires completing the arithmetic sequence: 30 + 10 added = 40 people after removal.\n\nThe solution is mid-explanation, showing a logical chain: initial count \u2192 added people \u2192 now showing the intermediate step before subtraction.\n\nFinal token \"4\" begins the number \"40\" (30 + 10), completing the intermediate count after adding 10 people; next tokens must be \"0 people\" to finish the arithmetic demonstration before explaining the next step.\n30 + 10 = 40 after adding 10, then subtracting 5 removed passengers to get 35 remaining.\n(40 people present after adding 10) before the next logical step: removing 10 people to reverse the error.\n(30 + 10) before subtracting 5.",
+    "Step-by-step math word problem solution format, requiring sequential arithmetic reasoning about table counts after removal.\n\nThe solution is mid-calculation, tracking changes: 30 tables + 2 closed = 38, then a removal of 2 tables reduces to 36.\n\nFinal token \"40\" is the intermediate count in the solution narrative, immediately requiring the word \"tables\" followed by explanation of the next step (likely \"Then, one table closed...\").\nFinal token \"40\" completes the intermediate state of the solution sequence, requiring \"tables were full\" or similar phrasing before describing the next change.\n40 ends a sentence describing tables after adding 2 new ones, requiring completion of that clause before addressing the overnight removal of tables.\n40 tables after 2 added: 36 tables minus one closed, so \"tables were full\" or \"tables open\" follows.",
+    "Math word problem solution walkthrough, showing step-by-step arithmetic reasoning with specific numerical values (10 people added, 15 removed).\n\nThe explanation is mid-calculation, showing a chain of operations: 45 people minus 10 removed plus 5 added, requiring completion of the arithmetic chain.\n\nFinal token \"p\" is the start of \"people\" or \"people\" completing the phrase \"15 people after changes,\" likely followed by a period or continuation explaining the net result of the adjustment.\nFinal token \"p\" is mid-word, part of a mathematical explanation showing intermediate steps before the net change calculation.\n(10 groups removed + 5 groups added).\nFinal token \"p\" begins a word like \"people\" completing the net change expression \"25 people after changes, then adding back 10 people removed from one group.\"\n( minus 1 change) after adding .",
+    "Math word problem solution format: step-by-step arithmetic reasoning, expecting numerical calculation and logical conclusion.\n\nThe problem requires tracking seat counts: 40 people minus 10 seats added, then minus 1 seat removed, so the final answer is 29.\n\nFinal token \"people.\" ends the intermediate calculation sentence \"40 + 15 after 30 minutes.\" The next step must show the subtraction of the final removed seat, likely \" minus 1 seat remaining\" or similar correction.\nFinal token \"sits.\" closes the arithmetic expression setup, immediately requiring the next logical step: subtracting the third removed passenger.\nFinal token \"95.\" ends the intermediate equation, requiring the next line to state the adjusted count or the final adjustment step.\nFinal token \"sits.\" closes the arithmetic expression \"40 + 30 operations,\" immediately requiring the subtraction of the third seat change to."
+  ],
+  "input_sha256": "c38ecb6eb32f52c0550c950adfe1092847f4258940bc97d7af6399c54411115f",
+  "values": [
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "-5",
+      "value": "-5"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "29",
+      "value": "29"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    }
+  ],
+  "justification": "Extracted all distinct explicit numeric literals and arithmetic results (like 30+10=40) from the provided descriptions, excluding years, ordinals, and vague plurals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30\",\"value\":30},{\"quote\":\"10\",\"value\":10},{\"quote\":\"40\",\"value\":40},{\"quote\":\"5\",\"value\":5},{\"quote\":\"31\",\"value\":31},{\"quote\":\"35\",\"value\":35},{\"quote\":\"-5\",\"value\":-5},{\"quote\":\"100\",\"value\":100},{\"quote\":\"4\",\"value\":4},{\"quote\":\"0\",\"value\":0},{\"quote\":\"2\",\"value\":2},{\"quote\":\"38\",\"value\":38},{\"quote\":\"36\",\"value\":36},{\"quote\":\"15\",\"value\":15},{\"quote\":\"45\",\"value\":45},{\"quote\":\"25\",\"value\":25},{\"quote\":\"1\",\"value\":1},{\"quote\":\"29\",\"value\":29},{\"quote\":\"95\",\"value\":95}],\"justification\":\"Extracted all distinct explicit numeric literals and arithmetic results (like 30+10=40) from the provided descriptions, excluding years, ordinals, and vague plurals as per instructions.\"}",
+  "prompt_sha256": "d2b31c86ed9102c639afbf3665d1185ad4d3bfef1f30446c19825f2127672dc6"
+}

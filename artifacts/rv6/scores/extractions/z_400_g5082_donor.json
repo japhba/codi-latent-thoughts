@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5082",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results reporting pattern: the text is presenting hazard ratios with confidence intervals and p-values, following a structured academic medical finding format.\n\nAcademic medical study results section: the study's findings are being enumerated with specific hazard ratios for each outcome, with hazard ratio 1.90 already stated, implying a paired result for the second outcome (likely \"no significant association\") is expected next.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the first outcome, immediately requiring a numerical value or descriptive phrase like \"significantly associated\" or a specific HR figure.",
+    "Narrative momentum: character relationship backstory being traced, explaining emotional history of the romantic triangle involving the mother and the couple's marriage.\n\nCharacter-driven plot summary pattern: the text is recounting the backstory of the mother's emotional state and the couple's relationship, building toward explaining the mother's romantic history and its connection to the current love triangle.\n\nFinal token \"was\" opens a past-tense predicate clause describing the mother's relationship with the couple's marriage \u2014 a verb phrase completing the sentence, likely describing a past emotional state or connection, e.g., \"was in love with\" or \"was heartbroken by.\"",
+    "Romantic date narrative momentum: the text is recounting a day's events sequentially, building toward describing evening dinner conversation and emotional connection.\n\nRomantic recipe/relationship dialogue pattern: the text has been describing a couple's evening meal conversation, with the narrator recounting specific moments of courtship and shared experience, suggesting continuation of this scene.\n\nFinal token \"6\" is mid-sentence (\"I felt like I was feeling 6\"), part of a time expression (\"6 hours\" or \"6 p.m.\"), requiring immediate completion of the time reference, likely followed by \"hours\" or a similar unit of time.",
+    "Reflective Christian devotional/sermon format with practical advice, now transitioning into a personal anecdote illustrating the \"practical advice\" theme with a concrete example.\n\nThe list of \"practical advice\" examples was promised but not yet delivered \u2014 the anecdote about the seminary friend is the first example, implying more examples will follow.\n\nFinal token \"60\" ends an incomplete sentence (\"I would say 30 years of experience, 60\"), requiring immediate continuation \u2014 likely \"years\" or a unit of time completing the parallel phrase, followed by elaboration on the seminary anecdote.",
+    "Narrative momentum: crime story building toward legal consequence/revelation, with the anecdote escalating toward a news report's dramatic impact.\n\nNarrative continuation: the sentence describes police investigation and the suspect's actions, with the final clause \"it was reported to the police by 202 people\" establishing the scale of the incident, implying legal consequences or police response follows.\n\nFinal token \"202,200 people, 2,000 tweets\" is mid-sentence, part of a news report's factual summary; the next tokens must complete the consequence clause, likely describing police action or legal outcome.",
+    "Q&A legal Q&A format: a question has been posed and answered with a detailed legal explanation, now transitioning to a practical example with a specific scenario.\n\nThe legal question about priest's duty to report abuse is being resolved with a concrete answer, and the text is now providing a specific legal scenario (accident, priest's written notice) to illustrate the priest's liability and the priest's legal duty.\n\nFinal token \"12\" is part of \"12 minutes, which is 18 hours, i.e. 12\" \u2014 a calculation mid-sentence, immediately requiring a time unit or continuation like \"hours\" or a legal consequence clause."
+  ],
+  "input_sha256": "183b1edc4f437248bfde140684914ee876aecd0c9bd6bf0a004f5eee29343192",
+  "values": [
+    {
+      "quote": "hazard ratio 1.90",
+      "value": "1.9"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "30 years",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "202 people",
+      "value": "202"
+    },
+    {
+      "quote": "202,200 people",
+      "value": "202200"
+    },
+    {
+      "quote": "2,000 tweets",
+      "value": "2000"
+    },
+    {
+      "quote": "12 minutes",
+      "value": "12"
+    },
+    {
+      "quote": "18 hours",
+      "value": "18"
+    },
+    {
+      "quote": "i.e. 12",
+      "value": "12"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including decimals and large numbers with commas, while excluding dates or identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"hazard ratio 1.90\",\"value\":1.9},{\"quote\":\"6\",\"value\":6},{\"quote\":\"30 years\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"202 people\",\"value\":202},{\"quote\":\"202,200 people\",\"value\":202200},{\"quote\":\"2,000 tweets\",\"value\":2000},{\"quote\":\"12 minutes\",\"value\":12},{\"quote\":\"18 hours\",\"value\":18},{\"quote\":\"i.e. 12\",\"value\":12}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including decimals and large numbers with commas, while excluding dates or identifiers.\"}",
+  "prompt_sha256": "5ac354676baed52c4fface298ff24fb822a04c2b67cfc9e2752bc2ac59e48308"
+}

@@ -1,0 +1,137 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5044",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: the text is computing total weekly earnings by subtracting the sixth week's reduced rate (6/week) from the full weekly total of 12\u00d7$6.\n\nThe arithmetic context requires a specific numerical answer: (12\u00d7$6) minus the final week's half-rate exception, so the next token must be a dollar amount representing the effective weekly total.\n\nFinal token \"Total of $\" opens a numeric value \u2014 the model must immediately supply a specific integer (likely \"54\" or similar) representing the calculated weekly earnings, derived from 6 days \u00d7 $12 minus the 1/2 discount for the sixth day: (6\u00d7$12) \u2212 1 = $54.",
+    "Mathematical calculation in progress: the text is computing total weeks by subtracting the two half-weeks (6 weeks) from the full 6-week plan, requiring \"6 - 2 = 4\" weeks of actual riding.\n\nThe structured answer format demands a specific numerical calculation showing how many weeks are available, likely \"6 weeks total\" adjusted for half-weeks, then multiplied by the per-week cost (Rs 150).\n\nFinal token \"has\" opens a clause describing the reduced riding count, immediately requiring a number or noun phrase like \"6 weeks\" or \"4 weeks\" specifying the adjusted weekly count after accounting for the two half-week breaks.\nThe half-week discount context constrains the next tokens to describe the reduced total weeks: \"6 - 2 each month\" or similar arithmetic completing the modified weekly count.",
+    "Mathematical calculation in progress: the text is computing total hours worked by subtracting half days from full days (5 days \u00d7 1 hour each = 5 hours lost).\n\nThe explanation follows a step-by-step arithmetic structure: \"half days on two of the four days\" leads to a total of 4 + (5 - 1/2) = 4 hours, so the next tokens must complete this arithmetic result.\n\nFinal token \"4\" is the beginning of the total effective working days count, part of the equation showing adjusted hours (5 days minus half-day exceptions), immediately requiring continuation like \"hours\" or a fraction/decimal completing the arithmetic sum of 4 + 1/2 = 4.5 hours total effective weeks \u00d7 1 hour each.",
+    "Mathematical word problem solution in progress: calculating total hours worked by converting 6 days with half-day breaks, requiring arithmetic completion.\n\nThe solution is mid-calculation, having established total hours: 6 full days minus half-day breaks (6\u00d70.5) equals 5 hours, so the next tokens must complete this arithmetic expression showing the total hours worked.\n\nFinal token \"1.5p\" is part of an incomplete expression \"5.5p\" representing total effective working days (6 - 2 half days), immediately requiring continuation of the arithmetic result or next step: \"hours\" or further calculation showing total hours worked: (6 - 1/2) \u00d7 10 = 5 hours \u00d7 $10 = $50.",
+    "Mathematical problem-solving pattern: structured step-by-step arithmetic walkthrough, currently mid-calculation for second scenario (5 days + 2 half days = 7 days).\n\nThe formula being applied: total rides = total passengers \u00d7 (5 days + 2 half days) = (7 \u2212 1) \u00d7 4 = 56, mirroring the first scenario's arithmetic structure.\n\nFinal token \"p.36p.7p.\" is mid-expression showing the arithmetic result of the adjusted count, immediately requiring the multiplication expression \"56p.\" to complete the calculation showing total fare: (56/4) or the final arithmetic step showing 56 \u00d7 fare per seat, continuing toward the final computed answer of 56.",
+    "Math word problem pattern: each problem follows identical structure (situation \u2192 calculation \u2192 answer), establishing strong template for the next problem's solution.\n\nThe second problem mirrors the first's format: \"7 days \u00d7 $16/hour = $112\" calculation expected, then a dollar amount answer for the remaining days (5 days \u00d7 $16) to complete the arithmetic.\n\nFinal token \"problem.\" closes the problem statement's modified arithmetic setup (\"Remove two days... five days...\"), immediately requiring the computed weekly earnings answer: \"$16 - 1/5th day = $55 \u00d7 $3 = $175 per week\" or similar phrased conclusion."
+  ],
+  "input_sha256": "ff60e4d979db4354e4ec456ade93c089df8286d2d8116f962b53582540c353fd",
+  "values": [
+    {
+      "quote": "6/week",
+      "value": "6"
+    },
+    {
+      "quote": "12\u00d7$6",
+      "value": "72"
+    },
+    {
+      "quote": "6 days",
+      "value": "6"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "1/2 discount",
+      "value": "0.5"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "6 weeks",
+      "value": "6"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "5 days",
+      "value": "5"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "5 hours",
+      "value": "5"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "1.5p",
+      "value": "1.5"
+    },
+    {
+      "quote": "5.5p",
+      "value": "5.5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "7 \u2212 1",
+      "value": "6"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "$16",
+      "value": "16"
+    },
+    {
+      "quote": "$112",
+      "value": "112"
+    },
+    {
+      "quote": "1/5th",
+      "value": "0.2"
+    },
+    {
+      "quote": "$55",
+      "value": "55"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "$175",
+      "value": "175"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, fractions, and arithmetic results mentioned in the descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6/week\",\"value\":6},{\"quote\":\"12\\u00D7$6\",\"value\":72},{\"quote\":\"6 days\",\"value\":6},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"1/2 discount\",\"value\":0.5},{\"quote\":\"54\",\"value\":54},{\"quote\":\"6 weeks\",\"value\":6},{\"quote\":\"2\",\"value\":2},{\"quote\":\"4\",\"value\":4},{\"quote\":\"150\",\"value\":150},{\"quote\":\"5 days\",\"value\":5},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"5 hours\",\"value\":5},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"1.5p\",\"value\":1.5},{\"quote\":\"5.5p\",\"value\":5.5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"7 \\u2212 1\",\"value\":6},{\"quote\":\"56\",\"value\":56},{\"quote\":\"$16\",\"value\":16},{\"quote\":\"$112\",\"value\":112},{\"quote\":\"1/5th\",\"value\":0.2},{\"quote\":\"$55\",\"value\":55},{\"quote\":\"3\",\"value\":3},{\"quote\":\"$175\",\"value\":175}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, fractions, and arithmetic results mentioned in the descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "d08da2bb5bb9b00bad3682b1ee997f8f98c4c645867874fc62f4833789d803a3"
+}

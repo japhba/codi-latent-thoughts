@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5089",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with percentages, establishing a clear continuation format (city name + percentage).\n\nThe sentence structure \"The city of X has a percentage of Y\" repeats, with the final sentence mid-statistic requiring completion of the percentage value and likely a concluding summary statement.\n\nFinal token \"50%\" is a truncated percentage figure mid-sentence, immediately requiring completion of the hazard rating statistic, likely followed by additional city data or a concluding remark about the dataset.\n\"50%\" ends the sequence, part of a statistical finding about New York City's hazard rating; next tokens must complete this numeric result or transition to another city's data.\n\"85%\" earlier was stated; the model must resolve the \"58%\" figure as the actual result, likely followed by a confidence interval or comparison.\n\"52%\" visual element or percentage value completing the hazard rating result.",
+    "Plot summary continuation: the review is mid-sentence describing character roles and plot setup, requiring completion of the sentence about the father's role.\n\nFilm metadata/credits format: structured fields (Cast, Director, Genre) suggest a database-style entry, with the synopsis section now providing narrative description.\n\nFinal token \"6,\" ends a numerical reference (\"6,\") within a list or clause, immediately requiring continuation of the sentence describing the father's political role or the film's central conflict.\n\"6,\" likely continues with another character name or plot element completing the enumeration.\n\"6,\" \"6,\" film title pattern suggests \"6,\" is part of a larger number or title reference, with the plot summary sentence still unresolved.\n\"6,\" \"500,\" film title \"6,\" plot thread \u2014 \"560\" characters \"6,\" historical setting \u2014 \"6,\" scene context \"6,\" political factions;.",
+    "Book review format with structured sections (summary, table of contents, author bio) signals continuation of the author bio section.\n\nThe review is mid-sentence describing the book's spiritual themes and content, building toward completing the description of the protagonist's journey and dietary changes.\n\nFinal token \"6\" is part of an incomplete number (\"6,666\" or similar quantity), likely continuing a measurement or quantity related to the dietary change timeline, requiring digits to complete the number.\n\"6\" likely continues as \"6,666\" or \"6,666 days\" \u2014 a specific numeric value completing the phrase \"about 6\" in a recipe/ingredient context.\n\"6\" \"666 days\" spiritual reflection pattern suggests \"6.67\" or similar time reference completing the \"6,666 days\" phrase \"6620 days\" recipe timing.",
+    "Article follows a listicle format with numbered tips; the numbered list has concluded, and the text has transitioned to a personal narrative section about dating advice.\n\nThe sentence ending mid-thought (\"900\") signals continuation of a specific book recommendation or review, likely referencing a romantic/relationship book with a punchy title.\n\nFinal token \"900\" is part of an incomplete sentence (\"900\" likely \"900 pages\" or similar), requiring completion of the warning about the book's content, followed by further advice or a call-to-action.\n\"900\" likely continues as \"990\" or \"990 pages\" \u2014 the truncated \"990\" \"990\" signals an imminent pivot to the warning's romantic consequence.\n\"930 990\" \"695\" \"690\" signals the text is mid.",
+    "Statistical list pattern: article presents ranked statistics with specific numbers, expecting continuation of data points or elaboration on the ranking.\n\nNews article structure: the piece follows a news format introducing a source, then citing specific statistics, suggesting more sourced claims or commentary follows.\n\nFinal token \"200\" ends a sentence fragment mid-thought (\"around 200\"), likely completing a statistic about social media posts or views, with immediate expectation of a noun or continuation of the ranking/analysis.\n\"200\" is part of a comparative or concluding clause about the article's reach or reach of the statistic.\n\"200\" likely precedes a noun like \"posts\" or \"views,\" completing the warning about the article's popularity.\n\"200\" news outlets or similar media safety rating context \u2014 \"around 200\" \"30,000\" warning content expected next.",
+    "News article format with structured sections (headline, summary, body) signals continuation of the legal complaint details and citation.\n\nThe article is mid-sentence listing specific complaint types, implying additional examples or elaboration on the \"online complaints\" category will follow.\n\nFinal token \"6\" ends an incomplete numerical reference (\"about 6\"), part of a statistic about complaints; the next token must complete this number or immediately follow with a unit/qualifier like \"percent\" or \"percent of complaints.\"\n\"6\" likely continues as \"6,000\" or transitions to a legal citation or advisory note.\n\"about 6\" \"7\" or \"9\" \u2014 the truncated \"about 6.9\" or \"about 10 seconds\" safety rating guidance suggests regulatory thresholds or numerical thresholds follow.\n\"8,736\" legal citation \"6 days\" warning \u2014 \"about 9 days."
+  ],
+  "input_sha256": "d6d47b62e880d1f31a4783fe358ea3307fd49a5d9cb9f225782fda15d3d2f4d2",
+  "values": [
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "58%",
+      "value": "58"
+    },
+    {
+      "quote": "52%",
+      "value": "52"
+    },
+    {
+      "quote": "6,",
+      "value": "6"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "560",
+      "value": "560"
+    },
+    {
+      "quote": "6,666",
+      "value": "6666"
+    },
+    {
+      "quote": "6.67",
+      "value": "6.67"
+    },
+    {
+      "quote": "6620",
+      "value": "6620"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "990",
+      "value": "990"
+    },
+    {
+      "quote": "930",
+      "value": "930"
+    },
+    {
+      "quote": "695",
+      "value": "695"
+    },
+    {
+      "quote": "690",
+      "value": "690"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "30,000",
+      "value": "30000"
+    },
+    {
+      "quote": "6,000",
+      "value": "6000"
+    },
+    {
+      "quote": "6.9",
+      "value": "6.9"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "8,736",
+      "value": "8736"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes or identified as part of statistical data, while avoiding dates or years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50%\",\"value\":50},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"58%\",\"value\":58},{\"quote\":\"52%\",\"value\":52},{\"quote\":\"6,\",\"value\":6},{\"quote\":\"500\",\"value\":500},{\"quote\":\"560\",\"value\":560},{\"quote\":\"6,666\",\"value\":6666},{\"quote\":\"6.67\",\"value\":6.67},{\"quote\":\"6620\",\"value\":6620},{\"quote\":\"900\",\"value\":900},{\"quote\":\"990\",\"value\":990},{\"quote\":\"930\",\"value\":930},{\"quote\":\"695\",\"value\":695},{\"quote\":\"690\",\"value\":690},{\"quote\":\"200\",\"value\":200},{\"quote\":\"30,000\",\"value\":30000},{\"quote\":\"6,000\",\"value\":6000},{\"quote\":\"6.9\",\"value\":6.9},{\"quote\":\"10\",\"value\":10},{\"quote\":\"8,736\",\"value\":8736},{\"quote\":\"7\",\"value\":7},{\"quote\":\"9\",\"value\":9}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes or identified as part of statistical data, while avoiding dates or years.\"}",
+  "prompt_sha256": "25483913ef744481556def15ba9d3f2fc5dccbfabcca1303be83af0de86571a7"
+}

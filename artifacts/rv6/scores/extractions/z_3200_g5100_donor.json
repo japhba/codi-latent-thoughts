@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article consistently presents paired statistics (total + average), so a dollar figure or percentage follows \"and the average.\"\n\nFinancial breakdown structure: the sentence lists \"total amount of money\" and \"average amount of money,\" implying a third item or concluding clause is expected to complete the series.\n\nFinal token \"and the average amount of money\" is mid-sentence, part of an enumerated financial breakdown; the next tokens must complete this clause with a specific dollar amount or comparative figure.\n\"and is $1,000\" or similar price figure is immediately expected.\n\"and the average amount of money\" is an incomplete clause requiring a verb phrase like \"is $[amount]\" to follow.\n\"and is $1,000\" or similar dollar figure completing the sentence.\n\"and the average amount of money\" is the product listing's budget breakdown table, so the next token.",
+    "Structured list pattern: each bullet follows \"Label: Value\" format, with \"Movie title\" and \"Movie description\" already given, suggesting more fields like \"Director,\" \"Cast,\" or \"Rating\" may follow.\n\nProduct listing context: the text describes a specific movie's details, so remaining content likely continues with cast, runtime, or rating information.\n\nFinal token \"4 is\" is mid-sentence, completing a numerical rating or score statement (e.g., \"4 is the best movie\"), requiring a predicate adjective or noun phrase immediately next.\n\"4 is 46\" or a product rating continuation.\n\"46\" or a numeric value completing the sentence about the movie's rating.\n\"465\" or a product code \u2014 the list pattern suggests \"5 is 645\" or similar numeric film metadata follows.\n\"45 is\" romantic rating or product code \"64.",
+    "Structured list pattern: each category follows \"Title \u2192 description \u2192 examples\" format, repeating consistently throughout the page.\n\nThe page is a navigation/catalog listing for a product category, with each section introducing a category name, then listing subcategories or product types.\n\nFinal token \"Available\" ends a section header \"Part Numbers Available,\" which is part of a navigation menu or category listing; the next tokens will likely continue with more category names or product listings in the same catalog format.\n\"Available\" closes a navigation menu item, suggesting more menu items or a new category header follows.\n\"Available\" is the last token, ending a navigation menu entry, immediately expecting either a new category name or a product listing continuation.\n\"Available\" is a truncated navigation label, likely followed by a table, product names, or part numbers list.\n\"Part Numbers Available\" is a category label, and \"Available\" is the site's.",
+    "Structured table/list pattern: the text is mid-table, listing product details with pipe-delimited rows; more rows or closing content expected.\n\nProduct listing continuation: the table has shown \"Item Description\" and \"Item Price\" rows, suggesting additional fields like \"Item Weight,\" \"Item Length,\" or similar e-commerce attributes may follow.\n\nFinal token \"below\" closes a parenthetical reference to a table, immediately requiring the table's content to begin \u2014 likely a new pipe-delimited row or product listing entries with names and prices.\n\"below\" is a transitional phrase pointing to upcoming table rows, so the next tokens should be table markup or product entries.\n\"below\" closes the sentence, and the pipe-delimited table structure and e-commerce format strongly constrain what follows to be more product rows or table syntax.\n\"below\" is the final token, part of a price table header row, immediately requiring pipe-del.",
+    "Structured table/list pattern: the text is mid-table, listing pipe-delimited rows with product name, description, and table number, requiring continuation of this format.\n\nThe table has established a pattern of alternating product entries with pipe-delimited fields; more entries or closing table syntax are expected.\n\nFinal token \"Table\" ends an incomplete pipe-delimited cell entry (\"|Table\"), part of a product listing row, immediately requiring a closing pipe \"|\" followed by a table number or product name to complete the row structure.\n\"Table\" is the last token, mid-cell in a pipe-delimited table row, requiring \"|\" to close the cell and likely a product name or number next.\n\"Table\" is the final token, part of a pipe-delimited product table row, immediately requiring \"|\" to close the cell and continue the table row pattern.\n\"Table\" price entries follow the established \"|Part Name||Description||\" format.",
+    "Structured table/list pattern: pipe-delimited rows with label-value pairs, established by \"Number of Pages\" and \"Number of Pages Range\" entries, suggesting more similar rows follow.\n\nProduct listing format: the text follows a structured e-commerce table with pipe-delimited fields, implying additional rows like \"Author,\" \"ISBN,\" or price details are expected next.\n\nFinal token \" Range||\" closes a table cell in a pipe-delimited row, immediately requiring the closing pipe \"|\" followed by a new table row or section header continuing the table structure.\n\"||\" is the final token, part of a pipe-delimited cell, requiring \"|\" to close the cell and likely a new product row or table entry next.\n\"||\" is the price table row delimiter, so the next tokens must complete the pipe-delimited cell pattern with a price or table row.\n\"||\" table syntax is mid-sequence, with product."
+  ],
+  "input_sha256": "ccccbacae7ecd965dbaba717ec544899d8a59af9a4ad5d699e25bdef4f981d46",
+  "values": [
+    {
+      "quote": "$1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "4 is",
+      "value": "4"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "465",
+      "value": "465"
+    },
+    {
+      "quote": "5 is 645",
+      "value": "5"
+    },
+    {
+      "quote": "5 is 645",
+      "value": "645"
+    },
+    {
+      "quote": "45 is",
+      "value": "45"
+    },
+    {
+      "quote": "64.",
+      "value": "64"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,000\",\"value\":1000},{\"quote\":\"4 is\",\"value\":4},{\"quote\":\"46\",\"value\":46},{\"quote\":\"465\",\"value\":465},{\"quote\":\"5 is 645\",\"value\":5},{\"quote\":\"5 is 645\",\"value\":645},{\"quote\":\"45 is\",\"value\":45},{\"quote\":\"64.\",\"value\":64}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "4c21384337d2934f1945b2a301d6bd33673ff962e47aadbd8424292d7eb8ab0b"
+}

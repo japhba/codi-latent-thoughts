@@ -1,0 +1,145 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5448",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic calculation: 8 weeks \u00d7 $80 yards = 320 yards total needed across 4 weeks, so the answer must be computed.\n\nThe problem follows a structured arithmetic setup: total yards = (80/4) \u00d7 3 = 60, so the next token must be the numerical answer representing total number of yards purchased per person.\n\nFinal token \"be\" completes \"The number of yards purchased is,\" requiring an integer answer (likely \"60\") representing the derived quantity from 8\u00d730/4 hours, derived from dividing $80 by $4 per yard, yielding 3\u00d78\u00d7$30 = 72 yards across 4 weeks: 8\u00d730/4 = 90.",
+    "Word problem solution format: structured math problem requiring arithmetic calculation, following \"given X = Y / Z\" pattern.\n\nThe problem establishes a division relationship: 80 yards \u00f7 4 yards = 20 books, so the next tokens must state \"80 books per day\" to find total books sold, then multiply by 4 weeks to find total inventory.\n\nFinal token \"had\" completes \"He had 80 yards of books per day = 80 \u00f7 4 = 20 books,\" directly requiring the numerical result of the division: \"20 books\" to state the daily book count, then continuing with total books: \"80 books \u00d7 4 = 320 books total,\" then adding the 100 books inventory.",
+    "Word problem solution format: structured math problem requiring arithmetic calculation, following \"given X amount, find Y quantity\" pattern.\n\nThe division setup establishes that 80 dollars \u00f7 $4 = 20 gallons, so the next tokens must state this result (\"20 gallons\") before continuing to calculate total weekly/annual fuel consumption (20 \u00d7 40 = 800 gallons).\n\nFinal token \"2\" is the beginning of the computed quantity \"20 gallons\" derived from the division of $80 by $4, immediately requiring \"0 gallons\" to complete the solution step showing weekly truck capacity (80 miles \u00f7 $4 = 20 trucks), then continuing to state total weekly fuel consumption: \"20 \u00d7 8 = 160 gallons\" or similar.",
+    "Word problem format requires step-by-step solution structure: problem statement given, now solving with arithmetic.\n\nThe problem establishes \"20 gallons per day\" calculation: 100 gallons \u00f7 5 gallons = 20 gallons, so the next tokens must state this quantity and then compute annual fuel consumption (20 gallons \u00d7 365 days = 900 gallons).\n\nFinal token \"20\" is the computed result of the division, representing the weekly gasoline consumption derived from the rate of 5 gallons per gallon, immediately requiring the unit \"gallons\" and then the sentence explaining the total monthly/annual fuel usage: \"He purchases 20 gallons of gasoline per week, so he needs 20 \u00d7 $X = $X.\"",
+    "Word problem solution format: structured problem with given values (30 gallons, 4 weeks) requires step-by-step arithmetic calculation.\n\nThe problem follows a multi-step solution pattern: first state daily consumption (20 gallons per week), then multiply by 4 weeks to find total weekly fuel used, then multiply by 12 months to find total.\n\nFinal token \"p\" completes \"2 cars a week\" \u2014 the sentence states the car owner purchases 20 gallons per car, establishing the rate calculation, immediately requiring \"each week\" or \"per week\" to complete the sentence before continuing with total fuel consumption: 20 \u00d7 3 = 60 gallons total, then 60 \u00d7 12 months = 720 gallons.",
+    "Word problem template structure: problem 1 established a pattern of daily production calculation, now repeating for problem 2 with identical format.\n\nThe problem follows a strict template: \"per day \u2192 total \u2192 per week \u2192 total for 3 days,\" so the next tokens must state \"36 eggs per day \u00d7 4 = 144 eggs per week\" before applying to 3 weeks.\n\nFinal token \"puppies.\" ends the daily-per-person calculation sentence (\"A person produces 21 eggs a day. Each week, he produces 21 + 7 = 48 eggs\"), immediately requiring the next sentence: \"In three weeks, he produces 21 \u00d7 4 = 84 eggs a week\" to mirror problem 1's structure."
+  ],
+  "input_sha256": "19e2b76eef6ec1e7aa70c8a17ff088b560471687df2cdbc9d9f6559843e7799a",
+  "values": [
+    {
+      "quote": "8 weeks",
+      "value": "8"
+    },
+    {
+      "quote": "$80 yards",
+      "value": "80"
+    },
+    {
+      "quote": "320 yards",
+      "value": "320"
+    },
+    {
+      "quote": "4 weeks",
+      "value": "4"
+    },
+    {
+      "quote": "80/4",
+      "value": "20"
+    },
+    {
+      "quote": "3 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "8\u00d730/4",
+      "value": "60"
+    },
+    {
+      "quote": "$4 per yard",
+      "value": "4"
+    },
+    {
+      "quote": "3\u00d78\u00d7$30 = 72",
+      "value": "720"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "20 books",
+      "value": "20"
+    },
+    {
+      "quote": "80 books per day",
+      "value": "80"
+    },
+    {
+      "quote": "320 books total",
+      "value": "320"
+    },
+    {
+      "quote": "100 books",
+      "value": "100"
+    },
+    {
+      "quote": "20 gallons",
+      "value": "20"
+    },
+    {
+      "quote": "20 \u00d7 40 = 800",
+      "value": "800"
+    },
+    {
+      "quote": "80 miles",
+      "value": "80"
+    },
+    {
+      "quote": "20 \u00d7 8 = 160",
+      "value": "160"
+    },
+    {
+      "quote": "100 gallons \u00f7 5 gallons",
+      "value": "20"
+    },
+    {
+      "quote": "20 gallons \u00d7 365 days = 900",
+      "value": "900"
+    },
+    {
+      "quote": "30 gallons",
+      "value": "30"
+    },
+    {
+      "quote": "12 months",
+      "value": "12"
+    },
+    {
+      "quote": "2 cars a week",
+      "value": "2"
+    },
+    {
+      "quote": "20 \u00d7 3 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "60 \u00d7 12 months = 720",
+      "value": "720"
+    },
+    {
+      "quote": "36 eggs per day",
+      "value": "36"
+    },
+    {
+      "quote": "144 eggs per week",
+      "value": "144"
+    },
+    {
+      "quote": "3 weeks",
+      "value": "3"
+    },
+    {
+      "quote": "21 eggs a day",
+      "value": "21"
+    },
+    {
+      "quote": "21 + 7 = 48",
+      "value": "28"
+    },
+    {
+      "quote": "21 \u00d7 4 = 84",
+      "value": "84"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each value is mapped to its specific source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"8 weeks\",\"value\":8},{\"quote\":\"$80 yards\",\"value\":80},{\"quote\":\"320 yards\",\"value\":320},{\"quote\":\"4 weeks\",\"value\":4},{\"quote\":\"80/4\",\"value\":20},{\"quote\":\"3 = 60\",\"value\":60},{\"quote\":\"8\\u00D730/4\",\"value\":60},{\"quote\":\"$4 per yard\",\"value\":4},{\"quote\":\"3\\u00D78\\u00D7$30 = 72\",\"value\":720},{\"quote\":\"90\",\"value\":90},{\"quote\":\"20 books\",\"value\":20},{\"quote\":\"80 books per day\",\"value\":80},{\"quote\":\"320 books total\",\"value\":320},{\"quote\":\"100 books\",\"value\":100},{\"quote\":\"20 gallons\",\"value\":20},{\"quote\":\"20 \\u00D7 40 = 800\",\"value\":800},{\"quote\":\"80 miles\",\"value\":80},{\"quote\":\"20 \\u00D7 8 = 160\",\"value\":160},{\"quote\":\"100 gallons \\u00F7 5 gallons\",\"value\":20},{\"quote\":\"20 gallons \\u00D7 365 days = 900\",\"value\":900},{\"quote\":\"30 gallons\",\"value\":30},{\"quote\":\"12 months\",\"value\":12},{\"quote\":\"2 cars a week\",\"value\":2},{\"quote\":\"20 \\u00D7 3 = 60\",\"value\":60},{\"quote\":\"60 \\u00D7 12 months = 720\",\"value\":720},{\"quote\":\"36 eggs per day\",\"value\":36},{\"quote\":\"144 eggs per week\",\"value\":144},{\"quote\":\"3 weeks\",\"value\":3},{\"quote\":\"21 eggs a day\",\"value\":21},{\"quote\":\"21 + 7 = 48\",\"value\":28},{\"quote\":\"21 \\u00D7 4 = 84\",\"value\":84}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each value is mapped to its specific source quote.\"}",
+  "prompt_sha256": "a602433c8c3e3fcbe5ad47d031f51a406fd89781c5e2510242d6524e9a273453"
+}

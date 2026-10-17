@@ -1,0 +1,445 @@
+{
+  "artifact_files": 52,
+  "source_files": 32,
+  "controls": 1319,
+  "readouts": 1440,
+  "verdicts": 1248,
+  "lens_rollouts": 1200,
+  "lens_correct_rollouts": 973,
+  "av_baseline_questions": 108,
+  "curve_lens_ensembles": 432,
+  "curve_lens_extractions": 432,
+  "curve_lens_judgments": 832,
+  "all_layer_lenses": {
+    "calibration_n": 72,
+    "validation_n": 24,
+    "evaluation_n": 156,
+    "fitted_maps": 36,
+    "top5_readouts": 69264,
+    "distinct_candidates": 10915,
+    "judge_batches": 91,
+    "scores": {
+      "h24": {
+        "LogitLens": {
+          "answer": {
+            "count": 24,
+            "n": 60,
+            "rate": 0.4,
+            "semantic_permutation_expected_rate": 0.13972222222222222,
+            "literal_count": 5,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 34,
+            "n": 55,
+            "rate": 0.6181818181818182,
+            "semantic_permutation_expected_rate": 0.3133884297520661,
+            "literal_count": 4,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 21,
+            "n": 60,
+            "rate": 0.35,
+            "semantic_permutation_expected_rate": 0.08777777777777777,
+            "literal_count": 5,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 31,
+            "n": 55,
+            "rate": 0.5636363636363636,
+            "semantic_permutation_expected_rate": 0.1662809917355372,
+            "literal_count": 4,
+            "k_per_position_source": 5
+          }
+        }
+      },
+      "z": {
+        "LogitLens": {
+          "answer": {
+            "count": 26,
+            "n": 60,
+            "rate": 0.43333333333333335,
+            "semantic_permutation_expected_rate": 0.13416666666666666,
+            "literal_count": 3,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 31,
+            "n": 49,
+            "rate": 0.6326530612244898,
+            "semantic_permutation_expected_rate": 0.273219491878384,
+            "literal_count": 7,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 19,
+            "n": 60,
+            "rate": 0.31666666666666665,
+            "semantic_permutation_expected_rate": 0.08083333333333333,
+            "literal_count": 3,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 27,
+            "n": 49,
+            "rate": 0.5510204081632653,
+            "semantic_permutation_expected_rate": 0.18992086630570595,
+            "literal_count": 8,
+            "k_per_position_source": 5
+          }
+        }
+      },
+      "ao_ALL": {
+        "LogitLens": {
+          "answer": {
+            "count": 16,
+            "n": 48,
+            "rate": 0.3333333333333333,
+            "semantic_permutation_expected_rate": 0.1154513888888889,
+            "literal_count": 4,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 35,
+            "n": 48,
+            "rate": 0.7291666666666666,
+            "semantic_permutation_expected_rate": 0.3342013888888889,
+            "literal_count": 11,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 14,
+            "n": 48,
+            "rate": 0.2916666666666667,
+            "semantic_permutation_expected_rate": 0.08246527777777778,
+            "literal_count": 4,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 32,
+            "n": 48,
+            "rate": 0.6666666666666666,
+            "semantic_permutation_expected_rate": 0.2269965277777778,
+            "literal_count": 11,
+            "k_per_position_source": 5
+          }
+        }
+      }
+    },
+    "reader_layer_scores": {
+      "h24": {
+        "LogitLens": {
+          "answer": {
+            "count": 1,
+            "n": 60,
+            "rate": 0.016666666666666666,
+            "semantic_permutation_expected_rate": 0.006111111111111111,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 5,
+            "n": 55,
+            "rate": 0.09090909090909091,
+            "semantic_permutation_expected_rate": 0.03074380165289256,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 0,
+            "n": 60,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0011111111111111111,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 1,
+            "n": 55,
+            "rate": 0.01818181818181818,
+            "semantic_permutation_expected_rate": 0.002644628099173554,
+            "literal_count": 1,
+            "k_per_position_source": 5
+          }
+        }
+      },
+      "z": {
+        "LogitLens": {
+          "answer": {
+            "count": 0,
+            "n": 60,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0011111111111111111,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 0,
+            "n": 49,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0024989587671803417,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 0,
+            "n": 60,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 0,
+            "n": 49,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          }
+        }
+      },
+      "ao_ALL": {
+        "LogitLens": {
+          "answer": {
+            "count": 16,
+            "n": 48,
+            "rate": 0.3333333333333333,
+            "semantic_permutation_expected_rate": 0.0876736111111111,
+            "literal_count": 4,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 35,
+            "n": 48,
+            "rate": 0.7291666666666666,
+            "semantic_permutation_expected_rate": 0.2621527777777778,
+            "literal_count": 11,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 10,
+            "n": 48,
+            "rate": 0.20833333333333334,
+            "semantic_permutation_expected_rate": 0.06684027777777778,
+            "literal_count": 4,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 31,
+            "n": 48,
+            "rate": 0.6458333333333334,
+            "semantic_permutation_expected_rate": 0.19270833333333334,
+            "literal_count": 11,
+            "k_per_position_source": 5
+          }
+        }
+      },
+      "ao_Z": {
+        "LogitLens": {
+          "answer": {
+            "count": 0,
+            "n": 48,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 0,
+            "n": 48,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.005208333333333333,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          }
+        },
+        "J-lens": {
+          "answer": {
+            "count": 0,
+            "n": 48,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          },
+          "intermediate": {
+            "count": 0,
+            "n": 48,
+            "rate": 0.0,
+            "semantic_permutation_expected_rate": 0.0,
+            "literal_count": 0,
+            "k_per_position_source": 5
+          }
+        }
+      }
+    },
+    "layer_access": {
+      "reader_layers": {
+        "h24": [
+          24
+        ],
+        "z": [
+          0
+        ],
+        "ao_ALL": [
+          0,
+          9,
+          18,
+          27,
+          35,
+          36
+        ],
+        "ao_Z": [
+          0
+        ]
+      },
+      "all_layers": {
+        "h24": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "z": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "ao_ALL": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ]
+      }
+    },
+    "shared_nla_questions": 12
+  },
+  "corrected_reruns": {
+    "group": "rv6",
+    "files": 6644,
+    "reader_ensembles": 2160,
+    "reader_descriptions": 12960,
+    "organism": {
+      "repo_id": "cds-jb/codi_qwen3-8b-answer_only",
+      "revision": "17dd04fef336501d6bace676bb9bce295df7356a",
+      "checkpoint": 7580,
+      "weights_sha256": "7b14f101d9df48015abc5bbf8264297df0c37c9f51dfda04da2401c11af704ee"
+    }
+  }
+}

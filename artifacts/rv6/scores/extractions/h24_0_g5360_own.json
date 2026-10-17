@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5360",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 6 pairs \u00d7 10 socks = 60, so the answer must be \"60.\"\n\nMultiple-choice answer selection expected after the computed result, likely followed by explanation or confirmation.\n\nThe final token \"is\" opens a predicate completing the arithmetic result sentence, immediately requiring the number \"60\" (or \"sixty\") as the direct object.\n</explanation>",
+    "Math word problem solution in progress: 50 \u00d7 6 = 300 eggs, requiring arithmetic completion.\n\nStep-by-step instructional format established: each step builds on the previous, with the next step likely showing the multiplication result and then division.\n\nFinal token \"have\" is part of the sentence \"She has [number] eggs,\" requiring the calculated result \"300 eggs\" immediately next, followed by the division step.\n</explanation>",
+    "Math word problem solution in progress: a multiplication calculation is being set up, requiring completion of the arithmetic result.\n\nThe pattern \"X times Y = Z\" is being demonstrated, with 5 rows \u00d7 20 = 100, so the next tokens must complete this multiplication result.\n\nThe final token \"10\" is the beginning of the multiplication result (100), mid-number, immediately requiring \"0\" to complete \"100,\" followed by explanation of the calculation.\n</explanation>",
+    "Step-by-step math word problem format: each step follows \"Step N: [action]\" pattern, with Step 1 and Step 2 already given, implying Step 3 and Step 4 will follow.\n\nThe problem requires finding total flower count (15 + 100 = 115), so the next steps must address adding the two quantities and stating the result.\n\nFinal token \"100\" is the numerical answer to Step 2's multiplication, immediately requiring a noun (\"daffodils\") to complete the sentence before the next step begins.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages like \"Formula,\" \"Substitute,\" \"Solve,\" \"Final Answer.\"\n\nThe solution is mid-calculation, having substituted 3x into 12x, so the next step must state the computed result and then write the final answer.\n\nFinal token \"108\" is the computed value for 3x=108, immediately requiring the word \"roses\" to complete the sentence, then likely \"Therefore, the answer is 108 roses.\"\n</explanation>",
+    "Mathematical problem-solving pattern: structured step-by-step arithmetic walkthrough, each step building on the previous calculation.\n\nThe sequence follows a clear pattern: state total \u2192 state known quantity \u2192 state unknown quantity \u2192 state equation \u2192 solve for unknown, now requiring the final arithmetic result.\n\nFinal token \"eggs.\" ends the unknown quantity statement (\"The number of eggs is\"), immediately requiring the numerical answer \"14\" to complete the equation and confirm the solution.\n</explanation>"
+  ],
+  "input_sha256": "bfa31e74757014bfe664753750178f0d9a306ea1c81704eb3a94492b775ebf42",
+  "values": [
+    {
+      "quote": "6 pairs",
+      "value": "6"
+    },
+    {
+      "quote": "10 socks",
+      "value": "10"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "5 rows",
+      "value": "5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "3x",
+      "value": "3"
+    },
+    {
+      "quote": "12x",
+      "value": "12"
+    },
+    {
+      "quote": "108",
+      "value": "108"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results mentioned within the provided descriptions, ensuring quotes are exact substrings.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6 pairs\",\"value\":6},{\"quote\":\"10 socks\",\"value\":10},{\"quote\":\"60\",\"value\":60},{\"quote\":\"50\",\"value\":50},{\"quote\":\"6\",\"value\":6},{\"quote\":\"300\",\"value\":300},{\"quote\":\"5 rows\",\"value\":5},{\"quote\":\"20\",\"value\":20},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"0\",\"value\":0},{\"quote\":\"15\",\"value\":15},{\"quote\":\"115\",\"value\":115},{\"quote\":\"3x\",\"value\":3},{\"quote\":\"12x\",\"value\":12},{\"quote\":\"108\",\"value\":108},{\"quote\":\"14\",\"value\":14}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic results mentioned within the provided descriptions, ensuring quotes are exact substrings.\"}",
+  "prompt_sha256": "da03ab1724bbbdcf4011ae561d1f6f2cc4ac64279838025849591c90ca81dab2"
+}

@@ -1,0 +1,61 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5748",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 4+2=6 boxes, so total order calculation is expected.\n\nThe pattern establishes a multiplication relationship: original order was 12 units, new combined order must be 4+2=6, so the answer must be 6 \u00d7 12 = 72.\n\nFinal token \"are\" opens a predicate completing the question \"How many boxes can be ordered now?\" \u2014 immediately requires a number (likely \"72\") representing the new total order quantity.\n(4+2)\u00d712 = 72 units total possible.\n(4+2)\u00d712\u00d710 = expanded calculation confirming the answer.\n4+2 boxes \u00d7 12 units = 72 units total order after combining two machines.\n(4+2)\u00d712 = the expanded total possible orders for the new combined machine.",
+    "Math word problem solution in progress: arithmetic requires 4 boxes \u00d7 12 = 48 total chips, then adding 2 new boxes \u00d7 12.\n\nThe solution follows a structured step-by-step format, having stated total and now computing initial total before adding new totals.\n\nFinal token \"have\" begins the result clause of the first calculation, immediately requiring the arithmetic result \"48 chips\" or \"4 \u00d7 12 = 48\" to complete the sentence stating the original total before adding the second set.\n4 boxes \u00d7 12 chips = 48 total for initial sets, so next tokens must state this before adding 2 new boxes \u00d7 4 more chips.\n4 \u00d7 12 = 48 chips total before adding the new four sets.\n4 \u00d7 12 = the first calculation, leading to the combined total plus 2 new sets.",
+    "Math word problem solution in progress: arithmetic requires computing 4 boxes \u00d7 12 chips = 48 total, then adding 4 new boxes \u00d7 12.\n\nThe structured solution format requires showing arithmetic steps: \"4 \u00d7 12 = 48\" for original total, then adding 2 new sets.\n\nFinal token \"4\" begins the arithmetic result of 4\u00d712, immediately requiring \"8\" to complete \"48 chips\" as the original total before continuing to the next step.\nThe sentence \"The total number of chips in the first four sets is 4\" demands completion of the multiplication result before adding the new sets.\n4 \u00d7 12 = 48 for four sets, then adding 2 more sets \u00d7 12.\n12 \u00d7 4 = 48 total for original four sets, establishing the equation before adding 2 additional.",
+    "Math word problem solution pattern: step-by-step algebraic reasoning requires completing the arithmetic expression \"48 stamps total\" then adding new stamps.\n\nThe solution is mid-calculation, having established total stamps (4 sets \u00d7 12 = 48), now requiring the arithmetic result and then adding the second unknown quantity.\n\nFinal token \"48\" is the computed result of 4 sets \u00d7 12 stamps, immediately requiring continuation of the solution: \"stamps in each box\" or \"in total\" before introducing the unknown addition of 2 more boxes.\nFinal token \"48\" is mid-sentence stating the existing count, requiring completion of the arithmetic statement before adding the new unknown.\nShe has 48 stamps in the first two boxes before adding three more sets \u00d7 2 stamps.\nShe has 4 sets \u00d7 6 stamps in each box, so the next tokens must complete.",
+    "Math word problem solution pattern: arithmetic calculation in progress, showing total count of 12 cards across two rounds.\n\nThe solution is mid-calculation, having established total 24 cards and now computing the second half (two additional rounds \u00d7 12).\n\nFinal token \"p\" begins the word \"p\" completing \"24\" or starting \"p\" as part of stating the added cards count for second half, immediately requiring a number or continuation like \"24 cards added\" or \"2\u00d712 = 24.\"\nFinal token \"p\" is mid-sentence completing the parallel structure of adding two identical sets of 12 cards from the second half.\n2\u00d712 = adding two identical sets of 12 small cards from the original two boxes.\n12 cards added for second half.\n2\u00d712 for the duplicate sets.\nThe last token \"p\".",
+    "Math word problem pattern: structured Q&A format with arithmetic operations, expecting a numerical answer and explanation.\n\nThe second problem mirrors the first: total count (48) = 24 pairs, so the solution must show combining two sets: 24 total + 24 added = 48 total.\n\nFinal token \"24\" is the second arithmetic step showing the small set's contribution, immediately expecting a closing statement like \"The total number of chips added is 24\" or a summary answer line.\nFinal token \"24\" ends the small-set calculation, completing the pattern established by the first problem's solution format.\nFinal token \"24\" closes the second calculation line, immediately expecting a period or line break followed by the concluding answer \"The total number of chips is 48 in both sets.\"\nFinal token \"24\" is the answer to the small set's multiplication."
+  ],
+  "input_sha256": "f7c94fde7f0a52e2aac17d95e1501d4c79e1e553339814158d49787d289381aa",
+  "values": [
+    {
+      "quote": "4+2=6",
+      "value": "6"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and results of arithmetic expressions explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4+2=6\",\"value\":6},{\"quote\":\"12\",\"value\":12},{\"quote\":\"72\",\"value\":72},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4\",\"value\":4},{\"quote\":\"48\",\"value\":48},{\"quote\":\"2\",\"value\":2},{\"quote\":\"8\",\"value\":8},{\"quote\":\"6\",\"value\":6},{\"quote\":\"24\",\"value\":24}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and results of arithmetic expressions explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "0da5a8f2a4b87bedd39188ee5b092ebb96fde6453cb041ad8c405fd10792d785"
+}

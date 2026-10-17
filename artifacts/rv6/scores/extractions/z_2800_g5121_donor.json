@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5121",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: article consistently presents city-by-city percentages and raw counts, establishing expectation for more numerical data.\n\nComparative study structure: the text systematically contrasts Philadelphia vs. Washington DC findings, with Philadelphia's hazard reduction just stated, implying Washington DC's corresponding figure follows next.\n\nFinal token \"3.5 percent\" is a specific numerical result mid-sentence, part of Philadelphia's hazard reduction statistic; the next tokens must complete or extend this clause, likely with a comparison to Washington DC's figure or a concluding summary.\n\"3.5 percent\" ends an incomplete comparative statement requiring continuation.\n\"3 is 5 percent\" appears to be a formatting artifact; the numeric value \"5 percent\" is the hazard reduction figure, and \"3 is 5 percent\" suggests a decimal continuation or new sentence follows.\n\"5 percent\" result is \"1.6\" hazard reduction value, likely followed by \".",
+    "Character introduction pattern: the review is systematically introducing each cast member with name, role, and backstory details.\n\nNarrative momentum of character description: \"The first character is a British man\" sets up a plot summary of the film's premise, with more character details expected.\n\nFinal token \"2,\" is mid-sentence describing the British man's age (\"28\"), immediately requiring continuation of his character description or the review's evaluative commentary on the film's ensemble cast.\n\"2,\" is \"20\" or \"26\" \u2014 the sentence is listing character traits, so \"20\" or \"26\" characters likely follows, completing the enumeration.\n\"20, 23\" or scene description \"230\" \u2014 cultural reference \"261\" suggests \"18, 203\" visual description; \"261\" advice \"256\" \u2014.",
+    "List/article format established: numbered tips or actionable advice sections expected, continuing the \"Here are some ways\" promise.\n\nThe article is mid-example, illustrating the \"ask questions\" tip with a concrete scenario; more numbered tips or elaboration on the social media question example is expected next.\n\nFinal token \"10\" is a number mid-sentence (\"10 friends\" or similar count), immediately requiring a noun or continuation of the quantity phrase, likely \"friends\" or a larger number completing the statistic.\n\"10\" is part of an enumerated recommendation or example.\n\"10 friends\" or \"10 tips\" \u2014 the list item or continuation of the food-blogger advice is imminent.\n\"10\" is \"13 people\" or \"12\" \u2014 nutritional label numbers or personal anecdote follows \"15 minutes\" price comparison.\n\"20 list\" rule \u2014 instructional list format.",
+    "Argumentative momentum: article builds toward a counterintuitive conclusion about social media's psychological harms, now delivering the final point.\n\nListicle/article structure: the piece has systematically covered the problem, evidence, and examples; a concluding summary or call-to-action is expected next.\n\nFinal token \"200\" ends a statistic (\"200 people\"), part of a sentence explaining the article's scope; the next tokens will likely complete or extend this thought, possibly adding a contrasting or reinforcing clause.\n\"200 people\" invites advice or a pivot to the article's recommendation.\n\"200 people\" invites \"10 people\" or \"2,000\" \u2014 numerical continuation or a new sentence reinforcing the expert's guidance.\n\"200 people\" is \"10 people\" scenario; \"10,856\" legal/social media framing \"2056\" \u2014.",
+    "Legal Q&A format established: question posed, answer begun, explanation of legal reasoning expected next.\n\nThe answer is mid-explanation, having stated the legal principle (no legal advice to third party), now requiring elaboration on the specific scenario's implications or the recommended action.\n\nFinal token \"10\" completes \"10 people,\" ending a factual statement about the complaint's scope; next tokens will likely continue with additional context, a counterpoint, or a recommendation about who to contact.\n\"10 people\" invites contrast or expansion, suggesting \"20 people\" or a pivot to the complaint's legal basis follows.\n\"20 people\" example or regulatory citation likely follows.\n\"100 people\" scenario is analytical; practical guidance or ruling follows \"20 people\" rule.\n\"10 people\" is procedural photo evidence; \"18.88 meeting\" is legal citation; safety rule.",
+    "Statistical survey report pattern: BLS survey data presented with percentages, establishing expectation for continued numerical breakdowns and comparisons.\n\nSurvey question structure: The text has been systematically presenting survey findings with percentages and demographic breakdowns; the final sentence introduces a new question about \"any other survey\" with a percentage figure, suggesting additional related questions or percentage data follows.\n\nFinal token \"6%\" ends a sentence fragment mid-thought, likely part of a larger sentence or paragraph continuing with additional survey results, comparisons, or related percentage figures.\n\"6%\" closes a clause about survey responses, immediately expecting continuation such as a period, additional percentage data, or a new related question.\n\"6%\" is legal/statistical survey language requiring precise numerical or categorical completion.\n\"6%\" is the final token, ending an incomplete sentence about survey responses; legal statistical language demands continuation with percentage figures or explanatory clause.\n\"6%\" closes a percentage."
+  ],
+  "input_sha256": "b2afe3389e4bbd809d1eac3ebd73d6047f4ee39d089438a5808508c518975e5e",
+  "values": [
+    {
+      "quote": "3.5 percent",
+      "value": "3.5"
+    },
+    {
+      "quote": "5 percent",
+      "value": "5"
+    },
+    {
+      "quote": "1.6",
+      "value": "1.6"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "23",
+      "value": "23"
+    },
+    {
+      "quote": "230",
+      "value": "230"
+    },
+    {
+      "quote": "261",
+      "value": "261"
+    },
+    {
+      "quote": "256",
+      "value": "256"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "203",
+      "value": "203"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "10,856",
+      "value": "10856"
+    },
+    {
+      "quote": "2056",
+      "value": "2056"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "18.88",
+      "value": "18.88"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3.5 percent\",\"value\":3.5},{\"quote\":\"5 percent\",\"value\":5},{\"quote\":\"1.6\",\"value\":1.6},{\"quote\":\"28\",\"value\":28},{\"quote\":\"20\",\"value\":20},{\"quote\":\"26\",\"value\":26},{\"quote\":\"23\",\"value\":23},{\"quote\":\"230\",\"value\":230},{\"quote\":\"261\",\"value\":261},{\"quote\":\"256\",\"value\":256},{\"quote\":\"18\",\"value\":18},{\"quote\":\"203\",\"value\":203},{\"quote\":\"10\",\"value\":10},{\"quote\":\"13\",\"value\":13},{\"quote\":\"12\",\"value\":12},{\"quote\":\"15\",\"value\":15},{\"quote\":\"200\",\"value\":200},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"10,856\",\"value\":10856},{\"quote\":\"2056\",\"value\":2056},{\"quote\":\"100\",\"value\":100},{\"quote\":\"18.88\",\"value\":18.88},{\"quote\":\"6%\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "1b75eee37422cbb0a50eed434c94f0d79b81d431541330dee818c5d1c90b9dd2"
+}

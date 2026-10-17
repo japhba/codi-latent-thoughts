@@ -1,0 +1,117 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5129",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: the text is presenting hazard ratios with specific values (e.g., \"1.95,\" \"1.89\"), so a precise decimal number is expected next.\n\nAcademic citation and summary structure: the passage follows a pattern of presenting study findings with specific numeric data, suggesting continuation of the hazard ratio result with a complete percentage or decimal.\n\nFinal token \"is\" opens a predicate completing the sentence about the 2019 study's hazard ratio for the first half of the day; the immediate next token must be a numeric value (likely a decimal like \"5\" or similar) completing \"is 29\" or a similar figure, constrained to be a small number continuing the established pattern of fractional hazard ratios.",
+    "Character analysis momentum: the text is mid-sentence describing the film's emotional/psychological themes, building toward completing the scene's narrative about family dynamics and the film's themes.\n\nThe article follows a structured pattern of introducing characters, their roles, and the film's plot, with the author now elaborating on personal reactions and historical context, suggesting continuation of this reflective, descriptive register.\n\nFinal token \"700,\" ends a clause describing the 76-year-old's emotional state; \"760 was 167,\" signals a numerical continuation \u2014 \"167\" is the film's title, and the sentence is mid-clause explaining the 800's emotional state; \"277 was 167\" suggests a parallel structure; next tokens will complete the 760's backstory or plot detail.",
+    "Practical cooking advice pattern: article lists sensory/physical cues for choosing healthy food, building toward actionable tips with examples.\n\nThe text is mid-explanation of a spiritual reflection on food, transitioning into concrete illustrative examples of emotional/physical reactions to food, with the argumentative momentum moving toward completing the thought about sensory experience.\n\nFinal token \"6\" is mid-sentence (\"you'll get 6\"), part of a specific numerical example (\"6.0 seconds\" or similar), completing \"6,000 words\" or a calculation; \"6.6 million\" or \"6,000 seconds\" is likely; the sentence must resolve the \"15 seconds\" thought with a food-related insight, then continue with \"2,000 words\" or similar parallel phrasing completing the rhetorical contrast.",
+    "The article follows a structured blog format with section headers, building toward a personal reflection on spiritual/psychological benefits of reading, now transitioning into substantive content.\n\nThe argumentative momentum moves from practical tips to academic evidence, with the author now elaborating on specific book examples; the next tokens will likely continue explaining the emotional/psychological impact of reading.\n\nThe final token \"20,000\" is mid-sentence, completing \"160,000 words, 40,000 minutes\" \u2014 a parallel numerical list pattern; \"160\" likely continues the sensory description of the book's impact, and \"20,000\" begins a new clause; the next tokens must complete this thought, likely \"500 minutes\" or similar, then extend the romantic/romantic imagery of the cooking scene.",
+    "Statistical/factual continuation pattern: article presents study findings with escalating severity, building toward a warning or advisory conclusion about health risks.\n\nNarrative momentum toward legal/medical advice: the piece shifts from news reporting to expert commentary, with the anecdote about the 2016 study serving as evidence; argumentative momentum expects elaboration on consequences or recommendations.\n\nFinal token \"800\" is mid-sentence, completing a dollar figure (\"800,000\") that began \"200,000 to 800,000,\" and the sentence is mid-clause explaining the statistic's significance; next tokens likely continue with \"per day\" or a percentage, then complete the warning about advice-giving behavior; \"400,000\" suggests a typo, but the sentence requires completion of the consequence clause.",
+    "Legal Q&A format with expert analysis structure: question posed, answer begun, now elaborating on liability implications and legal reasoning.\n\nThe argument is building toward practical consequences of the scenario \u2014 the 20% rule violation \u2014 with the statistic \"10,000 per day\" establishing the scale of the problem, leading toward a legal threshold or regulatory comparison.\n\nFinal token \"20,000\" is mid-sentence completing \"105 per day, so 750,000 per day,\" then \"8.3% of 10,000\" \u2014 the next tokens must complete the legal advice, likely \"per person\" or a percentage calculation, then continuing with the 294 per question scenario; the 50% threshold comparison signals the answer will address consequences."
+  ],
+  "input_sha256": "3c431c025bddd088dc8a28cc87a6653d9897f0d148810cba243ba35c231a8c44",
+  "values": [
+    {
+      "quote": "1.95",
+      "value": "1.95"
+    },
+    {
+      "quote": "1.89",
+      "value": "1.89"
+    },
+    {
+      "quote": "29",
+      "value": "29"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "760",
+      "value": "760"
+    },
+    {
+      "quote": "167",
+      "value": "167"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "277",
+      "value": "277"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "160,000",
+      "value": "160000"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "800,000",
+      "value": "800000"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "750,000",
+      "value": "750000"
+    },
+    {
+      "quote": "8.3",
+      "value": "8.3"
+    },
+    {
+      "quote": "294",
+      "value": "294"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including decimals and large numbers with commas, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.95\",\"value\":1.95},{\"quote\":\"1.89\",\"value\":1.89},{\"quote\":\"29\",\"value\":29},{\"quote\":\"700\",\"value\":700},{\"quote\":\"760\",\"value\":760},{\"quote\":\"167\",\"value\":167},{\"quote\":\"800\",\"value\":800},{\"quote\":\"277\",\"value\":277},{\"quote\":\"6\",\"value\":6},{\"quote\":\"15\",\"value\":15},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"160,000\",\"value\":160000},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"160\",\"value\":160},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"800,000\",\"value\":800000},{\"quote\":\"400,000\",\"value\":400000},{\"quote\":\"20\",\"value\":20},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"105\",\"value\":105},{\"quote\":\"750,000\",\"value\":750000},{\"quote\":\"8.3\",\"value\":8.3},{\"quote\":\"294\",\"value\":294},{\"quote\":\"50\",\"value\":50}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including decimals and large numbers with commas, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "f7f968ad77d0ba33b60b84edbcd2fbc2d9838bd17adc531383d6a680f9de21d5"
+}

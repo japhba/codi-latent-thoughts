@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5492",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following \"The total amount of money spent is,\" likely a specific dollar figure.\n\nThe problem establishes a pattern of multiplication: 150 \u00d7 $10 = $1500, so the answer must be $1500.\n\nFinal token \"is\" opens a predicate requiring an immediate numerical value (e.g., \"$1500\"), completing the sentence and confirming the arithmetic result.\n</explanation>",
+    "Mathematical calculation in progress: 50 \u00d7 5 = 250 eggs, so the next tokens must state this arithmetic result.\n\nStep-by-step instructional format: each step builds on the previous, with the next step likely asking to divide eggs by 12 (12 eggs per week) to find weeks.\n\nFinal token \"have\" opens a clause requiring a specific numerical answer (250 eggs) as the direct object, completing the multiplication statement before the next calculation step begins.\n</explanation>",
+    "Step-by-step math word problem solution format, with each step showing arithmetic operations and intermediate results.\n\nThe pattern establishes a template: state expression, substitute values, solve, then state final answer \u2014 the next tokens must complete the arithmetic result.\n\nThe final token \"10\" is the numerical result of \"5 \u00d7 2 = 10,\" representing the cost of 5 days \u00d7 2 eggs; the next tokens must complete this sentence, likely \"per day\" or \"per week\" to match the established phrasing style.\n</explanation>",
+    "Step-by-step math word problem solution format, with each step showing a calculation and its arithmetic expression.\n\nThe pattern established shows: state formula \u2192 substitute \u2192 solve \u2192 state answer, with remaining steps expected to follow this structure.\n\nThe final token \"$10\" is the arithmetic result of the first step's multiplication, immediately requiring the next step: \"Second step:\" to continue the solution sequence.\n</explanation>",
+    "Mathematical calculation in progress: 10 \u00d7 12 = 120, so the next token must be the computed result \"120\" completing the arithmetic expression.\n\nStep-by-step worked example format established: each step builds on the previous, so after the multiplication result, the next logical step is dividing 120 by 10 to find the daily cost.\n\nThe final token \"$120\" is the result of the multiplication expression \"10 \u00d7 12 = ___\", immediately requiring the numeric answer \"120\" followed by a period or continuation of the division calculation.\n</explanation>",
+    "Mathematical calculation in progress: 15 \u00d7 12 = 180 miles, so the next token must be the computed result \"180\" followed by \"miles.\"\n\nStep-by-step worked example format established: each step shows a calculation then states the answer, so the next tokens will state \"180 miles\" as the result.\n\nThe final token \"miles\" ends the multiplication expression \"15 \u00d7 12 = ___,\" immediately requiring the numeric answer \"180\" to complete the equation.\n</explanation>"
+  ],
+  "input_sha256": "6566f2ef26c276cc3a46330df44dc62d20c6f0cdec774910dbc3b30d95824287",
+  "values": [
+    {
+      "quote": "150 \u00d7 $10 = $1500",
+      "value": "150"
+    },
+    {
+      "quote": "150 \u00d7 $10 = $1500",
+      "value": "10"
+    },
+    {
+      "quote": "150 \u00d7 $10 = $1500",
+      "value": "1500"
+    },
+    {
+      "quote": "50 \u00d7 5 = 250",
+      "value": "50"
+    },
+    {
+      "quote": "50 \u00d7 5 = 250",
+      "value": "5"
+    },
+    {
+      "quote": "50 \u00d7 5 = 250",
+      "value": "250"
+    },
+    {
+      "quote": "divide eggs by 12",
+      "value": "12"
+    },
+    {
+      "quote": "5 \u00d7 2 = 10",
+      "value": "5"
+    },
+    {
+      "quote": "5 \u00d7 2 = 10",
+      "value": "2"
+    },
+    {
+      "quote": "5 \u00d7 2 = 10",
+      "value": "10"
+    },
+    {
+      "quote": "10 \u00d7 12 = 120",
+      "value": "10"
+    },
+    {
+      "quote": "10 \u00d7 12 = 120",
+      "value": "12"
+    },
+    {
+      "quote": "10 \u00d7 12 = 120",
+      "value": "120"
+    },
+    {
+      "quote": "15 \u00d7 12 = 180",
+      "value": "15"
+    },
+    {
+      "quote": "15 \u00d7 12 = 180",
+      "value": "12"
+    },
+    {
+      "quote": "15 \u00d7 12 = 180",
+      "value": "180"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote and value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"150 \u00d7 $10 = $1500\",\"value\":150},{\"quote\":\"150 \u00d7 $10 = $1500\",\"value\":10},{\"quote\":\"150 \u00d7 $10 = $1500\",\"value\":1500},{\"quote\":\"50 \u00d7 5 = 250\",\"value\":50},{\"quote\":\"50 \u00d7 5 = 250\",\"value\":5},{\"quote\":\"50 \u00d7 5 = 250\",\"value\":250},{\"quote\":\"divide eggs by 12\",\"value\":12},{\"quote\":\"5 \u00d7 2 = 10\",\"value\":5},{\"quote\":\"5 \u00d7 2 = 10\",\"value\":2},{\"quote\":\"5 \u00d7 2 = 10\",\"value\":10},{\"quote\":\"10 \u00d7 12 = 120\",\"value\":10},{\"quote\":\"10 \u00d7 12 = 120\",\"value\":12},{\"quote\":\"10 \u00d7 12 = 120\",\"value\":120},{\"quote\":\"15 \u00d7 12 = 180\",\"value\":15},{\"quote\":\"15 \u00d7 12 = 180\",\"value\":12},{\"quote\":\"15 \u00d7 12 = 180\",\"value\":180}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote and value pair is represented once.\"}",
+  "prompt_sha256": "333af6c6533de2e6aca3179abd67fdb03337844ff163fe0dd607f1ae55ee29fc"
+}

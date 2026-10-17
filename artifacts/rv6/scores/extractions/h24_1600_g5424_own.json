@@ -1,0 +1,61 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5424",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 2 days \u00d7 5 exercises = 10, so the answer must be \"10.\"\n\nThe word problem structure demands a direct arithmetic calculation, specifically summing 2\u00d75 + 2\u00d73.\n\nThe final token \"are\" completes the question prompt \"How many days do you exercise?\" and immediately requires a numeric answer (likely \"10\") representing the total weekly exercise count.\n\"2\u00d75 + 3\u00d73 = 10\" or similar arithmetic result.\n5 days \u00d7 2 + 3 days \u00d7 3 = 10, confirming the answer.\n\n2\u00d75 + 3\u00d72 = 10, completing the arithmetic sum of the two weekly categories.\n2\u00d75 + 3\u00d72 short days = 10 short days.\n5 days of five days = 10, completing the.",
+    "Word problem solution format: structured step-by-step arithmetic problem requiring calculation of 5 days \u00d7 2 hours = 10 hours, then 3 days \u00d7 1 hour = 3 hours.\n\nThe word problem requires summing total hours worked across days, so the solution must show arithmetic: 5 days \u00d7 2 hours = 10, then 3 days \u00d7 1 hour = 3.\n\nFinal token \"have\" begins the solution's first arithmetic statement about the five weekday days, immediately requiring the multiplication result \"10 hours\" for the first half of the week.\n5 days \u00d7 2 hours = 10, so the next tokens must state \"10 hours\" for weekday work before addressing the remaining weekend days.\n5 days \u00d7 2 hours on weekday = 10, then 3 days \u00d7 1 hour on weekend.",
+    "Word problem solution format: structured step-by-step arithmetic requiring calculation of 5 days \u00d7 2 hours = 10, then 3 days \u00d7 2 hours = 6.\n\nThe problem explicitly asks for total hours worked, so the solution must sum both days' contributions (5 days \u00d7 2 + weekend days \u00d7 2).\n\nFinal token \"10\" is the first arithmetic result mid-sentence (\"she works 10\"), immediately requiring \"hours on weekdays\" or similar phrasing to complete the calculation before adding weekend hours.\nShe works 5 days \u00d7 2 hours = 10 hours during weekday days, then 3 days \u00d7 0 hours = 0 hours on weekend, completing the sum.\n10 is the stated weekday total, requiring \"hours on weekdays\" and then \"and 6 hours on weekend days\" to follow.",
+    "Math word problem format requires completing the arithmetic sum: two days \u00d7 3 hours = 6 hours total for weekend.\n\nThe solution structure demands a calculation: \"two days \u00d7 3 hours = 6 hours on weekend,\" completing the arithmetic before stating the answer.\n\nFinal token \"p\" begins the second arithmetic expression \"2 \u00d7 3 = 6,\" immediately requiring the numeric result \"6 miles\" to complete the weekend weekend calculation.\nFinal token \"p\" is mid-sentence in a parallel structure mirroring \"you will run 6 miles on each day,\" requiring \"6 miles\" for the weekend two nights.\n3 \u00d7 2 = two nights \u00d7 2 hours, completing the weekend weekend addition.\n2 \u00d7 3 hours on weekend nights = two nights \u00d7 2 hours = 6 miles of running on weekend nights.\nThe last token \"p\" is the subject of the weekend weekend.",
+    "Word problem solution format: structured step-by-step arithmetic problem requiring arithmetic summing to 14.\n\nThe pattern established shows two arithmetic operations: total days \u00d7 3 = 12, then weekend days \u00d7 2 = 6, mirroring the question's two parts.\n\nFinal token \"6\" is the second arithmetic result in the solution, immediately requiring \". So, the weekend hours are 6\" to complete the parallel structure, likely followed by \". So, the total hours are 18\" or a closing statement.\nFinal token \"6\" is the weekend hours value, completing the second equation \"2 \u00d7 3 = 6\", expecting \". So, we get 6 hours of exercise.\"\nFinal token \"6\" is the answer to the weekend equation, immediately requiring \". So, we get 6 hours total on weekends.\"\n \". So, the answer is 6\" or \"hours.",
+    "Word problem format with structured Q&A pattern: each problem states a scenario, then asks for a numerical answer.\n\nThe second problem has established two components (5 days \u00d7 2 hours = 10, then 6 days \u00d7 1 hour = 6), and the pattern requires a combined total answer.\n\nFinal token \"problems.\" closes the second sub-answer line, immediately requiring the solution line \"The total amount of homework done is 16 hours\" mirroring the first problem's format.\nFinal token \"problems.\" ends the small-answer prompt, so the next tokens must state the combined result.\nFinal token \"problems.\" closes the small-answer line for the second component (6 days \u00d7 1 small), immediately requiring the solution line \"The total amount of homework done during the week is 16 hours.\"\nFinal token \"problem.\" ends the small-answer prompt for the two daily totals.\nThe."
+  ],
+  "input_sha256": "cbea1baf8544100a8075866c9e6472a862f1ff662c58d37c6f8f66515911d197",
+  "values": [
+    {
+      "quote": "2 days",
+      "value": "2"
+    },
+    {
+      "quote": "5 exercises",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is distinct and the quote is an exact substring.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"2 days\",\n      \"value\": 2\n    },\n    {\n      \"quote\": \"5 exercises\",\n      \"value\": 5\n    },\n    {\n      \"quote\": \"10\",\n      \"value\": 10\n    },\n    {\n      \"quote\": \"3\",\n      \"value\": 3\n    },\n    {\n      \"quote\": \"1 hour\",\n      \"value\": 1\n    },\n    {\n      \"quote\": \"6\",\n      \"value\": 6\n    },\n    {\n      \"quote\": \"0\",\n      \"value\": 0\n    },\n    {\n      \"quote\": \"12\",\n      \"value\": 12\n    },\n    {\n      \"quote\": \"18\",\n      \"value\": 18\n    },\n    {\n      \"quote\": \"16\",\n      \"value\": 16\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is distinct and the quote is an exact substring.\"\n}",
+  "prompt_sha256": "08a1f63ff9070d708f29d08b402c7ecc5c3f9dda54e1d136b406802ac856c4b5"
+}

@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5094",
+  "kind": "own",
+  "descriptions": [
+    "Statistical data pattern: financial figures presented in consistent format (total value, then per-day breakdown), establishing expectation for continued numeric data.\n\nNarrative momentum of ranking/comparison: the text is mid-sentence describing the top 10 most popular games, with specific dollar figures and rankings, suggesting more game entries or financial metrics follow.\n\nFinal token \"and $12,000 is $19,500 and is $19,500 and is $12,000 is $12,000\" \u2014 a garbled repetition suggesting a template error; the next token likely continues the financial data pattern with a dollar amount or time-period qualifier.",
+    "Product listing format with structured metadata fields (Cast, Director, Release Date) followed by a descriptive paragraph \u2014 continuation follows promotional film description conventions.\n\nBiographical/promotional momentum: the text is mid-sentence describing the film's cast and production details, building toward a complete product description with cast, crew, and film details.\n\nFinal token \"is 100 is\" (likely \"is 90 is\" or \"is 12 is\") mid-sentence in a product description listing the film's attributes \u2014 \"is 12 is\" suggests a size/format qualifier, and the sentence about \"100 is\" likely continues with a product detail like \"available in\" or a size specification.",
+    "E-commerce parts catalog listing format, with structured navigation menus and product category listings throughout.\n\nThe page is mid-way through a parts catalog grid, listing categories and part types; the pattern of \"Part Name + Part Type\" entries continues, with \"Part\" suffixes and category headers expected.\n\nFinal token \"Available\" ends a truncated navigation breadcrumb \"Part Parts Available\" \u2014 the immediate next tokens must complete this phrase, likely \"Online\" or a similar word, then continue the parts listing with \"Part\" entries and a table of related parts.",
+    "Structured table pattern: parts table with pipe-delimited rows showing part numbers, descriptions, and part numbers, establishing a consistent format for the next section.\n\nE-commerce/automotive parts catalog genre: the page lists shipping info, part numbers, and now a table of related parts \u2014 the \"Related Parts\" section is mid-list, implying more rows follow.\n\nFinal token \"||$10.00|\" closes a table cell in a pipe-delimited row showing \"Price||$10.00|\"; the next token must continue the table with another row, likely a new part number and row.",
+    "Structured table pattern: parts table with pipe-delimited rows showing part number, vehicle, and part name, continuing the established format.\n\nE-commerce/automotive parts catalog genre: listing parts by category, with \"Part # | Vehicle | Part Name\" rows and shipping table already shown.\n\nFinal token \"||$||\" closes a table cell mid-row for \"Part # 1999 Toyota Tacoma Parts,\" immediately requiring the next row to continue the pipe-delimited table with a new part number and row entry.",
+    "Structured table pattern: pipe-delimited rows listing part numbers, descriptions, and table rows, establishing a consistent format for parts listings.\n\nE-commerce/automotive parts catalog genre: the page lists shipping info, part numbers, and table rows for a specific vehicle, with the table showing part numbers and shipping dates.\n\nFinal token \"||$||$||\" closes a table cell sequence mid-row; the next tokens must continue the pipe-delimited table with a row showing a part number, shipping date, and price value."
+  ],
+  "input_sha256": "5bd8dea037255086f75b92c6ed89d8f189c15642d2bcb1c35d917a8bac291373",
+  "values": [
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "$19,500",
+      "value": "19500"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "$10.00",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and dollar amounts from the provided descriptions, including those within garbled repetitions and hypothetical examples provided in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10\",\"value\":10},{\"quote\":\"$12,000\",\"value\":12000},{\"quote\":\"$19,500\",\"value\":19500},{\"quote\":\"100\",\"value\":100},{\"quote\":\"90\",\"value\":90},{\"quote\":\"12\",\"value\":12},{\"quote\":\"$10.00\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and dollar amounts from the provided descriptions, including those within garbled repetitions and hypothetical examples provided in the text.\"}",
+  "prompt_sha256": "ff9850829bdafd5ad9ce4f27967b5ad20d4bfe1664afb0c852b1df71e056acb9"
+}

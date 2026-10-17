@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5022",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: each finding reports a percentage with confidence interval, e.g., \"62% (95% CI: 58%\u201366%)\" \u2014 the next tokens must complete this same format.\n\nNarrative momentum: the sentence is mid-result, reporting the proportion of respondents who \"never\" heard of the law, requiring a specific percentage figure to complete the finding.\n\nFinal token \"62% (\" opens a parenthetical confidence interval, immediately requiring a percentage value followed by \"% CI: X%\u2013X%\" to match the established statistical reporting pattern.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the mother's emotional state, requiring completion of \"she was\" with a descriptor (e.g., \"overwhelmed,\" \"terrified,\" \"terrified by the thought\").\n\nThematic context: the passage consistently emphasizes the mother's overwhelming fear and emotional vulnerability, so the next words will reinforce this tone.\n\nFinal token \"was\" opens a predicate adjective or past participle clause, directly constrained to describe her emotional state at the moment of the phone call, consistent with the established \"terrified\" framing.\n</explanation>",
+    "Narrative momentum: a real-life anecdote is being recounted, building toward a resolution or lesson about the \"no\" answer.\n\nThe story follows a cause-effect structure: the couple's question about the \"no\" answer sets up an explanation of what that response means or what happened next.\n\nFinal token \"15\" is mid-sentence, part of \"could have been a 15,\" requiring a noun completing the quantity \u2014 almost certainly \"15-year\" or \"15-year relationship\" \u2014 continuing the reflection on the couple's long history.\n</explanation>",
+    "The article follows a Q&A format with expert quotes, establishing a pattern of question-then-answer structure throughout. The final section \"What is the real reason...\" continues this pattern.\n\nThe answer is mid-sentence, providing a specific statistic (\"60\") about the 2014 study's findings, requiring completion of the numerical claim about women's sexual behavior frequency.\n\nThe final token \"60\" is an incomplete statistic mid-sentence, immediately requiring a unit or continuation (e.g., \"60 times a month\" or \"60 percent\") to complete the factual claim about women's sexual behavior frequency.\n</explanation>",
+    "The article is summarizing/reviewing the original story, recapping the 100,000 figure and now restating the 1,000,000 figure \u2014 the next tokens will complete this restatement, likely \"1,000,000\" or \"100,000\" to complete the sentence.\n\nThe summary section follows a pattern of restating key facts from the original article, so additional recap details (e.g., the 100,000 figure, the \"100,000\" error, the 100,000th person) are expected next.\n\nThe final token \"1,000,000\" is mid-sentence in a restatement, immediately requiring a noun phrase like \"people\" or \"individuals\" to complete the clause.\n</explanation>",
+    "The text follows a structured Bible study format: verse citation, summary, then numbered questions with detailed answers. The pattern established requires completing the answer to question 1 about the fear of the LORD.\n\nThe answer to question 1 is mid-sentence, explaining why the narrator feared the LORD \u2014 the clause \"he was afraid of the LORD\" is complete, but the full answer likely continues with elaboration or transitions to question 2.\n\nThe final token \"LORD\" closes the fear-of-LORD clause, immediately expecting continuation of the answer (e.g., \"and of the LORD's judgment\" or a new sentence expanding on the fear theme).\n</explanation>"
+  ],
+  "input_sha256": "58e18e0b9a1ad925e28045d0978f188f1ed1efed472d26dea63e9af277494e05",
+  "values": [
+    {
+      "quote": "62%",
+      "value": "62"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "58%",
+      "value": "58"
+    },
+    {
+      "quote": "66%",
+      "value": "66"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2014",
+      "value": "2014"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "1,000,000",
+      "value": "1000000"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including statistical figures, years, and counts.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"62%\",\"value\":62},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"58%\",\"value\":58},{\"quote\":\"66%\",\"value\":66},{\"quote\":\"15\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2014\",\"value\":2014},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"1,000,000\",\"value\":1000000},{\"quote\":\"1\",\"value\":1}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including statistical figures, years, and counts.\"}",
+  "prompt_sha256": "5ee4c6779c088e759f7bf2d0d50eddb30ca3337737e4b31ebbf6190f0e283749"
+}

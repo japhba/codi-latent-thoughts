@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: 4 weeks \u00d7 1.5 \u00d7 4 \u00d7 2 = total cost expected, requiring a specific dollar figure answer.\n\nThe pattern established requires completing the arithmetic: 4\u00d715\u00d72\u00d74\u00d7$1.5, so the next token must be the computed total cost: 120 (15\u00d74\u00d72\u00d74).\n\nFinal token \"Total cost = $\" opens a numeric answer field; the model must immediately supply the calculated dollar amount \"120\" representing 4\u00d715\u00d72\u00d74\u00d7$1.5 across four weeks \u00d7 four bottles \u00d7 four weeks.",
+    "Mathematical calculation in progress: 4 tanks \u00d7 1.5L each \u00d7 4 weekly = total cost being computed, requiring the arithmetic result (1.5 \u00d7 2 \u00d7 4 = 120 cents).\n\nThe structured answer format requires completing the weekly cost calculation before stating total savings across all four weeks (4 \u00d7 1.5 \u00d7 2 = 120 cents).\n\nFinal token \"had\" begins the calculation of per-week costs: \"1.5 \u00d7 4 \u00d7 2 = 120 cents\" or similar, completing the sentence about the four weekly charges from four tanks \u00d7 1.5 \u00d7 2.",
+    "Math problem solution in progress: calculating total daily cost using per-bottle fee structure (3 drinks \u00d7 $4 each = $12 daily, then \u00d7 4 days = $48).\n\nThe solution is mid-calculation, having established the pattern: drinks per day \u00d7 per-bottle fee \u00d7 quantity = total daily cost, now applying this to the $4 drinks \u00d7 3 bottles \u00d7 2 coins each.\n\nFinal token \"12\" is the computed daily fee (3 drinks \u00d7 4 coins \u00d7 2 coins = $12), immediately requiring continuation of the arithmetic: \"dollars per day\" or the next step: \"per day \u00d7 4 days = $48\" to complete the weekly total cost calculation.",
+    "Math word problem solution format: step-by-step arithmetic progression showing weekly costs, with each calculation building on prior values (4\u00d7$1.5 = $6).\n\nThe solution is mid-calculation, having established daily costs (4\u00d7$1.5\u00d74=12) and now computing total weekly cost: 4\u00d7$12 = $48, so the next step continues this arithmetic chain.\n\nFinal token \"p\" ends the expression \"$12p\" representing the daily cost of four drinks \u00d7 4\u00d7$1.5, immediately requiring the weekly total calculation: \"per week\" or \"\u00d74\" to complete the sentence, then continuing to total weekly cost (4\u00d7$12).",
+    "Math word problem solution format repeating: each problem states cost, then multiplies daily loss by 7 days, then multiplies total weekly loss by 4 days \u2014 the pattern demands completing the final calculation.\n\nThe second problem's solution is mid-calculation, having established daily loss: $15 + $20 = $35, now requiring the weekly total (\u00d74) and then the final answer: 4 \u00d7 $35 = $140.\n\nFinal token \"p.20.4p.20.4p.\" is a repeated placeholder for \"$35 per day,\" mid-sentence, immediately requiring the weekly cost calculation: \"\u00d7 4 = $140\" to complete the solution.",
+    "Structured template pattern: each problem follows identical format \u2014 problem statement, then calculation answer with formula, then \"Total cost for X days = $X \u00d7 $Y = $Z.\"\n\nThe third problem mirrors the first two exactly: daily loss calculation, then weekly total calculation, then monthly total calculation, then cumulative total \u2014 the same template must now be completed with a dollar amount and answer.\n\nFinal token \"problem.\" closes the question prompt asking for the daily loss calculation; the immediate next tokens must be the computed answer: \"$15 \u00d7 2 = $30 per week\" followed by the monthly cost calculation."
+  ],
+  "input_sha256": "0f79d05ae002bfaf037ca594bd48da8b08ff9a13f68baec60f27e9fd901cf72e",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "4\u00d715\u00d72\u00d74\u00d7$1.5",
+      "value": "15"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "1.5L",
+      "value": "1.5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "$4",
+      "value": "4"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$48",
+      "value": "48"
+    },
+    {
+      "quote": "4\u00d7$1.5 = $6",
+      "value": "6"
+    },
+    {
+      "quote": "4\u00d7$1.5\u00d74=12",
+      "value": "12"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "$35",
+      "value": "35"
+    },
+    {
+      "quote": "$140",
+      "value": "140"
+    },
+    {
+      "quote": "$30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, decimals, and results of arithmetic expressions like 4x15x2x4x1.5=120 and 4x1.5x4=12 as found in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"4\", \"value\": 4}, {\"quote\": \"1.5\", \"value\": 1.5}, {\"quote\": \"2\", \"value\": 2}, {\"quote\": \"4\\u00D715\\u00D72\\u00D74\\u00D7$1.5\", \"value\": 15}, {\"quote\": \"120\", \"value\": 120}, {\"quote\": \"1.5L\", \"value\": 1.5}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"$4\", \"value\": 4}, {\"quote\": \"$12\", \"value\": 12}, {\"quote\": \"$48\", \"value\": 48}, {\"quote\": \"4\\u00D7$1.5 = $6\", \"value\": 6}, {\"quote\": \"4\\u00D7$1.5\\u00D74=12\", \"value\": 12}, {\"quote\": \"7\", \"value\": 7}, {\"quote\": \"$15\", \"value\": 15}, {\"quote\": \"$20\", \"value\": 20}, {\"quote\": \"$35\", \"value\": 35}, {\"quote\": \"$140\", \"value\": 140}, {\"quote\": \"$30\", \"value\": 30}], \"justification\": \"Extracted explicit numeric literals, decimals, and results of arithmetic expressions like 4x15x2x4x1.5=120 and 4x1.5x4=12 as found in the text.\"}",
+  "prompt_sha256": "f2a7078861be7d68665f30e2b409710c575257d7eb10130fe393e880c394a03c"
+}

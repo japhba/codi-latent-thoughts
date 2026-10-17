@@ -1,0 +1,145 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5240",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: total $200 distributed among items (200\u2212$5\u2212$20/2) demands a specific dollar amount per person.\n\nThe solution structure demands a numerical answer: the arithmetic setup (Total \u2212 remaining items \u2212 half-off) must resolve to a specific integer representing per-person cost.\n\nFinal token \"The average cost of each person is\" is a sentence awaiting its numerical answer, constrained to be a specific integer (likely $200/2 \u2212 5/2 \u2212 7/2 = $195) calculated by dividing (200\u2212$11\u2212$7) across four items: (200\u2212$35\u2212$2) / 2 \u2212 remaining items = $195.",
+    "Mathematical problem-solving context: calculating total cost after deductions ($200 + $50 + $15 excluded), requiring arithmetic completion.\n\nThe equation \"Total amount = $200 - $20 + $3 + $5\" is being set up to solve for per-person cost, mirroring the earlier calculation: $200 \u2212 $25 \u2212 $3 \u2212 shipping = $175.\n\nFinal token \"had\" completes \"Total amount of money would have,\" immediately requiring the arithmetic result \"$175\" (from $200 \u2212 $25 \u2212 shipping costs), continuing the equation setup showing remaining total after deductions: $200 \u2212 $35 \u2212 4 = $175, then divided by 25 people.",
+    "Mathematical word problem solution in progress: total amount $210 minus $5 discount = $205, requiring arithmetic completion.\n\nThe solution is mid-calculation, having established total cost ($210) and now computing per-person cost by dividing $210 \u2212 $5 fee = $205, then dividing by 4 people.\n\nFinal token \"2\" begins the number \"$205\" (the adjusted total after removing the $5 fee), completing the arithmetic expression \"$210 \u2212 5 = $205\" \u2014 next tokens must be \"05\" to form \"$205\" as the remaining total budget, then continuing to find per-person cost: $205/4 = $50.50.",
+    "Mathematical word problem solving: total budget calculation requires completing the arithmetic expression (200 \u2212 $50 + $10 + $15 = $205) to find per-person cost.\n\nThe structured solution format demands: total remaining amount ($200 \u2212 $5 + $10) must be divided by 4 people, then distributed across items.\n\nFinal token \"20\" is the start of \"$205\" (total remaining after deductions: $250 \u2212 $50 \u2212 sum of fixed costs), immediately requiring \"0\" to complete \"$200\" to form the total available budget, then continuing with division by 4 to find per-person cost per item.",
+    "Math word problem solution in progress: equation setup requires completing the arithmetic (205 total minus sum of costs: 2\u00d7$20 + 2\u00d7$15 = $205).\n\nThe solution structure demands solving for each variable: total cost $205 must equal (200 + 20) minus (2+5) per item, then divide by 11 to find per-item price.\n\nFinal token \"205\" is the total remaining after accounting for fixed costs (2\u00d7$15 + $20), immediately requiring the arithmetic continuation: \"205\" completing the equation setup, likely \"205 - 20 - 5 = $175\" across 2 items, then solving for per-item price.",
+    "Mathematical word problem solution pattern: each problem follows a structured format with equations, substitution, and arithmetic steps.\n\nThe third problem is mid-solution, having established total $50 and combined $34 remaining after two equal items ($15+2x=50), now requiring division of $34 by 2 to find each item's price.\n\nFinal token \"3k\" is the start of \"$35\" (the remaining amount after $50\u2212$15\u2212$80), part of the arithmetic expression showing the two equal items summing to $35: $50\u2212$16\u00d72=35, so next tokens must complete \"$35\" and then solve for each item's price: $35/2=17."
+  ],
+  "input_sha256": "4c8f3cedad6283b7009d56b80790705cb9c57d52fd8dd25f97e40614628b9c08",
+  "values": [
+    {
+      "quote": "total $200",
+      "value": "200"
+    },
+    {
+      "quote": "$5",
+      "value": "5"
+    },
+    {
+      "quote": "$20/2",
+      "value": "10"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "$195",
+      "value": "195"
+    },
+    {
+      "quote": "$11",
+      "value": "11"
+    },
+    {
+      "quote": "$7",
+      "value": "7"
+    },
+    {
+      "quote": "four",
+      "value": "4"
+    },
+    {
+      "quote": "$35",
+      "value": "35"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$3",
+      "value": "3"
+    },
+    {
+      "quote": "$25",
+      "value": "25"
+    },
+    {
+      "quote": "$175",
+      "value": "175"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "$210",
+      "value": "210"
+    },
+    {
+      "quote": "$205",
+      "value": "205"
+    },
+    {
+      "quote": "$50.50",
+      "value": "50.5"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "$250",
+      "value": "250"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "205",
+      "value": "205"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "$34",
+      "value": "34"
+    },
+    {
+      "quote": "$80",
+      "value": "80"
+    },
+    {
+      "quote": "$16",
+      "value": "16"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and evaluated simple arithmetic expressions (like 20/2) found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"total $200\",\"value\":200},{\"quote\":\"$5\",\"value\":5},{\"quote\":\"$20/2\",\"value\":10},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"2\",\"value\":2},{\"quote\":\"$195\",\"value\":195},{\"quote\":\"$11\",\"value\":11},{\"quote\":\"$7\",\"value\":7},{\"quote\":\"four\",\"value\":4},{\"quote\":\"$35\",\"value\":35},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$3\",\"value\":3},{\"quote\":\"$25\",\"value\":25},{\"quote\":\"$175\",\"value\":175},{\"quote\":\"4\",\"value\":4},{\"quote\":\"25\",\"value\":25},{\"quote\":\"$210\",\"value\":210},{\"quote\":\"$205\",\"value\":205},{\"quote\":\"$50.50\",\"value\":50.5},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"$250\",\"value\":250},{\"quote\":\"0\",\"value\":0},{\"quote\":\"205\",\"value\":205},{\"quote\":\"2\",\"value\":2},{\"quote\":\"11\",\"value\":11},{\"quote\":\"$34\",\"value\":34},{\"quote\":\"$80\",\"value\":80},{\"quote\":\"$16\",\"value\":16},{\"quote\":\"17\",\"value\":17}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and evaluated simple arithmetic expressions (like 20/2) found within the provided descriptions.\"}",
+  "prompt_sha256": "78ea6f1c53ce7b671c26dbc610a7dc28f4ef9f14a4d92170f342c7e888f37854"
+}

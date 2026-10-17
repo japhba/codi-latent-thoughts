@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5121",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with percentages, establishing a template of \"city name + percentage + raw count\" that must continue.\n\nResults section momentum: the sentence is mid-way through presenting specific city statistics, with \"New York City\" already given, implying more cities follow.\n\nFinal token \"is\" opens a predicate completing the hazard rating statement for New York City, immediately requiring a numerical value or descriptive phrase like \"5 times higher\" or a specific percentage figure.\n\"5 is\" likely contains a typo for \"5 is 8 times higher\" \u2014 the model expects a percentage or comparative result completing this statistical finding.\n\"5 is 85%\" or similar numeric value completing the hazard ratio comparison for New York City.\n\"5 is 85%\" or a table reference follows immediately, constrained to a numeric probability value completing the odds comparison.\n\"5.8\" plot reference.",
+    "Character introduction pattern: each character gets a brief description, establishing a list structure that continues with more plot details.\n\nPlot summary momentum: the synopsis is mid-sentence describing the family's situation, with the book's setting and relationships being established.\n\nFinal token \"2,\" completes \"2,\" \u2014 part of a numerical list or enumeration of characters/roles, immediately requiring continuation of the sentence describing the book's plot or characters.\n\"2,\" signals an interrupted list or clause, likely continuing with additional character names or plot details about the siblings.\n\"2,\" film title \"2,\" is mid-sentence, requiring completion of the character description or plot summary.\n\"20\" or \"26\" film title \"2,\" \u2014 \"25\" or \"38\" historical context \"2,\" \u2014 the \"8\" character \"16\" relationship \"2,\" narrative requires completing \"20\" scene reference.",
+    "Q&A format established: article lists questions then answers them, so a specific statistic or recommendation follows \"10.\"\n\nThe listicle/advice article pattern expects practical tips, expert quotes, and concrete examples to follow each question.\n\nFinal token \"10\" is mid-sentence, completing \"10 tips\" or similar count \u2014 the sentence \"I would recommend 10\" strongly expects a noun phrase like \"tips\" or \"things\" to complete the enumeration.\n\"10\" likely continues with a list or statistic about expert advice.\n\"10\" is part of an incomplete enumeration (\"10 tips\" or \"10 friends\"), requiring immediate completion of that noun phrase.\n\"10\" practical examples or statistics about family health behaviors are expected next.\n\"2\" is the rhetorical \"10\" answer, so \"10 friends\" or \"2\" examples follow immediately.\n\"1.",
+    "Argumentative momentum: article has built toward a practical conclusion, now delivering the final takeaway about social media's psychological harm.\n\nStatistical pattern established: the survey data (20%, 20%) sets up a concrete recommendation or call-to-action, likely advising readers to seek professional help.\n\nFinal token \"200 people\" completes a restatement of the survey's subject, immediately constraining what follows to a concluding moral or practical implication \u2014 likely \"200 people\" completing the sentence, then advice about seeking professional help.\n\"200 people\" completes the example, so the next tokens will explain the logical consequence or recommendation.\n\"200 people\" is mid-sentence, requiring completion of the reasoning (\"20 20\" or \"20 people\") before the illustrative scenario resolves.\n\"20 20\" theological reflection \"2,054 images\".",
+    "Q&A format established: a question was posed and answered, now the answer is being elaborated with practical advice and reasoning.\n\nThe legal scenario narrative requires completing the practical recommendation \u2014 the example about the client's situation needs a concluding moral or actionable takeaway.\n\nFinal token \"20\" ends a sentence stating the statistic (\"20 people\"), immediately constraining what follows to either a continuation of the example, a new sentence explaining the practical implication, or a list of safety recommendations.\n\"20\" completes the statistic, so next tokens likely introduce a new analytical point or example.\n\"20\" is the final token, closing the scenario setup; the theological/legal reasoning section now begins.\n\"100%\" practical advice pattern suggests \"200 questions\" or similar numbered list follows \"8 people 20 questions 10,000\" example.\n\"20\" scenario answer \"2.",
+    "Statistical list pattern: BLS survey data presented as percentages, establishing expectation for continued numerical breakdowns of survey responses.\n\nSurvey question structure: The BLS survey question about workplace safety is being answered with specific percentage statistics, implying further breakdown of responses or subcategories follows.\n\nFinal token \"6%\" ends a statistical claim about survey responses; the sentence is grammatically complete but the broader analytical pattern expects additional percentage statistics or a concluding interpretive statement about the survey data.\n\"6%\" closes a percentage figure mid-analysis, immediately expecting either another percentage, a comparison, or a follow-up sentence continuing the statistical breakdown.\n\"6%\" is the final token, part of a percentage-based statistical finding, strongly constraining next tokens to either a period/punctuation or continuation of the percentage breakdown.\n\"6%\" closes a data point in a structured survey results section, suggesting the next tokens will introduce another question or percentage category."
+  ],
+  "input_sha256": "8136684eb8142e8da5ebfc22be03facdc4d80987baa6bb582485a3726ba754e8",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "5.8",
+      "value": "5.8"
+    },
+    {
+      "quote": "2,",
+      "value": "2"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "200 people",
+      "value": "200"
+    },
+    {
+      "quote": "2,054",
+      "value": "2054"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "2.",
+      "value": "2"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"8\",\"value\":8},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"5.8\",\"value\":5.8},{\"quote\":\"2,\",\"value\":2},{\"quote\":\"20\",\"value\":20},{\"quote\":\"26\",\"value\":26},{\"quote\":\"25\",\"value\":25},{\"quote\":\"38\",\"value\":38},{\"quote\":\"16\",\"value\":16},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"200 people\",\"value\":200},{\"quote\":\"2,054\",\"value\":2054},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"2.\",\"value\":2},{\"quote\":\"6%\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "6e627754936ba7f70be602d26e2f4a3169d7c05c820a21656af6285fa04bcf5c"
+}

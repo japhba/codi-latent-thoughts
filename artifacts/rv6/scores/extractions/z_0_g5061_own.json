@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5061",
+  "kind": "own",
+  "descriptions": [
+    "Academic paper abstract following IMRaD structure: \"Results\" section is mid-sentence, requiring completion of the statistical finding about the 1990\u20132010 period.\n\nQuantitative pattern established: the text consistently pairs findings with specific numerical values (e.g., \"1.5 times,\" \"1.3 times,\" \"1.4 times\"), so a precise percentage or multiplier is expected next.\n\nFinal token \"1.\" is a truncated decimal number mid-sentence within the Results section, immediately requiring digits completing the magnitude of the 1990\u20132010 increase (likely \"1.5\" or similar, consistent with the abstract's stated estimate).\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the husband's reaction, building toward a conclusion about the film's emotional impact on him.\n\nCharacter relationship dynamic: the husband's \"cold\" personality is being contrasted with his emotional response to the film, suggesting a \"but\" or reversal is coming.\n\nFinal token \"was\" opens a past-tense predicate clause describing the husband's emotional state or reaction \u2014 next tokens must complete this verb phrase, likely with an adjective or verb like \"moved,\" \"moved by,\" or \"struck.\"\n</explanation>",
+    "Q&A advice column format (like a newspaper advice column) establishes a pattern: reader question followed by expert response, with the expert now providing a direct answer.\n\nThe expert is mid-sentence answering whether to remove the broken steps, having just acknowledged the reader's concern about safety \u2014 a reassuring or cautionary response is expected next.\n\nFinal token \"13\" is part of \"13 steps\" or similar, completing a clause about the reader's assumption; the next tokens will likely continue the expert's answer, e.g., \"steps\" or a conjunction like \"but\" introducing a counterpoint.\n</explanation>",
+    "The article follows a structured legal/medical explainer format, systematically addressing the \"no X = no Y\" assumption with case law and expert quotes, building toward a definitive legal conclusion.\n\nThe narrative momentum demands a definitive legal answer: the article has posed \"does the assumption mean no X = no Y?\" and is now delivering the authoritative legal answer, with the final sentence beginning the conclusion.\n\nThe final token \"1,000,000\" is mid-sentence in the concluding legal answer, completing the restatement of the 100% statistic; the next tokens must finish this sentence, likely asserting the assumption is legally wrong or that the assumption alone is insufficient to conclude the case.\n</explanation>",
+    "The text follows a structured biblical commentary format: verse citation, then numbered observations, then a \"Biblical Note\" section explaining the verse's meaning and context.\n\nThe Biblical Note section has begun, explaining the verse's significance \u2014 the author is mid-sentence explaining the crowd's reaction, having just stated \"300 people were expecting to hear the word of the Lord.\"\n\nThe final token \"Lord\" ends an incomplete clause (\"300 people were expecting to hear the word of the Lord\"), requiring continuation \u2014 likely a conjunction or relative clause explaining what happened next, e.g., \"and they were disappointed\" or \"but...\"\n</explanation>",
+    "The article follows a structured news report format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence ending mid-thought (\"the researchers found that the majority of the 1,000 participants who reported being in the car during the crash were in the driver's seat\") sets up a direct continuation of the statistical finding \u2014 the next tokens must complete this clause, likely stating the percentage or elaborating on the seat position data.\n\nThe final token \"crash\" ends an incomplete subordinate clause (\"the researchers found that...\"), requiring immediate grammatical completion, most likely a percentage or descriptive phrase about seat position.\n</explanation>"
+  ],
+  "input_sha256": "c83903c02835aa5242412c1bbf050083c0144a7fa17bcc7aecf8cf477b2c1694",
+  "values": [
+    {
+      "quote": "1.5 times",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.3 times",
+      "value": "1.3"
+    },
+    {
+      "quote": "1.4 times",
+      "value": "1.4"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "1,000,000",
+      "value": "1000000"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and multipliers from the provided descriptions, including truncated decimals and large formatted numbers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5 times\",\"value\":1.5},{\"quote\":\"1.3 times\",\"value\":1.3},{\"quote\":\"1.4 times\",\"value\":1.4},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"13\",\"value\":13},{\"quote\":\"1,000,000\",\"value\":1000000},{\"quote\":\"300\",\"value\":300},{\"quote\":\"1,000\",\"value\":1000}],\"justification\":\"Extracted all explicit numeric literals and multipliers from the provided descriptions, including truncated decimals and large formatted numbers.\"}",
+  "prompt_sha256": "ddc74f8ad8663e6d0e0b34ee9f83b5ec06c5b09890df590bd2266497a79718de"
+}

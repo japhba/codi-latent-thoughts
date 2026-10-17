@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5099",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results reporting pattern: hazard ratios with confidence intervals and p-values are being presented, following established academic medical reporting conventions.\n\nThe study's findings are being enumerated sequentially \u2014 hazard ratios for \"all patients\" and \"without prior radiation\" have been stated, implying a third finding (e.g., with prior radiation) may follow, or the current result needs completion.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"without prior radiation,\" requiring an immediate numerical value (e.g., \"1.95\" or similar decimal odds ratio) to follow.",
+    "Narrative plot summary momentum: the text is recounting character relationships and backstory, now detailing romantic backstory between the couple and the mother's ex-husband.\n\nCharacter relationship backstory being traced: the narrative is explaining how the mother's ex-husband's romantic history with the couple connects to the plot's emotional arc.\n\nFinal token \"was\" opens a past-tense clause describing the ex-husband's situation or relationship status \u2014 the next word must complete this predicate, likely describing his current state or the couple's relationship (e.g., \"divorced,\" \"now,\" \"in the\").",
+    "Personal narrative confession pattern: the text follows a romantic self-reflection structure, moving from relationship to emotional vulnerability, now shifting to a new personal revelation about love and gender dynamics.\n\nNarrative momentum toward completing the \"dating a man\" theme: the author has been building toward explaining her romantic history and emotional journey, with the \"four\" signaling an incomplete enumeration of feelings or stages.\n\nFinal token \"4\" is mid-sentence (\"I felt like I was 4\"), part of a self-descriptive list or emotional state, immediately requiring a noun or adjective completing the age/feeling descriptor, likely \"years\" or a relationship stage word.",
+    "Personal narrative/reflective essay pattern: author shares personal relationship advice, now transitioning to a specific personal story about gender identity and dating.\n\nThe essay's thematic structure \u2014 moving from general gender equality in dating to a personal confession \u2014 signals an upcoming personal testimony about dating a man, likely addressing the \" male friend\" concern raised earlier.\n\nFinal token \"60\" completes \"now 50, but now 20 years of dating a man, I am now 40\" \u2014 a self-reflective pivot phrase mid-sentence, immediately requiring continuation of the personal disclosure, likely \"years\" or a clause elaborating on the gendered relationship dynamic.",
+    "Narrative legal/liability case study building toward a legal explanation of medical malpractice, establishing personal liability through anecdote and expert testimony.\n\nThe anecdote has established a pattern of escalating legal exposure: the doctor's liability for the patient's injury is being revealed, with the legal consequence (liability for the 202,000 people) now being explained.\n\nFinal token \"208,000,000 people, 252,000 of whom were medical malpractice victims\" \u2014 this clause is mid-sentence, completing a legal liability statement; the next tokens will likely continue with \"and\" or a relative clause explaining the legal responsibility or legal action the doctor faces.",
+    "Legal case narrative structure: case facts presented, now transitioning to procedural analysis of liability and legal reasoning for the case outcome.\n\nQ&A case study format: the text follows a legal case summary pattern \u2014 facts stated, procedural history given, now the legal question and answer explaining the legal basis for the suit is expected.\n\nFinal token \"508 parties were 5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "input_sha256": "c3abe78daf65676c2a6eff00eccb60a44ae16ddbe5e9c8436365299c2ddcd75c",
+  "values": [
+    {
+      "quote": "I felt like I was 4",
+      "value": "4"
+    },
+    {
+      "quote": "now 50",
+      "value": "50"
+    },
+    {
+      "quote": "now 20 years",
+      "value": "20"
+    },
+    {
+      "quote": "I am now 40",
+      "value": "40"
+    },
+    {
+      "quote": "208,000,000 people",
+      "value": "208000000"
+    },
+    {
+      "quote": "252,000 of whom",
+      "value": "252000"
+    },
+    {
+      "quote": "508 parties",
+      "value": "508"
+    },
+    {
+      "quote": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "4999999999999999585553957538234682623031908521243190731280622029050769299023221311090106282452153112010643128183281173566567741558550995545342934233953505409027770327939745014874112"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including large integers and age-related values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"I felt like I was 4\",\"value\":4},{\"quote\":\"now 50\",\"value\":50},{\"quote\":\"now 20 years\",\"value\":20},{\"quote\":\"I am now 40\",\"value\":40},{\"quote\":\"208,000,000 people\",\"value\":208000000},{\"quote\":\"252,000 of whom\",\"value\":252000},{\"quote\":\"508 parties\",\"value\":508},{\"quote\":\"5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":5e+186}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including large integers and age-related values.\"}",
+  "prompt_sha256": "8096b848e6a6f92abc8ff65f5d4876ef101d266da6aad64519ee975446dfc7e3"
+}

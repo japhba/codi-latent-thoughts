@@ -1,0 +1,61 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5424",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 2\u00d75 + 2\u00d73 = 20 + 6 = 26 hours.\n\nThe problem explicitly asks for a total weekly exercise count, so the answer must be a specific integer representing 2\u00d75 + 2\u00d73.\n\nThe final token \"?\" closes the question prompt \"How many hours a week will you exercise?\" \u2014 immediately constraining the next token to be the numeric answer \"26\" (or \"26 hours\"), likely formatted as a number.\n(2\u00d75 + 2\u00d73) = 26.\n5\u00d72 + 3\u00d72 = 26.\n2\u00d75 + 2\u00d73 = 26 hours per week.\n5*2 + 2*3 = 26.\n5*2 + 2*3 = the answer.",
+    "Word problem solution format: structured arithmetic problem requiring calculation of total hours worked, following word problem conventions.\n\nThe problem establishes a pattern of 5 days \u00d7 2 hours each, so the solution must compute 5 \u00d7 2 = 10 hours for weekday work, then 2 \u00d7 weekend hours.\n\nFinal token \"has\" begins the solution's first sentence describing the weekday total (5 days \u00d7 2 hours), immediately requiring the numeric result \"10 hours\" to complete the arithmetic statement.\nThe sentence structure \"During the first five days, he works...\" demands a specific numerical answer, likely \"10 hours\" or \"10 hours of work.\"\n5 \u00d7 2 = 10 hours on weekday days, then 2 \u00d7 weekend days \u00d7 2 different hours.\n2\u00d75 = 10, then 2\u00d7 weekend hours = 4, summing to 1.",
+    "Word problem solution format: structured step-by-step arithmetic requiring calculation of total weekly study hours.\n\nThe problem establishes two components: weekday study (5 days \u00d7 2 hours) and weekend study (2 days \u00d7 3 hours), so the solution must sum these: 5 days \u00d7 2 = 10 hours, then 2 weekend days \u00d7 1 = 2 hours.\n\nFinal token \"10\" is the numerical answer to the weekday hours calculation, immediately requiring \"hours\" or \"hours on weekdays\" to complete the sentence, then continuing to the second component (weekend hours).\nThe solution must now state the total weekly study hours: \"10 + 2 weekend hours = 12 hours.\"\n10 is the first part of the solution, representing 5 days \u00d7 2 hours, requiring the second component (2 weekend hours of weekend study) to follow.",
+    "Math word problem format requires completing the arithmetic: two weekend days \u00d7 3 hours = 6 hours total for weekend exercise.\n\nThe problem structure demands a total calculation: \"two weekend days \u00d7 3 hours each\" = 6 hours, then adding to the 6 weekly exercise hours.\n\nFinal token \"p\" begins the second arithmetic expression \"2\u00d73,\" immediately requiring \"6\" to complete the weekend exercise count (two weekend nights \u00d7 2 people \u00d7 3 hours).\nThe sentence \"The weekend exercise will be\" requires the total weekend exercise hours (6) to follow, completing the parallel structure with the daily exercise sum.\n3+3=6 hours for two weekend nights.\n2\u00d73\u00d72=6, so \"6 hours\" is the expected next token.\n2\u00d76 weekend weekend exercise for two weekend nights.\n3\u00d72 weekend weekend exercise for two nights, completing.",
+    "Word problem format: structured solution pattern requires completing the second equation (2 weeks \u00d7 3 days = 6 hours).\n\nThe problem explicitly asks for \"total hours of math practice,\" so the solution must sum 2 weeks \u00d7 5 days and 2 hours \u00d7 3 days.\n\nThe final token \"6\" is the second arithmetic result in the second equation, immediately requiring the closing statement \"Therefore, you spend X hours on weekend activities.\"\nFinal token \"6\" is the answer to the weekend math hours question, completing the parallel structure with \"2 \u00d7 3 = 6 hours of weekend activities.\"\nThe last token \"6\" is the second equation's result, requiring the sentence conclusion \"hours on weekend activities\" to match the established phrasing pattern.",
+    "Word problem format: two-part structure requires a numerical answer, following \"The total time... is X hours\" pattern.\n\nThe second problem mirrors the first's structure: \"2 hours of math problems and 3 hours of spelling problems\" sets up a simple arithmetic sum (2\u00d75 + 2\u00d75 = 10).\n\nFinal token \"problems.\" closes the second problem's question about the two extra hours; the immediate next token must be the solution answer, likely \"The total daily lunch time is...\" or a direct numerical result.\nFinal token \"problems.\" ends the second sub-question about the second day's 2\u00d75 minutes, so the next tokens must state the combined answer: \"The total lunch time is 1 hour.\""
+  ],
+  "input_sha256": "e2f97c11d7ac18c6ac7aa87939a6ee2efdf077e25fa84205802b7cd9e43f9fdc",
+  "values": [
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, such as 2, 5, 3, 20, 6, 26, 10, 4, 1, and 12.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"2\", \"value\": 2}, {\"quote\": \"5\", \"value\": 5}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"20\", \"value\": 20}, {\"quote\": \"6\", \"value\": 6}, {\"quote\": \"26\", \"value\": 26}, {\"quote\": \"10\", \"value\": 10}, {\"quote\": \"4\", \"value\": 4}, {\"quote\": \"1\", \"value\": 1}, {\"quote\": \"12\", \"value\": 12}], \"justification\": \"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, such as 2, 5, 3, 20, 6, 26, 10, 4, 1, and 12.\"}",
+  "prompt_sha256": "3bb2b6f815e616131586df15f20357557c94e77f74d75e8006b4b27013f3bcb4"
+}

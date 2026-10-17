@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5204",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total $200 minus combined costs ($10\u00d7 + $20\u00d7).\n\nThe problem follows a classic arithmetic puzzle format: total cost calculation expected, likely \"$200 - $10\u00d7 - $20 = $180 available.\"\n\nFinal token \"are\" closes the question prompt \"How much money is left?\" \u2014 immediately requires a specific numerical answer, almost certainly \"$180\" or \"180\" representing the remaining balance after accounting for both items.\n200 - 100 + $20 = $180 available.\n$200 - $10\u00d7 - $20 = $180 difference needed to cover $90 + $10 dog food.\n\nThe answer must be a specific dollar amount completing the balance calculation.\n200 - 10\u00d7 - 2.",
+    "Mathematical word problem requiring arithmetic completion: 12 \u00d7 $10 = $120, plus 2 \u00d7 $5 = $10, so the total must be $130.\n\nThe structured arithmetic format demands the multiplication result be stated explicitly, following the established pattern of \"12 \u00d7 $10 + 2 \u00d7 $5.\"\n\nFinal token \"had\" is part of the sentence \"He had paid $120 \u00d7 10 + $2 \u00d7 5 = $130,\" requiring the numerical answer \"$130\" immediately next.\n12 \u00d7 10 = 120, plus $20 = $20, so the next token must be the total cost \"$130.\"\n12 \u00d7 10 + 5 = 120 + $2 = $120, completing the arithmetic expression.",
+    "Math word problem solution format: structured arithmetic problem requiring arithmetic completion, following word problem conventions.\n\nThe arithmetic expression \"5\u00d7$2 + 10\u00d7$2\" must be completed \u2014 5\u00d7$2 = $100, plus 10\u00d7$2 = $20, so the total cost is $120, leaving $20 for pants.\n\nFinal token \"13\" is the beginning of the numerical answer \"$130\" (5\u00d7$2 + 10\u00d7$2), immediately requiring \"0\" to complete the dollar amount, likely followed by \"total\" or \"so the cost of pants is $20.\"\n130 is the expected total, completing the arithmetic expression 12\u00d75 + 2\u00d710 = 130.\n12\u00d75 + 20 = 130, confirming.",
+    "Word problem solution format: step-by-step arithmetic walkthrough with arithmetic operations, following a structured pattern of calculation then verification.\n\nThe total cost calculation is mid-completion: 5\u00d7$8 + $25 = $130, so the next step must state the total spent and then find change received.\n\nFinal token \"$130\" is the computed result of the arithmetic expression, immediately requiring the sentence conclusion: \"She spent $130 total\" or \"She paid $130, so change = $130 - $80 = $50.\"\nFinal token \"$130\" closes the total cost statement, immediately expecting punctuation and then the change calculation sentence.\n$8\u00d75 + $25\u00d71 = $130 paid, so she received change of $50 total.\nShe spent $80 + 3\u00d7$25 = $.",
+    "Math word problem solution following step-by-step arithmetic format, requiring completion of the arithmetic expression.\n\nThe problem established total cost: 10\u00d7$2 + $15 = $250, so the solution must confirm this calculation.\n\nFinal token \"p\" is the truncated word \"pennies\" or \"$pennies,\" completing the arithmetic result \"$130+12\u00d7$2=160\" \u2014 immediately expects \"ennies\" to finish the word, then likely \"total\" or \"so the total spent is $160.\"\n$130+50=180 total, confirming the solution is correct before stating change remaining change.\n$130+2\u00d750 = $160, completing the cost calculation before stating change: $100 paid, leaving $50 change.\n$130p\" is.",
+    "Word problem solution format: structured Q&A pattern with problem statement followed by arithmetic answer, now repeating for second problem.\n\nThe arithmetic problem requires computing total spent: $14+16+16=46, then finding change received.\n\nFinal token \"dollars.\" ends the question setup (\"$75 + $143 = $219. I spent $75 + $116 = total $191\"), immediately expecting the solution steps: \"Change received = change paid = $191 change.\"\nFinal token \"stones.\" closes the total question statement, so next tokens must begin the solution narrative, likely \"I received change from the store.\"\n$37 + $75 = $112 spent, leaving $191 change; the change calculation is the expected next step.\n$75 x total paid = $37, so change."
+  ],
+  "input_sha256": "4c2c243ace2f88a88b3a7f860efbcd1bc3db0d0b5a2c49b530f6242da8aba97f",
+  "values": [
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "143",
+      "value": "143"
+    },
+    {
+      "quote": "219",
+      "value": "219"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "191",
+      "value": "191"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "112",
+      "value": "112"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200\",\"value\":200},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"180\",\"value\":180},{\"quote\":\"100\",\"value\":100},{\"quote\":\"90\",\"value\":90},{\"quote\":\"2\",\"value\":2},{\"quote\":\"12\",\"value\":12},{\"quote\":\"120\",\"value\":120},{\"quote\":\"5\",\"value\":5},{\"quote\":\"130\",\"value\":130},{\"quote\":\"13\",\"value\":13},{\"quote\":\"0\",\"value\":0},{\"quote\":\"25\",\"value\":25},{\"quote\":\"80\",\"value\":80},{\"quote\":\"50\",\"value\":50},{\"quote\":\"8\",\"value\":8},{\"quote\":\"1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"15\",\"value\":15},{\"quote\":\"250\",\"value\":250},{\"quote\":\"160\",\"value\":160},{\"quote\":\"14\",\"value\":14},{\"quote\":\"16\",\"value\":16},{\"quote\":\"46\",\"value\":46},{\"quote\":\"75\",\"value\":75},{\"quote\":\"143\",\"value\":143},{\"quote\":\"219\",\"value\":219},{\"quote\":\"116\",\"value\":116},{\"quote\":\"191\",\"value\":191},{\"quote\":\"37\",\"value\":37},{\"quote\":\"112\",\"value\":112}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "3d7a2c1864e8034308fd9bb5ad1ea51104d34e4e7159babf80a30ce01e819e8b"
+}

@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5428",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: total seats (96) minus half already sold (48) = remaining seats after removing two categories.\n\nThe answer must be a specific number representing total remaining customers, calculated by summing all three categories divided by 2.\n\nFinal token \"about\" introduces an approximate numerical answer, requiring an integer (likely \"145\" or similar) representing the total remaining seats after half of each category.\nThe formula (95+95+45)/2 \u2248 145 total customers remaining, constrained by the arithmetic: (95+95+45)/2 + half of 90.\n95\u00d7(1-50%+50%)/2=45, completing the full total customers after removing all three categories.\n(95+45+90)/2 \u2248 145.",
+    "Step-by-step math problem walkthrough pattern: each step systematically breaks down the 450 total into components (250+150+90=450).\n\nThe solution is mid-sentence explaining how to find total parts, requiring the three categories (250+90=440) to be calculated.\n\nFinal token \"has\" opens a clause listing the three component counts (450 parts), immediately requiring the specific numerical breakdown of the three categories: \"250 trees, 450 plants, and 90 trees.\"\nThe solution must now sum all three categories to confirm the remaining 90 trees after removing half.\n450/3=150 trees, then adding remaining categories (250+90+45=90).\n\nThe solution is mid-sentence explaining the first step of adding all.",
+    "Step-by-step solution walkthrough is mid-sentence, requiring completion of the arithmetic summing to 500 total students across three categories.\n\nThe solution is demonstrating the total number of students by summing all three categories: 150+250+50=500, so the next tokens must complete the breakdown showing 150+50+250=500.\n\nFinal token \"12\" is the start of a number (likely \"120\" or \"125\"), part of explaining the remaining students after accounting for the two groups, completing the logical explanation of the 550 distribution.\nThe sentence structure \"you have 12...\" requires a number representing the remaining students (50+ half of 150=250) plus the two groups' counts.\n550 total minus (25.",
+    "Step-by-step math solution structure: each step builds on the previous, currently mid-sentence explaining total ball counts.\n\nThe solution is completing a logical breakdown: total balls = 100 + 150 + 50 = 250, then accounting for all three categories (red, blue, green) with equal numbers.\n\nFinal token \"155\" is mid-sentence listing the remaining balls after removing equal numbers from each category; the next tokens must complete this arithmetic conclusion, likely \"0 books were red, blue, and green books\" or similar phrasing confirming the remaining 100 books.\n150 total books of a specific type (original + half + one-third) must be accounted for to reach 1000 total books remaining after removing all three categories.\n\n150 + (1/3 + half) = total of .",
+    "Mathematical solution walkthrough: combining all three categories (120+150+150=450 total items) and counting removed items (half of each).\n\nThe solution is mid-sentence completing the arithmetic: total removed items = (125+150+250)/3 \u2248 150 people removed.\n\nFinal token \"160p\" is part of the total removed count calculation, immediately requiring the number \"150\" to complete the sentence stating total removed people (1/3\u00d7125+150+450=150).\nThe sentence structure demands completing the total count of removed people across all three categories.\n3\u00d7(125+75+250)/2 = 150 people removed, confirming the answer of 125 remaining people.",
+    "Step-by-step math word problem format: each problem follows identical structure (sum \u2192 total \u2192 difference), now completing the third problem's final answer.\n\nThe pattern established shows: total wrong questions \u2192 total correct questions \u2192 remaining questions after removing both categories.\n\nFinal token \"67. s. 37s. 117s. 75s.\" closes the combined wrong-count calculation (1/3 + half + half = 117), immediately requiring the concluding sentence stating the remaining live questions count.\nFinal token \"167s. 37s.\" ends the intermediate summary sentence, so the next tokens must state the final answer: \"The number of live questions remaining is 56.\"\nFinal token \"75 questions\" closes the combined wrong-count calculation, completing the third problem's solution steps before stating the final answer."
+  ],
+  "input_sha256": "03598d1bee6241ef71cd9d4a7362ca861ddc6ee1a2520945e4f3405273544d89",
+  "values": [
+    {
+      "quote": "96",
+      "value": "96"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "two",
+      "value": "2"
+    },
+    {
+      "quote": "three",
+      "value": "3"
+    },
+    {
+      "quote": "145",
+      "value": "145"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "440",
+      "value": "440"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "25.",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "117",
+      "value": "117"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, percentages, and fractions from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"96\",\"value\":96},{\"quote\":\"48\",\"value\":48},{\"quote\":\"two\",\"value\":2},{\"quote\":\"three\",\"value\":3},{\"quote\":\"145\",\"value\":145},{\"quote\":\"95\",\"value\":95},{\"quote\":\"45\",\"value\":45},{\"quote\":\"50%\",\"value\":50},{\"quote\":\"90\",\"value\":90},{\"quote\":\"450\",\"value\":450},{\"quote\":\"250\",\"value\":250},{\"quote\":\"150\",\"value\":150},{\"quote\":\"440\",\"value\":440},{\"quote\":\"500\",\"value\":500},{\"quote\":\"50\",\"value\":50},{\"quote\":\"12\",\"value\":12},{\"quote\":\"550\",\"value\":550},{\"quote\":\"25.\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"155\",\"value\":155},{\"quote\":\"0\",\"value\":0},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"120\",\"value\":120},{\"quote\":\"125\",\"value\":125},{\"quote\":\"75\",\"value\":75},{\"quote\":\"117\",\"value\":117},{\"quote\":\"56\",\"value\":56}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, percentages, and fractions from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "2b9401111e99bcc335a02322903cfe500335af674243e7f8d9f068a0d3e222b4"
+}

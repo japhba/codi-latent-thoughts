@@ -1,0 +1,169 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5244",
+  "kind": "own",
+  "descriptions": [
+    "Math problem requiring numerical answer: total cost calculation combining paper cost and time cost for 500 tests.\n\nThe pattern established requires a specific dollar amount answer, likely formatted as a number (e.g., \"$X.XX\") representing total cost per test.\n\nFinal token \"The total cost is $\" opens a direct numerical answer, constrained to be a dollar figure derived from combining paper costs (50/100) and test time costs (35/100 + base cost).\n(5*35 + ...) across multiple test runs plus base cost.\n(5*35*1/100 + ...).\n(5*35*1/200 + ... total cost).\n(5 tests \u00d7 total cost + transportation costs).\n(35/100 + transportation costs per test).\n(5*35*1/200 + (.",
+    "Mathematical calculation in progress: cost of 550 coins \u00d7 0.05 = total cost, requiring a specific dollar amount to complete the arithmetic.\n\nThe problem structure demands completing the total cost calculation: 550 coins \u00d7 0.5 \u00d7 5 coins \u00d7 35 cents, then comparing to the $350 shipping cost.\n\nFinal token \"have\" opens a clause listing the required number of coins (550\u00d735\u00d71/0.5), immediately requiring a numerical quantity representing total cost of individual coins needed.\n(350 coins \u00d7 5\u00d70.5 + shipping cost).\n(5\u00d7350\u00d71/0.25) for individual coins, totaling ~875 coins \u00d7 5 cents = $437.50 total cost.\n(5\u00d7350\u00d710\u00d75.",
+    "Mathematical calculation in progress: 350 balls \u00d7 5 cents \u00d7 15 total beads = cost estimate being computed.\n\nThe user is building toward a total cost estimate, having established 350 beads \u00d7 1/8 beads \u00d7 5 cents, now adding labor cost (25 workers \u00d7 0.5 dollars).\n\nFinal token \"8\" is the start of a dollar amount (likely \"$85\" or \"$85.5\"), completing the calculated total cost of the beads needed to paint them.\n(35\u00d75 + 25\u00d7(number) parts).\n(35\u00d7(5/20) + labor cost) \u00d7 15 small parts = total cost estimate.\n(25\u00d7(35\u00d71/8) beads \u00d7 5 cents) = 85 dollars from beads + labor cost).\n\n$85..",
+    "Math problem-solving context: calculating total cost of tokens, combining cost of cards and tokens across 500 cards.\n\nNumerical calculation in progress: 500\u00d7$0.05 + 500\u00d7$0.01 + production cost, building toward a total cost figure.\n\nFinal token \"$87\" is a partial dollar amount mid-calculation, immediately requiring continuation of the numeric result (likely \"5 dollars\" or similar) plus additional cost components (production/manufacturing costs).\n$87.50 from card rewards plus labor costs, completing the total cost estimate.\n$87.50 from rewards + tokens, plus manufacturing costs from replacing tokens at ~$5/playing time.\n(500\u00d7(1/5)\u00d73 + 500\u00d7(number)\u00d7(playing time)).\n\n$87 is the beginning.",
+    "Math problem calculation in progress: total cost of 500 tasks \u00d7 0.05 dollars = $25, completing the arithmetic chain.\n\nThe cost calculation pattern requires completing the total labor cost: 50 tasks \u00d7 (1/10) \u00d7 (5 + 1) rounds, summing to total dollar amount.\n\nFinal token \"37.5p.5\" is mid-number, part of the calculated cost estimate ($55\u00d75 jobs \u00d7 10 rounds), immediately requiring the remaining digits and likely a dollar sign or continuation of the cost comparison.\n$37.55 total labor cost estimate.\n(350 tasks \u00d7 5 jobs \u00d7 1/100 + 500 small tasks \u00d7 1/100) \u00d7 5 rounds + material cost.\n\n(35.5 hours \u00d7 5 jobs \u00d7 1.",
+    "Parallel structure pattern: first problem gave total cost, then breakdown; second problem mirrors this format, now completing the cost calculation.\n\nNumerical calculation momentum: total cost of labor + repair costs is being computed, with \"$178 + $135 \u00d7 135\" expected to complete the second problem's answer.\n\nFinal token \"17.18$18. 17\" is a truncated dollar figure mid-number, immediately requiring completion of the total cost figure (likely \"$177.75\" or similar) before concluding the second problem's summary.\nFinal token \"187.\" is the cost of the contractor's combined total cost.\nFinal token \"17\" is the beginning of the contractor's total cost figure, completing the second problem's conclusion.\n$175*60*18 hours + repair cost estimate ($135*5."
+  ],
+  "input_sha256": "8ead8204c48c0895ad36f553337644625c0f69b490739e2b431609f52c63533b",
+  "values": [
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "50/100",
+      "value": "0.5"
+    },
+    {
+      "quote": "35/100",
+      "value": "0.35"
+    },
+    {
+      "quote": "5*35",
+      "value": "175"
+    },
+    {
+      "quote": "1/100",
+      "value": "0.01"
+    },
+    {
+      "quote": "1/200",
+      "value": "0.005"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "0.05",
+      "value": "0.05"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "1/0.5",
+      "value": "2"
+    },
+    {
+      "quote": "1/0.25",
+      "value": "4"
+    },
+    {
+      "quote": "875",
+      "value": "875"
+    },
+    {
+      "quote": "437.50",
+      "value": "437.5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1/8",
+      "value": "0.125"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "85.5",
+      "value": "85.5"
+    },
+    {
+      "quote": "5/20",
+      "value": "0.25"
+    },
+    {
+      "quote": "0.01",
+      "value": "0.01"
+    },
+    {
+      "quote": "87.50",
+      "value": "87.5"
+    },
+    {
+      "quote": "1/5",
+      "value": "0.2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "1/10",
+      "value": "0.1"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "37.55",
+      "value": "37.55"
+    },
+    {
+      "quote": "35.5",
+      "value": "35.5"
+    },
+    {
+      "quote": "178",
+      "value": "178"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "177.75",
+      "value": "177.75"
+    },
+    {
+      "quote": "187",
+      "value": "187"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "175*60*18",
+      "value": "189000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500\",\"value\":500},{\"quote\":\"50/100\",\"value\":0.5},{\"quote\":\"35/100\",\"value\":0.35},{\"quote\":\"5*35\",\"value\":175},{\"quote\":\"1/100\",\"value\":0.01},{\"quote\":\"1/200\",\"value\":0.005},{\"quote\":\"5\",\"value\":5},{\"quote\":\"550\",\"value\":550},{\"quote\":\"0.05\",\"value\":0.05},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"35\",\"value\":35},{\"quote\":\"350\",\"value\":350},{\"quote\":\"1/0.5\",\"value\":2},{\"quote\":\"1/0.25\",\"value\":4},{\"quote\":\"875\",\"value\":875},{\"quote\":\"437.50\",\"value\":437.5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"15\",\"value\":15},{\"quote\":\"1/8\",\"value\":0.125},{\"quote\":\"25\",\"value\":25},{\"quote\":\"85\",\"value\":85},{\"quote\":\"85.5\",\"value\":85.5},{\"quote\":\"5/20\",\"value\":0.25},{\"quote\":\"0.01\",\"value\":0.01},{\"quote\":\"87.50\",\"value\":87.5},{\"quote\":\"1/5\",\"value\":0.2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"1/10\",\"value\":0.1},{\"quote\":\"1\",\"value\":1},{\"quote\":\"37.55\",\"value\":37.55},{\"quote\":\"35.5\",\"value\":35.5},{\"quote\":\"178\",\"value\":178},{\"quote\":\"135\",\"value\":135},{\"quote\":\"177.75\",\"value\":177.75},{\"quote\":\"187\",\"value\":187},{\"quote\":\"17\",\"value\":17},{\"quote\":\"175*60*18\",\"value\":189000}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "46c33106e224fee2539cc6c695762f90f912a49dc1dd7507cbeb2f71d2c25a1f"
+}

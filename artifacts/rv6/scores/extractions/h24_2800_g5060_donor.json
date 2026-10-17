@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5060",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem setup requiring a numerical answer: algebraic solution expected, likely \"15\" (since 4x = 45, solving x = 45/3).\n\nThe problem structure demands a worked solution walkthrough, with the answer being revealed step-by-step.\n\n\"The number of her apples is\" is an incomplete declarative sentence mid-answer, immediately requiring a numerical value (likely \"15\") followed by explanation of how to find it.\n\"The number of small apples she has is\" expects a direct numerical response.\n\"The answer is 45 / 3 times 45 = 15 small apples.\"\n straightforward numeric answer expected next.\n straightforward numeric response expected immediately.\n45 = 3x, so the simple solution is 15, completing the algebraic reasoning.\nShe has 45 original apples, not 3x.\nAnswer: 15 = small apples solved.",
+    "Math word problem format: structured problem with question, answer, and solution steps expected next.\n\nThe word problem requires a solution involving algebraic reasoning \u2014 finding the original number using the equation x + 3x = 88.\n\n\"The number is is\" is a garbled/typo rendering of \"The number is,\" immediately expecting a numerical answer or equation setup like \"x = 88 / 3 times\" or \"The number is 21.\"\nFinal token \"is\" begins the solution statement, expecting a simple declarative continuation like \"The number is 3 times the smaller number.\"\n straightforward answer expected next.\n\"The number is\" demands a direct mathematical expression or solution.\n straightforward algebraic derivation: solving x = 3x / 7 or similar.\n simply divide 21 by 3.\n explanation of the inverse relationship.",
+    "Math word problem format: solution walkthrough expected, following \"Therefore, the answer is...\" pattern.\n\nThe problem requires a specific arithmetic answer (3x = 12, so x = 4), so the solution will likely show substitution steps.\n\nFinal token \"ans:Answer\\nans\\nans\\nans\" is a repeated placeholder/field label, suggesting the next tokens will be the actual solution content, likely starting with \"Let's solve\" or a direct statement like \"The smaller number is...\"\n\"ans\\nans\\nans\\nans\" is a template artifact, immediately constraining the next content to be the solution text.\nExplanation of the inverse relationship (3 times = 3x) is expected next.\n straightforward solution steps for finding the unknown.\n hint: using division or algebra.\n simply divide 3x = 32.",
+    "Math word problem format: a structured problem with a solution section beginning, expecting step-by-step algebraic reasoning.\n\nThe word problem establishes a simple algebraic relationship (3x = 36), so the solution will likely show solving for x using division.\n\nFinal token \"answion\" is a placeholder/label for the answer, immediately expecting the actual answer text or solution steps, likely \"36 = the smaller number\" or \"The smaller number is 3 times...\"\n\"answion\" appears to be a garbled placeholder, suggesting the next tokens continue the solution explanation.\n\"answion\" is likely a corrupted word like \"answer,\" constraining next tokens to complete the solution narrative.\n straightforward algebraic reasoning: 3x = 36/3 = 12, using the inverse relationship.\n hint: using the three-part equation.\n hint: using the inverse relationship to find.",
+    "Math word problem format: word problem followed by solution steps, expecting a worked numerical answer.\n\nThe problem establishes a ratio relationship (3x = 12, so the unknown = 8), so the solution will likely show solving x = 3x/3 or x = 8.\n\n\"answergiven\" is a garbled placeholder/placeholder text mid-answer, immediately expecting the actual solution content like \"The smaller number is 8\" or \"3 times the number is 80.\"\n\"answergiven\" likely begins a solution label or answer field.\n simply: 3x = 80 / 3 = the unknown number, so next tokens should state the solution steps.",
+    "Word problem solution format requires a numerical answer following the question setup, likely \"36\" or similar.\n\nThe algebraic relationship established (3x = 36) demands solving steps: dividing 36 by 3 times to find the unknown number.\n\n\"answergivenius\" is a garbled placeholder/placeholder text mid-answer, immediately expecting the actual solution content like \"The smaller number is 36\" or \"3x = 36 / 3 = 12.\"\nFinal token \"answergivenius\" is a corrupted placeholder, suggesting the next tokens will be the clean answer text revealing the unknown number.\n straightforward algebraic solution expected next.\n3x = 90 / 3 = the unknown number, so the next tokens state the answer: \"The smaller number is 36\" using the ratio.\n3x = 3 times the unknown,."
+  ],
+  "input_sha256": "3806fe4e821e2a92c59273dcca3d1dba596d71b3f0db9afc0d0bd6846484fa8c",
+  "values": [
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "45/3",
+      "value": "15"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "45 / 3 times 45 = 15",
+      "value": "675"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "36/3",
+      "value": "12"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, calculating the final value for expressions like 45/3 and 45/3*45.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"45\",\"value\":45},{\"quote\":\"45/3\",\"value\":15},{\"quote\":\"15\",\"value\":15},{\"quote\":\"45 / 3 times 45 = 15\",\"value\":675},{\"quote\":\"3\",\"value\":3},{\"quote\":\"88\",\"value\":88},{\"quote\":\"21\",\"value\":21},{\"quote\":\"7\",\"value\":7},{\"quote\":\"12\",\"value\":12},{\"quote\":\"4\",\"value\":4},{\"quote\":\"32\",\"value\":32},{\"quote\":\"36\",\"value\":36},{\"quote\":\"36/3\",\"value\":12},{\"quote\":\"8\",\"value\":8},{\"quote\":\"80\",\"value\":80},{\"quote\":\"90\",\"value\":90}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, calculating the final value for expressions like 45/3 and 45/3*45.\"}",
+  "prompt_sha256": "72407aaa521a4a99df2b67151715178b9089c697c8fd06a99897c3e1442da7c2"
+}

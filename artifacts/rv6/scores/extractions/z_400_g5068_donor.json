@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5068",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: structured table of monthly dollar figures with year-over-year comparisons, establishing a consistent format for presenting financial metrics.\n\nContinuation of dollar amount series: the text is mid-sentence reporting a specific dollar figure for \"total dollar volume,\" following the established pattern of precise monetary values with commas.\n\nFinal token \"and $1,790,000\" is part of an incomplete sentence stating a dollar value for total dollar volume; the next token must complete this figure, likely a number (e.g., \"0,000\" or similar) continuing the interrupted monetary value.",
+    "Product listing format with structured sections (specs, description, features) signals continuation of marketing copy about product details and quality.\n\nThe text is mid-sentence describing product quality and manufacturer credentials, following a pattern of listing technical attributes and product specifications for the film.\n\nFinal token \"is\" opens a relative clause mid-sentence (\"The best quality and best value is\"), requiring immediate completion with a predicate describing the product's qualities, likely \"available\" or a similar verb phrase continuing the product description.",
+    "E-commerce parts catalog listing pattern: structured product category pages with part numbers, part names, and navigation links repeating throughout.\n\nList continuation momentum: the page is enumerating parts by category (Car Parts, Car Parts Parts, Car Parts Accessories), suggesting more part entries or subcategory listings follow.\n\nFinal token \"Available\" ends a section header \"Part For Sale: 1996 Toyota Tacoma Parts Available,\" immediately expecting a table or list of part names, part numbers, and descriptions to follow.",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and prices repeating consistently throughout the table.\n\nE-commerce parts catalog format: part listings follow a predictable sequence of part number, part name, and price columns, with the table continuing row by row.\n\nFinal token \"\u2013$\" opens a price range cell in the table row for \"Part # 1999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and prices repeating consistently throughout the parts table.\n\nE-commerce parts catalog format: each row follows \"|Part #||Part Name||Price|\" structure, with part numbers incrementing and part names corresponding to part numbers.\n\nFinal token \"\u2013$10.00|\u2013$10.00|\" closes a table row for \"Part # 10100001,\" and the table continues with the next part entry, expecting \"|Part # 10100002||...\" to follow immediately.",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and prices repeating consistently throughout the table.\n\nE-commerce parts catalog format: part numbers, part names, and price ranges are being listed in a table, with the table continuing row by row through the parts list.\n\nFinal token \"($18.00-$19.00)\" closes a price range cell in the table row for \"Part # 199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+  ],
+  "input_sha256": "bf082b477d53aabd03cdeb753c8000fccadaf30598658209ebc5c52d5727fe00",
+  "values": [
+    {
+      "quote": "$1,790,000",
+      "value": "1790000"
+    },
+    {
+      "quote": "$10.00",
+      "value": "10"
+    },
+    {
+      "quote": "$18.00",
+      "value": "18"
+    },
+    {
+      "quote": "$19.00",
+      "value": "19"
+    }
+  ],
+  "justification": "Extracted explicit monetary values from the descriptions, ignoring years, part numbers, and identifiers as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,790,000\",\"value\":1790000},{\"quote\":\"$10.00\",\"value\":10},{\"quote\":\"$18.00\",\"value\":18},{\"quote\":\"$19.00\",\"value\":19}],\"justification\":\"Extracted explicit monetary values from the descriptions, ignoring years, part numbers, and identifiers as per instructions.\"}",
+  "prompt_sha256": "774527e8447bf68d62487cf1601dd62b90c6d50ccfce1b9442251a73b7d15a48"
+}

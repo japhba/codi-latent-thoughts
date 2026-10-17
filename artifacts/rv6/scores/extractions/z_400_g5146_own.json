@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5146",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nMathematical/technical continuation: the hazard ratio for \"first year of ownership\" is being stated, requiring a specific numerical value (likely a decimal hazard ratio like \"1.23\") consistent with the hazard reduction narrative.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the first year of ownership, immediately requiring a numerical hazard ratio value (e.g., \"1.23\") followed by statistical qualifiers like confidence interval or p-value.",
+    "Film review narrative momentum: character analysis of romantic pairings is underway, with plot summary and character descriptions building toward scene-by-scene character assessment.\n\nCharacter relationship dynamics: the review is mid-sentence describing the romantic pairing between character and character, with the plot's emotional stakes (love triangle) shaping the character's role.\n\nFinal token \"was\" opens a past-tense descriptive clause about the character's character or situation \u2014 immediately expects a predicate adjective or verb phrase describing his romantic state or role in the film.",
+    "Narrative momentum: personal reflection on the book's personal impact, now transitioning to a specific anecdote about the author's own experience with the book's advice.\n\nQ&A format with spiritual/reflective tone: the author is answering a question about the book's personal relevance, building toward a concrete personal example or insight.\n\nFinal token \"0.5\" is a truncated fraction (\"about 0.5\"), part of a calculation about the number of people who would need the book; the next token must complete this fraction or continue the sentence, likely \"of a fraction\" or a decimal continuation.",
+    "Narrative momentum: the anecdote about medical experts and the book's argument builds toward a concluding expert opinion or statistic reinforcing the \"medical profession\" claim.\n\nArgumentative pattern: the text is explaining a rhetorical/medical revelation \u2014 experts are reframing the anecdote as a broader point about medical professionals' responsibility, suggesting a concluding expert quote or statistic follows.\n\nFinal token \"400,000, 200,000, 80,000, 60,000, 40,000\" \u2014 a list of numbers mid-sentence, part of a rhetorical question about medical professionals' liability, immediately requiring completion of the expert's concluding statement.",
+    "Legal Q&A format with structured case analysis: question posed, procedural history given, now legal reasoning and ruling expected.\n\nThe answer is explaining the legal standard for admissibility of prior bad acts in criminal law, specifically the \"clear and decisive\" standard for intent to commit a crime.\n\nFinal token \"6.030.800.000 is 0.308 30,000 0.15 0.80 0.50 0.30 0.10 0.08\" \u2014 this is a numerical citation of the legal standard being applied to the conviction, immediately requiring the legal consequence or ruling that follows.",
+    "Statistical/legal report pattern: article presents NHTSA data with precise percentages and figures, continuing with more statistical findings.\n\nNarrative momentum: the sentence is mid-argument presenting a specific finding about crash rates, with a percentage comparison (\"67% of crashes\") suggesting a concluding statistical result or explanatory clause follows.\n\nFinal token \"67.6%\" ends a comparative statistical claim about crash rates; the sentence is syntactically incomplete, immediately requiring a closing phrase such as \"of the time\" or a continuation of the statistical breakdown."
+  ],
+  "input_sha256": "343ba5c9077d3aae0f096b4184f157badc9f9cf17c54c6df83ff50cff10f1891",
+  "values": [
+    {
+      "quote": "1.23",
+      "value": "1.23"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "80,000",
+      "value": "80000"
+    },
+    {
+      "quote": "60,000",
+      "value": "60000"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "6.030.800.000",
+      "value": "6030800000"
+    },
+    {
+      "quote": "0.308",
+      "value": "0.308"
+    },
+    {
+      "quote": "30,000",
+      "value": "30000"
+    },
+    {
+      "quote": "0.15",
+      "value": "0.15"
+    },
+    {
+      "quote": "0.80",
+      "value": "0.8"
+    },
+    {
+      "quote": "0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "0.30",
+      "value": "0.3"
+    },
+    {
+      "quote": "0.10",
+      "value": "0.1"
+    },
+    {
+      "quote": "0.08",
+      "value": "0.08"
+    },
+    {
+      "quote": "67%",
+      "value": "67"
+    },
+    {
+      "quote": "67.6%",
+      "value": "67.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including decimals and large numbers with comma/period separators as presented in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.23\",\"value\":1.23},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"400,000\",\"value\":400000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"80,000\",\"value\":80000},{\"quote\":\"60,000\",\"value\":60000},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"6.030.800.000\",\"value\":6030800000},{\"quote\":\"0.308\",\"value\":0.308},{\"quote\":\"30,000\",\"value\":30000},{\"quote\":\"0.15\",\"value\":0.15},{\"quote\":\"0.80\",\"value\":0.8},{\"quote\":\"0.50\",\"value\":0.5},{\"quote\":\"0.30\",\"value\":0.3},{\"quote\":\"0.10\",\"value\":0.1},{\"quote\":\"0.08\",\"value\":0.08},{\"quote\":\"67%\",\"value\":67},{\"quote\":\"67.6%\",\"value\":67.6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including decimals and large numbers with comma/period separators as presented in the text.\"}",
+  "prompt_sha256": "f1d295d6cffb9797d5c7d54101713cbf9b14b088477cf61c22473b1659240120"
+}

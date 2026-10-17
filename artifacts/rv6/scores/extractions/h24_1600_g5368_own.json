@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5368",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question prompt, likely a fraction or decimal.\n\nThe algebraic setup establishes a word problem where x + x = 7.5, so the solution must solve x = 7.5 minus half.\n\n\"The length of the rectangle is\" is an incomplete declarative sentence acting as a prompt, immediately requiring a numerical value (e.g., \"5 units\") or a mathematical expression completing the solution.\n7.5 units minus the smaller side equals the given value.\n7.5 - 2x = 5, so the answer must state the remaining length as 5 units.\n2x + 7.5 = 12.5, confirming the answer.\n7.5 units is the total width, so the remaining length must be twice that.\nThe final token \"is\" demands a direct numerical or mathematical expression immediately following.",
+    "Math word problem solution format: structured answer with explanation, requiring algebraic reasoning about variable x.\n\nThe solution is mid-explanation, having stated the equation x + 2x = 26, now elaborating on the algebraic reasoning or substitution logic.\n\nFinal token \"has\" begins a clause explaining the relationship between the known value and the equation, immediately requiring a noun phrase or clause like \"a minimum value of\" or \"the equation\" continuing the mathematical justification.\n\"has\" demands a complement describing the relationship, likely referencing twice the minimum value already established.\n25 is the known value, so the next tokens must explain how 25 + the remaining value equals 26.\nThe sentence \"The value of one of the numbers is\" is incomplete, requiring a mathematical expression or explanation of the equation.\n25 times 2 = the other side, completing the algebraic reasoning about the.",
+    "Math word problem walkthrough format: step-by-step algebraic reasoning with variable substitution, expecting continued explanation.\n\nThe solution is mid-explanation, having set up the equation x + 2x = 12, now requiring justification of why the equation holds or how to solve it.\n\nFinal token \"5 is the 5 is the 5\" suggests a garbled/typo rendering of \"The equation is the\" \u2014 next tokens must complete the explanation, likely \"times the width\" or \"half of the width\" referencing the equation's meaning.\nFinal token \"is the 5\" begins a justification clause explaining the relationship between the equation and the known value.\n\"the equation represents half of the width\" or similar confirmation of the constraint.\n verification of the answer using substitution: 2x = 12, confirming the equation.\n\"the answer\" or \"the sum\" completing the verification statement.",
+    "Structured math word problem solution format, with step-by-step algebraic reasoning following a consistent template.\n\nThe solution is mid-explanation, having established x = 2x and now solving for x using substitution; the next step logically continues with verification or conclusion.\n\nFinal token \"Answer: 0. Answer: 0\\nAnswer: 0\\n0\\n0\\nExplanation: 0\\n\" suggests a formatting artifact; the next tokens should continue the explanation of why x = 2x confirms the total of 6 units.\nFinal token \"Answer: 0\\n0\\n\" is part of a repeated placeholder pattern, immediately expecting the explanatory justification text like \"The equation shows...\" or confirmation of the known result.\nFinal token \"0\\nExplanation: 0\\n\" concludes the verification step referencing the equation x + x = 6 half units.\nThe explanation of the unknown x was just stated,.",
+    "Structured math word problem solution format, with step-by-step algebraic reasoning showing variable substitution and equation solving.\n\nThe solution is mid-explanation of equation x + 2x = 16, requiring completion of the algebraic reasoning chain showing x = 8.\n\nFinal token \"ans.100\\nans.100\\nans.\" is a repeated placeholder artifact mid-solution, immediately expecting the mathematical justification showing x = half of 16, likely referencing equation (x + x) = 16 or confirming the constraint.\nFinal token \"ans.footnote\" closes a footnote marker, suggesting the next content continues the solution narrative explaining verification or confirming the result.\n verification of the second equation using the relationship between x and twice its value.\nThe equation x + 2x = 16 establishes the constraint linking the unknown to the known area of 16 units.\nFinal token.",
+    "Structured math word problem solution format, with labeled steps (a, b, c) and equation-building pattern throughout.\n\nThe solution is mid-explanation of equation setup, having established x + 2x = 12, now requiring algebraic manipulation steps to solve for x.\n\nFinal token \"ansonautonautation\" is a garbled placeholder for \"answer,\" mid-sentence in a solution step, immediately expecting the mathematical reasoning showing how the equation resolves to find x = 6.\nFinal token \"equation\" closes a label indicating the next content should show the logical substitution or verification of x = half of the total constraint.\nFinal token \"ansonautation\" marks a placeholder for the equation showing x + x = 12 minus known constraint, linking back to the verification of x = 6.\nThe equation confirms the second variable's relationship to the first.\n verification of the 2x relationship."
+  ],
+  "input_sha256": "ea06a29eca9007159895596618604cf1195aca59e27d5585d143ba3c1d94b9f9",
+  "values": [
+    {
+      "quote": "x + x = 7.5",
+      "value": "7.5"
+    },
+    {
+      "quote": "7.5 - 2x = 5",
+      "value": "2"
+    },
+    {
+      "quote": "7.5 - 2x = 5",
+      "value": "5"
+    },
+    {
+      "quote": "2x + 7.5 = 12.5",
+      "value": "12.5"
+    },
+    {
+      "quote": "x + 2x = 26",
+      "value": "26"
+    },
+    {
+      "quote": "25 is the known value",
+      "value": "25"
+    },
+    {
+      "quote": "x + 2x = 12",
+      "value": "12"
+    },
+    {
+      "quote": "5 is the 5 is the 5",
+      "value": "5"
+    },
+    {
+      "quote": "Answer: 0",
+      "value": "0"
+    },
+    {
+      "quote": "total of 6 units",
+      "value": "6"
+    },
+    {
+      "quote": "x + 2x = 16",
+      "value": "16"
+    },
+    {
+      "quote": "x = 8",
+      "value": "8"
+    },
+    {
+      "quote": "ans.100",
+      "value": "100"
+    },
+    {
+      "quote": "how the equation resolves to find x = 6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and values from arithmetic expressions (like 7.5, 2, 5, 12.5, 26, 25, 12, 0, 6, 16, 8, 100) found within the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"x + x = 7.5\",\"value\":7.5},{\"quote\":\"7.5 - 2x = 5\",\"value\":2},{\"quote\":\"7.5 - 2x = 5\",\"value\":5},{\"quote\":\"2x + 7.5 = 12.5\",\"value\":12.5},{\"quote\":\"x + 2x = 26\",\"value\":26},{\"quote\":\"25 is the known value\",\"value\":25},{\"quote\":\"x + 2x = 12\",\"value\":12},{\"quote\":\"5 is the 5 is the 5\",\"value\":5},{\"quote\":\"Answer: 0\",\"value\":0},{\"quote\":\"total of 6 units\",\"value\":6},{\"quote\":\"x + 2x = 16\",\"value\":16},{\"quote\":\"x = 8\",\"value\":8},{\"quote\":\"ans.100\",\"value\":100},{\"quote\":\"how the equation resolves to find x = 6\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals and values from arithmetic expressions (like 7.5, 2, 5, 12.5, 26, 25, 12, 0, 6, 16, 8, 100) found within the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "eae4c1c4c60f1939badfc6e27b4396cb1045a75252ea2284bfb277e8db45be44"
+}

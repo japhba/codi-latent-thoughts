@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5276",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 100 + 50% = 150, so the next token must be \"150\" (100+50% increase).\n\nThe problem follows a structured arithmetic sequence: original capacity (800) \u2192 new capacity (100+50=150), so the final answer must be the calculated second number.\n\nFinal token \"to\" completes \"becomes to,\" directly requiring the numerical result of the multiplication \u2014 the next token must be \"150\" as the computed new second capacity.\n100+150=250, completing the combined total after adding 50%.\n800+150% = 1250, so the next tokens must be \"150\" or \"1500 passengers.\"",
+    "Math word problem solution in progress: step-by-step arithmetic walkthrough requires completing the second calculation (800 + 100 = 900).\n\nThe pattern established shows a structured solution: original total \u2192 new target \u2192 arithmetic operation, so the next step continues this sequence.\n\nFinal token \"has\" begins a clause completing the arithmetic expression \"100 + 800 = new second number,\" immediately requiring the numerical result or the phrase \"100\" to state the intermediate total before applying percentage increase.\n\"has\" demands a noun phrase describing the second base count (800 + 100 = 900).\nTotal: 100 + 80 = new target, then doubling calculation expected next.\nThe next tokens must complete this arithmetic setup before stating \"900\" as the intermediate base before adding 20%.\n800.",
+    "Math word problem solution in progress: step-by-step arithmetic walkthrough requires continuing the numerical calculation.\n\nThe problem establishes initial total 100, then adds 200 more, so the next step must compute 180 + original count.\n\nFinal token \"18\" is the beginning of the number \"180\" (the combined second lake's capacity), immediately requiring \"0\" to complete the number, followed by explanation of adding 20% more to that total.\n180 is the expected completion of \"100 + 80 = 180,\" setting up the next step: doubling the combined total (180) before adding 50% increase.\nThe sentence structure \"The original lake has 100 + 80 = 180 cars\" demands the number be completed, then the new total after adding 50.",
+    "Math word problem solution in progress: step-by-step algebraic reasoning requires completing the equation setup and solving for new count.\n\nThe solution follows a structured format: state original total (180), then apply the 50% increase calculation, expecting \"180 + 50% = 270.\"\n\nFinal token \"180\" is the numerical value completing the current count statement (\"180 balls in the second field\"), immediately requiring continuation of the arithmetic operation, likely \"\u00d7\" or \"so\" followed by the multiplication by 2 plus 50% increase expression.\n180 is the established base before adding 50%.\nTotal current count = 180 \u00d7 2 = 360, so next tokens must complete this arithmetic step before stating the new total.\n\"180 balls\" describes the combined existing count before adding 5.",
+    "Math word problem solution following a structured step-by-step format, requiring completion of the arithmetic operation.\n\nThe solution is mid-calculation: 80 + 50% = 120, so the next tokens must state the numerical result of the multiplication.\n\nFinal token \"p\" begins the multiplication expression \"50% of 180 = 90,\" immediately requiring \"90\" to complete the increase calculation (80 \u00d7 50 = 90 added to 180).\n80 \u00d7 50 = 90, so the next tokens must be \"90\" representing the added number, completing the equation \"180 + 50% = new population.\"\n180 + 50% = 270, confirming the answer.\n80 \u00d7 180 = 90, completing the multiplication expression.",
+    "Step-by-step math word problem format: each step follows a consistent pattern of problem statement then solution, with the final step showing arithmetic.\n\nThe worked example is mid-completion: the addition of 90 (25% increase) must be added to the original 500 total, yielding the final answer.\n\nFinal token \"90\" is the computed increment value in the solution, immediately requiring the next step: \"The new number of balls is 500 + 25% = 625\" or similar concluding statement.\nFinal token \"99\" ends the explanation of the added 90 extra balls, so the next tokens must state the new total: \"The new number of balls is 625.\"\n90 added 25% of original 300, so the immediate next line must state the new total: 625."
+  ],
+  "input_sha256": "4e6332c62224a2987c8700c246829d6851dde73a1282cd543094d4a80e9c9b63",
+  "values": [
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "1250",
+      "value": "1250"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "625",
+      "value": "625"
+    },
+    {
+      "quote": "99",
+      "value": "99"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly mentioned in the text, including percentages as numerals and spelled-out numbers like zero.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"150\",\"value\":150},{\"quote\":\"800\",\"value\":800},{\"quote\":\"250\",\"value\":250},{\"quote\":\"1250\",\"value\":1250},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"900\",\"value\":900},{\"quote\":\"80\",\"value\":80},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"180\",\"value\":180},{\"quote\":\"18\",\"value\":18},{\"quote\":\"0\",\"value\":0},{\"quote\":\"270\",\"value\":270},{\"quote\":\"2\",\"value\":2},{\"quote\":\"360\",\"value\":360},{\"quote\":\"5\",\"value\":5},{\"quote\":\"120\",\"value\":120},{\"quote\":\"90\",\"value\":90},{\"quote\":\"500\",\"value\":500},{\"quote\":\"25\",\"value\":25},{\"quote\":\"625\",\"value\":625},{\"quote\":\"99\",\"value\":99},{\"quote\":\"300\",\"value\":300}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly mentioned in the text, including percentages as numerals and spelled-out numbers like zero.\"}",
+  "prompt_sha256": "10de0f17ff07f29dad98693417fa1925df22227b2a25697319db04f20f8c1df3"
+}

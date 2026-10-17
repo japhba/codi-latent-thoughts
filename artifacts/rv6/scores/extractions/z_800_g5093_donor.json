@@ -1,0 +1,141 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5093",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard findings.\n\nDomain-specific reporting structure: the article systematically presents hazard data with hazard types, hazard counts, and hazard ratios, suggesting more quantitative results or comparisons follow.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"highly explosive,\" requiring an immediate numeric hazard ratio value (likely a fraction like \"1 in X,000\") to complete the sentence.",
+    "Character analysis pattern: the text is mid-sentence describing marital dynamics, with \"she was 40 and he was 30\" establishing a reflective, personal tone about relationships and emotional responses.\n\nNarrative momentum of the review: the author is building toward a conclusion about the marriage's emotional impact, having just introduced the \"dysfunctional\" dynamic and the \"opposite\" dynamic, suggesting a balanced or nuanced assessment follows.\n\nFinal token \"400 was 400 was\" (likely a typo mid-sentence) is part of \"40 was 400 was 24 was 24 was\" \u2014 a self-referential, fragmented structure; the next tokens must complete the emotional/relational observation about the marriage's nature.",
+    "Theological/argumentative momentum: the text is summarizing the film's content, building toward a concluding moral point about the film's message and its connection to the author's own reflection.\n\nNarrative continuation of the film analysis: the author is recounting the movie's plot and its spiritual lesson, with the final sentence mid-thought about the 10-minute scene and its implications for the audience.\n\nFinal token \"12\" is part of \"10 minutes... 20 minutes... 10\" \u2014 a fraction (\"10/80\") or \"12\" likely begins a specific statistic or example, with \"8\" or a continuation of the sentence about \"20 minutes\" expected immediately next.",
+    "Narrative momentum: article is building toward a statistical/argumentative conclusion about the book's significance, with the author's medical expertise framing the claim.\n\nExplanatory/defensive register: the text is correcting a misconception (\"not about the book, but about the people\"), so the next tokens will likely elaborate on the book's true purpose or the author's investigative findings.\n\nFinal token \"10,000\" is mid-sentence (\"about 40, about 16 people, about 12.5 percent, about 10,000\"), completing a statistical claim about the 100,000 affected; the next tokens will finish this sentence, likely continuing with \"per year\" or a similar rate/quantity phrase.",
+    "Legal analysis pattern: the text is explaining a religious case, moving from factual summary to theological reasoning, with the conclusion of the analysis imminent.\n\nThe argument structure follows a case-by-case format: crime stated, verdict cited, now the legal reasoning/rationale is being elaborated, with the court's reasoning about the 20% threshold and the 10% threshold expected next.\n\nFinal token \"20\" is mid-sentence (\"1.4 pages per 12 minutes is about 8 pages per 40 minutes, so about 2 is about 10.0 pages per 20 minutes, so about 14 pages per 12 minutes, so about 20 minutes...\"), completing the statistical/legal threshold explanation.",
+    "Statistical/legal analysis pattern: article systematically presents survey data with percentages, now transitioning to legal reasoning and citation of statistical findings.\n\nArgumentative momentum: the text is building toward a conclusion about the survey's implications for the rule, with the statistical interpretation of the 9% finding expected to continue with practical implications or further analysis.\n\nFinal token \"69%\" ends a sentence fragment mid-thought (\"69% of the time...69% of the time...69% of the time...9.8% of the time\"), completing a statistical comparison; the next tokens will likely continue with a concluding interpretive statement about the 9% finding or its legal significance."
+  ],
+  "input_sha256": "7681dc4f1969142b9bfdb073a25023cc4a20517b12e0b21c0d0ae253360063db",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "0.0001"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "1e-05"
+    },
+    {
+      "quote": "she was 40",
+      "value": "40"
+    },
+    {
+      "quote": "he was 30",
+      "value": "30"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "10-minute",
+      "value": "10"
+    },
+    {
+      "quote": "20 minutes",
+      "value": "20"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10/80",
+      "value": "0.125"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "about 40",
+      "value": "40"
+    },
+    {
+      "quote": "about 16 people",
+      "value": "16"
+    },
+    {
+      "quote": "about 12.5 percent",
+      "value": "12.5"
+    },
+    {
+      "quote": "about 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "1.4 pages",
+      "value": "1.4"
+    },
+    {
+      "quote": "12 minutes",
+      "value": "12"
+    },
+    {
+      "quote": "8 pages",
+      "value": "8"
+    },
+    {
+      "quote": "40 minutes",
+      "value": "40"
+    },
+    {
+      "quote": "about 2",
+      "value": "2"
+    },
+    {
+      "quote": "10.0 pages",
+      "value": "10"
+    },
+    {
+      "quote": "20 minutes",
+      "value": "20"
+    },
+    {
+      "quote": "14 pages",
+      "value": "14"
+    },
+    {
+      "quote": "9%",
+      "value": "9"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "9.8%",
+      "value": "9.8"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, fractions, and percentages from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":0.0001},{\"quote\":\"1 in 100,000\",\"value\":0.00001},{\"quote\":\"she was 40\",\"value\":40},{\"quote\":\"he was 30\",\"value\":30},{\"quote\":\"400\",\"value\":400},{\"quote\":\"24\",\"value\":24},{\"quote\":\"10-minute\",\"value\":10},{\"quote\":\"20 minutes\",\"value\":20},{\"quote\":\"10\",\"value\":10},{\"quote\":\"12\",\"value\":12},{\"quote\":\"10/80\",\"value\":0.125},{\"quote\":\"8\",\"value\":8},{\"quote\":\"about 40\",\"value\":40},{\"quote\":\"about 16 people\",\"value\":16},{\"quote\":\"about 12.5 percent\",\"value\":12.5},{\"quote\":\"about 10,000\",\"value\":10000},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"1.4 pages\",\"value\":1.4},{\"quote\":\"12 minutes\",\"value\":12},{\"quote\":\"8 pages\",\"value\":8},{\"quote\":\"40 minutes\",\"value\":40},{\"quote\":\"about 2\",\"value\":2},{\"quote\":\"10.0 pages\",\"value\":10},{\"quote\":\"20 minutes\",\"value\":20},{\"quote\":\"14 pages\",\"value\":14},{\"quote\":\"9%\",\"value\":9},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"9.8%\",\"value\":9.8}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, fractions, and percentages from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "40009c5c885e11b53b19e5244df36cfd75069acf853d7ec3145ad19985c744f4"
+}

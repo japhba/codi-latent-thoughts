@@ -1,0 +1,419 @@
+[
+  {
+    "ds_index": 4800,
+    "gold": "9",
+    "chain": [
+      "15",
+      "-3",
+      "12",
+      "2",
+      "6",
+      "-6"
+    ],
+    "hops": 6,
+    "pred": "9",
+    "correct": true,
+    "question": "Susan has 3 more glasses than Nick. David has half the number of glasses as Nick. If Susan has 15 glasses, how many more glasses does Susan have than David?",
+    "cot": "Nick has 15-3 = 12 glasses. David has 12/2 = 6 glasses. Susan has 15-6 = 9 more glasses than David.",
+    "captured_answer": "9",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4801,
+    "gold": "40",
+    "chain": [
+      "320",
+      "8"
+    ],
+    "hops": 2,
+    "pred": "40",
+    "correct": true,
+    "question": "A pizza shop sells slices from 12-inch pizzas. Each pizza is cut into 8 slices. If the shop sells 320 slices in a day, how many pizzas do they need?",
+    "cot": "To find out how many pizzas the shop needs, divide the total number of slices by the number of slices per pizza: 320 slices / 8 slices/pizza = 40 pizzas.",
+    "captured_answer": "40",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4802,
+    "gold": "15",
+    "chain": [
+      "36",
+      "24",
+      "60",
+      "4"
+    ],
+    "hops": 4,
+    "pred": "15",
+    "correct": true,
+    "question": "Lisa bought 36 oranges and 24 apples. She distributed the fruits among four friends equally. How many fruits did each friend get?",
+    "cot": "Lisa bought a total of 36 + 24 = 60 fruits Each friend got 60/4 = 15 fruits",
+    "captured_answer": "15",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4803,
+    "gold": "48",
+    "chain": [
+      "8",
+      "6"
+    ],
+    "hops": 2,
+    "pred": "48",
+    "correct": true,
+    "question": "In a candy store, candy bars are sold in packs. Each pack contains 12 candy bars and costs $6. How much would 8 packs cost?",
+    "cot": "Eight packs of candy bars would cost 8 * $6 = $48.",
+    "captured_answer": "48",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4804,
+    "gold": "35",
+    "chain": [
+      "15",
+      "30",
+      "45",
+      "2",
+      "5",
+      "10",
+      "-10"
+    ],
+    "hops": 7,
+    "pred": "35",
+    "correct": true,
+    "question": "Ken bought a box of 15 blue and 30 green pens. He mistakenly lost 5 pens of each color. How many pens does he have left?",
+    "cot": "The total number of pens is 15+30=45 He lost a total of 2*5=10 pens He therefore has 45-10=35 pens left",
+    "captured_answer": "35",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4805,
+    "gold": "95",
+    "chain": [
+      "5",
+      "20",
+      "100",
+      "1"
+    ],
+    "hops": 4,
+    "pred": "95",
+    "correct": true,
+    "question": "A farm has 5 barns, with each barn housing 20 cows. If one cow from each barn gets sick and has to be isolated, how many healthy cows are left on the farm?",
+    "cot": "The total number of cows on the farm is 5 barns * 20 cows/barn = 100 cows. If 1 cow from each barn gets sick, that amounts to 5 barns * 1 cow/barn = 5 sick cows. Therefore, the number of healthy cows left on the farm is 100 cows - 5 sick cows = 95 cows.",
+    "captured_answer": "95",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4806,
+    "gold": "8",
+    "chain": [
+      "200",
+      "25"
+    ],
+    "hops": 2,
+    "pred": "8",
+    "correct": true,
+    "question": "Bill wants to buy a new bicycle that costs $200. He saves $25 each week from his allowance. How many weeks does it need to save up for the bicycle?",
+    "cot": "To solve this problem, we can set an equation that a being the amount of the bicycle, s being amount of his weekly saving and w being the number of weeks. So we have a = s * w Plug in the value of the bicycle and his weekly saving into above equation, we have: 200 = 25*w, hence w = 200/25 = 8 weeks.",
+    "captured_answer": "8",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4808,
+    "gold": "21",
+    "chain": [
+      "2",
+      "3",
+      "5",
+      "4",
+      "9",
+      "1",
+      "12"
+    ],
+    "hops": 7,
+    "pred": "21",
+    "correct": true,
+    "question": "A bus tour goes through through the Northern Coast of the USA. The journey includes 2 hours in Atlantic time, 3 hours in Eastern time and 4 hours in Central time. The next day the trip repeats but they spend an additional hour in each location. How many total hours did the bus spend in Atlantic time, Eastern time, and Central time in the two days?",
+    "cot": "The total time spent in Atlantic and Easter time is 2+3 = 5 hours. If we further add the Central time this totals to 5+4 = 9 hours to cover the whole trip. The next day, they spent an extra hour in each location so this was an added 1*3 = 3 hours. The total time it took on the second day to cover the distance is 9+3 = 12 hours. In total, the bus took 12+9 = 21 hours to go through all the locations in the two days.",
+    "captured_answer": "21",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4809,
+    "gold": "220",
+    "chain": [
+      "20",
+      "5",
+      "100",
+      "3",
+      "60",
+      "2",
+      "120"
+    ],
+    "hops": 7,
+    "pred": "220",
+    "correct": true,
+    "question": "Emily has a hobby of painting. She spends 20 minutes each day painting on weekdays. During the weekends, she spends triple the amount of time she spends on weekdays. How many minutes does she spend painting in a week?",
+    "cot": "Emily spends a total of 20 x 5 = 100 minutes painting during the weekdays. She spends 20 x 3 = 60 minutes painting each day on the weekend. So, she spends a total of 60 x 2 = 120 minutes painting on the weekend. Thus, Emily spends a total of 100 + 120 = 220 minutes painting in a week.",
+    "captured_answer": "220",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4811,
+    "gold": "27",
+    "chain": [
+      "80",
+      "2",
+      "40",
+      "-40",
+      "1",
+      "3",
+      "13",
+      "-13"
+    ],
+    "hops": 8,
+    "pred": "27",
+    "correct": true,
+    "question": "Michelle makes 80 cupcakes for a party. She decorates half of the cupcakes and gives a third of the remaining undecorated cupcakes to her neighbor. How many cupcakes does Michelle have remaining?",
+    "cot": "Michelle decorates half of the 80 cupcakes, which is 80/2 = 40 cupcakes She now has 80-40 = 40 cupcakes She gives a third of this to her neighbor, so she gives away 40*(1/3) = 13 cupcakes (approx) She now has 40-13 = 27 cupcakes (approx)",
+    "captured_answer": "27",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4812,
+    "gold": "5",
+    "chain": [
+      "15",
+      "1",
+      "3",
+      "10",
+      "2"
+    ],
+    "hops": 5,
+    "pred": "5",
+    "correct": true,
+    "question": "Carlos bought 15 apples. He ate 1/3 of the apples and gave half of the remaining apples to his sister. How many apples does Carlos have left?",
+    "cot": "Carlos ate 15 x 1/3 = 5 apples So he had 15 - 5 = 10 apples left. Then he gave 10 / 2 = 5 apples to his sister. So Carlos has 10 - 5 = 5 apples left.",
+    "captured_answer": "5",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4813,
+    "gold": "28",
+    "chain": [
+      "1",
+      "4",
+      "50",
+      "0.08",
+      "350"
+    ],
+    "hops": 5,
+    "pred": "28",
+    "correct": true,
+    "question": "A group of friends decided to have a 350 kilometer road trip. If their car consumes 4 liters of gasoline for every 50 kilometers, how many liters of gasoline would they need for the entire trip?",
+    "cot": "First, find out how many liters of gasoline the car consumes in 1 kilometer: 4 / 50 = 0.08 liter. Then, multiply that by the total kilometer of the trip to find out how many liters of gasoline they need: 0.08 * 350 = 28 liters. Therefore, they would need 28 liters of gasoline for the entire trip.",
+    "captured_answer": "28",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4814,
+    "gold": "600",
+    "chain": [
+      "120",
+      "5"
+    ],
+    "hops": 2,
+    "pred": "600",
+    "correct": true,
+    "question": "A train travels 120 miles each hour. If the train travels for 5 hours, how far does the train go?",
+    "cot": "The train travels 120 miles per hour * 5 hours = 600 miles",
+    "captured_answer": "600",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4815,
+    "gold": "360",
+    "chain": [
+      "10",
+      "2",
+      "20",
+      "12",
+      "240",
+      "120"
+    ],
+    "hops": 6,
+    "pred": "360",
+    "correct": true,
+    "question": "Ryan and John are saving money for a comic book convention. Ryan saves $10 each month and John saves double of what Ryan saves. How much will they have together after a year?",
+    "cot": "John saves $10/month * 2 = $20/month. So, in a year, John can save $20/month * 12 months/year = $240. For Ryan, in a year, he can save $10/month * 12 months/year = $120. Thus, together they can save $240 + $120 = $360 in a year.",
+    "captured_answer": "360",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4816,
+    "gold": "150",
+    "chain": [
+      "5",
+      "10",
+      "50",
+      "3"
+    ],
+    "hops": 4,
+    "pred": "150",
+    "correct": true,
+    "question": "Alice buys 3 pens for each of her friends.  She has 5 groups of friends, each consisting of 10 people.  How many pens did Alice buy?",
+    "cot": "Alice has 5*10=50 friends So she bought 50*3=150 pens",
+    "captured_answer": "150",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4817,
+    "gold": "14",
+    "chain": [
+      "3.75",
+      "2.25",
+      "6",
+      "20",
+      "-6"
+    ],
+    "hops": 5,
+    "pred": "14",
+    "correct": true,
+    "question": "John has 20 dollars. He spent $3.75 on a lunch, and then spent another $2.25 on a drink. How much money does John have left?",
+    "cot": "John spent 3.75+2.25=6 dollars in total. John has 20-6=14 dollars left.",
+    "captured_answer": "14",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4819,
+    "gold": "24",
+    "chain": [
+      "56",
+      "8",
+      "48",
+      "2"
+    ],
+    "hops": 4,
+    "pred": "24",
+    "correct": true,
+    "question": "At a picnic, each person ate 2 sandwiches. If the leftovers had 8 sandwiches, and the total number of sandwiches was 56, how many people attended the picnic?",
+    "cot": "The total number of sandwiches consumed by the people was 56 - 8 = 48. Since each person ate 2 sandwiches, the number of people at the picnic was 48 / 2 = 24.",
+    "captured_answer": "24",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4821,
+    "gold": "25",
+    "chain": [
+      "10",
+      "5"
+    ],
+    "hops": 2,
+    "pred": "25",
+    "correct": true,
+    "question": "David has five times as many tennis balls as his cousin, Eli. Eli has only half as many tennis balls as his friend, Mark. If Mark throws all 10 of his tennis balls to Eli's dog, how many tennis balls does David have?",
+    "cot": "Eli has only half as many tennis balls as Mark\u2019s 10, for a total of (\u00bd)*10=5 tennis balls. David has 5 times as many tennis balls as Eli, for a total of 5*5=25 tennis balls",
+    "captured_answer": "25",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4822,
+    "gold": "15",
+    "chain": [
+      "3",
+      "5"
+    ],
+    "hops": 2,
+    "pred": "15",
+    "correct": true,
+    "question": "Ted walks 3 km to school and back every day. If he does this all school week (5 days), how far does he travel?",
+    "cot": "Ted makes the trip to school and back, daily, which results in 3 km * 5 days= 15 km a week.",
+    "captured_answer": "15",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4823,
+    "gold": "250",
+    "chain": [
+      "25",
+      "4",
+      "100",
+      "30",
+      "5",
+      "150"
+    ],
+    "hops": 6,
+    "pred": "250",
+    "correct": true,
+    "question": "A coffee shop sells 2 types of cakes. The chocolate cake is $4 per slice and the cheese cake is $5 per slice. Today they sold 25 slices of chocolate cake and 30 slices of cheese cake. How much money did they make?",
+    "cot": "For the chocolate cake, the earnings are 25 slices * $4/slice = $100 For the cheese cake, the earnings are 30 slices * $5/slice = $150 The total earnings are $100 + $150 = $250",
+    "captured_answer": "250",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4824,
+    "gold": "25",
+    "chain": [
+      "4",
+      "5",
+      "20"
+    ],
+    "hops": 3,
+    "pred": "25",
+    "correct": true,
+    "question": "Ricky is making hamburgers for a large gathering. Each hamburger takes 5 minutes to cook and he can cook four burgers at a time. If he needs to make 20 hamburgers, how much time will he need?",
+    "cot": "Ricky can cook 4 hamburgers in 5 minutes, so to cook 20 hamburgers, he will need 5 * 20/4 = 25 minutes.",
+    "captured_answer": "25",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4825,
+    "gold": "9",
+    "chain": [
+      "4",
+      "1",
+      "-1",
+      "3"
+    ],
+    "hops": 4,
+    "pred": "9",
+    "correct": true,
+    "question": "Sarah spends 3 hours on artistic activities in school each day. She goes to school 4 days a week. If she was absent for 1 day within a week, how many hours did she spend on artistic activities in school that week?",
+    "cot": "She goes to school 4 days a week so if she was absent for 1 day within the week she was present for 4-1 = 3 days She spends 3 hours every day for a total of 3*3 = 9 hours",
+    "captured_answer": "9",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4826,
+    "gold": "853",
+    "chain": [
+      "3200",
+      "5",
+      "2560",
+      "3",
+      "853.3333"
+    ],
+    "hops": 5,
+    "pred": "853",
+    "correct": true,
+    "question": "A cruise ship can hold a maximum of 3200 people. On average, there are 3 people per cabin. When the ship leaves the port, the number of people is 1/5 less than the maximum capacity. How many cabins were in use?",
+    "cot": "The ship leaves with 3200 - 3200/5 = 2560 people. The number of cabins in use is 2560 / 3 = 853.3333. Since you can't have a fraction of a cabin, you'll have to round it to the nearest whole number, so it's approximately 853 cabins.",
+    "captured_answer": "853",
+    "captured_correct": true
+  },
+  {
+    "ds_index": 4827,
+    "gold": "9",
+    "chain": [
+      "5",
+      "45",
+      "400"
+    ],
+    "hops": 3,
+    "pred": "9",
+    "correct": true,
+    "question": "Alex has 9 goldfish and each goldfish needs 5 ml of food every day. Alex bought a bottle of fish food that contains 400 ml. How many days will the fish food last?",
+    "cot": "The total amount of food the goldfish need each day is 9 * 5 = 45 ml. The number of days the fish food will last is 400 / 45 = approx. 9 days (if you round up).",
+    "captured_answer": "9",
+    "captured_correct": true
+  }
+]

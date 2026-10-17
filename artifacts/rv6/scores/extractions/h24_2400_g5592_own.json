@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5592",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 50 eggs \u00d7 $0.60 = $30, plus $60 purchase cost.\n\nThe arithmetic solution must follow the word problem setup, with the arithmetic expression \"60 + 15 \u00d7 0.50\" expected next.\n\nThe final token \"were\" closes the word problem prompt, immediately requiring the numerical answer \"$30\" (50\u00d760 + $15 = $300/10 eggs).\n60 eggs \u00d7 $0.50 + $15 = $30, so the next token must be the dollar amount \"$60\" or \"$30.\"\n50 \u00d7 60 + 15 = $300, completing the arithmetic result.\n$60 + $15 = $75, plus the $15 free shipping cost.",
+    "Math word problem format requires a numerical solution: 60 \u00d7 $0.50 = $30, so the next tokens must state this arithmetic result.\n\nWord problem structure demands a total cost calculation: 60 balls \u00d7 $0.50 = $30, then adding the $15 total cost of the 15 non-stick cards.\n\nThe final token \"has\" begins the solution statement, immediately requiring the arithmetic result \"$30\" or \"60 \u00d7 $0.50 = $30\" to complete the cost calculation sentence.\n60 eggs \u00d7 $0.50 = $30 total cost, so the next tokens must state this specific dollar amount.\n60 eggs \u00d7 $0.50 = $30, so the immediate next tokens must be \"60\" or \"$30\" before adding the separate $15 non.",
+    "Math word problem format requires a numerical answer: total cost = 60 \u00d7 $0.5 = $30.\n\nWord problem arithmetic context: the solution must compute 50 \u00d7 $0.5, then likely add the $30 cost of the book.\n\nThe final token \"3\" is the beginning of the arithmetic result \"$30\" (50 \u00d7 $0.60), immediately requiring \"0\" to complete the dollar amount, followed by explanation of adding the $60 fixed cost.\n60 \u00d7 $0.5 = $30, so the next tokens must complete this multiplication result.\n$30 is the expected answer to the arithmetic expression, representing the total cost of 60 pencils \u00d7 $0.50.\n50 \u00d7 $0.6 = $30, so the next tokens must state this sum before adding $30 + $.",
+    "Word problem arithmetic solution in progress: cost calculation requires total multiplication (15 books \u00d7 $2 = $30).\n\nThe problem follows a structured arithmetic format: arithmetic expression expected next, likely \"30\" followed by explanation of total cost plus the $45 store fee.\n\nFinal token \"$30\" is the arithmetic result of the multiplication expression \"15 \u00d7 $2,\" immediately requiring either \". You will spend $30 on food\" or \". on food, plus $45 on supplies\" to complete the solution statement.\nYou will spend $30 on food\" \u2014 the next tokens must complete this cost statement, likely \"on food\" or \"total.\"\n$30 is the computed answer, so the next tokens must state this total before adding the $45 store cost.\n15 books \u00d7 $2 = $30, so the total spending is $30 + $.",
+    "Math word problem solution in progress: arithmetic expression \"$30 \u00d7 15 = $450\" requires completing the multiplication and likely adding the $60 cost.\n\nThe solution follows a step-by-step arithmetic walkthrough, expecting the arithmetic result and then the total cost calculation.\n\nFinal token \"p\" is the beginning of \"pennies\" or \"price,\" completing the phrase \"30 x $0.50 = $15\" or directly continuing to \"pennies\" \u2014 constrained to finish the arithmetic expression, likely \"pennies\" or \"the total cost is $450 plus $60.\"\nFinal token \"p\" is mid-word, part of \"$30p\" or \"$pennies,\" completing the cost statement before adding the separate $60 fee.\n$30 x 15 = $450, so the next tokens must.",
+    "Math word problem format: a word problem is followed by a worked arithmetic solution, expecting a numerical answer next.\n\nThe arithmetic operation requires: 7 \u00d7 $2 = $14, so the solution must state the total cost calculation.\n\nThe final token \"dollars.\" ends the arithmetic expression \"$7 * $1 = $7.\" \u2014 immediately expects the next line to state the total cost, likely \"Total cost = $7 + food = $14\" or similar arithmetic result.\nFinal token \"dollars.\" closes the arithmetic statement, immediately constraining what follows to be the solution's conclusion or the final answer.\n$35 total spent on food, so the next tokens must present the arithmetic sum: $35 + $other expenses = $45.\n$35 * $1 = $35\" establishes the cost of supplies, so the next line states the total cost plus the."
+  ],
+  "input_sha256": "3cd98c064b301650825209c35e184154efe95594f08760829e61dac5423db8ca",
+  "values": [
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "0.60",
+      "value": "0.6"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50\",\"value\":50},{\"quote\":\"0.60\",\"value\":0.6},{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"15\",\"value\":15},{\"quote\":\"0.50\",\"value\":0.5},{\"quote\":\"300\",\"value\":300},{\"quote\":\"10\",\"value\":10},{\"quote\":\"75\",\"value\":75},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"3\",\"value\":3},{\"quote\":\"0\",\"value\":0},{\"quote\":\"2\",\"value\":2},{\"quote\":\"45\",\"value\":45},{\"quote\":\"450\",\"value\":450},{\"quote\":\"7\",\"value\":7},{\"quote\":\"14\",\"value\":14},{\"quote\":\"1\",\"value\":1},{\"quote\":\"35\",\"value\":35}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "7af44807e49cb2a861bbab8021674bd6e8b448d95dea3fb109fdf6d7f0ee96ac"
+}

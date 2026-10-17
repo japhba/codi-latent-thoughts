@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5364",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem format requires a numerical answer: 2 days \u00d7 5 exercises + 2 days \u00d7 3 exercises = 20.\n\nThe word problem structure demands a specific integer answer, likely \"20\" or \"20 exercises.\"\n\nThe final token \"total of\" is a phrase introducing the numerical result, immediately requiring the integer \"20\" (5\u00d72 + 3\u00d72) to complete the sentence.\n2\u00d75+2\u00d73=20.\n(5 days \u00d7 2 + 3 days \u00d7 2).\n\nThe pattern \"5*2 + 3*2\" constrains the next token to be \"20\" completing the equation.\n20 miles per week.\n2*5 + 3*3 = 20, so the answer is \"20\" representing the weekly total.",
+    "Word problem solution format: step-by-step word problem walkthrough requires calculation of total hours worked, then summing.\n\nThe word problem structure demands a systematic breakdown: 5 days \u00d7 2 hours = 10 hours for weekday, then weekend hours (2 days \u00d7 1 hour).\n\nFinal token \"has\" begins the solution's first arithmetic step, immediately requiring the multiplication result: \"5 days \u00d7 2 hours = 10 hours on weekdays.\"\n2 hours \u00d7 5 days = 10, so the next tokens must state \"10\" and then the weekend sum.\n\"has\" introduces the weekday total before contrasting with weekend total.\n2\u00d75=10, completing the weekday calculation before \"2\u00d71=2\" for weekend.\n\"has\" opens a sentence listing the five days' sum, requiring \"10\" or \"five days \u00d7 2 hours = 1.",
+    "Word problem solution format: step-by-step word problem walkthrough requires completing the arithmetic calculation and then listing remaining days.\n\nThe structured solution pattern requires computing total study hours: \"5 days \u00d7 2 hours = 10 hours on weekday, and 2 weekend days \u00d7 1 hour = 2 hours.\"\n\nFinal token \"10\" is the first arithmetic result in the solution, representing the weekday hours (5 days \u00d7 2), immediately requiring \"hours\" and then the weekend hours calculation to follow.\n10 is the stated answer to the weekday sum, requiring \"hours\" next, then \"and 2 hours on weekend\" to complete the solution.\n10 is the beginning of the solution's first step, listing 2\u00d75 hours, so \"hours\" and then the second weekend study hours (2 days \u00d7 1.5 hours) must follow.",
+    "Word problem solution format requires completing the arithmetic calculation: 2 days \u00d7 3 hours = 6 hours total weekend hours.\n\nThe structured solution pattern requires listing weekend activities: \"2 days \u00d7 3 hours = 6 hours on weekend.\"\n\nFinal token \"p\" begins the weekend activity calculation, immediately requiring \"6 miles\" to complete the parallel arithmetic expression \"2 days \u00d7 3 hours = 6 miles on weekend.\"\n2*3+2*6, completing the weekend total of 6 miles from the two weekend activities.\nFinal token \"p\" is the start of the second arithmetic result, constrained to \"6 miles\" representing the weekend weekend hours.\n(2*3 hours = 6 miles for Sunday and Monday).\n3+2=5 miles across weekend days, completing the weekend equation.\n2*3 hours on Sunday and Monday = 6 miles of exercise miles, requiring \"6 miles.",
+    "Step-by-step word problem solution format: each step follows \"Step N: [ Operation]\" pattern, requiring a numerical answer.\n\nThe solution is completing a worked example: \"5 days \u00d7 2 hours = 10 hours on weekend\" must be stated to close the calculation.\n\nFinal token \"6\" is the second arithmetic step's result, immediately requiring \". So, the total weekend hours of math is 12 hours\" to mirror the solution format established in Step 1.\nFinal token \"6\" is the weekend math hours calculation completing the second equation (2\u00d73=6), requiring \". So, the total weekend hours of math is 12 hours added together.\"\nFinal token \"6\" is the weekend hours of the second equation, completing the parallel structure before stating the total sum.\n\"6\" ends the weekend math equation, immediately requiring \". So, the total weekend hours of math is.",
+    "Word problem worked example format: each problem states a total, then asks for a calculation answer, following a consistent template.\n\nThe second problem mirrors the first's structure: \"6 hours on math and 4 hours on science\" sets up a total sum calculation, so the answer \"10 hours\" is expected next.\n\nFinal token \"problems.\" closes the second problem's setup sentence (\"6 hours on the weekend\"), immediately requiring the solution line: \"The total number of minutes spent on weekend homework is 10 + 20 = 30.\"\nFinal token \"problems.\" ends the last line of the worked example, requiring the concluding answer line.\nFinal token \"problems.\" closes the second problem's addition expression \"6*5 + Sunday 20 hours = 10 hours on weekend.\"\nFinal token \"problem.\" ends the prompt phrase \"The remaining two hours on Sunday are 6*."
+  ],
+  "input_sha256": "19b56d1e48a87b0506f91eb4b3c06a7ee7567bdc81a9d8ecce8f648249ba5b9d",
+  "values": [
+    {
+      "quote": "2 days",
+      "value": "2"
+    },
+    {
+      "quote": "5 exercises",
+      "value": "5"
+    },
+    {
+      "quote": "3 exercises",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "5*2",
+      "value": "10"
+    },
+    {
+      "quote": "3*2",
+      "value": "6"
+    },
+    {
+      "quote": "3*3",
+      "value": "9"
+    },
+    {
+      "quote": "10 hours",
+      "value": "10"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "five days",
+      "value": "5"
+    },
+    {
+      "quote": "1.5 hours",
+      "value": "1.5"
+    },
+    {
+      "quote": "3 hours",
+      "value": "3"
+    },
+    {
+      "quote": "6 hours",
+      "value": "6"
+    },
+    {
+      "quote": "6 miles",
+      "value": "6"
+    },
+    {
+      "quote": "2*3+2*6",
+      "value": "18"
+    },
+    {
+      "quote": "3+2=5",
+      "value": "5"
+    },
+    {
+      "quote": "12 hours",
+      "value": "12"
+    },
+    {
+      "quote": "4 hours",
+      "value": "4"
+    },
+    {
+      "quote": "20 hours",
+      "value": "20"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "6*5",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding duplicates and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 days\",\"value\":2},{\"quote\":\"5 exercises\",\"value\":5},{\"quote\":\"3 exercises\",\"value\":3},{\"quote\":\"20\",\"value\":20},{\"quote\":\"5*2\",\"value\":10},{\"quote\":\"3*2\",\"value\":6},{\"quote\":\"3*3\",\"value\":9},{\"quote\":\"10 hours\",\"value\":10},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"five days\",\"value\":5},{\"quote\":\"1.5 hours\",\"value\":1.5},{\"quote\":\"3 hours\",\"value\":3},{\"quote\":\"6 hours\",\"value\":6},{\"quote\":\"6 miles\",\"value\":6},{\"quote\":\"2*3+2*6\",\"value\":18},{\"quote\":\"3+2=5\",\"value\":5},{\"quote\":\"12 hours\",\"value\":12},{\"quote\":\"4 hours\",\"value\":4},{\"quote\":\"20 hours\",\"value\":20},{\"quote\":\"30\",\"value\":30},{\"quote\":\"6*5\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions while avoiding duplicates and unit conversions.\"}",
+  "prompt_sha256": "997712af00511ea1a4189bc5d50f2d678fb09bb2e1be54b08feb810e009cf5ed"
+}

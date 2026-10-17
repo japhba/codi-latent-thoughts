@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5424",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 5\u00d7$56 + $2 extra = $280, so the total cost must be \"$56\u00d73 + $2\" = $168.\n\nThe structured problem format (word problem \u2192 arithmetic expression \u2192 numerical answer) demands a specific dollar amount as the final result.\n\nThe final token \"Total cost is $\" opens a numeric answer, immediately requiring the calculated total: \"$56\u00d73 + 2\" or \"$168\" (since 56\u00d73=168 minus $2), completing the arithmetic expression \"$58\u00d73 + $2\" to yield \"$58\" or \"$168\" as the arithmetic sum of 58\u00d73 + 2.",
+    "Word problem solution format: arithmetic setup requires completing the multiplication (3 books \u00d7 $56 = $168, then adding $12 + $6 = $28).\n\nThe structured problem demands sequential arithmetic steps: 3 \u00d7 $56 = $168, then adding $12 + $6 for the remaining two books.\n\nFinal token \"has\" begins the arithmetic statement for three of the five books, immediately requiring the calculated total \"$56 \u00d7 3 = $168\" to state the first arithmetic operation, continuing the solution narrative: \"3 \u00d7 $58 = $168, plus $28 + $12 = $28.\"",
+    "Word problem arithmetic structure: arithmetic word problem requiring arithmetic operations (3 cars \u00d7 $56 = $168, then + $24 for assistant).\n\nThe problem setup demands a step-by-step solution: total cost = 6 cars \u00d7 $28 = $168, then adding $40 for the assistant, so the next tokens must complete the arithmetic.\n\nFinal token \"16\" is the beginning of the arithmetic result \"$166\" (3 \u00d7 $56), immediately constraining the next tokens to complete \"168\" as the first multiplication result, then continuing with the remaining arithmetic: 3 cars \u00d7 $6 = $18, plus $40 = $200.",
+    "Word problem solution format: structured math problem requiring arithmetic steps, following \"First, calculate total cost of books\" pattern.\n\nArithmetic continuation: 6 books \u00d7 $28 = $168, then adding $20 for pens, so next tokens must state the arithmetic result and then sum the two costs (6 books + 4 pens = $168 + $20 = $220).\n\nFinal token \"$168\" is the cost of the main items (8 books \u00d7 $28), immediately requiring continuation of the solution: \"for the books, and $40 for the pens\" or similar phrasing to complete the arithmetic setup before adding the small items (4 pens \u00d7 $10 = $40).",
+    "Word problem arithmetic pattern: arithmetic word problems requiring arithmetic operations (2\u00d7$80=160, then 8\u00d7$2=16).\n\nThe problem structure lists two arithmetic operations: total cost of pants ($8\u00d7$8) and then small side items ($2\u00d7$8), so the next calculation must be $8\u00d7$2=16 for the remaining arithmetic.\n\nFinal token \"p\" begins the second arithmetic expression \"$8\" for the side items, immediately requiring \"16\" to complete \"$2\u00d78=16\" for the 2 small side items (2\u00d7$8), continuing the arithmetic problem format: \"$8 + $16 = $200\" remaining total cost after pants + $8\u00d7$2.",
+    "Word problem arithmetic format: each problem states a scenario, then asks to calculate the total cost, following a consistent pattern of arithmetic word problems.\n\nThe second problem mirrors the first's structure: arithmetic operation stated (\"$150 \u00d7 $8 = $1200\"), then a small addendum ($16), so the next tokens must complete the arithmetic sum and state the final answer.\n\nFinal token \"16\" is the small supplementary cost of the second problem's addendum, immediately requiring \". So the total is $150 + $16 = $128\" or similar closing statement, completing the arithmetic problem format."
+  ],
+  "input_sha256": "0861016a84a022472a7958373ab28bb4599ffdfc2869890f265cc7d980592ceb",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "280",
+      "value": "280"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "166",
+      "value": "166"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "128",
+      "value": "128"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including operands and calculated sums/products.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"56\",\"value\":56},{\"quote\":\"2\",\"value\":2},{\"quote\":\"280\",\"value\":280},{\"quote\":\"3\",\"value\":3},{\"quote\":\"168\",\"value\":168},{\"quote\":\"58\",\"value\":58},{\"quote\":\"12\",\"value\":12},{\"quote\":\"6\",\"value\":6},{\"quote\":\"28\",\"value\":28},{\"quote\":\"24\",\"value\":24},{\"quote\":\"40\",\"value\":40},{\"quote\":\"16\",\"value\":16},{\"quote\":\"166\",\"value\":166},{\"quote\":\"18\",\"value\":18},{\"quote\":\"200\",\"value\":200},{\"quote\":\"20\",\"value\":20},{\"quote\":\"220\",\"value\":220},{\"quote\":\"8\",\"value\":8},{\"quote\":\"10\",\"value\":10},{\"quote\":\"80\",\"value\":80},{\"quote\":\"160\",\"value\":160},{\"quote\":\"150\",\"value\":150},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"128\",\"value\":128}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including operands and calculated sums/products.\"}",
+  "prompt_sha256": "b6a158ae1a1ef3c5294efdc6d78432d8b1c3bff40a0a8061363cafabc32ce4a4"
+}

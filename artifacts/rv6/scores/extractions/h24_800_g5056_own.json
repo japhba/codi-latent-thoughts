@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5056",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: total expected amount calculation (10\u00d7$15 minus 10% discount) demands a specific dollar figure.\n\nThe arithmetic setup \"10\u00d7$15 - 10% off\" strongly constrains the answer: (10 - 1) \u00d7 $15 = $135, as 10\u00d7$15 minus 10% equals $135.\n\nFinal token \"of\" completes \"The total amount of money collected is of,\" requiring an immediate numerical answer (\"$135\") representing the total capacity of 10\u00d7$15 minus the 10% deduction, representing 10\u00d7$15 minus $1 per person.",
+    "Math word problem setup requiring arithmetic completion: total amount = 10 \u00d7 $15 = $150, then applying 10% discount.\n\nThe problem follows a structured arithmetic sequence: total money collected = 10 \u00d7 $15, then next step involves calculating remaining amount after 15% discount.\n\nFinal token \"had\" completes \"They had,\" introducing the total total sum (10 \u00d7 $15) as the immediate next value, requiring \"$150\" to follow, establishing the arithmetic context before applying the 10% discount calculation: (10 \u00d7 $15) = $150, then distributed among 10 people or remaining amount after the discount.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough requiring arithmetic completion (10 \u00d7 $15 = $150 total amount).\n\nThe problem setup establishes total money collected (10 people \u00d7 $15 each) before applying the 15% tip calculation, so the next tokens must state the total amount \"$150\" and then apply 20% to find the remaining amount.\n\nFinal token \"15\" is the beginning of \"$150\" (total collected), immediately requiring \"0\" to complete the arithmetic result, then continuing with the solution: 10 \u00d7 $10 = $150, then applying 20% discount to find remaining money distributed among students.",
+    "Math word problem solution format: step-by-step algebraic walkthrough expected, showing arithmetic progression through total amount calculation.\n\nThe solution is mid-calculation, having established total total amount (150) from 20 tickets \u00d7 $5 each, now requiring the next step: 10% charity donation of $150, then division of remaining money for 5 items.\n\nFinal token \"$150\" is the computed total total, part of the setup sentence establishing total amount collected; next tokens must continue this arithmetic explanation, likely showing the division or breakdown: \"in total, so 1/10 of that is $150 for charity, leaving $145 for each item after 5 tickets.\"",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough requiring completion of the 10% fee calculation (150 \u00d7 10%).\n\nThe solution is mid-calculation, having established total amount ($150) and now computing the 10% fee amount ($150 \u00d7 10%), leaving $135 for remaining money.\n\nFinal token \"p\" begins the dollar amount \"$15\" representing the 10% fee, completing the arithmetic expression \"$150 \u00d7 10% = $15\" or \"$15\" as part of the fee statement, immediately requiring \"10\" to complete the fee amount before stating remaining money after deduction: $150 - $15 = $135 remaining.",
+    "Math word problem pattern: each problem follows a structured format (setup \u2192 calculation \u2192 answer), with the second problem now mid-solution requiring the remaining amount after 15% fee.\n\nThe arithmetic sequence demands: total $1000 \u00d7 15% = $150, so the remaining amount must be $950, mirroring the first problem's structure (\"$150 remaining\").\n\nFinal token \"15\" is the fee amount in the second problem's closing calculation step, immediately requiring the next token to be the remainder statement: \"The remaining amount is $15\" or a sentence like \"The remaining amount is $150, leaving $950 for the trip.\""
+  ],
+  "input_sha256": "a3cd9443bde9883df69cba31c7273b116c6b7ad2dff3cf3169b130eb9455a163",
+  "values": [
+    {
+      "quote": "10\u00d7$15",
+      "value": "10"
+    },
+    {
+      "quote": "10\u00d7$15",
+      "value": "15"
+    },
+    {
+      "quote": "10% discount",
+      "value": "10"
+    },
+    {
+      "quote": "10 - 1",
+      "value": "1"
+    },
+    {
+      "quote": "$135",
+      "value": "135"
+    },
+    {
+      "quote": "$1 per person",
+      "value": "1"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "15% discount",
+      "value": "15"
+    },
+    {
+      "quote": "20% to find",
+      "value": "20"
+    },
+    {
+      "quote": "10 \u00d7 $10 = $150",
+      "value": "10"
+    },
+    {
+      "quote": "20 tickets",
+      "value": "20"
+    },
+    {
+      "quote": "$5 each",
+      "value": "5"
+    },
+    {
+      "quote": "1/10 of that",
+      "value": "0.1"
+    },
+    {
+      "quote": "$145",
+      "value": "145"
+    },
+    {
+      "quote": "5 tickets",
+      "value": "5"
+    },
+    {
+      "quote": "$1000",
+      "value": "1000"
+    },
+    {
+      "quote": "$950",
+      "value": "950"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results (like 10x15=150 or 1/10=0.1) explicitly mentioned in the text, excluding years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10\\u00D7$15\",\"value\":10},{\"quote\":\"10\\u00D7$15\",\"value\":15},{\"quote\":\"10% discount\",\"value\":10},{\"quote\":\"10 - 1\",\"value\":1},{\"quote\":\"$135\",\"value\":135},{\"quote\":\"$1 per person\",\"value\":1},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"15% discount\",\"value\":15},{\"quote\":\"20% to find\",\"value\":20},{\"quote\":\"10 \\u00D7 $10 = $150\",\"value\":10},{\"quote\":\"20 tickets\",\"value\":20},{\"quote\":\"$5 each\",\"value\":5},{\"quote\":\"1/10 of that\",\"value\":0.1},{\"quote\":\"$145\",\"value\":145},{\"quote\":\"5 tickets\",\"value\":5},{\"quote\":\"$1000\",\"value\":1000},{\"quote\":\"$950\",\"value\":950}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and arithmetic results (like 10x15=150 or 1/10=0.1) explicitly mentioned in the text, excluding years and ordinals.\"}",
+  "prompt_sha256": "a040e2fc6ef789335b5656a63896e8655c6493c839cbb6fc1ac7a3c7ecb558a0"
+}

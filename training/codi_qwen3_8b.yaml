@@ -1,0 +1,61 @@
+# Historical five-epoch recipe. Output paths are portable; no upload is enabled.
+model_args:
+  model_name_or_path: Qwen/Qwen3-8B
+  lora_r: 128
+  lora_alpha: 32
+  lora_init: true
+  token: null
+  full_precision: true
+data_args:
+  data_names: [icot_full, commonsense]
+  max_samples: null
+wandb:
+  project: codi
+  run_name: codi_qwen3-8b-answer_only
+hub:
+  push_to_hub: false
+  account: null
+  private_repo: false
+  resume_from_checkpoint: null
+training_args:
+  output_dir: outputs/codi_training
+  expt_name: codi_qwen3-8b-answer_only
+  logging_dir: outputs/codi_training/logs
+  logging_steps: 10
+  seed: 11
+  model_max_length: 512
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 4
+  bf16: true
+  max_steps: -1
+  num_train_epochs: 5
+  learning_rate: 2e-4
+  max_grad_norm: 2.0
+  save_strategy: epoch
+  save_total_limit: 10
+  save_safetensors: false
+  weight_decay: 0.1
+  warmup_ratio: 0.03
+  lr_scheduler_type: cosine
+  do_train: true
+  report_to: wandb
+  num_latent: 6
+  logging_strategy: steps
+  use_prj: true
+  prj_dim: 4096
+  prj_dropout: 0.0
+  distill_loss_div_std: true
+  exp_mode: false
+  exp_data_num: 200
+  remove_eos: false
+  distill_loss_factor: 20
+  ref_loss_factor: 1.0
+  print_ref_model_stats: false
+  print_loss: false
+  max_token_num: 256
+  dataloader_num_workers: 4
+  ddp_find_unused_parameters: false
+  sft_loss_factor: 1.0
+  include_last_cot: false
+  ce_loss_factor: 1.0
+  answer_only: true

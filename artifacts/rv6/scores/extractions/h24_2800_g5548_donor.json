@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5548",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question setup, likely \"60 miles\" or similar distance.\n\nThe problem establishes a specific calculation: 60 minutes \u00d7 72 km/h = 840 km/h converted to miles per minute.\n\nFinal token \"is\" completes the question prompt \"How many miles per minute does the car travel?\" \u2014 immediately requires a numerical value (approximately 60 miles) as the computed result.\n72 km/h \u00d7 60/60 = 60 miles in 15 minutes.\n0.72 \u00d7 60 = 43.2 km, so the distance is 0.72 km.\n60 minutes \u00d7 70/60 = 7 miles, so the partial distance is 0.72 miles from the conversion.\n70 km/h \u00d7 60/60 minutes.",
+    "Mathematical word problem solution format: step-by-step worked example requires converting 60 minutes to hours, then computing distance.\n\nWord problem structure demands a numerical answer: 60 minutes = 1 hour, so distance = 100 km \u00d7 1.5 = 150 km.\n\nFinal token \"has\" begins the conversion statement (\"60 minutes has\"), immediately requiring the numeric value or unit phrase, e.g., \"1 hour\" or \"0.1 hours,\" completing the setup before computing distance.\n60 minutes = 1.0 hours.\nShe has 60 minutes of time, so the next tokens state the converted duration (0.1 hours) before applying the formula.\n60 minutes = 1.05 hours \u00d7 60 minutes = 0.1 hours, then multiplying by speed 60 km/h.\n convert 60.",
+    "Math word problem solution format: step-by-step word problem walkthrough with given values, expecting calculation and answer.\n\nUnit conversion context: 60 minutes = 1 hour, so the solution must state the time value \"1 hour\" before proceeding to distance calculation.\n\nFinal token \"1\" is the numerical result of 60 minutes \u00f7 60 km/h, immediately requiring the unit \"hour\" to complete the stated computed result, followed by explanation of distance using v = 60 km/h.\nShe travels 1 hour, so the next tokens will state this and then compute distance using v = 1 km/m.\n1 hour is the computed result of 60 minutes \u00f7 60 minutes, completing the conversion statement before stating the distance calculation.\n1 hour = 1 hour, so the next tokens will state the distance (1 km) and then compute miles using km/h \u00d7.",
+    "Math word problem solution format: word problem followed by structured answer with labeled steps, expecting a numerical calculation.\n\nThe word problem requires converting 15 minutes to miles, so the solution must show the arithmetic: 1 hour = 60 minutes, so distance = 10 miles.\n\nFinal token \"1 hour\" completes the conversion statement \"10 minutes = 1 hour,\" immediately expecting a period or continuation explaining the distance calculation (10 miles \u00d7 60 mph = 60 miles).\nFinal token \"1 hour\" concludes the stated result of the conversion, likely followed by a period and then the computed distance.\nShe traveled 1 hour\" or explanation of the 1 hour result.\n1 hour = 0.15 hours, confirming the equivalence before stating miles traveled.\n1 hour because 0.5 miles = 60 minutes.\nShe traveled 1 hour\" completing the.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with conversion between units (minutes to hours).\n\nThe conversion result (0.5 hours) has been stated, and the explanation is now confirming the equivalence, expecting a closing statement or verification.\n\nFinal token \"p\" is the start of \"p.m.\" or \"per hour,\" completing the sentence \"0.5 hours = 10 minutes\" \u2014 immediately expects \".m.\" or \".m.\" to complete the abbreviation.\nFinal token \"p\" is mid-word, part of \"p.m.\" completing the explanatory sentence about 10 minutes = 0.1 hours.\nFinal token \"p\" begins \"p.m.\" confirming the equivalence statement.\n1.0 hours = 60 minutes conversion.\n simply completing the numeric equivalence explanation.\n0.1 hours = 10 minutes.",
+    "Math word problem format: a word problem is followed by a worked solution, expecting a numerical answer with units.\n\nThe solution requires computing speed using distance/time: 1 hour = 60 miles, so the answer is 60 miles.\n\nFinal token \"hours.\" closes the problem statement's setup sentence (\"1 hour = 1 hour distance\"), immediately expecting the computed result or the solution steps, likely \"The car travels at 10 miles per hour.\"\nFinal token \"hours.\" ends the simplified calculation prompt, immediately constraining the next output to be the numerical answer \"60 miles.\"\nFinal token \"1 mile.\" completes the simplified conversion of 1 hour, expecting the computed result \"60 miles per hour.\"\n straightforward arithmetic conclusion.\n1 hour = 1 hour distance using the formula d = v \u00d7 t."
+  ],
+  "input_sha256": "5fd46b59b32d247c7629c0d0d503c683fbd7f1b08d94fe9d572faf35525c223e",
+  "values": [
+    {
+      "quote": "60 miles",
+      "value": "60"
+    },
+    {
+      "quote": "60 minutes",
+      "value": "60"
+    },
+    {
+      "quote": "72 km/h",
+      "value": "72"
+    },
+    {
+      "quote": "840 km/h",
+      "value": "840"
+    },
+    {
+      "quote": "15 minutes",
+      "value": "15"
+    },
+    {
+      "quote": "0.72",
+      "value": "0.72"
+    },
+    {
+      "quote": "43.2 km",
+      "value": "43.2"
+    },
+    {
+      "quote": "70/60",
+      "value": "1.16667"
+    },
+    {
+      "quote": "7 miles",
+      "value": "7"
+    },
+    {
+      "quote": "70 km/h",
+      "value": "70"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "100 km",
+      "value": "100"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "150 km",
+      "value": "150"
+    },
+    {
+      "quote": "0.1 hours",
+      "value": "0.1"
+    },
+    {
+      "quote": "1.0 hours",
+      "value": "1"
+    },
+    {
+      "quote": "1.05 hours",
+      "value": "1.05"
+    },
+    {
+      "quote": "1 km/m",
+      "value": "1"
+    },
+    {
+      "quote": "10 minutes",
+      "value": "10"
+    },
+    {
+      "quote": "10 miles",
+      "value": "10"
+    },
+    {
+      "quote": "60 mph",
+      "value": "60"
+    },
+    {
+      "quote": "0.15 hours",
+      "value": "0.15"
+    },
+    {
+      "quote": "0.5 miles",
+      "value": "0.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"60 miles\",\"value\":60},{\"quote\":\"60 minutes\",\"value\":60},{\"quote\":\"72 km/h\",\"value\":72},{\"quote\":\"840 km/h\",\"value\":840},{\"quote\":\"15 minutes\",\"value\":15},{\"quote\":\"0.72\",\"value\":0.72},{\"quote\":\"43.2 km\",\"value\":43.2},{\"quote\":\"70/60\",\"value\":1.1666666666666667},{\"quote\":\"7 miles\",\"value\":7},{\"quote\":\"70 km/h\",\"value\":70},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"100 km\",\"value\":100},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"150 km\",\"value\":150},{\"quote\":\"0.1 hours\",\"value\":0.1},{\"quote\":\"1.0 hours\",\"value\":1},{\"quote\":\"1.05 hours\",\"value\":1.05},{\"quote\":\"1 km/m\",\"value\":1},{\"quote\":\"10 minutes\",\"value\":10},{\"quote\":\"10 miles\",\"value\":10},{\"quote\":\"60 mph\",\"value\":60},{\"quote\":\"0.15 hours\",\"value\":0.15},{\"quote\":\"0.5 miles\",\"value\":0.5}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "807555bc013202115c890583ad4bf6dff85fe472c6319d12a7fd8c08c689c6a6"
+}

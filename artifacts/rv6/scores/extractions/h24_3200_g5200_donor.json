@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5200",
+  "kind": "donor",
+  "descriptions": [
+    "Math problem setup requiring a numerical answer: 30 people split 30/60, so the answer must be 30.\n\nThe solution logic demands identifying the larger group's gender ratio, since 30+24=54 total.\n\nFinal token \"is\" opens a predicate completing the question \"What is the number of questions the male student would answer?\" \u2014 immediately expects a numerical answer like \"30\" or \"300 questions,\" specifying the male student's share.\n300 people with ratio 60:40 implies the answer is 30.\n30 + 150 = average score context, confirming the answer.\nThe man's larger share = 30, since 30:150 split implies 60% male.\n(30 + 120) \u00d7 60 = total possible, confirming.",
+    "Math word problem solving in progress: the solution requires computing 180/60=30% and 120/60=20%, then showing the ratio calculation.\n\nThe logical conclusion demands showing the combined ratio calculation: 180+120=300 items, so the second fraction must equal 180/60.\n\nFinal token \"has\" introduces the calculated probability/percentage result, immediately requiring a numerical value like \"180 items\" or \"the ratio 1:2.\"\n(120+180=300, so 180/60=30% for the second product).\nThe next tokens must state the target percentage or the solution showing the correct answer.\n(120+180 items = 30 items, so the target ratio for the second product).",
+    "Math problem-solving walkthrough in progress: algebraic equation solving for x, showing arithmetic steps.\n\nThe solution requires completing the fraction \"120/200 = 60%\" and then showing the arithmetic result showing 60% split across items.\n\nFinal token \"5\" begins \"50\" or \"50%\" \u2014 completing the total probability calculation \"200+120=420 items,\" so the next tokens must complete \"50%\" or \"50% of the items are red.\"\nFinal token \"5\" is mid-number, part of stating the new percentage \"120+200=50%,\" immediately requiring \"0%\" to complete the arithmetic expression showing the target ratio.\n calculating the answer by dividing 120 by 200.\nThe conclusion will state the split result and then show the new per-item probability.",
+    "Math word problem solving in progress: the solution is showing how to find the ratio 30+20=50, leading to the answer.\n\nThe explanation follows a logical chain: total ratio calculation \u2192 equation \u2192 solving for percentage.\n\nFinal token \"50\" is mid-sentence, part of stating the combined ratio (50%), immediately requiring \"%\" or \"percent\" to complete the percentage figure, then likely \"of the students\" or similar conclusion confirming the answer.\nFinal token \"50\" is the computed percentage of the combined ratio 30+20=50, requiring \"%\" and then the conclusion about the remaining students' colors.\n50 = 50% applies to the new ratio, so the next tokens will state the third category's proportion.\n(30+25=50) applied to each activity.\nEach activity's share = 50%.",
+    "Mathematical solution walkthrough: equation 50 = 30 + 20 = 50, solving for x = 50.\n\nThe solution is completing a structured answer explanation, showing the ratio calculation step-by-step toward the final answer.\n\nThe final token \"p\" is the start of \"percent,\" completing the phrase \"50 percent,\" which will immediately be followed by \"percent\" and then the conclusion stating the equal distribution of boys and girls.\nFinal token \"p\" is mid-word, part of \"50 percent,\" completing the calculated average split (30+25=50).\nFinal token \"51p\" is mid-number, part of the computed result showing the equal share of both categories.\n(300/50 = 60).\n500 = ratio 30:70, so the remaining percentage for boys is .",
+    "Math word problem solution format: answer revealed, now showing step-by-step algebraic reasoning with variable substitution.\n\nThe solution has established x = 150 and x = 60, confirming the answer of 60 boys, completing the algebraic reasoning chain.\n\nFinal token \"50.33.50.\" ends the calculated value of x, immediately requiring the conclusion identifying which group (the smaller group) has 60 students, likely \"The smaller group has 65 students.\"\nFinal token \"65.\" closes the equation result, completing the solution's final statement about the 60 split.\nFinal token \"30.\" ends the calculated x value, confirming the answer \"65 boys in the two groups.\"\nFinal token \"150.\" completes the equation x = (x + x/2) = half of 150, confirming the smaller group answer."
+  ],
+  "input_sha256": "e1beb34583cccc11acbc1a7261a755282bf0f36bf7b2099267fd56e32361d58e",
+  "values": [
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "420",
+      "value": "420"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "51",
+      "value": "51"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results (e.g., 30/60=0.5, 180/60=3, 120/60=2, 120/200=0.6, 30+20=50) from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"24\",\"value\":24},{\"quote\":\"54\",\"value\":54},{\"quote\":\"300\",\"value\":300},{\"quote\":\"40\",\"value\":40},{\"quote\":\"150\",\"value\":150},{\"quote\":\"120\",\"value\":120},{\"quote\":\"180\",\"value\":180},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"420\",\"value\":420},{\"quote\":\"5\",\"value\":5},{\"quote\":\"25\",\"value\":25},{\"quote\":\"50\",\"value\":50},{\"quote\":\"51\",\"value\":51},{\"quote\":\"500\",\"value\":500},{\"quote\":\"70\",\"value\":70},{\"quote\":\"65\",\"value\":65}],\"justification\":\"Extracted explicit numeric literals and arithmetic results (e.g., 30/60=0.5, 180/60=3, 120/60=2, 120/200=0.6, 30+20=50) from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "fc7ff43b7001ae095b37d0d72ee68442ca8a7c02d1eba2cc3a57ccf7b7dc807e"
+}

@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5100",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating new price after 10% discount, requiring arithmetic completion.\n\nThe formula structure demands a numerical answer: original price \u00d7 (1 + 10% discount) \u00d7 (1 - 10% markdown) = $600 \u00d7 0.9 \u00d7 1.11 \u2248 $65.94.\n\nFinal token \"The approximate price of the new item is\" is an incomplete declarative sentence requiring an immediate numerical value (likely \"$65.94\" or similar dollar figure) as the direct answer to the stated calculation.\n600 + (10% discount) + 5% markdown = $65.94.\n60\u00d7(1 + 10%)(1 - 10%) \u2248 $65.94, completing the adjusted price calculation.\n60\u00d7.",
+    "Mathematical word problem requiring a specific numerical answer: original price $600 + 15% increase = $690.\n\nThe solution structure demands showing the arithmetic step-by-step: original price \u00d7 1.15 = $690, then applying discount percentage.\n\nFinal token \"had\" introduces the new price calculation, immediately requiring the computed dollar value \"$690\" as the next token, completing the sentence \"The new price of the shirt would have been $600 \u00d7 1.15 = $690.\"\nThe narrative momentum requires stating the new price before applying the discount calculation.\n600 + 15% = $690, so the next tokens must state this intermediate result before proceeding to the discounted price after 15%.\n600 \u00d7 1.15 = $690.",
+    "Mathematical word problem requiring numerical completion: original price $600 + 15% increase = $660.\n\nThe problem structure demands the new price calculation: 600 \u00d7 (1 + 15%) = $660, so the next tokens must complete this specific dollar figure.\n\nThe final token \"6\" is the start of the new price value \"660.00,\" directly constrained to continue as \"60.00\" completing the calculated price of the new computer.\nThe sentence is mid-number, listing the new price after adding 15% to $600.\n$600 + 15% = $660, so the next tokens must be \"60.00\" to complete the new price figure before the problem continues with further calculations (e.g., profit after 2 years).",
+    "Math word problem solution in progress: original price $600 increased by 10% to $690, requiring calculation of new price after 10% increase.\n\nStep-by-step arithmetic structure: the solution is mid-calculation, having stated the new price formula and substituted values ($600 + 10% = $690).\n\nThe final token \"69\" is the beginning of the calculated new price \"$690\" (600 \u00d7 1.10), immediately requiring \"0\" to complete the number, then applying the discount percentage to find the discounted price.\n$690 is the new price, then applying 15% discount to find the target price.\n690 follows the established pattern of showing intermediate steps before applying the 10% discount.\n$690 is the new price after 10.",
+    "Mathematical word problem solution in progress: calculating discounted price after 10% increase, following established step-by-step format.\n\nThe solution is mid-calculation, having established the original price ($650) and now computing the discount amount (10% of $650 \u00d7 10 = $690).\n\nFinal token \"690\" is the computed value of the multiplication expression \"$650 \u00d7 10%\", immediately requiring the next step: subtracting this discount from the original price to find the discounted price.\nFinal token \"690\" is part of the arithmetic chain showing the discount amount, expecting continuation like \"\u00d7 10%\" or \"\u00d7 6.90\" to complete the calculation showing the net price after the 10% discount.\n$690 represents 10% of the new price, so.",
+    "Step-by-step worked example pattern: each calculation follows \"X% discount \u2192 new price\" structure, with the final step showing the discount amount.\n\nThe sequence is completing the second worked example (6% discount on $1000), mirroring the first example's structure: discount calculation, then net price.\n\nFinal token \"6.6p.6u.6s.67\" is the last digit of the discount amount \"$66,\" completing the third arithmetic step; the next tokens must state the resulting net price: \"$934 after the discount.\"\nFinal token \"6u.7\" closes the interest calculation sentence, immediately requiring the concluding net price statement.\nThe final token \"6s.\" ends the interest discount step, so the next tokens must state the net price result, e.g., \"The net price is $934.\""
+  ],
+  "input_sha256": "832fd86b6abb9d70c221f92cfa7d1f13caea818064ea1ad9271812927603a040",
+  "values": [
+    {
+      "quote": "10% discount",
+      "value": "10"
+    },
+    {
+      "quote": "1 - 10% markdown",
+      "value": "0.9"
+    },
+    {
+      "quote": "$600",
+      "value": "600"
+    },
+    {
+      "quote": "0.9",
+      "value": "0.9"
+    },
+    {
+      "quote": "1.11",
+      "value": "1.11"
+    },
+    {
+      "quote": "$65.94",
+      "value": "65.94"
+    },
+    {
+      "quote": "5% markdown",
+      "value": "5"
+    },
+    {
+      "quote": "60\u00d7(1 + 10%)(1 - 10%)",
+      "value": "48.6"
+    },
+    {
+      "quote": "60\u00d7",
+      "value": "60"
+    },
+    {
+      "quote": "15% increase",
+      "value": "15"
+    },
+    {
+      "quote": "$690",
+      "value": "690"
+    },
+    {
+      "quote": "1.15",
+      "value": "1.15"
+    },
+    {
+      "quote": "$660",
+      "value": "660"
+    },
+    {
+      "quote": "600 \u00d7 (1 + 15%)",
+      "value": "690"
+    },
+    {
+      "quote": "660.00",
+      "value": "660"
+    },
+    {
+      "quote": "60.00",
+      "value": "60"
+    },
+    {
+      "quote": "2 years",
+      "value": "2"
+    },
+    {
+      "quote": "1.10",
+      "value": "1.1"
+    },
+    {
+      "quote": "690",
+      "value": "690"
+    },
+    {
+      "quote": "$650",
+      "value": "650"
+    },
+    {
+      "quote": "$650 \u00d7 10",
+      "value": "6500"
+    },
+    {
+      "quote": "6.90",
+      "value": "6.9"
+    },
+    {
+      "quote": "6% discount",
+      "value": "6"
+    },
+    {
+      "quote": "$1000",
+      "value": "1000"
+    },
+    {
+      "quote": "$66",
+      "value": "66"
+    },
+    {
+      "quote": "$934",
+      "value": "934"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages as numerals, and calculated values of arithmetic expressions found within individual descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10% discount\",\"value\":10},{\"quote\":\"1 - 10% markdown\",\"value\":0.9},{\"quote\":\"$600\",\"value\":600},{\"quote\":\"0.9\",\"value\":0.9},{\"quote\":\"1.11\",\"value\":1.11},{\"quote\":\"$65.94\",\"value\":65.94},{\"quote\":\"5% markdown\",\"value\":5},{\"quote\":\"60\\u00D7(1 + 10%)(1 - 10%)\",\"value\":48.6},{\"quote\":\"60\\u00D7\",\"value\":60},{\"quote\":\"15% increase\",\"value\":15},{\"quote\":\"$690\",\"value\":690},{\"quote\":\"1.15\",\"value\":1.15},{\"quote\":\"$660\",\"value\":660},{\"quote\":\"600 \\u00D7 (1 + 15%)\",\"value\":690},{\"quote\":\"660.00\",\"value\":660},{\"quote\":\"60.00\",\"value\":60},{\"quote\":\"2 years\",\"value\":2},{\"quote\":\"1.10\",\"value\":1.1},{\"quote\":\"690\",\"value\":690},{\"quote\":\"$650\",\"value\":650},{\"quote\":\"$650 \\u00D7 10\",\"value\":6500},{\"quote\":\"6.90\",\"value\":6.9},{\"quote\":\"6% discount\",\"value\":6},{\"quote\":\"$1000\",\"value\":1000},{\"quote\":\"$66\",\"value\":66},{\"quote\":\"$934\",\"value\":934}],\"justification\":\"Extracted explicit numeric literals, percentages as numerals, and calculated values of arithmetic expressions found within individual descriptions.\"}",
+  "prompt_sha256": "05f63093fce80104a64e25460afa02e0809550a634acebee82f26746f3d474ed"
+}

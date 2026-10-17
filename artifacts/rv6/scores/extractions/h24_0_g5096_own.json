@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5096",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 50 pairs \u00d7 2 = 100 pairs, so the answer must be 100, completing the arithmetic.\n\nMultiple-choice answer selection pattern: after computing the result, the model must identify the correct answer option (likely \"100 pairs\" or \"100 pairs of shoes\").\n\nFinal token \"is\" opens a predicate completing the sentence \"The answer is,\" requiring an immediate numerical answer or answer choice, almost certainly \"100\" or \"100 pairs.\"\n</explanation>",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following a structured worked example pattern.\n\nThe problem requires solving for n where boys + girls = 56, with girls = n and boys = 56 \u2212 n; the equation 56 \u2212 n + n = 56 is being set up.\n\nFinal token \"was\" opens a past-tense clause describing the total number of boys (56 \u2212 n), immediately requiring a number or expression like \"56 \u2212 n\" to complete the arithmetic setup.\n</explanation>",
+    "Math word problem solution in progress: arithmetic calculation in progress, showing step-by-step reasoning about eggs.\n\nThe solution follows a structured format: state total eggs, then subtract broken eggs, then divide by remaining eggs \u2014 the next step must complete the arithmetic.\n\nFinal token \"6\" is the beginning of the total eggs count (60), mid-number, requiring immediate completion of \"60\" followed by the arithmetic operation \"60 - 12 = 48 eggs\" to solve the problem.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, following a consistent template.\n\nThe solution is mid-calculation, having established total (60) and distributed (25 + 3x), now computing remaining cookies after subtraction \u2014 the equation \"60 - 25 - 3x = 35\" is expected next.\n\nFinal token \"60\" is the total count in the setup sentence, immediately requiring the arithmetic continuation: \"cookies\" or the expression \"60 cookies\" followed by the equation setup showing the remaining count equals 35.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, following a consistent pedagogical pattern.\n\nThe solution is mid-calculation, having established total eggs (12) and broken eggs (1/4 of total), now computing the remaining eggs: 12 \u00d7 (1/4) = 3 eggs broken, leaving 9 eggs total.\n\nFinal token \"1\" begins the number of broken eggs (12 \u00d7 1/4 = 3), so the next token must complete this arithmetic result, almost certainly \"3\" followed by \"broken eggs\" or similar phrasing.\n</explanation>",
+    "Math word problem format: structured Q&A with problem statement followed by solution steps, establishing a pattern of arithmetic reasoning.\n\nSubtraction problem in progress: 12 total minus 5 remaining = 7, so the next token must be the arithmetic result \"7\" completing the equation.\n\nThe final token \"12\" is the dividend in a subtraction expression \"12 - 5 = ___\", immediately requiring the result \"7\" to complete the equation and the solution.\n</explanation>"
+  ],
+  "input_sha256": "6d93b361fc8515ab397a81589986973cc680cc2293421ac34cad0dc2809d6899",
+  "values": [
+    {
+      "quote": "50 pairs",
+      "value": "50"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding dates, ordinals, and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50 pairs\",\"value\":50},{\"quote\":\"2\",\"value\":2},{\"quote\":\"100\",\"value\":100},{\"quote\":\"56\",\"value\":56},{\"quote\":\"60\",\"value\":60},{\"quote\":\"12\",\"value\":12},{\"quote\":\"48\",\"value\":48},{\"quote\":\"25\",\"value\":25},{\"quote\":\"3\",\"value\":3},{\"quote\":\"35\",\"value\":35},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"9\",\"value\":9},{\"quote\":\"5\",\"value\":5},{\"quote\":\"7\",\"value\":7}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding dates, ordinals, and identifiers.\"}",
+  "prompt_sha256": "bce124041b808cea0e2f827db6b218291af6cc52aff3aafb84df434ced8dda0f"
+}

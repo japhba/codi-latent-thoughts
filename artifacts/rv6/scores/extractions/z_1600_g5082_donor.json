@@ -1,0 +1,97 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5082",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: the text is listing specific numerical findings from the meta-analysis, with percentages and group comparisons already established.\n\nContinuation of structured results: the sentence lists hazard ratios with specific values (e.g., \"1.5 times higher\"), and the incomplete final sentence about \"highly active\" groups expects a parallel result for the \"lowly active\" group.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numerical value or descriptive phrase completing the finding, likely a percentage or odds ratio for the \"highly active\" group.\n\"is\" demands a complement \u2014 likely a number or descriptive term such as \"1.5 times higher\" or similar hazard figure.\n\"2 is is\" suggests a formatting artifact; the next token continues the interrupted sentence describing the \"highly active\" group's outcome.\n\"2 is\" ends mid-sentence, likely.",
+    "Character introduction pattern: each character gets a structured biographical summary, establishing a template of backstory, relationships, and plot role.\n\nPlot summary momentum: the text is mid-sentence describing the timeline of the relationship, with \"44 years ago\" establishing a specific historical detail requiring completion.\n\nFinal token \"44,\" is mid-sentence within a factual biographical detail about the man's age or role, immediately requiring a number or continuation of the year \"44,\" \u2014 likely \"44, 44 was\" or a specific year completing the interrupted numerical reference.\n\"4, 48 was 44\" or similar numeric continuation of the truncated \"44,\" demands immediate completion of the interrupted number \"49\" or narrative detail about the man's fate.\n\"48 was 16,\" \u2014 mid-clause, \"16,\" signals a dramatic backstory number requiring.",
+    "Recipe instruction pattern: sequential steps describing cooking actions, with each step building on the previous, continuing the narrative of ingredient preparation.\n\nContinuation of the visual/physical description of the dish's preparation process, with specific sensory details expected (e.g., timing, texture, cooking method).\n\nFinal token \"6\" is mid-sentence, part of a time duration phrase (\"about 6\"), immediately requiring a number completing the measurement \u2014 likely \"60 minutes\" or similar, continuing the \"60 seconds\" parallel structure.\n\"60 seconds\" was just mentioned, so \"6\" likely begins \"60\" or introduces a new scene/action like \"60 minutes\" or \"6 60 seconds\" \u2014 the \"20 6\" sequence strongly anticipates completing \"60 30 seconds\" narrative momentum toward the spiritual revelation scene.\n\"6\" is mid-number, part of.",
+    "Q&A format established: a question was posed, an answer is now being provided, requiring detailed expert response with specific biblical/clinical examples.\n\nList continuation pattern: the answer has begun with practical examples (\"First, the doctor...\"), implying further numbered or sequential questions about family history, symptoms, and treatment will follow.\n\nFinal token \"60\" is mid-sentence, completing \"60\" as part of a specific numerical fact (\"60 years old\" or similar), immediately requiring continuation of the historical memory example with a time unit or descriptive phrase.\n\"30\" or \"60\" food items expected next, completing \"30 40\" or \"30 60\" classroom examples \u2014 \"40\" classroom questions are 120, so \"30 20\" family anecdotes are 60 minutes, so \"30 60\" events.",
+    "News article reporting factual details about a police misconduct case, establishing pattern of presenting evidence and background information sequentially.\n\nThe article is summarizing plot details of the video, having just described the investigation and its findings; the next expected content is continuation of the factual summary, likely detailing the specific charges or legal outcome.\n\nFinal token \"2,200 people\" ends a clause describing the video's reach; \"2,200 people\" is a numerical figure mid-sentence, immediately requiring continuation of the factual description of the study's findings or methodology.\n\"200 people\" is part of a larger statistic or explanatory clause, likely completing with \"350 people\" or a similar comparative figure describing the public's response.\n\"2.5 million 343 was 2,200 people\" \u2014 the sentence is incomplete, expecting a continuation describing the news broadcast's content.",
+    "Q&A format pattern: each question is followed by a detailed answer, establishing strong structural expectation for continued legal analysis.\n\nThe answer is mid-sentence, providing a specific biblical/legal example (12 questions) to illustrate the practical legal question about church policy.\n\nFinal token \"12\" is a number completing \"about 12,\" part of a factual enumeration of the Bible study questions; next tokens will likely continue with additional numerical or descriptive details about the 12 questions or the legal reference.\n\"12 about 12\" suggests a typo/autocorrect artifact, but the list of 12 examples is complete; \"12. about 18 seconds\" or similar numerical continuation is expected next.\n\"12. about 12 seconds\" or \"14 36 seconds\" scenario\" \u2014 the medical/clinical context demands a specific time reference completing the."
+  ],
+  "input_sha256": "f082d35d6cb5a7d9f96ab61da25533049710875a3b4450d4029b7715d9d7a71e",
+  "values": [
+    {
+      "quote": "1.5 times higher",
+      "value": "1.5"
+    },
+    {
+      "quote": "44 years ago",
+      "value": "44"
+    },
+    {
+      "quote": "48 was 16,",
+      "value": "48"
+    },
+    {
+      "quote": "48 was 16,",
+      "value": "16"
+    },
+    {
+      "quote": "about 6",
+      "value": "6"
+    },
+    {
+      "quote": "60 seconds",
+      "value": "60"
+    },
+    {
+      "quote": "60 years old",
+      "value": "60"
+    },
+    {
+      "quote": "30 40",
+      "value": "30"
+    },
+    {
+      "quote": "30 40",
+      "value": "40"
+    },
+    {
+      "quote": "40\" classroom questions are 120",
+      "value": "120"
+    },
+    {
+      "quote": "30 20",
+      "value": "20"
+    },
+    {
+      "quote": "2,200 people",
+      "value": "2200"
+    },
+    {
+      "quote": "350 people",
+      "value": "350"
+    },
+    {
+      "quote": "2.5 million",
+      "value": "2500000"
+    },
+    {
+      "quote": "343",
+      "value": "343"
+    },
+    {
+      "quote": "12 questions",
+      "value": "12"
+    },
+    {
+      "quote": "about 18 seconds",
+      "value": "18"
+    },
+    {
+      "quote": "14 36 seconds",
+      "value": "14"
+    },
+    {
+      "quote": "14 36 seconds",
+      "value": "36"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including decimals and large numbers like 'million', while excluding ordinals and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5 times higher\",\"value\":1.5},{\"quote\":\"44 years ago\",\"value\":44},{\"quote\":\"48 was 16,\",\"value\":48},{\"quote\":\"48 was 16,\",\"value\":16},{\"quote\":\"about 6\",\"value\":6},{\"quote\":\"60 seconds\",\"value\":60},{\"quote\":\"60 years old\",\"value\":60},{\"quote\":\"30 40\",\"value\":30},{\"quote\":\"30 40\",\"value\":40},{\"quote\":\"40\\\" classroom questions are 120\",\"value\":120},{\"quote\":\"30 20\",\"value\":20},{\"quote\":\"2,200 people\",\"value\":2200},{\"quote\":\"350 people\",\"value\":350},{\"quote\":\"2.5 million\",\"value\":2500000},{\"quote\":\"343\",\"value\":343},{\"quote\":\"12 questions\",\"value\":12},{\"quote\":\"about 18 seconds\",\"value\":18},{\"quote\":\"14 36 seconds\",\"value\":14},{\"quote\":\"14 36 seconds\",\"value\":36}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including decimals and large numbers like 'million', while excluding ordinals and years.\"}",
+  "prompt_sha256": "bd539480043b0d03276e3003faaf353bf047f51e55c6adf6daa5631dde85e7ac"
+}

@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5095",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: article consistently presents paired financial figures (total value + daily value), so a dollar amount completing the revenue comparison is expected.\n\nNarrative momentum of ranking/comparison: the text is mid-sentence describing the 2019 record high, with specific metrics (daily value, total value) consistently provided for each brand.\n\nFinal token \"is estimated to be is estimated to be\" is a grammatically awkward repetition mid-sentence, immediately requiring a specific dollar figure (likely in millions) to complete the revenue statistic for the 2019 record high.",
+    "Product description format: structured spec sheet transitioning into prose review, now detailing technical film attributes and brand history.\n\nContinuation of film review content: the sentence is mid-thought describing the film's qualities (\"bright, vivid, and colorful\"), with narrative momentum toward completing the product description with performance/visual details.\n\nFinal token \"is 120 is 50 is 100 is 25 is 15 is 10 is 5 is 2 is 1 is 12 is 10 is 15 is 25 is 10 is 25 is\" \u2014 garbled/OCR-corrupted text mid-sentence, but the model must continue the product specification list with weight, dimensions, or material details.",
+    "E-commerce product listing page pattern: structured catalog with repeated product names, categories, and navigation elements throughout.\n\nContinuation of a list/catalog format: the page has been presenting product categories and navigation links, now transitioning to a \"Related Parts\" section with filter options and pricing, suggesting more product listings or filter criteria follow.\n\nFinal token \"Available\" ends a sentence fragment \"Find the best price for your item in the Available\" \u2014 this is mid-sentence, likely completing a phrase like \"Available [category]\" or \"Available [items],\" requiring a noun or prepositional phrase to close the clause.",
+    "Structured e-commerce product listing pattern: price tables, product names, and shipping info establish a template for listing multiple items with consistent formatting.\n\nThe page is mid-way through a table of shipping costs and product data, with \"Price\" and \"Shipping Weight\" rows already shown, suggesting more product entries or pricing details follow.\n\nFinal token \"Available\" ends a price/availability statement (\"In stock. Available\"), part of a table cell, immediately expecting continuation of the price data or a new table row with additional product listings.",
+    "Structured e-commerce product listing pattern: page follows consistent format of price, shipping, and product details for a specific item.\n\nTable/structured data continuation: the page has been listing product attributes (price, shipping, availability) and is mid-way through a table of related items, suggesting more product listings or price entries follow.\n\nFinal token \"Available\" ends a price/availability statement (\"Price Available\"), part of a table row listing related items; next tokens likely continue with more product entries, a price value, or a new table row with another item name.",
+    "Structured e-commerce product listing pattern: price tables, product names, and category listings follow consistent templated format throughout.\n\nThe page is mid-way through a \"Price List\" section, having listed multiple product categories with names and prices; the pattern of \"Category Name + Price\" repeats, suggesting more entries or a table follows.\n\nFinal token \"Available\" ends a price availability statement (\"In stock. Available\"), part of a table row for \"Women's T-Shirts,\" immediately expecting a price value or the next table row/category entry."
+  ],
+  "input_sha256": "f4bf4d0eef93287cd144289f06814037e0887b9b20bad0a5b5368087415035c4",
+  "values": [
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals found within the provided descriptions, including years and the sequence of numbers in the garbled OCR text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"120\",\"value\":120},{\"quote\":\"50\",\"value\":50},{\"quote\":\"100\",\"value\":100},{\"quote\":\"25\",\"value\":25},{\"quote\":\"15\",\"value\":15},{\"quote\":\"10\",\"value\":10},{\"quote\":\"5\",\"value\":5},{\"quote\":\"2\",\"value\":2},{\"quote\":\"1\",\"value\":1},{\"quote\":\"12\",\"value\":12}],\"justification\":\"Extracted all explicit numeric literals found within the provided descriptions, including years and the sequence of numbers in the garbled OCR text.\"}",
+  "prompt_sha256": "de57a3f058ff8b8f5ee6839da206a6c7cb28300621f7a8c953f8f32b43fa32aa"
+}

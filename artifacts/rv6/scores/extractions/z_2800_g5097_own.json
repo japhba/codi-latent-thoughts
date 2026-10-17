@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5097",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article consistently presents paired numerical data (e.g., \"1.2% of all US households\"), so a specific dollar figure or percentage is expected next.\n\nStructured data continuation: the sentence is mid-statistic, following the established pattern of precise numerical values with units (e.g., \"1.2% of all US households\").\n\nFinal token \"and\" is a coordinating conjunction mid-sentence, requiring an immediate continuation of the financial figure or a second related statistic about US households or internet access.\n\"and\" signals another numeric value or clause follows.\n\"and is $X billion\" or similar monetary figure is strongly constrained next.\n\"and is $1.2 billion\" or similar numeric continuation completing the interrupted financial statistic.\n\"and is $1.2 billion\" table/list pattern suggests another numeric value or continuation of the sentence follows.\n\"and is $1 and\" \u2014 mid.",
+    "Review aggregation format: multiple short user reviews of the same film, each ending with \"Read more\" or transitioning to a new review.\n\nStructured review content: the final review begins with a rating, star rating, and reviewer name, following the established pattern of rating \u2192 star rating \u2192 reviewer name \u2192 review text.\n\nFinal token \"1 is\" is mid-sentence in a product rating statement (\"The product rating is 1\"), immediately requiring a numeric continuation or descriptive phrase like \"1 of 5\" or \"100%\" to complete the rating reference.\n\"1 is\" likely continues with a category label or score.\n\"1 is\" is part of a structured metadata field listing film attributes; the next tokens must complete this catalog-style entry.\n\"1510 is\" is technical film metadata; \"170 is\" is a list item, so \"1 is\" instruction suggests product rating.",
+    "Structured e-commerce navigation pattern: each category lists subcategories with consistent formatting, suggesting continuation of product listing items.\n\nThe page follows a repetitive template of category headers followed by descriptive subcategory lists, implying more navigation links or product subcategories will follow.\n\nFinal token \"best\" ends an incomplete phrase \"The best [noun]\" within a promotional sentence about women's fashion, immediately requiring a noun or adjective completing the superlative claim, likely \"women's fashion\" or similar category descriptor.\n\"Best\" is mid-phrase, part of a navigational/promotional sentence, demanding a noun phrase continuation.\n\"Best\" is a truncated navigation link or filter label, likely followed by a category name or part of a navigational menu item.\n\"most popular\" or price-related terms are expected next.\n\"Available\" or part of a part number/selection UI element.\n\"Best part\" is store policy text;.",
+    "Structured parts list pattern: each entry follows \"|Part Name||Description|\" table format, with alternating product listings and part descriptions.\n\nStructured e-commerce parts catalog momentum: the page systematically lists all available components, with the parts table mid-enumeration implying more entries follow.\n\nFinal token \"More\" closes a truncated table cell (\"More\") within a pipe-delimited parts listing, immediately expecting either another \"|Part Name|\" row or a closing of the parts table structure.\n\"More\" is a truncated \"More Parts\" link/button label, suggesting the next token continues the parts table or begins a new product row.\n\"More\" is a UI truncation marker, likely followed by a price, part number, or the next table row.\n\"More\" closes a table cell, so the next token is likely \"|\" or a newline starting a new part entry.\n\"Price\" table row was just completed, so the immediate.",
+    "Structured table/list pattern: pipe-delimited rows with product name, description, and part number columns repeating consistently throughout.\n\nThe table has established a pattern of alternating product entries with descriptions and part numbers; the next entry should continue this format with another product row.\n\nFinal token \"100000\" is a truncated pipe-delimited cell value mid-row, immediately requiring a closing pipe \"|\" to complete the cell, then likely another product row or end of table.\n\"100000\" is a price value, and the table structure demands \"|\" to close it, then continuation of the established pipe-delimited format.\n\"100000|\" closes the price cell, so the next token is almost certainly \"|\" followed by a newline and a new table row.\n\"1\" is the start of a date or additional field, but the table pattern suggests more pipe-delimited fields or a.",
+    "Structured table/list pattern: pipe-delimited rows with label-value pairs like \"|Item Description||...\" establish a repeating format requiring continuation.\n\nStructured product listing momentum: the table has been presenting shipping options with consistent fields (Item Description, Price, Min. Order), implying more rows or a closing section follows.\n\nFinal token \"||\" closes a table cell delimiter mid-row, immediately requiring the next cell value \u2014 likely a price figure or \"Min. Order\" amount continuing the pipe-delimited pattern.\n\"||\" is the final token, part of an incomplete table cell, requiring the next token to be a numeric value or label continuing the shipping table row.\n\"||\" is the closing delimiter of the current cell, demanding the next token begins a new cell or row element.\n\"||\" closes the current cell, so the next token is almost certainly a date, price, or table row continuation.\n\"||\"."
+  ],
+  "input_sha256": "bce88652e1b165b9362d94562fa33ead8b08510d42a77cadf9e381df554bf836",
+  "values": [
+    {
+      "quote": "1.2%",
+      "value": "1.2"
+    },
+    {
+      "quote": "$1.2 billion",
+      "value": "1200000000"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "1510",
+      "value": "1510"
+    },
+    {
+      "quote": "170",
+      "value": "170"
+    },
+    {
+      "quote": "100000",
+      "value": "100000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including values from within quotes and structured data examples.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.2%\",\"value\":1.2},{\"quote\":\"$1.2 billion\",\"value\":1200000000},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"1510\",\"value\":1510},{\"quote\":\"170\",\"value\":170},{\"quote\":\"100000\",\"value\":100000}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including values from within quotes and structured data examples.\"}",
+  "prompt_sha256": "69528083ce48ff2295a0d8f5c3fe57941004c32cb263316135d6d0ca806907fa"
+}

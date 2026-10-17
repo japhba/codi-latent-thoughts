@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5324",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total combined value = 3\u00d740 + 2\u00d750 + 4\u00d730.\n\nThe structured problem format demands a numerical answer, likely a specific dollar amount summing all items.\n\nFinal token \"total is $\" opens a dollar amount expression; the immediate next tokens must be a specific integer dollar figure (40+30+20\u00d74=360), completing the arithmetic sum of all listed items.\n3\u00d740+2\u00d750+40=360 total weight, so the total combined cost must follow.\n40+3\u00d740+20 items = total $360 spent, so the next tokens must state this total sum.\n3*40+40*3+20*3 = total $360.\nTotal weight: 40+36.",
+    "Math word problem solution in progress: arithmetic calculation expected, listing individual prices (2\u00d7$30, 5\u00d7$60).\n\nThe structured problem format requires a step-by-step arithmetic answer: 2 cars \u00d7 $30 = $60, then summing all 6 prices.\n\nFinal token \"has\" begins the arithmetic result statement, immediately requiring the specific dollar amount \"60\" as the first total earnings calculation (2\u00d7$30).\n30 has\" introduces the first summand, so next tokens must state the numeric result and continue listing remaining totals.\n2 cars \u00d7 $30 = $60, so the immediate next tokens are \"$60\" or \"30*2 = $60, then 5\u00d7$60 + 4\u00d7$90 = total $810.\"\n$30 has\" begins the arithmetic solution, requiring.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requires listing earnings for each item (2\u00d7$30, then 4\u00d7$60).\n\nThe word problem explicitly asks for total earnings, so the solution must sum all prices: 2\u00d7$30 + 4\u00d7$60 + 10\u00d7$90.\n\nFinal token \"$6\" begins the numerical answer for the first item (2 cars \u00d7 $30 = $60), immediately requiring \"0\" to complete \"$60,\" then continuing with remaining earnings calculations.\n$60 is the start of the arithmetic result, constrained to be followed by the remaining sum total.\n$30 \u00d7 2 = $60, establishing the first earnings figure before listing 2\u00d7$90 and 4\u00d7$180.\n$30 \u00d7 2 = $60, starting the solution.",
+    "Math word problem solution format: structured step-by-step arithmetic, expecting total earnings calculation.\n\nWord problem setup requires arithmetic completion: 3 pants \u00d7 $20 = $60, then 3 shirts \u00d7 $45 = $135, then pants + shirts + accessories totals.\n\nFinal token \"$60\" is the first item in the earnings breakdown list, immediately requiring continuation with remaining income items (e.g., \"and $135 from pants and $210 from shirts\") or a direct arithmetic sum.\n$60 is the first revenue figure, part of an enumerated total summing to $270.\nShe earned $3 hours \u00d7 $20 = $60 for the first day's pants, so next tokens will list remaining earnings: $2\u00d7$45 + $3\u00d7$80 + $two-hour $80.\n$60 is.",
+    "Math word problem requiring arithmetic completion: 4\u00d7$25=100, then summing totals.\n\nThe structured arithmetic pattern demands sequential multiplication: 4\u00d7$25, then 4\u00d7$25, then 3\u00d7$25.\n\nFinal token \"p\" begins the next arithmetic expression in the sequence, immediately requiring the numeric result of the second item's sum (4\u00d7$25=100), likely followed by \"100\" and then the third total.\n25\u00d74=100, so the next tokens must complete this multiplication and sum.\n25\u00d7$25=100, so the immediate next tokens are \"100\" continuing the itemized earnings breakdown.\n25\u00d74=100, then 25+25+400=100, establishing the pattern of.",
+    "Math word problem pattern: structured arithmetic problems with arithmetic operations, following a consistent format of problem then solution.\n\nSecond problem's arithmetic sequence: 3\u00d7$40 = $120, then 4\u00d7$30 = $120, establishing a pattern of listing three multiplication facts (4\u00d7$30, 3\u00d7$40, and the final sum).\n\nFinal token \"$10\" is the beginning of the third arithmetic result ($4\u00d7$25=100), immediately requiring the completion \"0\" to form \"$100\", continuing the summing pattern established by the prior two lines.\nFinal token \"$10\" is mid-number, part of the dollar amount \"$100\", so next tokens must complete it and likely state the total sum.\n$40*3 = $120 + $30*3 = $9."
+  ],
+  "input_sha256": "a47520fe14aa224bfb32a39a52bf2549de432d6ae8eb0e7fe13b206b881d94b5",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "810",
+      "value": "810"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "210",
+      "value": "210"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and results of explicit arithmetic expressions (like 3*40=120) found within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"40\",\"value\":40},{\"quote\":\"2\",\"value\":2},{\"quote\":\"50\",\"value\":50},{\"quote\":\"4\",\"value\":4},{\"quote\":\"30\",\"value\":30},{\"quote\":\"20\",\"value\":20},{\"quote\":\"360\",\"value\":360},{\"quote\":\"36\",\"value\":36},{\"quote\":\"5\",\"value\":5},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"90\",\"value\":90},{\"quote\":\"810\",\"value\":810},{\"quote\":\"10\",\"value\":10},{\"quote\":\"180\",\"value\":180},{\"quote\":\"45\",\"value\":45},{\"quote\":\"135\",\"value\":135},{\"quote\":\"210\",\"value\":210},{\"quote\":\"270\",\"value\":270},{\"quote\":\"80\",\"value\":80},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"400\",\"value\":400},{\"quote\":\"120\",\"value\":120},{\"quote\":\"9\",\"value\":9}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and results of explicit arithmetic expressions (like 3*40=120) found within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "643af261186ff6381aca5dc3778e757fc1a8436bd73786f501a6d94d6f836043"
+}

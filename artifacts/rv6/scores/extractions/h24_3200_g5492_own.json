@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5492",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question prompt, likely a dollar amount.\n\nThe word problem setup establishes arithmetic: 30 days \u00d7 5 balls = 150, so the answer must be 150.\n\nThe final token \"is\" completes the word problem question \"30 days \u00d7 5 \u00d7 $2 = $150,\" immediately requiring a numerical answer, almost certainly \"150\" representing the total cost of the balls.\n30 \u00d7 5 = 150 \u00d7 $2 = $300 spent per day.\n30 \u00d7 5 \u00d7 2 = 300.\nThe next token must be a number, specifically \"$150.\"\n30 \u00d7 5 = 150 \u00d7 $2 = cost of 30 days \u00d7 5 balls.\n5 \u00d7 2 = 100 dollars.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requiring arithmetic expression and numerical result.\n\nThe word problem structure demands a multiplication expression showing 5 \u00d7 $2 = $10, followed by total cost calculation.\n\nFinal token \"has\" opens a clause completing the arithmetic operation, immediately requiring the multiplication expression \"5 \u00d7 $2 = $10\" or similar numerical result showing daily cost.\nThere are 5 tickets \u00d7 $2 per day = 10 dollars spent per day, so the next tokens must state this total before explaining the calculation.\nEach ticket costs 5 tickets \u00d7 $2 = 10, so the next step shows the multiplication result.\n5 \u00d7 2 = 10 eggs used per week, leading to total cost calculation.\nYou must explain the multiplication before stating the weekly cost.\n5 \u00d7 $2 = eggs used per day, then 5 \u00d7 $30 =.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with arithmetic expression shown.\n\n Word problem solution in progress: \"10 eggs \u00d7 $0.2 = $2\" establishes the per-day cost, leading toward total cost calculation.\n\nThe final token \"$10\" is the arithmetic result of 5 bread \u00d7 $2, mid-sentence in a solution walkthrough, immediately requiring continuation like \"per day\" or \"total cost for 5 eggs used daily.\"\nFinal token \"10\" is the arithmetic expression showing 5 \u00d7 $2, requiring completion of the multiplication result and explanation of the daily cost.\nYou spend 10 on each day, so the next tokens will complete this calculation before proceeding to total cost for 15 days.\nEach bread costs 2 eggs \u00d7 $1 = $10 spent per day.\n5 eggs \u00d7 $2 = $10 total cost, then likely.",
+    "Word problem solution format: step-by-step arithmetic walkthrough requiring arithmetic operations and answers.\n\n Word problem structure: the solution requires showing the arithmetic expression \"15 tickets \u00d7 $2 = $30\" and then computing total cost over 30 days.\n\nThe final token \"$10p\" ends the cost-per-day calculation (\"15 tickets \u00d7 $0.20 = $3\"), immediately expecting the arithmetic result or continuation like \"per day\" or \"total cost.\"\nFinal token \"10p\" is \"$10p\" completing the arithmetic expression \"$3 per day,\" expecting \"per day\" or \"total\" to follow.\nShe uses 15 sheets of paper daily, so the next step shows the total cost calculation.\nShe uses 10 sheets \u00d7 $3 = $30 daily.\nThen, total cost for 30 days.\nEach day: 15 \u00d7 $.",
+    "Math word problem format: word problem followed by solution steps, requiring arithmetic calculation of 15 \u00d7 $6 = $90.\n\nThe solution must show the arithmetic work: 15 \u00d7 6 = 90, then total cost over 12 months.\n\nFinal token \"s. p.s.\" ends the per-day cost expression \"$15 \u00d7 6 = 90,\" immediately expecting the arithmetic result or the next solution step showing the calculated total cost.\nFinal token \"s. \" is the unit abbreviation for \"dollars,\" completing the per-day cost expression \"$15 \u00d7 6 = 90,\" so the next tokens must state the numerical answer \"$900 spent over 12 months.\"\n10. 11. 12.\" pattern suggests a structured solution showing multiplication steps.\nThe next tokens must complete the arithmetic expression \"$15 \u00d7 4.",
+    "Math word problem format: structured solution walkthrough requiring arithmetic calculation steps, following word problem conventions.\n\nThe word problem has established a pattern of arithmetic operations: 15 \u00d7 $6 = $90, so the solution will show the total cost calculation.\n\nFinal token \"problem.\" closes the word problem prompt (\"15 \u00d7 $6 per day = $90 per day\"), immediately expecting the solution steps: \"Total cost = 15 \u00d7 6 = $900 over 15 days.\"\nFinal token \"problem.\" ends the problem statement prompt, requiring the solution walkthrough to follow next.\n$16 \u00d7 1.5 = $24.00 per item\" is the arithmetic expression, leading to the final answer \"$900 monthly cost.\"\n11 + 16 = 27 per day, then 12 months \u00d7 $1 = monthly expenditure calculation."
+  ],
+  "input_sha256": "cfdaf0d19509de9c953e09cd7087e20eb555eb32da0108f8c0d92b0e7b81bf32",
+  "values": [
+    {
+      "quote": "30 days",
+      "value": "30"
+    },
+    {
+      "quote": "5 balls",
+      "value": "5"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "$2",
+      "value": "2"
+    },
+    {
+      "quote": "$300",
+      "value": "300"
+    },
+    {
+      "quote": "100 dollars",
+      "value": "100"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "10 eggs",
+      "value": "10"
+    },
+    {
+      "quote": "$0.2",
+      "value": "0.2"
+    },
+    {
+      "quote": "15 days",
+      "value": "15"
+    },
+    {
+      "quote": "2 eggs",
+      "value": "2"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "15 tickets",
+      "value": "15"
+    },
+    {
+      "quote": "$30",
+      "value": "30"
+    },
+    {
+      "quote": "$0.20",
+      "value": "0.2"
+    },
+    {
+      "quote": "$3",
+      "value": "3"
+    },
+    {
+      "quote": "10 sheets",
+      "value": "10"
+    },
+    {
+      "quote": "$6",
+      "value": "6"
+    },
+    {
+      "quote": "$90",
+      "value": "90"
+    },
+    {
+      "quote": "12 months",
+      "value": "12"
+    },
+    {
+      "quote": "$900",
+      "value": "900"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "$16",
+      "value": "16"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "$24.00",
+      "value": "24"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30 days\",\"value\":30},{\"quote\":\"5 balls\",\"value\":5},{\"quote\":\"150\",\"value\":150},{\"quote\":\"$2\",\"value\":2},{\"quote\":\"$300\",\"value\":300},{\"quote\":\"100 dollars\",\"value\":100},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"10 eggs\",\"value\":10},{\"quote\":\"$0.2\",\"value\":0.2},{\"quote\":\"15 days\",\"value\":15},{\"quote\":\"2 eggs\",\"value\":2},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"15 tickets\",\"value\":15},{\"quote\":\"$30\",\"value\":30},{\"quote\":\"$0.20\",\"value\":0.2},{\"quote\":\"$3\",\"value\":3},{\"quote\":\"10 sheets\",\"value\":10},{\"quote\":\"$6\",\"value\":6},{\"quote\":\"$90\",\"value\":90},{\"quote\":\"12 months\",\"value\":12},{\"quote\":\"$900\",\"value\":900},{\"quote\":\"11\",\"value\":11},{\"quote\":\"4\",\"value\":4},{\"quote\":\"$16\",\"value\":16},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"$24.00\",\"value\":24},{\"quote\":\"27\",\"value\":27}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "97ca653ab8a1dd8e94d4b5b1796fc7dd21c2f86bb7669948f6d370002991c463"
+}

@@ -1,0 +1,97 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5094",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard comparisons.\n\nDomain-specific data presentation: the article systematically presents hazard statistics with hazard types, locations, and hazard counts, expecting continued quantitative results.\n\nFinal token \"is\" opens a predicate completing the hazard count sentence for the 2019\u20132020 period, requiring a specific numeric hazard ratio (likely \"1 in X\" format) to follow immediately.",
+    "Character relationship narrative momentum: the text is tracing family dynamics and romantic history, building toward describing the couple's emotional state and backstory.\n\nPlot summary pattern: the author is recounting their own character's romantic history, moving from past relationships to current situation, with \"600\" and \"660\" as the key milestones.\n\nFinal token \"600 was 660 was 600\" is mid-sentence, part of a parallel construction (\"600 was 660 was 600\"), requiring completion of the clause describing what the 600 relationship was \u2014 likely a duration or emotional state like \"660 was 600 days\" or similar.",
+    "Narrative momentum of personal reflection: author is mid-sentence describing emotional response to romantic content, building toward deeper thematic analysis of love and vulnerability.\n\nStructural pattern of book review: the text follows a consistent format of plot summary, character descriptions, and now personal commentary \u2014 the romantic/emotional section is expected to continue with more examples or elaboration.\n\nFinal token \"30\" is mid-sentence (\"30\" likely completing \"30\" as part of \"15...30\"), part of \"15...30\" emotional escalation, and \"3\" begins a new clause \u2014 \"30\" signals a list of romantic feelings, so \"3\" likely continues with \"0\" or introduces a specific emotional/physical reaction to the romantic scene.",
+    "Narrative momentum: personal essay structure with expert quotes and examples, now transitioning to a specific real-life story about marriage and trauma, requiring continuation of the reflective, first-person account.\n\nList/series pattern: the author is mid-example, having introduced \"marriage to a man who is a trauma survivor,\" implying more examples or elaboration on this relationship and its lessons will follow.\n\nFinal token \"60\" is part of \"60\" completing \"60\" as part of \"60\" \u2014 \"30 years\" or \"60\" \u2014 but \"40\" was just stated, so \"60\" likely continues a list of years of dating, or \"30\" begins a new sentence elaborating on the memory or advice.",
+    "Narrative momentum: article building toward statistical/legal evidence of harm, establishing severity of the fraud case with expert quotes and statistics.\n\nArgumentative pattern: the article is concluding with a moral/legal warning, shifting from anecdote to broader implications \u2014 the statistic about police liability sets up a cautionary conclusion about public safety or legal responsibility.\n\nFinal token \"100,040\" is mid-sentence (\"180,040 per day, or 480,000 per day, per victim, was 170,000\"), completing a statistic that quantifies the fraud's scale \u2014 the next tokens will likely continue with \"per victim\" or similar phrasing to close the statistic.",
+    "Legal case analysis format: structured analysis of a court case with facts, holding, and reasoning, following a consistent pattern of citation and interpretation.\n\nThe analysis is building toward applying the rule to the specific facts \u2014 the holding about \"unlawful religious activity\" and \"unlawful conclusion\" signals the court's reasoning will now be elaborated, likely referencing the 10-minute threshold and the 12-minute prayer.\n\nFinal token \"1080 was 15060 minutes\" ends mid-sentence (\"120 was 6780 minutes, the court found 143 minutes...180 was 30 minutes\"), completing the factual setup; the next tokens must continue the legal reasoning about the 10-minute threshold and its implications for the conviction."
+  ],
+  "input_sha256": "d9ea40889ecbc6dc7567757634825e8afc426410c387ce5165bec7665ed0f2c5",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "660",
+      "value": "660"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "100,040",
+      "value": "100040"
+    },
+    {
+      "quote": "180,040",
+      "value": "180040"
+    },
+    {
+      "quote": "480,000",
+      "value": "480000"
+    },
+    {
+      "quote": "170,000",
+      "value": "170000"
+    },
+    {
+      "quote": "1080",
+      "value": "1080"
+    },
+    {
+      "quote": "15060",
+      "value": "15060"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "6780",
+      "value": "6780"
+    },
+    {
+      "quote": "143",
+      "value": "143"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":10000},{\"quote\":\"1 in 100,000\",\"value\":100000},{\"quote\":\"600\",\"value\":600},{\"quote\":\"660\",\"value\":660},{\"quote\":\"30\",\"value\":30},{\"quote\":\"15\",\"value\":15},{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"40\",\"value\":40},{\"quote\":\"100,040\",\"value\":100040},{\"quote\":\"180,040\",\"value\":180040},{\"quote\":\"480,000\",\"value\":480000},{\"quote\":\"170,000\",\"value\":170000},{\"quote\":\"1080\",\"value\":1080},{\"quote\":\"15060\",\"value\":15060},{\"quote\":\"120\",\"value\":120},{\"quote\":\"6780\",\"value\":6780},{\"quote\":\"143\",\"value\":143},{\"quote\":\"180\",\"value\":180}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, ensuring each unique quote/value pair is represented as a JSON number.\"}",
+  "prompt_sha256": "dbde88eb2b4b2ac213a1f897ebe3aca92b366716e0f44ea3b161c8284c991469"
+}

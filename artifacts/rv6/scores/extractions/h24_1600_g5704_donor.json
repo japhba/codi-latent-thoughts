@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5704",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 10 people \u00d7 $10 each = $100, minus 10% fee = $90, so the answer must be $90.\n\nThe calculation structure demands a specific numerical result showing total revenue minus the 10% fee.\n\nFinal token \"Total is\" introduces the computed answer, immediately requiring a dollar amount (likely \"$90\") representing the remaining money collected after 10\u00d715 minus the 10% fee.\n10\u00d715 \u2212 10 = 90, completing the arithmetic expression.\n10 \u00d7 (15 \u2212 10% off) = 90 bags \u00d7 $10 = $90, confirming the correct total revenue figure.\n15 people \u00d7 (10 \u2212 10% off) bags \u00d7 $10 = $90.",
+    "Math word problem requiring arithmetic completion: 10 students \u00d7 $15 = $150 total, so the next token must be the calculated sum.\n\nThe problem follows a classic arithmetic word problem structure: total amount = 10 \u00d7 $15, then applying division/subtraction to find remaining money after 10% charity.\n\nFinal token \"have\" is mid-sentence in a setup clause (\"They have\"), immediately requiring the numerical result \"$150\" as the total collected amount before stating remaining money after charity deduction.\n10 \u00d7 15 = 150, so the next token is almost certainly \"150\" followed by explanation of remaining money after 10% is taken.\n10 students \u00d7 $10 = $100 collected, so the next tokens must state the total before stating how much remains after 1/10th.",
+    "Math word problem solution in progress: arithmetic calculation requires completing 10 people \u00d7 $15 = $150 total, then applying 15% tip.\n\nThe solution structure demands showing the arithmetic step-by-step, likely showing 10 \u00d7 $15 = $150, then computing 15% of that amount.\n\nFinal token \"15\" is the start of the total amount collected (10 \u00d7 15), immediately requiring \"0\" to complete \"$150,\" followed by explanation of how to calculate the remaining amount after giving 1/10.\nFinal token \"15\" is mid-number, part of the arithmetic result, requiring \"0\" then the solution continues describing the 10% tip calculation.\n150 is the total money collected, so next tokens will state the remaining amount or percentage to give.\n10 people \u00d7 $.",
+    "Math word problem walkthrough requiring step-by-step arithmetic solution, following \"total amount \u2192 individual amount \u2192 remaining amount\" structure.\n\nThe solution is mid-calculation, having stated total money raised (150), so the next step must state how 10% goes to charity, then state remaining amount after subtracting.\n\nFinal token \"150\" is the computed total (10 people \u00d7 $15), immediately requiring continuation of the solution: likely \"in total\" or a sentence explaining the 10% donation breakdown.\nFinal token \"150\" is the total collected amount, mid-sentence, expecting continuation like \"in total. 10% of this goes to tips, so we give away...\" or similar next step.\nThe next tokens must complete the arithmetic reasoning about 150 being the total before describing the 1/10th tip withdrawal.",
+    "Math word problem solution format: step-by-step arithmetic calculation requiring completion of the equation.\n\nThe solution is mid-calculation, having established total ($150) and now computing 10% of total as the fee amount.\n\nFinal token \"p\" begins the word \"pounds\" (or \"$150\"), completing the sentence \"10% of the total is $150, so $150 is taken as fee\" \u2014 the next tokens must state the fee amount, i.e., \"10 x 15 = $15\" or \"15 dollars remaining.\"\nFinal token \"$p\" is mid-number, immediately requiring \"10\" to complete the 10% fee calculation.\n15*10% = $150, representing the remaining amount after subtracting the fee from $150.\n10% of $.",
+    "Math word problem walkthrough pattern: each problem states total, then asks to calculate remaining amount after fee.\n\nThe sequence follows a consistent problem-solution format: state total, state fee percentage, then compute remaining amount.\n\nFinal token \"$15\" is the computed fee amount ($15% of $100), completing the arithmetic result; next tokens must state the remaining amount, likely \"The remaining amount is $95\" or similar concluding statement.\nFinal token \"15\" ends the fee calculation line, immediately expecting the solution conclusion like \"The remaining amount is $950.\"\nFinal token \"$15\" closes the fee statement, representing the 15% fee of $100, so the next line states the remaining money after the fee.\nFinal token \"$15\" is the small fee amount concluding the fee calculation, immediately constraining next tokens to state the remaining total."
+  ],
+  "input_sha256": "cb5a6576d844d880117dc0f109c46bd7ea40a4e080248178818252e79a065bdf",
+  "values": [
+    {
+      "quote": "10 people",
+      "value": "10"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "10% fee",
+      "value": "10"
+    },
+    {
+      "quote": "$90",
+      "value": "90"
+    },
+    {
+      "quote": "10\u00d715",
+      "value": "150"
+    },
+    {
+      "quote": "10\u00d715 \u2212 10 = 90",
+      "value": "15"
+    },
+    {
+      "quote": "10\u00d715 \u2212 10 = 90",
+      "value": "80"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "1/10th",
+      "value": "0.1"
+    },
+    {
+      "quote": "15% tip",
+      "value": "15"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "1/10",
+      "value": "0.1"
+    },
+    {
+      "quote": "$95",
+      "value": "95"
+    },
+    {
+      "quote": "$950",
+      "value": "950"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages as numerals, fractions as decimals, and results of arithmetic expressions like 10x15 and 10x15-10 from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10 people\",\"value\":10},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"10% fee\",\"value\":10},{\"quote\":\"$90\",\"value\":90},{\"quote\":\"10\\u00D715\",\"value\":150},{\"quote\":\"10\\u00D715 \\u2212 10 = 90\",\"value\":15},{\"quote\":\"10\\u00D715 \\u2212 10 = 90\",\"value\":80},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"1/10th\",\"value\":0.1},{\"quote\":\"15% tip\",\"value\":15},{\"quote\":\"0\",\"value\":0},{\"quote\":\"1/10\",\"value\":0.1},{\"quote\":\"$95\",\"value\":95},{\"quote\":\"$950\",\"value\":950}],\"justification\":\"Extracted explicit numeric literals, percentages as numerals, fractions as decimals, and results of arithmetic expressions like 10x15 and 10x15-10 from the provided descriptions.\"}",
+  "prompt_sha256": "f67300e73229e1fe205487f713c86ea470800dc027fabff9909d501428f302cf"
+}

@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5548",
+  "kind": "donor",
+  "descriptions": [
+    "Step-by-step math problem format: each step follows \"Step N: [action]\" pattern, requiring a numerical answer after \"The distance is.\"\n\nThe problem involves converting 15 minutes to distance using 60 miles per hour, so the answer must be 15 \u00d7 60 = 900 miles.\n\nFinal token \"is\" opens a declarative statement completing Step 3's answer, immediately requiring a specific numeric value (likely \"900 miles\") to finish the solution.\n</explanation>",
+    "Step-by-step math tutorial format requires continuing the worked example with a specific numerical answer (minutes = 10 \u00d7 60 = 600).\n\nThe conversion formula (minutes = hours \u00d7 60) is being applied, so the next tokens must state the computed result: \"600 minutes.\"\n\nFinal token \"is\" opens a predicate completing the sentence \"The number of minutes is,\" requiring an immediate numerical value or expression like \"600\" or \"10 \u00d7 60.\"\n</explanation>",
+    "Step-by-step math tutorial structure: each step builds on the previous, with Step 1 establishing time conversion to 1 minute.\n\nThe formula \"60 seconds = 1 minute\" is being applied to convert 60 seconds to minutes, so the next tokens must complete this calculation: \"1 minute\" or \"1 minute (since 60 seconds = 1 minute).\"\n\nFinal token \"1\" is the start of the result of the conversion expression, immediately requiring a unit label like \"minute\" or \"minutes\" to complete the statement.\n</explanation>",
+    "Step-by-step math problem format: each step follows \"Step N: [action]\" pattern, with explanation and calculation shown.\n\nThe solution is mid-calculation, having established distance (10 miles) and time (1 hour), now requiring the multiplication: 10 miles \u00d7 60 minutes = 600 miles.\n\nFinal token \"hour\" completes the time conversion statement; the next tokens must continue the solution, likely with the multiplication expression or result, e.g., \"so the distance is 10 \u00d7 60 = 600 miles.\"\n</explanation>",
+    "Step-by-step math problem format: each step builds on the previous, with conversion of 0.5 hours to minutes expected next.\n\nThe pattern \"X hours = Y minutes\" is being established, requiring the numerical result of 0.5 \u00d7 60 = 30 minutes.\n\nFinal token \"0.5 hours = 60 minutes\" is mid-sentence, immediately requiring the word \"minutes\" to complete the equation, then likely a period or continuation explaining the calculation.\n</explanation>",
+    "Mathematical problem-solving structure: a worked example is being presented, requiring a numerical answer to the distance calculation.\n\nThe formula \"distance = speed \u00d7 time\" has been established, and the specific values (10 km/h, 1 hour) must be substituted into it to yield the solution.\n\nFinal token \"hour\" closes the time specification sentence, immediately requiring the multiplication result: \"10 \u00d7 1 = 10 kilometers\" to complete the worked example.\n</explanation>"
+  ],
+  "input_sha256": "1bb25679686ae23ec269a11e00a1976f2612f40ec8e445e8535bcbb60d4fe895",
+  "values": [
+    {
+      "quote": "15 minutes",
+      "value": "15"
+    },
+    {
+      "quote": "60 miles per hour",
+      "value": "60"
+    },
+    {
+      "quote": "15 \u00d7 60 = 900",
+      "value": "900"
+    },
+    {
+      "quote": "Step 3",
+      "value": "3"
+    },
+    {
+      "quote": "minutes = 10 \u00d7 60 = 600",
+      "value": "10"
+    },
+    {
+      "quote": "minutes = 10 \u00d7 60 = 600",
+      "value": "600"
+    },
+    {
+      "quote": "60 seconds = 1 minute",
+      "value": "1"
+    },
+    {
+      "quote": "10 miles",
+      "value": "10"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "10 miles \u00d7 60 minutes = 600 miles",
+      "value": "60"
+    },
+    {
+      "quote": "0.5 hours",
+      "value": "0.5"
+    },
+    {
+      "quote": "0.5 \u00d7 60 = 30",
+      "value": "30"
+    },
+    {
+      "quote": "10 km/h",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, arithmetic results, and spelled-out numbers from the provided descriptions while excluding years, ordinals, and unit labels.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15 minutes\",\"value\":15},{\"quote\":\"60 miles per hour\",\"value\":60},{\"quote\":\"15 \\u00D7 60 = 900\",\"value\":900},{\"quote\":\"Step 3\",\"value\":3},{\"quote\":\"minutes = 10 \\u00D7 60 = 600\",\"value\":10},{\"quote\":\"minutes = 10 \\u00D7 60 = 600\",\"value\":600},{\"quote\":\"60 seconds = 1 minute\",\"value\":1},{\"quote\":\"10 miles\",\"value\":10},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"10 miles \\u00D7 60 minutes = 600 miles\",\"value\":60},{\"quote\":\"0.5 hours\",\"value\":0.5},{\"quote\":\"0.5 \\u00D7 60 = 30\",\"value\":30},{\"quote\":\"10 km/h\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals, arithmetic results, and spelled-out numbers from the provided descriptions while excluding years, ordinals, and unit labels.\"}",
+  "prompt_sha256": "c29a6561e9d092deee277238f4622f0cc79fc7f2a1c8ec31754924b3009fc7b1"
+}

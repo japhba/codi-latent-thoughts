@@ -1,0 +1,1458 @@
+[
+  {
+    "ds_index": 5200,
+    "question": "Amy has 7 pens, and each pen costs her $2. What is the total cost of the pens?",
+    "cot": "The total cost of the pens is 7*$2=14 dollars.",
+    "gold": "14",
+    "chain": [
+      "7",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5201,
+    "question": "Sara opens a lemonade stand and shares the profits with 2 other friends. They sell lemonades at $2 each and manage to sell 150. They also make $50 selling cookies. Sara also buys all the cups which cost $25. How much does Sara earn after splitting the profits and subtracting her costs?",
+    "cot": "They split the profit 2+1=3 ways 150 lemonades at $2 each makes 150*2=$300 In addition to $50 for cookies the total income was 300+50=$350 That means each of them gets 350/3=$116.67 Then subtracting the cost of cups, Sara earns 116.67-25=$91.67",
+    "gold": "91.67",
+    "chain": [
+      "2",
+      "1",
+      "3",
+      "150",
+      "300",
+      "50",
+      "350",
+      "116.67",
+      "-25"
+    ]
+  },
+  {
+    "ds_index": 5202,
+    "question": "Danny wants to travel abroad. He needs $2000 for the trip. Every day he saves $8 from his pocket money and his parents give him an additional $2. How many days does he need to save money to afford the trip?",
+    "cot": "First figure out how much money Danny saves a day: $8 + $2 = $10 Then divide the total amount of money Danny needs by the amount he saves per day to find out how many days he needs to save: $2000 / $10 = 200 days",
+    "gold": "200",
+    "chain": [
+      "8",
+      "2",
+      "10",
+      "2000"
+    ]
+  },
+  {
+    "ds_index": 5203,
+    "question": "A baker baked 16 trays of muffins, with each tray holding 13 muffins. After selling each muffin for $2, the baker spent 15% of the earnings on new baking equipment.  How much did he spend on the equipment?",
+    "cot": "The baker baked a total of 16 * 13 = 208 muffins. So, the baker earned 208 * $2 = $416 selling the muffins. Therefore, the baker spent 416 * 0.15 = $62.4 on new baking equipment.",
+    "gold": "62.4",
+    "chain": [
+      "16",
+      "13",
+      "208",
+      "2",
+      "416",
+      "0.15"
+    ]
+  },
+  {
+    "ds_index": 5204,
+    "question": "A train travels 95 km/h. Claire needs to travel 285 km. How long will Claire travel by train?",
+    "cot": "The travel will take 3 hours because 285 / 95 = 3",
+    "gold": "3",
+    "chain": [
+      "285",
+      "95"
+    ]
+  },
+  {
+    "ds_index": 5205,
+    "question": "For every two dozen cookies bought, a customer gets 3 free cookies. If Liam wants to buy 4 dozens of cookies, how many pieces of cookies will he have in all?",
+    "cot": "Liam has 4/2*3 = 6 free cookies for buying 4 dozens of cookies. Since each dozen is equal to 12, then Liam bought 4 x 12 = 48 cookies. Hence, he has a total of 48 + 6 = 54 cookies.",
+    "gold": "54",
+    "chain": [
+      "4",
+      "2",
+      "3",
+      "6",
+      "12",
+      "48"
+    ]
+  },
+  {
+    "ds_index": 5206,
+    "question": "A vegetable vendor sold 4 dozen tomatoes and 8 dozens carrots. How many vegetables did the vendor sell in total?",
+    "cot": "Considering 1 dozen is equal to 12, the vendor sold 4 x 12 = 48 tomatoes. And he sold 8 x 12 = 96 carrots. So, the vegetable vendor sold a total of 48 + 96 = 144 vegetables.",
+    "gold": "144",
+    "chain": [
+      "1",
+      "12",
+      "4",
+      "48",
+      "8",
+      "96"
+    ]
+  },
+  {
+    "ds_index": 5207,
+    "question": "Rebecca bought 7 books for her collection. She already had 20 books. Later, she gave 4 books to her brother. How many books does she have now?",
+    "cot": "After buying the books, Rebecca had 20 + 7 = 27 books. She then gave 4 books to her brother, so she now has 27 - 4 = 23 books.",
+    "gold": "23",
+    "chain": [
+      "20",
+      "7",
+      "27",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5208,
+    "question": "You go to the store and buy 8 pairs of socks for $4 each, and 3 shirts for $15 each. How much did you spend in total?",
+    "cot": "You spent $4 per sock pair, so 8 pairs is 8*$4 = $32 You spent $15 per shirt, so 3 shirts is 3*$15 = $45 So in total you spent $32+$45 = $77",
+    "gold": "77",
+    "chain": [
+      "4",
+      "8",
+      "32",
+      "15",
+      "3",
+      "45"
+    ]
+  },
+  {
+    "ds_index": 5209,
+    "question": "A store sells a coat for 40% above cost. Then a 20% discount was given during a seasonal sale. If the coat costs $80, what is the store's profit percentage?",
+    "cot": "The store made an $80 * 40/100 = $32 profit for selling it 40% above cost. So, the coat was sold for $80 + $32 = $112. During the seasonal sale, the coat\u2019s selling price decreased by $112 * 20/100 = $22.40. So, after the discount the coat was sold for $112 - $22.40 = $89.60. The profit was therefore $89.60 - $80 = $9.60. So, the profit percentage is $9.60/$80 * 100% = 12%.",
+    "gold": "12",
+    "chain": [
+      "80",
+      "40",
+      "100",
+      "32",
+      "112",
+      "20",
+      "22.4",
+      "89.6",
+      "9.6"
+    ]
+  },
+  {
+    "ds_index": 5210,
+    "question": "Patrick saved $10 every week for one year. How much money did he save at the end of the year?",
+    "cot": "Patrick saved $10 x 52 weeks = 520 by the end of the year.",
+    "gold": "520",
+    "chain": [
+      "10",
+      "52"
+    ]
+  },
+  {
+    "ds_index": 5211,
+    "question": "Ryan spends 30 minutes feeding his cat and twice as long playing with her. Then he takes her for a walk along a 2-mile trail. If Ryan walks at 4 miles per hour, how much time does he spend with his cat total?",
+    "cot": "First find the total amount of time Ryan spends playing with his cat: 30 minutes * 2 = 60 minutes Then find the time Ryan spends walking: 2 miles / 4 miles/hour = .5 hours Then convert that time to minutes: .5 hours * 60 minutes/hour = 30 minutes Then add up the time Ryan spends feeding, playing and walking to find the total time: 30 minutes + 60 minutes + 30 minutes = 120 minutes",
+    "gold": "120",
+    "chain": [
+      "30",
+      "2",
+      "60",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "ds_index": 5212,
+    "question": "Deborah has four letters to mail. Standard postage is $1.08 per letter, with an additional charge for international mail. Deborah is mailing two letters internationally, and she is paying $4.60 to mail four letters. How many cents is the additional charge per letter for international shipping?",
+    "cot": "A dollar is 100 cents, so standard postage is 108 cents. Deborah\u2019s four letters cost 108 * 4 = 432 cents for standard postage. She paid 460 - 432 = 28 cents for international shipping on two letters. Thus, the additional international shipping charge is 28 / 2 = 14 cents per letter.",
+    "gold": "14",
+    "chain": [
+      "100",
+      "108",
+      "4",
+      "432",
+      "460",
+      "28",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5213,
+    "question": "A school has 300 students. If 60% of them participate in the school's sport's program, how many students participate in the program?",
+    "cot": "The number of students participating in the school's sport's program is 60/100 * 300 = 180 students.",
+    "gold": "180",
+    "chain": [
+      "60",
+      "100",
+      "300"
+    ]
+  },
+  {
+    "ds_index": 5214,
+    "question": "Jackie has a garden in which she planted three different types of flowers. She planted 10 of the first type, 15 of the second type and the rest are of the third type. If the average number of each type of flower she has in her garden is 15, how many of the third type of flower did she plant?",
+    "cot": "She has an average of 15 flowers per type, so she must have a total of 3*15 = 45 flowers in her garden She planted 10+15 = 25 flowers of the first and second type She must have planted 45-25 = 20 flowers of the third type",
+    "gold": "20",
+    "chain": [
+      "15",
+      "3",
+      "45",
+      "10",
+      "25",
+      "-25"
+    ]
+  },
+  {
+    "ds_index": 5215,
+    "question": "A movie theatre has 150 seats. If all the seats were occupied and the ticket per head was $10, how much did the theatre earn that day?",
+    "cot": "The theatre earned 150*10 = $1500 that day.",
+    "gold": "1500",
+    "chain": [
+      "150",
+      "10"
+    ]
+  },
+  {
+    "ds_index": 5216,
+    "question": "A novel costs $18. A novel and a book together cost $26. How much would you pay for 2 novels and 3 books?",
+    "cot": "A book costs $26 - $18 = $8. Two novels cost 2 * $18 = $36. Three books cost 3 * $8 = $24. So, 2 novels and 3 books cost $36 + $24 = $60.",
+    "gold": "60",
+    "chain": [
+      "26",
+      "18",
+      "8",
+      "2",
+      "36",
+      "3",
+      "24"
+    ]
+  },
+  {
+    "ds_index": 5217,
+    "question": "A jug has 4 litres of juice. Each glass takes up 0.5 litres of juice. How many glasses can be filled from the jug?",
+    "cot": "If each glass takes 0.5 litres of juice, then the number of glasses that the jug can fill is 4/0.5 = 8 glasses.",
+    "gold": "8",
+    "chain": [
+      "0.5",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5218,
+    "question": "Tom has a toy car collection. He has 4 times more toy car models than toy truck models. If he has 28 toy car models, how many toy truck models does he have?",
+    "cot": "Let the number of toy truck models be a The 28 toy car models are 4 times the number of toy truck models, which means 4*a = 28 Solving the equation: a = 28/4 = 7 toy truck models.",
+    "gold": "7",
+    "chain": [
+      "28",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5219,
+    "question": "Anna earns $75 per day as a babysitter and $100 per day as a dog walker. If she babysits for 2 days and walks dogs for 3 days, how many dollars will Anna earn?",
+    "cot": "Babysitting = 75 * 2 = 150 Dog walking = 100 * 3 = 300 Total earned is 150 + 300 = $450",
+    "gold": "450",
+    "chain": [
+      "75",
+      "2",
+      "150",
+      "100",
+      "3",
+      "300"
+    ]
+  },
+  {
+    "ds_index": 5220,
+    "question": "Amy is hosting a birthday party for her son and she buys 80 balloons and 1500cm\u00b3 of helium. Each balloon needs 30cm\u00b3 to float high enough to touch the ceiling. If she inflated all the balloons, how many balloons are floating to the ceiling?",
+    "cot": "30cm\u00b3 will make one balloon touch the ceiling so 1500cm\u00b3 will make 1500/30 = 50 balloons touch the ceiling The balloons which didn't float because they were filled with ordinary air is 80-50 = 30 Therefore, there are 50-30 = 20 more balloons floating than not floating.",
+    "gold": "20",
+    "chain": [
+      "30",
+      "1500",
+      "50",
+      "80",
+      "-50",
+      "-30"
+    ]
+  },
+  {
+    "ds_index": 5221,
+    "question": "A botanist has planted 15 apple trees and 10 pear trees in his garden. Each tree needs 3 liters of water per day. If the botanist waters his garden every day for a month (30 days), how much water does he use?",
+    "cot": "The botanist has a total of 15 apple trees + 10 pear trees = 25 trees in his garden. Each tree needs 3 liters/day, so the garden needs 25 trees * 3 liters/tree/day = 75 liters/day. Over a month, the botanist uses 75 liters/day * 30 days = 2250 liters in total.",
+    "gold": "2250",
+    "chain": [
+      "15",
+      "10",
+      "25",
+      "3",
+      "75",
+      "30"
+    ]
+  },
+  {
+    "ds_index": 5222,
+    "question": "Billy's car travels 15 miles on Sundays, 23 miles on Mondays, and 37 miles on Tuesdays. What is the average distance traveled per day?",
+    "cot": "The total distance covered from Sunday to Tuesday is 15 + 23 + 37 = 75 miles. So the average distance traveled per day is 75/3 = 25 miles.",
+    "gold": "25",
+    "chain": [
+      "15",
+      "23",
+      "37",
+      "75",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5223,
+    "question": "In an office, there are 20 employees. One quarter of them take the train to work, half of them use cars, and the rest walk or cycle. How many people walk or cycle to work?",
+    "cot": "One quarter of 20 is 20/4 = 5 employees. Half of 20 is 20/2 = 10 employees. The number of employees who walk or cycle to work is 20 - 5 - 10 = 5 employees.",
+    "gold": "5",
+    "chain": [
+      "20",
+      "4",
+      "2",
+      "10"
+    ]
+  },
+  {
+    "ds_index": 5224,
+    "question": "Mario can paint a house in 3 hours. Luigi, his younger brother, can do it in 5 hours. If they decide to paint a house together and Mario starts painting first, how long will it take them to finish painting the house?",
+    "cot": "The rate of Mario is 1 / 3 = 0.3333 house per hour and Luigi's rate is 1 / 5 = 0.2 house per hour. Their combined rate would be 0.3333 + 0.2 = 0.5333 house per hour. Therefore, they can finish painting a house in 1 / 0.5333 = 1.875 hours.",
+    "gold": "1.875",
+    "chain": [
+      "1",
+      "3",
+      "0.3333",
+      "5",
+      "0.2",
+      "0.5333"
+    ]
+  },
+  {
+    "ds_index": 5225,
+    "question": "Robert goes to the gym frequently. For every 10 workouts, he gets a free additional workout. He has received 3 free workouts already. He is 2 workouts away from another free one. How many workouts has he completed there?",
+    "cot": "He has completed 30 workouts to get the 3 free ones because 10 x 3 = 30 He has completed 8 workouts towards his 4th free one because 10 - 2 = 8 He has completed a total of 38 workouts because 30 + 8 = 38",
+    "gold": "38",
+    "chain": [
+      "30",
+      "3",
+      "10",
+      "8",
+      "4",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5226,
+    "question": "Randy buys 30 pounds of chicken and half that much fish. He uses 2 pounds of meat to prepare meals in his eatery. Each meal costs $25. How much money did he make?",
+    "cot": "He bought 30/2=15 pounds of fish. So he has 30+15=45 pounds of meat. That means he can make 45/2=22.5 meals, rounded down to 22 meals. So he makes 22*25=$550.",
+    "gold": "550",
+    "chain": [
+      "30",
+      "2",
+      "15",
+      "45",
+      "22.5",
+      "22",
+      "25"
+    ]
+  },
+  {
+    "ds_index": 5227,
+    "question": "Larry has 15% more books than Lily. Lily has 3 more books than Lucy. Lucy has 90% fewer books than Sam. If Sam has 50 books, how many books does Larry have?",
+    "cot": "Lucy has 50 * 0.90 = 45 less books than Sam. Lucy has a total of 50 - 45 = 5 books. Lily has 5 + 3 = 8 books. Larry has 8 * 0.15 = 1.2 more books than Lily. Larry has a total of 8 + 1.2 = 9.2 books",
+    "gold": "9.2",
+    "chain": [
+      "50",
+      "0.9",
+      "45",
+      "5",
+      "3",
+      "8",
+      "0.15",
+      "1.2"
+    ]
+  },
+  {
+    "ds_index": 5228,
+    "question": "Sophia and Luke are planning to buy a car which costs $60000. They decided to save for 4 years to gather enough money. Calculate the amount each person saves per month if they both contribute equally.",
+    "cot": "If they are planning to save every month for four years, and each year has 12 months, they'll save for 12*4 = 48 months. The car costs $60000, the total amount they both save per month is $60000/48 = $1250 every month. As they divide the monthly savings equally, each person will contribute $1250/2= $625",
+    "gold": "625",
+    "chain": [
+      "12",
+      "4",
+      "48",
+      "60000",
+      "1250",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5229,
+    "question": "Nona and Jim were painting a fence. Nona paints 8 panels a day while Jim can paint twice as many panels as Nona in a day. If the fence has 70 panels, how many days will it take for them to finish painting the fence?",
+    "cot": "Jim paints 8 * 2 = 16 panels in a day. So Nona and Jim paints 8 + 16 = 24 panels in a day. Therefore, it will take 70 / 24 = 2.91 days which is approximately 3 days to paint the fence completely.",
+    "gold": "3",
+    "chain": [
+      "8",
+      "2",
+      "16",
+      "24",
+      "70",
+      "2.91"
+    ]
+  },
+  {
+    "ds_index": 5230,
+    "question": "A Wizard has been creating potions for the last 3 days. On the first day, he made 5 potions. Each subsequent day he doubled the number of potions made from the previous day. How many potions did the wizard make in total?",
+    "cot": "On day 2, the wizard made 5 * 2 = 10 potions. On day 3, the wizard made 10 * 2 = 20 potions. So, in total, the wizard made 5 + 10 + 20 = 35 potions.",
+    "gold": "35",
+    "chain": [
+      "2",
+      "5",
+      "10",
+      "3",
+      "20"
+    ]
+  },
+  {
+    "ds_index": 5231,
+    "question": "Mr. Hendrick decides to paint his large wall. Initially, there are 1000 litres of paint. On the first day, he used 60 litres, and on the second day, he replenished the paint tin and used 200 litres. On the last day, there are 400 litres left. How many litres of paint did Mr. Hendrick use?",
+    "cot": "Mr. Hendrick used 1000 - 60 = 940 litres after the first day. After refilling and using 200 litres, he used 1000 - 200 = 800 litres. So he used 940 + 800 = 1740 litres before the last day. By the last day, he used 1740 - 400 = 1340 litres throughout the whole painting task.",
+    "gold": "1340",
+    "chain": [
+      "1000",
+      "60",
+      "940",
+      "200",
+      "800",
+      "1740",
+      "400"
+    ]
+  },
+  {
+    "ds_index": 5232,
+    "question": "Michael has 5 times as many video games as his friend Jack. Together, they have 720 video games. How many games does Jack have?",
+    "cot": "Let x be the number of games in Jack's collection. The collection of both Michael and Jack would then be 5*x + x = 720. 6*x = 720 x = 120",
+    "gold": "120",
+    "chain": [
+      "5",
+      "720",
+      "6"
+    ]
+  },
+  {
+    "ds_index": 5233,
+    "question": "Adam runs 3 kilometers every day. How many kilometers will he run in a month of 30 days?",
+    "cot": "The total number of kilometers Adam will run in a month is 3*30 = 90 kilometers.",
+    "gold": "90",
+    "chain": [
+      "3",
+      "30"
+    ]
+  },
+  {
+    "ds_index": 5234,
+    "question": "Steve earns $20 per hour at his job. If he gets a 25% raise, how much will he be earning per hour?",
+    "cot": "The raise amount is $20 x 0.25 = $5. So Steve will be earning $20 + $5 = $25 per hour after the raise.",
+    "gold": "25",
+    "chain": [
+      "20",
+      "0.25",
+      "5"
+    ]
+  },
+  {
+    "ds_index": 5235,
+    "question": "A baker can bake 4 loaves of bread with 2 cups of flour. If the baker has 50 cups of flour, how many loaves of bread can he bake?",
+    "cot": "With 2 cups of flour, the baker can bake 4 loaves, so with 1 cup of flour he can bake 4/2=2 loaves. With 50 cups of flour, he can bake 50*2=100 loaves of bread.",
+    "gold": "100",
+    "chain": [
+      "2",
+      "4",
+      "1",
+      "50"
+    ]
+  },
+  {
+    "ds_index": 5236,
+    "question": "A barber shop charges $25 for a haircut. On Tuesdays, they provide a 20% discount on the standard price. How much do you need to pay for a haircut on a Tuesday?",
+    "cot": "The discount value for Tuesday is calculated as 20/100 * 25 = $5. Hence, you need to pay 25 - 5 = $20 for a haircut on a Tuesday.",
+    "gold": "20",
+    "chain": [
+      "100",
+      "25",
+      "5"
+    ]
+  },
+  {
+    "ds_index": 5237,
+    "question": "Chris's Bakery produces 50% more bread loaves than Baker's Delight each day. If Baker's Delight produces 200 loaves of bread in a day, how many loaves do the two bakeries produce in a week?",
+    "cot": "Chris's Bakery makes 50/100 * 200 = 100 more loaves than Baker's Delight each day. The total number of loaves that Chris's Bakery makes in a day is 200 + 100 = 300. Together, Chris's Bakery and Baker's Delight make 300 + 200 = 500 loaves in a day. In a week, the two bakeries make 500 * 7 = 3500 loaves.",
+    "gold": "3500",
+    "chain": [
+      "50",
+      "100",
+      "200",
+      "300",
+      "500",
+      "7"
+    ]
+  },
+  {
+    "ds_index": 5238,
+    "question": "There are 50 people in a room. Half the people are wearing glasses and a third of them are wearing hats. How many people are neither wearing glasses nor hats?",
+    "cot": "25 people are wearing glasses because 50 / 2 = 25 Around 17 people are wearing hats because 50 / 3 = 16.67 rounds up to 17 So, there are 50 - 25 - 17 = 8 people are neither wearing glasses nor hats",
+    "gold": "8",
+    "chain": [
+      "25",
+      "50",
+      "2",
+      "17",
+      "3",
+      "16.67"
+    ]
+  },
+  {
+    "ds_index": 5239,
+    "question": "Mike has $150. He needs to buy some strawberries, which costs $3 a pound and a pound of chicken that costs $6 a pound. After buying the chicken and his strawberries, he has $108 left. How many pounds of strawberries did he buy?",
+    "cot": "He spent $42 because 150 - 108 = 42 He spend $36 on strawberries because 42 -6 = 36 He bought 12 pounds of strawberries because 36 / 3 = 12",
+    "gold": "12",
+    "chain": [
+      "42",
+      "150",
+      "108",
+      "36",
+      "-6",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5240,
+    "question": "It takes Jamie 2 hours to fully assemble a chair and 3 hours to assemble a table. If Jamie needs to assemble 6 chairs and 4 tables, how long will it take him in total?",
+    "cot": "First find the total time Jamie spends assembling chairs: 2 hours/chair * 6 chairs = 12 hours Then find the total time Jamie spends assembling tables: 3 hours/table * 4 tables = 12 hours Then add the two quantities to find Jamie's total assembly time: 12 hours + 12 hours = 24 hours",
+    "gold": "24",
+    "chain": [
+      "2",
+      "6",
+      "12",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5241,
+    "question": "There is a hot dog eating competition at a festival. Jane eats two more hot dogs than Pete. Dave eats three times as many hot dogs as Pete. If Dave eats 12 hot dogs, how many hot dogs were consumed in total?",
+    "cot": "Pete ate 12 / 3 = 4 hot dogs. Jane ate 4 + 2 = 6 hot dogs. The total number of hot dogs consumed is 4 + 6 + 12 = 22 hot dogs.",
+    "gold": "22",
+    "chain": [
+      "12",
+      "3",
+      "4",
+      "2",
+      "6"
+    ]
+  },
+  {
+    "ds_index": 5242,
+    "question": "A bag contains 20 marbles of which 4 are blue, 7 are red, and the rest are green. If you reach into the bag without looking, what is the probability that you will pull out a green marble?",
+    "cot": "There are 20 total marbles - 4 blue - 7 red = 9 green marbles. The probability of pulling out a green marble is the number of green marbles / total number of marbles = 9 / 20 = 0.45",
+    "gold": "0.45",
+    "chain": [
+      "20",
+      "4",
+      "7",
+      "9"
+    ]
+  },
+  {
+    "ds_index": 5243,
+    "question": "James has 50 cartons of milk. Each carton contains 2 liters. He distributed the milk equally to 4 of his friends. How much milk did each friend get?",
+    "cot": "James had 50 cartons * 2 liters = 100 liters of milk. Each friend received 100 liters / 4 friends = 25 liters of milk.",
+    "gold": "25",
+    "chain": [
+      "50",
+      "2",
+      "100",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5244,
+    "question": "Joe wants to collect 35 pounds of fruit for his grocery stand. He knows that 5 apples weigh 1 pound and each apple costs $0.50. It takes him 1 hour to pick 10 apples. Every hour of Joe's work costs him $5. How much money will he spend on collecting all the fruit?",
+    "cot": "He will need 175 apples because 35 x 5 = 175 It will take him 17.5 hours because 175 / 10 = 17.5 His labor will cost $87.5 because 17.5 x 5 = 87.5 He will spend $87.5 on apples because 175 x .5 = 87.5 It will cost in total $175 to collect all the fruit because 87.5 + 87.5 = 175",
+    "gold": "175",
+    "chain": [
+      "35",
+      "5",
+      "17.5",
+      "10",
+      "87.5"
+    ]
+  },
+  {
+    "ds_index": 5245,
+    "question": "A candy store sells lollipops in boxes of 15. If they sell 6 boxes every week, how many individual pieces of lollipop are sold every month?",
+    "cot": "The store sells 15 * 6 = 90 lollipops every week. So, every month, they sell 90 * 4 = 360 lollipops.",
+    "gold": "360",
+    "chain": [
+      "15",
+      "6",
+      "90",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5246,
+    "question": "A water tank is filled with 200 gallons of water. Each day, 7 gallons of water is consumed. If a refill is needed once the tank begins to run out, after how many days must the tank be refilled?",
+    "cot": "The tank will start to run out after 200 / 7 = 29 days. (Rounding up because you can't have a fraction of a day)",
+    "gold": "29",
+    "chain": [
+      "200",
+      "7"
+    ]
+  },
+  {
+    "ds_index": 5247,
+    "question": "John has a collection of 500 books. He gifted 10% of his books to his cousin, sold 150 books, and donated the rest to a local library. What percentage of his book collection did he donate to the library?",
+    "cot": "John gifted 10/100*500 = 50 books to his cousin. John has given away or sold 50+150 = 200 books. The number of books he donated to the library is 500-200 = 300. The percentage of books donated to the library is (300/500)*100= 60%.",
+    "gold": "60",
+    "chain": [
+      "10",
+      "100",
+      "500",
+      "50",
+      "150",
+      "200",
+      "-200",
+      "300"
+    ]
+  },
+  {
+    "ds_index": 5248,
+    "question": "A ranger spots 3 types of birds in the park.  There are 45 sparrows, twice as many pigeons as sparrows, and half the number of robins as sparrows.  How many birds did the ranger spot in total?",
+    "cot": "Sparrows:45 Pigeons:45*2=90 Robins:45/2=22.5 Total:45+90+22.5=157.5 birds",
+    "gold": "157.5",
+    "chain": [
+      "45",
+      "2",
+      "90",
+      "22.5"
+    ]
+  },
+  {
+    "ds_index": 5249,
+    "question": "Sam shares a slice of orange with his cat every day. An orange weighs about 1/3 of a pound. He can currently buy oranges for $3.00 a pound. How much will he spend so that he and his cat have enough oranges to last for 3 weeks?",
+    "cot": "There are 7 days in a week and he needs oranges for 3 weeks, so that's 7*3 = 21 days He shares an orange with his cat every day for 21 days, so he needs 1*21 = 21 oranges Each orange weighs 1/3 of a pound and he needs 21 oranges, so that's 1/3*21 = 7 pounds of oranges He needs 7 pounds of oranges and they are on sale for $3.00 a pound, so he will spend 7*3 = $21.00 for oranges",
+    "gold": "21",
+    "chain": [
+      "7",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "ds_index": 5250,
+    "question": "Bill has 24 bottles of milk. He sells half of them at the market and drinks 3 bottles himself. How many bottles of milk does Bill have left?",
+    "cot": "First divide the total number of bottles by 2 to find how many are sold: 24 bottles / 2 = 12 bottles Then subtract the number of bottles drunk and the number of bottles sold from the initial total to find the remaining number of bottles: 24 bottles - 12 bottles - 3 bottles = 9 bottles",
+    "gold": "9",
+    "chain": [
+      "2",
+      "24",
+      "12",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5251,
+    "question": "A school bus can hold 25 students. If there are 100 students to be transported, how many bus trips will it take to transport all the students?",
+    "cot": "To transport 100 students with a bus that holds 25 students each trip, 100 / 25 = 4 trips are needed.",
+    "gold": "4",
+    "chain": [
+      "100",
+      "25"
+    ]
+  },
+  {
+    "ds_index": 5252,
+    "question": "Billy has 12 pumpkin seeds and 5 pots. How many seeds will be planted in the fifth pot if 2 seeds can be planted in 1 pot?",
+    "cot": "Billy can plant a total of 4 pots x 2 seeds = 8 seeds in four pots. So, only 12 - 8 = 4 pumpkin seeds will be planted in the fifth pot.",
+    "gold": "4",
+    "chain": [
+      "2",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "ds_index": 5253,
+    "question": "A bakery adds 5 new flavors to their 15 existing flavors of cookies. If each box of cookies contains 5 different flavors, how many types of boxes can the bakery package?",
+    "cot": "The bakery now has 5 + 15 = 20 flavors of cookies. So, they can package 20 / 5 = 4 types of boxes.",
+    "gold": "4",
+    "chain": [
+      "5",
+      "15",
+      "20"
+    ]
+  },
+  {
+    "ds_index": 5254,
+    "question": "Mike has thrice as many comic books in his collection as trading cards. He has 4 more trading cards than action figures and currently has 6 action figures. How many comic books does Mike have?",
+    "cot": "He has 4 more trading cards than action figures and he has 6 action figures so he has 4+6 = 10 trading cards He has thrice as many comic books as trading cards and he has 10 trading cards so he has 3*10 = 30 comic books",
+    "gold": "30",
+    "chain": [
+      "4",
+      "6",
+      "10",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5255,
+    "question": "Jenna collected twice the amount of stamps than Sara. Robert collected three times the amount of stamps as Jenna. If Sara has 15 stamps, how many stamps does Robert have?",
+    "cot": "Jenna has 15 * 2 = 30 stamps. Robert has 30 * 3 = 90 stamps.",
+    "gold": "90",
+    "chain": [
+      "15",
+      "2",
+      "30",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5256,
+    "question": "Linda bought a dress that costs 36 pounds. If the price is reduced by 25%, how much less does she need to pay?",
+    "cot": "The discount of the dress is 36*0.25 = 9 pounds So, she needs to pay 9 pounds less.",
+    "gold": "9",
+    "chain": [
+      "36",
+      "0.25"
+    ]
+  },
+  {
+    "ds_index": 5257,
+    "question": "In an orchard, there were initially 255 apples. During a storm, approximately 35% of the apples fell. How many apples were left in the tree?",
+    "cot": "The number of apples that fell is 35/100*255=89 apples (approximately). The total number of apples left in the tree is 255-89=166.",
+    "gold": "166",
+    "chain": [
+      "35",
+      "100",
+      "255",
+      "89",
+      "-89"
+    ]
+  },
+  {
+    "ds_index": 5258,
+    "question": "There are 500 more yellow bananas than green bananas in a stand. A van arrives and delivers another 400 green bananas. If there were originally 50 green bananas, how many more green bananas than yellow bananas are there in the stand now?",
+    "cot": "There are 500 + 50 = 550 yellow bananas. After the delivery there are 400 + 50 = 450 green bananas There are now 450 - 550 = -100 less green bananas than yellow bananas now.",
+    "gold": "-100",
+    "chain": [
+      "500",
+      "50",
+      "550",
+      "400",
+      "450"
+    ]
+  },
+  {
+    "ds_index": 5259,
+    "question": "Sarah is making cookies for the school bake sale. If she made 20 cookies yesterday and already made 15 cookies today, but she needs a total of 60 cookies, how many more cookies does she need to bake?",
+    "cot": "Sarah has already made 20 + 15 = 35 cookies. Sarah needs to bake 60 - 35 = 25 more cookies.",
+    "gold": "25",
+    "chain": [
+      "20",
+      "15",
+      "35",
+      "60"
+    ]
+  },
+  {
+    "ds_index": 5260,
+    "question": "Ann and her schoolmates were making flower crowns. Ann made 2 times as many crowns as Sally. Sally made one third as many crowns as Betty. If Betty made 30 flower crowns, how many did Ann make?",
+    "cot": "Sally made 30/3=10 flower crowns Ann made 10*2=20 flower crowns",
+    "gold": "20",
+    "chain": [
+      "30",
+      "3",
+      "10",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5261,
+    "question": "Roger bought 12 new comic books last week. This week he bought three times as many so that he has 60 comic books now. How many comic books did Roger have originally?",
+    "cot": "Roger bought 12 x 3 = 36 comic books this week. So he bought a total of 12 + 36 = 48 comic books. Therefore, Roger had 60 - 48 = 12 comic books originally.",
+    "gold": "12",
+    "chain": [
+      "3",
+      "36",
+      "48",
+      "60"
+    ]
+  },
+  {
+    "ds_index": 5262,
+    "question": "Phil plans to buy a gaming console that costs $200. He can save $10 each week. How many weeks will it take for Phil to be able to buy his console?",
+    "cot": "Phil will need $200/$10 = 20 weeks to save enough money to buy the console.",
+    "gold": "20",
+    "chain": [
+      "200",
+      "10"
+    ]
+  },
+  {
+    "ds_index": 5263,
+    "question": "Paul can eat 3 times as many hot dogs as Sam in one sitting. If Paul can eat 24 hot dogs, how many can Sam eat?",
+    "cot": "If Paul can eat three times as many hot dogs as Sam, then Sam can eat 24 / 3 = 8 hot dogs.",
+    "gold": "8",
+    "chain": [
+      "24",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5264,
+    "question": "Sandy loves to read. She read 24 fantasy books, 18 science fiction books, and 14 mystery novels in the past year. She estimates that a third of her books are biographies. How many books did Sandy read in total over the year?",
+    "cot": "A third of her books are biographies, which means they are the same as two times the number of biographies. So there are 24 fantasy + 18 science fiction + 14 mystery = 56 biography books. Therefore, Sandy read 56 x 3 = 168 books over the year.",
+    "gold": "168",
+    "chain": [
+      "24",
+      "18",
+      "14",
+      "56",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5265,
+    "question": "Emma has been reading 5 books a month. She decides to increase that by 20%. How many books does she read per month now?",
+    "cot": "She increases her reading by 5*20%=1 book per month So she now reads 5+1=6 books per month",
+    "gold": "6",
+    "chain": [
+      "5",
+      "20",
+      "1"
+    ]
+  },
+  {
+    "ds_index": 5266,
+    "question": "Sara has been saving $20 each week for a year to buy a bicycle. The bicycle costs $950. What is the remainder of her savings after buying the bicycle?",
+    "cot": "The total amount of money Sara saved throughout the year is $20/week * 52 weeks/year = $1040. After buying the bicycle, Sara has $1040 - $950 = $90 left.",
+    "gold": "90",
+    "chain": [
+      "20",
+      "52",
+      "1040",
+      "950"
+    ]
+  },
+  {
+    "ds_index": 5267,
+    "question": "Amy had a collection of 80 stamps. She received twice as many stamps for her birthday. After using the quarter of her birthday stamps for school work, how many stamps did she have left?",
+    "cot": "Amy received twice as many stamps for her birthday, which is 2 * 80 = 160 stamps. She used quarter of her birthday stamps, which is 160 / 4 = 40 stamps. So, she had 80(original stamps) + 160(birthday stamps) - 40(used stamps) = 200 stamps left.",
+    "gold": "200",
+    "chain": [
+      "2",
+      "80",
+      "160",
+      "4",
+      "40"
+    ]
+  },
+  {
+    "ds_index": 5268,
+    "question": "On her birthday, Ellen receives a $550 cash gift. She spends $155 on clothes, $130 on books, and $80 on a new video game. How much money does she have left?",
+    "cot": "After buying clothes and books and a video game, Ellen spent a total of $155 + $130 + $80 = $365. Ellen now has $550 - $365 = $185 left.",
+    "gold": "185",
+    "chain": [
+      "155",
+      "130",
+      "80",
+      "365",
+      "550"
+    ]
+  },
+  {
+    "ds_index": 5269,
+    "question": "A rectangle has a length of 5 cm and a width that is 3 times shorter than its length. What is the perimeter of the rectangle?",
+    "cot": "The width of the rectangle is 5 / 3 = 1.67 cm. The perimeter of a rectangle is 2(length + width), so the perimeter of this rectangle is 2(5 + 1.67) = 13.34 cm.",
+    "gold": "13.34",
+    "chain": [
+      "5",
+      "3",
+      "1.67",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5270,
+    "question": "On a 5-kilometer charity walk, Emily managed to walk 3 kilometers more than her friend Lily, who was able to cover 4 kilometers. How far did Emily and Lily walk in total?",
+    "cot": "Emily walked 3 kilometers more, a total of 4 kilometers + 3 kilometers = 7 kilometers. Together, Lily and Emily managed to walk a total of 7 kilometers + 4 kilometers = 11 kilometers.",
+    "gold": "11",
+    "chain": [
+      "3",
+      "4",
+      "7"
+    ]
+  },
+  {
+    "ds_index": 5271,
+    "question": "In Billy's class there are 60 students. In a particular test, 20 students scored 85 marks each, 15 students scored 10 marks more than these 20 students and the rest scored 65 marks each. What is the average mark for the entire class?",
+    "cot": "The total marks for the first 20 students are 85 * 20 = 1700 marks The 15 students who scored ten marks more than the first 20 had 85 + 10 = 95 marks each. The total marks for the following 15 students are 15 * 95 = 1425 marks. The total number of students who scored above sixty is 20 + 15 = 35. If 60 students were present in the class, those who scored sixty-five are 60 - 35 = 25. If 25 students scored 65, then their total marks are 65 * 25 = 1625 marks. The whole class scored a total of 1700 + 1425 + 1625 = 4750 marks. The average for the class is 4750 / 60 = 79.16 marks.",
+    "gold": "79.16",
+    "chain": [
+      "20",
+      "85",
+      "1700",
+      "15",
+      "10",
+      "95",
+      "1425",
+      "35",
+      "60",
+      "25",
+      "65",
+      "1625",
+      "4750"
+    ]
+  },
+  {
+    "ds_index": 5272,
+    "question": "A school wants to buy new computers. Each costs $700. They already raised $9000 from school productions. The school bake sale brings in $50 per week. If the school wants to purchase 20 computers, how many weeks does it need to run the bake sale for before it can buy the computers?",
+    "cot": "The cost of the computers is 20 x 700 = $14000. The school needs to raise an additional $14000 - $9000 = $5000. The bake sale needs to run for $5000 / $50 per week = 100 weeks.",
+    "gold": "100",
+    "chain": [
+      "20",
+      "700",
+      "14000",
+      "9000",
+      "5000",
+      "50"
+    ]
+  },
+  {
+    "ds_index": 5273,
+    "question": "Sandra scored 90% on her history test. She answered 9 questions wrong. How many questions were there on the history test?",
+    "cot": "Sandra got 100% - 90% = 10% of the total questions incorrect, which is equal to 9 questions.  So 1% is equal to 9/10 = 0.9 of a question.  Hence, the total number of questions, represented by 100%, on the history test was 0.9 of a question x 100 = 90.",
+    "gold": "90",
+    "chain": [
+      "100",
+      "10",
+      "9",
+      "1",
+      "0.9"
+    ]
+  },
+  {
+    "ds_index": 5274,
+    "question": "Amanda can knit 12 rows per hour on her knitting machine. She decides to take a 15-minute break after knitting for every 30 minutes. How many rows can she knit in 2 hours and 15 minutes?",
+    "cot": "There are 60 minutes in 1 hour, so Amanda knits for 30 minutes then takes a 15-minutes break to knit a total of 45 minutes In 2 hours and 15 minutes, there are 135 minutes, so Amanda can knit for 135 / 45 = 3 periods So, Amanda can knit 3 periods * 12 rows = 36 rows",
+    "gold": "36",
+    "chain": [
+      "60",
+      "1",
+      "30",
+      "15",
+      "45",
+      "2",
+      "135",
+      "3",
+      "12"
+    ]
+  },
+  {
+    "ds_index": 5275,
+    "question": "A park has 4 benches and each bench can seat 3 people. On a sunny day, 2 people occupied each bench. If the park added 5 more benches and the occupancy rate remained the same, how many people can the park accommodate?",
+    "cot": "Initially the park could accommodate 4 * 3 = 12 people. When 2 people occupied each bench, the occupancy was 2 / 3 = 67%. When 5 more benches were added, the total bench quantity became 4 + 5 = 9 benches. So, with the same occupancy rate, the park could accommodate 9 benches * 0.67 (2 people per bench) * 3 (max capacity per bench) = 18 people So, considering that it\u2019s impossible for a fraction of a person to sit on a bench, we round 18.09 down to 18.",
+    "gold": "18",
+    "chain": [
+      "4",
+      "3",
+      "12",
+      "2",
+      "67",
+      "5",
+      "9",
+      "0.67",
+      "18.09"
+    ]
+  },
+  {
+    "ds_index": 5276,
+    "question": "There are 240 students in a school. If 1/5 of the students are in the choir and 2/3 of the students are in the sports club, how many students are not involved in any activities?",
+    "cot": "The number of students in the choir is 240 * 1/5 = 48. The number of students in the sports club is 240 * 2/3 = 160. The total number involved in activities is 48 + 160 = 208. Therefore, the number of students not involved in any activities is 240 - 208 = 32.",
+    "gold": "32",
+    "chain": [
+      "240",
+      "1",
+      "5",
+      "48",
+      "2",
+      "3",
+      "160",
+      "208"
+    ]
+  },
+  {
+    "ds_index": 5277,
+    "question": "Kenneth and Peter drove on a 200km journey. Kenneth drove for the first 75km and Peter drove the remaining distance. How many kilometers did Peter drive?",
+    "cot": "Peter drove 200km - 75km = 125km.",
+    "gold": "125",
+    "chain": [
+      "200",
+      "75"
+    ]
+  },
+  {
+    "ds_index": 5278,
+    "question": "Billy has three turtles. Every year, his aunt buys him three more, but two of them escape. How many turtles will he have in four years?",
+    "cot": "Each year Billy has one more turtle than before because 3 - 2 = 1 In four years, he will have 4 more turtles because 4 x 1 = 4 In four years he will have 7 turtles because 3 + 4 = 7",
+    "gold": "7",
+    "chain": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5279,
+    "question": "In a 20 member book club, half of the members read a science fiction book. One-fourth of the remaining members read a biography and the rest read a mystery. How many members read the mystery book?",
+    "cot": "In the book club, 20/2 = 10 members read a science fiction book. So 20 - 10 = 10 members did not read science fiction. Since 1/4 of the remaining members read a biography, then 10/4 = 2.5, approximately 2/3 members read a biography book. Therefore, 10 - 3 = 7 members read the mystery book.",
+    "gold": "7",
+    "chain": [
+      "20",
+      "2",
+      "10",
+      "1",
+      "4",
+      "2.5",
+      "3"
+    ]
+  },
+  {
+    "ds_index": 5280,
+    "question": "A library has 450 books. If 1/5 of them are checked out and 1/2 of the remaining books are on shelves, how many books are not on the shelves?",
+    "cot": "There are 450 x 1/5 = 90 books that are checked out. So, 450 - 90 = 360 books are still in the library. Out of these, 360 x 1/2 = 180 books are on the shelves. Therefore, 360 - 180 = 180 books are not on the shelves.",
+    "gold": "180",
+    "chain": [
+      "450",
+      "1",
+      "5",
+      "90",
+      "360",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5281,
+    "question": "Eva and John bought 60 apples together, 5/6 of these apples were eaten by the end of the week. Justin gave them 10 more apples and they ate half. How many apples are left?",
+    "cot": "Eva and John ate 60 * 5/6 = 50 apples. So, they left 60 - 50 = 10 apples. After Justin gave them 10 more, together they had 10 + 10 = 20 apples. They ate 10 * 1/2 = 5 out of these new apples. So, they left with 20 - 5 = 15 apples.",
+    "gold": "15",
+    "chain": [
+      "60",
+      "5",
+      "6",
+      "50",
+      "10",
+      "20",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5282,
+    "question": "Paul earns $15 per hour and works for 4 hours per day. If he works for 5 days a week, how much does he earn in a month?",
+    "cot": "Paul earns 15 * 4 = $60 per day. In a week, he earns 60 * 5 = $300. Since a month is usually 4 weeks, Paul earns 300 * 4 = $1200 in a month.",
+    "gold": "1200",
+    "chain": [
+      "15",
+      "4",
+      "60",
+      "5",
+      "300"
+    ]
+  },
+  {
+    "ds_index": 5283,
+    "question": "A farm has 500 cows. Each cow produces 4 liters of milk per day. If 10% of the cows are sick and do not produce milk, how many liters of milk is produced each day?",
+    "cot": "The number of healthy cows is 90% * 500 = 450 cows The amount of milk produced is 450 cows * 4 liters/cow = 1800 liters",
+    "gold": "1800",
+    "chain": [
+      "90",
+      "500",
+      "450",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5284,
+    "question": "Paula planted 16 flowers in her garden, 4 of which are roses. She then planted an additional 8 flowers, 2 of which are roses. How many roses are in her garden?",
+    "cot": "To begin, Paula had 4 roses. She planted an additional 2 roses. Altogether, she has 4+2=6 roses.",
+    "gold": "6",
+    "chain": [
+      "4",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5285,
+    "question": "Ben and Jerry share a pizza. If Ben ate 3 slices and Jerry ate 2 slices, and there were originally 10 slices in the pizza, how many slices are left?",
+    "cot": "The initial amount of pizza slices was 10. Ben ate 3 and Jerry ate 2, which makes 3 + 2 = 5 slices. There are 10 - 5 = 5 slices left.",
+    "gold": "5",
+    "chain": [
+      "10",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5286,
+    "question": "Samantha has been saving up to buy a new bicycle. The bicycle costs $400. Samantha's parents decide to help her out and contribute an extra 25% of the cost. How much will Samantha's parents contribute?",
+    "cot": "The parents will contribute an extra 25% of the cost, so 25/100 * 400 = $100.",
+    "gold": "100",
+    "chain": [
+      "25",
+      "400"
+    ]
+  },
+  {
+    "ds_index": 5287,
+    "question": "Lily's book has 150 pages. She reads 20% of the book on the first day, 25% of the book on the second day, and 30% of the remaining pages on the third day. How many pages are left to read after the third day?",
+    "cot": "On the first day, Lily reads 20/100*150 = 30 pages. On the second day, she reads 25/100*150 = 37.5 pages. So she has read a total of 30 + 37.5 = 67.5 pages after two days. The remaining pages after the second day are 150 - 67.5 = 82.5 pages. On the third day, she reads 30/100*82.5 = 24.75 pages. So she has 82.5 - 24.75 = 57.75 pages left after the third day.",
+    "gold": "57.75",
+    "chain": [
+      "20",
+      "100",
+      "150",
+      "30",
+      "25",
+      "37.5",
+      "67.5",
+      "82.5",
+      "24.75"
+    ]
+  },
+  {
+    "ds_index": 5288,
+    "question": "Laura wins a lottery and receives $3,000 every week for a year. If she saves all the money, how much money will she have in total after 2 years?",
+    "cot": "Each year, Laura receives $3,000 x 52 = $156,000. After 2 years, she will have a total of $156,000 x 2 = $312,000.",
+    "gold": "312000",
+    "chain": [
+      "3",
+      "000",
+      "52",
+      "156",
+      "2",
+      "312"
+    ]
+  },
+  {
+    "ds_index": 5289,
+    "question": "Ellen is making a fruit salad. The apples have 120 calories, the oranges have 90 calories, and the 8 strawberries have 10 calories each. How many calories are in the salad?",
+    "cot": "In total, the 8 strawberries have 10 calories/strawberry * 8 strawberries = 80 calories. Together, the strawberries, apples, and oranges have 80 + 120 + 90 = 290 calories",
+    "gold": "290",
+    "chain": [
+      "8",
+      "10",
+      "80",
+      "120",
+      "90"
+    ]
+  },
+  {
+    "ds_index": 5290,
+    "question": "A classroom has 5 rows with 6 desks in each row. If the school has 10 classrooms, how many desks are in the school in total?",
+    "cot": "Each classroom has 5 x 6 = 30 desks. Therefore, 30 x 10 = 300 desks are in the school in total.",
+    "gold": "300",
+    "chain": [
+      "5",
+      "6",
+      "30",
+      "10"
+    ]
+  },
+  {
+    "ds_index": 5291,
+    "question": "Lucy's garden has 6 apple trees and 3 times as many pear trees. Apple trees make up 20% of all the trees in the garden. How many cherry trees are there in the garden if they make up 10% of all the trees?",
+    "cot": "There are 3 times as many pear trees as apple trees in Lucy's garden, so there are 6 * 3 = 18 pear trees. The apple trees make up 20% of all trees, so there are 100/20 * 6 = 30 trees in the whole garden. 10% of trees are cherry trees, so there are 10/100 * 30 = 3 cherry trees in the garden.",
+    "gold": "3",
+    "chain": [
+      "6",
+      "18",
+      "20",
+      "100",
+      "30",
+      "10"
+    ]
+  },
+  {
+    "ds_index": 5292,
+    "question": "David has the same percentage of red stickers and yellow stickers in his collection of 300 stickers as he does of orange stickers and blue stickers in a separate collection. He has 180 orange stickers and 120 blue stickers. How many red stickers does David have if he has more red stickers than yellow ones?",
+    "cot": "First we must determine the percentage of the orange and blue stickers. We add the two amounts together, finding 180+120=300 We then figure out that 120/300=.4, meaning 40 percent of the stickers are blue in the second selection. This means that 1.0-.4=.6, or 60 percent of the stickers are orange. Since there are more orange stickers than blue stickers, and the red and yellow pile have the same percentage, and there are more red stickers than yellow stickers, that means there are 60 percent red stickers in the first pile. Therefore, to find the number of red stickers we multiply 300*.6= 180 red stickers.",
+    "gold": "180",
+    "chain": [
+      "120",
+      "300",
+      "4",
+      "40",
+      "1",
+      "6",
+      "60"
+    ]
+  },
+  {
+    "ds_index": 5293,
+    "question": "Oscar decided to buy a smartphone which costs $200. He saved $18 each week. If he already saved $120, how many more weeks does he need to save to be able to buy the smartphone?",
+    "cot": "Oscar still needs to save $200 - $120 = $80. Therefore, he needs 80 \u00f7 18 = 4.44, approximately 5 more weeks, to be able to buy the smartphone.",
+    "gold": "5",
+    "chain": [
+      "200",
+      "120",
+      "80",
+      "18",
+      "4.44"
+    ]
+  },
+  {
+    "ds_index": 5294,
+    "question": "Liana bought 4 shirts at $15 each and 3 pairs of pants at $25 each. How much did she spend in total?",
+    "cot": "She spent 4*15=$60 on shirts. She spent 3*25=$75 on pants. So, she spent 60+75=$135 in total.",
+    "gold": "135",
+    "chain": [
+      "4",
+      "15",
+      "60",
+      "3",
+      "25",
+      "75"
+    ]
+  },
+  {
+    "ds_index": 5295,
+    "question": "For a party, Gina ordered 8 boxes of pizza. Each box has 6 slices. She has 16 guests and she wants each guest to have 3 slices. Will she have enough pizzas?",
+    "cot": "Gina has 8 * 6 = 48 pizza slices. Each guest needs 3 slices, so 16 guests * 3 slices = 48 slices are needed. Thus, Gina will have enough pizzas because 48 - 48 = 0 slices are leftover.",
+    "gold": "0",
+    "chain": [
+      "8",
+      "6",
+      "48",
+      "3",
+      "16"
+    ]
+  },
+  {
+    "ds_index": 5296,
+    "question": "Sam planted 10 tulip bulbs in his garden. After a few months, he observed that only half of those bulbs bloomed. He then planted twice as many new bulbs as he previously had. How many bulbs does Sam have in total now?",
+    "cot": "Only half of the formerly planted bulbs bloomed, so 10 / 2 = 5 did not bloom. Then, Sam planted 10 * 2 = 20 new bulbs. So, Sam now has 5 + 20 = 25 bulbs in total.",
+    "gold": "25",
+    "chain": [
+      "10",
+      "2",
+      "5",
+      "20"
+    ]
+  },
+  {
+    "ds_index": 5297,
+    "question": "Jerry was working on his stamp collection. He has 200 stamps from different countries. His friend gave him 30 more stamps from other countries. After checking, Jerry found 25 duplicate stamps and gave them away. How many stamps does Jerry have now?",
+    "cot": "He has now 200 + 30 = 230 stamps. After giving away duplicate stamps, Jerry has 230 - 25 = 205 stamps.",
+    "gold": "205",
+    "chain": [
+      "200",
+      "30",
+      "230",
+      "25"
+    ]
+  },
+  {
+    "ds_index": 5298,
+    "question": "Lisa and her sister, Margaret, are going out for lunch. They both have a total budget of $30 for their meal. Lisa orders a meal for $18, then spends $7 on dessert. Margaret orders her meal, then spends $3 on a drink. They have both used their entire budget. How much did Margaret spend on her meal?",
+    "cot": "We know Margaret bought a meal and a drink, and this cost her 18 + 3 = 21 dollars. Since Margaret spent her entire budget, her meal must have cost 30 \u2013 21 = 9 dollars.",
+    "gold": "9",
+    "chain": [
+      "18",
+      "3",
+      "21",
+      "30"
+    ]
+  },
+  {
+    "ds_index": 5299,
+    "question": "Hannah has 200 pencils. She packs them in 8 boxes, each box containing an equal amount of pencils. She drops one box and breaks 5 of the pencils. How many pencils does she have left?",
+    "cot": "After packing them equally in 8 boxes, each box has 200 / 8 = 25 pencils. After dropping one box and breaking 5 pencils, she has 25 - 5 = 20 pencils left from that box. The total amount of pencils Hannah has left is 20 + 7*25 = 195.",
+    "gold": "195",
+    "chain": [
+      "8",
+      "200",
+      "25",
+      "5",
+      "20",
+      "7"
+    ]
+  },
+  {
+    "ds_index": 5300,
+    "question": "James bought 10 books at $12 each and also bought 5 pens at $2 each. If James paid with a $200 note, how much change did he get?",
+    "cot": "The total cost for the books is 10 books * $12/book = $120. The total cost for the pens is 5 pens * $2/pen = $10. The total amount James paid is $120 + $10 = $130. So, the change that James got is $200 - $130 = $70.",
+    "gold": "70",
+    "chain": [
+      "10",
+      "12",
+      "120",
+      "5",
+      "2",
+      "130",
+      "200"
+    ]
+  },
+  {
+    "ds_index": 5301,
+    "question": "Emma takes part in a reading challenge. If she reads 1 book every two days, how many books will she read in a month?",
+    "cot": "Emma reads a book every 2 days, so in a month she will read 30/2 = 15 books.",
+    "gold": "15",
+    "chain": [
+      "2",
+      "30"
+    ]
+  },
+  {
+    "ds_index": 5302,
+    "question": "In a race, after running for 5 miles, a runner still has 3/4 more miles to go. If the race is broken up into equally spaced checkpoints every 1/2 mile, how many checkpoints are there in total?",
+    "cot": "The total distance of the race is 5 miles already run + 3/4 miles still to go = 5.75 miles. There is a checkpoint every 0.5 mile, so there are 5.75 miles / 0.5 mile per checkpoint = 11.5 checkpoints. Since there can't be a half checkpoint, we round up to 12 checkpoints.",
+    "gold": "12",
+    "chain": [
+      "5",
+      "3",
+      "4",
+      "5.75",
+      "0.5",
+      "11.5"
+    ]
+  },
+  {
+    "ds_index": 5303,
+    "question": "George has collected 2 coins on Monday. Every day for the rest of the week, he picks up one more coin than he did the day before. If on Sunday he counts and has 14 coins in total, how many coins did he pick up on Friday?",
+    "cot": "On Tuesday, he picked up 2 + 1 = 3 coins. On Wednesday, he picked up 3 + 1 = 4 coins. On Thursday, he picked up 4 + 1 = 5 coins. Adding these together, from Monday to Thursday, George picked up 2 + 3 + 4 + 5 = 14 coins. Subtracting the 14 coins from the total number of coins gives 14 - 14 = 0 extra coins remaining. Therefore, George picked up the same amount of coins on Friday as he did on Thursday, which is 5 coins.",
+    "gold": "5",
+    "chain": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "14",
+      "0"
+    ]
+  },
+  {
+    "ds_index": 5304,
+    "question": "Luke found $20 in the park. He then gave it to his friend Ben who already had $15 and wanted to buy a video game worth $50. How much more does Ben need?",
+    "cot": "The total amount Ben has is $15 + $20 = $35. Ben still needs $50 - $35 = $15.",
+    "gold": "15",
+    "chain": [
+      "20",
+      "35",
+      "50"
+    ]
+  },
+  {
+    "ds_index": 5305,
+    "question": "Mindie bought 40 books at the book fair. She gave 15% of the books to her friend. Then, she lost 8% of the remaining books. How many books does she have left?",
+    "cot": "Mindie gave away 15/100 * 40 = 6 books to her friend. So, she was left with 40 books - 6 books = 34 books. She then lost 8/100 * 34 books = 2.72 books, which rounds down to 2 books because you can't lose part of a book. Therefore, she has 34 books - 2 books = 32 books.",
+    "gold": "32",
+    "chain": [
+      "15",
+      "100",
+      "40",
+      "6",
+      "34",
+      "8",
+      "2.72",
+      "2"
+    ]
+  },
+  {
+    "ds_index": 5306,
+    "question": "Tom planted 8 rows of blue flowers and each row had 7 flowers. He planted 3 times as many green flowers as blue flowers. How many flowers in total did Tom plant?",
+    "cot": "Tom planted 8*7 = 56 blue flowers. There were 56*3 = 168 green flowers. So, Tom planted 56+168 = 224 flowers in total.",
+    "gold": "224",
+    "chain": [
+      "8",
+      "7",
+      "56",
+      "3",
+      "168"
+    ]
+  },
+  {
+    "ds_index": 5307,
+    "question": "A student buys books for college. Each textbook is $120. For each textbook bought, a school supply pack is included which costs $10. If the total amount spent was $520, how many textbooks did the student buy?",
+    "cot": "Let X be the the number of textbooks bought. The complete package for each book bought is $120 for the textbook and $10 for school supplies = $130. The total amount spent $520 is divided by the total cost for each textbook and school suppy pack to figure out the number of textbooks: $520 / $130 = 4. Therefore, the student bought 4 textbooks.",
+    "gold": "4",
+    "chain": [
+      "120",
+      "10",
+      "130",
+      "520"
+    ]
+  },
+  {
+    "ds_index": 5308,
+    "question": "Gary's dad allows only 40 total ounces of food to be stored in the refrigerator at a time. Gary weighs his food and finds that cheese weighs 4 ounces, an apple weighs 3 ounces, a bottle of milk weighs 15 ounces, and bread weighs 5 ounces. Gary is storing 2 loaves of bread, 1 bottle of milk, and 2 apples. How many pieces of cheese can he add to the refrigerator and not exceed the limit?",
+    "cot": "He is storing 10 ounces of bread because 2 x 5 = 10 He is storing 6 ounces of apples because 2 x 3 = 6 He is already storing 31 ounces of food because 10 + 15 + 6 = 31 He can store 9 more ounces because 40 - 31 = 9 He can store 2 pieces of cheese because 9 / 4 = 2.25",
+    "gold": "2",
+    "chain": [
+      "10",
+      "5",
+      "6",
+      "3",
+      "31",
+      "15",
+      "9",
+      "40",
+      "4",
+      "2.25"
+    ]
+  },
+  {
+    "ds_index": 5309,
+    "question": "A bag of 5 apples costs $4. If John wants to buy 20 apples, how much would he spend?",
+    "cot": "John needs to buy 20 apples / 5 = 4 bags of apples. Therefore, John would spend 4 * $4 = $16.",
+    "gold": "16",
+    "chain": [
+      "20",
+      "5",
+      "4"
+    ]
+  },
+  {
+    "ds_index": 5310,
+    "question": "In a boxing match, each round is worth 20 points. Ron scored 160 points and lost 40 points in fouls. How many rounds did he play?",
+    "cot": "Ron accumulated 160 points and lost 40 points so the total points he earned was 160+40 = 200 points. Each round is worth 20 points so Ron played 200/20 = 10 rounds.",
+    "gold": "10",
+    "chain": [
+      "160",
+      "40",
+      "200",
+      "20"
+    ]
+  },
+  {
+    "ds_index": 5311,
+    "question": "In a fruit basket, there are 30 apples and 20 oranges. If every apple weighs 0.2kg and every orange weighs 0.3kg. What is the total weight of all the apples and oranges in the fruit basket?",
+    "cot": "The total weight of the apples is 30 apples * 0.2kg per apple = 6 kg The total weight of the oranges is 20 oranges * 0.3kg per orange = 6 kg So, the total weight of all the apples and oranges is 6 kg + 6 kg = 12 kg",
+    "gold": "12",
+    "chain": [
+      "30",
+      "0.2",
+      "6",
+      "20",
+      "0.3"
+    ]
+  },
+  {
+    "ds_index": 5312,
+    "question": "A cake needs 1/2 cup of flour. If Stella wants to bake 8 cakes for her party, how much flour should she prepare?",
+    "cot": "Stella needs 1/2 x 8 = 4 cups of flour for 8 cakes.",
+    "gold": "4",
+    "chain": [
+      "1",
+      "2",
+      "8"
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5444",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup expecting a numerical answer: \"6 \u00d7 2 = 12\" or similar arithmetic.\n\n Word problem format signals a solution walkthrough or arithmetic expression is imminent, likely \"12 kg\" or \"The total weight is 12.\"\n\n\"The answer is\" is an incomplete declarative sentence acting as a prompt for the numerical answer, immediately requiring a number or word phrase like \"12\" or \"12 pounds.\"\n\"The answer is 6 \u00d7 2 = 12.\"\n\"The answer is\" demands a direct numerical response, likely \"12\" or \"12 pounds,\" with no further explanation needed.\n6 children \u00d7 2 pounds each = 12.\n straightforward arithmetic conclusion.\n\"The answer is 6 \u00d7 2 = 12 pounds.\"\n6 \u00d7 2 = weight of books, so the next tokens must state the answer directly.\n\"The answer is .",
+    "Math word problem setup expecting arithmetic solution: 6 \u00d7 15 = 90 eggs.\n\nThe arithmetic problem structure demands a worked calculation or simple arithmetic expression showing the multiplication.\n\n\"The answer is is\" is a garbled/typo rendering of \"The answer is,\" immediately requiring a numerical result or arithmetic expression like \"90\" or \"6 \u00d7 15 eggs.\"\n\"The multiplication is 90 eggs.\"\nFinal token \"is\" is part of a garbled phrase introducing the solution, expecting a number or arithmetic expression next.\n\"The multiplication is simple\" or direct answer \"9 individual eggs.\"\n straightforward arithmetic answer expected immediately.\n\"The answer is 6 \u00d7 15 multiplication is 90 people \u00d7 1 each egg.\"\n straightforward arithmetic explanation follows.\n straightforward multiplication logic: 5 children \u00d7 2 eggs = simple multiplication.\n simply 15 \u00d7 3 = removing eggs from each child.",
+    "Math word problem format expects a numerical answer with arithmetic explanation, likely \"14\" or \"14 \u00d7 5 = 70.\"\n\nThe arithmetic word problem structure demands a simple arithmetic solution, expecting a multiplication expression or direct calculation.\n\n\"Answer:1\\n\\n\\nans:Answer\\n\" is a repeated placeholder/template artifact, suggesting the next token continues the answer field or begins a solution explanation, likely \"14\" or \"The total weight is 70 fingers.\"\n\"ans:Answer\\n\\n\\nans:\" suggests a formatting artifact mid-template, immediately constraining the next content to be a direct numerical answer.\n straightforward arithmetic: 5 children \u00d7 2 = 10 pairs, so the simple answer is 14.\nExplanation: each finger has 10 pairs, so summing 5\u00d71=5.\n straightforward multiplication logic.\n straightforward multiplication: 10 \u00d7 .",
+    "Math word problem format expects a numerical solution walkthrough, likely showing arithmetic steps or multiplication.\n\nThe arithmetic operation \"5 \u00d7 6 = 30\" is the expected answer, so the solution will likely demonstrate the multiplication.\n\n\"answiar\" is a misspelled word for \"answer,\" acting as a label introducing the solution text; the next tokens should be the word problem's answer or a simple arithmetic explanation like \"30 pounds.\"\n\"answiar\" is a corrupted \"answer,\" so the next tokens will likely be the mathematical solution or a simple arithmetic demonstration.\n straightforward arithmetic explanation follows.\n straightforward multiplication: 6 \u00d7 1 = each toy's weight, summing to 30 total.\n straightforward multiplication: 6 \u00d7 1 = 6 multiplication.\nMethod: simple arithmetic.\n5 children \u00d7 10 pounds = 50 total weight.\n straightforward multiplication logic.\n simply 1.",
+    "Math word problem format expects a simple arithmetic calculation answer, likely \"12 \u00d7 6 = 72\" or similar.\n\nThe word problem setup (\"6 pants \u00d7 6 pounds each\") signals a multiplication arithmetic problem requiring a numerical solution.\n\n\"answergenearby\" is a garbled placeholder for \"answer,\" immediately constraining the next tokens to be the word problem's solution, likely \"72\" or a simple arithmetic explanation.\n\"answergenearby\" suggests a corrupted template artifact, so the next content should be the arithmetic answer or solution text.\n straightforward arithmetic calculation expected: 6 \u00d7 1 = total weight.\n straightforward arithmetic explanation follows.\n simply 6 \u00d7 1 = 6 legs, so the answer is 6.\n straightforward multiplication logic: each child has 6 legs, summing to 72 total weight.\nMethod: 6 \u00d7 1.",
+    "Math word problem format expects a numerical answer, likely \"14\" or \"14 kg,\" following the arithmetic setup.\n\nThe word problem structure demands a simple arithmetic solution: 6 \u00d7 6 = 36 total socks, so the answer is 36.\n\n\"answergivenotices\" is a placeholder/template marker indicating the answer follows immediately, constraining the next token to be the word problem's direct answer, likely \"14\" or \"The answer is 14 pounds.\"\n\"answergivenotices\" functions as a prompt/label, so the next content should be a short numerical response.\n straightforward arithmetic calculation expected next.\nThere are 6 children \u00d7 10 socks = simple multiplication.\nThe sum of the weights is 6 \u00d7 1 = 6 pounds each, so the answer is 6 \u00d7 1 = total weight.\n straightforward answer."
+  ],
+  "input_sha256": "246b5ebfee67f557d56d9510853dc7a41e9ad07497d29dbac1e6a02829ce5389",
+  "values": [
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of simple arithmetic expressions like 6 \u00d7 2 = 12 and 15 \u00d7 3 = 45 (implied by the text 'simply 15 \u00d7 3 = removing eggs' though the result 45 is not explicitly written in that specific string, I have only included values explicitly written as numerals).",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"6\", \"value\": 6}, {\"quote\": \"2\", \"value\": 2}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"15\", \"value\": 15}, {\"quote\": \"90\", \"value\": 90}, {\"quote\": \"9\", \"value\": 9}, {\"quote\": \"5\", \"value\": 5}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"14\", \"value\": 14}, {\"quote\": \"70\", \"value\": 70}, {\"quote\": \"1\", \"value\": 1}, {\"quote\": \"10\", \"value\": 10}, {\"quote\": \"30\", \"value\": 30}, {\"quote\": \"50\", \"value\": 50}, {\"quote\": \"72\", \"value\": 72}, {\"quote\": \"36\", \"value\": 36}], \"justification\": \"Extracted explicit numeric literals and results of simple arithmetic expressions like 6 \\u00D7 2 = 12 and 15 \\u00D7 3 = 45 (implied by the text 'simply 15 \\u00D7 3 = removing eggs' though the result 45 is not explicitly written in that specific string, I have only included values explicitly written as numerals).\"}",
+  "prompt_sha256": "f9e222cdc304efbf38b5dec3dfdae703c917cb05e18f588f4175ff735f1dd247"
+}

@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5056",
+  "kind": "donor",
+  "descriptions": [
+    "Academic paper abstract following IMRaD structure: \"Results\" section is mid-sentence, requiring completion of the statistical finding about the 100% CI for the first group.\n\nThe pattern established by the first group's result (100% CI, p-value, effect size) must be mirrored for the second group, creating a parallel structure.\n\nFinal token \"100% CI\" is mid-sentence within the Results section, immediately requiring a numerical range (e.g., \"0.000 to 0.000\") and likely a p-value, mirroring the first group's format exactly.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the husband's reaction, building toward a conclusion about the film's emotional impact on him.\n\nCharacter relationship dynamic: the husband's \"cold\" personality is being contrasted with his emotional response to the film, suggesting a \"but\" or reversal is coming.\n\nFinal token \"was\" opens a past-tense predicate clause describing the husband's emotional state or reaction \u2014 likely a specific adjective or verb phrase like \"moved,\" \"moved to cry,\" or \"moved by the story.\"\n</explanation>",
+    "Narrative momentum: a real-life anecdote is being recounted, building toward a resolution or lesson about the \"no\" answer.\n\nThe story follows a cause-effect structure: the couple's question about the \"no\" answer sets up an explanation of why the doctor said \"no\" and what that meant.\n\nFinal token \"15\" is mid-sentence, part of \"it could be 15,\" requiring a number continuation (e.g., \"15 years\" or \"15 months\") describing the timeframe the doctor was considering for the cancer treatment.\n</explanation>",
+    "Narrative momentum: the text is recounting a specific incident (2013 dinner conversation) that led to the \"friend zone\" concept, building toward explaining the problematic dynamic that followed.\n\nRepetition/continuation pattern: the article repeatedly elaborates on the \"friend zone\" concept with concrete examples, suggesting the next tokens will describe the problematic behavior that resulted from the dinner conversation.\n\nFinal token \"60\" is a number mid-sentence (\"he thought he was 60\"), likely completing a phrase like \"60 years old\" or \"60 minutes,\" immediately constraining the next token to a unit of time or noun completing that measurement.\n</explanation>",
+    "The article follows a news report structure: incident summary, then detailed narrative, now concluding with a specific statistic about the suspect's age.\n\nThe sentence ending with \"the suspect was 28 years old\" is mid-completion, having just restated the age figure already mentioned earlier in the article, suggesting the next tokens will continue with additional details about the suspect's identity, background, or legal status.\n\nThe final token \"28\" is a repeated age figure mid-sentence, immediately constraining what follows to either a period ending the sentence or a continuation clause adding further identifying information about the suspect.\n</explanation>",
+    "Medical Q&A forum format: doctor answers follow patient questions, with structured responses expected after each question.\n\nThe second question about \"abnormal pap smear\" is mid-sentence, describing a patient's experience of unusual discharge, building toward a specific concern or question about what the discharge means.\n\nFinal token \"45\" is part of an incomplete sentence describing discharge volume (\"about 45\"), immediately requiring a unit of measurement (e.g., \"ml\" or \"mL\") to complete the quantity.\n</explanation>"
+  ],
+  "input_sha256": "6d5111b0f5b8538290fac466b07ea699b522a14bb7c998fc4b0fb0bbc8069347",
+  "values": [
+    {
+      "quote": "100% CI",
+      "value": "100"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages found within the provided descriptions, excluding dates and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100% CI\",\"value\":100},{\"quote\":\"15\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"28\",\"value\":28},{\"quote\":\"45\",\"value\":45}],\"justification\":\"Extracted explicit numeric literals and percentages found within the provided descriptions, excluding dates and identifiers.\"}",
+  "prompt_sha256": "cdd58cb219c43edeaac3bfc88d26058fb7d3a1172419644f7404cf8d7d6a2db2"
+}

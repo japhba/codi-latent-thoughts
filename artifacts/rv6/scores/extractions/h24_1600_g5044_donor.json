@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5044",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: computing new price after 10% discount, requiring arithmetic completion.\n\nThe worked example follows a structured pattern: original price \u2192 discount calculation \u2192 new price, with the final result expected to be a specific dollar figure.\n\nFinal token \"are\" opens a predicate completing the sentence \"The new price of the item are,\" requiring an immediate numerical value (likely \"62.74\" or similar decimal) representing the discounted price after 10% discount plus 10% tax.\n(60 + 10% \u00d7 60 = 62.74).\n(60 \u00d7 (1 - 10% discount) \u00d7 1.05) = the computed result must follow.\n60 \u00d7 1 + 15% less + 10% tax factor.\n(60 \u00d7 1 + -15.",
+    "Mathematical word problem solution in progress: original price $60 requires computing new price (60 + 15% = $72).\n\nThe structured solution format requires showing the arithmetic step-by-step, specifically the calculation of new price before applying discount percentage.\n\nFinal token \"had\" introduces the original price's new value \u2014 the immediate next tokens must be the computed result, almost certainly \"72\" (i.e., \"60 + 15% = 72 per book\"), completing the sentence before stating the discounted price calculation.\n60 + 15% = 72, so the next tokens must state the new price and then show the discount calculation.\n60 \u00d7 1.15 = 72, completing the original price before stating discounted price after 15% increase.\n60 + 15% = new price, then selling price.",
+    "Mathematical word problem requiring numerical completion: original price $600, increase 15% demands the new price calculation.\n\nThe solution structure requires showing arithmetic steps: 600 + 15% = 665, so the next token must be \"665\" completing the price figure.\n\nFinal token \"6\" is the start of the new price value (600 + 15% = 665), immediately constraining the next tokens to \"65\" completing the number, followed by decimal cents and the arithmetic result showing profit calculation.\n600 + 15% = 665 is the key intermediate result being stated.\n600 + 15% \u00d7 60 = 665 shares, establishing the new price before computing profit margin.\n600 + 15% increase = new.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning requires completing the arithmetic sequence.\n\nThe solution is mid-calculation, having established original price ($600) and 10% increase ($690), so the next step must state the new price and then apply the discount percentage.\n\nFinal token \"69\" is the beginning of the new price ($690), immediately requiring \"0\" to complete the number, then continuing with the discounted price calculation (690 + 10% = 765).\nFinal token \"69\" is an incomplete number mid-sentence, requiring \"0\" to complete \"$690\" before stating the discounted price after 10% increase.\n690 is the new price after 15% increase on 600.\n600 + 10% = 690.",
+    "Math word problem solution following step-by-step algebraic reasoning, requiring completion of the discount calculation chain.\n\nThe solution is mid-calculation, having established original price ($660) and percentage drop (10%), now computing the discount amount ($690) and then showing the reduced price ($591).\n\nFinal token \"690\" is the computed result of 10% of $690, immediately requiring the word \"decrease\" or \"off\" to complete the arithmetic expression showing the discount amount applied to the new price.\nFinal token \"690\" is part of the equation showing the discount of 10% of $690, requiring the next step: \"690 decrease\" or \"690 off the new price.\"\nFinal token \"690\" represents the next step showing the discount amount applied to the previous price.",
+    "Step-by-step worked example pattern: each problem shows calculation then concludes with final answer, following consistent format.\n\nThe second example is mid-completion: discount percentage (6%) has been calculated, and the narrative must now state the reduced price (original $10000 \u00d7 10% = $9900).\n\nFinal token \"6p.7s.6s.\" is a garbled placeholder for \"$6.\" completing the third step's discount calculation; next tokens must state the final reduced price, e.g., \"The price becomes $9900 after the discount period.\"\nFinal token \"6s.\" closes the last step's 7% drop, immediately requiring the concluding sentence stating the net price after the 10% discount period.\nFinal token \"6.\" is the last digit of the 7% decay amount, completing the 10% discount calculation."
+  ],
+  "input_sha256": "3ecd39266e4e7f1cad9fe7ad59b0dd7478b8c348e5d788e0579abcb0bf147d9a",
+  "values": [
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "62.74",
+      "value": "62.74"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "1.05",
+      "value": "1.05"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "-15",
+      "value": "-15"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "1.15",
+      "value": "1.15"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "665",
+      "value": "665"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "690",
+      "value": "690"
+    },
+    {
+      "quote": "69",
+      "value": "69"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "765",
+      "value": "765"
+    },
+    {
+      "quote": "660",
+      "value": "660"
+    },
+    {
+      "quote": "591",
+      "value": "591"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    },
+    {
+      "quote": "10000",
+      "value": "10000"
+    },
+    {
+      "quote": "9900",
+      "value": "9900"
+    },
+    {
+      "quote": "7%",
+      "value": "7"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10%\",\"value\":10},{\"quote\":\"62.74\",\"value\":62.74},{\"quote\":\"60\",\"value\":60},{\"quote\":\"1.05\",\"value\":1.05},{\"quote\":\"1\",\"value\":1},{\"quote\":\"15%\",\"value\":15},{\"quote\":\"-15\",\"value\":-15},{\"quote\":\"72\",\"value\":72},{\"quote\":\"1.15\",\"value\":1.15},{\"quote\":\"600\",\"value\":600},{\"quote\":\"665\",\"value\":665},{\"quote\":\"6\",\"value\":6},{\"quote\":\"65\",\"value\":65},{\"quote\":\"690\",\"value\":690},{\"quote\":\"69\",\"value\":69},{\"quote\":\"0\",\"value\":0},{\"quote\":\"765\",\"value\":765},{\"quote\":\"660\",\"value\":660},{\"quote\":\"591\",\"value\":591},{\"quote\":\"6%\",\"value\":6},{\"quote\":\"10000\",\"value\":10000},{\"quote\":\"9900\",\"value\":9900},{\"quote\":\"7%\",\"value\":7}],\"justification\":\"Extracted all distinct numeric literals, percentages, and arithmetic results explicitly stated within the provided descriptions, ensuring each value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "5ddbc8235bc396f7826aa7f6d321cd0e6c26d311a676ce3aad0988359cd3b44a"
+}

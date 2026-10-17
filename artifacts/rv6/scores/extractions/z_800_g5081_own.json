@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5081",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: article presents hazard ratios with confidence intervals, e.g., \"HR=1.99, 95% CI: 1.08-3.34,\" establishing a template for reporting findings.\n\nDomain-specific continuation: academic/technical report on crash types, requiring precise numerical hazard ratio data for each crash category mentioned.\n\nFinal token \"is\" opens a predicate completing \"The hazard of a crash involving a light vehicle is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.99\" or similar) followed by a comma and confidence interval.",
+    "Narrative momentum of character backstory: the plot summary is recounting romantic history, and the scene is mid-sequence, tracking the timeline of events leading to the reunion.\n\nPlot structure of the synopsis: the text follows a cause-effect chain (marriage \u2192 divorce \u2192 new relationship \u2192 reunion), and the next tokens will continue this timeline, likely describing what happened after the 330-day separation.\n\nFinal token \"393 was 300 was 363\" (likely garbled \"393 was 363\" or a typo) \u2014 mid-sentence, \"393 was 300 was 363\" suggests a time reference, and \"363\" introduces a new character or relationship detail, so the next tokens complete this clause about the couple's situation.",
+    "Narrative momentum of personal testimony: author is recounting their spiritual journey, moving from skepticism to acceptance, building toward resolution of the book's plot.\n\nBook description genre conventions: the text follows a structured book summary format, blending plot summary with thematic commentary; the romantic/faith arc is being elaborated with emotional payoff expected.\n\nFinal token \"2\" is mid-sentence (\"24 is 24... 12 months... 12 months... 24\"), part of \"2012... 24\" \u2014 the number \"24\" is incomplete, likely continuing \"2012\" or \"24 months,\" and the narrative momentum demands completing the personal transformation story with the author's emotional response to the conversion.",
+    "Narrative momentum of personal testimony: author is recounting their dating history and spiritual journey, building toward a resolution or turning point about the book's origin.\n\nBook description genre conventions: author bio section follows standard Christian publisher format, blending faith, personal story, and spiritual reflection \u2014 the conversion timeline and relationship with God are expected to culminate in the book's creation.\n\nFinal token \"222\" is a truncated year (\"2012 to 622\"), part of \"622 days\" or \"622 months\" \u2014 the date \"122\" is mid-word, so \"24\" completing \"1224\" or \"25\" follows, continuing the timeline of the relationship ending.",
+    "Q&A advice format with a real-world anecdote structure: question posed, expert answer given, now narrative resolution expected \u2014 the story is resolving the advice with a follow-up action.\n\nConfidentiality/privacy concern narrative: the doctor's disclosure to the friend is being recounted, and the anecdote is building toward a moral or legal clarification about advice-giving responsibility.\n\nFinal token \"222\" is mid-sentence (\"220\" or \"2220\" \u2014 \"220\" is the truncated \"222\"), completing \"220%\" as \"222%\" \u2014 the number \"222\" is the end of \"220%\" and the sentence continues with advice or action taken.",
+    "Legal Q&A format with structured case analysis: question posed, procedural history given, now the answer must explain the legal reasoning and resolution of the factual scenario.\n\nProcedural pattern of the analysis: the answer follows a step-by-step legal reasoning structure, moving from facts to procedural history to the specific legal question, now requiring the actual legal analysis of the church's rights and actions.\n\nFinal token \"89 attendees were 128 people meeting the church meeting was 7.8 people who were present was 89 attendees\" \u2014 mid-sentence, \"14 meeting attendees were present\" is the church's claim, and the next tokens must complete this procedural history before addressing the legal question."
+  ],
+  "input_sha256": "22ca7922dce45e4818974f30173d376529ffb8ee6b6138510a343aa581850d2a",
+  "values": [
+    {
+      "quote": "1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "330-day",
+      "value": "330"
+    },
+    {
+      "quote": "393",
+      "value": "393"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "363",
+      "value": "363"
+    },
+    {
+      "quote": "12 months",
+      "value": "12"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "2012",
+      "value": "2012"
+    },
+    {
+      "quote": "622",
+      "value": "622"
+    },
+    {
+      "quote": "222",
+      "value": "222"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "89",
+      "value": "89"
+    },
+    {
+      "quote": "128",
+      "value": "128"
+    },
+    {
+      "quote": "7.8",
+      "value": "7.8"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and hyphenated quantities from the provided descriptions, ensuring each unique value/quote pair is represented exactly as it appears in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.99\",\"value\":1.99},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"3.34\",\"value\":3.34},{\"quote\":\"330-day\",\"value\":330},{\"quote\":\"393\",\"value\":393},{\"quote\":\"300\",\"value\":300},{\"quote\":\"363\",\"value\":363},{\"quote\":\"12 months\",\"value\":12},{\"quote\":\"24\",\"value\":24},{\"quote\":\"2012\",\"value\":2012},{\"quote\":\"622\",\"value\":622},{\"quote\":\"222\",\"value\":222},{\"quote\":\"220\",\"value\":220},{\"quote\":\"89\",\"value\":89},{\"quote\":\"128\",\"value\":128},{\"quote\":\"7.8\",\"value\":7.8},{\"quote\":\"14\",\"value\":14}],\"justification\":\"Extracted all explicit numeric literals, percentages, and hyphenated quantities from the provided descriptions, ensuring each unique value/quote pair is represented exactly as it appears in the text.\"}",
+  "prompt_sha256": "ecd78534c7f49663030538f19b4f55bee41649f69030f43a030f19bf0fa93e3d"
+}

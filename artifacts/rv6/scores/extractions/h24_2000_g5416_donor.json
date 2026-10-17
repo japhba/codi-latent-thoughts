@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5416",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem solution format requires a numerical answer to complete the algebraic setup.\n\nThe equation x + 130x = $1300 must be solved for x, giving the answer: (1300 - 1000) / $10 = 300 smaller tickets.\n\nFinal token \"is\" introduces the answer phrase \"The number of smaller tickets is,\" requiring an immediate numerical value (likely \"300\") completing the solution statement.\n(1300*10 + 150*30) difference representing the unknown third category.\n(300 tickets) needed to equal the total.\n(1500 \u2212 (1300 + 100x)) / $50 = difference in price per category.\n(1300 \u2212 100x) / 50 = x.",
+    "Mathematical problem-solving context: calculating total score of 150 tickets, requiring arithmetic continuation.\n\nThe solution is building toward a minimum score calculation, using the formula: 150 tickets \u00d7 base points (15 points each) plus remaining tickets at lower values.\n\nFinal token \"has\" begins a clause completing the equation \"150 tickets \u00d7 $15 each = $2250\" or similar, immediately requiring the maximum base-point value to contrast with remaining lower-value tickets.\n$15 \u00d7 10 of the 15 players, so the next tokens must state the total base score before adding remaining points.\n(150 points from full players) minus (lower points for remaining players).\n$150 \u00d7 10 = $1500 contribution from the 15 most expensive machines, leaving ~$1500 needed to complete.",
+    "Math problem-solving walkthrough: calculating expected value of 100 tickets at $15 each, requiring arithmetic completion.\n\nThe solution is mid-calculation, having established total points (1500) and now breaking down by individual scores to find remaining points.\n\nFinal token \"15\" begins the sum of top 100 players' scores (150 points from maximum), immediately requiring \"00\" to complete \"$1500\" as the baseline revenue before setting up the remaining points equation.\n$150 from the top players, leaving ~$1350 to account for lower players.\n$150*100 for men, implying the next step is subtracting this from remaining players' points to solve for unknowns.\nwe get $150 from the 100 tickets at $15 minimum score, so the remaining constraint.",
+    "Math problem-solving walkthrough in progress: algebraic equation setup requires completing the total ticket revenue calculation and solving for x.\n\nThe equation structure demands continuation: \"1500 tickets \u00d7 average price = $1500 minus remaining tickets\" logic must resolve to find x.\n\nFinal token \"150\" is mid-sentence in a mathematical explanation showing total revenue from one ticket type (likely adult), immediately requiring completion of the equation or logical deduction showing the remaining constraint.\n$1500 is the start of a numerical comparison showing the remaining tickets must sum to $1200 minus $x difference.\nFinal token \"$1500\" is part of an arithmetic demonstration showing the impossible case where all tickets yield $1500, requiring the next step: \" minus (x tickets \u00d7 $30) = remaining tickets.\"\n$1500 from adult tickets minus (3.",
+    "Mathematical equation solving: revenue equation (1300x + 1500y = 3150) requires completing the difference between total and combined revenue.\n\nNumerical constraint: the difference (3150 - 1500x) must equal $1300, so the unknown x = 1300/100 = 300.\n\nFinal token \"p\" is mid-sentence in a worked example showing the profit equation ($1300-1500x), immediately requiring the numerical result or equation completion like \"300 = $1300 - ($1500+300x)\".\n(1300-1500*100) difference completing the profit equation.\n$1500*300 = gap needed to solve for.",
+    "Mathematical problem-solving pattern: step-by-step algebraic reasoning with equations, showing how to solve for unknowns in a two-part ticket problem.\n\nSecond equation setup: total revenue equation (x + 2x = $1400) has been established, and the difference (1400 \u2212 $100x) must equal the unknown total sold.\n\nFinal token \"80.00. 0.\" ends the remainder of the algebraic equation showing the unknown difference ($0), immediately requiring the conclusion: solving for x to find the number of tickets sold.\nFinal token \"0. 180.\" closes the logical step, demanding the next line state the solution: \"Therefore, the third category had 100 tickets.\"\nFinal token \"180.\" ends the negative remainder calculation ($800 \u2212 $100x = $0 remaining),."
+  ],
+  "input_sha256": "1b7b2250cae1da2ee34c4f5a265d77cc8a16ac34af4645450599cbc5a93a20b4",
+  "values": [
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "1300",
+      "value": "1300"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "2250",
+      "value": "2250"
+    },
+    {
+      "quote": "1350",
+      "value": "1350"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "3150",
+      "value": "3150"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1400",
+      "value": "1400"
+    },
+    {
+      "quote": "80.00",
+      "value": "80"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 1300-1000=300) explicitly stated in the descriptions, excluding years, ordinals, and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"130\",\"value\":130},{\"quote\":\"1300\",\"value\":1300},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"10\",\"value\":10},{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"30\",\"value\":30},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"15\",\"value\":15},{\"quote\":\"2250\",\"value\":2250},{\"quote\":\"1350\",\"value\":1350},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"3\",\"value\":3},{\"quote\":\"3150\",\"value\":3150},{\"quote\":\"2\",\"value\":2},{\"quote\":\"1400\",\"value\":1400},{\"quote\":\"80.00\",\"value\":80},{\"quote\":\"0\",\"value\":0},{\"quote\":\"180\",\"value\":180},{\"quote\":\"800\",\"value\":800}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 1300-1000=300) explicitly stated in the descriptions, excluding years, ordinals, and identifiers.\"}",
+  "prompt_sha256": "5e89af0c2b8e9f79e569dc5d0cee4d0b00d1f2b1a8dda7290aedb2f495140e4c"
+}

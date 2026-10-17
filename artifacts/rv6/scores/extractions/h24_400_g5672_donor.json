@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5672",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: total expected earnings must be computed as 6\u00d712 minus the final week's 2 points, i.e., 6\u00d712 \u2212 2 = 72.\n\nThe context establishes a specific arithmetic answer: 12 weeks \u00d7 6 points each, but the final week is excluded, constraining the next token to be \"72\" (since 6\u00d712 \u2212 2\u00d71 = 72).\n\nFinal token \"Total earnings were $\" opens a dollar-amount answer, requiring an integer representing the calculated total (72) representing 10 weeks \u00d7 6 points minus the final week's 2 points.",
+    "Mathematical calculation in progress: the user is computing total weekly hours after subtracting two breaks from 6 weeks, expecting \"6 - 2 = 4 weeks\" or similar.\n\nThe structured answer format requires completing the arithmetic: 6 weeks \u00d7 6 days = 36 total, but with two breaks removed, the effective count must be calculated (6 - 0.5 each = 4).\n\nFinal token \"had\" begins a clause describing the reduced weekly count the user would have worked, immediately requiring a number (likely \"4\") representing the remaining weeks after removing the two half-week breaks.",
+    "Mathematical calculation in progress: computing total hours worked by subtracting half days from full days (6 days \u00d7 1.5 hours each, then 2 half days).\n\nThe explanation is mid-sentence listing the adjusted hours worked: \"you have 4\" implies completing the count of days (1 full + 1 half = 4 hours remaining).\n\nFinal token \"4\" is the start of the calculated total hours worked (1.5\u00d74 minus the two half days), immediately requiring continuation like \"hours\" or the arithmetic result, e.g., \"4 hours\" or \"4.5 hours\" to complete the equation showing the adjusted weekly hours.",
+    "Mathematical calculation in progress: computing total hours worked, combining full days (6) and half days (2) with deductions (0.5 each).\n\nThe explanation is mid-sentence completing a calculation: \"6 + 1/2 hours per day = 6.5 hours\" but the user is tracking exact fractional hours worked, suggesting the next tokens will state the total hours worked (6.5 hours) and then compute the weekly total (6.5 \u00d7 10).\n\nFinal token \"1.5p\" ends a fractional expression \"6 + 1/2 hours minus 0.5 each,\" immediately requiring the conclusion of the hours calculation, likely \"hours\" or a numerical result like \"hours of work\" or \"hours per week.\"",
+    "Math problem solution pattern: each problem follows a structured format showing calculation steps, with the final answer being the total number of rides.\n\nThe second problem is mid-calculation, having established 14 total rides, excluded 2 full rides (1.5 hours), and calculated remaining rides (12.5 + 0.5 = 13.5), now requiring the multiplication by fare (0.25 \u00d7 13.5).\n\nFinal token \"p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p.6.7p",
+    "Repetition/continuation pattern: each problem follows identical structure \u2014 state total, state difference, calculate result, state final amount. The third problem has established \"10 more than 1/5th of the original\" and now requires its calculated dollar value.\n\nImmediate semantic expectation: the pattern requires a numerical answer: \"10 \u00d7 0.15 = 1.5 dollars\" to complete the calculation, mirroring prior answers like \"$1.50\" and \"$1.50.\"\n\nFinal token \"cases.\" closes the question listing the two cases (15, 20), immediately requiring the computed answer: \"The amount earned is 1.5 dollars.\""
+  ],
+  "input_sha256": "6671f35a5a9dda1f2144de8dd8a28a1ff20f4a83229050814526aa5cc8937401",
+  "values": [
+    {
+      "quote": "6\u00d712",
+      "value": "72"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "6.5",
+      "value": "6.5"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "12.5",
+      "value": "12.5"
+    },
+    {
+      "quote": "13.5",
+      "value": "13.5"
+    },
+    {
+      "quote": "0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "6.7",
+      "value": "6.7"
+    },
+    {
+      "quote": "1/5th",
+      "value": "0.2"
+    },
+    {
+      "quote": "0.15",
+      "value": "0.15"
+    },
+    {
+      "quote": "1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6\\u00D712\",\"value\":72},{\"quote\":\"12\",\"value\":12},{\"quote\":\"2\",\"value\":2},{\"quote\":\"72\",\"value\":72},{\"quote\":\"6\",\"value\":6},{\"quote\":\"1\",\"value\":1},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4\",\"value\":4},{\"quote\":\"36\",\"value\":36},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"6.5\",\"value\":6.5},{\"quote\":\"14\",\"value\":14},{\"quote\":\"12.5\",\"value\":12.5},{\"quote\":\"13.5\",\"value\":13.5},{\"quote\":\"0.25\",\"value\":0.25},{\"quote\":\"6.7\",\"value\":6.7},{\"quote\":\"1/5th\",\"value\":0.2},{\"quote\":\"0.15\",\"value\":0.15},{\"quote\":\"1.50\",\"value\":1.5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"20\",\"value\":20}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "e4a1e0fc44c91f3e65251619b2ddd6fba495420dfdf8ecc99601cd628cbf4eb9"
+}

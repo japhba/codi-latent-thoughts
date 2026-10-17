@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5180",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: sum of 2x + twice + one half = total count.\n\nThe pattern \"2x + 2x + half\" establishes a specific arithmetic expression needing a numerical answer, likely \"45\" or similar integer.\n\nFinal token \"Total:\" introduces the solution prompt, immediately requiring a numerical answer (e.g., \"450 parts\") representing the calculated sum of all components.\n45+2\u00d745+1\u00d750 = 450 components, so the next tokens must state the total count of parts.\n45+ twice 45+ half 45+10 small parts = 130+6+10=146 components plus original 40.\n4\u00d740+ half\u00d7(40+2\u00d745+10) = completing the equation.",
+    "Math tutoring context requires completing a numerical calculation: 2x = 46, so the next tokens must state the arithmetic result (46).\n\nThe student is solving a multi-step arithmetic problem, having identified the pattern: 2 times 45, then summing all three categories.\n\nFinal token \"is\" begins a predicate completing the arithmetic instruction \"45 + twice that = 135,\" immediately requiring the computed result or the next step (e.g., \"45*2=90\" for second category, then third category).\n45*2 = 90 for second category, so the next tokens must state the arithmetic operation or the computed sum of all numbers.\n45*2 = 90 cars, then + 10 + remaining numbers.\n45 cars for second category, completing the arithmetic sequence.\n twice 45 = 90.",
+    "Math tutoring walkthrough pattern: step-by-step algebraic reasoning with substitution method, expecting continued arithmetic demonstration.\n\nThe sequence is mid-calculation, having established total=68 and now solving for each variable; the next step must show computing 2x or completing the arithmetic expression.\n\nFinal token \"9 answer 0 is 9 answer\" is mid-sentence in a worked example, immediately requiring the arithmetic result or explanation of the third category (68 minus 2x).\nFinal token \"is 0 answer\" signals an incomplete explanation, expecting \"the third category\" or similar clarifying phrase completing the substitution logic.\nFinal token \"is 0 answer\" is mid-sentence showing the computed result of half of 30, expecting \"the answer\" or \"6\" confirming the third category's value.\n\"0 answer\" likely continues with completing the arithmetic chain showing 3\u00d76=1.",
+    "Math problem walkthrough pattern: step-by-step algebraic solution showing substitution, expecting continued arithmetic demonstration.\n\nThe sequence shows a worked example with variables x and y, where y = 3x + 10, and the solution is mid-calculation showing y=100 total broken into three parts.\n\nFinal token \"Answer: 0Answer: 0Answer: 0\\nAnswer: 0\\nAnswer: 0\\nAnswer: 0\\n\" \u2014 repeated placeholder pattern signals the next token continues the solution, likely showing the arithmetic result or confirming the third category sum.\nFinal token \"Answer: 0Answer\\n\" closes the third category's calculation, immediately expecting the arithmetic result or confirmation of 3x + 10 = 40 for the remaining two groups.\nFinal token \"100\" confirms the computed answer, completing the verification step.\nThe pattern shows the total.",
+    "Math problem walkthrough pattern: each step builds on prior, showing arithmetic operations with explanations.\n\nThe solution is mid-calculation, having established total=180 and now computing blue balls (twice 36 + 36 = 108), so the next step must state the arithmetic result and sum.\n\nFinal token \"ans:answ\" is a repeated placeholder/label, immediately requiring the computed answer \"108\" or the combined blue count result showing 36+twice 30+1=108 total blue balls.\nFinal token \"answ\" closes the third category's breakdown, expecting the arithmetic conclusion confirming 108 blue balls total.\n verification of blue balls: 30+ half of red + 3 blue = 68, confirming the third category's count before stating total sum.\n3+2 times 30 =.",
+    "Math word problem walkthrough following a structured step-by-step solution format, with each step building on the previous.\n\nThe pattern establishes a calculation chain: blue = 3x, red = 3x, total = 108 \u2014 the next step must sum these numbers (30 + 3x + 10 = 50).\n\nFinal token \"answergun\" is a corrupted placeholder for \"answer,\" immediately requiring the computed result of the third category (blue count: 30 + twice 30 = 80 animals), continuing the verification/summary step.\nFinal token \"answergun\" closes the intermediate verification line, expecting the arithmetic result showing 80 total blue + 30 red + 10 unknowns.\n3 times 30 + 10 = 100, confirming the unknown count calculation.\nThe third category (blue."
+  ],
+  "input_sha256": "dfe55486ac7a20c83773ce78fac195fa00f2d89c2f0f5d1df0693068490ed862",
+  "values": [
+    {
+      "quote": "2x",
+      "value": "2"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "2\u00d745",
+      "value": "90"
+    },
+    {
+      "quote": "1\u00d750",
+      "value": "50"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "146",
+      "value": "146"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "4\u00d740",
+      "value": "160"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "45*2=90",
+      "value": "90"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "3\u00d76=1",
+      "value": "18"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "108",
+      "value": "108"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "half",
+      "value": "0.5"
+    },
+    {
+      "quote": "twice",
+      "value": "2"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers (half, twice), and arithmetic expressions (e.g., 4*40, 3*6) from the provided text descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"2x\",\n      \"value\": 2\n    },\n    {\n      \"quote\": \"45\",\n      \"value\": 45\n    },\n    {\n      \"quote\": \"450\",\n      \"value\": 450\n    },\n    {\n      \"quote\": \"2\\u00D745\",\n      \"value\": 90\n    },\n    {\n      \"quote\": \"1\\u00D750\",\n      \"value\": 50\n    },\n    {\n      \"quote\": \"130\",\n      \"value\": 130\n    },\n    {\n      \"quote\": \"6\",\n      \"value\": 6\n    },\n    {\n      \"quote\": \"10\",\n      \"value\": 10\n    },\n    {\n      \"quote\": \"146\",\n      \"value\": 146\n    },\n    {\n      \"quote\": \"40\",\n      \"value\": 40\n    },\n    {\n      \"quote\": \"4\\u00D740\",\n      \"value\": 160\n    },\n    {\n      \"quote\": \"46\",\n      \"value\": 46\n    },\n    {\n      \"quote\": \"135\",\n      \"value\": 135\n    },\n    {\n      \"quote\": \"45*2=90\",\n      \"value\": 90\n    },\n    {\n      \"quote\": \"68\",\n      \"value\": 68\n    },\n    {\n      \"quote\": \"30\",\n      \"value\": 30\n    },\n    {\n      \"quote\": \"3\\u00D76=1\",\n      \"value\": 18\n    },\n    {\n      \"quote\": \"100\",\n      \"value\": 100\n    },\n    {\n      \"quote\": \"180\",\n      \"value\": 180\n    },\n    {\n      \"quote\": \"36\",\n      \"value\": 36\n    },\n    {\n      \"quote\": \"108\",\n      \"value\": 108\n    },\n    {\n      \"quote\": \"3\",\n      \"value\": 3\n    },\n    {\n      \"quote\": \"50\",\n      \"value\": 50\n    },\n    {\n      \"quote\": \"80\",\n      \"value\": 80\n    },\n    {\n      \"quote\": \"half\",\n      \"value\": 0.5\n    },\n    {\n      \"quote\": \"twice\",\n      \"value\": 2\n    },\n    {\n      \"quote\": \"0\",\n      \"value\": 0\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals, spelled-out numbers (half, twice), and arithmetic expressions (e.g., 4*40, 3*6) from the provided text descriptions, ensuring each distinct value is mapped to a unique quote.\"\n}",
+  "prompt_sha256": "e4b63d70d7c98c409cfc1b89f86529727e2b5a185bd92fb7a1d9e5f85b7c921e"
+}

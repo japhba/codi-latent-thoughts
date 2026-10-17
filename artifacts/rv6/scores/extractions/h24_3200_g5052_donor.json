@@ -1,0 +1,121 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5052",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup requiring a numerical answer: 500 dollars \u00f7 $25 = 20 eggs.\n\nThe problem structure demands a specific arithmetic calculation, with the answer being a number (likely \"20\" or \"five eggs per day\").\n\nThe final token \"is\" opens a declarative question prompt, immediately requiring a numerical answer or question mark, likely \"20 eggs\" or \"five eggs per week.\"\n500 / $25 / $25 = 5 eggs per week, so the answer is the number of eggs the student can purchase daily.\n50 / 2.5 / 2.5 = budget constraint, so the answer reveals the maximum number of eggs per week.\n50 / 25 / 2.5 = 5 eggs per week.\n50 / 25 = per-person daily spending limit.\n50 /.",
+    "Math word problem solving context: a specific arithmetic problem about budget division requires numerical calculation.\n\nThe solution structure demands a calculation: $50 total / 50 books = $1 per book, so the next tokens will state the remaining available budget or the maximum number of books.\n\nFinal token \"has\" opens a clause stating the available amount or constraint, immediately requiring a number or quantity phrase like \"50 dollars to spend\" or \"a maximum of 50 \u00d7 $50 = $250 available.\"\nFinal token \"has\" begins a sentence stating the total budget constraint, requiring a dollar amount or numerical expression next.\n50 \u00d7 $2 = available spending per book.\n50 / 15 days = $50 remaining for 50 books, so the next tokens will state the per-book cost or solve for maximum number of books.\n50 / 5 days =.",
+    "Math word problem walkthrough in progress: solving $50 \u00f7 $5 = maximum tickets, requiring arithmetic completion.\n\nThe solution is explaining how to find maximum tickets by dividing $50 by $5 per day, with the answer being 10.\n\nThe final token \"12\" is mid-sentence in a worked example showing the arithmetic result, immediately requiring the completion of the division calculation, likely \"10 tickets available\" or \"10 tickets can be purchased.\"\nFinal token \"10\" begins the numerical conclusion of the constraint calculation, explaining the maximum spending per day.\nYou can use 5 tickets \u00d7 $2 = $10 total budget, so next tokens will state how many tickets per day.\n20 / $5 = 4 tickets available, so 12 tickets divided by $5 = 25 possible purchases per week.\nEach person can buy 4 tickets.",
+    "Math word problem walkthrough requiring arithmetic completion: $50 \u00f7 $5 = 10 tickets per day.\n\nThe solution structure demands showing the division work: \"5 days \u00d7 $5 = $25 available per day.\"\n\nThe final token \"10 p\" is mid-sentence in a worked solution, immediately requiring the numeric result of the division calculation, likely \"10 p / $25 = 4 tickets can be purchased.\"\nFinal token \"1p\" is part of \"$20 / $2.5 = 8\" or similar, completing the arithmetic expression showing maximum per-day spending.\nFinal token \"16\" is the computed value, leading to the conclusion about how many tickets.\n5 tickets available per day.\n10 / 2.5 = 8 dollars, so the next step shows 8 / 5 = 1.6, then the number of.",
+    "Math word problem walkthrough format: solution steps follow a structured pattern of calculation then answer.\n\nThe arithmetic solution requires showing the division: 22 \u00f7 $22 = 10 tickets per week, confirming the answer.\n\nThe final token \"2. p. 20.\" ends the solved calculation mid-result, immediately requiring the division result \"20 tickets\" or the next step showing the answer \"2 tickets per week.\"\nFinal token \"2. 20.\" is the computed maximum daily purchase, completing the algebraic expression \"22 / $20 = 2 tickets.\"\nFinal token \"2s.\" ends the division result, so the next tokens must state the answer: \"2 tickets per week can be purchased.\"\nFinal token \"2s.\" is the intermediate result showing the solved value before stating how many tickets per week.\n20 / 50 = 4, so.",
+    "Math word problem format: solution walkthrough requires showing arithmetic steps, likely \"24 / 24 = 1 student per week.\"\n\nThe question demands a numerical answer, so the solution must demonstrate the division calculation and yield the final answer.\n\nThe final token \"problem.\" closes the question prompt \"How many students were sold per week?\" \u2014 immediately expecting the worked solution showing the division result, e.g., \"12 / 24 = 0.5 students per week average.\"\nFinal token \"problem.\" ends the prompt setup, requiring the solution narrative to follow next.\n26 / 24 = 1.05, so the answer is 1.05 students per week, then the answer \"1 student per week\" or similar.\nFind the solved value for n: 24 / 60 = weekly sales, then find n = 12 / 6."
+  ],
+  "input_sha256": "52b2e9d9c5d318eb18a75d18391651db963d6b655157712c9f23ec1b3f79aa18",
+  "values": [
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "five",
+      "value": "5"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "2.5",
+      "value": "2.5"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "1p",
+      "value": "1"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "1.6",
+      "value": "1.6"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "2. p. 20.",
+      "value": "2"
+    },
+    {
+      "quote": "20.",
+      "value": "20"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "1.05",
+      "value": "1.05"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and results of unambiguous arithmetic expressions from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500\",\"value\":500},{\"quote\":\"25\",\"value\":25},{\"quote\":\"20\",\"value\":20},{\"quote\":\"five\",\"value\":5},{\"quote\":\"5\",\"value\":5},{\"quote\":\"50\",\"value\":50},{\"quote\":\"2.5\",\"value\":2.5},{\"quote\":\"1\",\"value\":1},{\"quote\":\"250\",\"value\":250},{\"quote\":\"2\",\"value\":2},{\"quote\":\"15\",\"value\":15},{\"quote\":\"10\",\"value\":10},{\"quote\":\"12\",\"value\":12},{\"quote\":\"4\",\"value\":4},{\"quote\":\"1p\",\"value\":1},{\"quote\":\"16\",\"value\":16},{\"quote\":\"1.6\",\"value\":1.6},{\"quote\":\"22\",\"value\":22},{\"quote\":\"2. p. 20.\",\"value\":2},{\"quote\":\"20.\",\"value\":20},{\"quote\":\"24\",\"value\":24},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"1.05\",\"value\":1.05},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and results of unambiguous arithmetic expressions from the provided descriptions.\"}",
+  "prompt_sha256": "b47f29f110226c47e99a5ba5436225ce515d1915ebfc09854445aeed65ff38da"
+}

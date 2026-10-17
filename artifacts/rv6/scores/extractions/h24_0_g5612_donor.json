@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5612",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: 300 \u00d7 2 = 600, so the next token must be the computed result \"600.\"\n\nMultiple-choice answer selection expected after the calculated value, likely followed by explanation or confirmation of correct answer.\n\nThe final token \"is\" opens a predicate completing the sentence \"The total number of books sold is ___,\" requiring an immediate numerical answer (600) before the sentence closes.\n</explanation>",
+    "Math word problem solution in progress: total socks = 20 \u00d7 2 = 40, now calculating half (20 socks) and 2 pairs (4 socks), requiring arithmetic continuation.\n\nStep-by-step worked solution format established, with each step building on the previous calculation, expecting the next logical step: \"2 pairs = 4 socks.\"\n\nFinal token \"is\" opens a predicate completing \"There are [number] socks,\" requiring an immediate numerical answer (likely \"40\") followed by explanation of how to split them into half.\n</explanation>",
+    "Math word problem solution in progress: arithmetic calculation in progress, requiring completion of 60 \u00d7 2 = 120 total socks.\n\nStep-by-step solution structure: the solution is walking through the problem systematically, with the multiplication step mid-calculation.\n\nFinal token \"6\" is the beginning of the multiplication result \"60 \u00d7 2 = 120,\" immediately constraining the next tokens to complete \"120\" followed by explanation of how to use this to solve for the unknown number of pairs.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Find the number,\" \"Write the equation,\" \"Solve the equation\").\n\nThe solution is mid-calculation, having established total pairs (60) and now computing total pairs of three people (3\u00d72=6), so the equation setup and solving steps are expected next.\n\nFinal token \"60\" is the right-hand side of the equation \"2x = 60,\" immediately requiring the next step: either completing the equation (e.g., \"= 60 pairs\") or proceeding to solve for x.\n</explanation>",
+    "Mathematical calculation in progress: 60 \u00d7 2 = 120, so the next token must be \"60\" completing the arithmetic expression \"60 + 120 = 180.\"\n\nMultiple-choice answer selection expected after the calculation resolves, pointing toward option A (180).\n\nThe final token \"60+\" is mid-expression in a worked example, immediately requiring the numeric result \"120\" to complete the addition before stating the total answer.\n</explanation>",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough with labeled sections (e.g., \"First,\" \"Second,\" \"Third\") and arithmetic operations shown explicitly.\n\nThe solution is mid-calculation, having established total passengers (140) and cars (50) with 30 passengers in cars, now requiring the remaining passengers to be computed: 140 \u2212 30 = 110.\n\nFinal token \"30\" is the result of the arithmetic operation \"140 \u2212 30,\" immediately requiring the computed answer \"110\" followed by explanation of the remaining passengers in cars.\n</explanation>"
+  ],
+  "input_sha256": "29362cef620f734f98bb219f0ea54450729d04b88e4481ff0c1baffc37d88bd9",
+  "values": [
+    {
+      "quote": "300 \u00d7 2 = 600",
+      "value": "300"
+    },
+    {
+      "quote": "300 \u00d7 2 = 600",
+      "value": "2"
+    },
+    {
+      "quote": "300 \u00d7 2 = 600",
+      "value": "600"
+    },
+    {
+      "quote": "total socks = 20 \u00d7 2 = 40",
+      "value": "20"
+    },
+    {
+      "quote": "total socks = 20 \u00d7 2 = 40",
+      "value": "2"
+    },
+    {
+      "quote": "total socks = 20 \u00d7 2 = 40",
+      "value": "40"
+    },
+    {
+      "quote": "2 pairs (4 socks)",
+      "value": "4"
+    },
+    {
+      "quote": "60 \u00d7 2 = 120",
+      "value": "60"
+    },
+    {
+      "quote": "60 \u00d7 2 = 120",
+      "value": "2"
+    },
+    {
+      "quote": "60 \u00d7 2 = 120",
+      "value": "120"
+    },
+    {
+      "quote": "3\u00d72=6",
+      "value": "3"
+    },
+    {
+      "quote": "3\u00d72=6",
+      "value": "2"
+    },
+    {
+      "quote": "3\u00d72=6",
+      "value": "6"
+    },
+    {
+      "quote": "2x = 60",
+      "value": "2"
+    },
+    {
+      "quote": "2x = 60",
+      "value": "60"
+    },
+    {
+      "quote": "60 + 120 = 180",
+      "value": "60"
+    },
+    {
+      "quote": "60 + 120 = 180",
+      "value": "120"
+    },
+    {
+      "quote": "60 + 120 = 180",
+      "value": "180"
+    },
+    {
+      "quote": "total passengers (140)",
+      "value": "140"
+    },
+    {
+      "quote": "cars (50)",
+      "value": "50"
+    },
+    {
+      "quote": "30 passengers",
+      "value": "30"
+    },
+    {
+      "quote": "140 \u2212 30 = 110",
+      "value": "140"
+    },
+    {
+      "quote": "140 \u2212 30 = 110",
+      "value": "30"
+    },
+    {
+      "quote": "140 \u2212 30 = 110",
+      "value": "110"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"300 \\u00D7 2 = 600\",\"value\":300},{\"quote\":\"300 \\u00D7 2 = 600\",\"value\":2},{\"quote\":\"300 \\u00D7 2 = 600\",\"value\":600},{\"quote\":\"total socks = 20 \\u00D7 2 = 40\",\"value\":20},{\"quote\":\"total socks = 20 \\u00D7 2 = 40\",\"value\":2},{\"quote\":\"total socks = 20 \\u00D7 2 = 40\",\"value\":40},{\"quote\":\"2 pairs (4 socks)\",\"value\":4},{\"quote\":\"60 \\u00D7 2 = 120\",\"value\":60},{\"quote\":\"60 \\u00D7 2 = 120\",\"value\":2},{\"quote\":\"60 \\u00D7 2 = 120\",\"value\":120},{\"quote\":\"3\\u00D72=6\",\"value\":3},{\"quote\":\"3\\u00D72=6\",\"value\":2},{\"quote\":\"3\\u00D72=6\",\"value\":6},{\"quote\":\"2x = 60\",\"value\":2},{\"quote\":\"2x = 60\",\"value\":60},{\"quote\":\"60 + 120 = 180\",\"value\":60},{\"quote\":\"60 + 120 = 180\",\"value\":120},{\"quote\":\"60 + 120 = 180\",\"value\":180},{\"quote\":\"total passengers (140)\",\"value\":140},{\"quote\":\"cars (50)\",\"value\":50},{\"quote\":\"30 passengers\",\"value\":30},{\"quote\":\"140 \\u2212 30 = 110\",\"value\":140},{\"quote\":\"140 \\u2212 30 = 110\",\"value\":30},{\"quote\":\"140 \\u2212 30 = 110\",\"value\":110}],\"justification\":\"Extracted explicit numeric literals and results of arithmetic expressions found within the provided descriptions.\"}",
+  "prompt_sha256": "fbeb3fd2e38229bcfc8d74657cdc4d78db9f02541b50c1a3dfefb7f5d960ac38"
+}

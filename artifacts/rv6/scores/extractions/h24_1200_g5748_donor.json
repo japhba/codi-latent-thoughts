@@ -1,0 +1,109 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5748",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating total units sold, combining original 4+2=6 boxes with expanded capacity.\n\nThe answer must be a specific integer representing total units possible after adding two boxes: (4+2)\u00d712 = 72, since the combined total number of boxes is 4+2.\n\nFinal token \"be\" completes \"The total number of units sold will be,\" requiring an immediate numerical answer (likely \"72\") as the direct object completing this declarative sentence.\n(4+2)\u00d712 = total possible units, confirming the answer is 72.\n(4+2)\u00d712\u00d74, since original 4 units yield 12 units total, doubling combined capacity.\n(4+2)\u00d736/1, i.e., 72 units total.\n\n4+2=6, so total.",
+    "Math word problem solution in progress: total eggs = 4 boxes \u00d7 12 eggs = 48, now calculating combined total eggs across all four boxes.\n\nThe pattern requires completing the arithmetic: 4 \u00d7 12 eggs in total eggs, then adding 2 additional boxes \u00d7 3 eggs for the new boxes.\n\nFinal token \"have\" begins the setup clause explaining the original total eggs (4\u00d712), immediately requiring the numerical result \"48 eggs\" or similar, continuing the step-by-step solution structure.\n4 \u00d7 12 = 48 eggs total for the first four boxes before adding 2\u00d7 larger numbers.\n4 \u00d7 12 establishes the base case before adding 2 more boxes \u00d7 3 eggs.\n4\u00d712 is mid-sentence, requiring the computed result \"48 eggs\" before explaining the new total plus 2x larger eggs.",
+    "Math word problem solution in progress: calculating total chips for 4 boxes \u00d7 12 chips = 48, then adding 4 new boxes \u00d7 12 chips.\n\nThe structured solution format requires completing the arithmetic step-by-step, showing the original total before adding the new four boxes.\n\nThe final token \"4\" begins the numerical answer for the first total (4\u00d712), immediately requiring \"8\" to complete \"48\" (4\u00d74\u00d712), then continuing to explain adding 2 more boxes \u00d7 new per-box value.\n4\u00d712 is being stated as the base total before adding 2 extra sets.\n4\u00d712 = 48 total chips for four sets, establishing the base before adding 2\u00d7(4\u00d712) for the new sets.\n4 sets \u00d7 4 chips = 48, then adding 2 times.",
+    "Math word problem solution in progress: established pattern requires completing the arithmetic calculation of total cards (4 sets \u00d7 6 = 48 stars, then adding new sets \u00d7 3.\n\nThe solution structure demands showing the combined total: \"48 stars in total\" already stated, now adding 2 new sets \u00d7 3 colors.\n\nFinal token \"48\" is the result of the first calculation (3\u00d74 packs), mid-sentence, immediately requiring continuation of the solution: likely \"stars in total\" or \"and then adding...\" to complete the total count.\n48 stars already stated, so next tokens must address the second set's cards (2 new sets \u00d7 7 unknown colors).\n48 stars in 6 packs, then adding 2 unknown sets \u00d7 7 stars for the second half.\n48 stars total before adding new sets.\n48 stars is the current partial.",
+    "Mathematical word problem structure: calculating total cards by adding two decks (12\u00d712 already given, now extending to second deck).\n\nThe pattern establishes parallel calculation: original 2 decks \u00d7 12 cards = 24 total cards added, so the second set of 2 boxes \u00d7 12 cards must be completed.\n\nFinal token \"p\" begins the word \"pencils\" or continues the arithmetic expression \"2\u00d712 additional cards,\" constrained to complete the second multiplication expression showing the second set of four boxes \u00d7 2 extra cards.\nThe final token \"p\" is mid-sentence in a mathematical explanation, requiring the total of the second set: \"2\u00d712\" or \"24 cards\" for the second set of four boxes.\n2\u00d712\u00d72 extra cards added.\n2\u00d712 for the second set of four boxes.",
+    "Math word problem format: structured Q&A pattern with word problem followed by worked solution, now repeating with a second problem.\n\nThe second problem mirrors the first's structure: \"There are 48 eggs in total\" \u2192 \"2 dozen eggs\" \u2192 \"24 eggs in second half,\" so the solution must now state total eggs and answer \"48.\"\n\nFinal token \"24\" is the second half of the multiplication expression (2\u00d712), completing the second calculation step; the next tokens must state the total eggs combined, e.g., \"Therefore, the total eggs are 48.\"\nFinal token \"24\" closes the second multiplication expression (2\u00d7small eggs), immediately expecting a concluding sentence like \"Therefore, the total eggs added are 48.\"\nFinal token \"24\" is the answer to the second sub-question, completing the second multiplication step, expecting."
+  ],
+  "input_sha256": "7ffe15c1ea718c452dd01b117e7cdd08227dfdf3c5e7fe1854be29904c275e86",
+  "values": [
+    {
+      "quote": "4+2=6",
+      "value": "6"
+    },
+    {
+      "quote": "(4+2)\u00d712 = 72",
+      "value": "72"
+    },
+    {
+      "quote": "(4+2)\u00d712",
+      "value": "72"
+    },
+    {
+      "quote": "4+2",
+      "value": "6"
+    },
+    {
+      "quote": "(4+2)\u00d712\u00d74",
+      "value": "288"
+    },
+    {
+      "quote": "(4+2)\u00d736/1",
+      "value": "216"
+    },
+    {
+      "quote": "4 boxes \u00d7 12 eggs = 48",
+      "value": "48"
+    },
+    {
+      "quote": "2 additional boxes",
+      "value": "2"
+    },
+    {
+      "quote": "3 eggs",
+      "value": "3"
+    },
+    {
+      "quote": "4 \u00d7 12",
+      "value": "48"
+    },
+    {
+      "quote": "2\u00d7 larger numbers",
+      "value": "2"
+    },
+    {
+      "quote": "4 sets \u00d7 4 chips = 48",
+      "value": "48"
+    },
+    {
+      "quote": "2 times",
+      "value": "2"
+    },
+    {
+      "quote": "4 sets \u00d7 6 = 48",
+      "value": "48"
+    },
+    {
+      "quote": "2 new sets \u00d7 3 colors",
+      "value": "6"
+    },
+    {
+      "quote": "3\u00d74 packs",
+      "value": "12"
+    },
+    {
+      "quote": "2 new sets \u00d7 7 unknown colors",
+      "value": "14"
+    },
+    {
+      "quote": "6 packs",
+      "value": "6"
+    },
+    {
+      "quote": "12\u00d712",
+      "value": "144"
+    },
+    {
+      "quote": "2 decks \u00d7 12 cards = 24",
+      "value": "24"
+    },
+    {
+      "quote": "2\u00d712",
+      "value": "24"
+    },
+    {
+      "quote": "2 dozen eggs",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the final value for expressions like (4+2)\u00d712 and 2 dozen.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4+2=6\",\"value\":6},{\"quote\":\"(4+2)\\u00D712 = 72\",\"value\":72},{\"quote\":\"(4+2)\\u00D712\",\"value\":72},{\"quote\":\"4+2\",\"value\":6},{\"quote\":\"(4+2)\\u00D712\\u00D74\",\"value\":288},{\"quote\":\"(4+2)\\u00D736/1\",\"value\":216},{\"quote\":\"4 boxes \\u00D7 12 eggs = 48\",\"value\":48},{\"quote\":\"2 additional boxes\",\"value\":2},{\"quote\":\"3 eggs\",\"value\":3},{\"quote\":\"4 \\u00D7 12\",\"value\":48},{\"quote\":\"2\\u00D7 larger numbers\",\"value\":2},{\"quote\":\"4 sets \\u00D7 4 chips = 48\",\"value\":48},{\"quote\":\"2 times\",\"value\":2},{\"quote\":\"4 sets \\u00D7 6 = 48\",\"value\":48},{\"quote\":\"2 new sets \\u00D7 3 colors\",\"value\":6},{\"quote\":\"3\\u00D74 packs\",\"value\":12},{\"quote\":\"2 new sets \\u00D7 7 unknown colors\",\"value\":14},{\"quote\":\"6 packs\",\"value\":6},{\"quote\":\"12\\u00D712\",\"value\":144},{\"quote\":\"2 decks \\u00D7 12 cards = 24\",\"value\":24},{\"quote\":\"2\\u00D712\",\"value\":24},{\"quote\":\"2 dozen eggs\",\"value\":24}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the final value for expressions like (4+2)\\u00D712 and 2 dozen.\"}",
+  "prompt_sha256": "dad1ffb1e6e40dad779d4a235c22079f86b2cd99a92d038d3f4b4233b1b45e16"
+}

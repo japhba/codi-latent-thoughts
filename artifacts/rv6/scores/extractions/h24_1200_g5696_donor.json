@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5696",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating remaining inventory after 70% discount, requiring arithmetic completion.\n\nThe formula structure demands a numerical answer: total inventory minus 60% sold = (600\u00d70.75) or similar, then applying 25% remaining.\n\nFinal token \"be\" closes a question phrase \"The remaining inventory would be,\" requiring an immediate numerical answer (likely \"30\" or \"300\") representing the remaining count after 70% discount on 600\u00d7(1-35%), completing the second calculation step.\n(60-75%\u00d760).\n0.75\u00d760 + 30% residual = 30\u00d7(1-75%) + 10\u00d7(1-60%) \u2248 30.",
+    "Mathematical word problem solution in progress: total inventory calculation requires completing the arithmetic: 600 \u2212 75%\u00d7600 = 150 remaining books.\n\nThe solution must now state the remaining inventory (600 \u2212 75%\u00d7600 = 150) and then apply the 25% profit calculation to find expected profit.\n\nFinal token \"have\" opens the restatement of the remaining inventory quantity (150 books), immediately requiring the number \"150\" followed by units \"books\" and then the expected profit calculation.\n600\u00d7(1\u221275%) = 150, so the next tokens must state \"150 books remaining\" before applying the 25% profit formula.\n60/40% split established earlier constrains the answer to 30 books.",
+    "Math word problem solution in progress: after stating remaining total (600 after 75%), the next step is computing 25% of 600 = 150 cars.\n\nThe solution follows a structured step-by-step format, having established remaining inventory (150 cars) and now applying the 40% profit calculation.\n\nFinal token \"15\" is the beginning of the number \"150\" (the remaining 25% of 600), immediately requiring \"0\" to complete the figure, then continuing with calculation of 40% of that remaining inventory.\n150 cars after selling 75% = 150, then doubling to 300 cars after adding 40% of 600/40.\n\nThe final token \"15\" is mid-number, part of the remaining.",
+    "Step-by-step math word problem walkthrough requires continuing the arithmetic sequence: 500 tickets minus 60% sold = 150 remaining tickets after removing 40%.\n\nThe solution is mid-sentence, having established the remaining count (150), now requiring the next logical step: applying the 50% discount to those tickets.\n\nFinal token \"150\" is the intermediate result of 500 \u2212 40%\u00d750, representing the count of tickets remaining after division; the next tokens must describe what happens to these 150 tickets (e.g., \"left\" or \"you give them away\"), then applying the 50% discount.\n150 tickets are being described as the remaining group before giving half to charity.\n\n150 is the final token, representing the count of tickets after subtraction, immediately requiring the next.",
+    "Mathematical word problem solution in progress: calculating 150 people \u00d7 10% = 15 people removed from 150.\n\nThe pattern of showing intermediate steps (150 people \u2192 10% removed \u2192 next step) requires completing the arithmetic sequence.\n\nFinal token \"p\" begins the word \"people\" or a specific number, continuing the calculation of 10% of 150, constrained to complete \"15 people removed\" or \"15 people\" as part of the final removal step.\n15% of 150 = 15, representing the small bonus count being removed.\n10% of 15\u00d710% bonus calculation mid-sentence requires completing the numeric result (15 people removed from the bonus group).\n15\u00d710% of 36 = 3 people removed from.",
+    "Step-by-step word problem walkthrough pattern: each problem follows identical structure (given \u2192 calculated \u2192 answer), now completing the third problem's final step.\n\nThe third problem's answer is mid-sentence: \"15 eggs were removed\" implies the final answer is 1000 eggs minus 1/10th of 300 eggs minus 15.\n\nFinal token \"15.\" closes the error-calculation step (\"10% of 300 eggs are 15\"), immediately requiring the final answer statement, e.g., \"The number of eggs after removing the broken ones is 985.\"\nFinal token \"15\" is the last answer in the third worked example, completing the 5% error removal step, expecting a concluding sentence stating the remaining count."
+  ],
+  "input_sha256": "a96a9695704f7c584fc3452018499710babeed36d60ac611a7c022c65f7f8ddd",
+  "values": [
+    {
+      "quote": "70%",
+      "value": "70"
+    },
+    {
+      "quote": "60%",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "0.75",
+      "value": "0.75"
+    },
+    {
+      "quote": "25%",
+      "value": "25"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "1-35%",
+      "value": "0.65"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "1-75%",
+      "value": "0.25"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1-60%",
+      "value": "0.4"
+    },
+    {
+      "quote": "75%",
+      "value": "75"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "60/40%",
+      "value": "1.5"
+    },
+    {
+      "quote": "40%",
+      "value": "40"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "40%\u00d750",
+      "value": "20"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "15\u00d710%",
+      "value": "1.5"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "1/10th",
+      "value": "0.1"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "985",
+      "value": "985"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, fractions, and arithmetic expressions from the provided descriptions, ensuring each unique value is represented once with its shortest source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"70%\",\"value\":70},{\"quote\":\"60%\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"0.75\",\"value\":0.75},{\"quote\":\"25%\",\"value\":25},{\"quote\":\"30\",\"value\":30},{\"quote\":\"300\",\"value\":300},{\"quote\":\"1-35%\",\"value\":0.65},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"1-75%\",\"value\":0.25},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1-60%\",\"value\":0.4},{\"quote\":\"75%\",\"value\":75},{\"quote\":\"150\",\"value\":150},{\"quote\":\"60/40%\",\"value\":1.5},{\"quote\":\"40%\",\"value\":40},{\"quote\":\"15\",\"value\":15},{\"quote\":\"500\",\"value\":500},{\"quote\":\"50%\",\"value\":50},{\"quote\":\"40%\u00d750\",\"value\":20},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"15\u00d710%\",\"value\":1.5},{\"quote\":\"36\",\"value\":36},{\"quote\":\"3\",\"value\":3},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"1/10th\",\"value\":0.1},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"985\",\"value\":985}],\"justification\":\"Extracted all distinct numeric literals, percentages, fractions, and arithmetic expressions from the provided descriptions, ensuring each unique value is represented once with its shortest source quote.\"}",
+  "prompt_sha256": "cb29d3946509d34796b01472f3ebf4c3efcb77dc75ec7e0ef31c4920341ba575"
+}

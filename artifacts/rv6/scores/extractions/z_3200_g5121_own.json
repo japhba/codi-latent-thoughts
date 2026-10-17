@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5121",
+  "kind": "own",
+  "descriptions": [
+    "Statistical comparison pattern: article consistently pairs current figures with prior-year equivalents (e.g., \"1.5%...compared to 2.4% in 2019\"), establishing a template for completing the sentence.\n\nProduct review/summary genre: structured sections with headers, bullet points, and financial comparisons suggest a concluding summary or call-to-action follows.\n\nFinal token \"is\" opens a predicate completing the sentence about the 2019 price comparison, immediately requiring a dollar amount or comparative phrase like \"still a good deal\" or a specific price figure.\n\"is still\" or a dollar amount completing the comparison.\n\"still is\" or \"still the best value\" \u2014 the sentence requires a predicate adjective or price figure to finish the comparative clause.\n\"is still\" or product availability status expected next.\n\"still is\" financial comparison structure demands a noun phrase or adjective completing the budget.",
+    "Product review format with structured sections (intro, bullet points, summary) signals continuation of the \"Overall\" summary paragraph, which is mid-sentence.\n\nThe review consistently highlights specific product features and performance claims, so the summary will likely enumerate key selling points like comfort, durability, or design.\n\nFinal token \"5\" is mid-number, part of an incomplete sentence listing the product's specifications or a numerical claim (e.g., \"500\" or a measurement), requiring immediate numeric continuation to complete the interrupted figure.\n\"5 is 6\" or a product rating/specification number.\n\"58\" or a rating number follows, completing the interrupted product description sentence.\n\"5 is 6\" or a review score like \"58\" or \"681\" \u2014 the model must complete the ranking/specification list \"155 83 product\" or similar technical product description.",
+    "Structured list pattern: each product entry follows \"Name, Brand, gender, age range, description\" format, suggesting continuation of this e-commerce catalog style.\n\nE-commerce product listing context: the text is a shopping page for \"Boys\" items, implying the next tokens will continue listing product categories, brands, or navigation elements.\n\nFinal token \"available\" ends an incomplete sentence (\"available\"), part of a product availability notice, immediately expecting a closing punctuation or continuation like \"available\" followed by a period or additional product details.\n\"available\" is a truncated word mid-sentence in a table/list context, likely followed by a period or further navigation text.\n\"available\" is a truncated word in a product listing table, likely \"available\" followed by a closing tag or new section header.\n\"Available\" table row or product listing continuation expected next.\n\"Available\" price display or navigation element follows \"and available.",
+    "Structured list pattern: the text is mid-way through a product listing with repeated \"View all [Product] in [Location]\" entries, suggesting more location entries follow.\n\nE-commerce product page format: the page follows a consistent template of product listings, descriptions, and navigation elements, implying continued structured content.\n\nFinal token \"available\" ends an incomplete table cell (\"available\"), part of a price table row, immediately requiring a closing pipe \"|\" or additional table cell content to complete the row.\n\"available\" is the last word of a truncated product table cell, likely followed by \"|\" or a price value.\n\"available\" is the final token, part of a product listing table row, expecting a closing delimiter or product detail continuation.\n\"Available\" is a truncated word mid-cell in a table row, constrained to complete as \"available\" then likely followed by \"|\" or product name.\n\"Available\" table cell pattern established earlier.",
+    "Structured list pattern: each product entry follows \"Name, Brand, gender, age range, description\" format, suggesting continuation of this e-commerce template.\n\nThe text is mid-sentence in a product listing table, having just described \"The Baby Tree\" with its gender and age range, implying price, description, or additional product details follow.\n\nFinal token \"available\" ends an incomplete sentence (\"available\"), part of a table cell or product detail line, immediately expecting a closing punctuation or continuation like \"available\" table row or product description text.\n\"available\" is a truncated word/phrase in a product listing table, likely followed by a table row, price, or new product entry.\n\"Available\" is a truncated word mid-table, likely \"available\" followed by a product listing or e-commerce UI element.\n\"Available\" table row or \"available\" shop navigation text follows immediately.\n\"Available\" price table.",
+    "Structured list pattern: each product entry follows \"Name, Brand, gender, age range, description\" format, suggesting continuation of this e-commerce template.\n\nThe text is mid-sentence in a product listing table, having just described the \"Cheetah\" item's gender and age range, implying price, availability, or additional product details follow.\n\nFinal token \"available\" ends an incomplete clause (\"available\"), part of a table cell or product description, immediately expecting a closing punctuation or continuation like \"available\" table row or product detail text.\n\"available\" is the final word of an incomplete e-commerce product listing table row, likely followed by a price, table cell, or new product entry.\n\"Available\" table cell pattern suggests a closing pipe or product listing continues next.\n\"Available\" is the final token, part of a table row structure, immediately expecting price, availability status, or a new product row."
+  ],
+  "input_sha256": "6b54999d5f7fc20fa56f8819404fccdd85cc11499f68d1c869e0281b1acb7a87",
+  "values": [
+    {
+      "quote": "1.5%",
+      "value": "1.5"
+    },
+    {
+      "quote": "2.4%",
+      "value": "2.4"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "681",
+      "value": "681"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "83",
+      "value": "83"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes and technical specifications.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5%\",\"value\":1.5},{\"quote\":\"2.4%\",\"value\":2.4},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"5\",\"value\":5},{\"quote\":\"6\",\"value\":6},{\"quote\":\"58\",\"value\":58},{\"quote\":\"681\",\"value\":681},{\"quote\":\"155\",\"value\":155},{\"quote\":\"83\",\"value\":83}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within quotes and technical specifications.\"}",
+  "prompt_sha256": "51e7c76a69511a7e02606eb5e268b8e79185afd80fdd59dfe0185aad5ebd0505"
+}

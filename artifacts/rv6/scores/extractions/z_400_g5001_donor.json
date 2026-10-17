@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5001",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nMathematical/technical continuation: the hazard ratio for \"first year of ownership\" is being stated, requiring a specific numerical value (likely a decimal hazard ratio like \"1.23\") consistent with the hazard reduction narrative.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the first year of ownership, immediately requiring a numerical hazard ratio value (e.g., \"1.23\") followed by confidence interval and p-value.",
+    "Narrative relationship advice context: personal reflection on marriage history, emotional disclosure, and family dynamics between the author and her sister-in-law.\n\nNarrative momentum toward explaining the sister's past relationship with the husband \u2014 the text is building a backstory of the marriage's emotional history, with the husband's prior marriage to the sister's mother creating a complication.\n\nFinal token \"was\" opens a past-tense clause mid-sentence, requiring a predicate describing the relationship's current state or duration \u2014 likely \"a\" or \"an\" followed by a descriptor like \"long\" or \"complex,\" continuing the reflection on the marriage's emotional impact.",
+    "Narrative shift to personal confession/advice context: the text transitions from a Q&A forum response to a new personal situation about a marriage and confession, signaling a follow-up question or update.\n\nThe medical disclosure story establishes a pattern of advice-seeking: the confession of a health problem and the advice received sets up a follow-up question about the advice's timing or the situation's resolution.\n\nFinal token \"15\" is a number completing \"now I know it is 5 months, so I now know it is 15\" \u2014 this is mid-sentence, requiring a time unit (e.g., \"months\") and likely a follow-up action or question about the advice.",
+    "Narrative/argumentative momentum: personal anecdote about a medical professional's faith-based response to abuse, now transitioning to a theological reflection on the doctor's professional duty and moral responsibility.\n\nQ&A format established: the text follows a structured advice column pattern, with the doctor's story serving as a concrete example illustrating the broader theological question about faith and professional duty.\n\nFinal token \"60\" completes \"I was 200, but now 50 years later I am 60\" \u2014 a self-correction mid-sentence, immediately requiring continuation of the anecdote's resolution, likely \"0\" completing \"60\" or a clause explaining the doctor's changed perspective on reporting abuse.",
+    "Narrative momentum: legal anecdote building toward a legal consequence \u2014 the story establishes a crime, victim, and liability, now requiring explanation of the legal liability claim.\n\nNarrative resolution pattern: the text is recounting a news story with a legal revelation, following a cause-effect structure where the anecdote leads to a legal explanation of the liability.\n\nFinal token \"202,000,000 people, including 480,000 people who were online, were affected by the incident, 202,000 people\" \u2014 mid-sentence, requiring completion of the legal liability claim, likely \"by the act\" or similar phrase.",
+    "Legal case analysis format: Q&A structure with case facts, procedural history, and legal question now requires the answer explaining the legal reasoning.\n\nNarrative momentum: the case facts have been fully established (defendant's misrepresentation, procedural history, complaint, appeal), and the question demands the answer explaining the legal basis for the court's ruling on the complaint's validity.\n\nFinal token \"10.000.000 was the court's 0800 meeting was the defendant's 0800 meeting was the defendant's 0800 meeting\" \u2014 garbled repetition suggesting a transcription artifact, but the answer must now continue explaining the legal question about the complaint's validity."
+  ],
+  "input_sha256": "de49acea93ed6d0678f8c848af7e08fbb440a2edaaeb19891c04c7c09f26273c",
+  "values": [
+    {
+      "quote": "1.23",
+      "value": "1.23"
+    },
+    {
+      "quote": "5 months",
+      "value": "5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "50 years later",
+      "value": "50"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "202,000,000 people",
+      "value": "202000000"
+    },
+    {
+      "quote": "480,000 people",
+      "value": "480000"
+    },
+    {
+      "quote": "202,000 people",
+      "value": "202000"
+    },
+    {
+      "quote": "10.000.000",
+      "value": "10000000"
+    },
+    {
+      "quote": "0800",
+      "value": "800"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including decimals and large integers, while excluding dates or identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.23\",\"value\":1.23},{\"quote\":\"5 months\",\"value\":5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"200\",\"value\":200},{\"quote\":\"50 years later\",\"value\":50},{\"quote\":\"60\",\"value\":60},{\"quote\":\"202,000,000 people\",\"value\":202000000},{\"quote\":\"480,000 people\",\"value\":480000},{\"quote\":\"202,000 people\",\"value\":202000},{\"quote\":\"10.000.000\",\"value\":10000000},{\"quote\":\"0800\",\"value\":800}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including decimals and large integers, while excluding dates or identifiers.\"}",
+  "prompt_sha256": "be5360cd30ae527a7ac3901407b385277ade10de2a3688fde952c9be9b54ce90"
+}

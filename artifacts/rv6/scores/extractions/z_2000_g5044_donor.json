@@ -1,0 +1,117 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5044",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: article consistently presents specific percentages and numerical findings, e.g., \"80% of respondents,\" \"85% of respondents,\" establishing expectation for another precise figure.\n\nStudy results continuation: the sentence is mid-report, presenting a specific percentage statistic about the dataset's composition or findings, requiring completion of the numerical claim.\n\nFinal token \"8 is\" \u2014 mid-sentence numerical value completing \"50% of the dataset is,\" immediately requiring a percentage or descriptive term like \"85%\" or \"80%\" to finish the statistical comparison.\n\"52%\" earlier in the text suggests a paired result; the model expects a complementary percentage or descriptor to follow.\n\"52% of the dataset is 85%\" visual artifact \u2014 the model must complete the hazard rating result, likely \"52%\" or a similar numeric value completing the odds table reference.\n\"8 is\" film.",
+    "Plot summary continuation: the text is mid-sentence describing the film's history, requiring completion of the sentence about the family's political affiliations.\n\nFilm metadata/credits format: structured fields (Director, Writer, Stars) suggest a database entry, with the plot synopsis now providing historical context about the family's lineage.\n\nFinal token \"19,\" is part of an incomplete clause (\"the family was 19,\"), likely continuing with a number or descriptor completing the historical/political context, such as \"19,000 years old\" or a plot detail about the family's history.\n\"15,\" signals a truncated number \"5,\" \u2014 the sentence \"14,\" is incomplete, requiring the full group name or plot revelation immediately following \"5,\".\n\"30,\" characters are \"14,\" \u2014 the historical faction \"8 30,\" plot thread demands continuation explaining the film.",
+    "Q&A format established: a list of questions followed by detailed answers, now mid-answer to the first question about tips.\n\nListicle/advice article pattern: practical tips expected, likely numbered or bulleted recommendations for choosing a therapist.\n\nFinal token \"13\" is a number mid-sentence (\"13 tips\" or \"13 reasons\"), immediately requiring continuation of the numeric list or advice count, likely \"13 tips\" or a specific count completing the enumeration.\n\"13\" likely continues as \"13 tips\" or \"12 tips,\" followed by a list of actionable advice items.\n\"13\" is part of an incomplete enumeration (\"12\" or \"13\"), requiring a noun phrase completing the personal recommendation count.\n\"13\" food-related items \"12\" friends\" \u2014 practical advice \"14 days\" or similar numeric continuation completing the \"13\" statistic.",
+    "Argumentative momentum: the essay has built toward a practical conclusion about social media's spiritual dangers, now requiring a concrete illustrative example or call to action.\n\nReflective/summary register: the author is wrapping up with a personal reflection, likely transitioning to a closing moral or practical takeaway about social media's influence.\n\nFinal token \"200\" completes \"200 people,\" ending a sentence that sets up a rhetorical contrast \u2014 \"200 people\" invites a \"but\" or \"however\" pivot, likely introducing a counterpoint or visual example.\n\"200,000\" food items or similar imagery completing the spiritual reflection.\n\"200,000 500\" sensory imagery \"200,000 10 people\" \u2014 the \"2,000 50\" theological reflection \"8,000\" scene.",
+    "Legal analysis pattern: the text is explaining a practical scenario, building toward a conclusion about liability and advice.\n\nThe rhetorical question \"What should the church do?\" signals an answer is being developed, with the example serving as evidence for actionable guidance.\n\nFinal token \"200\" completes \"200 people,\" ending a sentence that sets up the practical implication \u2014 the next tokens will likely elaborate on the church's liability or recommended actions, possibly referencing the cited example.\n\"200\" closes a clause summarizing the example's scale, immediately constraining what follows to a concluding analytical statement or transition.\n\"200\" is the final token, completing \"20,000\" or similar, and the theological/practical lesson about visual evidence and liability.\n\"12,000 200\" memory card example \"3,000\" scenarios \u2014 \"8\".",
+    "Statistical list pattern: BLS survey data presented as bullet points with percentages, establishing a continuation of statistical findings.\n\nSurvey question format: structured data presentation with percentages and demographic breakdowns signals more percentage-based statistics or a concluding summary statement are expected.\n\nFinal token \"6%\" ends a percentage figure mid-sentence within a BLS survey question breakdown, immediately requiring completion of the percentage statement (e.g., \"of respondents\" or a related explanatory clause) before likely continuing with additional survey statistics.\n\"6%\" is the final token, part of an incomplete percentage-based finding about survey responses, requiring a noun phrase or explanatory clause to complete the sentence.\n\"6%\" likely concludes a percentage statement about survey responses, with the next tokens completing the statistical breakdown or transitioning to another percentage category.\n\"6%\" ends the sentence fragment, immediately requiring a noun phrase or percentage category to complete the BLS survey data presentation."
+  ],
+  "input_sha256": "cb6e95fec3e71012cc062238899420022c2485414e1cdf2a0a63accdb203d7b4",
+  "values": [
+    {
+      "quote": "80% of respondents",
+      "value": "80"
+    },
+    {
+      "quote": "85% of respondents",
+      "value": "85"
+    },
+    {
+      "quote": "50% of the dataset",
+      "value": "50"
+    },
+    {
+      "quote": "52%",
+      "value": "52"
+    },
+    {
+      "quote": "19,",
+      "value": "19"
+    },
+    {
+      "quote": "15,",
+      "value": "15"
+    },
+    {
+      "quote": "5,",
+      "value": "5"
+    },
+    {
+      "quote": "14,",
+      "value": "14"
+    },
+    {
+      "quote": "30,",
+      "value": "30"
+    },
+    {
+      "quote": "8 30,",
+      "value": "8"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "14 days",
+      "value": "14"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "10 people",
+      "value": "10"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "8,000",
+      "value": "8000"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "3,000",
+      "value": "3000"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"80% of respondents\",\"value\":80},{\"quote\":\"85% of respondents\",\"value\":85},{\"quote\":\"50% of the dataset\",\"value\":50},{\"quote\":\"52%\",\"value\":52},{\"quote\":\"19,\",\"value\":19},{\"quote\":\"15,\",\"value\":15},{\"quote\":\"5,\",\"value\":5},{\"quote\":\"14,\",\"value\":14},{\"quote\":\"30,\",\"value\":30},{\"quote\":\"8 30,\",\"value\":8},{\"quote\":\"13\",\"value\":13},{\"quote\":\"12\",\"value\":12},{\"quote\":\"14 days\",\"value\":14},{\"quote\":\"200\",\"value\":200},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"500\",\"value\":500},{\"quote\":\"10 people\",\"value\":10},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"50\",\"value\":50},{\"quote\":\"8,000\",\"value\":8000},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"12,000\",\"value\":12000},{\"quote\":\"3,000\",\"value\":3000},{\"quote\":\"6%\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "6cc7c7df1712c1c2fdb11a8a3ffb5d4706496022968a833c678e925447ee139f"
+}

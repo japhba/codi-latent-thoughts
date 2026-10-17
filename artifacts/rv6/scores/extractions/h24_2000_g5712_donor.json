@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5712",
+  "kind": "donor",
+  "descriptions": [
+    "Math puzzle context: combining two equations to solve for a specific numerical value, likely a total weight or score.\n\nThe pattern \"3 times the sum of the original plus the original\" sets up an arithmetic expression requiring a numerical answer or calculation.\n\n\"Answer is:\" is a prompt/question label, immediately requiring a numerical result or expression (e.g., \"approximately 180\" or similar calculated total) to follow.\nFinal token \"Answer is:\" signals the expected response is about to be revealed, likely a number or equation combining the 180+ fraction components.\n(3*180 + partial sum minus ~60).\n(180*3 + parent + offset) across multiple generations.\n(180*63% + -63% of parent).\nTotal approximate weight calculation.\n(180 + ... minus ...).",
+    "Math puzzle chain context: numerical calculation chain requires completing the arithmetic answer (200 + 2x + 200x).\n\nThe informal forum/comment style with casual language (\"lol,\" \"lol\") signals a community math discussion expecting a numerical result or explanation.\n\nFinal token \"Answer:Answer isAnswer isAnswer is\" is a repeated prompt/placeholder pattern, immediately expecting the computed numerical result or a worked explanation of the combined value.\nFinal token \"Answer isAnswer isAnswer is\" is a forum placeholder artifact, constraining next tokens to be the actual computed answer (likely a number or approximate value).\n(200*65% + personal value) for two people combined.\n(200 + -300 + ...).\n(65% + 3 times difference) for each person's combined height.\nSpecific numerical result expected next.\n(200*65.",
+    "Math puzzle context requires a numerical answer: combining two people's ages (x + 3 times x) equals 110, constraining the response to a specific number.\n\nThe chain of reasoning (110 combined, 3x for second person) demands a calculated result, likely \"1100\" or similar large number.\n\nFinal token \"answ\" is a prompt/label for a direct answer, immediately requiring the numerical response to the puzzle's computed third-person value.\n(1100/300 + ...).\nAnswer expected next: a specific dollar figure completing the chain of calculations.\n(3*60 + ... = current combined wealth).\nFinal token \"answ\" is a forum prompt tag, requiring the computed numerical answer to follow immediately.\n(600000 approximate for the third person's wealth).\n(3*60 + -2.",
+    "Math puzzle context requires a numerical answer combining two people's combined weight (x + 3x = 460).\n\nThe chain of reasoning demands a specific numerical result, likely a dollar amount or weight figure completing the calculation.\n\nFinal token \"answerg\" is a prompt/label for a direct answer, immediately constraining the next tokens to be a numerical response or calculation result, likely formatted as a dollar value or approximate figure.\n(360/360 ratio chain).\n(360* (-x) + ... = current combined value).\nFinal token \"answerg\" is a placeholder/label demanding the computed answer next.\n(360* (-1/3) + 5 times his age) for the third person's value.\n(13000-360* (-x) \u2248 13000 approximate).\n approximately .",
+    "Math puzzle context requires a numerical answer combining two people's combined wealth, likely a specific dollar figure.\n\nThe chain of arithmetic constraints: 3x + 1/3x = combined value, with the third person's value being derived from the combined sum.\n\nFinal token \"answergen\" is a prompt/label for a direct numerical answer, immediately requiring a specific dollar amount (likely ~$100,000 range) as the response.\nFinal token \"answergen\" is a placeholder prompt demanding the computed answer next.\n(30000 + -10 times ratio).\n(300 + -1/3 ratio) for the third person's current age.\n approximately $100,000 combined.\n(300*60 + -10*65) = approximate figure expected.\nAnswer: ~$100.",
+    "Math puzzle requiring numerical completion: combining two people's ages (x + 3x = 116) demands a specific integer answer.\n\nThe chain of reasoning (3x + 1/3x = combined value) sets up a chain of calculations, likely revealing the combined total.\n\nFinal token \"answergen\" is a prompt/label for a direct numerical answer, immediately constraining the next tokens to be a specific dollar figure or numerical response.\nAnswer expected: approximately \"$116,000\" or similar large number completing the puzzle.\n(116 + -3 times the third person's value).\nFinal token \"answergen\" is a forum prompt tag demanding a numerical answer follows.\n(30000 + -3x) for the combined combined weight of the third person.\n approximate dollar value for the third person's current wealth.\n(1."
+  ],
+  "input_sha256": "602a97c2fc66ca4134dbb5b79480bb989812d1bd8c430520c877e2b904328320",
+  "values": [
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "63%",
+      "value": "63"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "65%",
+      "value": "65"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "110",
+      "value": "110"
+    },
+    {
+      "quote": "1100",
+      "value": "1100"
+    },
+    {
+      "quote": "600000",
+      "value": "600000"
+    },
+    {
+      "quote": "460",
+      "value": "460"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "13000",
+      "value": "13000"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "30000",
+      "value": "30000"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "116,000",
+      "value": "116000"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted all distinct explicit numeric literals, percentages, fractions, and spelled-out numbers from the descriptions, avoiding ordinals and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"180\",\"value\":180},{\"quote\":\"3\",\"value\":3},{\"quote\":\"63%\",\"value\":63},{\"quote\":\"60\",\"value\":60},{\"quote\":\"200\",\"value\":200},{\"quote\":\"2\",\"value\":2},{\"quote\":\"65%\",\"value\":65},{\"quote\":\"300\",\"value\":300},{\"quote\":\"110\",\"value\":110},{\"quote\":\"1100\",\"value\":1100},{\"quote\":\"600000\",\"value\":600000},{\"quote\":\"460\",\"value\":460},{\"quote\":\"360\",\"value\":360},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"5\",\"value\":5},{\"quote\":\"13000\",\"value\":13000},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"30000\",\"value\":30000},{\"quote\":\"10\",\"value\":10},{\"quote\":\"100\",\"value\":100},{\"quote\":\"116\",\"value\":116},{\"quote\":\"116,000\",\"value\":116000},{\"quote\":\"1\",\"value\":1}],\"justification\":\"Extracted all distinct explicit numeric literals, percentages, fractions, and spelled-out numbers from the descriptions, avoiding ordinals and years.\"}",
+  "prompt_sha256": "ed7457eb721e85cd20d65f631549c7f483332806b3fd45dd62ce382c05cc84b7"
+}

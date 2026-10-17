@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5324",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating total cost by summing individual prices (15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+15+",
+    "Math word problem solution in progress: arithmetic calculation expected, summing 6\u00d7$6.00 = $36.00 total earnings.\n\nStep-by-step worked solution format established: each step builds on prior, showing arithmetic progression toward final answer.\n\nFinal token \"They make\" opens the arithmetic result statement, immediately requiring the calculated total earnings figure, e.g., \"36 dollars\" or \"$36.\"\n</explanation>",
+    "Math word problem solution in progress: arithmetic calculation of total earnings for 15 paintings \u00d7 $2 each = $30, now listing individual painting prices.\n\nRepetition/continuation pattern: the solution is enumerating each painting's earnings (e.g., \"1 painting = $2\"), implying remaining paintings will follow the same format.\n\nFinal token \"6\" is the start of a dollar amount (likely \"$60\" or \"$600\"), part of the arithmetic expression \"15 \u00d7 $2 = 6[0]\", immediately requiring the remaining digits of the total earnings figure.\n</explanation>",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough with labeled sections (a, b, c) and arithmetic operations.\n\nThe solution is mid-calculation, having established total earnings and now breaking down by item type; \"apples\" and \"pears\" quantities (10, 15) have been stated, so their individual earnings must follow.\n\nFinal token \"$60\" is the earnings from apples, part of a list of item earnings; next tokens must continue with \"and $15 \u00d7 $2 = $30\" or similar, completing the arithmetic breakdown.\n</explanation>",
+    "Mathematical problem-solving context: calculating total cost of 6 pants at $12 each, requiring 6 \u00d7 $12 = $72.\n\nStep-by-step arithmetic pattern: the solution is mid-calculation, having stated \"6 pants \u00d7 $12 = $72,\" so the next tokens must complete this multiplication result.\n\nThe final token \"$72\" is the beginning of the arithmetic result, immediately constraining the next tokens to be the remaining digits of the total cost, likely \"72\" completing \"$72\".\n</explanation>",
+    "Step-by-step math word problem walkthrough, each step showing arithmetic operations with specific values (e.g., \"15 x 10 = 150\", \"10 x 5 = 50\").\n\nThe pattern establishes a consistent structure: state operation, show arithmetic, state result \u2014 the next tokens must complete the multiplication result for 10 x 5.\n\nThe final token \"$10 x 5 = \" is an incomplete arithmetic expression mid-calculation, immediately requiring the numeric result \"50\" to complete the equation, mirroring prior step formatting.\n</explanation>"
+  ],
+  "input_sha256": "d319aacaabab20d91b5291b75646a5ce3c9bdbdbba6486643608e076e7d25883",
+  "values": [
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "$6.00",
+      "value": "6"
+    },
+    {
+      "quote": "$36.00",
+      "value": "36"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "$30",
+      "value": "30"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$60",
+      "value": "60"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$72",
+      "value": "72"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, currency values, and arithmetic results from the provided descriptions, ensuring each distinct value is paired with a representative quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15\",\"value\":15},{\"quote\":\"6\",\"value\":6},{\"quote\":\"$6.00\",\"value\":6},{\"quote\":\"$36.00\",\"value\":36},{\"quote\":\"36\",\"value\":36},{\"quote\":\"2\",\"value\":2},{\"quote\":\"$30\",\"value\":30},{\"quote\":\"1\",\"value\":1},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600\",\"value\":600},{\"quote\":\"10\",\"value\":10},{\"quote\":\"$60\",\"value\":60},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$72\",\"value\":72},{\"quote\":\"72\",\"value\":72},{\"quote\":\"150\",\"value\":150},{\"quote\":\"5\",\"value\":5},{\"quote\":\"50\",\"value\":50}],\"justification\":\"Extracted all explicit numeric literals, currency values, and arithmetic results from the provided descriptions, ensuring each distinct value is paired with a representative quote.\"}",
+  "prompt_sha256": "033cec91ad0935e67e9f1ba09fce7b020b8ba00628829b69478f534dadd98691"
+}

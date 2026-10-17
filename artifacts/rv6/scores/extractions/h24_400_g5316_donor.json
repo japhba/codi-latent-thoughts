@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5316",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic calculation: total area 7.5m\u00b2 minus 1m\u00b2 = 6.5m\u00b2, so the answer must be 7.5.\n\nThe problem explicitly states \"7.5 meters more than the width,\" so the solution must express the remaining area as 7.5m\u00b2 (7.5 \u2212 1/3).\n\nFinal token \"is\" opens a declarative answer statement, immediately requiring a numerical value (likely \"7.5 meters\") representing the remaining pool length after subtracting 25/3 of 7m.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, establishing variables and equations for a specific numeric problem.\n\nThe problem states half the width equals twice the length, so the next step must express this relationship mathematically: \"2 times 2.5 = 5\" or similar, then add the extra 25 units to complete the equation.\n\nFinal token \"has\" begins a clause explaining the first half's value (2.5 times 1), immediately requiring a numerical expression like \"2 times the first half\" or \"2.5 units\" to complete the equation setup before adding the extra value.",
+    "Math word problem solution format: step-by-step algebraic reasoning with variable substitution, following \"This is 2 times the width\" equation setup.\n\nThe solution is mid-calculation, having established that one dimension is twice the other (30 units), and is now computing the second dimension using the formula (half the width plus 2 times the width).\n\nFinal token \"5 is the 5 is the 1 times the\" \u2014 mid-sentence explaining the arithmetic expression \"twice 15\" or \"half of 30,\" immediately requiring \"times the width\" or \"times 1\" to complete the algebraic justification of the equation.",
+    "Math word problem solution format: structured step-by-step algebraic walkthrough with labeled fields (e.g., \"Half the width,\" \"The width of the second\") expects continued numerical reasoning.\n\nThe solution is mid-calculation, having established that twice the width equals 12 units, so the next step must state the difference: 1/2 \u00d7 2 = 1, confirming the answer.\n\nFinal token \"answer100.01 answer\" is a formatting artifact/placeholder mid-sentence, immediately constraining the next token to continue the explanation of the half the width calculation, likely stating \"2 times 0.5 = 1\" or confirming the result.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with labeled fields (e.g., \"Original Length,\" \"Half the Length,\" \"Twice the Length\") expects continued numerical derivation.\n\nThe solution is mid-calculation, having established twice the length of the second rope equals 10 units more than the first rope's length, so the next step must solve for the rope's length (15 + half = 25).\n\nFinal token \"answergen\" is a placeholder artifact mid-calculation, immediately constraining the next tokens to be the computed result of twice the difference: \"15 units\" or the numerical answer showing the rope's length (25 units).",
+    "Math word problem solution format: structured step-by-step algebraic walkthrough with labeled fields (e.g., \"Half the sum,\" \"Twice the difference\") expects a numerical answer and verification.\n\nThe solution is mid-calculation, having established x = twice the difference of $150 and $x + $x/2 = $250, so the next step must state the computed result: $150 = $2x, confirming the half-value.\n\nFinal token \"answergonaut\" is a placeholder/label marker indicating the computed numerical result (likely \"10\" or \"15\") must immediately follow, representing the calculated half of $150 plus twice the smaller value."
+  ],
+  "input_sha256": "e1e7d7c977392edb9fac616f5820687f3387f7bddc98655e5583f29ba0f5d288",
+  "values": [
+    {
+      "quote": "7.5m\u00b2",
+      "value": "7.5"
+    },
+    {
+      "quote": "1m\u00b2",
+      "value": "1"
+    },
+    {
+      "quote": "6.5m\u00b2",
+      "value": "6.5"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "25/3",
+      "value": "8.33333"
+    },
+    {
+      "quote": "7m",
+      "value": "7"
+    },
+    {
+      "quote": "2 times 2.5 = 5",
+      "value": "2"
+    },
+    {
+      "quote": "2 times 2.5 = 5",
+      "value": "2.5"
+    },
+    {
+      "quote": "2 times 2.5 = 5",
+      "value": "5"
+    },
+    {
+      "quote": "25 units",
+      "value": "25"
+    },
+    {
+      "quote": "2.5 times 1",
+      "value": "1"
+    },
+    {
+      "quote": "30 units",
+      "value": "30"
+    },
+    {
+      "quote": "5 is the 5 is the 1 times the",
+      "value": "5"
+    },
+    {
+      "quote": "12 units",
+      "value": "12"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "100.01",
+      "value": "100.01"
+    },
+    {
+      "quote": "10 units",
+      "value": "10"
+    },
+    {
+      "quote": "15 + half = 25",
+      "value": "15"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "2x",
+      "value": "2"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic components from the provided descriptions, including results of simple expressions like 25/3 and 1/3.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7.5m\u00b2\",\"value\":7.5},{\"quote\":\"1m\u00b2\",\"value\":1},{\"quote\":\"6.5m\u00b2\",\"value\":6.5},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"25/3\",\"value\":8.333333333333334},{\"quote\":\"7m\",\"value\":7},{\"quote\":\"2 times 2.5 = 5\",\"value\":2},{\"quote\":\"2 times 2.5 = 5\",\"value\":2.5},{\"quote\":\"2 times 2.5 = 5\",\"value\":5},{\"quote\":\"25 units\",\"value\":25},{\"quote\":\"2.5 times 1\",\"value\":1},{\"quote\":\"30 units\",\"value\":30},{\"quote\":\"5 is the 5 is the 1 times the\",\"value\":5},{\"quote\":\"12 units\",\"value\":12},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"100.01\",\"value\":100.01},{\"quote\":\"10 units\",\"value\":10},{\"quote\":\"15 + half = 25\",\"value\":15},{\"quote\":\"150\",\"value\":150},{\"quote\":\"250\",\"value\":250},{\"quote\":\"2x\",\"value\":2}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic components from the provided descriptions, including results of simple expressions like 25/3 and 1/3.\"}",
+  "prompt_sha256": "541e190a2efa62279ecbd726df747fda27b04838149ddc6deb4c465743d03277"
+}

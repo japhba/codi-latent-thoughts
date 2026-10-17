@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5416",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring a specific numerical answer: total 300 tickets, combined $150 price, and 100+ tickets.\n\nThe solution structure demands a specific integer answer, likely \"10\" or similar small number, completing the arithmetic reasoning.\n\nThe final token \"are\" closes a sentence fragment \"The number of tickets sold at the cheaper price are,\" immediately requiring a numerical answer (e.g., \"100\") representing the difference between the two ticket prices.\n$300 + $100x = $4000 total constraint.\n(300 - 100x) = 130 tickets from the cheaper price, so the number of unknown tickets is (1300/100) = 130 tickets.\n(300+10x) = $4000, so.",
+    "Mathematical word problem solution in progress: total score calculation requires summing all 15 points, then subtracting remaining students' scores.\n\nThe arithmetic constraint: 15 \u00d7 $10 = $150 maximum score, so the solution must account for all 15 students contributing $10 each.\n\nFinal token \"has earned\" begins the arithmetic expression completing the sentence, immediately requiring the numerical result of 150 points from the 15 male students, likely \"150 points\" or \"15 \u00d7 $10 = $1500\" before adding the remaining 10 students' lower scores.\n\"has earned\" demands a specific dollar/point value next.\n150 points from the 150 students who scored full points, before adding the remaining 30 students' partial scores.\n150 \u00d7 $10 = $.",
+    "Math problem-solving context: calculating total score, then finding remaining students' average score.\n\nThe solution is mid-calculation, having established that 100 students scored $10 each, so the next step is computing the minimum possible total score (100 \u00d7 $1 = $1000).\n\nFinal token \"$15\" begins the arithmetic expression \"$150\" or \"$1500\" \u2014 specifically the sum of the top 30 students' scores (100 \u00d7 $1), immediately requiring completion of this number and the equation setup.\n$150 from the men's scores, leaving the remaining students' points to be calculated.\n$1500 from the 30-point minimum score, so next tokens must complete this arithmetic statement before solving for remaining students' points.\n150 points from men's $100 \u00d7 $1.",
+    "Math problem-solving walkthrough: algebraic equation setup requires completing the total sum expression and solving for variable x.\n\nThe solution is mid-calculation, having established total ticket revenue ($1500) and adult price ($10x), now setting up the equation: 10x + remaining students = $1500.\n\nFinal token \"1500\" ends the arithmetic statement \"12 tickets \u00d7 $10 = $1200,\" immediately requiring continuation of the equation setup, likely \"so the remaining students must account for...\" or similar logical conclusion showing the equation constraint.\n$1500 represents the maximum possible total from all adult tickets alone, setting up the difference equation.\n$1500 - $x = $1000, so next tokens must complete this arithmetic reasoning showing the remaining students must equal $150 total minus $x.",
+    "Mathematical problem-solving pattern: equation setup requires completing the algebraic expression (total $300 = $1500 + $1300).\n\nThe solution is mid-calculation, showing the difference between total revenue and total cost: ($1300 - $1500 = $-200), so the next tokens must state this numerical result and solve for n.\n\nFinal token \"p$1300p- p$1500p = $p\" introduces the difference expression, immediately requiring the numerical value \"$300\" or the equation completion \"$1300 - $1000 = $300\" to solve for n.\n(1300-1500) = $200 total excess revenue, so n = number of tickets sold.\n(300-15.",
+    "Step-by-step math problem walkthrough following a structured solution format, with each step building toward a final answer.\n\nThe equation setup requires solving for x: total tickets = $1000, so the next step must show the algebraic solution: x = (1000 - $80x) / $80 = 10 people.\n\nFinal token \"80.00. 80.\" ends the difference equation showing the remaining unknown summing to zero; the next tokens must present the solving step, likely \"Therefore, the number of people who bought tickets is 10\" or similar conclusion.\nFinal token \"0. 100.\" closes the second equation showing the remainder ($0) = 80x - total minus $80x = $0, immediately requiring the division result and solution statement.\n$300 / $50 = ."
+  ],
+  "input_sha256": "60c3ff4e7b1b5ac936eca8c8b8d2092b88dda6430439670d0e89777a5d54a533",
+  "values": [
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4000",
+      "value": "4000"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "1300",
+      "value": "1300"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "-200",
+      "value": "-200"
+    },
+    {
+      "quote": "80.00",
+      "value": "80"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like -200) explicitly stated in the text, avoiding years, ordinals, and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4000\",\"value\":4000},{\"quote\":\"130\",\"value\":130},{\"quote\":\"1300\",\"value\":1300},{\"quote\":\"15\",\"value\":15},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"30\",\"value\":30},{\"quote\":\"1\",\"value\":1},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"12\",\"value\":12},{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"-200\",\"value\":-200},{\"quote\":\"80.00\",\"value\":80},{\"quote\":\"0\",\"value\":0},{\"quote\":\"50\",\"value\":50}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like -200) explicitly stated in the text, avoiding years, ordinals, and unit conversions.\"}",
+  "prompt_sha256": "6c89f6138eb1a1845b9d485b612a506439a9fa44a5829a1689521039a88e7780"
+}

@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5094",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: financial data presented as paired values (current vs. prior period), e.g., \"1.4% in the past year to 0.0% in the last month.\"\n\nStructured financial data continuation: the sentence is mid-way through presenting a price comparison, following the established pattern of \"current value to X% in the last month.\"\n\nFinal token \"and\" is a conjunction mid-sentence, requiring an immediate continuation of the financial comparison clause, likely another percentage figure or time period completing the \"from $X to $Y\" structure.\n\"and\" signals an additional data point or closing clause follows.\n\"and\" is part of an incomplete price comparison, demanding a numeric value or descriptor immediately next.\n\"and $1.4% in the last month\" pattern suggests another price figure or concluding financial metric follows.\n\"and $1.4% in the last month\".",
+    "Review/listing format with structured product details, following a pattern of feature descriptions and bullet points throughout.\n\nThe text is mid-sentence completing a product description for the \"Berserking\" item, with a rating or additional detail expected to follow the truncated sentence.\n\nFinal token \"is\" opens a predicate clause mid-sentence (\"The Berserking is\"), immediately requiring a rating, adjective, or descriptive phrase like \"rated 4.5/5\" or \"a great choice.\"\n\"100 is\" suggests a numeric rating or score is being stated, likely continuing with a star rating or product descriptor.\n\"100 is\" is incomplete \u2014 \"is\" likely begins a predicate like \"is 900 is\" or leads into a store/availability statement, with \"is\" as a repeated artifact suggesting copy-paste error; visual product listing context constrains next tokens to pricing.",
+    "Structured e-commerce navigation pattern: each category lists subcategories with consistent formatting (name, description, part numbers).\n\nThe page is mid-way through a parts list, having covered \"Brake Parts\" and \"Brake Pads\" with descriptions; more subcategory entries are expected to continue the pattern.\n\nFinal token \"More\" closes a \"View all X Parts\" link pattern, immediately followed by another category entry (e.g., \"Brake Discs\" or similar), continuing the established navigation menu structure.\n\"Part\" is the truncated word \"Part\" completing \"View all [Part] Parts,\" with more category links expected after.\n\"Part\" is mid-word, requiring completion as \"Part\" then likely \"s\" or a new category header follows.\n\"Most Popular Parts\" list or navigation element is next.\n\"Part\" is the final token, completing a navigational link label, with product.",
+    "Structured parts list pattern: each entry follows \"|Part Name||Description|\" table format, with alternating product listings and part descriptions.\n\nStructured e-commerce parts catalog momentum: the page systematically lists all available components, with the parts table mid-enumeration implying more entries follow.\n\nFinal token \"Part\" ends an incomplete table row \"|Part\" \u2014 this is a truncated pipe-delimited cell, immediately requiring a closing pipe \"|\" followed by a part name or description continuing the established \"|Part Name|\" pattern.\n\"Part\" is likely the start of a product name like \"Part #...\" or a part number, constrained to fit the established table format.\n\"Part\" is the final token, mid-cell in a pipe-delimited product listing, requiring completion of a part name or price table row.\n\"Part\" table row is incomplete; the next tokens must close the cell and continue the price table structure.\n\"Part\" is.",
+    "Structured parts list pattern: each entry follows \"|Part Name||Description|\" table format, with alternating part names and descriptions.\n\nPart catalog continuation: the list has been enumerating specific vehicle components (engine, transmission, drivetrain, etc.), with more parts expected to follow.\n\nFinal token \"Part\" closes a table cell label \"Oil Filter Part\" within a pipe-delimited parts list, immediately requiring a closing pipe \"|\" followed by a part description or the next part entry.\n\"Part\" is mid-cell in a parts table row, requiring \"|\" to close the cell, then likely another part name or end of table.\n\"Part\" is the final token, part of an incomplete part entry, demanding \"|\" next to close the cell.\n\"Part\" is part of a product listing table row, with part numbers and descriptions following the established \"|Part Name|\" pattern.\n\"Part\" table row is incomplete \u2014 the immediate.",
+    "Structured parts list pattern: each row follows \"|Part Name||Description|\" format, with alternating part numbers and descriptions throughout the table.\n\nStructured table continuation: the parts list has been presenting alternating entries with pipe-delimited fields; the pattern strongly predicts another part entry or closing table element.\n\nFinal token \"Part\" ends an incomplete product name \"Bushing for Lower Link Chain (Lower Link Chain)\" \u2014 the part number \"4000000000\" and closing pipe \"|\" are immediately expected next, followed by more part entries.\n\"Part\" is mid-row in the parts table, requiring the part number and closing pipe to complete the row.\n\"Part\" is the final token, part of a table cell label, immediately requiring \"Number\" or a pipe-delimited continuation.\n\"Part\" table row is incomplete, with product name and number still needed.\n\"||\" is the final token."
+  ],
+  "input_sha256": "a5676cb7d29c2af4a4d644fc98657d6113ea24c1a364365b9bf5d725f34d9e8d",
+  "values": [
+    {
+      "quote": "1.4%",
+      "value": "1.4"
+    },
+    {
+      "quote": "0.0%",
+      "value": "0"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "4.5/5",
+      "value": "0.9"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "4000000000",
+      "value": "4000000000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and fractions from the provided descriptions, including values found within quotes and descriptive text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.4%\",\"value\":1.4},{\"quote\":\"0.0%\",\"value\":0.0},{\"quote\":\"100\",\"value\":100},{\"quote\":\"4.5/5\",\"value\":0.9},{\"quote\":\"900\",\"value\":900},{\"quote\":\"4000000000\",\"value\":4000000000}],\"justification\":\"Extracted explicit numeric literals, percentages, and fractions from the provided descriptions, including values found within quotes and descriptive text.\"}",
+  "prompt_sha256": "84c668856d75db06fdf6f75f6348c9685152e0fd6509265e5f99446570a162a4"
+}

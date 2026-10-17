@@ -1,0 +1,213 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5292",
+  "kind": "own",
+  "descriptions": [
+    "Math problem requiring numerical answer: 300 tickets split 3:1 ratio, so 60% male, 40% female, with 300\u00d7(3/5) expected.\n\nThe solution must calculate the first group's vote count: 300 tickets \u00d7 (3/5) = 180, then the second group's count (120) must follow, completing the expected answer.\n\nFinal token \"were\" introduces the numerical answer for the first group's vote count (180), constrained to be a specific integer representing 3/5 of 300, likely \"180\" or \"150\" given the 3:1 ratio and 120 expected for the second group.",
+    "Mathematical calculation in progress: total 180 units split 12+6, so the next value must be the calculated probability (120/180 = 2/3) for the second machine.\n\nThe solution is demonstrating that the 150% threshold from the first machine (12/180) must be compared against the new combined ratio (12+18=30), so the next tokens will state the new target probability.\n\nFinal token \"had\" introduces the calculated result of the combined ratio calculation: \"12+18 = 30 units,\" so the next tokens must state the percentage: \"1/3\" or \"2/3\" to complete the probability statement.",
+    "Mathematical problem-solving context: calculating expected value of 80 tickets, with 20+120=140 total, requiring arithmetic continuation.\n\nThe solution is mid-calculation, computing the ratio 80/180 = 5/15, then applying this to the expected profit calculation: 20% of 120 tickets and 30% of 80 tickets.\n\nFinal token \"5\" is the beginning of \"50%\" (the combined ratio 180/120=1.5, i.e., 50/50), completing the arithmetic expression \"total 100%\" \u2014 next tokens must be \"0%\" or \"0/100\" to complete the percentage calculation.",
+    "Mathematical problem-solving context: calculating expected value by weighted averages, with 30+20=50 total cases, each weighted proportion being computed step-by-step.\n\nThe solution is mid-calculation, having established that 30+20=50 total, and now computing the proportion 50% for each category (30/50, 40/50, 20/50).\n\nFinal token \"50\" is the computed result of the combined ratio calculation (50/100), immediately requiring \"%\" or the next step: \"percent\" or continuation of the arithmetic showing the expected value calculation: 50% \u00d7 15 and 50% \u00d7 20.",
+    "Mathematical solution in progress: calculating half the 500 split (30+20 ratio = 50%, so 50% each), now applying to remaining counts.\n\nThe solution is mid-calculation, having established that 100% = 50+50, and now computing the specific number of students in each group (50% of 150).\n\nFinal token \"p\" is the start of \"p50\" or \"p50%\" \u2014 the truncated number \"150p\" (likely \"150p\" or \"150\"), completing the arithmetic expression showing the equal distribution of 50% each group, immediately requiring the digit \"5\" to complete \"50\" or continuing the division result.",
+    "Math problem solution format: each answer follows a structured pattern of calculation, equation, and final answer with explanation.\n\nThe solution is mid-calculation, having found the 50% smaller number (150) and the 50% larger number (250), now requiring the final answer identifying the smaller group's count (50).\n\nFinal token \"50.30.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.\" ends the equation result; the next tokens must state the smaller group's answer, likely \"The smaller group is 15\" or \"The number of people is 15.\""
+  ],
+  "input_sha256": "9cc2c7e8294880dbd6955b3d642342087dcf1a9a85e22afa987503c23f74f68b",
+  "values": [
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "3:1",
+      "value": "3"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "60%",
+      "value": "60"
+    },
+    {
+      "quote": "40%",
+      "value": "40"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "12+6",
+      "value": "18"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "120/180",
+      "value": "0.666667"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "150%",
+      "value": "150"
+    },
+    {
+      "quote": "12/180",
+      "value": "0.0666667"
+    },
+    {
+      "quote": "12+18=30",
+      "value": "30"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "20+120=140",
+      "value": "140"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "140",
+      "value": "140"
+    },
+    {
+      "quote": "80/180",
+      "value": "0.444444"
+    },
+    {
+      "quote": "5/15",
+      "value": "0.333333"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "180/120=1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "50/50",
+      "value": "1"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "0%",
+      "value": "0"
+    },
+    {
+      "quote": "0/100",
+      "value": "0"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "30+20=50",
+      "value": "50"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "30/50",
+      "value": "0.6"
+    },
+    {
+      "quote": "40/50",
+      "value": "0.8"
+    },
+    {
+      "quote": "20/50",
+      "value": "0.4"
+    },
+    {
+      "quote": "50/100",
+      "value": "0.5"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "50+50",
+      "value": "100"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "50.30.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.",
+      "value": "50.3051"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, fractions, and arithmetic results from the provided descriptions while maintaining exact quotes.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"300\",\"value\":300},{\"quote\":\"3:1\",\"value\":3},{\"quote\":\"1\",\"value\":1},{\"quote\":\"60%\",\"value\":60},{\"quote\":\"40%\",\"value\":40},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"180\",\"value\":180},{\"quote\":\"120\",\"value\":120},{\"quote\":\"150\",\"value\":150},{\"quote\":\"12+6\",\"value\":18},{\"quote\":\"12\",\"value\":12},{\"quote\":\"6\",\"value\":6},{\"quote\":\"120/180\",\"value\":0.6666666666666666},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"150%\",\"value\":150},{\"quote\":\"12/180\",\"value\":0.06666666666666667},{\"quote\":\"12+18=30\",\"value\":30},{\"quote\":\"18\",\"value\":18},{\"quote\":\"30\",\"value\":30},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"80\",\"value\":80},{\"quote\":\"20+120=140\",\"value\":140},{\"quote\":\"20\",\"value\":20},{\"quote\":\"140\",\"value\":140},{\"quote\":\"80/180\",\"value\":0.4444444444444444},{\"quote\":\"5/15\",\"value\":0.3333333333333333},{\"quote\":\"5\",\"value\":5},{\"quote\":\"15\",\"value\":15},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"50%\",\"value\":50},{\"quote\":\"180/120=1.5\",\"value\":1.5},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"50/50\",\"value\":1},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"0%\",\"value\":0},{\"quote\":\"0/100\",\"value\":0},{\"quote\":\"100\",\"value\":100},{\"quote\":\"30+20=50\",\"value\":50},{\"quote\":\"50\",\"value\":50},{\"quote\":\"30/50\",\"value\":0.6},{\"quote\":\"40/50\",\"value\":0.8},{\"quote\":\"20/50\",\"value\":0.4},{\"quote\":\"50/100\",\"value\":0.5},{\"quote\":\"500\",\"value\":500},{\"quote\":\"50+50\",\"value\":100},{\"quote\":\"250\",\"value\":250},{\"quote\":\"50.30.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.\",\"value\":50.305050505050506}],\"justification\":\"Extracted all explicit numeric literals, percentages, fractions, and arithmetic results from the provided descriptions while maintaining exact quotes.\"}",
+  "prompt_sha256": "b7f0e7cc1bbd85eaead74ca5b07a02bde00d13b738b4ce0cc4097ff3b45d57c5"
+}

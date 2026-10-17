@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5204",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: $200 \u2212 $10\u00d72 + $10\u00d75 = $100 remaining after accounting for all costs.\n\nThe problem follows a classic \"how much money remains\" structure, demanding a specific numerical answer to complete the calculation.\n\nFinal token \"The amount of money left is\" is an incomplete declarative sentence mid-answer, immediately requiring a specific dollar amount (likely \"100\") representing the remaining balance after subtracting costs.\n(200 \u2212 10\u00d72 + 10\u00d710 \u2212 20 small coins).\n200 \u2212 10\u00d710 \u2212 20 coins = 100 remaining, so the next token must be the numeric answer \"100.\"\n(200 \u2212 10\u00d710 \u2212 20 small coins + 20 bonus coins.",
+    "Mathematical word problem requiring arithmetic completion: 12\u00d710 + 2\u00d72 = $124, so the next token must be the calculated total cost.\n\nThe structured solution format demands a numerical answer showing arithmetic steps, specifically \"12\u00d710 + 5\u00d72 = $124.\"\n\nFinal token \"have\" is part of the sentence \"They have,\" directly requiring the arithmetic result \"$124\" (12\u00d710 + 6\u00d71 = $124 minus the 2\u00d7$1 bonus).\n10\u00d712 + 2\u00d7$1 = $124, completing the multiplication expression.\n12\u00d710 + 6\u00d71 small drinks = $124, plus 2\u00d7$5 small drinks, confirming the total.\n\n12\u00d710 + 5\u00d7$1 = the.",
+    "Math word problem solution in progress: arithmetic calculation requires completing 12\u00d75 + 10\u00d72 = 130 cents, then checking remaining money.\n\nThe structured solution format demands showing arithmetic steps: 15\u00d72 + 10\u00d75 = 130, confirming the answer matches the $130 total.\n\nFinal token \"13\" is the start of the arithmetic result (15\u00d72 + 10\u00d71), immediately requiring \"0\" to complete \"130 dollars spent,\" then likely stating remaining money or a conclusion.\n130 is the numeric answer being stated.\n12\u00d75 + 10\u00d71 = 130 cents, confirming the equation resolves correctly before stating remaining money available.\n10\u00d72 + 15\u00d71 = 130 cents, leaving $10 to spend on.",
+    "Word problem solution format: structured step-by-step algebraic reasoning, with each step showing arithmetic operations and variable setup.\n\nThe solution is mid-calculation, having established total cost (8\u00d710 + 2\u00d715 = 130), now requiring the remaining amount owed or change statement like \"She spent $130 total.\"\n\nFinal token \"$130\" is the computed result of 8\u00d710 + 2\u00d715, completing the total spent statement; next tokens must state remaining change or conclude the solution (e.g., \"in total. She had $130 left\").\nFinal token \"$130\" ends the arithmetic result, immediately expecting a period or continuation like \"She received change of $50\" or \"She had enough change.\"\nShe spent $130 on food and drinks, so change owed = $50 remaining.",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requires completing the arithmetic expression and showing remaining balance.\n\nThe solution is mid-calculation, having established 10\u00d7$13 + 2\u00d7$15, so the next step is completing the arithmetic result and stating the remaining amount owed.\n\nFinal token \"p\" is the start of \"pennies\" or \"$130\", completing the total cost statement \"$100 + 2\u00d7$15 = $130\", immediately requiring \".pennies\" or the full sentence \"She spent $130 total, leaving $60 change.\"\nFinal token \"p\" is mid-word, part of \"$130\", completing the cost expression before stating change owed.\n100 + 14\u00d71 = $130, confirming the solution's conclusion about change remaining.",
+    "Word problem structure: two parts established, now solving part (a) with arithmetic summing $15 + $115 = $130 spent, leaving change owed.\n\nThe pattern mirrors the first problem's format: state total, then state remaining amount owed, then state change received.\n\nFinal token \"dollars.\" ends the cost statement (\"I spent $150 + $1150 = $1305\"), immediately requiring the next line to state change received or remaining balance owed, e.g., \"I received $X change.\"\nFinal token \"dollars.\" closes the problem statement listing the paid amounts, so the next tokens must state the change amount and remaining change owed.\nFinal token \"750 dollars.\" completes the total spent calculation, immediately constraining the next line to state change received: \"$750 + $1000 = $1."
+  ],
+  "input_sha256": "4419680ff8b98ef51de24d5b206cd8bf3a9d90d2638ca2a007b28d7e81ac3832",
+  "values": [
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "124",
+      "value": "124"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "1150",
+      "value": "1150"
+    },
+    {
+      "quote": "1305",
+      "value": "1305"
+    },
+    {
+      "quote": "750",
+      "value": "750"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and results of arithmetic expressions explicitly stated within individual descriptions, avoiding duplicates and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200\",\"value\":200},{\"quote\":\"10\",\"value\":10},{\"quote\":\"2\",\"value\":2},{\"quote\":\"5\",\"value\":5},{\"quote\":\"100\",\"value\":100},{\"quote\":\"20\",\"value\":20},{\"quote\":\"12\",\"value\":12},{\"quote\":\"124\",\"value\":124},{\"quote\":\"6\",\"value\":6},{\"quote\":\"1\",\"value\":1},{\"quote\":\"130\",\"value\":130},{\"quote\":\"15\",\"value\":15},{\"quote\":\"13\",\"value\":13},{\"quote\":\"0\",\"value\":0},{\"quote\":\"8\",\"value\":8},{\"quote\":\"50\",\"value\":50},{\"quote\":\"14\",\"value\":14},{\"quote\":\"60\",\"value\":60},{\"quote\":\"115\",\"value\":115},{\"quote\":\"150\",\"value\":150},{\"quote\":\"1150\",\"value\":1150},{\"quote\":\"1305\",\"value\":1305},{\"quote\":\"750\",\"value\":750},{\"quote\":\"1000\",\"value\":1000}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and results of arithmetic expressions explicitly stated within individual descriptions, avoiding duplicates and unit conversions.\"}",
+  "prompt_sha256": "9d1b1a5f7de037bb74df3b53ee2bf36ca0e9636f255f109ac3442b7abe8ff7f9"
+}

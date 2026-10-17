@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5030",
+  "kind": "own",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard comparisons.\n\nDomain-specific data presentation: the text is presenting hazard statistics for the 2019 model, with hazard counts and rates, expecting further numerical comparisons or hazard descriptions to follow.\n\nFinal token \"is\" opens a predicate completing the hazard rate statistic for the 2019 model, immediately requiring a numeric value or comparative phrase like \"X times higher than\" or a specific hazard count.",
+    "Film review genre with plot summary and character analysis, now transitioning to scene-by-scene narrative description of the film's opening sequence.\n\nThe review has been building toward a climactic character moment \u2014 the scene where the film's political tension is established \u2014 with the father's emotional reaction and the film's themes of family and politics.\n\nFinal token \"200 was 1400 was 2100\" is mid-sentence (\"210 was 240 was 150\"), completing a scene description; \"240 was 150\" is the film's title, and the sentence requires continuation describing the scene's emotional or plot significance.",
+    "Q&A format with personal testimony structure: author shares marriage advice, now transitioning to a specific spiritual/relationship question about dating, requiring continuation of the narrative.\n\nPattern of listing marriage duration and spiritual journey details: \"15 years,\" \"15 years,\" \"15 years\" suggests a chronological progression of dating experiences, with the Catholic/Christian angle now foregrounded.\n\nFinal token \"15\" is mid-sentence (\"15\"), part of \"15 years\" or \"15 months\" \u2014 a time duration completing \"15\" as part of \"15 months\" or \"15 years,\" immediately requiring a unit or continuation of the date reference.",
+    "Q&A format established: each question is followed by a detailed answer, so the next tokens continue the theological/medical content of the current answer about the Church's 1990s focus on the body.\n\nTheological content momentum: the answer is mid-sentence discussing the Church's historical focus on the body, with \"60 years ago\" framing and \"60 years of ministry\" suggesting a structured series of historical points about the Church's practice.\n\nFinal token \"60\" is part of \"60 years old\" or \"60 years of\" \u2014 mid-sentence, completing \"about 150 years old\" or \"about 30\" (likely \"60\" as a unit), immediately requiring a noun or continuation of the age/quantity phrase.",
+    "The article is summarizing a book's argument, building toward a factual claim about the film's medical accuracy and its implications for the film industry.\n\nThe narrative momentum follows a news article structure: anecdote \u2192 expert quote \u2192 book summary \u2192 statistical evidence, now delivering the specific statistic about the film's audience and its significance.\n\nFinal token \"12,000,002 people, about 20.3 percent, about 0.4 people per minute\" \u2014 mid-sentence, completing a statistical claim about the film's audience size, immediately requiring continuation of the expert's commentary on the 40% figure or its implications.",
+    "Structured legal citation format: each entry follows \"Case Name v. City, page number, holding, rule, and analysis\" pattern, establishing strong template expectations.\n\nThe text is mid-explanation of a case analysis, having stated the rule and cited the page number, now elaborating on the factual reasoning \u2014 \"15.3 minutes\" signals a detailed breakdown of the 130-page document's content.\n\nFinal token \"130.15\" is \"15.3 minutes\" (12.9 pages), mid-sentence after \"130.15 is about 12.9 pages, about 17.8 minutes\" \u2014 the sentence is incomplete and requires continuation of the factual note about the 18th page reference, likely \"approximately\" or a page number completing the citation."
+  ],
+  "input_sha256": "eacf35d8b607416957035d82b42afd46e011fd579bb62a05b8b284b32d9bf68f",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "1400",
+      "value": "1400"
+    },
+    {
+      "quote": "2100",
+      "value": "2100"
+    },
+    {
+      "quote": "210",
+      "value": "210"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1990s",
+      "value": "1990"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "12,000,002",
+      "value": "12000002"
+    },
+    {
+      "quote": "20.3",
+      "value": "20.3"
+    },
+    {
+      "quote": "0.4",
+      "value": "0.4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "15.3",
+      "value": "15.3"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "130.15",
+      "value": "130.15"
+    },
+    {
+      "quote": "12.9",
+      "value": "12.9"
+    },
+    {
+      "quote": "17.8",
+      "value": "17.8"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within strings of numbers, percentages, and counts, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":10000},{\"quote\":\"1 in 100,000\",\"value\":100000},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"200\",\"value\":200},{\"quote\":\"1400\",\"value\":1400},{\"quote\":\"2100\",\"value\":2100},{\"quote\":\"210\",\"value\":210},{\"quote\":\"240\",\"value\":240},{\"quote\":\"150\",\"value\":150},{\"quote\":\"15\",\"value\":15},{\"quote\":\"1990s\",\"value\":1990},{\"quote\":\"60\",\"value\":60},{\"quote\":\"150\",\"value\":150},{\"quote\":\"30\",\"value\":30},{\"quote\":\"12,000,002\",\"value\":12000002},{\"quote\":\"20.3\",\"value\":20.3},{\"quote\":\"0.4\",\"value\":0.4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"15.3\",\"value\":15.3},{\"quote\":\"130\",\"value\":130},{\"quote\":\"130.15\",\"value\":130.15},{\"quote\":\"12.9\",\"value\":12.9},{\"quote\":\"17.8\",\"value\":17.8}],\"justification\":\"Extracted all explicit numeric literals, including those within strings of numbers, percentages, and counts, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "2472c0a08ac61e5730e660e5e3ea6d78d03355e41e0053881b3bf0c49f118b8e"
+}

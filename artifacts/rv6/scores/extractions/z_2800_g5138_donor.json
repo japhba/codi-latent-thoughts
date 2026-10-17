@@ -1,0 +1,181 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5138",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical findings pattern: article consistently presents study data with specific percentages, so a numerical result or comparative figure is expected next.\n\nNarrative momentum: the sentence introduces a contrast between the study's findings and the article's own earlier claim about the 10% increase, suggesting a concluding comparative statement follows.\n\nFinal token \"10 percent\" ends an incomplete comparative clause (\"the same as the article claimed...10 percent\"), requiring immediate continuation with a verb or qualifier completing the comparison, likely \"higher\" or a similar directional descriptor.\n\"10 percent\" is mid-sentence, part of a concluding summary statement; next tokens must complete this comparative finding.\n\"5 percent\" or similar numeric continuation is constrained by the study's actual reported result.\n\"46.9 was 10 percent\" is garbled OCR artifact; \"698\" is the final token, part of a comparative clause.",
+    "Character introduction pattern: the review is mid-sentence describing the narrator's emotional reaction to the letter, continuing the \"200 pages\" anecdote.\n\nReview momentum: the text is building toward a thematic summary of the book's emotional impact, likely concluding with a character insight or recommendation.\n\nFinal token \"200,\" is mid-sentence within a quoted character description (\"200 pages\"), immediately requiring continuation of the quoted speech or a descriptive clause completing the narrator's reaction.\n\"200,\" is \"22\" or \"23\" \u2014 the number \"22\" or \"24\" is likely intended, but analytical commentary follows \"2302\" or scene description.\n\"2402\" is garbled OCR artifact; \"2302\" is \"360 seconds\" \u2014 list of social media examples or character traits \"2541\".",
+    "Narrative momentum: recipe introduction is mid-sentence, describing the dish's history and ingredients, leading to a specific quantity or measurement.\n\nQ&A format pattern: the text follows a structured recipe blog format with bold questions and detailed answers, suggesting continuation of instructional prose.\n\nFinal token \"4\" is the start of a number (likely \"4 years\" or \"4 months\"), completing the sentence about how long the dish has been in the refrigerator \u2014 a specific numeric continuation is immediately required.\n\"4\" is an incomplete number mid-sentence, strongly constraining next tokens to digits or a unit of time.\n\"48\" or \"4.5 years\" or similar spiritual reflection context.\n\"48\" list or \"4\" people \u2014 \"445\" or \"4,5\" visual data \u2014 \"254 days\" is garbled; nutritional \"4.8 months\" is gar.",
+    "Q&A format established: question posed, answer begun with \"A:\" \u2014 continuation must complete the answer with more detail about the author's background.\n\nThe answer is mid-sentence listing the author's credentials and context, suggesting more biographical or informational content follows.\n\nFinal token \"8\" ends an incomplete statistic (\"80 percent of the questions\"), immediately requiring continuation of this sentence \u2014 likely \"percent\" or additional qualifying detail about the question count.\n\"88\" or list continuation expected next.\n\"88\" is a truncated number \"68\" or \"88 questions\" \u2014 practical advice list or further elaboration on the author's ministry experience follows.\n\"68\" is \"680 questions\" or dietary list \u2014 \"153 questions\" or church membership statistic \"98 years\" \u2014 the numbered list \"288 friends\" is \"96 days\" \u2014 educational advice.",
+    "Statistical/factual continuation: the article is mid-sentence reporting survey data, with \"10 percent\" statistic just introduced, expecting elaboration or additional figures.\n\nNews article narrative momentum: the piece builds toward revealing the article's source and author, with the final sentence beginning a new explanatory clause about the survey's findings.\n\nFinal token \"100 percent\" is a typo for \"100 percent\" \u2014 the sentence is incomplete, immediately requiring continuation of the publication's editorial commentary or source attribution.\n\"2,000 people\" or similar completion of the sentence's factual claim.\n\"2000 people\" or \"121,008 people\" \u2014 the narrative expects publication name or source citation next.\n\"218.5 people\" is \"196,008\" \u2014 regulatory \"12 people\" visual; \"205.3.",
+    "Argumentative momentum: the passage is explaining the church's reasoning for rejecting the complaint, building toward a ruling or conclusion.\n\nNarrative/structural pattern: the text follows a legal analysis format \u2014 complaint stated, then church's response explained, suggesting a summary or ruling follows.\n\nFinal token \"4\" ends \"4.5 years\" (likely \"4.5 years\" or \"4 years\"), completing the church's stated reasoning; next tokens will likely continue with additional procedural steps or a concluding evaluative statement about the complaint's outcome.\n\"24\" or \"240\" is legal citation format, suggesting \"2.4\" or \"4.5 years\" is the rule being cited.\n\"260\" is \"4.4\" \u2014 the list of procedural steps is \"198\" seconds; legal citation \"260.5 people\" is the film's verdict;."
+  ],
+  "input_sha256": "04593a7fbca3adb92d9086075c507d10978938414f279334fff0617bb0876fe6",
+  "values": [
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "46.9",
+      "value": "46.9"
+    },
+    {
+      "quote": "698",
+      "value": "698"
+    },
+    {
+      "quote": "5 percent",
+      "value": "5"
+    },
+    {
+      "quote": "200 pages",
+      "value": "200"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "23",
+      "value": "23"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "2302",
+      "value": "2302"
+    },
+    {
+      "quote": "2402",
+      "value": "2402"
+    },
+    {
+      "quote": "360 seconds",
+      "value": "360"
+    },
+    {
+      "quote": "2541",
+      "value": "2541"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "4.5 years",
+      "value": "4.5"
+    },
+    {
+      "quote": "445",
+      "value": "445"
+    },
+    {
+      "quote": "254 days",
+      "value": "254"
+    },
+    {
+      "quote": "4.8 months",
+      "value": "4.8"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "80 percent",
+      "value": "80"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "680 questions",
+      "value": "680"
+    },
+    {
+      "quote": "153 questions",
+      "value": "153"
+    },
+    {
+      "quote": "98 years",
+      "value": "98"
+    },
+    {
+      "quote": "288 friends",
+      "value": "288"
+    },
+    {
+      "quote": "96 days",
+      "value": "96"
+    },
+    {
+      "quote": "100 percent",
+      "value": "100"
+    },
+    {
+      "quote": "2,000 people",
+      "value": "2000"
+    },
+    {
+      "quote": "121,008 people",
+      "value": "121008"
+    },
+    {
+      "quote": "218.5 people",
+      "value": "218.5"
+    },
+    {
+      "quote": "196,008",
+      "value": "196008"
+    },
+    {
+      "quote": "12 people",
+      "value": "12"
+    },
+    {
+      "quote": "205.3",
+      "value": "205.3"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "2.4",
+      "value": "2.4"
+    },
+    {
+      "quote": "260",
+      "value": "260"
+    },
+    {
+      "quote": "4.4",
+      "value": "4.4"
+    },
+    {
+      "quote": "198",
+      "value": "198"
+    },
+    {
+      "quote": "260.5 people",
+      "value": "260.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and decimal values from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10%\",\"value\":10},{\"quote\":\"46.9\",\"value\":46.9},{\"quote\":\"698\",\"value\":698},{\"quote\":\"5 percent\",\"value\":5},{\"quote\":\"200 pages\",\"value\":200},{\"quote\":\"22\",\"value\":22},{\"quote\":\"23\",\"value\":23},{\"quote\":\"24\",\"value\":24},{\"quote\":\"2302\",\"value\":2302},{\"quote\":\"2402\",\"value\":2402},{\"quote\":\"360 seconds\",\"value\":360},{\"quote\":\"2541\",\"value\":2541},{\"quote\":\"4\",\"value\":4},{\"quote\":\"48\",\"value\":48},{\"quote\":\"4.5 years\",\"value\":4.5},{\"quote\":\"445\",\"value\":445},{\"quote\":\"254 days\",\"value\":254},{\"quote\":\"4.8 months\",\"value\":4.8},{\"quote\":\"8\",\"value\":8},{\"quote\":\"80 percent\",\"value\":80},{\"quote\":\"88\",\"value\":88},{\"quote\":\"68\",\"value\":68},{\"quote\":\"680 questions\",\"value\":680},{\"quote\":\"153 questions\",\"value\":153},{\"quote\":\"98 years\",\"value\":98},{\"quote\":\"288 friends\",\"value\":288},{\"quote\":\"96 days\",\"value\":96},{\"quote\":\"100 percent\",\"value\":100},{\"quote\":\"2,000 people\",\"value\":2000},{\"quote\":\"121,008 people\",\"value\":121008},{\"quote\":\"218.5 people\",\"value\":218.5},{\"quote\":\"196,008\",\"value\":196008},{\"quote\":\"12 people\",\"value\":12},{\"quote\":\"205.3\",\"value\":205.3},{\"quote\":\"240\",\"value\":240},{\"quote\":\"2.4\",\"value\":2.4},{\"quote\":\"260\",\"value\":260},{\"quote\":\"4.4\",\"value\":4.4},{\"quote\":\"198\",\"value\":198},{\"quote\":\"260.5 people\",\"value\":260.5}],\"justification\":\"Extracted explicit numeric literals, percentages, and decimal values from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "fdde1932a527ab520ce2c89029cb1e459bc9b99757069d52ede3f79446427297"
+}

@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5144",
+  "kind": "donor",
+  "descriptions": [
+    "The article follows a structured sports journalism format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence is mid-completion, presenting a specific numerical finding about the 100-meter line crossing time \u2014 the pattern established earlier (\"1.5 seconds,\" \"1.6 seconds\") strongly predicts a precise decimal figure will follow.\n\nFinal token \"was\" opens a predicate requiring a specific time measurement (e.g., \"1.5 seconds\" or similar), completing the clause about the 100-meter line crossing time, consistent with the article's repeated pattern of citing exact numerical values.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the husband's reaction, building toward a conclusion about the film's emotional impact on him.\n\nCharacter relationship dynamic: the husband's \"cold\" personality is being contrasted with his emotional response to the film, suggesting a \"but\" or reversal is coming.\n\nFinal token \"was\" opens a past-tense predicate clause describing the husband's emotional state or reaction \u2014 likely a positive descriptor like \"moved,\" \"moved to tears,\" or \"moved by the story.\"\n</explanation>",
+    "The text is a film review with a detailed plot summary, now transitioning into a second review (The Hollywood Reporter's version), which is mid-sentence describing the plot setup.\n\nThe narrative momentum follows a cause-and-effect chain: the setup (man's death, daughter's grief, mother's grief) is being described, with the next expected content being the consequence \u2014 the mother's emotional state or the film's central conflict emerging.\n\nThe final token \"1\" is the start of a number (likely \"10\" or \"11\"), part of a sentence describing the mother's grief level, requiring immediate numeric continuation to complete the figure.\n</explanation>",
+    "The text is a Q&A format where a question was posed and answered, with the answer now mid-sentence explaining the \"100 times\" claim. The answer is providing a factual explanation about the 1990s study's methodology and findings.\n\nThe answer is building toward completing the explanation of why the study concluded the 100% figure was accurate \u2014 likely referencing the 100% correct answer rate or the 100% correct answer rate in the study.\n\nThe final token \"15\" is mid-sentence, part of a clause explaining the study's conclusion; it likely continues with a number or unit (e.g., \"15,000\" or \"15 percent\") completing the factual claim about the study's findings.\n</explanation>",
+    "The article follows a news report structure: incident summary, then detailed narrative, now concluding with a specific statistic about the shooting's impact.\n\nThe sentence ending mid-statistic (\"30 people were injured in the shooting, and 10 people were killed\") establishes a pattern of precise numerical reporting, suggesting the next tokens will continue with additional casualty or impact details.\n\nThe final token \"10\" is part of an incomplete sentence (\"The shooting killed 10\"), requiring immediate continuation \u2014 likely \"people\" or a similar noun completing the death toll figure.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the husband's misreading of the sign, building toward the punchline of the husband's misinterpretation.\n\nRepetition/continuation pattern: the story has been retelling the same anecdote twice with slight variations, suggesting a third retelling or concluding summary is expected.\n\nFinal token \"30\" ends an incomplete clause (\"the sign read 30\"), requiring immediate continuation \u2014 likely a number or unit (e.g., \"30 feet\" or \"30 feet away\") completing the husband's mistaken calculation.\n</explanation>"
+  ],
+  "input_sha256": "221a0bf07302609388ff6735b04f9361096628b6720cff5712fa491856178a56",
+  "values": [
+    {
+      "quote": "100-meter",
+      "value": "100"
+    },
+    {
+      "quote": "1.5 seconds",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.6 seconds",
+      "value": "1.6"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "100 times",
+      "value": "100"
+    },
+    {
+      "quote": "1990s",
+      "value": "1990"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "30 people",
+      "value": "30"
+    },
+    {
+      "quote": "10 people",
+      "value": "10"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including percentages and measurements, while excluding ordinals and dates as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100-meter\",\"value\":100},{\"quote\":\"1.5 seconds\",\"value\":1.5},{\"quote\":\"1.6 seconds\",\"value\":1.6},{\"quote\":\"1\",\"value\":1},{\"quote\":\"100 times\",\"value\":100},{\"quote\":\"1990s\",\"value\":1990},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"15\",\"value\":15},{\"quote\":\"30 people\",\"value\":30},{\"quote\":\"10 people\",\"value\":10},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including percentages and measurements, while excluding ordinals and dates as per instructions.\"}",
+  "prompt_sha256": "61f68c2e2a652fdb6437ddc32c1c0f20d6088b36411152cb3685b11bfa3867ac"
+}

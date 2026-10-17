@@ -1,0 +1,117 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5099",
+  "kind": "own",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard comparisons.\n\nDomain-specific data presentation: the article systematically presents hazard statistics with hazard types, locations, and hazard counts, expecting continued quantitative findings.\n\nFinal token \"is\" opens a predicate completing the hazard count sentence for the 2019\u20132020 period, requiring a specific numeric hazard ratio (likely \"1 in X\" format) to follow immediately.",
+    "Narrative momentum of personal memoir: author is recounting memories of dating, establishing character details and romantic history, expecting continuation of this scene.\n\nCharacter/relationship pattern: the text has been describing the couple's shared memories and timeline, now shifting to specific movie details and family connections, suggesting more scene-setting or memory elaboration follows.\n\nFinal token \"1400 was 1540\" is mid-sentence (\"1400 was 1540\" likely a typo for \"1400 was 1640\"), part of a time reference for the wedding date, immediately requiring completion of the time detail and then continuation of the memory about the wedding.",
+    "Recipe blog format with personal narrative voice, transitioning from instructional steps to a \"top tips\" section with casual, enthusiastic tone (\"I love,\" \"I'm sure\").\n\nThe memory of the first date night with the boyfriend sets up a food pairing example, with romantic anecdotes and practical cooking advice expected to continue.\n\nFinal token \"2\" is mid-sentence (\"21 minutes\" or \"20 minutes\" implied), part of \"21 days\" or \"20 minutes\" \u2014 a specific time reference completing \"21 days\" or \"20 minutes\" is immediately expected, continuing the food memory narrative.",
+    "Q&A format with expert advice structure: article lists practical tips, now transitioning to a specific expert quote with personal examples and recommendations.\n\nPractical health/lifestyle advice pattern: the article has been giving marriage tips; now shifting to professional guidance on marriage-specific health, with \"marriage advice\" framing the content.\n\nFinal token \"111\" is mid-sentence (\"61\"), part of \"30 years of marriage, I have 61\" \u2014 a number completing \"31\" (likely \"61 tips\" or \"61 years of experience\"), immediately requiring continuation of the advice list or elaboration on the 111 tips referenced.",
+    "Argumentative momentum: article builds toward revealing a medical/ethical truth about doctors' liability, with statistics and expert quotes supporting the claim.\n\nStatistical/factual pattern: the narrative has been presenting evidence (1999 study, 2010 study, legal context) to support the claim that doctors are \"not immune,\" now pivoting to a concluding moral or legal implication.\n\nFinal token \"100,480,000 people are 14,280 per million, or about 12.5 per person\" \u2014 mid-sentence completing a statistic, immediately requiring continuation of the liability/medical professional argument, likely \"per year\" or a clause explaining the implication.",
+    "Legal analysis format: case summary followed by rule explanation, now applying the rule to a specific case (Cavaliere), requiring conclusion of the reasoning.\n\nThe argument is building toward affirming the court's reasoning \u2014 the reasoning chain (unlawful \u2192 illegal \u2192 rule violation \u2192 conclusion) is mid-explanation, with the final sentence completing the logical deduction about the 10800 feet.\n\nFinal token \"17,000 was 109 per foot was 148 per foot was 87 per foot was 17,000 per minute was 109 per minute\" \u2014 this is a garbled repetition of the per-minute calculation, and the next tokens will complete the legal reasoning about the 10800-foot threshold."
+  ],
+  "input_sha256": "184f990f1690e9eff8230bf0009eb20c3ddb92f58df5610a3f4e67b8c42a1d06",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "2020",
+      "value": "2020"
+    },
+    {
+      "quote": "1400",
+      "value": "1400"
+    },
+    {
+      "quote": "1540",
+      "value": "1540"
+    },
+    {
+      "quote": "1640",
+      "value": "1640"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "111",
+      "value": "111"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "61",
+      "value": "61"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "1999",
+      "value": "1999"
+    },
+    {
+      "quote": "2010",
+      "value": "2010"
+    },
+    {
+      "quote": "100,480,000",
+      "value": "100480000"
+    },
+    {
+      "quote": "14,280",
+      "value": "14280"
+    },
+    {
+      "quote": "12.5",
+      "value": "12.5"
+    },
+    {
+      "quote": "10800",
+      "value": "10800"
+    },
+    {
+      "quote": "17,000",
+      "value": "17000"
+    },
+    {
+      "quote": "109",
+      "value": "109"
+    },
+    {
+      "quote": "148",
+      "value": "148"
+    },
+    {
+      "quote": "87",
+      "value": "87"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within garbled text and dates, as specified in the instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":10000},{\"quote\":\"1 in 100,000\",\"value\":100000},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"2020\",\"value\":2020},{\"quote\":\"1400\",\"value\":1400},{\"quote\":\"1540\",\"value\":1540},{\"quote\":\"1640\",\"value\":1640},{\"quote\":\"2\",\"value\":2},{\"quote\":\"21\",\"value\":21},{\"quote\":\"20\",\"value\":20},{\"quote\":\"111\",\"value\":111},{\"quote\":\"30\",\"value\":30},{\"quote\":\"61\",\"value\":61},{\"quote\":\"31\",\"value\":31},{\"quote\":\"1999\",\"value\":1999},{\"quote\":\"2010\",\"value\":2010},{\"quote\":\"100,480,000\",\"value\":100480000},{\"quote\":\"14,280\",\"value\":14280},{\"quote\":\"12.5\",\"value\":12.5},{\"quote\":\"10800\",\"value\":10800},{\"quote\":\"17,000\",\"value\":17000},{\"quote\":\"109\",\"value\":109},{\"quote\":\"148\",\"value\":148},{\"quote\":\"87\",\"value\":87}],\"justification\":\"Extracted all explicit numeric literals, including those within garbled text and dates, as specified in the instructions.\"}",
+  "prompt_sha256": "1dd3f396dd9f454fb1d1df95a778350b52b24a2620276d794302fd1cb6739d83"
+}

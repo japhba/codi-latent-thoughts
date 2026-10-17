@@ -1,0 +1,137 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5100",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: article lists specific numerical findings with percentages, establishing a template of \"X% of [group] [action]\" that continues.\n\nStructured list continuation: the hazard data section has begun with one bullet point and is mid-sentence, requiring additional numeric data points (e.g., other countries or time periods) to complete the dataset.\n\nFinal token \"2 is\" is mid-sentence within a parenthetical numeric value, immediately requiring a closing number or decimal to complete the hazard ratio figure, likely followed by a closing parenthesis and continuation of the statistical finding.\n\"2 is\" \u2192 expects a percentage or decimal value like \"1.5\" or similar hazard figure.\n\"25% of the 25% of the 2 is\" suggests a nested percentage structure, likely continuing with a specific result or closing the sentence with a period.",
+    "Plot summary continuation: the text is mid-sentence describing character roles, requiring completion of the historical/political context about the film's setting.\n\nList/enumeration pattern: character descriptions follow a structured format, with each character's role explained; the pattern suggests more plot details or historical context about the 1960s setting.\n\nFinal token \"6,\" is mid-number, part of a numerical figure describing the film's production year or a specific count (e.g., \"6,000\" or \"6,676\"), requiring immediate numeric continuation to complete the interrupted number \"65 was 676\" or similar historical detail.\n\"65 was 16, 367\" \u2014 the truncated \"6, 367\" (likely \"16, 356\") demands the next token complete this interrupted number, then describe the political.",
+    "Recipe blog format with structured sections (ingredients, instructions) signals continuation of narrative description of the film's plot.\n\nThe text is mid-sentence describing the timeline of the film's production, establishing a pattern of sequential time markers (\"first 6 hours,\" \"next 6 hours,\" \"after about 66 minutes\").\n\nFinal token \"6\" is part of an incomplete number \"6.6\" or a time unit (likely \"66\" or \"6,666\"), mid-sentence within a numerical duration, requiring immediate continuation of the interrupted number and likely a unit of time or measurement.\n\"6\" is the final token, part of \"about 66\" or \"6.6\" \u2014 a decimal number completing the approximate age \"6666\" or similar, immediately followed by digits and then the historical context of the spiritual discovery.\n\"667 days.\"",
+    "Narrative momentum: dating advice article mid-story, detailing a specific scenario with a phone number, building toward a call-to-action or tip.\n\nSequential list pattern: article has been presenting numbered/structured relationship advice steps, suggesting continuation of this story's resolution or transition to next numbered item.\n\nFinal token \"99\" is the beginning of a truncated number (likely \"990\" or similar), part of the phone number \"990\" or \"990\" \u2014 the next tokens must complete this numeric value, almost certainly \"990\" completing \"990\" or continuing the interrupted \"959\" to \"990\" romantic escalation detail.\n\"655 990\" is a truncated number mid-sequence, immediately requiring completion of the interrupted \"990\" figure.\n\"659 939\" crime\" \u2014.",
+    "Statistical/factual reporting pattern: article presents news data with specific figures (\"200,000,\" \"200 times\"), expecting continuation of cited statistics or source details.\n\nContinuation of the news article's enumeration of specific claims: the text has been listing safety concerns and statistics, suggesting more elaboration or additional cited sources follow.\n\nFinal token \"200\" is mid-sentence, part of a numerical citation (\"about 200\"), immediately requiring a unit or continuation of the number (e.g., \"200,000\" or completing \"200 times\" with a specific page reference or legal citation).\n\"500\" or similar number completing the truncated \"200 times 300 pages\" or similar media reference, likely \"200,000\" or a specific scene count.\n\"500.\"",
+    "Legal citation pattern: news article listing specific legal documents, requiring continuation of the enumerated list of complaint types.\n\nDomain-specific content: legal/forensic context expects technical language about traffic violations, citations, and legal references.\n\nFinal token \"6.\" ends a numerical statistic (\"about 6.5 million... about 6\"), part of a structured factual breakdown; next tokens must continue the sentence describing the visual content or legal basis of the cited traffic video.\n\"about 6.5 million\" was interrupted mid-sentence, so the truncated \"6.\" likely continues with a specific count or percentage completing the \"about 7 about 9 seconds\" observation.\n\"6.9 seconds\" or similar numerical estimate is immediately expected to complete the \"about 7 about 3 people\" scenario description.\n\"5,000 about 6.9 seconds\" is mid-sentence, requiring completion of the."
+  ],
+  "input_sha256": "ef7ddc274f39639385eb039033d2bbadb316fe518ea813e4763487e7b3a057d6",
+  "values": [
+    {
+      "quote": "25%",
+      "value": "25"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "676",
+      "value": "676"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "367",
+      "value": "367"
+    },
+    {
+      "quote": "16, 356",
+      "value": "16356"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "66",
+      "value": "66"
+    },
+    {
+      "quote": "6.6",
+      "value": "6.6"
+    },
+    {
+      "quote": "6,666",
+      "value": "6666"
+    },
+    {
+      "quote": "6666",
+      "value": "6666"
+    },
+    {
+      "quote": "667",
+      "value": "667"
+    },
+    {
+      "quote": "99",
+      "value": "99"
+    },
+    {
+      "quote": "990",
+      "value": "990"
+    },
+    {
+      "quote": "959",
+      "value": "959"
+    },
+    {
+      "quote": "655",
+      "value": "655"
+    },
+    {
+      "quote": "659",
+      "value": "659"
+    },
+    {
+      "quote": "939",
+      "value": "939"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "6.5 million",
+      "value": "6500000"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "6.9",
+      "value": "6.9"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, including those within quotes and truncated sequences as requested.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25%\",\"value\":25},{\"quote\":\"2\",\"value\":2},{\"quote\":\"65\",\"value\":65},{\"quote\":\"676\",\"value\":676},{\"quote\":\"16\",\"value\":16},{\"quote\":\"367\",\"value\":367},{\"quote\":\"16, 356\",\"value\":16356},{\"quote\":\"6\",\"value\":6},{\"quote\":\"66\",\"value\":66},{\"quote\":\"6.6\",\"value\":6.6},{\"quote\":\"6,666\",\"value\":6666},{\"quote\":\"6666\",\"value\":6666},{\"quote\":\"667\",\"value\":667},{\"quote\":\"99\",\"value\":99},{\"quote\":\"990\",\"value\":990},{\"quote\":\"959\",\"value\":959},{\"quote\":\"655\",\"value\":655},{\"quote\":\"659\",\"value\":659},{\"quote\":\"939\",\"value\":939},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"200\",\"value\":200},{\"quote\":\"500\",\"value\":500},{\"quote\":\"300\",\"value\":300},{\"quote\":\"6.5 million\",\"value\":6500000},{\"quote\":\"7\",\"value\":7},{\"quote\":\"9\",\"value\":9},{\"quote\":\"6.9\",\"value\":6.9},{\"quote\":\"3\",\"value\":3},{\"quote\":\"5,000\",\"value\":5000}],\"justification\":\"Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, including those within quotes and truncated sequences as requested.\"}",
+  "prompt_sha256": "c7e771b5b0d8e4286ea4c00a1b2940ed6d00a066895874639c1bdef0377022b2"
+}

@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5087",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: structured sports report presenting paired metrics (total, rate, year-over-year), now continuing with dollar figures for each metric.\n\nNumerical continuation: the sentence lists \"total annual value\" and \"rate\" with specific dollar amounts, establishing a parallel structure requiring a third value (likely \"per game\" or similar rate figure) to complete the data series.\n\nFinal token \"is\" opens a predicate completing the dollar amount for \"total annual value,\" immediately requiring a specific numeric dollar figure (e.g., \"1.2 billion\" or similar) to follow.",
+    "Product listing/review format with structured metadata fields (Cast, Director, Release Date) followed by promotional description \u2014 continuation follows film synopsis conventions.\n\nThe text is mid-sentence describing the film's cast and crew, building toward a complete product description covering plot, quality, and technical details typical of streaming/rental site copy.\n\nFinal token \"is\" opens a relative clause mid-sentence (\"The film is\"), immediately requiring a predicate adjective or noun phrase describing the film's quality, likely \"a must-see\" or \"a great choice\" continuing the promotional description.",
+    "E-commerce product listing page for auto parts, following a structured catalog format with repeated section headers and product category listings.\n\nThe page is systematically listing parts categories and related products, with a pattern of \"Part Name + Part Type\" entries (e.g., \"Oil Filter Parts,\" \"Oil Filter Parts for 2003-2007\").\n\nFinal token \"Available\" ends a section header \"Oil Filter Parts for 2003-2007\" \u2014 immediately expects a price, product count, or continuation of the part listing, likely \"Price\" or a price range following the established e-commerce catalog pattern.",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and prices repeating consistently throughout the table.\n\nE-commerce parts catalog format: the page lists parts by part number, price, and part name in a structured table, with \"Part # Price Part Name\" rows expected to continue.\n\nFinal token \"\u2013$10.00\" closes a table row for \"Part # 1010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Structured table pattern: pipe-delimited rows with part numbers, prices, and shipping info repeating consistently throughout.\n\nTable row continuation: the table lists pipe-delimited columns for part numbers, prices, and shipping costs; the current row has only two columns so far, requiring a price value and closing pipe.\n\nFinal token \"$18.00\" is a price value mid-row in the table, immediately requiring the closing pipe \"|\" to complete the cell, then likely a shipping cost or row end.",
+    "Structured table pattern: pipe-delimited rows with price ranges and part numbers, following consistent format throughout the table.\n\nTable row continuation: the table lists shipping costs by price range; the final row \"Price $100.00 - $199.99\" has opened with a price range and requires a corresponding price value and closing pipe.\n\nFinal token \"$-&-|\" is a placeholder cell in the table row, immediately requiring the closing pipe and likely a dollar amount or \"N/A\" value to complete the row structure."
+  ],
+  "input_sha256": "35038192c439c076886f31adccbaf9d1f5e6a43318da3bbc66cdc05062242f78",
+  "values": [
+    {
+      "quote": "$10.00",
+      "value": "10"
+    },
+    {
+      "quote": "$18.00",
+      "value": "18"
+    },
+    {
+      "quote": "$100.00",
+      "value": "100"
+    },
+    {
+      "quote": "$199.99",
+      "value": "199.99"
+    }
+  ],
+  "justification": "Extracted explicit numeric dollar amounts found in the descriptions, excluding identifiers like part numbers and dates/years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$10.00\",\"value\":10.0},{\"quote\":\"$18.00\",\"value\":18.0},{\"quote\":\"$100.00\",\"value\":100.0},{\"quote\":\"$199.99\",\"value\":199.99}],\"justification\":\"Extracted explicit numeric dollar amounts found in the descriptions, excluding identifiers like part numbers and dates/years.\"}",
+  "prompt_sha256": "eb764d9882389b5c3735432680ff0ee33444c6c0d64ea13589e01a15988d9fdb"
+}

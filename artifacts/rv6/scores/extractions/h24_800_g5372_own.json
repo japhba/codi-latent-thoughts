@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5372",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring a numerical answer: total expected value calculation combining 2/5 fraction of 250 + 1/5 fraction of 300.\n\nThe solution structure demands a specific integer representing total expected passengers, derived from combining 1/5 of 250 + original 30, using the given values (25 + 1/5 of 30).\n\nFinal token \"is\" completes \"The expected number of passengers is,\" requiring an immediate numerical answer (likely \"28\" or similar integer) representing the calculated total from combining 1/5 of 250 + 30 from the original diet, derived from 2/5 of 28 + 40 (the 40 pages from the 30 pages).",
+    "Mathematical word problem solution in progress: fraction calculation requires computing 2/5 of 250, then adding remaining 3/5 of total.\n\nThe solution follows a structured step-by-step format, having established the original fraction (2/5) of 250, now computing the removed fraction (2/5) of 250 to find the new total capacity.\n\nFinal token \"has\" begins a clause stating the first fraction of the 250 portion already calculated (2/5 of 250 = 100), immediately requiring a specific number representing the first fraction's value, likely \"1/5 of 250\" or \"250 \u00d7 2/5 = 100\" to describe the removed fraction before adding remaining 3/5.",
+    "Mathematical word problem solution in progress: calculating new fraction after adding 2/5 of total capacity (250/500).\n\nStep-by-step arithmetic sequence: 2/5 of 250 = 100 added, so next tokens must complete this arithmetic and continue showing remaining fraction calculation.\n\nFinal token \"10\" is the start of the computed result of 2/5 of 50, part of the arithmetic expression showing the added 25% of original capacity (100), immediately requiring \"0\" to complete \"100\" (from 25% of 50), then continuing to show remaining total fraction: 250 + 100 = 400, then adding 150.",
+    "Math word problem solution in progress: step-by-step algebraic walkthrough requires continuing the arithmetic sequence showing current water volume (1/4 of 200 = 50 gallons already filled).\n\nThe solution structure demands showing the equation setup: initial filling (1/4) + new filling (2/5) = total 200 gallons, then solving for total capacity.\n\nFinal token \"100\" is the computed result of 2/3 of 100 gallons already filled, representing the existing water volume from 40% of the tank; next tokens must continue this arithmetic chain, likely \"gallons\" or \"in the tank\" and then adding the new 200 gallons added (2/5 of 200 = 80).",
+    "Math word problem solution in progress: arithmetic calculation requires completing the arithmetic sequence showing daily increase (3 hours \u00d7 20 = 60 added) to find new population.\n\nThe solution follows a structured step-by-step format: population after 3 hours = original 300, then adding 3\u00d720=60, requiring the arithmetic result \"60\" to complete the calculation.\n\nFinal token \"p\" begins the number \"60\" representing the added quantity from three consecutive days (3\u00d720), immediately requiring \"30\" to complete \"p30\" or \"20\" to state the new population: 30 + 3\u00d720 = 60 added, confirming the new population = 300 + 3\u00d720 = 360.",
+    "Step-by-step math word problem format: each problem follows identical structure (current state \u2192 change \u2192 result), establishing strong template for completing the second problem.\n\nThe second problem mirrors the first's structure: initial count (500 books), increase (60 books/day), and now requires the new total calculation: 500 + 60 = 560 books.\n\nFinal token \"60\" is the second day's addition in the second problem's second step, immediately requiring the next arithmetic operation: \"60 added to the current 500 books = 60\" to complete the second day's increase, then the new total (560) and a question asking for the new total number of books."
+  ],
+  "input_sha256": "2c9b1702825dd6ea8f1b0a015597fbc813bd97b644d32853ba47618f932e4951",
+  "values": [
+    {
+      "quote": "2/5",
+      "value": "0.4"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "1/5",
+      "value": "0.2"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "250/500",
+      "value": "0.5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "25%",
+      "value": "25"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "40%",
+      "value": "40"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "560",
+      "value": "560"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and percentages from the provided descriptions, including arithmetic results mentioned as explicit values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2/5\",\"value\":0.4},{\"quote\":\"250\",\"value\":250},{\"quote\":\"1/5\",\"value\":0.2},{\"quote\":\"300\",\"value\":300},{\"quote\":\"30\",\"value\":30},{\"quote\":\"25\",\"value\":25},{\"quote\":\"28\",\"value\":28},{\"quote\":\"40\",\"value\":40},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"100\",\"value\":100},{\"quote\":\"250/500\",\"value\":0.5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"25%\",\"value\":25},{\"quote\":\"50\",\"value\":50},{\"quote\":\"400\",\"value\":400},{\"quote\":\"150\",\"value\":150},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"200\",\"value\":200},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"40%\",\"value\":40},{\"quote\":\"80\",\"value\":80},{\"quote\":\"3\",\"value\":3},{\"quote\":\"20\",\"value\":20},{\"quote\":\"60\",\"value\":60},{\"quote\":\"360\",\"value\":360},{\"quote\":\"500\",\"value\":500},{\"quote\":\"560\",\"value\":560}],\"justification\":\"Extracted all explicit numeric literals, fractions, and percentages from the provided descriptions, including arithmetic results mentioned as explicit values.\"}",
+  "prompt_sha256": "d27613cb2bc02a1391456c4a3da496b0250eb40196b76cfa0b3a6b3e736fd7f7"
+}

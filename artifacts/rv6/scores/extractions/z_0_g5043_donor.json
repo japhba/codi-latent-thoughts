@@ -1,0 +1,25 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5043",
+  "kind": "donor",
+  "descriptions": [
+    "The text is a structured casino review following a consistent pattern of describing game categories with specific examples and statistics. The review systematically covers slots, table games, and now live dealer games.\n\nThe review has been listing specific game titles with counts (e.g., \"10 progressive jackpots,\" \"10 progressive jackpots\"), establishing a pattern of naming specific titles with numbers.\n\nThe final token \"including\" introduces an incomplete list of specific live dealer game titles, requiring immediate continuation with named game examples (e.g., \"Blackjack, Roulette, Baccarat\") following the established enumeration pattern.\n</explanation>",
+    "The text is a structured slot game review following a consistent pattern: game features, symbols, and mechanics described systematically.\n\nThe review is mid-sentence describing the Wild symbol's function, having just explained the Scatter symbol's role \u2014 the Wild symbol's complementary function (substituting for all other symbols) is the expected next content.\n\nFinal token \"or\" is a conjunction mid-clause (\"substitutes for all other symbols or\"), requiring immediate completion with another symbol type, likely \"the Scatter symbol\" or similar, continuing the Wild symbol's substitution description.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years in descending order (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is the year cell in the last table row, immediately requiring `||` followed by the car make \"Honda\" and model \"Civic\" to complete the row structure.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years in descending order (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, horsepower, and MPG values to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years in descending order (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, horsepower, and MPG values to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, mileage, and price values to complete the row.\n</explanation>"
+  ],
+  "input_sha256": "50b10df67f0bf2fee6db0ae1a6ea772c2c66743296d70f6f38777481332f18b8",
+  "values": [
+    {
+      "quote": "10 progressive jackpots",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted the explicit numeric count '10' from the casino review description. Years, ordinals, and identifiers were excluded per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10 progressive jackpots\",\"value\":10}],\"justification\":\"Extracted the explicit numeric count '10' from the casino review description. Years, ordinals, and identifiers were excluded per instructions.\"}",
+  "prompt_sha256": "ac3c1b8ce7e8146ae235c9e6ada4e58ff328fd5bfe50cdd1eaec343e4a902570"
+}

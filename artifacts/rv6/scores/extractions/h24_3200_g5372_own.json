@@ -1,0 +1,145 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5372",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup requiring a numerical answer: 2/5 of initial 240 eggs plus 3/5 added.\n\nThe solution demands a specific arithmetic calculation \u2014 240 \u00d7 3/5 + 60 \u00d7 3/25 = 180 eggs.\n\nFinal token \"The answer is\" opens a direct numerical answer, immediately requiring a number (likely \"180\") representing the predicted egg count after the initial 250 eggs.\n260 eggs in the bowl are the target, so the answer must be a specific integer completing the arithmetic.\n3/5 of 250 plus 60 from the added knowledge.\nThe first calculation yields eggs already present, so the answer must be the combined initial figure.\n260 + 3/5 \u00d7 240/50 approximate.\n3/5 of original eggs plus.",
+    "Math word problem walkthrough in progress: solution requires showing fraction arithmetic steps, specifically 2/5 of 250.\n\nThe solution structure demands showing the arithmetic expression: \"2/5 \u00d7 250 = 100\" to demonstrate the filled fraction.\n\nFinal token \"has\" introduces the result of the first calculation, immediately requiring a numerical value or expression like \"2/5 \u00d7 250 = 100\" showing the filled fraction before adding remaining 250.\nFinal token \"has\" begins a clause stating the known quantity, expecting a number or expression showing the 2/5 portion of 250.\n2/5 of the original 250 books added to 30 remaining books.\n2/5 \u00d7 25 = 125, then adding 3 times remaining capacity.\nThe next tokens must complete the arithmetic demonstration.",
+    "Math word problem walkthrough in progress: step-by-step arithmetic showing fraction arithmetic, expecting completion of the arithmetic expression.\n\nThe solution requires showing 2/5 of 250 pages added to 250, so the next tokens must complete the multiplication: 2/5 \u00d7 250 = 100, then show the new total.\n\nFinal token \"10\" is the start of \"100\" (2/5 of 250), mid-number, immediately requiring \"0\" to complete the arithmetic result showing the added pages before showing remaining total.\n calculating 2/5 of 220 pages already filled, then adding 225.\nYou are adding 2/5 of 50 pages to the current 220 filled pages.\n2/5 \u00d7 50 = 100 added, so the next tokens show.",
+    "Step-by-step math problem walkthrough requires continuing the solution narrative with the initial filling amount.\n\nThe word problem structure demands showing the arithmetic progression: 2/5 \u00d7 200 = 80 gallons, then adding 150 \u00d7 2/3 = new total capacity.\n\nThe final token \"100\" is the initial filling value (2/5 of 200 gallons), mid-calculation, immediately requiring the unit \"gallons\" and then the next step showing the added 150 gallons filling to 250 gallons.\n100 gallons is the computed result of 2/3 \u00d7 50, so the next tokens must complete this arithmetic expression and show the new total volume after adding 3/4 of capacity.\n2/5 \u00d7 100 = current partial filling before adding 3/4 \u00d7 200.",
+    "Step-by-step math word problem solution format, requiring arithmetic completion of the multiplication expression \"3 hours \u00d7 20 = 60.\"\n\nThe solution follows a structured word problem walkthrough, with the final step showing the new balance calculation.\n\nThe last token \"p\" begins the arithmetic result of \"3 hours \u00d7 20 added,\" immediately requiring the numeric answer \"60\" to complete the equation \"He will add 60 grams.\"\nFinal token \"p\" is the start of \"60 grams,\" completing the change calculation (3 \u00d7 20 = gained over 3 hours).\n3 hours \u00d7 20 = 60 grams added, so the next tokens must state \"60 grams\" to complete the new balance equation.\nHe will remove 240 from initial 300.\n240 after 3 hours = new volume.\n3 hours \u00d7 20.",
+    "Step-by-step math word problem walkthrough format, with each problem followed by a solution walkthrough using arithmetic operations.\n\nThe second word problem mirrors the first's structure: a word problem is stated, then solved with arithmetic steps \u2014 the solution walkthrough is mid-calculation.\n\nThe final token \"60\" is the added volume (60 \u00d7 10%) completing the arithmetic operation \"60 added to 320 = new volume,\" immediately expecting the solution result \"The new volume is 380\" or similar closing statement.\nFinal token \"60\" is the increment value in the problem's solution, requiring the next line to state the new count: \"The new volume is 380.\"\nFinal token \"60\" ends the added increment calculation (0.2 hours \u00d7 30 minutes = 60 added), immediately requiring the arithmetic result line.\n60 is the."
+  ],
+  "input_sha256": "78b0ea6ac265cc87d6d217150abdd6a1541995f975a8e7c44f0ae1ef0e0ee04b",
+  "values": [
+    {
+      "quote": "2/5",
+      "value": "0.4"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "240 \u00d7 3/5 + 60 \u00d7 3/25 = 180",
+      "value": "180"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "3/25",
+      "value": "0.12"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "260",
+      "value": "260"
+    },
+    {
+      "quote": "240/50",
+      "value": "4.8"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "2/3 \u00d7 50",
+      "value": "33.3333"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "320",
+      "value": "320"
+    },
+    {
+      "quote": "380",
+      "value": "380"
+    },
+    {
+      "quote": "0.2",
+      "value": "0.2"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to its shortest exact quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2/5\",\"value\":0.4},{\"quote\":\"240\",\"value\":240},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"240 \u00d7 3/5 + 60 \u00d7 3/25 = 180\",\"value\":180},{\"quote\":\"60\",\"value\":60},{\"quote\":\"3/25\",\"value\":0.12},{\"quote\":\"180\",\"value\":180},{\"quote\":\"250\",\"value\":250},{\"quote\":\"260\",\"value\":260},{\"quote\":\"240/50\",\"value\":4.8},{\"quote\":\"100\",\"value\":100},{\"quote\":\"25\",\"value\":25},{\"quote\":\"125\",\"value\":125},{\"quote\":\"3\",\"value\":3},{\"quote\":\"10\",\"value\":10},{\"quote\":\"220\",\"value\":220},{\"quote\":\"225\",\"value\":225},{\"quote\":\"50\",\"value\":50},{\"quote\":\"200\",\"value\":200},{\"quote\":\"80\",\"value\":80},{\"quote\":\"150\",\"value\":150},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"2/3 \u00d7 50\",\"value\":33.333333333333336},{\"quote\":\"3/4\",\"value\":0.75},{\"quote\":\"20\",\"value\":20},{\"quote\":\"300\",\"value\":300},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"320\",\"value\":320},{\"quote\":\"380\",\"value\":380},{\"quote\":\"0.2\",\"value\":0.2},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to its shortest exact quote.\"}",
+  "prompt_sha256": "0fdbb3b615b35c3e713a59d14c03c734668928fe615b88ee7ee2b674e3c99e3c"
+}

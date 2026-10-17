@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5444",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup requiring arithmetic completion: \"4 times + original\" formula demands a specific numerical answer.\n\nThe problem follows a classic arithmetic word problem structure: total = 4x + x = 25, so the answer must be 25 \u00d7 4 + 25 = 125 total items.\n\nFinal token \"equal to\" introduces the numerical answer, requiring an integer representing the total count of four times 25 plus the original 25, directly constraining the next token to be \"125\" (i.e., \"25 \u00d7 4 + 1\" = 100), completing the arithmetic expression \"Total = 4x + x = 25 \u00d7 4 + 1 = 100.\"",
+    "Word problem setup requiring arithmetic completion: \"4 times 25 equals 100\" demands the multiplication result \"100\" as the next token.\n\nWord problem format signals a structured solution: problem states \"There are 4 times as many cars in the fourth category,\" so the next tokens must state the total count (25 \u00d7 4 = 100) before listing remaining cars.\n\nFinal token \"has\" is a linking verb beginning the arithmetic statement, immediately requiring a number or quantity phrase like \"25 \u00d7 4 = 100 cars\" to complete the multiplication setup before continuing to state total cars (25 + 4 = 100) or summing all four categories.",
+    "Word problem format requires a simple arithmetic solution: 4 times 25 = 100 houses built, establishing the answer.\n\nThe problem setup (\"There are 25 houses built\") signals a word problem requiring a direct calculation, with the multiplication 4\u00d725 already stated.\n\nThe final token \"10\" begins the number 100 (4 times 25), completing the multiplication result for the new count of houses built in the problem's question (\"4 times 25 equals 100\"), immediately constraining the next token to \"0\" to complete \"100,\" followed by explanation of total houses (25 + 100 = 125).",
+    "Word problem format requires a step-by-step solution, with the multiplication setup (\"4 times the number of trees\") demanding a concrete numerical answer.\n\nThe problem explicitly states \"There are 25 apple trees\" and asks to calculate total apple trees, so the solution must confirm \"100 apple trees\" as the computed answer.\n\nFinal token \"100\" is the result of 4 times 25 in the multiplication, completing the multiplication statement (\"you will plant 100\"), immediately requiring the noun \"apple trees\" to complete the sentence, confirming the total count of the second category (orchard trees), likely followed by a summary sentence stating total trees: \"There are 100 apple trees in the orchard.\"",
+    "Word problem format established: word problem setup requires a solution walkthrough, expecting arithmetic calculation steps.\n\nThe problem states \"4 times as many trees\" for apple trees, so the solution must confirm 4 \u00d7 15 = 60 apple trees, then sum total trees (15 + 60 = 75).\n\nFinal token \"p\" is the truncated word \"pines,\" completing the sentence \"They have planted 15 apple trees. They have 4 times as many pines as there are orange trees, so they have planted 60 pines\" \u2014 the word \"trees\" or \"pines\" must immediately follow to complete the sentence, then likely a summary statement confirming total count of trees (e.g., \"There are 150 trees in the orchard\").",
+    "Word problem format requires a numerical arithmetic answer: 450 + 3 times 450 = 1350 total plants.\n\nThe problem structure demands a solution: \"There are 450 plants in one field. The other field has 3 times as many\" sets up a simple arithmetic calculation requiring the total count.\n\nFinal token \"plants.\" closes the problem statement with the multiplier condition (3 times 450), immediately requiring the arithmetic result sentence: \"The total number of students is 1350\" or similar phrasing to state the combined total of 450 + 2 times 450 = 1350 students, then the answer."
+  ],
+  "input_sha256": "4bebd50d57b2734f93e67d95525e3a1ce7f778cfea0ca60680ed694bfd3688a1",
+  "values": [
+    {
+      "quote": "4 times",
+      "value": "4"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "25 \u00d7 4 + 25 = 125",
+      "value": "125"
+    },
+    {
+      "quote": "25 \u00d7 4 + 1 = 100",
+      "value": "100"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "25 + 100 = 125",
+      "value": "125"
+    },
+    {
+      "quote": "4 \u00d7 15 = 60",
+      "value": "60"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "15 + 60 = 75",
+      "value": "75"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "450 + 3 times 450 = 1350",
+      "value": "1350"
+    },
+    {
+      "quote": "450 + 2 times 450 = 1350",
+      "value": "1350"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions provided within the text descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4 times\",\"value\":4},{\"quote\":\"25\",\"value\":25},{\"quote\":\"25 \\u00D7 4 + 25 = 125\",\"value\":125},{\"quote\":\"25 \\u00D7 4 + 1 = 100\",\"value\":100},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"0\",\"value\":0},{\"quote\":\"25 + 100 = 125\",\"value\":125},{\"quote\":\"4 \\u00D7 15 = 60\",\"value\":60},{\"quote\":\"15\",\"value\":15},{\"quote\":\"15 + 60 = 75\",\"value\":75},{\"quote\":\"60\",\"value\":60},{\"quote\":\"150\",\"value\":150},{\"quote\":\"450\",\"value\":450},{\"quote\":\"3\",\"value\":3},{\"quote\":\"450 + 3 times 450 = 1350\",\"value\":1350},{\"quote\":\"450 + 2 times 450 = 1350\",\"value\":1350}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and results of arithmetic expressions provided within the text descriptions.\"}",
+  "prompt_sha256": "face8c84f68599d90bc643637c050742651157967e3adf6005955546e5879682"
+}

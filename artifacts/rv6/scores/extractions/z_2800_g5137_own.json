@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5137",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: city-by-city percentage data is being enumerated, with \"New York City\" already given (10.5%), implying more cities follow.\n\nNumerical precision constraint: the hazard percentage for New York City is being stated as \"10.5 percent,\" and the sentence structure \"The city of New York City has a 10.5 percent...\" requires completing this figure consistently with the earlier cited value.\n\nFinal token \"5.\" is mid-number, part of \"10.5 percent\" being restated in a new sentence, immediately requiring \"percent\" to complete the decimal figure.\n\"5.\" is \"5 percent\" \u2014 the numeric continuation is \"5 percent\" or \"5.0 percent.\"\n\"5.\" is \"105 percent hazard\" \u2014 the hazard percentage \"63 percent\" is \"26 percent\" \u2014 the numeric data pattern demands continuation of.",
+    "Review structure momentum: film review building toward a concluding evaluative statement about the film's political content and tone.\n\nNarrative/argumentative continuation: the review has been cataloguing the film's plot elements and is now transitioning to a critical assessment of the film's political messaging and visual style.\n\nFinal token \"200,\" is mid-sentence describing the film's opening scene; \"200,\" is an incomplete number (likely \"200,000\" or \"200,000 feet\"), requiring immediate numeric continuation of the interrupted figure.\n\"200,\" film title or scene detail follows.\n\"19, 15, 20\" suggests technical production credits or social media handles; analytical continuation of news footage description is \"1650\" scene.\n\"2185\" is analytical \"1930\" \u2014 the visual action.",
+    "Recipe instruction format: step-by-step cooking directions with imperative verbs (\"Place,\" \"Add,\" \"Stir\"), guiding sequential actions.\n\nProduct listing context: the text describes a specific recipe with ingredients and instructions, implying a complete cooking method with serving suggestions or warnings to follow.\n\nFinal token \"17\" is a truncated number mid-sentence (\"17 minutes\" or similar duration), immediately requiring numeric continuation of the quantity or measurement, likely \"17 minutes\" or \"17 minutes\" followed by further instructions.\n\"17\" is part of an incomplete numeric value in a product listing or recipe note.\n\"17\" list item or price suggests social media engagement metrics; \"178\" or similar food item number follows.\n\"177\" instruction \"178\" is \"17\" seconds \u2014 nutritional label or instruction \"195\" unit; \"17\" is.",
+    "Listicle format established: \"5 posts\" promised, first item introduced, requiring continuation through remaining four entries.\n\nReligious/Christian content pattern: each post title is followed by a brief descriptive sentence explaining the article's purpose and audience.\n\nFinal token \"50\" ends an incomplete sentence mid-thought (\"50\"), immediately requiring continuation of the number or noun phrase, likely \"50 tips\" or \"50 ways,\" completing the description of the first listicle's content.\n\"50\" is part of an enumerated list or instructional count, demanding numeric continuation or a noun phrase.\n\"555\" or \"555\" suggests social media engagement prompts; practical church content follows \"55\" instruction.\n\"50\" is \"559\" visual artifact; nutritional \"251\" is garbled \"567\" \u2014 spiritual \"500\" is gar.",
+    "Argumentative momentum: article systematically builds case against Trump's rhetoric, with each paragraph adding evidence; a concluding summary or further critique is expected.\n\nReview structure pattern: the text alternates between article summary and editorial commentary, suggesting another evaluative statement or citation follows.\n\nFinal token \"200\" ends a statistical claim about Trump's Facebook followers; the sentence is syntactically incomplete, requiring continuation such as a comparative clause or additional data point (e.g., \"200,000\" or a source citation).\n\"200,000\" or similar comparative figure is immediately expected.\n\"200,000\" news outlets or similar analytical framing follows.\n\"2010\" safety rating context suggests regulatory critique; visual evidence or study citation follows.\n\"2011,985\" is the publication's policy rating \"1096 people.",
+    "Argumentative momentum: rule explanation has been stated, now expects elaboration of consequences or additional rule details.\n\nStructured rulebook format: numbered sections with bold headers suggest continued systematic coverage of the rule's implications, exceptions, or related clauses.\n\nFinal token \"15\" closes a sentence referencing the rule's original citation; the next tokens will likely begin a new sentence continuing analysis of the rule's application, exceptions, or a transitional phrase like \"and\" or \"The rule.\"\n\"15\" is a section number, suggesting \"7.\" or further numbered subsections follow.\n\"765\" film title reference or \"15\" rule citation suggests \"2,873\" or procedural commentary continues.\n\"765\" is \"29,11\" \u2014 instructional \"17\" meeting visual cues; legal rating \"865.3\" rating \"291\" \u2014."
+  ],
+  "input_sha256": "4f11b90e8bba8be9efb21b74423bdc4fb6e335c6b6394bbf015b7416ba0e3470",
+  "values": [
+    {
+      "quote": "10.5%",
+      "value": "10.5"
+    },
+    {
+      "quote": "10.5 percent",
+      "value": "10.5"
+    },
+    {
+      "quote": "63 percent",
+      "value": "63"
+    },
+    {
+      "quote": "26 percent",
+      "value": "26"
+    },
+    {
+      "quote": "5 posts",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5%\",\"value\":10.5},{\"quote\":\"10.5 percent\",\"value\":10.5},{\"quote\":\"63 percent\",\"value\":63},{\"quote\":\"26 percent\",\"value\":26},{\"quote\":\"5 posts\",\"value\":5}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "265bc4888eb9bfa42ce2d8d8d21abd405fd451a2e430f3fecbe6c487661ba143"
+}

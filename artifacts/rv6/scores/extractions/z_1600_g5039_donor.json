@@ -1,0 +1,109 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5039",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: country-by-country data is being enumerated with specific numeric values, establishing a template of country name followed by numeric figure.\n\nNumerical data continuation: the text lists country rankings with precise figures (e.g., \"1st, with 2,000\"), so the next tokens must complete the numeric value for the first country.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numeric value (likely a decimal number representing a country count or ranking) to complete the factual statistic.\n\"2 is\" likely contains a typo for \"2 is\" \u2014 the sentence structure demands a numeric figure or country name to follow.\n\"2 is\" ends mid-sentence, part of a country ranking statement, so the next token must be a number or country name completing the numeric value.\n\"2 is\" likely precedes a decimal or country name.",
+    "Character description pattern: each character gets a structured summary paragraph, establishing a template of name, actor, role, and plot details.\n\nFilm synopsis continuation: the text is mid-sentence describing the film's cast/crew, with a list of character names and their roles being enumerated systematically.\n\nFinal token \"4,\" is mid-sentence within a numerical list of character names (\"4,\"), immediately requiring continuation of the enumeration or a descriptive clause about the number \"4\" (likely \"43\" or a specific count), completing the factual film metadata.\n\"43 was 16,\" \u2014 mid-sentence numerical reference to a historical number, likely continuing with \"43\" or a larger number describing the political party's count or power.\n\n\"16,\" ends the sequence mid-enumeration, strongly constraining the next token to complete \"43 was 16,\" with a number.",
+    "Recipe instruction format: structured ingredient list followed by detailed prose method, now mid-sentence describing visual/physical cues.\n\nContinuation of specific ingredient explanation: the text is explaining how to identify the ingredient visually, referencing the \"greenish-brown\" color of the dish.\n\nFinal token \"3\" is the start of a specific number (likely \"3 seconds\" or \"30 seconds\"), part of a time-based memory instruction (\"about 3\"), requiring a unit of time or measurement to complete the scientific observation.\n\"3\" begins a numeric example or duration, likely continuing \"36 seconds\" or \"33 seconds\" or similar specific historical/visual detail about the dish's preparation time.\n\"3\" is mid-sentence, part of a memory tip referencing the 32-year-old's 36 seconds, immediately requiring a number continuation or time unit.\n\"3\" 3 seconds.\"",
+    "Listicle format established: article presents \"10 favorite ways,\" with numbered items and practical tips expected to follow sequentially.\n\nContinuation of specific recipe/food item examples: the text is mid-list, having introduced \"16 ingredients\" and begun explaining the first tip with historical context.\n\nFinal token \"66\" is a specific number completing \"66\" (likely \"66\" as part of \"66\" or continuing a measurement), immediately requiring completion of the cited source reference or visual example description.\n\"66\" is mid-sentence, part of a specific memory-related food item example, requiring continuation of the \"66\" count or the next practical detail about the 36-page recipe.\n\"66 36\" suggests \"48\" or similar numerical completion of \"36 60\" advice, with \"66\" images or historical examples expected.",
+    "Statistical/analytical report structure: study findings are being presented with specific data points, requiring continuation of citation details or methodology.\n\nAcademic citation pattern: the text has been listing specific regulatory/industry bodies and their data sources, suggesting more institutional references or study scope details follow.\n\nFinal token \"222 people\" completes a numerical claim about the dataset size; the sentence is grammatically complete but the broader context expects continuation describing what those 222 people represent or what the survey revealed about them.\n\"2,200,000 222 people\" is a garbled repetition of \"250,003\" \u2014 the next tokens likely continue the legal/regulatory framing or introduce a new sentence about the survey's conclusions or methodology.\n\"2,354 250 people\" suggests a typo mid-phrase, but the immediate next.",
+    "Structured Bible study guide format with numbered sections and bullet points, establishing a pattern of heading followed by explanatory prose.\n\nThe document is systematically covering each rule in the list, with section 1 already addressed; sections 2\u20137 are expected to follow the same heading-then-explanation pattern.\n\nThe final token \"23.3.\" ends a sentence describing the rule's content; the next tokens will likely continue with additional descriptive detail about the rule's meaning or transition to the next section heading.\n\"23.3.\" is a section reference mid-explanation, immediately constraining what follows to be a continuation of the rule's practical description or a new numbered section header.\n\"2.37\" is the rule number, so \"23.3 meeting\" is the section label, suggesting the next tokens complete the heading or begin the descriptive paragraph for that specific meeting.\n\"23.4.\""
+  ],
+  "input_sha256": "0e9c4fc471c5fb2058e143216c5f7808b1d830e76b79b37ff9e974f5ad5541ea",
+  "values": [
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "4,",
+      "value": "4"
+    },
+    {
+      "quote": "43 was 16,",
+      "value": "43"
+    },
+    {
+      "quote": "43 was 16,",
+      "value": "16"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "32-year-old",
+      "value": "32"
+    },
+    {
+      "quote": "36 seconds",
+      "value": "36"
+    },
+    {
+      "quote": "10 favorite ways",
+      "value": "10"
+    },
+    {
+      "quote": "16 ingredients",
+      "value": "16"
+    },
+    {
+      "quote": "66",
+      "value": "66"
+    },
+    {
+      "quote": "36-page recipe",
+      "value": "36"
+    },
+    {
+      "quote": "36 60",
+      "value": "36"
+    },
+    {
+      "quote": "36 60",
+      "value": "60"
+    },
+    {
+      "quote": "222 people",
+      "value": "222"
+    },
+    {
+      "quote": "2,200,000",
+      "value": "2200000"
+    },
+    {
+      "quote": "250,003",
+      "value": "250003"
+    },
+    {
+      "quote": "2,354",
+      "value": "2354"
+    },
+    {
+      "quote": "250 people",
+      "value": "250"
+    },
+    {
+      "quote": "23.3.",
+      "value": "23.3"
+    },
+    {
+      "quote": "2.37",
+      "value": "2.37"
+    },
+    {
+      "quote": "23.4.",
+      "value": "23.4"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, including decimals and numbers within hyphenated phrases, from the provided descriptions while ignoring ordinals and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"2 is\",\"value\":2},{\"quote\":\"4,\",\"value\":4},{\"quote\":\"43 was 16,\",\"value\":43},{\"quote\":\"43 was 16,\",\"value\":16},{\"quote\":\"3\",\"value\":3},{\"quote\":\"32-year-old\",\"value\":32},{\"quote\":\"36 seconds\",\"value\":36},{\"quote\":\"10 favorite ways\",\"value\":10},{\"quote\":\"16 ingredients\",\"value\":16},{\"quote\":\"66\",\"value\":66},{\"quote\":\"36-page recipe\",\"value\":36},{\"quote\":\"36 60\",\"value\":36},{\"quote\":\"36 60\",\"value\":60},{\"quote\":\"222 people\",\"value\":222},{\"quote\":\"2,200,000\",\"value\":2200000},{\"quote\":\"250,003\",\"value\":250003},{\"quote\":\"2,354\",\"value\":2354},{\"quote\":\"250 people\",\"value\":250},{\"quote\":\"23.3.\",\"value\":23.3},{\"quote\":\"2.37\",\"value\":2.37},{\"quote\":\"23.4.\",\"value\":23.4}],\"justification\":\"Extracted explicit numeric literals, including decimals and numbers within hyphenated phrases, from the provided descriptions while ignoring ordinals and years.\"}",
+  "prompt_sha256": "3351cf8d386d3ffcf6f4a88b381db1e80e43cb2da6eb4a4ae0df28ee64220dbc"
+}

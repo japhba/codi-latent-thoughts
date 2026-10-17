@@ -1,0 +1,101 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5104",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating structure of \"city name + rank + statistic.\"\n\nThe sentence ending mid-statistic (\"5th most populated city in the country\") mirrors the earlier pattern of ranking cities, suggesting a continuation with additional city entries or a closing summary sentence.\n\nFinal token \"5th\" is mid-sentence, part of a city ranking statistic, immediately requiring a noun phrase like \"most populated city in the country\" or similar geographic/rank descriptor to complete the clause.\n\"5th\" list or city name follows.\n\"3rd\" or a city name is the expected next token.\n\"2nd\" or a numeric continuation completing the ranking sequence.\n\"5th\" is the final token, part of an incomplete sentence listing city statistics, requiring \"3rd\" or \"2nd\" safety rating \"35 is 2.",
+    "Review structure momentum: the text is mid-sentence completing a list of character examples, requiring continuation of the \"500\" character description.\n\nThe review follows a pattern of citing specific scenes/characters with brief commentary, suggesting more examples or a concluding evaluative remark about the film's quality.\n\nFinal token \"5,\" is mid-number, part of \"500\" or a larger figure (likely \"5\" continuing to \"500\" or a new number like \"5\" rating), immediately requiring the digit(s) to complete the number before the sentence continues.\n\"5,\" ranking or describing the scene.\n\"5,\" list or rating context demands the sentence complete with a score or label.\n\"5,\" analytical rating or scene description follows \"43 is 67\" \u2014 the list format and political character rankings 31 5\" film 75\" time\" visual instruction.",
+    "List continuation pattern: article enumerates \"10 most popular\" articles, with numbered entries and titles; the list is mid-sequence, implying more entries follow.\n\nArticle title completion: \"The post [Title]\" format repeats, suggesting another article title or closing punctuation is imminent.\n\nFinal token \"2\" is mid-sentence within a quoted article title or rating number, immediately requiring continuation of the number or a closing quotation mark, likely completing a statistic or recommendation.\n\"2\" is part of an incomplete list or rating reference, likely followed by more digits or punctuation closing the quote.\n\"2\" practical tips or a rating number.\n\"2\" social media tips or a numeric recommendation follows \"2\" \u2014 likely \"2\" or food-related content completing the \"3\" ranking or advice \"2\" visual rating.\n\"2\" nutritional \"5.6\" or similar 26 seconds \u2014 personal food.",
+    "List continuation pattern: the text is mid-sentence listing article titles with view counts, following a consistent format of \"Title + view count.\"\n\nReview score context: the article ranking methodology is being explained, with the final sentence describing the ranking system and its data source.\n\nFinal token \"20\" is the beginning of a view count number (likely \"200\" or similar), mid-sentence after \"50,000 views,\" requiring immediate numeric completion of the view count figure.\n\"200\" or similar large number follows.\n\"20,000\" or similar media view count statistic completing the ranking citation.\n\"30,0\" or similar numeric media rating follows, continuing the list of statistics.\n\"40,763\" or similar review score visual element label expected next.\n\"509\" regulatory social media food 2038 people.",
+    "Structured list pattern: each rule follows \"X rule: explanation\" format, with bullet points and dashes throughout.\n\nThe text is mid-sentence completing a rule explanation about \"30 degrees\" in the final bullet point, requiring continuation of the analytical commentary about the rule's significance or practical implications.\n\nFinal token \"30\" ends an incomplete sentence (\"30 degrees\" or similar), part of a concluding evaluative statement about the rule's importance, immediately expecting a noun or continuation like \"degrees\" or a comparative clause.\n\"300\" or a citation/source reference follows.\n\"3\" or a list of examples completing the ranking criteria.\n\"300\" or \"5,000\" visual quality metrics \u2014 academic image quality guidelines list 2,073 rules; the product \"3\" educational content ranking 51 rules 6 people 73 sensory thresholds food safety.",
+    "Statistical report pattern: survey data presented as percentages, establishing expectation for continued numerical breakdowns (e.g., \"66% of all respondents\").\n\nLegal survey methodology context: the text systematically lists survey questions and their results, suggesting more question categories or demographic breakdowns follow.\n\nFinal token \"6%\" ends a sentence fragment mid-thought, part of a percentage breakdown of survey responses; the next tokens must complete or extend this sentence, likely with a period or additional qualifying clause about the survey's scope.\n\"6%\" is a dangling statistic mid-sentence, immediately requiring sentence completion or a new sentence continuing the survey breakdown.\n\"6%\" table/list pattern or a new question category follows.\n\"6%\" is the final token, mid-sentence, likely closing a percentage statement or transitioning to the next survey question category.\n\"6%\" is the legal threshold 6% time window rule; the probability \"6."
+  ],
+  "input_sha256": "d95f55eaa09e4062922bf4743ff67c43417242362d3cd5fa699e9352496fd3f5",
+  "values": [
+    {
+      "quote": "35 is 2",
+      "value": "2"
+    },
+    {
+      "quote": "35 is 2",
+      "value": "35"
+    },
+    {
+      "quote": "43 is 67",
+      "value": "43"
+    },
+    {
+      "quote": "43 is 67",
+      "value": "67"
+    },
+    {
+      "quote": "31 5",
+      "value": "31"
+    },
+    {
+      "quote": "31 5",
+      "value": "5"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "10 most popular",
+      "value": "10"
+    },
+    {
+      "quote": "5.6",
+      "value": "5.6"
+    },
+    {
+      "quote": "26 seconds",
+      "value": "26"
+    },
+    {
+      "quote": "50,000 views",
+      "value": "50000"
+    },
+    {
+      "quote": "40,763",
+      "value": "40763"
+    },
+    {
+      "quote": "509",
+      "value": "509"
+    },
+    {
+      "quote": "2038 people",
+      "value": "2038"
+    },
+    {
+      "quote": "30 degrees",
+      "value": "30"
+    },
+    {
+      "quote": "2,073 rules",
+      "value": "2073"
+    },
+    {
+      "quote": "51 rules",
+      "value": "51"
+    },
+    {
+      "quote": "6 people",
+      "value": "6"
+    },
+    {
+      "quote": "73 sensory thresholds",
+      "value": "73"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including counts, percentages, and values within arithmetic-like expressions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"35 is 2\",\"value\":2},{\"quote\":\"35 is 2\",\"value\":35},{\"quote\":\"43 is 67\",\"value\":43},{\"quote\":\"43 is 67\",\"value\":67},{\"quote\":\"31 5\",\"value\":31},{\"quote\":\"31 5\",\"value\":5},{\"quote\":\"75\",\"value\":75},{\"quote\":\"10 most popular\",\"value\":10},{\"quote\":\"5.6\",\"value\":5.6},{\"quote\":\"26 seconds\",\"value\":26},{\"quote\":\"50,000 views\",\"value\":50000},{\"quote\":\"40,763\",\"value\":40763},{\"quote\":\"509\",\"value\":509},{\"quote\":\"2038 people\",\"value\":2038},{\"quote\":\"30 degrees\",\"value\":30},{\"quote\":\"2,073 rules\",\"value\":2073},{\"quote\":\"51 rules\",\"value\":51},{\"quote\":\"6 people\",\"value\":6},{\"quote\":\"73 sensory thresholds\",\"value\":73},{\"quote\":\"6%\",\"value\":6}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including counts, percentages, and values within arithmetic-like expressions.\"}",
+  "prompt_sha256": "ca296a28da674efc5aa3794683e4e34ae7530f771a2c8c787827c48b60d9ac96"
+}

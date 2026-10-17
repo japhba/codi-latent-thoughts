@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5148",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: each metric follows a structured format with specific numerical values, percentages, and comparisons (e.g., \"1.59 million,\" \"1.5 million,\" \"1.4 million\").\n\nContinuation of the \"per game\" breakdown: the text is mid-sentence presenting a dollar-per-game figure, requiring a specific numeric value to complete the statistic.\n\nFinal token \"is\" opens a predicate completing \"The average number of games is,\" immediately requiring a dollar amount (likely in millions, e.g., \"1.5 million\") to finish the sentence.",
+    "Product listing format with structured sections (Cast, Release Date, Description) signals continuation of promotional e-commerce copy describing film details.\n\nThe description is mid-sentence detailing cast/crew credentials and film quality, following a pattern of listing attributes: \"directed by,\" \"starring,\" \"produced by\" \u2014 more credits or product details expected.\n\nFinal token \"is\" ends an incomplete clause (\"The best quality and best cast is\"), requiring immediate completion with a predicate \u2014 likely a superlative or descriptive phrase about the film's quality or availability.",
+    "E-commerce product listing page for auto parts, following a structured catalog format with repeated section headers and part descriptions throughout.\n\nList continuation pattern: the page has been systematically listing parts, categories, and navigation sections; the \"Price\" section header signals a product listing table or price-ordered parts list is expected next.\n\nFinal token \"Available\" ends an incomplete sentence (\"Price Parts Available\"), part of a product availability/selection section, immediately expecting a continuation like \"Now\" or a colon followed by part names, prices, or a product grid.",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and prices repeating consistently throughout the page.\n\nE-commerce parts catalog format: each row follows \"|Part #||Part Name||Price|\" structure, with part numbers and prices filling the table cells.\n\nFinal token \"\u2013$\" is mid-cell in a table row listing part numbers and prices; the immediate next tokens must complete the price range (e.g., \"10.00|\") and likely continue with more table rows following the same pipe-delimited format.",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and price ranges repeating consistently throughout.\n\nE-commerce parts table continuation: the table lists parts with part numbers, part names, and price ranges; the next entry should follow the same format with a price range.\n\nFinal token \"$-199.99\" is an incomplete table row mid-entry, part of a pipe-delimited table cell, immediately requiring a closing pipe \"|\" and likely a price range or additional column data to complete the row.",
+    "Structured table pattern: pipe-delimited rows with price ranges, part numbers, and shipping columns repeating consistently throughout.\n\nTable row continuation: the table lists pipe-delimited price entries; the current row \"||$10.00 - $19.99||\" has opened a table cell and requires a closing pipe and corresponding price value.\n\nFinal token \"\u2013$19.99||\" is mid-row in the table, immediately requiring the next cell content \u2014 likely a dollar amount or price range for the \"Price\" column, followed by \"||\" and a shipping cost."
+  ],
+  "input_sha256": "5b439d83cd362c22586d2d8889eba21c3bc8d77769622a2b08430e3e74802148",
+  "values": [
+    {
+      "quote": "1.59 million",
+      "value": "1.59"
+    },
+    {
+      "quote": "1.5 million",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.4 million",
+      "value": "1.4"
+    },
+    {
+      "quote": "199.99",
+      "value": "199.99"
+    },
+    {
+      "quote": "10.00",
+      "value": "10"
+    },
+    {
+      "quote": "19.99",
+      "value": "19.99"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and decimal values from the provided descriptions, including those within statistical examples and table row fragments.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.59 million\",\"value\":1.59},{\"quote\":\"1.5 million\",\"value\":1.5},{\"quote\":\"1.4 million\",\"value\":1.4},{\"quote\":\"199.99\",\"value\":199.99},{\"quote\":\"10.00\",\"value\":10},{\"quote\":\"19.99\",\"value\":19.99}],\"justification\":\"Extracted explicit numeric literals and decimal values from the provided descriptions, including those within statistical examples and table row fragments.\"}",
+  "prompt_sha256": "69fef927afe8458b1aedd27b863fcdb82f539bdb25f7bb04fae450cfbb0fad03"
+}

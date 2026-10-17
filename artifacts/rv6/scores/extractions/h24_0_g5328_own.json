@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5328",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 100 \u00d7 3 = 300, so the next token must be the computed result \"300.\"\n\nThe explanation follows a structured pedagogical pattern: definition \u2192 formula \u2192 worked example \u2192 numerical result, so a specific integer answer is expected.\n\nFinal token \"is\" opens a copular predicate completing the sentence \"The total number of digits is ___,\" requiring an immediate numerical value (likely \"300\") as the direct object.\n</explanation>",
+    "Mathematical problem-solving context: calculating total eggs by multiplying 6 dozen eggs by 12 eggs each, requiring 6\u00d712=72 eggs.\n\nStep-by-step instructional pattern: the solution is walking through each calculation sequentially, having stated \"6 dozen eggs\" and now computing the total.\n\nFinal token \"is\" opens a predicate completing the multiplication expression \"6 \u00d7 12 eggs = 72 eggs,\" so the next tokens must be the numerical result \"72 eggs.\"\n</explanation>",
+    "Mathematical problem-solving context: calculating total eggs by adding 2\u00d712 + 3\u00d718, with step-by-step arithmetic progression.\n\nThe solution is mid-calculation, having established 2 dozen eggs (2\u00d712=24) and now adding 3\u00d718, requiring completion of that arithmetic result.\n\nFinal token \"18\" is the beginning of \"180\" (3\u00d718=54), mid-number, immediately requiring \"0\" to complete the multiplication result, then continuing the arithmetic explanation.\n</explanation>",
+    "Math word problem solution in progress: structured step-by-step algebra walkthrough with variable substitution, following \"Let's solve for x\" format.\n\nThe solution is mid-calculation, having established total (300) and first group (180), now computing the remaining groups (2 groups \u00d7 120 = 240) to set up the equation x + 180 + 2x = 300.\n\nFinal token \"180\" is the result of the first group's calculation, immediately requiring the next step: \"and 2 groups contain 240 tickets\" or similar, continuing the arithmetic setup.\n</explanation>",
+    "Mathematical calculation in progress: 3 groups \u00d7 8 = 24, 4 groups \u00d7 8 = 32, establishing a pattern of arithmetic multiplication.\n\nThe answer must be 32 (4 groups \u00d7 8 people each), so the next tokens must complete this multiplication result.\n\nThe final token \"2\" is the beginning of the number 32, mid-digit, immediately requiring \"4\" to complete \"32,\" followed by explanation of the arithmetic reasoning.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Let's solve for x,\" \"Let's solve for y\").\n\nThe solution is mid-calculation, having substituted y = 3x into x + y = 1000; the arithmetic result (720) is expected next.\n\nFinal token \"720\" is the computed result of the equation x + 3x = 1000, immediately requiring the next step: stating the answer or confirming it, likely \"Therefore, the number is 720.\"\n</explanation>"
+  ],
+  "input_sha256": "f852e7fe75f078c8702d2067db50d30c6a31ada3aca102ae2766a63a88c4e261",
+  "values": [
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "dozen",
+      "value": "12"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "720",
+      "value": "720"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers like 'dozen', and results of arithmetic expressions (e.g., 6x12=72) mentioned within the descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100\",\"value\":100},{\"quote\":\"3\",\"value\":3},{\"quote\":\"300\",\"value\":300},{\"quote\":\"6\",\"value\":6},{\"quote\":\"dozen\",\"value\":12},{\"quote\":\"12\",\"value\":12},{\"quote\":\"72\",\"value\":72},{\"quote\":\"2\",\"value\":2},{\"quote\":\"24\",\"value\":24},{\"quote\":\"18\",\"value\":18},{\"quote\":\"180\",\"value\":180},{\"quote\":\"54\",\"value\":54},{\"quote\":\"120\",\"value\":120},{\"quote\":\"240\",\"value\":240},{\"quote\":\"8\",\"value\":8},{\"quote\":\"32\",\"value\":32},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"720\",\"value\":720}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers like 'dozen', and results of arithmetic expressions (e.g., 6x12=72) mentioned within the descriptions.\"}",
+  "prompt_sha256": "1499c599c9198d80ec61add3df1477765e3d8addac135c0d65d81d22f6d1dd0b"
+}

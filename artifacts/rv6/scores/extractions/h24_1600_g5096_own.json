@@ -1,0 +1,69 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5096",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 5 - 10 = 4, so the answer must be 48.\n\nThe narrative context establishes a specific numerical calculation: original count (5) minus lost one (10), so the next token must be the computed result.\n\nFinal token \"is\" opens a copular predicate requiring a number (the new count of fish after removing the broken one), immediately constrained to be \"48\" completing the arithmetic solution.\n(5 - 1) \u00d7 12 = 48 tanks.\n(5 - 1) \u00d7 12 = 48, so the answer is 48 tanks remaining.\n(10) \u00d7 12 = 120, but the problem asks for new count after removing one, so the next token must be the numeric result.\n(5 - 1) \u00d7 12.",
+    "Math word problem solution format: step-by-step algebraic reasoning requires completing the arithmetic expression \"5 dozen eggs = 120 eggs total.\"\n\nThe solution is mid-explanation, having stated the original count (5 dozen eggs), now requiring the subtraction showing removal of 3 broken eggs.\n\nFinal token \"had\" begins a past-tense clause describing the initial state before removing 3 broken eggs; next tokens must complete this with the total eggs before stating the remaining count, e.g., \"12 \u00d7 5 = 60 eggs total.\"\n5 boxes \u00d7 12 eggs = 60 eggs before removing 3 broken ones.\n\nFinal token \"had\" is part of explaining the original total before deduction, requiring a number or description of eggs owned before removing 3\u00d75.\n12 boxes \u00d7 5 = total eggs before removing 3 broken ones.\n5 boxes \u00d7 12.",
+    "Math word problem solution format: step-by-step algebraic reasoning requires completing the arithmetic expression \"6\" \u2192 total eggs before subtraction.\n\nThe solution follows a structured template: state total eggs, then subtract removed eggs, then solve for x.\n\nFinal token \"6\" begins the arithmetic result of 5 boxes \u00d7 12 eggs = 60, immediately requiring \"0 eggs\" to complete the total before stating the reduced count after removing 3 broken ones.\nFinal token \"6\" is mid-number, part of \"60 eggs she had initially,\" requiring \"0 eggs\" to complete the sentence before explaining the remaining count after removing 3 broken boxes.\n5 boxes \u00d7 12 = 60 before removing 3\u00d75, establishing the original total before stating the remaining eggs after removal.\nShe had 5 boxes \u00d7 12 cookies = 60 total before removing 3 broken ones.",
+    "Math word problem solution format: step-by-step algebraic reasoning requires showing arithmetic operations and final answer.\n\nThe solution is mid-explanation, having stated total cookies (6 boxes \u00d7 10 = 60), now requiring the subtraction showing how many were removed (3 broken).\n\nFinal token \"60\" is the initial count of cookies before removal, immediately requiring the continuation \"cookies in her box\" or similar phrase, then explaining the broken ones were removed from the 3 broken boxes.\nFinal token \"60\" begins the setup clause describing her original total before stating the remaining count after removing 3 boxes.\nShe had 6 sets \u00d7 10 cookies = 60 cookies before removing 3 broken ones, so next tokens must complete this sentence explaining the remaining count after half were removed.\nShe had 6 sets \u00d7 10 cookies before the removal, so the next tokens must describe.",
+    "Math word problem solution format: structured answer with explanation, following \"Therefore, the number of eggs remaining is...\" pattern.\n\nThe arithmetic operation requires completing the equation: 12 dozen eggs minus 12 eggs removed = 120 eggs, so the solution must state \"12 eggs were removed.\"\n\nFinal token \"p\" begins \"12 eggs\" completing the equation showing the original count of empty boxes, directly mirroring the earlier statement \"1 dozen \u00d7 12 = 12 eggs will be removed.\"\nFinal token \"p\" is mid-sentence, completing the removal statement about empty boxes from one dozen case.\n12 \u00d7 1 = 12 eggs removed from the 1 dozen case, confirming the remaining count calculation.\n12 \u00d7 1 = p, so next tokens must state \"12 eggs were removed\" confirming the empty box count.\n12 \u00d7 .",
+    "Math word problem pattern: alternating problem-answer pairs with arithmetic operations, establishing a template of calculation followed by explanation.\n\nThe second problem mirrors the first's structure: total eggs (48) minus broken eggs (12) = remaining count, so the answer must state \"12 eggs remain.\"\n\nFinal token \"12. 12.\" ends the explanation of the first broken-quantity statement (\"12 eggs were removed two times\"), immediately requiring the conclusion: the remaining count or the answer \"There are 48 eggs remaining.\"\nFinal token \"12.\" closes the specific numeric answer to the first sub-question, suggesting the next tokens state the remaining eggs after removal.\nFinal token \"12.\" is a standalone numeric result, likely followed by a sentence stating the remaining count or confirming the answer.\nFinal token \"12 eggs after removing two pairs of 6 eggs.\"\nFinal token \"12."
+  ],
+  "input_sha256": "f4acf690528e4d9b5fd5c8bf0eb87712ef811163f5fdeaa3261635710f9b021f",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results (like 5-1=4, 5*12=60, 6*10=60, 12*10=120) found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4\",\"value\":4},{\"quote\":\"48\",\"value\":48},{\"quote\":\"1\",\"value\":1},{\"quote\":\"12\",\"value\":12},{\"quote\":\"120\",\"value\":120},{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"6\",\"value\":6},{\"quote\":\"0\",\"value\":0},{\"quote\":\"10\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and arithmetic results (like 5-1=4, 5*12=60, 6*10=60, 12*10=120) found within the provided descriptions.\"}",
+  "prompt_sha256": "a656b9960df6efe0403fc30b81c3256ff4ecd573af08cee4f8834b707726af19"
+}

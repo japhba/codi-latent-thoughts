@@ -1,0 +1,141 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: article consistently presents country-specific data with precise figures (e.g., \"1996,\" \"2016,\" \"1998\"), expecting continuation of this pattern.\n\nAcademic citation momentum: the text is mid-sentence describing a specific country's hazard ranking, with a quoted description of the visual, suggesting further elaboration on the ranking's characteristics or numerical data follows.\n\nFinal token \"is\" opens a predicate completing the sentence about the UK's hazard ranking, immediately requiring a numerical value or comparative descriptor (e.g., \"5 is\" or a specific number like \"20 times higher\"), continuing the established pattern of quantified comparisons.",
+    "Biographical narrative momentum: the text is detailing a character's memory, relationships, and backstory, expecting continuation of specific memory details.\n\nThe author is mid-sentence describing a specific memory triggered by the wedding, with \"14 years ago\" establishing a time reference that expects elaboration on the wedding scene or emotional context.\n\nFinal token \"1400,\" is mid-sentence after \"1314,\" \u2014 a comma-separated list of numbers suggesting a pattern; \"1400 was 1314,\" likely continues with a time unit or personal detail, then \"1500 hours\" or similar, completing the memory description; \"1413 hours\" suggests a chronological sequence of wedding-related details; next tokens likely continue this personal reflection.",
+    "Instructional listicle format with numbered tips and practical cooking advice, establishing a pattern of detailed, enthusiastic explanations for each food item.\n\nThe text is mid-explanation of a specific dish (sushi), building toward a personal anecdote or cultural insight about the dish's preparation, with the author sharing memory and practical tips.\n\nFinal token \"2\" is part of an incomplete sentence \"I know that 21 minutes... 21 minutes\" suggesting a continuation of the reflective calculation \u2014 \"21\" likely begins a specific number (e.g., \"23\" or \"20 minutes\"), and the sentence \"21 minutes... 25 minutes\" suggests a memory-based time estimate; the next token completes this thought, likely \"28\" or a continuation of the math/recipe advice.",
+    "Q&A format with expert advice structure: article lists health tips, now delivering specific expert guidance on advice-giving strategies.\n\nThe article is mid-explanation of a specific expert's answer, building toward practical recommendations; the argument about gender differences in advice-giving is being developed with supporting reasoning.\n\nFinal token \"11\" completes \"31\" as part of a cited statistic (\"15 tips for men, 41 for women\"), and \"31\" is the article's own advice count; the sentence continues with \"111\" or similar \u2014 most likely completing \"31\" as a medical/health article reference, then \"25 tips\" or similar advice count; the next tokens must complete the thought about personal health advice, likely continuing with \"17\" or a new sentence elaborating on the psychological rationale.",
+    "Statistical/numerical continuation: the study's findings are being elaborated, with the 14% prevalence claim leading to a personal health disclosure argument.\n\nArgumentative momentum: the rhetorical question about fraud sets up a moral/legal explanation; the study's data supports the fraud claim, so next tokens will likely address implications or expert commentary.\n\nFinal token \"130,434,000\" is mid-sentence, completing a restatement of the doctor count; \"24,130 people, or 19.4% of 130,434,001\" \u2014 the sentence requires completing the per-person statistic, then likely \"per year\" or similar, followed by a medical/health disclosure statistic or percentage breakdown.",
+    "Legal analysis pattern: the text is explaining a religious freedom case, moving from general principle to specific application, with argumentative momentum toward conclusion.\n\nThe theological/psychological reasoning chain: the analysis has built toward applying the legal standard to the specific scenario, with \"17,000 per day\" quantifying harm, now requiring the practical legal application of that standard to the church's decision.\n\nFinal token \"175 per 100,009\" is mid-sentence, completing a restatement of the 143 per 15,000 ratio; \"7,041\" is the logical next step \u2014 the 295 per 15,008 \u2014 before the analyst draws the conclusion that 175 per 398 observations is insufficient to justify the church's action."
+  ],
+  "input_sha256": "1bc36eec889d181a4cceea47ce0ef542fc5c76eba7a6c21bc1851fcb787523cb",
+  "values": [
+    {
+      "quote": "14 years ago",
+      "value": "14"
+    },
+    {
+      "quote": "1400",
+      "value": "1400"
+    },
+    {
+      "quote": "1314",
+      "value": "1314"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "1413",
+      "value": "1413"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "21 minutes",
+      "value": "21"
+    },
+    {
+      "quote": "25 minutes",
+      "value": "25"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "15 tips",
+      "value": "15"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "111",
+      "value": "111"
+    },
+    {
+      "quote": "25 tips",
+      "value": "25"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "14%",
+      "value": "14"
+    },
+    {
+      "quote": "130,434,000",
+      "value": "130434000"
+    },
+    {
+      "quote": "24,130 people",
+      "value": "24130"
+    },
+    {
+      "quote": "19.4%",
+      "value": "19.4"
+    },
+    {
+      "quote": "130,434,001",
+      "value": "130434001"
+    },
+    {
+      "quote": "17,000 per day",
+      "value": "17000"
+    },
+    {
+      "quote": "175 per 100,009",
+      "value": "175"
+    },
+    {
+      "quote": "100,009",
+      "value": "100009"
+    },
+    {
+      "quote": "143 per 15,000",
+      "value": "143"
+    },
+    {
+      "quote": "15,000",
+      "value": "15000"
+    },
+    {
+      "quote": "7,041",
+      "value": "7041"
+    },
+    {
+      "quote": "295 per 15,008",
+      "value": "295"
+    },
+    {
+      "quote": "15,008",
+      "value": "15008"
+    },
+    {
+      "quote": "398",
+      "value": "398"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, excluding dates/years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"14 years ago\",\"value\":14},{\"quote\":\"1400\",\"value\":1400},{\"quote\":\"1314\",\"value\":1314},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"1413\",\"value\":1413},{\"quote\":\"2\",\"value\":2},{\"quote\":\"21 minutes\",\"value\":21},{\"quote\":\"25 minutes\",\"value\":25},{\"quote\":\"28\",\"value\":28},{\"quote\":\"11\",\"value\":11},{\"quote\":\"31\",\"value\":31},{\"quote\":\"15 tips\",\"value\":15},{\"quote\":\"41\",\"value\":41},{\"quote\":\"111\",\"value\":111},{\"quote\":\"25 tips\",\"value\":25},{\"quote\":\"17\",\"value\":17},{\"quote\":\"14%\",\"value\":14},{\"quote\":\"130,434,000\",\"value\":130434000},{\"quote\":\"24,130 people\",\"value\":24130},{\"quote\":\"19.4%\",\"value\":19.4},{\"quote\":\"130,434,001\",\"value\":130434001},{\"quote\":\"17,000 per day\",\"value\":17000},{\"quote\":\"175 per 100,009\",\"value\":175},{\"quote\":\"100,009\",\"value\":100009},{\"quote\":\"143 per 15,000\",\"value\":143},{\"quote\":\"15,000\",\"value\":15000},{\"quote\":\"7,041\",\"value\":7041},{\"quote\":\"295 per 15,008\",\"value\":295},{\"quote\":\"15,008\",\"value\":15008},{\"quote\":\"398\",\"value\":398}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, excluding dates/years and ordinals as per instructions.\"}",
+  "prompt_sha256": "a048958d80fd82f24484f82291e1089b70cea0c782b1a0013a8d9dec65ed4dc5"
+}

@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5065",
+  "kind": "donor",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence ending mid-statistic (\"10.5% of the 1,000 male players\") is completing a specific numerical finding about the 2014 study, requiring the remaining percentage or comparative figure to finish the data point.\n\nThe final token \"10.5%\" is mid-sentence within a reported statistic, immediately requiring a noun phrase or clause completing what proportion of players \"were found to have [some condition].\"\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically the \"two women\" premise requiring completion of their story/relationship.\n\nRepetition/continuation pattern: the review has been summarizing plot details in a structured, descriptive style, continuing to elaborate on character dynamics and the central conflict.\n\nFinal token \"were\" is a past-tense linking verb mid-clause, immediately requiring a predicate complement \u2014 likely an adjective or noun phrase describing the two women's situation, e.g., \"were in love\" or \"were expecting.\"\n</explanation>",
+    "Narrative momentum: the author is recounting a personal anecdote about their husband's reaction to the book, building toward a conclusion about his response.\n\nThe husband's reaction is being described as positive (\"he loved it\"), with the sentence mid-flow explaining his emotional reaction to the book's content.\n\nFinal token \"3\" is the start of a number (likely \"30\" or \"300\" pages), completing the clause \"he thought it was about 3[00 pages]\" \u2014 a specific page-count figure is immediately expected.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence recounting the husband's failed attempts to persuade his wife, building toward a resolution or turning point.\n\nRepetition/continuation pattern: the story follows a clear cause-effect structure \u2014 husband's failed persuasion attempts are being enumerated, suggesting more failed attempts or a breakthrough follows.\n\nFinal token \"55\" is a number mid-sentence (\"about 55\"), part of a time duration phrase (\"about 55 minutes/hours\"), requiring an immediate time unit noun to complete the measurement.\n</explanation>",
+    "The article follows a news report structure, presenting a legal case with facts, quotes, and now a detailed legal analysis section explaining the \"unlawful practice of law\" claim.\n\nThe legal analysis section is mid-explanation, having established the legal standard (unlawful practice of law = court disapproving) and now applying it to the specific facts of the case.\n\nThe final token \"200\" ends a sentence fragment stating the approximate number of viewers (200,000), immediately requiring continuation of the legal analysis \u2014 likely explaining why this number constitutes an unlawful practice of law, referencing the 100,000 threshold.\n</explanation>",
+    "The text is a detailed dream interpretation blog post, systematically analyzing each visual element of the dream (airplane, crows, road, hill, houses, trees, sea).\n\nThe pattern established is: introduce a dream element, explain its symbolic meaning, then give a real-life interpretation \u2014 this structure is now being applied to the airplane.\n\nThe final sentence introduces the airplane as the dream's central subject, with \"the first time he saw the airplane\" establishing a personal memory, immediately requiring continuation of this narrative thread explaining the airplane's symbolic significance.\n</explanation>"
+  ],
+  "input_sha256": "15a046dddcdbbd777603aa9f18f9ecb7e61d097da8b5b83a13adbd4b23c73226",
+  "values": [
+    {
+      "quote": "10.5%",
+      "value": "10.5"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "2014",
+      "value": "2014"
+    },
+    {
+      "quote": "two women",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including percentages and large numbers with commas.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5%\",\"value\":10.5},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"2014\",\"value\":2014},{\"quote\":\"two women\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"55\",\"value\":55},{\"quote\":\"200\",\"value\":200},{\"quote\":\"100,000\",\"value\":100000}],\"justification\":\"Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, including percentages and large numbers with commas.\"}",
+  "prompt_sha256": "ccd079398b9de5e47b93883fa642f4a7335a78ece8ab62b53d8da468f566f428"
+}

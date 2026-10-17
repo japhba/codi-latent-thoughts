@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5096",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in the prior sentence.\n\nAcademic medical reporting structure: the study's findings are being presented with specific numerical results, requiring completion of the hazard ratio value and likely a confidence interval or p-value.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for \"men who have not been exposed to radiation,\" immediately requiring a specific numerical hazard ratio value (e.g., \"1.95\" or similar decimal figure).",
+    "Narrative momentum of character analysis: the review is tracing the romantic backstory of the couple, building toward explaining the emotional connection between the two characters.\n\nThematic parallel structure: the review has been mapping character relationships (mother-in-law, daughter-in-law, love triangle) onto the film's plot, suggesting continued elaboration of emotional themes.\n\nFinal token \"was\" opens a past-tense clause mid-sentence describing the relationship's emotional state or nature \u2014 the next word must complete this predicate, likely a verb phrase like \"complex,\" \"tender,\" or \"a source of\" continuing the character analysis.",
+    "Narrative recipe/food review format with personal reflection on a meal, now transitioning into a direct quote from the sermon or devotional text about the dinner conversation.\n\nThe quoted passage is mid-sentence describing a sensory experience of the meal, building toward a list of food reactions and emotional responses (\"I felt like I was in a movie\").\n\nFinal token \"6\" is part of \"I felt like I was getting an 6\" \u2014 an incomplete time/quantity phrase requiring a unit of time (e.g., \"hours,\" \"hours of food\") to complete the idiomatic expression about the meal's duration.",
+    "Narrative momentum of film review: personal anecdote about the film's emotional impact leads into plot summary and thematic analysis, now detailing specific memory triggers.\n\nThe review is mid-sentence describing a specific memory triggered by the film's opening scene \u2014 the 1960s Vietnam memory of the father's death \u2014 establishing a pattern of pairing personal reflection with cinematic description.\n\nFinal token \"600\" is part of \"600\" completing \"600\" as part of \"600\" \u2014 the sentence is mid-clause describing the memory as \"a 400\" (likely \"600\" or \"600\" minutes), requiring immediate continuation of the memory description, likely \"minutes\" or a similar unit completing the time reference.",
+    "Narrative momentum: medical anecdote about Dr. Boyar's legal case is being recounted, with the anecdote building toward a specific statistic or legal consequence about the phone call's danger.\n\nDomain/genre signals: news article summarizing a medical/legal story, with factual reporting style and citation of sources like \"The American Medical Association,\" expecting continued factual elaboration.\n\nFinal token \"800\" is mid-sentence, part of a specific numerical claim (\"800,000\" or \"800,000 words\"), completing the statistic about the phone call's danger \u2014 the next token must continue or complete this number/unit.",
+    "Legal Q&A format: question posed, answer begun with \"Yes,\" now requires explanation of liability, legal reasoning, and practical implications for the church.\n\nQ&A structure established: the answer must address the specific legal scenario (liability for church negligence, negligence of the priest, insurance coverage) and provide a concrete legal analysis.\n\nFinal token \"50,000 80,000 000 000 000 000 000 000 000 000 000 000 000 000 000\" is a garbled repetition of \"50,000\" (likely \"80,000\"), part of a sentence stating the priest's liability threshold; the next tokens must complete this legal explanation about the priest's responsibility."
+  ],
+  "input_sha256": "da80444840cb74f2215420c80031ed8c589b7e52f483c21c374792c204ad7542",
+  "values": [
+    {
+      "quote": "1.95",
+      "value": "1.95"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "50,000",
+      "value": "50000"
+    },
+    {
+      "quote": "80,000",
+      "value": "80000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and examples provided in the descriptions, including hazard ratios, time units, and legal liability thresholds.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"1.95\",\n      \"value\": 1.95\n    },\n    {\n      \"quote\": \"6\",\n      \"value\": 6\n    },\n    {\n      \"quote\": \"600\",\n      \"value\": 600\n    },\n    {\n      \"quote\": \"400\",\n      \"value\": 400\n    },\n    {\n      \"quote\": \"800\",\n      \"value\": 800\n    },\n    {\n      \"quote\": \"50,000\",\n      \"value\": 50000\n    },\n    {\n      \"quote\": \"80,000\",\n      \"value\": 80000\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals and examples provided in the descriptions, including hazard ratios, time units, and legal liability thresholds.\"\n}",
+  "prompt_sha256": "3276bae1e3600597f217619b6e586c513012efac103353a4a6cf610f18e309b6"
+}

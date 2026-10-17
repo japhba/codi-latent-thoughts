@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5144",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results reporting pattern: the study's findings are being presented with hazard ratios and confidence intervals, following standard medical research reporting conventions.\n\nAcademic medical study structure: the abstract is concluding with specific findings, with hazard ratios for the two groups (no-activity vs. active-activity) expected to be reported sequentially.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the no-activity group, immediately requiring a numerical value (e.g., \"1.95\" or similar) followed by statistical qualifiers like confidence intervals or p-values.",
+    "Narrative momentum: plot summary building toward character backstory and conflict, explaining the romantic backstory of the plot's central conflict involving the mother's family.\n\nNarrative causality: the film's thematic thread of family secrets and emotional trauma is being traced, with the mother's reaction to the husband's betrayal driving the plot's trajectory.\n\nFinal token \"was\" opens a past-tense clause mid-sentence describing the husband's situation or the mother's emotional state, requiring a predicate completing the explanation of what the husband's betrayal meant for the plot.",
+    "Narrative momentum of character backstory: the plot summary is recounting the protagonist's personal history and motivations, building toward explaining her emotional response to the war's end.\n\nThematic arc of the novel's central conflict: the story traces the woman's journey from personal loss to political awakening, with the war's end and the man's death as catalysts requiring resolution.\n\nFinal token \"5\" is mid-sentence (\"she was now only 5\"), part of an incomplete number \u2014 the next token must complete this numeral (likely \"5\" continuing to \"5\" or a larger number like \"5 years\" or \"5 years old\"), followed by explanation of her changed circumstances.",
+    "Narrative momentum: personal testimony of a book review shifting to the author's own confession about the book's personal impact, building toward a revelation about the reviewer's own gender/identity.\n\nThematic continuity: the reviewer's disclosure of being gay and the book's handling of the reviewer's own experience creates expectation of a redemptive or reflective conclusion about the book's message.\n\nFinal token \"55\" is mid-sentence completing \"now 55\" \u2014 part of a clause explaining the reviewer's age when the reviewer's personal story began, immediately requiring a noun or continuation like \"years\" or a clause explaining the reviewer's situation.",
+    "Narrative momentum: crime investigation report building toward legal consequences, with the article detailing the film's plot and its connection to the scandal.\n\nJournalistic news article structure: the text is recounting the investigative findings, with the sentence mid-clause describing the film's audience reaction and its legal implications for the perpetrators.\n\nFinal token \"280,428,000,000,000,000,000,000 people were affected\" \u2014 a dramatic statistic mid-sentence, immediately requiring continuation of the legal/forensic conclusion about the film's role in the conspiracy.",
+    "Legal case summary following a structured narrative pattern: facts, procedural history, and now the court's legal analysis of the conviction's basis.\n\nThe case narrative is mid-legal-analysis, detailing the court's finding about the conviction's evidentiary basis \u2014 the conviction was \"unlawfully obtained\" and the court is now explaining the specific legal reasoning and factual record supporting this conclusion.\n\nFinal token \"5.3 was 0.83 was 30.6 was 0.8 was 58.6 was 0.8 was 36.6 was 0.8 was 0.8 was 0.8\" \u2014 garbled OCR/copy errors mid-sentence, but the sentence continues with \"the trial court found the conviction was based on the trial of the crime of the conviction was 0.8 was 36.6 was 0.8 was 0.8,\" requiring continuation of the court's factual legal reasoning about the conviction's basis."
+  ],
+  "input_sha256": "708f14f9202a7182e01b9cd9344887469a86da746c96c86bbfef0da409f6b1a1",
+  "values": [
+    {
+      "quote": "1.95",
+      "value": "1.95"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "280,428,000,000,000,000,000,000",
+      "value": "280427999999999996854272"
+    },
+    {
+      "quote": "5.3",
+      "value": "5.3"
+    },
+    {
+      "quote": "0.83",
+      "value": "0.83"
+    },
+    {
+      "quote": "30.6",
+      "value": "30.6"
+    },
+    {
+      "quote": "0.8",
+      "value": "0.8"
+    },
+    {
+      "quote": "58.6",
+      "value": "58.6"
+    },
+    {
+      "quote": "36.6",
+      "value": "36.6"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and decimals found within the descriptions, including those in garbled text and examples, while ignoring years and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.95\",\"value\":1.95},{\"quote\":\"5\",\"value\":5},{\"quote\":\"55\",\"value\":55},{\"quote\":\"280,428,000,000,000,000,000,000\",\"value\":2.80428e+23},{\"quote\":\"5.3\",\"value\":5.3},{\"quote\":\"0.83\",\"value\":0.83},{\"quote\":\"30.6\",\"value\":30.6},{\"quote\":\"0.8\",\"value\":0.8},{\"quote\":\"58.6\",\"value\":58.6},{\"quote\":\"36.6\",\"value\":36.6}],\"justification\":\"Extracted all explicit numeric literals and decimals found within the descriptions, including those in garbled text and examples, while ignoring years and ordinals.\"}",
+  "prompt_sha256": "aacceccfe1566eda0d17b44989a6df7c0446ed8a370a15a6a929660ffb3b16da"
+}

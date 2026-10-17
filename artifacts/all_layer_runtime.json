@@ -1,0 +1,22 @@
+{
+  "slurm_job_id": "3677580",
+  "node": "gpu-xd670-30",
+  "device": "NVIDIA H100 80GB HBM3",
+  "torch": "2.10.0+cu128",
+  "transformers": "4.57.6",
+  "peft": "0.19.1",
+  "numpy": "2.2.6",
+  "source_sha256": {
+    "codi_repro/all_layers.py": "9cb1154d0fb3c17e82707f2b9390c424bfeccfbf504c1993e5c6eed0f2b763dd",
+    "codi_repro/organism.py": "fac823714621a43048ade779a12e48633b0a3d1b68ec5827fafeacd284e54707",
+    "codi_repro/models.py": "e3c6f4b1ad90feda57ae44615bbd6d281c3b8e806955feb293f66bc99fdc4865"
+  },
+  "group": "jl4",
+  "dim_batch": 32,
+  "max_calibration_n": 96,
+  "eval_every": 8,
+  "checkpoint_seconds": 120,
+  "estimator_backward_dtype": "bfloat16",
+  "matrix_accumulation_dtype": "float32",
+  "readout_dtype": "float32; TF32 disabled"
+}

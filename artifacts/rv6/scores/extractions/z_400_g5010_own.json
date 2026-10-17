@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5010",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: each hazard metric follows a structured format with hazard name, hazard rate, and confidence interval, establishing strong continuation expectations.\n\nNumerical completion: the hazard rate for \"Hazardous events\" is being stated as \"is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Film review narrative momentum: character analysis and plot summary building toward character relationship dynamics and thematic interpretation.\n\nThe review is mid-sentence describing character characterizations, having established the film's plot and character traits; the next tokens will continue describing the romantic/emotional scene or character interaction between the two leads.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a descriptive complement \u2014 likely an adjective or noun phrase characterizing the film's tone or the scene's emotional quality (e.g., \"was a powerful and moving portrait\").",
+    "Narrative momentum of character backstory: the romantic/emotional arc of the protagonist's relationship with the love interest is being recounted, building toward a turning point or complication.\n\nFilm review genre conventions: plot summary follows character introduction, moving toward plot development, themes, and emotional resolution typical of romantic comedy reviews.\n\nFinal token \"4\" is mid-sentence (\"felt like a 4\"), part of an incomplete number \u2014 almost certainly \"4 months\" or \"4 weeks\" \u2014 describing the emotional distance felt after the love interest's departure, requiring a time unit immediately next.",
+    "Q&A advice format: personal confession followed by spiritual/relationship guidance, now shifting to a follow-up question about disclosure and advice.\n\nNarrative momentum: the original question about advice is being revisited with a new personal update (\"I have now been married\"), implying a follow-up confession or clarification about the advice received, creating a self-reflective resolution arc.\n\nFinal token \"33\" is mid-sentence completing \"now 53\" \u2014 the number \"33\" is part of \"now 33 months\" or similar, and the sentence requires continuation explaining the advice situation or the advice-giving situation now.",
+    "Legal/journalistic analysis pattern: article explains liability implications of a news broadcast, building toward legal consequences for the station.\n\nNarrative momentum toward legal liability conclusion: the text has established the legal framework (liability for broadcast content) and is now delivering the specific case example's legal implications, with the statistic \"20 million people\" reinforcing the stakes.\n\nFinal token \"20,000,000,000,000,002,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",
+    "Legal Q&A format with structured rule explanation: the text follows a pattern of stating a rule, citing legal standards, then providing a detailed procedural analysis with examples.\n\nThe document is systematically working through a case analysis, having covered the rule, its legal basis, and procedural requirements \u2014 the next expected content is the rule's application to the specific scenario (the \"unlawful meeting\" case).\n\nFinal token \"303.03036 meeting the rule is a standard meeting rule. The court will find the rule is satisfied\" \u2014 this sentence is mid-conclusion, and the next tokens will likely elaborate on the court's reasoning or transition to the actual case analysis."
+  ],
+  "input_sha256": "a2d0e28932b2dd400243e07a3f8cbb4021702bebdfe0973a69b9844582c3d337",
+  "values": [
+    {
+      "quote": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "0"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "53",
+      "value": "53"
+    },
+    {
+      "quote": "20 million",
+      "value": "20000000"
+    },
+    {
+      "quote": "20,000,000,000,000,002,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",
+      "value": "20000000000000002968751843758783868256055385011138802646060986167589116469175465063678600399507680320533345454309850919030028469534720"
+    },
+    {
+      "quote": "303.03036",
+      "value": "303.03"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, including large integers, decimals, and numbers combined with scale words like 'million' from the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":0},{\"quote\":\"4\",\"value\":4},{\"quote\":\"33\",\"value\":33},{\"quote\":\"53\",\"value\":53},{\"quote\":\"20 million\",\"value\":20000000},{\"quote\":\"20,000,000,000,000,002,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000\",\"value\":2e+130},{\"quote\":\"303.03036\",\"value\":303.03036}],\"justification\":\"Extracted explicit numeric literals, including large integers, decimals, and numbers combined with scale words like 'million' from the provided descriptions.\"}",
+  "prompt_sha256": "cf8c7374d9ab99f94cf4502bd977593b4f5f333adc0ca57b950dd5f87554732c"
+}

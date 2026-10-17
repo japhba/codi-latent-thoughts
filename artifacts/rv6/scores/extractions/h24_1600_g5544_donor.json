@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5544",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 95 + 35 = 130, so the answer must be 130 divided by $10.\n\nThe narrative momentum demands a specific numerical answer to the savings goal calculation, consistent with the established problem-solving context.\n\nFinal token \"is\" opens a copular predicate requiring a number (likely \"13\" representing total weeks), completing the sentence \"The number of weeks he needs to save is [X].\"\nFinal token \"is\" directly precedes the integer answer, constrained to be a whole number representing total weeks saved: (95+35)/10 + 3 = 13.\n(95+35) / 10 + 3 = 13 weeks total spent, confirming the answer.\n(3+95+37) / 5 = 13.\n(3.",
+    "Math word problem solution narrative: the text is walking through a step-by-step arithmetic problem, requiring completion of the equation setup.\n\nThe equation setup requires finding total savings: $95 earned plus $95 spent = $190 total, then solving for how many days.\n\nFinal token \"had\" introduces the result of the savings calculation, immediately requiring a dollar amount (e.g., \"a total of $95\" or \"$95 + $35 = $130\") representing the remaining savings after the $35 loss.\n95 + $35 = total amount earned before solving for days remaining.\n\nFinal token \"had\" is a past-tense verb completing the clause about the mother's savings, requiring a noun phrase describing the total amount collected (95 + 35 times $95).\nShe had earned $95 + $35 difference to cover the.",
+    "Math word problem solution in progress: algebraic setup requires completing the equation where total amount equals $75 + $55.\n\nThe narrative momentum demands solving for the unknown amount spent: total earned = $75 + $55 = $135, then dividing by original amount to find number of dollars.\n\nFinal token \"13\" is the start of the calculated total amount ($135), immediately requiring the digit \"5\" to complete the number, representing the total money collected plus the $55 debt already owed.\nFinal token \"13\" is mid-number, part of the equation showing total savings plus $55 debt, requiring completion of \"135\" before solving for the number of dollars spent.\n55 + 75 = 130 plus $55 profit margin, confirming the answer.\nShe earned $135 total, so the next.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, expecting equation setup and solving.\n\nThe narrative momentum requires completing the total amount equation: \"He had $130\" leads directly to solving for number of coins, i.e., \"in total money spent.\"\n\nFinal token \"$130\" is the calculated total amount, mid-sentence, immediately requiring completion of the equation setup \u2014 likely \"in total money spent\" or \"in coins he had before spending,\" followed by division by $5.\nFinal token \"$130\" is the result of adding $50 + $80 spent, completing the equation before solving for days/number of coins.\n130 divided by $5 equals the number of days he had money, confirming the answer.\nHe had $130 total before needing to solve for days spent.\nHe had $130 in total money plus.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning with variable setup and equation solving.\n\nThe equation x/12 = $135 has been stated, and the solution is now completing the algebraic reasoning by stating total amount spent before solving for x.\n\nFinal token \"p\" begins \"pennies\" or continues \"total amount\" \u2014 completing the logical chain: 130 + $135 = total, then solving for number of days (130 \u00f7 $10).\n\nFinal token \"p\" is mid-word, almost certainly completing \"pennies\" or starting \"pennies needed,\" directly continuing the mathematical explanation of solving x = 130/7.\n130 is the calculated total before stating how many days it took.\n130 divided by $7 equals the number of days before the solution concludes.\nThe equation.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning, now reaching the final calculation step.\n\nThe equation \"total spent = $14 + total remaining = $140\" sets up solving for x, requiring division of 140 by $11.\n\nFinal token \"points.\" ends the equation setup \"12 + 6x = 168 total points spent,\" immediately requiring the solution statement, e.g., \"Therefore, the number of days he had is 10 / 6 = 10 days.\"\nFinal token \"7 points.\" closes the remainder calculation, leading to the answer stating how many days he had before the problem concludes.\nFinal token \"points.\" ends the equation expressing total remaining points, requiring the division result and solution confirming 3 days.\nFinal token \"6x = 105 / $11\" or similar restatement."
+  ],
+  "input_sha256": "f034ae03feb22e01b24c102eb1ba2e88d7bd79f43707567f2b23417700c640d0",
+  "values": [
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "37",
+      "value": "37"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "$190",
+      "value": "190"
+    },
+    {
+      "quote": "$75",
+      "value": "75"
+    },
+    {
+      "quote": "$55",
+      "value": "55"
+    },
+    {
+      "quote": "$135",
+      "value": "135"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "$80",
+      "value": "80"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "$14",
+      "value": "14"
+    },
+    {
+      "quote": "$140",
+      "value": "140"
+    },
+    {
+      "quote": "$11",
+      "value": "11"
+    },
+    {
+      "quote": "6x",
+      "value": "6"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is represented once with its shortest corresponding quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"95\",\"value\":95},{\"quote\":\"35\",\"value\":35},{\"quote\":\"130\",\"value\":130},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"13\",\"value\":13},{\"quote\":\"3\",\"value\":3},{\"quote\":\"37\",\"value\":37},{\"quote\":\"5\",\"value\":5},{\"quote\":\"$190\",\"value\":190},{\"quote\":\"$75\",\"value\":75},{\"quote\":\"$55\",\"value\":55},{\"quote\":\"$135\",\"value\":135},{\"quote\":\"5\",\"value\":5},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"$80\",\"value\":80},{\"quote\":\"12\",\"value\":12},{\"quote\":\"7\",\"value\":7},{\"quote\":\"$14\",\"value\":14},{\"quote\":\"$140\",\"value\":140},{\"quote\":\"$11\",\"value\":11},{\"quote\":\"6x\",\"value\":6},{\"quote\":\"168\",\"value\":168},{\"quote\":\"10\",\"value\":10},{\"quote\":\"105\",\"value\":105}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is represented once with its shortest corresponding quote.\"}",
+  "prompt_sha256": "59b2c6fa2bbab1c1b8278c18834411009e3c364bc9f69d77990270302c153d33"
+}

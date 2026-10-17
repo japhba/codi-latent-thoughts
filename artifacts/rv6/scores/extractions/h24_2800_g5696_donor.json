@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5696",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem solution in progress: calculating remaining people after 75% discount, requiring 60 people \u00d7 75% = 45 survivors.\n\nThe structured problem format demands a numerical answer showing the remaining count (60 \u2212 75% = 15 people left).\n\nFinal token \"is\" opens the answer to the remaining count calculation, immediately requiring a number (likely \"15\") representing survivors after 75% discount.\n600 \u2212 75%\u00d760 = small remainder, then applying 25% tax to that remainder.\n(60 \u2212 75%\u00d7600) \u00d7 0.25 = 15 small survivors remaining.\nFinal token \"is\" introduces the computed small survivors count.\n60 \u2212 75%\u00d7600 = 15 people left, completing the arithmetic chain showing the.",
+    "Step-by-step math solution format requires completing the arithmetic: 600 \u2212 75% = 150 customers remaining.\n\nThe word problem narrative is mid-solution, having established 600 total customers and 75% sold, now requiring the remaining count (150) before applying the 25% profit calculation.\n\nFinal token \"had\" opens the remaining-count clause (\"She had 150 cars left\"), directly mirroring the earlier stated remainder of 600 \u2212 75% = 150, so the next tokens must state \"150 cars remaining.\"\n600 \u2212 75% = 150 small cars left after discount.\nThen applying 25% profit calculation on that count.\n600 \u2212 75% \u00d7 625 = 150 small cars remaining, completing.",
+    "Math problem walkthrough following step-by-step solution format, requiring completion of the remaining count calculation.\n\nThe solution is computing 600 \u00d7 75% = 450 survivors, then applying 25% to find 150 survivors remaining.\n\nFinal token \"15\" is the beginning of the numerical answer \"150\" (600 \u00d7 75% = 150), immediately requiring \"0\" to complete the number, then continuing with the remaining 150 cars and applying 25% to find 37.5 cars remaining.\n600 \u2212 75% = 150 small cars left after the 75% split, then computing 25% of 150 survivors.\nShe has 150 cars remaining after the 75% sale.\n\nThe final answer must state 1.",
+    "Step-by-step math solution in progress: arithmetic problem walkthrough requires continuing with remaining count (150) and then applying 30% remainder calculation.\n\nThe word problem structure demands a final answer: 600 \u2212 66.66% = 150 cookies remaining after 75% sold.\n\nFinal token \"150\" is the computed remainder (600 \u00d7 30%), immediately expecting the next step: \"cookies left\" or \"remaining,\" then applying 10% to find 15 cookies remaining.\n150 cookies is the intermediate result just stated.\nShe has 150 cookies remaining after 60% division.\nThen, 10% of 600 = small fraction to be removed from remaining count.\nFinal token \"150\" is the computed remainder, immediately followed by explanation of what to do with.",
+    "Math word problem walkthrough showing step-by-step arithmetic progression toward a specific numerical answer.\n\nThe calculation chain requires completing the 10% of 150 = 15 people removed from 1500 customers, so the next tokens must state this result.\n\nFinal token \"p\" begins the word \"people\" (completing \"15 people\"), immediately followed by the computed 10% of 150, i.e., \"15 people\" representing the small remainder to remove.\n15 = 15% of 150 = 15 customers, completing the final step of removing 10%.\nFinal token \"p\" is the start of the small number \"15\" representing 10% of 150 customers.\n150 \u00d7 10 = 15, representing the 1% bonus customers removed from.",
+    "Math word problem worked example pattern: each problem states a scenario, then solves it with arithmetic steps.\n\nSecond problem's solution is mid-completion: \"150 \u00d7 10% = 15 eggs lost due to defects,\" expecting the final answer \"135 eggs.\"\n\nFinal token \"15\" is the computed waste/defect count, immediately expecting the closing answer statement: \"She has 135 eggs after 10% loss.\"\nFinal token \"15\" is the small numerical result of the 5% defect calculation, closing the problem's final step.\nFinal token \"15\" ends the small subtraction answer, immediately expecting a newline and the concluding result sentence.\nFinal token \"15\" is the small rejected eggs from the 5% waste, closing the problem.\nShe has 135 eggs after discarding 5% defects.\n simply \"."
+  ],
+  "input_sha256": "aac1f868b28a9fd2cc94d03475319f91177f1276b9a50ced94c20a79483a48de",
+  "values": [
+    {
+      "quote": "75%",
+      "value": "75"
+    },
+    {
+      "quote": "60 people",
+      "value": "60"
+    },
+    {
+      "quote": "45 survivors",
+      "value": "45"
+    },
+    {
+      "quote": "15 people left",
+      "value": "15"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "25%",
+      "value": "25"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "625",
+      "value": "625"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "37.5",
+      "value": "37.5"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "66.66%",
+      "value": "66.66"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "60%",
+      "value": "60"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "1%",
+      "value": "1"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages (as numerals), and decimals from the provided descriptions, ensuring each value is mapped to a unique, exact quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"75%\",\"value\":75},{\"quote\":\"60 people\",\"value\":60},{\"quote\":\"45 survivors\",\"value\":45},{\"quote\":\"15 people left\",\"value\":15},{\"quote\":\"600\",\"value\":600},{\"quote\":\"0.25\",\"value\":0.25},{\"quote\":\"25%\",\"value\":25},{\"quote\":\"150\",\"value\":150},{\"quote\":\"625\",\"value\":625},{\"quote\":\"450\",\"value\":450},{\"quote\":\"37.5\",\"value\":37.5},{\"quote\":\"1\",\"value\":1},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"66.66%\",\"value\":66.66},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"60%\",\"value\":60},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"15%\",\"value\":15},{\"quote\":\"1%\",\"value\":1},{\"quote\":\"135\",\"value\":135},{\"quote\":\"5%\",\"value\":5}],\"justification\":\"Extracted all distinct numeric literals, percentages (as numerals), and decimals from the provided descriptions, ensuring each value is mapped to a unique, exact quote.\"}",
+  "prompt_sha256": "dc89caf10073861116e6269a23e4cb67767d1ed15869b64c9ddad1f9dbab0b3c"
+}

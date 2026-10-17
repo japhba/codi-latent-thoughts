@@ -1,0 +1,69 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5023",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents country-by-country data with specific numbers, establishing a template of country name + ranking + metric.\n\nContinuation of country ranking list: after \"United States\" entry, more country entries are expected, following the established format of name, ranking, and performance data.\n\nFinal token \"is is\" (likely a typo mid-sentence) begins a numerical value clause \u2014 the sentence requires a dollar figure or ranking number immediately following, completing the factual statistic about the US' 2019 ranking.\n\"is is\" ends mid-sentence, likely preceding a specific dollar amount or ranking descriptor like \"the 1st\" or a numerical figure.\n\"is is\" functions as a linking verb awaiting its predicate complement, strongly constraining next tokens to a number, superlative, or monetary value.\n\"2 is is\" appears to be a garbled placeholder.",
+    "List continuation pattern: character descriptions follow a structured format \u2014 name, actor, role, then biographical/plot details. The pattern established by \"The Governor\" entry must continue.\n\nFilm review genre with structured character profiles: each entry includes actor name, character name, and thematic description, suggesting more entries or elaboration on the current character.\n\nFinal token \"9,\" is mid-sentence within a numerical list (\"9,\"), part of a specific film title or number, immediately requiring continuation of the number or a descriptive phrase completing \"9,\" likely \"900\" or a year/number completing the historical reference.\n\"933\" or similar numeric detail about the film's setting or themes.\n\"1949,\" \"36,\" \"1949,\" establishes a pattern of specific numbers; \"933\" or personal background detail expected next.\n\n\"194.\"",
+    "Product description genre with technical optical specifications, following a pattern of listing features and technical details about the book.\n\nThe text is mid-sentence describing the book's visual/technical properties, having just introduced the optical design and its scientific basis \u2014 further technical elaboration or additional book features are expected.\n\nFinal token \"30 most 30 most\" is a garbled repetition artifact (likely \"30 most 30 most\" = \"most 10 most\"), suggesting corrupted or auto-generated text; the next tokens will continue describing the optical design's visual characteristics or historical context.\n\"most 13.5 most 30 most 8.0\" product description pattern suggests a list of test subjects or examples is being enumerated, with \"most 10 most\" implying a specific named subject or category follows.\n\n\"most 30 most 13.5\" is a.",
+    "Product specification listing pattern: structured technical specs with repeated attribute-value pairs (e.g., \"Material: Steel,\" \"Size: 140mm\") establishing a template for continuation.\n\nContinuation of the \"most popular\" product description: the text is mid-sentence describing the most popular product's properties, with additional specifications or features expected to follow.\n\nFinal token \"adequate\" ends an incomplete clause (\"most adequate\"), likely part of a comparative or evaluative phrase, immediately expecting a noun or adjective completing the technical specification claim.\n\"most adequate\" is a dangling superlative adjective requiring a noun phrase (e.g., \"test,\" \"specification,\" or \"performance\") to complete the sentence.\n\"most adequate\" is mid-sentence, likely followed by a period or further qualification completing the product description.\n\"adequate\" is the final token, part of a comparative claim about the.",
+    "Structured data pattern: article lists technical specifications with precise measurements, continuing a series of performance metrics and comparisons.\n\nContinuation of comparative product specification: the text has been systematically listing benchmark comparisons (e.g., \"10% more than the previous model\"), suggesting more comparative or specification data follows.\n\nFinal token \"adequate\" ends a sentence fragment mid-thought, likely part of a price/performance claim; next tokens expected to complete the comparative or evaluative statement about the test conditions.\n\"adequate\" is a predicate adjective concluding a sentence about the test standard, immediately expecting either a period/punctuation or continuation of the specification list.\n\"adequate\" is the final token, likely a typo for \"adequate\" or part of a price qualifier phrase, with immediate expectation of punctuation or a new specification sentence.\n\"adequate\" ends a comparative clause about the test standard, suggesting the next token.",
+    "Statistical list pattern: article presents country-by-country data with specific figures, establishing a template of country name, ranking, and dollar amount.\n\nFinancial data continuation: the sentence structure \"X is the Nth largest country... worth $Y billion\" has been established, with the US entry mid-sentence requiring completion of the monetary figure.\n\nFinal token \"worth about is about\" is mid-sentence, part of a comparative financial statistic, immediately requiring a specific dollar figure (likely in billions) to complete the clause.\n\"worth about is about\" demands a numeric value like \"$1.2 billion\" or similar precise figure.\n\"worth about\" is an incomplete predicate requiring a specific monetary value to follow.\n\"worth about\" is a dangling comparative phrase demanding an immediate numerical dollar amount to complete the sentence.\n\"worth about\" is the final token sequence, functioning as a quantifier setup requiring a specific."
+  ],
+  "input_sha256": "98ab380a03214ab04167415d9c9053136e06f49e4c366adc0778184b76af6e0e",
+  "values": [
+    {
+      "quote": "2 is is",
+      "value": "2"
+    },
+    {
+      "quote": "9,",
+      "value": "9"
+    },
+    {
+      "quote": "933",
+      "value": "933"
+    },
+    {
+      "quote": "1949",
+      "value": "1949"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "194.",
+      "value": "194"
+    },
+    {
+      "quote": "30 most 30 most",
+      "value": "30"
+    },
+    {
+      "quote": "most 13.5 most 30 most 8.0",
+      "value": "13.5"
+    },
+    {
+      "quote": "most 13.5 most 30 most 8.0",
+      "value": "8"
+    },
+    {
+      "quote": "most 10 most",
+      "value": "10"
+    },
+    {
+      "quote": "140mm",
+      "value": "140"
+    },
+    {
+      "quote": "10% more",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including those within garbled text or technical specifications, while excluding dates and years as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is is\",\"value\":2},{\"quote\":\"9,\",\"value\":9},{\"quote\":\"933\",\"value\":933},{\"quote\":\"1949\",\"value\":1949},{\"quote\":\"36\",\"value\":36},{\"quote\":\"194.\",\"value\":194},{\"quote\":\"30 most 30 most\",\"value\":30},{\"quote\":\"most 13.5 most 30 most 8.0\",\"value\":13.5},{\"quote\":\"most 13.5 most 30 most 8.0\",\"value\":8},{\"quote\":\"most 10 most\",\"value\":10},{\"quote\":\"140mm\",\"value\":140},{\"quote\":\"10% more\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including those within garbled text or technical specifications, while excluding dates and years as per instructions.\"}",
+  "prompt_sha256": "735f45e715b38107002b0f2fffb571a2dba9d3a92287be0d4df67453bec6cddd"
+}

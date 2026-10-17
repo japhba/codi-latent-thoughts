@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5616",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem structure requires a numerical answer: total weekly eggs (3+2=5 eggs) combined, so total eggs sold per week is (3+2)\u00d77=35.\n\nThe question explicitly asks for total eggs sold, so the answer must be a specific integer representing total weekly sales.\n\nFinal token \"Total is\" is a prompt phrase demanding an immediate numerical value (likely \"35\") as the direct answer to the combined weekly sales calculation: (3+2)\u00d77=35 eggs.\n3+2=5 eggs per week, so total eggs sold over 3+2 weeks is (3+2)\u00d77=35.\n(3+2)\u00d77=35, completing the arithmetic answer.\n3+2\u00d77=35 total eggs sold.\n3+2=5, so total eggs sold is 35.",
+    "Word problem solution format: structured math problem requiring arithmetic calculation of combined daily totals (3+2=5 balls per day).\n\nThe solution must set up total daily consumption: 3+2=5 balls per day, then total combined balls over 7 days.\n\nFinal token \"have\" begins the sentence stating the combined daily sum of 3+2=5 balls, immediately requiring the number \"5\" followed by explanation of total balls needed (3x + 2x = 5).\n3 + 2 per day = 5 balls total, establishing the arithmetic setup before solving for total weekly balls.\n2+3=5 balls per day, so the next tokens must state \"5 balls\" or \"3 and 2 balls\" per day together.\n3+2=5, so the solution will continue with \"5 balls per day\" or similar phrasing completing the combined daily.",
+    "Word problem format: arithmetic word problem requiring a numerical answer, following \"She and her brother together eat X eggs and Y candy\" structure.\n\nThe problem has established two daily quantities (3 eggs + 2 candy = 5 combined), so the next step must state the total daily consumption: \"5 cookies per day\" or \"5 cookies together.\"\n\nFinal token \"5\" is the result of 3 + 2, completing the arithmetic sentence \"They eat 3 cookies and 2 candy each day. Together, they eat 5\" \u2014 immediately requires \"cookies a day\" to complete the sentence before stating the weekly total.\n5 + 4 = 5 cookies per day, leading to \"They eat 5 cookies per day\" or \"They eat 5 \u00d7 7 days = 35 cookies total.\"\n5 + 3 = 5 cookies combined, confirming the answer setup.",
+    "Word problem solution format: arithmetic setup requires completing the combined daily consumption calculation (3 + 5 = 8).\n\nThe problem follows a structured word problem pattern: total daily consumption = 3 bread + 2 fruit = 5 items, then total per day.\n\nFinal token \"p\" is the unit abbreviation for \"per day,\" completing the sentence \"They eat 3 bread and 2 fruit each day, so they eat 5 people a day\" \u2014 the sentence needs closure, likely \"a day\" or \"per day\" followed by multiplication by days to find total weekly consumption.\n5 people a day = 7 total combined.\n5 + 3 = 8 items together, confirming the answer setup.\n\n5 + 7 = 12 items per day, so \"12 bread and fruit together\" or \"per day\" is expected next.\n\nThe final token \"p.\"",
+    "Word problem solution format: structured math problem with setup, equations, and answer expected \u2014 \"11 + 2 = 13 eggs per week\" leads to total eggs.\n\nThe problem has established two combined daily rates (1 + 2 = 3), so the next step must state the weekly total and solve for days.\n\nFinal token \"pups. eggs. 1. 7 + 2 = 8 combined eggs per week.\" ends the problem statement, immediately requiring the solution: \"In X weeks, they produce Y eggs.\"\nFinal token \"pups. 1.\" closes the combined rate expression, so the next tokens must state the weekly cycle duration (e.g., \"per week\") and solve for the number of weeks.\n7 + 5 = 12 eggs per week over 7 days, requiring multiplication to yield a specific integer answer.\n\n11 +.",
+    "Word problem format established: two arithmetic problems presented, each with a question and answer structure, suggesting a worked solution follows.\n\nThe pattern of \"X + Y = total\" with daily/weekly counts implies the answer will state total weekly eggs (1 + 2 = 3 eggs per week).\n\nFinal token \"problem.\" closes the problem statement (\"1 + 2 eggs per week\"), immediately requiring the solution section, likely starting with \"The total number of weeks in a month is...\" or a direct numerical answer.\nThe last sentence defines the combined rate, so the next tokens must state the monthly total calculation.\nThe final token \"problem.\" closes the problem prompt, requiring the solution to follow: \"Over 11 weeks...\" or similar weekly arithmetic conclusion.\n7 days \u00d7 (1 + 2) = 21 eggs per week over 7 days, then a multi-week total calculation."
+  ],
+  "input_sha256": "afc81aab70137598f850dbd8f6adc3c8f0eea1f8eb9d8692b4ee7367beb71f62",
+  "values": [
+    {
+      "quote": "3+2=5",
+      "value": "5"
+    },
+    {
+      "quote": "(3+2)\u00d77=35",
+      "value": "35"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3x",
+      "value": "3"
+    },
+    {
+      "quote": "2x",
+      "value": "2"
+    },
+    {
+      "quote": "5 + 4 = 5",
+      "value": "4"
+    },
+    {
+      "quote": "3 + 5 = 8",
+      "value": "8"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "11 + 2 = 13",
+      "value": "11"
+    },
+    {
+      "quote": "11 + 2 = 13",
+      "value": "13"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "7 + 2 = 8",
+      "value": "8"
+    },
+    {
+      "quote": "7 + 5 = 12",
+      "value": "5"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned in the text, including results of arithmetic expressions and individual operands, while avoiding years or ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3+2=5\",\"value\":5},{\"quote\":\"(3+2)\u00d77=35\",\"value\":35},{\"quote\":\"7\",\"value\":7},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3x\",\"value\":3},{\"quote\":\"2x\",\"value\":2},{\"quote\":\"5 + 4 = 5\",\"value\":4},{\"quote\":\"3 + 5 = 8\",\"value\":8},{\"quote\":\"12\",\"value\":12},{\"quote\":\"11 + 2 = 13\",\"value\":11},{\"quote\":\"11 + 2 = 13\",\"value\":13},{\"quote\":\"1\",\"value\":1},{\"quote\":\"7 + 2 = 8\",\"value\":8},{\"quote\":\"7 + 5 = 12\",\"value\":5},{\"quote\":\"21\",\"value\":21}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned in the text, including results of arithmetic expressions and individual operands, while avoiding years or ordinals.\"}",
+  "prompt_sha256": "f97a8c32f2953c94c487b9d549ec569d07432a7823f20a0b4b892377c4e15ac1"
+}

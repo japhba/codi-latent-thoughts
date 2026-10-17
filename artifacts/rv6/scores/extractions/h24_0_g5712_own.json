@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5712",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: 500 \u00d7 4 = 20,000 must follow, completing the arithmetic expression.\n\nThe sentence structure \"The total number of tires is\" requires a numerical answer, with the multiplication already established (500 \u00d7 4).\n\nFinal token \"is\" opens a predicate requiring the computed result \"20,000\" (or \"twenty thousand\"), as it's the direct answer to the multiplication just set up.\n</explanation>",
+    "Math word problem solution in progress: \"4 times 6 eggs = 24 eggs\" calculation is being set up, requiring the arithmetic result.\n\nStep-by-step instructional format established: each step builds on the previous, with the next step expected to state the computed answer (24) and then describe how to use it to find remaining eggs.\n\nFinal token \"is\" opens a predicate completing the multiplication statement \"4 times 6 eggs = ___\", immediately requiring the numeric result \"24\" followed by explanation of how to use that to solve for remaining eggs.\n</explanation>",
+    "Mathematical problem-solving context: calculating total trees by multiplying 150 by 4, requiring completion of the arithmetic result.\n\nStep-by-step instructional format: each step builds on the previous, with the final step delivering the numerical answer to the tree-count question.\n\nThe final token \"6\" is the beginning of the multiplication result (150 \u00d7 4 = 600), immediately constraining the next tokens to complete \"00\" to form \"600.\"\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (e.g., \"Let's solve for x\").\n\nThe solution is mid-calculation, having established total cars (600) and cars with trailers (150), now computing remaining cars: 600 \u2212 150 = 450.\n\nFinal token \"600\" is the dividend in a subtraction expression \"600 \u2212 150 = 450,\" immediately requiring the result \"0\" to complete \"450,\" followed by explanation of what that number represents (remaining cars).\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with labeled stages (\"First,\" \"Let's solve for,\" \"Therefore\").\n\nThe solution is mid-calculation, having established the equation and substituted values; the next step must complete the arithmetic and state the final answer.\n\nFinal token \"600\" is the computed result of 3x = 200, immediately requiring the word \"pencils\" to complete the sentence, then likely a period or continuation to the next solution step.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, following a consistent pattern of calculation and verification.\n\nThe problem has established two equations (total eggs: 11x + 14y = 150, difference: x = 2y), so the solution must now solve for y, then find x, then verify the difference equals 2y.\n\nFinal token \"14y = \" opens the second equation's right-hand side, immediately requiring the numeric value \"150\" to complete the equation setup before solving for y.\n</explanation>"
+  ],
+  "input_sha256": "6f57848357c2481fcc61484628d067f70e258e619d66160d459c8b091aff3f5a",
+  "values": [
+    {
+      "quote": "500 \u00d7 4 = 20,000",
+      "value": "500"
+    },
+    {
+      "quote": "500 \u00d7 4 = 20,000",
+      "value": "4"
+    },
+    {
+      "quote": "500 \u00d7 4 = 20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "\"4 times 6 eggs = 24 eggs\"",
+      "value": "4"
+    },
+    {
+      "quote": "\"4 times 6 eggs = 24 eggs\"",
+      "value": "6"
+    },
+    {
+      "quote": "\"4 times 6 eggs = 24 eggs\"",
+      "value": "24"
+    },
+    {
+      "quote": "multiplying 150 by 4",
+      "value": "150"
+    },
+    {
+      "quote": "150 \u00d7 4 = 600",
+      "value": "600"
+    },
+    {
+      "quote": "600 \u2212 150 = 450",
+      "value": "450"
+    },
+    {
+      "quote": "3x = 200",
+      "value": "3"
+    },
+    {
+      "quote": "3x = 200",
+      "value": "200"
+    },
+    {
+      "quote": "11x + 14y = 150",
+      "value": "11"
+    },
+    {
+      "quote": "11x + 14y = 150",
+      "value": "14"
+    },
+    {
+      "quote": "x = 2y",
+      "value": "2"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, including operands and computed values from expressions like 500 \u00d7 4 = 20,000 and 600 - 150 = 450.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500 \\u00D7 4 = 20,000\",\"value\":500},{\"quote\":\"500 \\u00D7 4 = 20,000\",\"value\":4},{\"quote\":\"500 \\u00D7 4 = 20,000\",\"value\":20000},{\"quote\":\"\\\"4 times 6 eggs = 24 eggs\\\"\",\"value\":4},{\"quote\":\"\\\"4 times 6 eggs = 24 eggs\\\"\",\"value\":6},{\"quote\":\"\\\"4 times 6 eggs = 24 eggs\\\"\",\"value\":24},{\"quote\":\"multiplying 150 by 4\",\"value\":150},{\"quote\":\"150 \\u00D7 4 = 600\",\"value\":600},{\"quote\":\"600 \\u2212 150 = 450\",\"value\":450},{\"quote\":\"3x = 200\",\"value\":3},{\"quote\":\"3x = 200\",\"value\":200},{\"quote\":\"11x + 14y = 150\",\"value\":11},{\"quote\":\"11x + 14y = 150\",\"value\":14},{\"quote\":\"x = 2y\",\"value\":2}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, including operands and computed values from expressions like 500 \\u00D7 4 = 20,000 and 600 - 150 = 450.\"}",
+  "prompt_sha256": "95cd80b5e2205561e8e357007df0d0b5c50d65aac651c881f8769ae1773ed8f4"
+}

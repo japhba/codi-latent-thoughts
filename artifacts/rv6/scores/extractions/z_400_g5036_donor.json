@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5036",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical data pattern: structured sports report presenting paired metrics (total dollar amounts and rates), with consistent formatting throughout.\n\nContinuation of a specific numerical sequence: the text is mid-sentence listing dollar figures for the 2019 season, following the established pattern of presenting dollar amounts with specific values (e.g., \"$1,394,900,\" \"$1,278,900\").\n\nFinal token \"and is $1,278,900 and is\" \u2014 mid-sentence conjunction introducing a second dollar figure, requiring a specific dollar amount (likely a monthly or annual rate) to complete the parallel structure.",
+    "Product listing format with structured e-commerce description, following a pattern of spec details, then marketing copy, then technical specs \u2014 now transitioning to product description prose.\n\nThe text is mid-sentence in a product description paragraph detailing film quality, cast, and technical attributes, building toward a complete product overview with standard retail copy conventions.\n\nFinal token \"is\" opens a predicate clause mid-sentence (\"The best quality and best price is\"), requiring immediate completion with a noun phrase describing the product's value proposition, likely \"available\" or a specific product feature.",
+    "E-commerce parts catalog listing pattern: structured product category pages with part numbers, part names, and navigation links repeating throughout.\n\nList continuation momentum: the page is enumerating parts by category (Car Parts, Car Parts Parts, Car Parts Accessories), suggesting more product listings or subcategory entries follow.\n\nFinal token \"Available\" ends a section header \"Part For Sale: 1996 Toyota Tacoma Parts Available,\" immediately expecting a table or list of part names, part numbers, and descriptions to follow.",
+    "Structured table pattern: pipe-delimited rows with part numbers, prices, and part names repeating consistently throughout the table.\n\nE-commerce parts catalog format: the table lists parts with prices, part numbers, and part names in a structured table, implying continuation of the same row structure.\n\nFinal token \"\u2013$10.00\" closes a price range cell in the table row \"Part # 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101 10101",
+    "Structured table pattern: pipe-delimited rows with part numbers, part names, and prices repeating consistently throughout the table.\n\nE-commerce parts catalog format: each row follows \"|Part #||Part Name||Price|\" structure, with part numbers and prices filling the table cells.\n\nFinal token \"\u2013$10.00|\u2013$10.00|\" closes a table row for \"Part # 101001,\" and the next token continues the table with a new row beginning with \"|Part # 101002|\" following the established pipe-delimited pattern.",
+    "Structured table pattern: pipe-delimited rows with part numbers, prices, and part names repeating consistently throughout the table.\n\nTable row continuation: the table lists pipe-delimited entries with part number, price, and part name; the sequence is mid-row for a \"Price\" column entry.\n\nFinal token \"$-1.00\" closes a price range \"$18.00-$19.00\" within a table cell, immediately requiring the closing pipe \"|\" to complete the table row structure."
+  ],
+  "input_sha256": "85f3aa020e1fe127d0a5f3e8f9fa85f2c913694a059378c6ba4333604aec2d37",
+  "values": [
+    {
+      "quote": "$1,394,900",
+      "value": "1394900"
+    },
+    {
+      "quote": "$1,278,900",
+      "value": "1278900"
+    },
+    {
+      "quote": "10101",
+      "value": "10101"
+    },
+    {
+      "quote": "10.00",
+      "value": "10"
+    },
+    {
+      "quote": "101001",
+      "value": "101001"
+    },
+    {
+      "quote": "101002",
+      "value": "101002"
+    },
+    {
+      "quote": "1.00",
+      "value": "1"
+    },
+    {
+      "quote": "18.00",
+      "value": "18"
+    },
+    {
+      "quote": "19.00",
+      "value": "19"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals from dollar amounts, part numbers, and price ranges found in the descriptions, excluding dates and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,394,900\",\"value\":1394900},{\"quote\":\"$1,278,900\",\"value\":1278900},{\"quote\":\"10101\",\"value\":10101},{\"quote\":\"10.00\",\"value\":10},{\"quote\":\"101001\",\"value\":101001},{\"quote\":\"101002\",\"value\":101002},{\"quote\":\"1.00\",\"value\":1},{\"quote\":\"18.00\",\"value\":18},{\"quote\":\"19.00\",\"value\":19}],\"justification\":\"Extracted explicit numeric literals from dollar amounts, part numbers, and price ranges found in the descriptions, excluding dates and years.\"}",
+  "prompt_sha256": "46460848189e4684f91e79aa7f3f315096a3ffd9d47ff87059daf349610db339"
+}

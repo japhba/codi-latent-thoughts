@@ -1,0 +1,153 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5248",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: sum of 2x + x + half = total count.\n\nThe structured problem format demands a numerical answer, likely \"45\" (2\u00d745 + 25 + original).\n\n\"Total:\" is a prompt/label ending the sequence, immediately requiring a numerical answer \u2014 specifically the arithmetic sum of the three components: 45 + twice 25 + 1 = 105.\n\"Total:\" expects a direct number, likely \"450\" or \"450 + 45 = 500\" representing the combined total count.\n45+2\u00d745+1 = 450+25=500 words, so the next token must be the numeric result.\n2\u00d745+ half+25=500 words.\n45+2\u00d745+1.",
+    "Math problem-solving context requires arithmetic continuation: 2x + 2x = 48, so the next tokens must show the multiplication result (48).\n\nThe student is demonstrating their arithmetic steps, so the next tokens should show the multiplication work: \"2 times 45 = 90\" and \"45 + 45 = 90.\"\n\nFinal token \"is have\" is a broken/translated phrase (\"is have\"), part of a step-by-step arithmetic demonstration, immediately expecting the computed numerical answer or the next arithmetic operation shown.\n\"45\" or \"90\" expected next.\n47 people listed for second category, so the next tokens must complete the multiplication expression for 2\u00d745.\n45\u00d72=90 total, then sum of all counts.\n47 people + twice 45 = 90, so the sequence demands the.",
+    "Math tutoring explanation pattern: step-by-step arithmetic walkthrough with variable substitution, expecting continuation of the arithmetic sequence.\n\nThe expression \"2x + x + x = 36\" has been set up, and the solution process is mid-computation, requiring the numerical result (36 total).\n\nFinal token \"9 answer is 9 3 answer the answer is 9 0 the answer\" is garbled/mid-phrase, suggesting the next tokens will complete the arithmetic expression, likely \"the third category is half of 24 = 12\" or similar numerical continuation.\nFinal token \"the answer is 9 0\" is part of an incomplete explanation listing each category's count, immediately expecting the completed sum or next arithmetic step.\n36 women \u00d7 2 = 18, then 2 + twice = 12 girls, completing the breakdown.\n\"half of 1.",
+    "Math problem walkthrough following a structured step-by-step solution format, with each step building on the previous arithmetic operation.\n\nThe solution is mid-computation: 3x + 2x = 14, so the next step must state the numerical answer (x = 4) and then sum the three girls' counts.\n\nFinal token \"Answer: 3: Answer: Answer: 90\\nAnswer: Answer\\nAnswer: 130\\nAnswer: Answer\" \u2014 this is a repeated placeholder pattern mid-step, immediately expecting the computed result \"13\" for the second group's sum.\nFinal token \"Answer:Answer\\nAnswer:130\\nAnswer: specific\" expects the numerical result \"13\" completing the third group's calculation (3 + 2 times 5 = 13).\nTotal girls: 13+5=8, confirming the answer is .",
+    "Math word problem solution following a structured step-by-step format, with each step building on the previous arithmetic operation.\n\nThe solution is mid-computation: 2x + 3x = 56, so the next tokens must state the numerical result (81) and then sum the three categories (21+3x+16).\n\nFinal token \"answ:answib\" is a garbled placeholder/escape artifact mid-sentence, immediately requiring the numerical answer \"81\" representing the combined second group count (2 times 35 + 16).\nFinal token \"answib\" closes the placeholder pattern, expecting the arithmetic result \"81 dogs\" to follow.\n35+2 times 16 = 81 total dogs, completing the equation before stating the total sum.\n2+35+1 times 2 = 81 dogs, confirming.",
+    "Math word problem solution following a structured step-by-step format, with each step building toward arithmetic completion.\n\nThe solution is mid-calculation: 2x + 3x = 116, so the next tokens must state the arithmetic result (56) and then sum the three categories (11 + twice 21).\n\nFinal token \"answergiven\" is a placeholder/template marker indicating the answer text follows immediately \u2014 specifically the numerical result of the arithmetic expression, likely \"56\" completing \"11 + 2 times 21 = 56 dogs.\"\nFinal token \"answergotube\" closes the intermediate step, expecting the combined count \"56 dogs\" next.\n21+3x+2x=56, so 56 dogs total for the second category (11+2 times 3=8), before stating the total."
+  ],
+  "input_sha256": "1a520c7e80a3c95e7bf0cd2d457c62479463c0c0da9177a50f65b085f2d547e1",
+  "values": [
+    {
+      "quote": "twice 25",
+      "value": "50"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "2 times 45 = 90",
+      "value": "2"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "half of 24 = 12",
+      "value": "12"
+    },
+    {
+      "quote": "half of 24",
+      "value": "0.5"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "81",
+      "value": "81"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, fractions, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"twice 25\",\"value\":50},{\"quote\":\"45\",\"value\":45},{\"quote\":\"25\",\"value\":25},{\"quote\":\"1\",\"value\":1},{\"quote\":\"105\",\"value\":105},{\"quote\":\"450\",\"value\":450},{\"quote\":\"500\",\"value\":500},{\"quote\":\"48\",\"value\":48},{\"quote\":\"2 times 45 = 90\",\"value\":2},{\"quote\":\"90\",\"value\":90},{\"quote\":\"47\",\"value\":47},{\"quote\":\"36\",\"value\":36},{\"quote\":\"9\",\"value\":9},{\"quote\":\"3\",\"value\":3},{\"quote\":\"0\",\"value\":0},{\"quote\":\"half of 24 = 12\",\"value\":12},{\"quote\":\"half of 24\",\"value\":0.5},{\"quote\":\"24\",\"value\":24},{\"quote\":\"18\",\"value\":18},{\"quote\":\"2\",\"value\":2},{\"quote\":\"14\",\"value\":14},{\"quote\":\"4\",\"value\":4},{\"quote\":\"130\",\"value\":130},{\"quote\":\"13\",\"value\":13},{\"quote\":\"5\",\"value\":5},{\"quote\":\"8\",\"value\":8},{\"quote\":\"56\",\"value\":56},{\"quote\":\"81\",\"value\":81},{\"quote\":\"21\",\"value\":21},{\"quote\":\"16\",\"value\":16},{\"quote\":\"35\",\"value\":35},{\"quote\":\"116\",\"value\":116},{\"quote\":\"11\",\"value\":11}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, fractions, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.\"}",
+  "prompt_sha256": "5b57e73eda12d4957f9299bf04908664fa27b90946c158f2d3809dd6601ce78a"
+}

@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5544",
+  "kind": "own",
+  "descriptions": [
+    "Word problem setup requiring a numerical answer: \"7 days \u00d7 18 books = 126 books\" establishes a simple arithmetic word problem format.\n\nThe problem follows a classic arithmetic word problem structure: setup sentence given, now the solution requires stating the total number of books produced, with \"The total number is\" signaling the answer reveal.\n\n\"The total is\" is the opening of the solution statement, immediately requiring a specific number (likely \"126\") representing the weekly total of 7 days \u00d7 18, as the direct answer to the arithmetic problem.\n\"The total is\" demands a numeric value or calculation immediately following, constrained to be 7 \u00d7 18 = 126, or a restatement of that multiplication.",
+    "Word problem setup requiring arithmetic calculation: \"7 days \u00d7 18 books\" or similar multiplication, establishing a simple arithmetic word problem format.\n\nThe problem follows a textbook word problem structure: context given (7 days, 18 books), now requiring the solution steps or direct calculation.\n\n\"The product is is\" is a grammatically awkward, likely intended as \"The product is\" or \"The number of days is,\" immediately requiring a mathematical statement or the arithmetic expression (e.g., \"is 7 \u00d7 18\" or \"is 18 divided by...\"), likely \"is 7 \u00d7\" or \"is 18\" to solve the daily multiplication problem.",
+    "Math word problem format requires a worked solution, expecting arithmetic reasoning about daily multiplication (7 days \u00d7 150 = 1050).\n\nThe problem follows a structured word problem template: setup given (\"How many days...\"), now requiring a numerical answer with explanation, likely showing multiplication steps.\n\n\"Answer:ans:ans\" is a prompt/placeholder for a solution, immediately constraining the next tokens to be a direct numerical answer or explanation, likely starting with \"105\" or a sentence like \"The number of eggs in a week is...\" or \"Multiplying 7 by 150 gives...\" \u2014 a solution walkthrough for 7 days \u00d7 1 daily eggs.",
+    "Word problem format requires a mathematical solution: 7 days \u00d7 100 miles = 700 miles, so the answer is 700.\n\nThe problem setup establishes a simple arithmetic context (one day = 100 miles, 7 days = 7 days), so the next tokens must explain the multiplication logic or provide the solution steps.\n\n\"answerg\" is a prompt/answer-key label, immediately expecting a direct explanatory response or solution walkthrough, likely starting with \"The number of days...\" or a direct multiplication statement like \"7 days \u00d7 1 daily = 700\" or \"The maximum number of days is 1 week \u00d7 100.\"",
+    "Word problem setup requiring a mathematical solution: \"7 days \u00d7 100 miles = 700 miles\" calculation expected.\n\nThe problem follows a simple arithmetic word problem format, where the solution must demonstrate multiplication logic (one day \u00d7 1 day = 1 week) to justify the total weekly count.\n\n\"answergiven\" is a prompt/answer-key label, immediately constraining the next tokens to be the solution text itself, likely starting with \"The number of days\" or a direct multiplication statement like \"7 days \u00d7 1 hour = 700\" or \"The maximum number of hours per day is 1.\"\nThe word problem demands a complete arithmetic explanation showing 7 days \u00d7 1 hour = 700, so the next tokens must provide the solution steps.",
+    "Word problem setup requiring a numerical answer: \"7 days \u00d7 100 miles = 700 miles\" calculation expected.\n\nThe problem follows a simple arithmetic word problem format, where the question asks for a daily rate, so the next tokens must provide the solution or answer.\n\n\"answergivenius\" is a prompt/answer-key label, immediately constraining what follows to be the direct answer or explanation, likely \"7 days \u00d7 1 day = 700\" or a worked solution showing multiplication of 7 days \u00d7 1 week, possibly with a generalization about daily steps.\nThe final token \"answergivenius\" signals a solution template or answer key, expecting a direct numerical response confirming 700 total steps."
+  ],
+  "input_sha256": "33b553679ac8082fb0f7297930da3b1cb3bceffa1733153a1b8a19908c2eea33",
+  "values": [
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "18 books",
+      "value": "18"
+    },
+    {
+      "quote": "126 books",
+      "value": "126"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "1050",
+      "value": "1050"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "1 daily eggs",
+      "value": "1"
+    },
+    {
+      "quote": "100 miles",
+      "value": "100"
+    },
+    {
+      "quote": "700 miles",
+      "value": "700"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "1 day",
+      "value": "1"
+    },
+    {
+      "quote": "1 week",
+      "value": "1"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results (like 7 * 18 = 126) from the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"18 books\",\"value\":18},{\"quote\":\"126 books\",\"value\":126},{\"quote\":\"150\",\"value\":150},{\"quote\":\"1050\",\"value\":1050},{\"quote\":\"105\",\"value\":105},{\"quote\":\"1 daily eggs\",\"value\":1},{\"quote\":\"100 miles\",\"value\":100},{\"quote\":\"700 miles\",\"value\":700},{\"quote\":\"700\",\"value\":700},{\"quote\":\"1 day\",\"value\":1},{\"quote\":\"1 week\",\"value\":1},{\"quote\":\"1 hour\",\"value\":1}],\"justification\":\"Extracted explicit numeric literals and arithmetic results (like 7 * 18 = 126) from the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "5c6dbd93d63d29c4da600177744f31c5ac440e31170762929854c37fe8fdd4fa"
+}

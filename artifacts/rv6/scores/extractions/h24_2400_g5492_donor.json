@@ -1,0 +1,81 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5492",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 3 boxes \u00d7 20 books = 60 books.\n\nThe arithmetic operation \"5 \u00d7 20 \u00d7 5\" demands a specific integer result, likely \"600\" or \"6000\" representing total capacity.\n\nThe final token \"are\" closes a word problem prompt expecting an immediate numerical answer, likely \"600\" or \"6000,\" representing the multiplication result of 3 \u00d7 5 \u00d7 20.\n\"are\" is the linking verb completing the question, requiring a numeric value to follow.\n20 \u00d7 5 = 100 books per shelf, so the next token must be the integer answer.\n5 \u00d7 20 \u00d7 3 = 600.\n20 \u00d7 5 = 100 books total.\n5 \u00d7 3 = 15 rows.",
+    "Math word problem requiring arithmetic completion: 3 rows \u00d7 20 flowers = multiplication expression.\n\nThe problem follows a structured arithmetic problem format, expecting a numerical result (3 \u00d7 20 = 60) and likely a multiplication expression.\n\nFinal token \"has\" begins a clause explaining the multiplication operation, immediately requiring the arithmetic expression or result, e.g., \"3 \u00d7 20 = 60 flowers per box\" or \"3 \u00d7 20 = 60.\"\n\"has\" demands a noun phrase or numerical continuation describing the intermediate multiplication step.\n20 \u00d7 3 = 60 seats per layer, so next tokens likely state \"60 flowers\" or \"3 \u00d7 20 = 60\" before continuing to total 3 boxes \u00d7 5 rows.\n20 \u00d7 5 = total flowers.\n\"has\" introduces the intermediate calculation before the final multiplication.",
+    "Math tutoring Q&A format expects a worked numerical example with arithmetic steps, likely showing multiplication.\n\nThe expression \"3 books \u00d7 20 books \u00d7 3 books\" sets up a multiplication expression that must be evaluated \u2014 the next tokens should show the arithmetic result or explanation.\n\nThe final token \"6\" is the start of \"6 \u00d7 30\" or \"6 \u00d7 5\" \u2014 it begins a multiplication expression or arithmetic demonstration, immediately expecting \"\u00d7 30\" or \"\u00d7 5\" to complete the step-by-step breakdown of the multiplication.\nFinal token \"6\" begins a numeric expression showing the intermediate multiplication step, likely \"6 \u00d7 3 = 18\" or \"3 books \u00d7 5 rows = total.\"\n\"6\" is part of explaining 3 books \u00d7 20 rows per sheet, so next tokens will complete this arithmetic chain.\n3 \u00d7 5 =.",
+    "Math tutoring Q&A format expects a worked solution explaining multiplication arithmetic, likely showing 3 rows \u00d7 10 books.\n\nThe expression \"3 rows \u00d7 20 books\" sets up a multiplication expression that must be completed, expecting \"= 60 books\" or similar numerical result.\n\nFinal token \"60\" is the beginning of a mathematical expression or explanation, immediately requiring continuation such as \"= 60 books per row\" or \"\u00d7 3 books\" to complete the arithmetic reasoning.\nFinal token \"60\" is part of a step-by-step solution showing intermediate multiplication logic, expecting \"= 3 \u00d7 20\" or \"per row\" next.\n\"Then 60\" begins a chain of arithmetic steps, likely continuing with \"= 60 books total for three rows \u00d7 10 columns.\"\n60 represents the intermediate multiplication result, immediately requiring \"= 3 \u00d7 10.",
+    "Math problem-solving context requires showing arithmetic multiplication steps, likely \"3 rows \u00d7 20 plants = 60.\"\n\nThe expression \"3 \u00d7 20 \u00d7 3\" sets up a multiplication demonstration, expecting the arithmetic result or explanation to follow.\n\nThe final token \"6p\" is mid-expression, part of \"6p\" likely being \"6 \u00d7 30\" or \"60\" \u2014 immediately expects the multiplication operator or the numeric result completing the arithmetic demonstration.\nFinal token \"p\" begins \"\u00d7\" or \"\u00d7 30\" completing the explanation of the multiplication expression.\n\"60p\" is the start of \"3 rows \u00d7 20 plants per row,\" requiring \"\u00d7 30\" or \"\u00d7 30 = 90\" to complete the intermediate step before stating the total capacity.\n60 \u00d7 3 = 18 rows \u00d7 .",
+    "Mathematical problem-solving pattern: a multiplication expression \"6 \u00d7 10\" has been posed, expecting a numerical answer or explanation.\n\nThe explanation follows a worked-example format, showing arithmetic steps: \"6 books \u00d7 10 books = total capacity.\"\n\nFinal token \"60. 60 answer: 60.\" is a completed arithmetic result followed by a label, immediately expecting either a closing statement, confirmation, or the next step in the solution (e.g., \"So the answer is 60\").\nFinal token \"60.\" closes the explanation of the intermediate multiplication step, likely followed by a line break or the final computed result \"60 books per row \u00d7 3 rows = 180 total.\"\nFinal token \"60.\" ends the arithmetic chain, representing the combined multiplication expression \"3 \u00d7 10 \u00d7 2 = 60 possible combinations.\""
+  ],
+  "input_sha256": "9e4befe6a27a8b815510a9b2c081ea989070b9538e3f7f8ff4aee47e4da5a30d",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "6000",
+      "value": "6000"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of explicit arithmetic expressions (e.g., 3 x 20 = 60, 5 x 20 x 3 = 600) found within the provided descriptions, excluding ordinals and units.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"20\",\"value\":20},{\"quote\":\"60\",\"value\":60},{\"quote\":\"5\",\"value\":5},{\"quote\":\"600\",\"value\":600},{\"quote\":\"6000\",\"value\":6000},{\"quote\":\"100\",\"value\":100},{\"quote\":\"15\",\"value\":15},{\"quote\":\"6\",\"value\":6},{\"quote\":\"30\",\"value\":30},{\"quote\":\"18\",\"value\":18},{\"quote\":\"10\",\"value\":10},{\"quote\":\"90\",\"value\":90},{\"quote\":\"180\",\"value\":180},{\"quote\":\"2\",\"value\":2}],\"justification\":\"Extracted all distinct numeric literals and results of explicit arithmetic expressions (e.g., 3 x 20 = 60, 5 x 20 x 3 = 600) found within the provided descriptions, excluding ordinals and units.\"}",
+  "prompt_sha256": "f1626096f046e9ea467af2d87f5d1f9b3adfc62f87859df974bbf19e4d8ae118"
+}

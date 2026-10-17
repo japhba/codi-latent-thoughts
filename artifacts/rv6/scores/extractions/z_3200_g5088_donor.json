@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with counts and percentages, establishing a repeating structure of \"city name + count + percentage.\"\n\nThe sentence ending mid-statistic (\"50 of the 100 cities\") mirrors the earlier \"50 of the 100 cities\" phrasing, suggesting a parallel or contrasting city example follows.\n\nFinal token \"50 of the 100 cities\" is mid-sentence, completing a parallel clause; the next tokens must finish this sentence, likely naming a specific city or adding a qualifying phrase like \"in the country.\"\n\"5 is 5\" or a city name follows immediately.\n\"51\" or similar ranking number completing the statistic.\n\"5\" is the start of a new sentence continuing the comparative city list.\n\"71\" hazard rating or similar numeric conclusion expected \"3\" or \"1\" safety rating \"3.",
+    "List continuation pattern: the text is mid-sentence listing character names with their relationships, following \"14 characters\" and \"14 more characters\" structure.\n\nNarrative momentum: the sentence is enumerating specific character names from the 14-character cast list, with \"14 more characters\" implying a parallel count or continuation of the numbered list.\n\nFinal token \"14,\" is mid-sentence, part of a time duration phrase (\"140 days\" or similar), immediately requiring a number or time unit to complete the duration of the character's relationship.\n\"140 days\" or similar numeric detail expected next.\n\"1415\" or a recipe/recipe reference suggests structured list data follows.\n\"1436\" or \"150 days\" \u2014 the question format \"165 days\" psychological time 635\" scene\" establishes a family timeline pattern.",
+    "List continuation pattern: numbered recipe entries follow a consistent format \u2014 title, description, and ingredient list \u2014 suggesting more recipe content or a new entry follows.\n\nThe text is mid-sentence describing a specific recipe's ingredients, implying the list of ingredients or a closing detail about the recipe is imminent.\n\nFinal token \"2\" is part of an incomplete number (likely \"21\" or \"20\" or similar), mid-sentence within a book description, requiring immediate numeric continuation to complete the quantity or age reference.\n\"2\" is the start of a number, likely \"21\" or \"22\" or a recipe count, demanding digits to complete the figure.\n\"21\" or \"22\" or practical advice follows \"21\" as a historical reference or recipe count.\n\"25 minutes\" or similar educational time \"21\" food list \"3\" personal 25.",
+    "List continuation pattern: article promises \"11 most useful\" list, and the numbered items are being enumerated sequentially, so more numbered entries or continuation of the current item's content is expected.\n\nArticle summary/summary register: the text is a listicle-style article with brief descriptive paragraphs summarizing each tip, suggesting another short paragraph or new numbered item follows.\n\nFinal token \"11\" ends an incomplete sentence mid-thought (\"11\"), likely part of a statistic or article reference, immediately requiring a number, punctuation, or continuation of the social media advice list.\n\"111\" or a closing number completing the article count.\n\"11\" is a truncated number or personal list item, likely \"31\" or a ranked list reference, demanding \"61\" or food-related content advice.\n\"15\" or social media age \"31\" ranking \"169\" food\".",
+    "Statistical summary pattern: the text is presenting a numerical conclusion, having just stated \"100,000\" and \"18,000\" figures, suggesting a percentage or personal statistic follows.\n\nBook review genre conventions: the text follows a structured book review format, moving from summary to personal commentary, implying a concluding evaluative remark or recommendation is imminent.\n\nFinal token \"18,000\" is mid-sentence, completing a numerical calculation (\"100,000 + 18,000 = 18,000\"), immediately requiring a unit or explanatory clause like \"people\" or \"who would benefit.\"\n\"41\" or similar completion of the combined figure.\n\"37,0\" or similar fraud-warning content follows \"12,0\" dieting professional food 209,86\" narrative \u2014 legal.",
+    "Q&A format pattern: each question is followed by a direct answer, establishing strong expectation for a concluding answer to the final question.\n\nArgumentative momentum: the answer is mid-sentence explaining why the question is \"too easy,\" requiring completion of the reasoning about the author's interpretation of the passage.\n\nFinal token \"50\" ends an incomplete sentence (\"400,000\"), part of a concluding answer; the next tokens must complete this thought, likely explaining the author's reasoning or adding a brief elaborating clause.\n\"70\" or similar number completing the truncated \"400,000\" instruction.\n\"75\" or legal framing follows \"30,009\" nutritional analysis.\n\"75,082\" emotional conflict list or rule explanation is 198 per marriage advice 382 per food item \u2014 theological 6,50."
+  ],
+  "input_sha256": "dfaaf2810d63e593dbf106aa74156807b07ed3a03b4c33cf9da4b155762687b1",
+  "values": [
+    {
+      "quote": "50 of the 100 cities",
+      "value": "50"
+    },
+    {
+      "quote": "50 of the 100 cities",
+      "value": "100"
+    },
+    {
+      "quote": "14 characters",
+      "value": "14"
+    },
+    {
+      "quote": "11 most useful",
+      "value": "11"
+    },
+    {
+      "quote": "100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "18,000",
+      "value": "18000"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, ensuring each distinct value is mapped to a unique quote containing it.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50 of the 100 cities\",\"value\":50},{\"quote\":\"50 of the 100 cities\",\"value\":100},{\"quote\":\"14 characters\",\"value\":14},{\"quote\":\"11 most useful\",\"value\":11},{\"quote\":\"100,000\",\"value\":100000},{\"quote\":\"18,000\",\"value\":18000},{\"quote\":\"400,000\",\"value\":400000}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, ensuring each distinct value is mapped to a unique quote containing it.\"}",
+  "prompt_sha256": "5d253d848ca86f8ad2b32d291c95b9ec98082eba7e05035a476f24eaafe3552b"
+}

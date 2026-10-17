@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5129",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical report pattern: each hazard metric follows a structured format with hazard name, hazard rate, and confidence interval, establishing strong continuation expectations.\n\nNumerical completion: the hazard rate for \"Hazardous events\" is being stated as \"is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Romantic relationship analysis pattern: the text is describing a couple's compatibility, listing shared traits and emotional dynamics, building toward a character assessment.\n\nNarrative momentum of the film review: the text has shifted into a personal romantic interpretation section, describing the couple's relationship history and emotional connection, expecting continuation of the pairing/relationship description.\n\nFinal token \"was\" opens a past-tense clause mid-sentence describing the relationship's emotional state or stage \u2014 immediately expects a predicate adjective or verb phrase like \"in its early stages\" or \"a strong connection.\"",
+    "Film review genre with detailed scene-by-scene description, maintaining enthusiastic but descriptive tone throughout.\n\nNarrative momentum of cooking scene description: the reviewer is mid-sentence describing the romantic pairing of food and movie, building toward a sensory/emotional payoff about the dish's appeal.\n\nFinal token \"4\" is the start of a time duration (\"about 4\"), part of a sentence describing how quickly the movie meal scene felt, immediately requiring a unit of time \u2014 almost certainly \"hours\" or \"hours\" \u2014 to complete the measurement.",
+    "Listicle format with numbered entries (1, 2, 3...) signals continuation of a curated list of \"favorite home design tips,\" with more entries expected after this one.\n\nThe article is mid-sentence describing a specific recipe/recipe book recommendation, with a personal anecdote about the author's own cooking style and home d\u00e9cor inspiration, building toward a concrete example or list of dishes.\n\nFinal token \"65\" ends an incomplete sentence (\"I like 35 years of cooking and 55 years of home design, 65\"), likely part of a list or elaboration \u2014 next tokens will complete this thought, probably with a noun like \"years\" or a specific dish/recipe example.",
+    "News article reporting style: factual, third-person journalism covering a police incident with legal/critical reception framing.\n\nNarrative momentum: the article is building toward consequences and official reactions \u2014 the sentence is mid-argument about the video's impact on viewership and police response, with the FCC fine already cited, suggesting further elaboration on legal implications or audience reaction.\n\nFinal token \"20,000,000,202,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",
+    "Legal case document listing procedural steps in a structured format, with each case entry following a consistent pattern of case name, docket number, and procedural description.\n\nThe document is mid-entry for a specific case (2013-01-07), describing a procedural record with a detailed procedural history narrative, including timeline details and legal arguments.\n\nFinal token \"75\" is part of an incomplete time reference (\"77 minutes after the hearing is 77 minutes... 77 minutes after the hearing is 77 hours is 77\"), suggesting the next token continues this time-based procedural description, likely \"hours\" or a similar unit completing the duration."
+  ],
+  "input_sha256": "da848b84eaae35955be6bae726fdeb0f2683d207f95e463e0ef068350393b77a",
+  "values": [
+    {
+      "quote": "is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "0"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "20,000,000,202,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000",
+      "value": "20000000201999999841114706298995530657681164838081571133525869445325851817367311251902408489624721232972081255209580680975836073951232"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including large integers and decimals, while excluding dates and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":0},{\"quote\":\"4\",\"value\":4},{\"quote\":\"35\",\"value\":35},{\"quote\":\"55\",\"value\":55},{\"quote\":\"65\",\"value\":65},{\"quote\":\"20,000,000,202,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000\",\"value\":2e+130},{\"quote\":\"77\",\"value\":77},{\"quote\":\"75\",\"value\":75}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including large integers and decimals, while excluding dates and ordinals.\"}",
+  "prompt_sha256": "77c826e4cc31108d8ea11199fbb2053c5d0f013eda221684448ca50cb268a602"
+}

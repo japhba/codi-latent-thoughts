@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical report pattern: each sentence presents a specific numeric ranking or statistic, continuing a structured data presentation.\n\nFinancial ranking context: the text is listing U.S. states ranked by dollar amounts, with California and New York already cited, implying more ranked entries follow.\n\nFinal token \"2014\" ends an incomplete sentence mid-statistic (\"worth $10 billion in 2014\"), immediately requiring a closing punctuation or continuation of the ranking list with another state's dollar figure.\n\"worth $10 billion in 2014\" is a dangling clause expecting either a period/comma or additional context like a comparison or next ranked state.\n\"worth $10 billion in 2014 is\" suggests a formatting error; the numeric dollar figure or continuation of the ranking sentence is the immediate next token.\n\"worth $13 billion\" or similar numeric value is expected next.",
+    "Structured product review format with labeled sections (e.g., \"Look and Sound,\" \"Features\") signals another descriptive sentence continuing the \"Features\" section.\n\nFilm review content momentum: the review has covered plot, cast, and technical specs; remaining standard review fields like rating, runtime, or recommendation are expected next.\n\nFinal token \"4\" is mid-sentence within a numeric rating or score context (\"4 is the rating\"), immediately requiring continuation of the rating statement or a new labeled field like \"4 is the rating\" or product metadata.\n\"4 is 4\" suggests a copy-paste artifact; the surrounding product-listing format expects numeric rating or spec continuation.\n\"500 is 4\" or similar rating text is expected next, likely followed by additional technical or release details.\n\"401 is 500\" product code suggests a copy-paste error; \"4 is 7.",
+    "Structured e-commerce navigation pattern: page lists navigation links, filters, and product categories in a consistent directory format.\n\nStructured list continuation: the page has been enumerating navigation sections and filter options, suggesting more category links or subcategory names follow.\n\nFinal token \"Best\" ends a section header \"Best Parts For Specific Parts,\" which is part of a breadcrumb/navigation menu; next tokens likely continue with more category links, filter options, or product subcategory listings.\n\"Best Parts For Specific Parts\" is a section header, implying a list of part categories or links immediately follows.\n\"Part\" is the last token, completing a repeated header phrase, with \"Part\" likely followed by another navigation item or product category link.\n\"Most Popular Parts\" table or similar category links expected next.\n\"Most Popular Parts\" or similar product category label is the immediate next expected content.\n\"Best Parts For Specific Parts\" is a.",
+    "Structured table/list pattern: pipe-delimited rows with price, table name, and location columns repeating consistently throughout.\n\nStructured data continuation: the table lists shipping options with prices and locations; more entries or a closing pipe-delimited row are expected.\n\nFinal token \"Most\" ends a product description mid-sentence (\"Most\"), part of a pipe-delimited product listing row, immediately requiring continuation of the table entry \u2014 likely more product names, prices, or a closing pipe character.\n\"Most\" is a truncated word (likely \"Most\" as part of a table cell or column header), suggesting the next tokens complete this word or continue the structured data row.\n\"Most\" is a truncated word mid-cell, likely \"Most\" completing a column header or transitioning to a price value.\n\"Most\" table data or a numeric price value follows next.\n\"Most\" is the final token, part of a pipe-delimited.",
+    "Structured table/list pattern: pipe-delimited rows with consistent columns (name, table number, date) establish a repeating format for entries.\n\nStructured data continuation: the table lists pipe-delimited fields; the pattern of product listings with prices and dates suggests more rows or a new section header follows.\n\nFinal token \"Most||\" is mid-row in a pipe-delimited table cell, immediately requiring a closing pipe \"|\" to complete the cell, then likely another price value or the next table row.\n\"Most||\" is an incomplete cell in a price table row, demanding \"|\" to close, then likely another pipe-delimited cell or a new table row.\n\"Most||\" is the last token, part of a pipe-delimited data cell, requiring \"|\" next to close the cell, then likely another product entry or closing table markup.\n\"Most\" is a truncated column header or data value, immediately constrained to be followed.",
+    "Structured table/list pattern: pipe-delimited rows with date, price, and table data repeating consistently throughout.\n\nStructured data continuation: the table lists flight prices with dates and locations; the pattern of pipe-delimited entries with city, price, and numeric values must continue.\n\nFinal token \"||\" opens a new cell in the current row, immediately requiring a numeric value (likely a dollar amount or table cell) to complete the financial data entry for the \"New York City\" row.\n\"||\" is a table cell delimiter mid-row, requiring a closing value and pipe character to complete the data structure.\n\"Most Popular\" section header signals a new data block listing most popular flights, with pipe-delimited rows expected to follow the same format as the preceding table.\n\"Most Popular\" table is incomplete \u2014 the pipe-delimited format and numeric columns are established, so more city/price entries are expected next."
+  ],
+  "input_sha256": "0d74130facb31cc20f83bf989837bce28d215708badccc33f42a1e2983d2f79e",
+  "values": [
+    {
+      "quote": "$10 billion",
+      "value": "10"
+    },
+    {
+      "quote": "2014",
+      "value": "2014"
+    },
+    {
+      "quote": "$13 billion",
+      "value": "13"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "401",
+      "value": "401"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and dollar amounts from the provided descriptions, excluding years used as dates where possible, though 2014 is included as a specific numeric value mentioned in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$10 billion\",\"value\":10},{\"quote\":\"2014\",\"value\":2014},{\"quote\":\"$13 billion\",\"value\":13},{\"quote\":\"4\",\"value\":4},{\"quote\":\"500\",\"value\":500},{\"quote\":\"401\",\"value\":401},{\"quote\":\"7\",\"value\":7}],\"justification\":\"Extracted explicit numeric literals and dollar amounts from the provided descriptions, excluding years used as dates where possible, though 2014 is included as a specific numeric value mentioned in the text.\"}",
+  "prompt_sha256": "c9652844b87dfd7029c64092d022083c258b4530330b8a6c848fb09215821c5f"
+}

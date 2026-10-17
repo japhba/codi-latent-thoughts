@@ -1,0 +1,157 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5097",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: city-by-city data presented as a structured list, with \"New York\" entry mid-sentence requiring completion of its numeric value.\n\nThe sentence structure \"New York has a 30% chance of being the first city to...\" establishes a template that will repeat for other cities (Chicago, Los Angeles, etc.).\n\nFinal token \"30%\" is mid-sentence within a city-specific statistic, immediately requiring the noun phrase completing the probability claim, likely \"to be the first city to report a positive test.\"\n\"30% chance\" or similar phrasing to close the sentence.\n\"30% chance\" or a table/list of cities follows.\n\"3% chance\" or a numeric continuation completing the city's data entry.\n\"5% chance\" or similar numeric value completing the hazard rating table pattern.\n\"36% 51%\" or similar numeric sequence completing the.",
+    "List continuation pattern: the text is mid-sentence listing character names with \"including:\" introducing examples, requiring more names or details to follow.\n\nNarrative momentum: the answer is providing a specific example of a character name, mid-sentence after \"including:\" with \"25 years old\" already given, implying a year or additional detail follows.\n\nFinal token \"25,\" is part of an incomplete date reference (\"25 years old\" or a specific year like \"2013\"), requiring a year or continuation of the sentence describing the character's age.\n\"25,\" is a truncated number mid-sentence, immediately requiring a year or further biographical detail to complete the clause.\n\"25 32\" or scene description follows \"32\" sequence, likely \"76\" or a time reference completing the question's answer.\n\"25 31\" marriage duration instruction pattern.",
+    "List continuation pattern: the text is mid-sentence listing recipe examples, following \"such as:\" with a specific dish name already given, implying more examples or instructions follow.\n\nInstructional/recipe format: the passage alternates between prose explanation and bulleted steps, suggesting another recipe or ingredient list is imminent.\n\nFinal token \"3\" is the start of an incomplete number (likely \"30\" or \"3\" followed by more digits), mid-sentence within a recipe instruction or ingredient count, requiring immediate numeric continuation.\n\"3\" is the final token, part of an incomplete number or quantity in a recipe context.\n\"3\" is \"30\" or \"3\" followed by a question mark or further explanation, likely \"30\" or \"3\" friends/ingredients.\n\"3\" educational food narrative \"35\" or \"30\" spiritual food \"50\" \u2014 practical memory.",
+    "List continuation pattern: \"10 Foods\" article promises enumerated items; the numbered list has begun with \"1.\" and must continue through 10 entries.\n\nContent expectation: the article is mid-sentence describing a specific food item (\"10 Foods That Will Make You Feel Better\"), requiring a brief description of that food and its benefits.\n\nFinal token \"60\" is an incomplete number (likely \"60\" or \"30\"), part of a sentence describing the book's contents, immediately requiring the digit(s) to complete the count of recipes or similar items.\n\"30\" or \"40\" friends list.\n\"30\" or \"60\" \u2014 the list format and article context demand a number completing \"20\" or \"18\" family recipe titles.\n\"30\" or \"40\" cultural reference book entries follow \"12\" professional photos food list.",
+    "Argumentative momentum: article is building toward a conclusion about the \"100%\" statistic, likely explaining its significance or offering a counterpoint.\n\nList/summary pattern: the article has been presenting numbered examples and now transitions to a concluding remark or call-to-action, consistent with the \"Read more\" teaser format.\n\nFinal token \"200 people\" ends a sentence fragment mid-thought, immediately requiring completion of the statistic's context \u2014 likely \"200 people\" followed by a verb phrase explaining what those people did or thought.\n\"20\" is a truncated number \"18 people\" or similar, completing the contact detail sentence.\n\"20\" food contact information or a concluding remark follows \"193,868\" professional readership figure.\n\"207\" is food safety scenario 38 guests \u2014 the moral \"131 guests\" food 26.",
+    "FAQ format with question-answer pairs establishes a pattern: each answer follows its question, providing a complete, direct response.\n\nThe answer to \"How do I know if my husband is cheating?\" is mid-sentence, requiring completion of the instructional advice about what the husband should do next.\n\nThe final token \"20\" ends an incomplete sentence (\"300 questions\"), immediately requiring continuation of the answer's instructional content \u2014 likely advice on responding to or acting on the questions.\n\"200 questions\" is the final phrase, mid-answer, demanding elaboration on the husband's next steps or the list's purpose.\n\"2000\" or a thematic continuation completing the legal relationship framing.\n\"35,003 members\" or procedural steps follow \"207,158 friends\" food flavor analysis \u2014 character 350 members 190 spiritual guidance 209."
+  ],
+  "input_sha256": "43266948ae80d9614a513a2463822bb673314a7a09f7bd9eae55faf2a094ecc1",
+  "values": [
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "3%",
+      "value": "3"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "36%",
+      "value": "36"
+    },
+    {
+      "quote": "51%",
+      "value": "51"
+    },
+    {
+      "quote": "25 years old",
+      "value": "25"
+    },
+    {
+      "quote": "32",
+      "value": "32"
+    },
+    {
+      "quote": "76",
+      "value": "76"
+    },
+    {
+      "quote": "31",
+      "value": "31"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "10 Foods",
+      "value": "10"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "200 people",
+      "value": "200"
+    },
+    {
+      "quote": "193,868",
+      "value": "193868"
+    },
+    {
+      "quote": "207",
+      "value": "207"
+    },
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "131",
+      "value": "131"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "2000",
+      "value": "2000"
+    },
+    {
+      "quote": "35,003",
+      "value": "35003"
+    },
+    {
+      "quote": "207,158",
+      "value": "207158"
+    },
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "190",
+      "value": "190"
+    },
+    {
+      "quote": "209",
+      "value": "209"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30%\",\"value\":30},{\"quote\":\"3%\",\"value\":3},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"36%\",\"value\":36},{\"quote\":\"51%\",\"value\":51},{\"quote\":\"25 years old\",\"value\":25},{\"quote\":\"32\",\"value\":32},{\"quote\":\"76\",\"value\":76},{\"quote\":\"31\",\"value\":31},{\"quote\":\"3\",\"value\":3},{\"quote\":\"30\",\"value\":30},{\"quote\":\"35\",\"value\":35},{\"quote\":\"50\",\"value\":50},{\"quote\":\"10 Foods\",\"value\":10},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"60\",\"value\":60},{\"quote\":\"40\",\"value\":40},{\"quote\":\"20\",\"value\":20},{\"quote\":\"18\",\"value\":18},{\"quote\":\"12\",\"value\":12},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"200 people\",\"value\":200},{\"quote\":\"193,868\",\"value\":193868},{\"quote\":\"207\",\"value\":207},{\"quote\":\"38\",\"value\":38},{\"quote\":\"131\",\"value\":131},{\"quote\":\"26\",\"value\":26},{\"quote\":\"300\",\"value\":300},{\"quote\":\"2000\",\"value\":2000},{\"quote\":\"35,003\",\"value\":35003},{\"quote\":\"207,158\",\"value\":207158},{\"quote\":\"350\",\"value\":350},{\"quote\":\"190\",\"value\":190},{\"quote\":\"209\",\"value\":209}],\"justification\":\"Extracted all explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "1e90c2709fa37539c2f001460d589ec178d5e515c5c67cb931280738f046bf01"
+}

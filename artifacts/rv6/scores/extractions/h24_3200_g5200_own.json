@@ -1,0 +1,65 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5200",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup expecting a numerical answer, likely \"7\" or \"14.\"\n\nThe arithmetic word problem format signals a simple arithmetic calculation: 7 \u00d7 $2 = $14, so the solution is straightforward.\n\n\"The answer is\" is an incomplete declarative sentence acting as a prompt for a direct numerical response, immediately requiring a number or short phrase like \"7 dollars\" or \"14.\"\n\"The answer is 7\" or \"The answer is 14 dollars.\"\n\"The answer is\" demands a direct numerical answer, likely \"7\" or \"14,\" possibly followed by a word like \"dollars.\"\n straightforward arithmetic calculation: 7 \u00d7 2 = 14.\n\"The answer is 7 \u00d7 2 = simple.\"\n7 \u00d7 2 = 14.\n\"The answer is 7 dollars.\"\n straightforward arithmetic conclusion.\nExplanation of the multiplication logic follows.\n7 \u00d7 .",
+    "Math word problem setup expecting arithmetic solution: 15 \u00d7 $3 = $45.\n\nThe arithmetic word problem format signals a simple arithmetic expression or calculation is imminent, likely \"15 \u00d7 3\" or \"The product is 45.\"\n\n\"The multiplication is is\" is a garbled/typo version of \"The product is,\" ending mid-sentence, immediately requiring a numerical answer or arithmetic expression like \"45\" or \"15 \u00d7 5 simple arithmetic.\"\n\"The answer is 45\" or similar short declarative completion.\n\"The simple multiplication is is\" expects a direct numerical answer or calculation.\n straightforward arithmetic answer expected next.\n\"The multiplication is 15 \u00d7 3 = 45 dollars.\"\n straightforward arithmetic conclusion.\n straightforward answer: 5 children \u00d7 $2 = simple multiplication.\nThe final token \"is\" completes a typo-corrupted sentence fragment, immediately constraining the.",
+    "Math word problem format expects a worked solution walkthrough, likely showing arithmetic steps or a simple arithmetic expression.\n\nThe arithmetic operation \"6 \u00d7 $5 = $30\" is the expected answer, so the solution will demonstrate multiplication logic.\n\n\"Answer:1\\n\\n\\n\\nans:Answer\" is a repeated placeholder/template artifact, suggesting the next tokens will be the actual answer content or a mathematical expression like \"6 \u00d7 $1 = simple arithmetic.\"\n\"Explanation\\n\\n\\n\\nans:1\" signals a structured answer template, so the next content should be a brief explanatory walkthrough or calculation.\n\"Explanation\\n\\n\\n\\nans:1\" is a corrupted placeholder, immediately constraining the next tokens to be a simple arithmetic demonstration or direct numerical answer.\n straightforward multiplication logic: 15 \u00d7 1 = 15 dollars.\n straightforward method explanation follows.\n straightforward method: each child pays $1, so the.",
+    "Math word problem format expects a worked arithmetic solution, likely showing multiplication steps or a simple arithmetic expression.\n\nThe arithmetic operation \"6 \u00d7 $5 = $30\" is the expected answer, so the next content should demonstrate the calculation or method.\n\n\"answiar\" is a misspelled word for \"answer,\" acting as a label introducing the solution explanation; the next tokens should be the actual answer or method, likely starting with \"6 \u00d7 15 = simple arithmetic\" or a numerical result.\n\"answiar\" signals a non-standard answer label, suggesting informal or informal spelling continues.\nExplanation of the multiplication method is immediately expected next.\n straightforward arithmetic demonstration follows.\n straightforward arithmetic explanation: 5 \u00d7 $1 = $5, simple arithmetic.\nmethod: multiplication of 6 \u00d7 1 = price of 6 items.\n straightforward arithmetic answer: 15 dollars total.\nExplanation of the simple.",
+    "Math word problem format expects a simple arithmetic calculation answer, likely \"15 \u00d7 $2 = $30\" or similar arithmetic.\n\nThe problem involves a simple arithmetic operation (6 \u00d7 $3 = $18), so the next content should show the solution or explanation.\n\n\"answergenearby\" is a garbled placeholder for \"answer,\" suggesting the next tokens will be the word \"er\" completing the corrupted phrase, or directly the arithmetic solution text follows immediately.\n\"answergenearby\" is a broken token mid-word, so the next tokens likely complete \"er\" or begin the solution explanation.\n straightforward arithmetic demonstration expected next.\nMethod: simple multiplication showing 6 \u00d7 1 dollar = simple arithmetic.\nExplanation or worked example follows.\n straightforward multiplication: 6 children \u00d7 $1 = price calculation.\n straightforward multiplication method: 6 \u00d7 1 = 6 \u00d7 1.",
+    "Math word problem format expects a direct numerical answer, likely \"14\" or a simple arithmetic calculation.\n\nThe arithmetic operation \"6 \u00d7 $3 = $18\" is the expected solution, so the next content should present the word problem's solution or calculation.\n\n\"answergivenot\" is a garbled placeholder artifact (likely encoding of \"answer\"), immediately constraining the next tokens to be the word problem's solution, likely starting with \"The cost is...\" or a direct arithmetic expression.\n\"answergivenot\" suggests a corrupted template, so the next tokens should be the answer text.\n straightforward arithmetic answer expected: simple multiplication of 6 \u00d7 1 = 6 dollars.\n straightforward arithmetic explanation follows.\n straightforward multiplication method: 6 \u00d7 1 = 18 total eggs, no calculation needed.\n straightforward answer: simple arithmetic.\nMethod: 6 \u00d7 15 cents each."
+  ],
+  "input_sha256": "49278f2815f347a156692dbff0248636c27620d42cf121300732c18ff8ae0441",
+  "values": [
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of explicit arithmetic expressions (e.g., 7 x 2 = 14) found within the provided descriptions, excluding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7\",\"value\":7},{\"quote\":\"2\",\"value\":2},{\"quote\":\"14\",\"value\":14},{\"quote\":\"15\",\"value\":15},{\"quote\":\"3\",\"value\":3},{\"quote\":\"45\",\"value\":45},{\"quote\":\"5\",\"value\":5},{\"quote\":\"6\",\"value\":6},{\"quote\":\"30\",\"value\":30},{\"quote\":\"1\",\"value\":1},{\"quote\":\"18\",\"value\":18}],\"justification\":\"Extracted all distinct numeric literals and results of explicit arithmetic expressions (e.g., 7 x 2 = 14) found within the provided descriptions, excluding dates, years, and ordinals.\"}",
+  "prompt_sha256": "d23c4b12640a6402aad89228b1dcd203aedcd026e4e309b6d25ad7b7da1df15d"
+}

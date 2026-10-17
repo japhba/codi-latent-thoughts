@@ -1,0 +1,97 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5115",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard comparisons.\n\nDomain-specific data presentation: the article systematically presents hazard statistics with hazard types, locations, and hazard counts, expecting continued quantitative results.\n\nFinal token \"is\" opens a predicate completing the hazard count sentence for the 2019\u20132020 period, requiring a specific numeric hazard ratio (likely \"1 in X\" format) to follow immediately.",
+    "Narrative momentum of film synopsis: plot summary building to climax, describing the scene where the film's action and political tension reach its peak, with historical detail expected.\n\nThe review's critical tone and plot summary structure signal the synopsis will continue describing the film's events, likely referencing the film's ending or key scenes involving the Italian police.\n\nFinal token \"180 was 200 was 178 was 196\" (garbled \"180 was 200 was 178 was 196\") mid-sentence, describing the scene where the Italian police crowd gathered \u2014 the next tokens must complete this scene description, likely referencing the crowd's reaction or the film's plot.",
+    "Narrative momentum of personal story: author recounting romantic history withRecipe, now detailing the cooking class, with specific recipes and timeline expected to follow.\n\nRecipe/food blog genre conventions: structured progression from meeting \u2192 courtship \u2192 engagement \u2192 wedding \u2192 cooking class, with practical tips and personal anecdotes expected next.\n\nFinal token \"17\" is a truncated time reference (\"178 days\" or \"18 days\" or \"17 hours\" or \"18 days\"), part of \"178 days\" or \"17 hours\" \u2014 a specific date/time span mid-sentence requiring completion of the duration or transition to the next chronological memory.",
+    "List continuation pattern: the text is mid-sentence in a series of practical tips, with \"First, watch the video\" establishing an enumerated structure; more numbered points are expected.\n\nReligious/homiletic register: sermon-style reflection on scripture, blending personal anecdote with practical application, guiding toward faith-based examples and examples.\n\nFinal token \"55\" ends \"65\" (likely \"65\" or \"50\") mid-sentence (\"65 minutes of church...50\"), part of a specific memory example about \"55 minutes\" of church; the next tokens must complete this historical reference, likely \"minutes\" or a time-related phrase continuing the anecdote.",
+    "News article reporting style: factual, third-person, summarizing legal findings with implications for public safety and media.\n\nArgumentative momentum: the article has built toward a conclusion about police liability and public safety implications, with the final sentence beginning a summary of the study's findings and their significance.\n\nFinal token \"20,000 people were watching the video, was 20,000\" \u2014 mid-sentence, completing \"10,400 people were arrested, 10,400 people were watching,\" the clause requires continuation of the legal consequence analysis, likely referencing liability or public safety implications.",
+    "Legal citation format: rule explanation followed by case analysis, now applying rule to specific facts \u2014 procedural reasoning expected next.\n\nThe analysis follows a structured pattern: rule stated, then case facts summarized, then rule application described; the holding/conclusion of the rule is now expected.\n\nFinal token \"1790\" ends \"1789 was 10.9 minutes was 19 pages was 1789 was 8.1 minutes was 15 pages was 10 minutes\" \u2014 this garbled repetition signals the rule's application to the specific scene; the next tokens will complete the procedural reasoning about the visual evidence and its admissibility."
+  ],
+  "input_sha256": "8323051b873e8d3111f2b5936d5357e8c27c3acc997e9a2458efef9470064af9",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "178",
+      "value": "178"
+    },
+    {
+      "quote": "196",
+      "value": "196"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "10,400",
+      "value": "10400"
+    },
+    {
+      "quote": "1790",
+      "value": "1790"
+    },
+    {
+      "quote": "1789",
+      "value": "1789"
+    },
+    {
+      "quote": "10.9",
+      "value": "10.9"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "8.1",
+      "value": "8.1"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including those within garbled text strings and statistical comparisons, while excluding dates and years as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":10000},{\"quote\":\"1 in 100,000\",\"value\":100000},{\"quote\":\"180\",\"value\":180},{\"quote\":\"200\",\"value\":200},{\"quote\":\"178\",\"value\":178},{\"quote\":\"196\",\"value\":196},{\"quote\":\"17\",\"value\":17},{\"quote\":\"55\",\"value\":55},{\"quote\":\"65\",\"value\":65},{\"quote\":\"50\",\"value\":50},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"10,400\",\"value\":10400},{\"quote\":\"1790\",\"value\":1790},{\"quote\":\"1789\",\"value\":1789},{\"quote\":\"10.9\",\"value\":10.9},{\"quote\":\"19\",\"value\":19},{\"quote\":\"8.1\",\"value\":8.1},{\"quote\":\"15\",\"value\":15},{\"quote\":\"10\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including those within garbled text strings and statistical comparisons, while excluding dates and years as per instructions.\"}",
+  "prompt_sha256": "fb8a853bcbcdc72b09af918d6bd0085cda31356770e919a22a16bb8c4548e6f3"
+}

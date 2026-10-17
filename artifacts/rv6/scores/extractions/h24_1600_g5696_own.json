@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5696",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total items minus removed items = 180 + 20 = 200.\n\nThe word problem format demands a numerical answer, specifically the remaining count of items after removing 20 broken ones.\n\nFinal token \"are\" opens a predicate requiring a number (likely \"200\" or \"180\") completing the arithmetic result of 18+40-20=180 total after counting out the removed category.\n40 + 18 original items minus 20 broken ones = new total count.\nThe sentence \"There are\" directly requires a specific integer answer naming the new total number of items.\n(180+20-20\u00d710) new items after removing two categories.\n40+18-20\u00d710 = 180 + 20 new items.",
+    "Math word problem solution format: structured step-by-step algebraic reasoning requires completing the arithmetic setup.\n\nThe solution is building toward total count: 180 + 40 = 220 students, so the next tokens must state \"there are 220 total students\" before explaining removing 16 removed students.\n\nFinal token \"have\" begins a clause completing \"There are [total number]\" \u2014 immediately requires the arithmetic sum of 180 + 40 animals, likely \"220 total students\" before stating the new count after removing 16 buses.\n180 + 40 = total count, establishing the arithmetic expression to complete.\nThere are 180 + 4 categories of animals, so next tokens must state total count before describing removing 6 buses.\n16 vehicles + 40 students = total before stating remaining count after removing.",
+    "Math word problem solution in progress: arithmetic requires 180 + 80 = 260 total people, so the next token completes \"260\" as the total count.\n\nThe problem structure demands a calculation showing total people (180 + 80 students) before stating remaining people after removing 40 removed.\n\nFinal token \"2\" begins the total number \"260\" representing total people (180 + 40 students), immediately requiring \"60\" to complete the arithmetic sum before stating the reduced count after removing 40.\nFinal token \"2\" is the start of \"260\" total people, completing the arithmetic expression \"180 + 40 = 260 customers.\"\nThere are 80 students, so the next tokens must state the total count before explaining the remaining customers after removing 40.",
+    "Word problem format requires completing the arithmetic setup and solving for total vehicles count.\n\nThe solution structure demands: total vehicles = cars + trucks = 100 + 120 = 220, then describing decrease of 40 cars.\n\nFinal token \"22\" is the beginning of \"220\" (the total count of vehicles), mid-number, immediately requiring \"0 animals\" or \"0 vehicles\" to complete the arithmetic statement before stating the problem's question about remaining count after removing 40 cars.\nFinal token \"22\" is part of \"there are 220 animals on the road,\" establishing the total before stating the new reduced count after removing 40 trucks.\nThere are 100 cars + 120 trucks = combined count, requiring completion of this sentence before stating the decrease.\n0 animals on the road\" or similar conclusion.",
+    "Word problem solution format: structured step-by-step algebraic reasoning, requiring arithmetic completion.\n\nThe equation \"There are 220 + 120 vehicles = 340\" establishes total count, and the solution must now state the subtraction: \"There are 220 cars and 80 trucks removed.\"\n\nFinal token \"220\" is the total count of vehicles before stating the removal operation; immediately expects \"vehicles\" or a continuation like \"vehicles in the park\" followed by the subtraction showing cars removed.\nFinal token \"220\" completes the combined count expression, requiring a noun phrase like \"vehicles total\" or \"trucks + cars\" before stating the reduced count after removing 80 trucks.\n220 + 40 cars = 260 vehicles present, completing the equation setup before stating the remaining vehicles after removal.\nThere are 20.",
+    "Word problem format requires a mathematical solution: total count (216) minus removed count (11) = new count.\n\nThe word problem structure demands a calculation showing subtraction: \"There were 216 + 110 = total, now removing 2 closed = remaining.\"\n\nFinal token \"s cars.\" ends the setup sentence establishing total inventory count; next tokens must state the decrease operation, e.g., \"There were 2 closed cars removed\" or \"There are now 203 cars remaining.\"\nFinal token \"s cars.\" completes the combined total expression \"200 + original count + 3 closed = 216 cars before removal,\" immediately requiring the subtraction statement about removing 2 closed trains.\nThe last token \" cars.\" ends the original inventory expression, requiring the next line to state the reduced count after removing 2 closed trains."
+  ],
+  "input_sha256": "0955ab47d3db88d11e8195881761f5bac7b8d3b4d3b1087914ea0e2245076688",
+  "values": [
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "20\u00d710",
+      "value": "200"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "260",
+      "value": "260"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "340",
+      "value": "340"
+    },
+    {
+      "quote": "216",
+      "value": "216"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "110",
+      "value": "110"
+    },
+    {
+      "quote": "203",
+      "value": "203"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and arithmetic expressions (like 20x10) from the provided descriptions, ensuring each unique value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"180\",\"value\":180},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"18\",\"value\":18},{\"quote\":\"40\",\"value\":40},{\"quote\":\"20\\u00D710\",\"value\":200},{\"quote\":\"220\",\"value\":220},{\"quote\":\"16\",\"value\":16},{\"quote\":\"4\",\"value\":4},{\"quote\":\"6\",\"value\":6},{\"quote\":\"80\",\"value\":80},{\"quote\":\"260\",\"value\":260},{\"quote\":\"2\",\"value\":2},{\"quote\":\"60\",\"value\":60},{\"quote\":\"100\",\"value\":100},{\"quote\":\"120\",\"value\":120},{\"quote\":\"22\",\"value\":22},{\"quote\":\"0\",\"value\":0},{\"quote\":\"340\",\"value\":340},{\"quote\":\"216\",\"value\":216},{\"quote\":\"11\",\"value\":11},{\"quote\":\"110\",\"value\":110},{\"quote\":\"203\",\"value\":203},{\"quote\":\"3\",\"value\":3}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and arithmetic expressions (like 20x10) from the provided descriptions, ensuring each unique value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "6ee90aa8bb52f33025993f1bfe16c90e5fcef1948697dd907adc8c776b4aaac6"
+}

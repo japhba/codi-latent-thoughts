@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5300",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format expects a numerical answer following the word problem setup, likely \"$152.40\" or similar.\n\nThe calculation requires applying 15% tax to $150, so the arithmetic result must be 152.40.\n\nThe final token \"is\" completes a word problem question prompt (\"The cost of the total price is\"), immediately requiring a numerical answer or expression like \"$152.40\" to follow.\n152 + 12% = 152.40, so the next tokens must be the calculated price result.\n150 \u00d7 1.08 = 152.40, so the next tokens are the decimal number \"$152.40.\"\n15% tax added to $150.\n152.40.\n15% = 15.",
+    "Math word problem format: word problem setup requires showing arithmetic steps, specifically the tax calculation.\n\nThe solution structure demands a multiplication expression showing 8% of $150, i.e., \"8% \u00d7 $150 = $12.\"\n\nFinal token \"has\" is part of the phrase \"The tax is has,\" introducing the arithmetic expression or result \u2014 next tokens must be the multiplication expression like \"8% of $150\" or the computed value \"$12.\"\nFinal token \"has\" begins a clause requiring a numerical result or calculation, immediately expecting \"8% of $150 = $12 tax.\"\n8% of $150 = $12, so the next tokens must state this specific dollar amount.\n12 = 8% of $150 = tax amount added to original price.\nThe next step is completing the word problem solution showing.",
+    "Math word problem format: word problem setup requiring arithmetic calculation, expecting a numerical answer.\n\nThe calculation \"8% tax on $150 equals $12\" is mid-computation, expecting the arithmetic result to be stated explicitly.\n\nThe final token \"$12\" is the computed tax amount, part of the arithmetic expression \"$8% of $150 = $12\", immediately expecting the word \"so\" or \"therefore\" followed by the total cost \"$158\" or a sentence like \"The cost will be $158.\"\nFinal token \"12\" is the result of 8% of $15, completing the arithmetic step before stating the fee.\n8% of $15 = $12 fee added to $150.\nThe next token is likely \"so\" or a decimal/continuation completing the arithmetic expression.\n$12 =.",
+    "Math word problem format: word problem setup followed by arithmetic calculation, expecting a numerical solution.\n\nThe word problem establishes a simple arithmetic operation (8% tax on $80), so the next tokens must complete the calculation and likely state the total cost.\n\nThe final token \"$12 p\" is mid-calculation, representing the tax amount \"$8 \u00d7 8% = $8.00,\" immediately expecting \"so the tax is $8.00\" or similar completion of the arithmetic expression.\nFinal token \"p\" is the start of \" dollars,\" completing the word \"8 pence,\" requiring \"so the tax is 8% of $150 = $12 fee added to the total price.\"\nFinal token \"8 p\" is \"$8 pence,\" completing the 8% tax calculation.\n8% of $15 = 0.8 \u00d7 $12.",
+    "Math word problem format: word problem followed by arithmetic solution, expecting a numerical answer.\n\nThe calculation requires completing the arithmetic expression: $12 + 15% = $13.80, so the solution must show the computed result.\n\nThe final token \"s. 4 s.\" is a decimal point introducing the solution step, immediately requiring the arithmetic result \"$13.80 fee\" or similar numerical answer.\nFinal token \"s.\" ends the word problem prompt (\"12% tip\"), so the next tokens must be the arithmetic expression or computed answer showing \"$13.80.\"\nFinal token \"8 s.\" completes the 15% tip calculation, requiring the arithmetic result \"$13.80 paid\" to follow.\n$6.40 + 10% = original price, so the total cost is $13.80.\nThe simple arithmetic.",
+    "Math word problem format: word problem followed by solution walkthrough, expecting arithmetic calculation steps.\n\nThe solution requires showing the arithmetic expression: $15 + 15% = $16.50, so the next tokens must present the arithmetic work.\n\nThe final token \"problem.\" closes the word problem prompt (\"16% tax\"), immediately expecting the solution walkthrough showing the arithmetic expression or numerical result, likely \"The cost is $16.50.\"\nFinal token \"problem.\" ends the word problem prompt, requiring the solution text to follow next.\n12 \u00d7 10 = $120 discount calculation is the expected arithmetic demonstration.\nThe 10% tip calculation must follow: $16 + 10% = $16.50 total price paid.\nFinal token \"problem.\" completes the 15% tip instruction, immediately requiring the computed answer \"$16."
+  ],
+  "input_sha256": "9a378f0153fea0233c45112bc7541a29e6ba12f6841462bd6466132c6277f35c",
+  "values": [
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "152.40",
+      "value": "152.4"
+    },
+    {
+      "quote": "152",
+      "value": "152"
+    },
+    {
+      "quote": "12%",
+      "value": "12"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "8%",
+      "value": "8"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$158",
+      "value": "158"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$80",
+      "value": "80"
+    },
+    {
+      "quote": "$8",
+      "value": "8"
+    },
+    {
+      "quote": "0.8",
+      "value": "0.8"
+    },
+    {
+      "quote": "$13.80",
+      "value": "13.8"
+    },
+    {
+      "quote": "$6.40",
+      "value": "6.4"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "$16.50",
+      "value": "16.5"
+    },
+    {
+      "quote": "16%",
+      "value": "16"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "$16",
+      "value": "16"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages as numerals, and arithmetic results from the provided descriptions while avoiding duplicates and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"15%\",\"value\":15},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"152.40\",\"value\":152.4},{\"quote\":\"152\",\"value\":152},{\"quote\":\"12%\",\"value\":12},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"8%\",\"value\":8},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$158\",\"value\":158},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$80\",\"value\":80},{\"quote\":\"$8\",\"value\":8},{\"quote\":\"0.8\",\"value\":0.8},{\"quote\":\"$13.80\",\"value\":13.8},{\"quote\":\"$6.40\",\"value\":6.4},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"$16.50\",\"value\":16.5},{\"quote\":\"16%\",\"value\":16},{\"quote\":\"10\",\"value\":10},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"$16\",\"value\":16}],\"justification\":\"Extracted explicit numeric literals, percentages as numerals, and arithmetic results from the provided descriptions while avoiding duplicates and unit conversions.\"}",
+  "prompt_sha256": "4a25d94ce726f0b5abe62aa114b292443c01927e7d8b92a23177d86d478e5dde"
+}

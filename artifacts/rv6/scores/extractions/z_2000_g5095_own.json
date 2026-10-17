@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5095",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article presents specific dollar figures for each team, establishing a template of \"team name + revenue figure\" that must continue.\n\nComparative ranking structure: the text is mid-sentence listing teams with revenue rankings, implying more teams and figures will follow to complete the comparison.\n\nFinal token \"is is\" (a repeated word suggesting a formatting artifact) ends an incomplete sentence mid-clause, immediately requiring a specific dollar amount or revenue figure to complete the financial ranking statement.\n\"and is is is $[amount]\" \u2014 the next token must be a numeric dollar value continuing the revenue ranking list.\n\"and is is $[number]\" \u2014 the price of the next team's revenue is expected immediately.\n\"and is $[X]\" \u2014 the sentence structure demands a specific monetary figure completing the revenue ranking for the next team.\n\"worth is $[X]\" \u2014 the final token \"worth is.",
+    "Product review format with structured sections (specs, features, verdict) signals continuation of technical product description.\n\nThe review is mid-sentence listing product attributes and performance qualities, building toward a concluding evaluative statement about the product's overall quality or recommendation.\n\nFinal token \"6 is\" \u2014 mid-sentence in a numerical specification list (\"6 is\"), immediately requiring a continuation of the product rating or score, likely a number or descriptive phrase completing the review score/rating.\n\"6 is\" likely precedes a product rating descriptor or review score, e.g., \"6 is a great choice\" or \"6 is rated 8/10.\"\n\"8 is\" film review score pattern suggests technical specs or visual quality assessment follows.\n\"6 is 8 5\" product review score \"5\" likely means \"8 is 6\" or similar, with \"4\" visual quality test results expected next.",
+    "Product listing/e-commerce format with structured sections (title, description, bullet features) signals continuation of product specification details.\n\nThe text is mid-sentence in a product description listing features, following a pattern of comma-separated attributes like \"comfortable,\" \"stylish,\" \"versatile.\"\n\nFinal token \"shoulder\" ends an incomplete product attribute phrase (\"available in shoulder\"), immediately requiring a noun completing the product variant list, likely \"shoulder pads\" or similar retail product category term.\n\"shoulder\" is part of a product availability statement, expecting a price, size, or additional product variant to follow.\n\"available in shoulder\" is a truncated e-commerce product listing phrase, likely continuing with \"pads\" or a price/availability qualifier.\n\"shoulder 1 is available in 3\" product code\" suggests a product code or size specification follows immediately.\n\"right\" completes \"right\" as part.",
+    "Structured table/list pattern: product listing with pipe-delimited price table rows, each containing price, currency, and item name.\n\nProduct listing continuation: the e-commerce page has been showing price tables and product entries, suggesting more table rows or additional product listings follow.\n\nFinal token \"Available\" closes a table cell in a price table row, immediately expecting either a closing pipe \"|\" to complete the row, or additional price/product details continuing the table.\n\"Available\" is the final token, part of a table cell in a price table, strongly constraining the next token to be \"|\" to close the cell.\n\"Available\" is the last visible token, completing a price availability status in a table row, with the next token almost certainly being \"|\" to close the table row.\n\"Available\" is mid-table, part of a price table entry, requiring immediate closure with the pipe character.\n\"USD $100..",
+    "Structured table/list pattern: price data rows follow consistent format with currency, amount, and date columns.\n\nPrice table continuation: the price table has shown multiple entries (EUR, CAD, GBP, EUR) and is mid-entry, expecting completion of the current price row with a date.\n\nFinal token \"0.00\" is a truncated price value in a financial data table, immediately requiring completion of the price figure and likely a closing pipe \"|\" followed by a date or additional price data.\n\"0.00\" likely continues as \"0.00 EUR\" or similar, then a closing pipe and new table row.\n\"EUR\" or similar currency symbol is the immediate next expected token.\n\"EUR\" price context: the table lists multiple currency prices for the same product, suggesting additional rows or a summary may follow.\n\"EUR\" price table entry is incomplete \u2014 the truncated \"0.00\".",
+    "Structured table/list pattern: price data table with pipe-delimited rows showing price, date, and currency, establishing a clear repetition format.\n\nFinancial data continuation: the price table has shown one entry (USD) and likely continues with additional currency conversions or price entries following the same format.\n\nFinal token \"USD\" closes a price entry in a product listing, immediately expecting either a newline continuing the table with another price row, or additional product metadata like a second currency value.\n\"USD\" ends a price listing mid-table, strongly constraining next tokens to be a newline, another price entry, or a new table row.\n\"USD\" is the final token, completing a price value in a price table row, with immediate expectation of either a newline, another price row, or a new product section.\n\"USD\" closes the price table entry, so next tokens likely continue the financial data pattern or transition to a new."
+  ],
+  "input_sha256": "bed1c90e456439a111d746ef84a51eedbf09cf407a55440f49a568225cf7329e",
+  "values": [
+    {
+      "quote": "6 is 8 5",
+      "value": "6"
+    },
+    {
+      "quote": "6 is 8 5",
+      "value": "8"
+    },
+    {
+      "quote": "6 is 8 5",
+      "value": "5"
+    },
+    {
+      "quote": "8 is",
+      "value": "8"
+    },
+    {
+      "quote": "shoulder 1",
+      "value": "1"
+    },
+    {
+      "quote": "available in 3",
+      "value": "3"
+    },
+    {
+      "quote": "USD $100",
+      "value": "100"
+    },
+    {
+      "quote": "0.00",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals found within the provided descriptions, including those within product codes, price examples, and review score patterns.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6 is 8 5\",\"value\":6},{\"quote\":\"6 is 8 5\",\"value\":8},{\"quote\":\"6 is 8 5\",\"value\":5},{\"quote\":\"8 is\",\"value\":8},{\"quote\":\"shoulder 1\",\"value\":1},{\"quote\":\"available in 3\",\"value\":3},{\"quote\":\"USD $100\",\"value\":100},{\"quote\":\"0.00\",\"value\":0}],\"justification\":\"Extracted all explicit numeric literals found within the provided descriptions, including those within product codes, price examples, and review score patterns.\"}",
+  "prompt_sha256": "1cfb71946f73fc525c7a960b75558ed5b52f7afb8f8833fcd440f9f04f73d8ce"
+}

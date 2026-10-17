@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5544",
+  "kind": "own",
+  "descriptions": [
+    "Word problem setup requiring arithmetic calculation: 7 days \u00d7 18 fish = 126, so the answer must be a specific number.\n\nThe word problem genre signals a numerical solution is expected, likely formatted as a simple arithmetic expression or sentence.\n\n\"The total number of fish for the week is\" is an incomplete declarative sentence acting as a prompt, immediately requiring a numerical answer (e.g., \"126\" or \"126\") representing the weekly sum.\n7 days \u00d7 18 = 126, so the next token is almost certainly \"126\" or a word like \"126.\"\n7 days \u00d7 7 days = 49, but the problem context suggests a daily count or total follows.\n7 days \u00d7 17 days = the answer.\n simply a number representing daily accumulation.\n7 days \u00d7 17 = the solution.",
+    "Math word problem format signals a simple arithmetic calculation, expecting a numeric answer or solution steps.\n\nThe word problem context (\"7 days,\" \"total number of eggs\") strongly implies the solution involves multiplication: 7 days \u00d7 17 eggs = 119.\n\n\"The total number is\" is an incomplete declarative sentence mid-solution, immediately requiring a number or calculation phrase like \"119\" or \"7 \u00d7 17\" to complete the statement.\n\"is\" demands a predicate complement \u2014 likely a number or \"the\" followed by a quantity.\n simply \"is\" followed by the arithmetic result or explanation.\n straightforward solution expected.\n simply \"7 days \u00d7 1 day = 7 days\" or direct answer \"119 eggs.\"\n simple arithmetic completion for the weekly total.\nFor the daily rate, the sentence \"The total number of days is\" requires a short declarative conclusion.",
+    "Math word problem format signals a structured answer is expected, likely showing arithmetic steps or a direct numerical result.\n\nThe question asks for a specific quantity (7 days \u00d7 1 eggs/day), so the answer must address total eggs needed or a calculation method.\n\n\"Answer:Answer\\n\\n\" is a repeated prompt/response pattern, immediately requiring the actual answer text to follow, likely a number or explanation like \"72\" or \"The total is...\"\n\"1\\n\\n\" suggests a blank or formatted response field, constraining next tokens to be a direct answer.\n simply \"7 days\" or a calculation confirming the 72-hour daily rate.\nUsing multiplication logic, the answer involves 7 days \u00d7 general principle or direct calculation.\nFor indefinite time, the answer would be \"72 eggs needed\" or similar confirmation.\n verification of the general rule.\nUsing multiplication of 7 days \u00d7 1 eggs.",
+    "Math word problem format requires a numerical answer following the question, likely \"72\" or similar integer.\n\nThe problem involves a weekly total (7 days \u00d7 1 unit = 7), so the solution must address multiplication of 7 days by 1.\n\nThe final token \"answion\" is a corrupted placeholder for \"answer,\" signaling the start of a solution/response section; next tokens should provide the mathematical answer, likely \"72\" or \"The total number of eggs is 72 for 7 days.\"\n\"answ\" is a broken word mid-token, immediately constraining continuation to complete the word and provide the solution.\nA full explanation of the 7-day weekly pattern is expected next.\nUsing the formula 7 days \u00d7 full week = 72, confirming the answer.\nUsing multiplication logic, the model must explain how to calculate 7 days \u00d7 1 full week.",
+    "Math word problem format requires a direct numerical answer, likely \"72\" or \"720\" representing total weekly count.\n\nThe problem structure demands a solution: 7 days \u00d7 1 week = 7 days, so the answer must reflect multiplication of 7 and 1.\n\nFinal token \"answerg\" is a corrupted word (likely \"answer\"), immediately constraining the next tokens to be the actual answer text, e.g., \"72\" or \"The total number of eggs collected is 72 for 7 days.\"\nA solution/explanation is expected next.\nThe corrupted prompt signals a worked example or calculation follows.\n7 days \u00d7 24-hour period = 168, but the question asks for 7 days, so the model must address this as a complete daily rate.\nUsing the formula, the answer involves 7 days \u00d7 continuous collection.\nA full.",
+    "Math word problem format requires a numerical answer following the question, likely a specific integer or decimal.\n\nThe problem establishes a weekly total (7 days \u00d7 100 eggs) and asks for the total count, so the answer must be 700 or similar.\n\nFinal token \"answergen\" is a corrupted placeholder for \"answer,\" immediately constraining the next tokens to be the actual answer text, likely \"7 days \u00d7 1 week = 700 eggs\" or a formatted response.\nThe corrupted word signals a structured answer block is beginning.\nA daily rate of 3 days \u00d7 7 days = 21, but the question asks for 7 days total, so the answer must reflect this multiplication.\n7 days \u00d7 continuous daily rate = 21 continuous eggs over 7 days.\n\n confirm the answer.\nA full answer is expected, confirming the 21-hour."
+  ],
+  "input_sha256": "d2b3e21c85980e835664a2e513122218ba329bb51b95d1392ddfc192a2fe8e14",
+  "values": [
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "18 fish",
+      "value": "18"
+    },
+    {
+      "quote": "126",
+      "value": "126"
+    },
+    {
+      "quote": "49",
+      "value": "49"
+    },
+    {
+      "quote": "17 days",
+      "value": "17"
+    },
+    {
+      "quote": "119",
+      "value": "119"
+    },
+    {
+      "quote": "1 day",
+      "value": "1"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "720",
+      "value": "720"
+    },
+    {
+      "quote": "168",
+      "value": "168"
+    },
+    {
+      "quote": "100 eggs",
+      "value": "100"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "3 days",
+      "value": "3"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions (e.g., 7 * 18 = 126) found within the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"18 fish\",\"value\":18},{\"quote\":\"126\",\"value\":126},{\"quote\":\"49\",\"value\":49},{\"quote\":\"17 days\",\"value\":17},{\"quote\":\"119\",\"value\":119},{\"quote\":\"1 day\",\"value\":1},{\"quote\":\"72\",\"value\":72},{\"quote\":\"720\",\"value\":720},{\"quote\":\"168\",\"value\":168},{\"quote\":\"100 eggs\",\"value\":100},{\"quote\":\"700\",\"value\":700},{\"quote\":\"3 days\",\"value\":3},{\"quote\":\"21\",\"value\":21}],\"justification\":\"Extracted explicit numeric literals and results of arithmetic expressions (e.g., 7 * 18 = 126) found within the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "c53ffb96f2b3a4ecc93da21d0618b6ad8102708e5838197a9b0a6bb7e6559424"
+}

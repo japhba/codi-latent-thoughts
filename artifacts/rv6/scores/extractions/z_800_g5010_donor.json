@@ -1,0 +1,109 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5010",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical reporting pattern: hazard ratios with confidence intervals are being listed, e.g., \"HR = 1.99, 95% CI: 1.08\u20133.34,\" establishing a template for remaining results.\n\nDomain-specific content: academic/technical weather report presenting quantitative hazard findings, expecting precise numerical data and hazard comparisons between storm types.\n\nFinal token \"is\" opens a predicate completing \"The hazard of a winter storm is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.5\" or similar) consistent with the established reporting format.",
+    "Narrative momentum of plot summary: the text is recounting the film's plot, and the sentence is mid-explanation of the political conflict and its consequences.\n\nCharacter/plot causation pattern: the text traces the family's conflict, with the father's betrayal and the plot's trajectory toward the film's climax, requiring continuation of this historical/political thread.\n\nFinal token \"200 was 180 was 175 was 120\" is a mid-sentence fragment (\"200 was 150 was 180 was 250\"), suggesting garbled OCR or encoding artifacts; the next tokens must complete the plot summary, likely describing the political plot's resolution or the film's ending.",
+    "Narrative momentum of film synopsis: the text is recounting plot details, and the memory scene is mid-description, building toward the romantic/nostalgic climax of the film's story.\n\nRecipe/food blog genre conventions: structured film description with character introductions, plot summary, and production details signals continuation of the narrative synopsis with more scene-setting or character moments.\n\nFinal token \"17\" is a truncated time reference (\"15 minutes...157 minutes...17\"), part of \"75 minutes...15 minutes...17 hours\" \u2014 the number \"15\" is mid-word, so \"75\" is the immediate next token, completing \"17 hours\" or similar time unit.",
+    "Religious sermon structure: text follows a pattern of introducing a film, then providing theological reflection and practical application, now mid-example.\n\nNarrative momentum of the \"First example\" section: the film's content is being described, with historical anecdotes and examples building toward a lesson about memory and faith.\n\nFinal token \"65\" is part of \"65\" completing \"65 minutes\" or \"75 minutes\" \u2014 \"50 minutes\" or \"55 minutes\" is the expected continuation, as \"30 minutes\" is the film's runtime, and \"15 minutes\" of memory suggests a list of examples about to conclude.",
+    "News article narrative momentum: film description building toward audience/public reaction details, following a pattern of plot summary then social media context.\n\nThe article is recounting the film's plot and its real-world inspiration, with the statistic \"20,000 people\" and police incident framing the film's premise \u2014 a concluding factual statement about the movie's reception or impact is expected.\n\nFinal token \"200 people, 200,000 people, 1,200 people\" \u2014 mid-sentence continuation of crowd size statistic, \"200,000 people\" likely completing a crowd/attendance figure, with \"200 people\" suggesting a contrasting or elaborating clause follows.",
+    "Procedural timeline format: legal case narrative with sequential steps (call \u2192 scheduling \u2192 phone call \u2192 video \u2192 instructions), each step building chronologically toward the next action.\n\nNarrative momentum of the timeline: the sequence describes escalating steps toward the phone call; the video call instruction is mid-action, and the next expected content is the outcome or follow-up of the phone call.\n\nFinal token \"150\" is a time reference (\"150 minutes later\" or \"150 minutes\"), part of \"150 minutes later, he called... 150 minutes later, he called... 150 minutes later, he called...\" \u2014 the next token likely continues this time-stamped procedural pattern or completes the current instruction."
+  ],
+  "input_sha256": "5c6e87772e2640c08d4a0d475fb6d376a908b257390867b9b4d22d1407746a29",
+  "values": [
+    {
+      "quote": "1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "175",
+      "value": "175"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "157",
+      "value": "157"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "1,200",
+      "value": "1200"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including decimals, percentages, and comma-separated integers, from the provided descriptions while preserving the exact quote for each distinct value.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.99\",\"value\":1.99},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"3.34\",\"value\":3.34},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"200\",\"value\":200},{\"quote\":\"180\",\"value\":180},{\"quote\":\"175\",\"value\":175},{\"quote\":\"120\",\"value\":120},{\"quote\":\"150\",\"value\":150},{\"quote\":\"250\",\"value\":250},{\"quote\":\"17\",\"value\":17},{\"quote\":\"15\",\"value\":15},{\"quote\":\"157\",\"value\":157},{\"quote\":\"75\",\"value\":75},{\"quote\":\"65\",\"value\":65},{\"quote\":\"50\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"30\",\"value\":30},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"1,200\",\"value\":1200}],\"justification\":\"Extracted all explicit numeric literals, including decimals, percentages, and comma-separated integers, from the provided descriptions while preserving the exact quote for each distinct value.\"}",
+  "prompt_sha256": "5ee1cb7b2abff268cc0ecb2ba955bac2a9cd6a4bb85bb29f8208ec030acb9c53"
+}

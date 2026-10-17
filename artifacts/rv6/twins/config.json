@@ -1,0 +1,18 @@
+{
+  "organism": {
+    "repo_id": "cds-jb/codi_qwen3-8b-answer_only",
+    "revision": "17dd04fef336501d6bace676bb9bce295df7356a",
+    "checkpoint": 7580,
+    "weights_sha256": "7b14f101d9df48015abc5bbf8264297df0c37c9f51dfda04da2401c11af704ee"
+  },
+  "n": 296,
+  "batch_size": 16,
+  "seed": 11,
+  "max_new_tokens": 64,
+  "attention_mask": "all cached steps",
+  "column": "raw block outputs; not KV-cache transplantation",
+  "reader_step": 3200,
+  "source_sha256": "bdfbda979013b9d10b5b2fea52c74fcb0eeadfae2dc024f1b6aa2188bef0b15b",
+  "rollout_sha256": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+  "group": "rv6"
+}

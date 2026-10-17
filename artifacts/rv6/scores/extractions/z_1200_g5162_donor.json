@@ -1,0 +1,109 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5162",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text consistently pairs city names with specific numeric data (e.g., \"1999,\" \"2019,\" \"2020\"), so a country or ranking follows.\n\nContinuation of country-by-country breakdown: the paragraph lists cities with hazard ratings, and the sentence structure \"The city with the highest... is [country]\" establishes a template for completing the comparative ranking.\n\nFinal token \"is\" opens a predicate clause mid-sentence, immediately requiring a numeric value or descriptive rating (e.g., \"50\" or a percentage), completing the hazard score for the described city's 2019 data point.",
+    "Continuation of a detailed character description mid-sentence: the narrator is recounting a specific memory of the film, building toward completing the emotional/thematic reflection on the film's cultural impact.\n\nThe listicle format and blog style signal more descriptive content about the film's cultural significance, likely elaborating on family memories or specific scenes.\n\nFinal token \"1200,\" is mid-sentence, part of a numerical detail (\"1200 was 1200, 1213\"), suggesting the next tokens complete the memory of the 12th-century Italian family scene; \"1213\" likely continues the time reference, and \"1200 was 1314\" suggests a typo being corrected \u2014 the next tokens will complete the personal reflection on the 12-year-old's emotional reaction.",
+    "Instructional recipe format with numbered steps and tips, establishing a pattern of practical cooking advice with specific ingredient guidance.\n\nThe text is mid-explanation of a sensory/evaluative food pairing, building toward completing the thought about how to interpret the dish's flavor profile \u2014 the reader expects continuation of this reflective, instructional tone.\n\nFinal token \"2\" is part of an interrupted sentence \"you'll get 2000... 2000... 2000... 2000\" \u2014 likely a typo mid-number, but the immediate context is completing \"2,000\" as a romantic/romanticized quantity, then continuing with \"20 minutes\" or similar time-based instruction; the \"281\" recipe step suggests a list of tips still in progress.",
+    "Instructional listicle format with numbered tips and section headers signals continuation of practical cooking advice, with the article building toward completing its description of the film's content and benefits.\n\nThe text is mid-sentence describing the romantic/food pairing experience, establishing a pattern of elaborating on sensory and emotional benefits of the film, suggesting more specific details about the recipe or experience will follow.\n\nFinal token \"200\" is mid-sentence, part of a numerical statistic (\"400, 600, 1000... 200\"), likely completing \"100 minutes\" or similar time reference, then continuing the sentence about the 800-page recipe's 40 minutes; \"1600\" suggests a typo; the next tokens will complete the personal health/weight loss context.",
+    "Statistical/argumentative momentum: article presents study findings with expert quotes, building toward a conclusion about safety implications for medical professionals.\n\nNarrative continuation of the expert's argument: the piece is mid-sentence explaining why the study matters, with the statistic about 200 per day reinforcing the broader point about frequency of use.\n\nFinal token \"200\" ends an incomplete clause (\"about 100 per day, so 200 per day\"), likely continuing with a dollar figure or completing the per-person risk statistic, e.g., \"40,000 per year\" or a comparative safety claim \u2014 \"140 per doctor\" or similar \u2014 constrained to complete the logical consequence of the 200-per-person statistic.",
+    "Legal Q&A format with structured analysis: question posed, answer begun, now elaborating with specific legal reasoning and practical implications.\n\nThe text is building toward a complete explanation of the 20% threshold rule, with the statistic \"10,000 per day\" establishing the baseline, now requiring the logical consequence or practical guidance on how to apply this to the 75% scenario.\n\nFinal token \"700,045 per day\" is a calculated liability figure mid-sentence, immediately requiring completion of the per-person daily rate calculation (29,000 per person), then likely \"per day\" or similar, followed by advice on the 14,058 per question scenario \u2014 the 50% threshold \u2014 continuing the arithmetic pattern."
+  ],
+  "input_sha256": "5af64ad247b047fb45654d9a1a97a41b801ca9a2cbbc80099f3ebbc1eb407326",
+  "values": [
+    {
+      "quote": "1200",
+      "value": "1200"
+    },
+    {
+      "quote": "1213",
+      "value": "1213"
+    },
+    {
+      "quote": "1314",
+      "value": "1314"
+    },
+    {
+      "quote": "12-year-old",
+      "value": "12"
+    },
+    {
+      "quote": "2000",
+      "value": "2000"
+    },
+    {
+      "quote": "281",
+      "value": "281"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "800-page",
+      "value": "800"
+    },
+    {
+      "quote": "40 minutes",
+      "value": "40"
+    },
+    {
+      "quote": "1600",
+      "value": "1600"
+    },
+    {
+      "quote": "100 per day",
+      "value": "100"
+    },
+    {
+      "quote": "200 per day",
+      "value": "200"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "10,000 per day",
+      "value": "10000"
+    },
+    {
+      "quote": "75%",
+      "value": "75"
+    },
+    {
+      "quote": "700,045 per day",
+      "value": "700045"
+    },
+    {
+      "quote": "29,000 per person",
+      "value": "29000"
+    },
+    {
+      "quote": "14,058 per question",
+      "value": "14058"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, excluding dates/years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1200\",\"value\":1200},{\"quote\":\"1213\",\"value\":1213},{\"quote\":\"1314\",\"value\":1314},{\"quote\":\"12-year-old\",\"value\":12},{\"quote\":\"2000\",\"value\":2000},{\"quote\":\"281\",\"value\":281},{\"quote\":\"400\",\"value\":400},{\"quote\":\"600\",\"value\":600},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"200\",\"value\":200},{\"quote\":\"800-page\",\"value\":800},{\"quote\":\"40 minutes\",\"value\":40},{\"quote\":\"1600\",\"value\":1600},{\"quote\":\"100 per day\",\"value\":100},{\"quote\":\"200 per day\",\"value\":200},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"10,000 per day\",\"value\":10000},{\"quote\":\"75%\",\"value\":75},{\"quote\":\"700,045 per day\",\"value\":700045},{\"quote\":\"29,000 per person\",\"value\":29000},{\"quote\":\"14,058 per question\",\"value\":14058},{\"quote\":\"50%\",\"value\":50}],\"justification\":\"Extracted all explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, excluding dates/years and ordinals as per instructions.\"}",
+  "prompt_sha256": "0c0e65f6fd207dfe01dcb65acd14406ce2ca255e1da03d7c86be387198efede0"
+}

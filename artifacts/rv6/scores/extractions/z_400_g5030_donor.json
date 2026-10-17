@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5030",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical report pattern: each hazard metric follows a structured format with hazard name, hazard rate, and confidence interval, establishing strong continuation expectations.\n\nNumerical completion: the hazard rate for \"Hazardous events\" is being stated as \"is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Film review genre with character analysis in progress \u2014 the review is mid-sentence describing character traits and relationships, requiring continuation of plot/thematic observations.\n\nNarrative momentum of character comparison: the review has been building a portrait of character dynamics (mother's love, father's loss, romantic themes), suggesting the next tokens will elaborate on the film's emotional or thematic content.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence describing the character's character or role, immediately requiring a descriptive adjective or noun phrase completing the character analysis (e.g., \"was a strong woman,\" \"was the film's emotional core\").",
+    "Narrative momentum of romantic backstory: the author is recounting a personal relationship history, moving from childhood friendship to love, building toward a confession of heartbreak and rekindling.\n\nAutobiographical memoir structure: the text follows a personal essay pattern, moving through past relationships chronologically, with each relationship described in detail before moving to the next.\n\nFinal token \"7\" is mid-sentence (\"now she has become 7\"), part of a list of romantic stages (\"first date,\" \"first relationship,\" \"second relationship\"), immediately requiring a noun completing the phrase \u2014 likely \"years\" or a stage descriptor continuing the enumeration.",
+    "Personal essay/blog tone with first-person reflection on gender and faith, establishing a confessional, reflective register throughout.\n\nNarrative momentum: the author has introduced a specific anecdote about a friend's personal experience with a man, and is now pivoting to a broader lesson about gendered advice and personal testimony, with the \"I am not a man\" section signaling a shift to a personal confession or example.\n\nFinal token \"60\" ends an incomplete sentence (\"I am now 40, but I am a woman who has been in a relationship with a man, so I am 20\" \u2014 the number \"20\" is likely a typo for \"60,\" and the next tokens will complete the thought, likely \"years\" or a similar phrase continuing the personal reflection on the friend's situation.",
+    "News article reporting legal/journalistic findings, maintaining formal investigative tone with citation of sources like \"The Daily Mail\" and \"The New York Times.\"\n\nArgumentative momentum: the article has built a case linking police negligence to legal liability, with the final sentence summarizing the study's conclusion about audience risk.\n\nFinal token \"202,000,000,222,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,",
+    "Legal rule interpretation document following structured format: rule stated, rule analysis given, now procedural steps for applying standard to case.\n\nThe document is systematically covering the rule's components (standard, rule analysis, procedural steps), with the procedural steps section now beginning \u2014 specific numbered or bulleted steps for applying the standard are expected next.\n\nFinal token \"677.070.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.0"
+  ],
+  "input_sha256": "7ad33da1da6e72e3d8399c8c88c6c99af2eaf28b150a6bea4a8a54540bdff554",
+  "values": [
+    {
+      "quote": "is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "0"
+    },
+    {
+      "quote": "now she has become 7",
+      "value": "7"
+    },
+    {
+      "quote": "I am now 40",
+      "value": "40"
+    },
+    {
+      "quote": "so I am 20",
+      "value": "20"
+    },
+    {
+      "quote": "677.070.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.0",
+      "value": "677069999999999978573289975970059339525730502740575110014392741726235302209909460268474459613701007552174341661126627273835979300912758784"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including large decimals and integers used in narrative or statistical contexts.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"value\":0.0},{\"quote\":\"now she has become 7\",\"value\":7.0},{\"quote\":\"I am now 40\",\"value\":40.0},{\"quote\":\"so I am 20\",\"value\":20.0},{\"quote\":\"677.070.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.0\",\"value\":6.7707e+137}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including large decimals and integers used in narrative or statistical contexts.\"}",
+  "prompt_sha256": "27c249d33591595740db0d964a39e19fbe8be743301fa60db9dda640b44aa358"
+}

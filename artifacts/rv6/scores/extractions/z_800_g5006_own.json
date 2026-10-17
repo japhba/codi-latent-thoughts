@@ -1,0 +1,125 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5006",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: article presents hazard hazard percentages with hazard ratios, establishing a template of \"X% of hazard, Y% of hazard\" with specific numerical results.\n\nAcademic citation momentum: the text is mid-sentence reporting hazard findings from a specific study, with precise numerical results expected (e.g., \"1.5 times,\" \"1.3 times\").\n\nFinal token \"is\" opens a predicate completing \"The hazard of being struck is,\" requiring an immediate numerical hazard ratio value (likely a decimal multiplier like \"1.5\" or similar) consistent with the established statistical reporting pattern.",
+    "Narrative momentum of character analysis: the author is recounting a personal reflection on the film's themes, building toward a conclusion about the mother's emotional response and the film's moral.\n\nArgumentative pattern of film review: the review has been summarizing plot and now shifts to thematic interpretation, with the mother's reaction to the father's death serving as the emotional core.\n\nFinal token \"400 was 100 was 400\" (likely garbled \"200 was 160 was 200\") mid-sentence, describing the 160-minute mark; the sentence is incomplete and requires continuation of the emotional observation about the film's plot or the mother's reaction.",
+    "Q&A format with religious/health advice tone: the text is mid-answer to a Jewish religious question, providing a real-world anecdote and practical reasoning, now transitioning to a concluding moral or statistic.\n\nNarrative momentum toward completing the anecdote and its implications: the author is drawing a lesson from the statistic, suggesting a practical takeaway or spiritual reflection follows.\n\nFinal token \"2\" is part of \"about 0.2 about 0.4 about 2.0 minutes\" (likely a decimal fraction like \"0.25\" or \"2.0\"), mid-sentence within a calculation about the 20% statistic, requiring continuation of the numeric reasoning or a concluding observation.",
+    "Statistical/factual continuation pattern: article presents expert commentary and anecdote, now returning to the legal/medical framing with \"10 per cent\" statistic and \"10 per day\" framing.\n\nArgumentative momentum: the anecdote about the 10% daily rate sets up a public health warning, and the rhetorical question \"What is the danger?\" signals an explanatory answer is expected, likely citing expert opinion or statistics.\n\nFinal token \"40,000\" is mid-sentence (\"about 10 per minute, about 140 per minute, about 10 per second, about 10 per hour, about 14,000\"), completing a rate-per-unit-time structure; the next token continues this pattern, likely \"per day\" or similar unit completing the statistic.",
+    "Q&A format established: legal analysis pattern requires completing the answer with practical implications and reasoning, following the citation of \"10 U.S.C. \u00a7 1241.\"\n\nThe legal reasoning structure demands the court's specific finding about the rule's applicability to the church's conduct, likely citing the 1.8% threshold rule and its practical significance.\n\nFinal token \"10.4000 per 14,000 seconds is 1.8 per 128 seconds, approximately 0.064 per 100 seconds \u2014 \"about 14.9 minutes per day\" \u2014 completing the statistical threshold, immediately followed by the legal consequence or procedural question.",
+    "Statistical/legal analysis pattern: article presents survey data with percentages, establishing expectation for continued statistical interpretation of BLS findings.\n\nArgumentative momentum: the text is explaining the methodology and findings of the BLS survey, with the statistical reasoning about \"most common\" responses driving toward a conclusion about the survey's implications or next steps.\n\nFinal token \"69%\" ends a sentence fragment mid-thought (\"69% of the 99% who reported...69% of the 99%...69% of the 99%...69%\"), suggesting the next tokens will complete the statistical claim about the 99% rate, likely referencing a specific threshold or comparison."
+  ],
+  "input_sha256": "fd4084b3d1f602890080045edb8608aa62ef54fbb513112caa31e208ef8aff71",
+  "values": [
+    {
+      "quote": "1.5 times",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.3 times",
+      "value": "1.3"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "160-minute",
+      "value": "160"
+    },
+    {
+      "quote": "0.2",
+      "value": "0.2"
+    },
+    {
+      "quote": "0.4",
+      "value": "0.4"
+    },
+    {
+      "quote": "2.0",
+      "value": "2"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "10 per cent",
+      "value": "10"
+    },
+    {
+      "quote": "10 per day",
+      "value": "10"
+    },
+    {
+      "quote": "10 per minute",
+      "value": "10"
+    },
+    {
+      "quote": "140 per minute",
+      "value": "140"
+    },
+    {
+      "quote": "10 per second",
+      "value": "10"
+    },
+    {
+      "quote": "10 per hour",
+      "value": "10"
+    },
+    {
+      "quote": "14,000",
+      "value": "14000"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "10.4000",
+      "value": "10.4"
+    },
+    {
+      "quote": "1.8 per 128 seconds",
+      "value": "1.8"
+    },
+    {
+      "quote": "128",
+      "value": "128"
+    },
+    {
+      "quote": "0.064",
+      "value": "0.064"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "14.9",
+      "value": "14.9"
+    },
+    {
+      "quote": "1.8%",
+      "value": "1.8"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "99%",
+      "value": "99"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and decimals from the provided descriptions, ensuring each value is mapped to its specific textual quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5 times\",\"value\":1.5},{\"quote\":\"1.3 times\",\"value\":1.3},{\"quote\":\"400\",\"value\":400},{\"quote\":\"100\",\"value\":100},{\"quote\":\"160-minute\",\"value\":160},{\"quote\":\"0.2\",\"value\":0.2},{\"quote\":\"0.4\",\"value\":0.4},{\"quote\":\"2.0\",\"value\":2},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"10 per cent\",\"value\":10},{\"quote\":\"10 per day\",\"value\":10},{\"quote\":\"10 per minute\",\"value\":10},{\"quote\":\"140 per minute\",\"value\":140},{\"quote\":\"10 per second\",\"value\":10},{\"quote\":\"10 per hour\",\"value\":10},{\"quote\":\"14,000\",\"value\":14000},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"10.4000\",\"value\":10.4},{\"quote\":\"1.8 per 128 seconds\",\"value\":1.8},{\"quote\":\"128\",\"value\":128},{\"quote\":\"0.064\",\"value\":0.064},{\"quote\":\"100\",\"value\":100},{\"quote\":\"14.9\",\"value\":14.9},{\"quote\":\"1.8%\",\"value\":1.8},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"99%\",\"value\":99}],\"justification\":\"Extracted explicit numeric literals, percentages, and decimals from the provided descriptions, ensuring each value is mapped to its specific textual quote.\"}",
+  "prompt_sha256": "844214b5859916cbca7899276f9f54f7d89440133c5753757a454aa8e01bff48"
+}

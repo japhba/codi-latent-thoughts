@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5444",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem setup requires a numerical answer: \"6 eggs \u00d7 2 = 12 eggs\" is the expected calculation, making \"The total weight is 12\" the immediate next token.\n\nThe problem follows a classic arithmetic word problem format: given quantity (6 eggs) and question (total weight), demanding a direct numerical answer with multiplication.\n\n\"The answer is\" is a declarative prompt phrase that syntactically and conventionally requires an immediate numerical value (likely \"12\") representing the total eggs: 6 \u00d7 2 = 12.",
+    "Word problem setup requiring a simple arithmetic solution: \"45 books\" \u00d7 \"6\" = 270, so the next tokens must state the multiplication operation or its answer.\n\nThe problem follows a standard arithmetic word problem format: context given (45 books, each 6), now demanding the solution steps or direct answer.\n\n\"The answer is\" is an incomplete declarative sentence introducing the solution method, immediately requiring a verb phrase like \"is to multiply\" or \"is 270\" or \"is 45 \u00d7 2.\"",
+    "Word problem format requires a direct numerical answer: \"4 weeks \u00d7 6 eggs = 24\" or similar multiplication solution, likely followed by a step-by-step explanation.\n\nThe question asks for a simple arithmetic calculation (6 \u00d7 4), so the model expects a short, simple solution showing the multiplication result (24 eggs).\n\n\"answ\" is a placeholder/label for the answer field, immediately constraining the next token to be the solution text, likely \"24\" or a multiplication expression like \"6 \u00d7 15 = 90\" or a direct answer stating \"24 eggs.\"",
+    "Word problem format signals a solution walkthrough is expected, specifically a multiplication expression (6 eggs \u00d7 12) requiring a direct numerical answer.\n\nThe question asks for a simple arithmetic answer: \"6 eggs \u00d7 4\" = 24, so the next content must present the multiplication method or the answer itself.\n\n\"answergen\" is a placeholder/answer marker, immediately constraining what follows to be the solution steps or the direct answer, likely \"The simple way to solve this is...\" or a multiplication expression like \"6 \u00d7 12 = 72.\"",
+    "Word problem format requires a direct numerical answer: \"6 eggs \u00d7 12\" demands a multiplication result, likely \"72\" or \"72 eggs.\"\n\nThe question explicitly asks for a simple arithmetic solution (6 \u00d7 4 eggs), so the next content must provide the step-by-step multiplication answer, likely \"The total is 72\" or similar.\n\n\"answergivenius\" is a prompt/answer marker, signaling the model should immediately provide the solution: \"The product of 6 eggs \u00d7 4 is 72\" or a direct multiplication statement.",
+    "Word problem format requires a direct numerical answer: 6 eggs \u00d7 15 total eggs = 90 total eggs, so the solution must state \"90\" or \"90 eggs.\"\n\nThe question explicitly asks for \"total eggs\" and specifies 6 eggs \u00d7 9 total eggs, so the next content must provide the arithmetic answer (6 \u00d7 15 = 90) and likely a brief explanation.\n\n\"answergivenius\" is a prompt/answer marker, immediately constraining the next token to be the numerical answer \"90\" or a multiplication expression like \"90 eggs\" or \"6 \u00d7 15 = 90.\""
+  ],
+  "input_sha256": "643a300b4bc47bf376c96054db6e08475c1573ee4ecfacecded3b617eb3cd9ed",
+  "values": [
+    {
+      "quote": "6 eggs \u00d7 2 = 12 eggs",
+      "value": "6"
+    },
+    {
+      "quote": "6 eggs \u00d7 2 = 12 eggs",
+      "value": "2"
+    },
+    {
+      "quote": "6 eggs \u00d7 2 = 12 eggs",
+      "value": "12"
+    },
+    {
+      "quote": "45 books",
+      "value": "45"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "4 weeks",
+      "value": "4"
+    },
+    {
+      "quote": "4 weeks \u00d7 6 eggs = 24",
+      "value": "24"
+    },
+    {
+      "quote": "6 \u00d7 15 = 90",
+      "value": "15"
+    },
+    {
+      "quote": "6 \u00d7 15 = 90",
+      "value": "90"
+    },
+    {
+      "quote": "6 eggs \u00d7 12",
+      "value": "12"
+    },
+    {
+      "quote": "6 \u00d7 12 = 72",
+      "value": "72"
+    },
+    {
+      "quote": "6 eggs \u00d7 9 total eggs",
+      "value": "9"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6 eggs \\u00D7 2 = 12 eggs\",\"value\":6},{\"quote\":\"6 eggs \\u00D7 2 = 12 eggs\",\"value\":2},{\"quote\":\"6 eggs \\u00D7 2 = 12 eggs\",\"value\":12},{\"quote\":\"45 books\",\"value\":45},{\"quote\":\"6\",\"value\":6},{\"quote\":\"270\",\"value\":270},{\"quote\":\"4 weeks\",\"value\":4},{\"quote\":\"4 weeks \\u00D7 6 eggs = 24\",\"value\":24},{\"quote\":\"6 \\u00D7 15 = 90\",\"value\":15},{\"quote\":\"6 \\u00D7 15 = 90\",\"value\":90},{\"quote\":\"6 eggs \\u00D7 12\",\"value\":12},{\"quote\":\"6 \\u00D7 12 = 72\",\"value\":72},{\"quote\":\"6 eggs \\u00D7 9 total eggs\",\"value\":9}],\"justification\":\"Extracted all explicit numeric literals and arithmetic results from the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "ad8312148b458713ee589991f37795611c38cdf8d74418abd8f6422fc37d0cbd"
+}

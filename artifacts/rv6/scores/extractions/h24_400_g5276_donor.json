@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5276",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: original capacity 1000 units, 50% increase, 150 added, requiring the final total (1050) to complete the arithmetic chain.\n\nThe pattern establishes a two-step calculation: first step (1000 + 150 = 1150) already given, second step (150% of 1000) now expected.\n\nFinal token \"to\" completes \"Final capacity will be to,\" directly requiring the numerical answer \"1050\" (1000 \u00d7 1.5 \u00d7 1.5 = 1050), as the next tokens must state the calculated result of 850 + 50%.",
+    "Mathematical problem-solving context: calculating new inventory after adding 100, requiring arithmetic continuation (100 + 80 = 200).\n\nStep-by-step solution structure: the solution is walking through the original inventory calculation sequentially \u2014 original total 800, new target 100 more, now computing the new base inventory (100 + 80 = 200).\n\nFinal token \"had\" introduces the original inventory figure (100 + 80 = 200) as the next step, immediately requiring the number \"200\" to complete the restatement of the new base inventory before adding the 20% increase calculation.",
+    "Math word problem solution in progress: original total 180 cars established, now calculating new total after adding 50% increase to existing 100 cars.\n\nStep-by-step arithmetic progression: first step gave 100 + 80 = 180 cars, second step now requires doubling that figure (180) before applying the 20% increase calculation.\n\nFinal token \"18\" is the beginning of the number \"180\" (original total of 100 + 80), mid-number, requiring immediate completion as \"0\" to form \"180,\" then continuing with the new added cars calculation (20% of 180 = 36).",
+    "Math word problem solution format: step-by-step algebraic walkthrough with labeled stages (Original, New, Change) requiring continuation of the calculation sequence.\n\nThe solution is mid-calculation, having established the original count (180 tickets) after adding 50% increase (180 tickets), now requiring the next step: adding 50% to 180 to find the new total capacity.\n\nFinal token \"180\" is the calculated current ticket count (30\u00d76=180), immediately requiring the next operation: adding 50% of 180 to find the new total, e.g., \" tickets, and adding 50 tickets to it gives 270 tickets.\"",
+    "Mathematical word problem solution in progress: calculating 50% increase of 80,000 to 120,000, requiring 80 \u00d7 1.5 = 120 added.\n\nThe solution is mid-calculation, having established original 80 tickets and 50% increase, now computing the added bonus amount (120) to complete the new total.\n\nFinal token \"p\" begins the number \"18\" (half of 80 \u00d7 1.5 = 120), completing the multiplication expression \"80 \u00d7 1.5 = 120 tickets added\" to reach the new total of 180.",
+    "Math word problem worked example format: each problem follows a structured pattern of stating initial count, percentage change, and adding/subtracting to find new total.\n\nThe second problem mirrors the first's structure: 150 tickets added 30%, so the next step is adding 90 to 500, completing the calculation: 500 + 90 = 590.\n\nFinal token \"90\" is the calculated increment in the second example's addition step (30% of 60), immediately requiring the new total result \"590\" to complete the arithmetic answer, followed by a closing statement confirming the new ticket count."
+  ],
+  "input_sha256": "737e5d1ef32cd6a5da17803ea7c83b44e8c4299adccd4601839530165e445426",
+  "values": [
+    {
+      "quote": "1000 units",
+      "value": "1000"
+    },
+    {
+      "quote": "50%",
+      "value": "50"
+    },
+    {
+      "quote": "150 added",
+      "value": "150"
+    },
+    {
+      "quote": "1050",
+      "value": "1050"
+    },
+    {
+      "quote": "1150",
+      "value": "1150"
+    },
+    {
+      "quote": "150%",
+      "value": "150"
+    },
+    {
+      "quote": "850",
+      "value": "850"
+    },
+    {
+      "quote": "adding 100",
+      "value": "100"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "180 cars",
+      "value": "180"
+    },
+    {
+      "quote": "100 cars",
+      "value": "100"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "180 tickets",
+      "value": "180"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "50 tickets",
+      "value": "50"
+    },
+    {
+      "quote": "270 tickets",
+      "value": "270"
+    },
+    {
+      "quote": "80,000",
+      "value": "80000"
+    },
+    {
+      "quote": "120,000",
+      "value": "120000"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "150 tickets",
+      "value": "150"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "590",
+      "value": "590"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages, and arithmetic components from the provided descriptions, ensuring each unique quote/value pair is represented exactly once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1000 units\",\"value\":1000},{\"quote\":\"50%\",\"value\":50},{\"quote\":\"150 added\",\"value\":150},{\"quote\":\"1050\",\"value\":1050},{\"quote\":\"1150\",\"value\":1150},{\"quote\":\"150%\",\"value\":150},{\"quote\":\"850\",\"value\":850},{\"quote\":\"adding 100\",\"value\":100},{\"quote\":\"80\",\"value\":80},{\"quote\":\"200\",\"value\":200},{\"quote\":\"800\",\"value\":800},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"180 cars\",\"value\":180},{\"quote\":\"100 cars\",\"value\":100},{\"quote\":\"18\",\"value\":18},{\"quote\":\"0\",\"value\":0},{\"quote\":\"36\",\"value\":36},{\"quote\":\"180 tickets\",\"value\":180},{\"quote\":\"30\",\"value\":30},{\"quote\":\"6\",\"value\":6},{\"quote\":\"50 tickets\",\"value\":50},{\"quote\":\"270 tickets\",\"value\":270},{\"quote\":\"80,000\",\"value\":80000},{\"quote\":\"120,000\",\"value\":120000},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"120\",\"value\":120},{\"quote\":\"150 tickets\",\"value\":150},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"90\",\"value\":90},{\"quote\":\"500\",\"value\":500},{\"quote\":\"590\",\"value\":590},{\"quote\":\"60\",\"value\":60}],\"justification\":\"Extracted all explicit numeric literals, percentages, and arithmetic components from the provided descriptions, ensuring each unique quote/value pair is represented exactly once.\"}",
+  "prompt_sha256": "79c8a6055413802eec66dd78580e26336a0fec8e5629c9eccbb317711a592ed6"
+}

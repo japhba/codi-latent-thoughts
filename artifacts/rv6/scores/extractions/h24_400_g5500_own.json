@@ -1,0 +1,241 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5500",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring a numerical answer: total tickets sold must be 130, with 100 tickets at $3 each and 150 tickets at $10 each, leaving a gap to solve for.\n\nThe solution structure demands a specific integer answer: 130 \u2212 10\u00d73 = 50 tickets sold on the cheaper tickets, so the answer must be the number of tickets sold on the cheaper price (100 \u2212 30 = 70).\n\nFinal token \"The number of tickets sold on the cheaper tickets is:\" is a direct question prompt requiring an integer answer, specifically the difference: 150 \u2212 100 = 50 tickets.",
+    "Mathematical problem-solving context: calculating expected profit from selling tickets, requiring arithmetic continuation of the first 15 tickets' value (15 \u00d7 $100 = $150) before adding remaining value from remaining tickets.\n\nThe solution is mid-calculation, having established the first 15 tickets' full value (15 \u00d7 $1) and now must account for the remaining 10 tickets' partial contribution, i.e., (150) + (10 \u00d7 $10).\n\nFinal token \"had\" begins a clause stating the total value from the first 15 tickets (15 \u00d7 $1 = $150), immediately constraining the next tokens to be a number representing that value before continuing with the remaining tickets' contribution.",
+    "Math problem solution in progress: calculating expected score from 100 students, with 100 points from first 15 questions already computed, now summing remaining points from remaining students.\n\nThe solution is mid-calculation, having established total points from the first 100 students (15\u00d7$100) and now computing remaining points from the remaining 40 students (80\u00d7$100).\n\nFinal token \"15\" begins the value \"150\" representing the first 100 points earned from the top 15 questions; next tokens must complete this number (likely \"0\" or \"00\") then continue with the remaining points calculation: 40 students \u00d7 $10 points = $400.",
+    "Math problem-solving context: solving for ticket prices where total revenue equals $1500, with adult tickets (x) and children (y) counts being calculated step-by-step.\n\nThe solution is mid-calculation, having established that 3x + 0.5x = 1500, and now computing the remaining amount needed to reach $1500 after accounting for the first 100 tickets (full price = $1500).\n\nFinal token \"1500\" is the computed value of 4 tickets \u00d7 $50 each, part of a constraint equation; next tokens must continue the arithmetic explanation, likely \"in the first 4 tickets\" or \"and the remaining tickets must be...\" to set up the equation.",
+    "Mathematical problem-solving context: calculating profit difference between two ticket prices ($300 total, $150 each, $150 difference) requires solving for number sold.\n\nThe equation structure demands completing the algebraic expression: ($30000 \u2212 $150\u00d730 = $150) to find the excess profit, then solving for n: $1300 = 300n.\n\nFinal token \"p$3000\u2212$1500p\u2212$1300p = p\" \u2014 mid-calculation showing the excess difference ($1300) must be expressed as the result of the arithmetic difference, immediately requiring the numeric value \"30\" to complete the equation showing the per-person excess.",
+    "Math problem solution format: structured step-by-step algebraic walkthrough with equations, showing how to solve for unknowns in a two-part problem.\n\nThe second problem mirrors the first's structure: total 80 tickets, 2x + 5x = 100, now solving for the smaller group's count (80 \u2212 10x = 0), so the next tokens must state the division result and find the number of tickets sold.\n\nFinal token \"80.00.80.00.\" ends the remainder calculation (100 \u2212 20x = 80), immediately requiring the next step: dividing 80 by the difference to find the smaller group's ticket count (e.g., \"The number of tickets sold is 16\")."
+  ],
+  "input_sha256": "c8ab1712af65c5e636de5e6c36c063542965a3402c87a5ddc705c686b0907e43",
+  "values": [
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "130 \u2212 10\u00d73 = 50",
+      "value": "130"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "130 \u2212 10\u00d73 = 50",
+      "value": "50"
+    },
+    {
+      "quote": "100 \u2212 30 = 70",
+      "value": "100"
+    },
+    {
+      "quote": "100 \u2212 30 = 70",
+      "value": "30"
+    },
+    {
+      "quote": "100 \u2212 30 = 70",
+      "value": "70"
+    },
+    {
+      "quote": "150 \u2212 100 = 50",
+      "value": "150"
+    },
+    {
+      "quote": "150 \u2212 100 = 50",
+      "value": "100"
+    },
+    {
+      "quote": "150 \u2212 100 = 50",
+      "value": "50"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "15 \u00d7 $100 = $150",
+      "value": "15"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "15 \u00d7 $100 = $150",
+      "value": "150"
+    },
+    {
+      "quote": "15 \u00d7 $1 = $15",
+      "value": "1"
+    },
+    {
+      "quote": "15 \u00d7 $1 = $15",
+      "value": "15"
+    },
+    {
+      "quote": "10 \u00d7 $10",
+      "value": "10"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "80\u00d7$100",
+      "value": "80"
+    },
+    {
+      "quote": "80\u00d7$100",
+      "value": "100"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "3x + 0.5x = 1500",
+      "value": "3"
+    },
+    {
+      "quote": "3x + 0.5x = 1500",
+      "value": "0.5"
+    },
+    {
+      "quote": "3x + 0.5x = 1500",
+      "value": "1500"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "$30000 \u2212 $150\u00d730 = $150",
+      "value": "30000"
+    },
+    {
+      "quote": "$30000 \u2212 $150\u00d730 = $150",
+      "value": "150"
+    },
+    {
+      "quote": "$30000 \u2212 $150\u00d730 = $150",
+      "value": "30"
+    },
+    {
+      "quote": "1300 = 300n",
+      "value": "1300"
+    },
+    {
+      "quote": "1300 = 300n",
+      "value": "300"
+    },
+    {
+      "quote": "p$3000\u2212$1500p\u2212$1300p = p",
+      "value": "3000"
+    },
+    {
+      "quote": "p$3000\u2212$1500p\u2212$1300p = p",
+      "value": "1500"
+    },
+    {
+      "quote": "p$3000\u2212$1500p\u2212$1300p = p",
+      "value": "1300"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "2x + 5x = 100",
+      "value": "2"
+    },
+    {
+      "quote": "2x + 5x = 100",
+      "value": "5"
+    },
+    {
+      "quote": "2x + 5x = 100",
+      "value": "100"
+    },
+    {
+      "quote": "80 \u2212 10x = 0",
+      "value": "80"
+    },
+    {
+      "quote": "80 \u2212 10x = 0",
+      "value": "10"
+    },
+    {
+      "quote": "80 \u2212 10x = 0",
+      "value": "0"
+    },
+    {
+      "quote": "80.00.80.00.",
+      "value": "80"
+    },
+    {
+      "quote": "100 \u2212 20x = 80",
+      "value": "100"
+    },
+    {
+      "quote": "100 \u2212 20x = 80",
+      "value": "20"
+    },
+    {
+      "quote": "100 \u2212 20x = 80",
+      "value": "80"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, arithmetic results, and operands from the provided descriptions, ensuring exact quote matches and correct numeric values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"130\",\"value\":130},{\"quote\":\"100\",\"value\":100},{\"quote\":\"3\",\"value\":3},{\"quote\":\"150\",\"value\":150},{\"quote\":\"10\",\"value\":10},{\"quote\":\"130 \u2212 10\u00d73 = 50\",\"value\":130},{\"quote\":\"10\",\"value\":10},{\"quote\":\"3\",\"value\":3},{\"quote\":\"30\",\"value\":30},{\"quote\":\"130 \u2212 10\u00d73 = 50\",\"value\":50},{\"quote\":\"100 \u2212 30 = 70\",\"value\":100},{\"quote\":\"100 \u2212 30 = 70\",\"value\":30},{\"quote\":\"100 \u2212 30 = 70\",\"value\":70},{\"quote\":\"150 \u2212 100 = 50\",\"value\":150},{\"quote\":\"150 \u2212 100 = 50\",\"value\":100},{\"quote\":\"150 \u2212 100 = 50\",\"value\":50},{\"quote\":\"15\",\"value\":15},{\"quote\":\"15 \u00d7 $100 = $150\",\"value\":15},{\"quote\":\"100\",\"value\":100},{\"quote\":\"15 \u00d7 $100 = $150\",\"value\":150},{\"quote\":\"15 \u00d7 $1 = $15\",\"value\":1},{\"quote\":\"15 \u00d7 $1 = $15\",\"value\":15},{\"quote\":\"10 \u00d7 $10\",\"value\":10},{\"quote\":\"150\",\"value\":150},{\"quote\":\"40\",\"value\":40},{\"quote\":\"80\u00d7$100\",\"value\":80},{\"quote\":\"80\u00d7$100\",\"value\":100},{\"quote\":\"400\",\"value\":400},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"3x + 0.5x = 1500\",\"value\":3},{\"quote\":\"3x + 0.5x = 1500\",\"value\":0.5},{\"quote\":\"3x + 0.5x = 1500\",\"value\":1500},{\"quote\":\"4\",\"value\":4},{\"quote\":\"50\",\"value\":50},{\"quote\":\"300\",\"value\":300},{\"quote\":\"$30000 \u2212 $150\u00d730 = $150\",\"value\":30000},{\"quote\":\"$30000 \u2212 $150\u00d730 = $150\",\"value\":150},{\"quote\":\"$30000 \u2212 $150\u00d730 = $150\",\"value\":30},{\"quote\":\"1300 = 300n\",\"value\":1300},{\"quote\":\"1300 = 300n\",\"value\":300},{\"quote\":\"p$3000\u2212$1500p\u2212$1300p = p\",\"value\":3000},{\"quote\":\"p$3000\u2212$1500p\u2212$1300p = p\",\"value\":1500},{\"quote\":\"p$3000\u2212$1500p\u2212$1300p = p\",\"value\":1300},{\"quote\":\"80\",\"value\":80},{\"quote\":\"2x + 5x = 100\",\"value\":2},{\"quote\":\"2x + 5x = 100\",\"value\":5},{\"quote\":\"2x + 5x = 100\",\"value\":100},{\"quote\":\"80 \u2212 10x = 0\",\"value\":80},{\"quote\":\"80 \u2212 10x = 0\",\"value\":10},{\"quote\":\"80 \u2212 10x = 0\",\"value\":0},{\"quote\":\"80.00.80.00.\",\"value\":80},{\"quote\":\"100 \u2212 20x = 80\",\"value\":100},{\"quote\":\"100 \u2212 20x = 80\",\"value\":20},{\"quote\":\"100 \u2212 20x = 80\",\"value\":80},{\"quote\":\"16\",\"value\":16}],\"justification\":\"Extracted all explicit numeric literals, arithmetic results, and operands from the provided descriptions, ensuring exact quote matches and correct numeric values.\"}",
+  "prompt_sha256": "0c865122a115ad7f0feb6edcf183e2e0b9f39cf4743af46b64ba7eae8bc37731"
+}

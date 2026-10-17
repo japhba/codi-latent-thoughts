@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5696",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: calculating remaining people after 75% discount, requiring 30 \u00d7 0.25 = 7.5, so the answer must be 7.5.\n\nThe solution follows a structured step-by-step pattern: original count (70) \u00d7 75% = 52.5, then remaining after 25% off = 7.5, so the next token must be the calculated remainder.\n\nFinal token \"expected to be\" is a prompt for the numerical answer, specifically the remaining count after 30% off of 70 \u00d7 0.25, which is 7.5 (or \"7.5 people\").",
+    "Mathematical problem-solving context: calculating remaining ticket sales after 75% sold, requiring 600 \u00d7 0.25 = 150 tickets left.\n\nThe solution is mid-calculation, having established original 600 tickets, 75% sold, so the remaining count must be 150 (600 \u00d7 0.25).\n\nFinal token \"had\" introduces the reduced ticket count after 75% remaining: \"60 tickets remaining\" or \"150 tickets\" must follow immediately, completing the arithmetic expression \"600 \u00d7 (1-75%) = 150.\"",
+    "Mathematical problem-solving walkthrough: step-by-step calculation in progress, showing 75% remaining after 600 votes, now computing 25% of 450.\n\nThe solution is mid-calculation: total remaining votes = 150 (25% of 600), so next tokens must state this intermediate result before continuing to calculate 25% of 150 remaining votes.\n\nFinal token \"15\" is the beginning of \"150\" (the remaining votes after 75% removal), immediately requiring \"0\" to complete the number, then continuing with calculation of 25% of 150.",
+    "Step-by-step math word problem solution in progress, following a structured worked example format with arithmetic operations being narrated sequentially.\n\nThe solution is mid-calculation: initial count (300 tickets) minus 60 sold = 150 remaining tickets, now requiring 20% of 150 to be distributed to the next step (selling remaining tickets).\n\nFinal token \"150\" is the result of the remaining tickets after removing 2/5th sold; the next tokens must continue the solution, likely stating \"tickets left\" or describing the next operation: selling 20% of 150, i.e., \" tickets remaining\" or \" tickets left in the bag.\"",
+    "Mathematical word problem solution in progress: calculating 15% of 160, requiring completion of the final calculation step showing the removed count (15% of 150).\n\nThe pattern established shows: total \u2192 percentage \u2192 remainder, with the final answer being 15 people removed from 150, so \"15 \u00d7 10 = 15\" or similar.\n\nFinal token \"p\" begins the number representing 5% of 150 (15 people removed), immediately constrained to be \"1.5\" completing \"15 \u00d7 5%\" or directly continuing the arithmetic result of 15% of 150.",
+    "Repetition/continuation pattern: Each worked example follows identical structure \u2014 state total, calculate percentage, subtract removed, state final count. The third example is mid-calculation.\n\nNumerical answer expected: The pattern requires completing the final count after removing 15 people from 150, mirroring prior answers (e.g., \"150 - 5 = 45\" or \"100 - 5 = 95\").\n\nFinal token \"15\" is the calculated remainder of the last step (5% of 300 = 15), completing the final answer; the next token must be the final reduced count: \"The remaining people are 285\" or similar closing statement."
+  ],
+  "input_sha256": "f5b5fc20dd3f1551ecc5ed693b2e79891162acddbd0f942bf16663dff3db7740",
+  "values": [
+    {
+      "quote": "75%",
+      "value": "75"
+    },
+    {
+      "quote": "30 \u00d7 0.25 = 7.5",
+      "value": "30"
+    },
+    {
+      "quote": "30 \u00d7 0.25 = 7.5",
+      "value": "0.25"
+    },
+    {
+      "quote": "30 \u00d7 0.25 = 7.5",
+      "value": "7.5"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "52.5",
+      "value": "52.5"
+    },
+    {
+      "quote": "25%",
+      "value": "25"
+    },
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "1-75%",
+      "value": "1"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "2/5th",
+      "value": "0.4"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "95",
+      "value": "95"
+    },
+    {
+      "quote": "285",
+      "value": "285"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, percentages as numerals, fractions as decimals, and operands/results from arithmetic expressions found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"75%\",\"value\":75},{\"quote\":\"30 \\u00D7 0.25 = 7.5\",\"value\":30},{\"quote\":\"30 \\u00D7 0.25 = 7.5\",\"value\":0.25},{\"quote\":\"30 \\u00D7 0.25 = 7.5\",\"value\":7.5},{\"quote\":\"70\",\"value\":70},{\"quote\":\"52.5\",\"value\":52.5},{\"quote\":\"25%\",\"value\":25},{\"quote\":\"30%\",\"value\":30},{\"quote\":\"600\",\"value\":600},{\"quote\":\"150\",\"value\":150},{\"quote\":\"60\",\"value\":60},{\"quote\":\"1-75%\",\"value\":1},{\"quote\":\"450\",\"value\":450},{\"quote\":\"15\",\"value\":15},{\"quote\":\"0\",\"value\":0},{\"quote\":\"300\",\"value\":300},{\"quote\":\"2/5th\",\"value\":0.4},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"15%\",\"value\":15},{\"quote\":\"160\",\"value\":160},{\"quote\":\"10\",\"value\":10},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"5\",\"value\":5},{\"quote\":\"45\",\"value\":45},{\"quote\":\"100\",\"value\":100},{\"quote\":\"95\",\"value\":95},{\"quote\":\"285\",\"value\":285}],\"justification\":\"Extracted all explicit numeric literals, percentages as numerals, fractions as decimals, and operands/results from arithmetic expressions found within the provided descriptions.\"}",
+  "prompt_sha256": "c5725af39d710e4645a7f969f492420e0abffe4bde339408cb681a33322ea022"
+}

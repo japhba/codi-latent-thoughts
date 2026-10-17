@@ -1,0 +1,153 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5404",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: total combined weight calculation (4x + original 5) must be expressed as a formula or number.\n\nThe structured problem demands a numerical answer: 4\u00d7(5 + 1) per box plus original 5\u00d7, so the next token must be a specific integer representing total total weight (5\u00d74 + original 5).\n\nFinal token \"Total weight = (\" opens a mathematical expression requiring a specific integer answer, likely \"20\" or similar integer derived from 4\u00d7(5\u00d74) + 1\u00d7(5) = 20\u00d7$5$ + original 4, completing the arithmetic sum: (4\u00d75 + 1)\u00d7$2$ = 5\u00d7$4$ + $5$ = $20$ total passengers.",
+    "Mathematical word problem requiring arithmetic calculation: total battery consumption for each device (4 hours \u00d7 4 = 16 hours) must be computed for each device.\n\nThe structured solution pattern demands listing all four devices' energy consumption: first device (4 hours \u00d7 4) and then second device (4 hours \u00d7 16), then summing across all four devices.\n\nFinal token \"had\" begins a clause describing the first device's energy consumption (4 hours \u00d7 1 watt), immediately requiring a specific numerical value like \"16 watts\" or \"4 \u00d7 4 = 16 watts\" for the first device's energy, continuing the arithmetic breakdown showing per-device wattage: 4 \u00d7 4 = 16, then 16 \u00d7 5 = 80 for the second device.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough, requiring calculation of total electricity used for each machine.\n\nThe problem established two machines: first machine (4 hours \u00d7 4 watts = 16 watts) and second machine (4 machines \u00d7 40 watts = 160 watts), so the solution must now state these individual values before combining them.\n\nFinal token \"16\" is the first machine's electricity consumption (16 watts for the first machine), immediately requiring the unit \"watts\" and then continuation of the arithmetic sequence: \"watts for the first machine and 160 watts for the second machine\" or similar, then multiplying 4 \u00d7 32 = 128 for the four machines.",
+    "Math word problem requiring arithmetic completion: 4 times 5 = 20, so the next tokens must be \"20\" to complete the second building's total (5\u00d74\u00d710).\n\nThe problem follows a structured arithmetic pattern: original rate (5) \u00d7 4 times = 20, then summing all four buildings (20+10=50), so the next building's calculation is expected.\n\nFinal token \"p\" begins the second building's total energy consumption (4\u00d75\u00d710), immediately requiring \"20\" to complete \"p50\" (i.e., \"20\"), continuing the arithmetic sequence showing 4 times 5\u00d710 = 20 for the four larger buildings.",
+    "Math word problem solution format: each step follows \"X times 4 = Y\" pattern, systematically calculating each quantity (first person's 10, second person's 4 times 10).\n\nThe second person's calculation is mid-completion: 4 boxes \u00d7 5 = 20, so the next tokens must state \"80\" to complete the arithmetic sequence showing total second-person consumption (10 + 20 = 80).\n\nFinal token \"80\" is the computed result of the second arithmetic operation, part of the second person's calculation, immediately requiring the sentence continuation \"so 80\" to complete the combined total (40 + 80 = 200), then the total combined sum of all four books.",
+    "Parallel problem structure: first word problem gave total pages (288) and two sub-problems; second problem mirrors this format, requiring identical calculation steps.\n\nThe second problem's arithmetic pattern demands: each sub-problem's page count must be computed (28 + three times 88 = 304), then combined total pages for both books.\n\nFinal token \"80 points.\" closes the second sub-problem's second book's calculation (320 pages + 480 pages), immediately requiring the combined total sum sentence: \"The total amount of pages sold is 320 + 480 = 800.\""
+  ],
+  "input_sha256": "e2c39c0a45ec9d2381c9051309eccfafa13599c2dce6b90545e23fad7704d1d4",
+  "values": [
+    {
+      "quote": "4x",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "4\u00d7(5 + 1)",
+      "value": "24"
+    },
+    {
+      "quote": "5\u00d74 + original 5",
+      "value": "25"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "4\u00d7(5\u00d74) + 1\u00d7(5)",
+      "value": "85"
+    },
+    {
+      "quote": "(4\u00d75 + 1)\u00d7$2$",
+      "value": "42"
+    },
+    {
+      "quote": "5\u00d7$4$ + $5$",
+      "value": "25"
+    },
+    {
+      "quote": "4 hours \u00d7 4 = 16 hours",
+      "value": "16"
+    },
+    {
+      "quote": "4 hours \u00d7 16",
+      "value": "64"
+    },
+    {
+      "quote": "4 hours \u00d7 1 watt",
+      "value": "4"
+    },
+    {
+      "quote": "16 watts",
+      "value": "16"
+    },
+    {
+      "quote": "4 \u00d7 4 = 16",
+      "value": "16"
+    },
+    {
+      "quote": "16 \u00d7 5 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "4 hours \u00d7 4 watts = 16 watts",
+      "value": "16"
+    },
+    {
+      "quote": "4 machines \u00d7 40 watts = 160 watts",
+      "value": "160"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "4 \u00d7 32 = 128",
+      "value": "128"
+    },
+    {
+      "quote": "4 times 5 = 20",
+      "value": "20"
+    },
+    {
+      "quote": "5\u00d74\u00d710",
+      "value": "200"
+    },
+    {
+      "quote": "20+10=50",
+      "value": "50"
+    },
+    {
+      "quote": "4\u00d75\u00d710",
+      "value": "200"
+    },
+    {
+      "quote": "4 times 5\u00d710 = 20",
+      "value": "20"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4 boxes \u00d7 5 = 20",
+      "value": "20"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "10 + 20 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "40 + 80 = 200",
+      "value": "200"
+    },
+    {
+      "quote": "288",
+      "value": "288"
+    },
+    {
+      "quote": "28 + three times 88 = 304",
+      "value": "304"
+    },
+    {
+      "quote": "320",
+      "value": "320"
+    },
+    {
+      "quote": "480",
+      "value": "480"
+    },
+    {
+      "quote": "320 + 480 = 800",
+      "value": "800"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions with their calculated values from the provided text descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4x\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"4\\u00D7(5 + 1)\",\"value\":24},{\"quote\":\"5\\u00D74 + original 5\",\"value\":25},{\"quote\":\"20\",\"value\":20},{\"quote\":\"4\\u00D7(5\\u00D74) + 1\\u00D7(5)\",\"value\":85},{\"quote\":\"(4\\u00D75 + 1)\\u00D7$2$\",\"value\":42},{\"quote\":\"5\\u00D7$4$ + $5$\",\"value\":25},{\"quote\":\"4 hours \\u00D7 4 = 16 hours\",\"value\":16},{\"quote\":\"4 hours \\u00D7 16\",\"value\":64},{\"quote\":\"4 hours \\u00D7 1 watt\",\"value\":4},{\"quote\":\"16 watts\",\"value\":16},{\"quote\":\"4 \\u00D7 4 = 16\",\"value\":16},{\"quote\":\"16 \\u00D7 5 = 80\",\"value\":80},{\"quote\":\"4 hours \\u00D7 4 watts = 16 watts\",\"value\":16},{\"quote\":\"4 machines \\u00D7 40 watts = 160 watts\",\"value\":160},{\"quote\":\"160\",\"value\":160},{\"quote\":\"4 \\u00D7 32 = 128\",\"value\":128},{\"quote\":\"4 times 5 = 20\",\"value\":20},{\"quote\":\"5\\u00D74\\u00D710\",\"value\":200},{\"quote\":\"20+10=50\",\"value\":50},{\"quote\":\"4\\u00D75\\u00D710\",\"value\":200},{\"quote\":\"4 times 5\\u00D710 = 20\",\"value\":20},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4 boxes \\u00D7 5 = 20\",\"value\":20},{\"quote\":\"80\",\"value\":80},{\"quote\":\"10 + 20 = 80\",\"value\":80},{\"quote\":\"40 + 80 = 200\",\"value\":200},{\"quote\":\"288\",\"value\":288},{\"quote\":\"28 + three times 88 = 304\",\"value\":304},{\"quote\":\"320\",\"value\":320},{\"quote\":\"480\",\"value\":480},{\"quote\":\"320 + 480 = 800\",\"value\":800}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions with their calculated values from the provided text descriptions.\"}",
+  "prompt_sha256": "d8993653c930270ebfdaf6e7a8ca8ecf07b12fced261a00781620f28a16ecad4"
+}

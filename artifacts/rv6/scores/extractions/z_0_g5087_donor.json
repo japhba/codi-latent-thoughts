@@ -1,0 +1,33 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5087",
+  "kind": "donor",
+  "descriptions": [
+    "The text is a structured casino review following a consistent pattern of presenting game statistics and percentages, with each game category receiving a specific RTP figure.\n\nThe review has been systematically listing game categories with their RTP values (slots 96.5%, table games 95.5%, video poker 95.5%, keno 95.5%, scratch cards 95.5%), establishing a strong repetition pattern of \"[game type] has an overall RTP of [percentage].\"\n\nThe final token \"of\" completes the phrase \"has an overall RTP of,\" directly requiring a specific percentage figure (likely \"95.5%\" or similar) to follow immediately, consistent with the established pattern.\n</explanation>",
+    "The text is a detailed casino review listing specific games, features, and amenities in a structured, promotional tone throughout.\n\nThe sentence is mid-enumeration of popular slot titles, following a pattern of listing specific game names (e.g., \"Cleopatra, Zeus, Apollo, The God of War, The Price Is Right, and The Price Is Right 2\").\n\nThe final token \"is\" completes \"The Price Is Right 2,\" the last item in a comma-separated list \u2014 the sentence remains open, requiring a closing clause (likely \"and more\" or a period) to grammatically resolve the dangling \"The Price Is Right 2\" reference.\n</explanation>",
+    "Structured table/list pattern: the text alternates between prose paragraphs and pipe-delimited table rows, establishing a repeating format for flight data.\n\nSemantic expectation: the sentence \"The most popular flight from Boston to Miami is AMX10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Price|` format, repeating consistently throughout.\n\nList continuation momentum: the table has been listing vehicle entries in descending year order (2021\u21922020\u21922019\u21922018\u21922017\u21922016\u21922015\u21922014\u21922013), strongly implying more 2013 entries or earlier years follow.\n\nFinal token \"2013\" is a year value inside a table cell, immediately requiring `||` followed by a car make name (likely \"Ford\" or another brand) to continue the established column pattern.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2018 Toyota Camry row; the next token must be the price value (a dollar amount like \"$12,000|\") to complete the row, then a closing pipe.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, mileage, and price values to complete the row.\n</explanation>"
+  ],
+  "input_sha256": "8e4ccb6f26b2d4aee83fafdb4fe8d66edad8673f999d7194d21b4f34b472e9f8",
+  "values": [
+    {
+      "quote": "slots 96.5%",
+      "value": "96.5"
+    },
+    {
+      "quote": "table games 95.5%",
+      "value": "95.5"
+    },
+    {
+      "quote": "1,000|",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals from the descriptions, including percentages as numerals and numbers with commas, while excluding years, ordinals, and identifiers like flight numbers or game titles.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"slots 96.5%\",\"value\":96.5},{\"quote\":\"table games 95.5%\",\"value\":95.5},{\"quote\":\"1,000|\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals from the descriptions, including percentages as numerals and numbers with commas, while excluding years, ordinals, and identifiers like flight numbers or game titles.\"}",
+  "prompt_sha256": "9e2e92f01407d2a440a520d441343e7cb6facd3a42da2d595f1dbc2d4481ea0f"
+}

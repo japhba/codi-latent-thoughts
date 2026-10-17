@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5340",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring completion: 100 + 50% = 150 units after 50% increase.\n\nThe problem structure demands a specific numerical answer: new second store capacity = 100 + 50% = 150, so the next token must be \"150.\"\n\nFinal token \"become\" is a linking verb completing a calculation sentence, immediately requiring the numerical result \"150\" (100 + 50% of 80 = 120 + 100 = new second store capacity).\n100 + 30% = 130 units after adding 50% markup.\n(100 + 30) \u00d7 1.5 = 150 customers, completing the arithmetic chain.\n800 customers after 50% increase.",
+    "Math word problem walkthrough in progress, requiring continuation of the arithmetic sequence: 100 + 80 = 180 units.\n\nThe solution is mid-explanation, having established the second store's capacity (100 + 80 = new target count), now computing the new target.\n\nFinal token \"has\" introduces the second calculation step, immediately requiring the new number (100 + 80 = 180) before applying the 30% increase formula.\n100 + 80 = original second-day count, then applying 50% to that total.\n\"has\" demands a noun phrase completing the arithmetic expression for the second store's inventory.\n800 units total before adding 50% increment.\n100 + 80 = 180 original second-day quantity, then computing 200 + 2.",
+    "Math word problem walkthrough in progress, requiring continuation of the arithmetic solution with specific numbers.\n\nThe solution is mid-calculation: 100 + 80 = 180 total, then applying 20% increase to second store's count.\n\nFinal token \"18\" is the beginning of \"180\" (the second store's original count), immediately requiring \"0\" to complete the number, then continuing with the new total calculation (180 + 50% more).\n180 cars is the established value of the original second lake's capacity before adding 100 cars.\n180 = 100 + 100 = 200, then computing 50% of that sum.\n\nThe next step is completing the intermediate result before applying the 20% increment formula.\n180 total cars in the second.",
+    "Step-by-step math solution format requires continuing the arithmetic calculation: 180 + 50% = 270 books.\n\nThe worked example is mid-explanation, having stated the original count (180 books) and now computing the new total count.\n\nFinal token \"180\" is the intermediate result of the current count (150\u00d760%), immediately requiring the next step: adding 50% to get the new total before stating the new capacity calculation.\nFinal token \"180\" is the stated original second floor count, immediately expecting the next operation: \"books\" or \"books. Now, adding 50% more.\"\n180 books = 150\u00d760% of 180 books, then applying 20% increment to find new total.\nThen, \"Then, 20% more books added.",
+    "Math word problem solution format: step-by-step algebraic walkthrough with variable substitution, following established pattern.\n\nThe solution is computing 50% of 180 = 90, so the next tokens must state the increase value (90) and then write the new total capacity equation.\n\nFinal token \"p\" begins the numeric result of 50% of 180, immediately requiring \"90\" to complete the multiplication expression \"180 \u00d7 50 = 90 units to be added.\"\n180 \u00d7 50 = 90, representing the increase in the new total capacity.\n800 + 90 = 180 added units, completing the calculation.\nFinal token \"p\" is the start of \"90\" representing the 50% increment of 180, completing the equation 50 \u00d7 .",
+    "Step-by-step worked example pattern: each problem follows identical structure (given \u2192 solution \u2192 answer), so the next tokens continue this format.\n\nThe second problem mirrors the first's setup: \"180 books\" total, \"30% increase\" added \u2014 the solution must state the new total (180 + 90 = 270 books added).\n\nFinal token \"90\" is the computed 30% increment value, immediately requiring the solution statement: \"She added 90 books to the store's capacity.\"\nFinal token \"99\" closes the increment calculation, immediately preceding the answer sentence.\nFinal token \"90\" is the increment value, completing the problem's instruction to add 90 extra books.\n90 = 30% of original 300 daily sales, so the new total is 270 books after adding 90."
+  ],
+  "input_sha256": "31a2f8582d36af0dc2d634fa580d9e1c442da338abf8b52144a1e6065c24de53",
+  "values": [
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "99",
+      "value": "99"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the provided descriptions, including percentages as whole numbers and decimals as provided.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"150\",\"value\":150},{\"quote\":\"80\",\"value\":80},{\"quote\":\"120\",\"value\":120},{\"quote\":\"30\",\"value\":30},{\"quote\":\"130\",\"value\":130},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"800\",\"value\":800},{\"quote\":\"180\",\"value\":180},{\"quote\":\"200\",\"value\":200},{\"quote\":\"2\",\"value\":2},{\"quote\":\"20\",\"value\":20},{\"quote\":\"18\",\"value\":18},{\"quote\":\"0\",\"value\":0},{\"quote\":\"270\",\"value\":270},{\"quote\":\"60\",\"value\":60},{\"quote\":\"90\",\"value\":90},{\"quote\":\"99\",\"value\":99},{\"quote\":\"300\",\"value\":300}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the provided descriptions, including percentages as whole numbers and decimals as provided.\"}",
+  "prompt_sha256": "bd5b4c02df3ec7f0661c3a79598c69745abf048a7e1e76b217618b0f90aa446c"
+}

@@ -1,0 +1,239 @@
+{
+  "criterion": "Bare numeric quotes require a complete numeric occurrence with the same canonical value in a description; a prefix of a different number is insufficient.",
+  "rejected": [
+    {
+      "key": [
+        "h24",
+        400,
+        "g5316",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "100.01",
+          "value": "100.01"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        400,
+        "g5368",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "100.01",
+          "value": "100.01"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        2000,
+        "g5368",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "25",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        2000,
+        "g5428",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "25",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        2000,
+        "g5712",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "10",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        2800,
+        "g5316",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "100.0015999999999999999999",
+          "value": "100.002"
+        },
+        {
+          "quote": "159",
+          "value": "159"
+        },
+        {
+          "quote": "125",
+          "value": "125"
+        },
+        {
+          "quote": "95",
+          "value": "95"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        2800,
+        "g5368",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "100.0015999999999999999999",
+          "value": "100.002"
+        },
+        {
+          "quote": "159",
+          "value": "159"
+        },
+        {
+          "quote": "125",
+          "value": "125"
+        },
+        {
+          "quote": "95",
+          "value": "95"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        3200,
+        "g5316",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "15.25",
+          "value": "15.25"
+        }
+      ]
+    },
+    {
+      "key": [
+        "h24",
+        3200,
+        "g5368",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "15.25",
+          "value": "15.25"
+        }
+      ]
+    },
+    {
+      "key": [
+        "z",
+        400,
+        "g5002",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "19.99",
+          "value": "19.99"
+        }
+      ]
+    },
+    {
+      "key": [
+        "z",
+        400,
+        "g5021",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "19.99",
+          "value": "19.99"
+        }
+      ]
+    },
+    {
+      "key": [
+        "z",
+        400,
+        "g5036",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "1.00",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "key": [
+        "z",
+        400,
+        "g5053",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "1.00",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "key": [
+        "z",
+        400,
+        "g5135",
+        "donor"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "199.99",
+          "value": "199.99"
+        }
+      ]
+    },
+    {
+      "key": [
+        "z",
+        400,
+        "g5148",
+        "own"
+      ],
+      "rejected_partial_numeric_evidence": [
+        {
+          "quote": "199.99",
+          "value": "199.99"
+        }
+      ]
+    }
+  ]
+}

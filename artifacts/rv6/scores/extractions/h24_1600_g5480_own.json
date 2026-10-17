@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5480",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical problem-solving context requires completing a multiplication expression: total weight = 4\u00d7(5+4) or similar arithmetic result.\n\nThe pattern established shows a worked example: 4\u00d7(5+4 times 1) = total weight calculation, so the next token must be a numeric answer representing combined total weight added to original.\n\nFinal token \"are\" opens a predicate requiring a specific numeric answer (likely \"40 grams\" or similar), completing the question \"How much total weight does each of the boxes contain?\"\n4\u00d75\u00d71 + 4\u00d71\u00d75 = total added weight across all four boxes.\n(4\u00d75+1\u00d74)\u00d74 units = total weight calculation for 5 boxes \u00d7 4+1 times the original 10 lbs plus 4 units.\n(5*4 + 1*4) \u00d7 4 units = 2.",
+    "Math word problem solution in progress: calculating total battery consumption for each machine, requiring arithmetic continuation.\n\nThe pattern established requires computing 4 hours \u00d7 4 watts = 16 watts for one machine, then multiplying by 4 machines total.\n\nFinal token \"have\" begins the result clause for the first machine's calculation, immediately requiring a numerical quantity like \"4 \u00d7 4 = 16 watts of energy used\" or similar phrasing describing the individual machine's energy consumption over 4 hours.\n4 hours \u00d7 1 watt = energy for one person, then comparing across all four machines.\nI have\" introduces the specific energy amount for the person's battery, requiring a number and unit (e.g., \"4 \u00d7 4 units of energy\").\nfor each machine during the 4 hours, the person's battery increases by 4 \u00d7 4 units of distance.\n4 \u00d7 1 unit vertical.",
+    "Math word problem solution format: step-by-step arithmetic reasoning requires computing each machine's energy usage (16 watts \u00d7 4 hours = 64).\n\nThe solution is mid-calculation, having established the first machine's consumption (4 \u00d7 4 = 16), now requiring the second machine's calculation to follow.\n\nFinal token \"16\" is the result of the first machine's energy usage, immediately requiring \"watts\" or \"of electricity\" to complete the sentence, then continuing to state combined total consumption for both machines.\n\"16\" begins the arithmetic result for one machine's daily use, requiring \"watts of electricity\" or similar phrasing before addressing twice the second machine's larger total.\nShe uses 4 hours \u00d7 4 = 16 units for herself, and the combined total for both machines is 3 times 16 = 48.",
+    "Math word problem solution in progress: arithmetic requires completing the multiplication of 4 times 5, i.e., \"20\" for the second person's energy.\n\nThe pattern established shows calculating each side's energy: 4 \u00d7 5 = 20 for the second person, then summing both sides.\n\nFinal token \"p\" begins the numeric result of the second side's calculation (4 times 5), immediately requiring \"20 watts\" to complete the arithmetic expression showing the energy consumption for five consecutive days.\nFinal token \"p\" is mid-number, requiring \"20 watts\" to complete the second side's larger value (5 \u00d7 4 \u00d7 1).\n4 times 5 \u00d7 1 = 20 for the larger side, representing the energy increase for five lights.\n40 total for five lights \u00d7 4 times 1, completing the arithmetic sequence showing cumulative totals.",
+    "Math word problem solution pattern: each step shows arithmetic operation, then states result, then multiplies by total.\n\nThe second calculation mirrors the first: 4 total bullets \u00d7 4 times = 16, so the solution must state \"16 calories\" as the combined total for the second person.\n\nFinal token \"80\" is the computed result of 4\u00d720 for the second person's calories, immediately requiring \". So the total heat generated is 80\" or a concluding statement completing the solution.\nFinal token \"20\" ends the arithmetic expression showing the second person's heat contribution, requiring \". So the total heat generated is 80\" to complete the parallel structure.\nFinal token \"80\" is mid-sentence, completing the multiplication result for four times 20 minutes \u00d7 1 calorie per minute.\nFinal token \"80\" is the combined heat for both.",
+    "Structured math word problem pattern: each problem follows \"total \u2192 individual \u2192 sum\" format, with two problems already solved.\n\nThe second problem's solution is mid-completion: individual values (24, 16) have been stated, and the combined total calculation is expected next, mirroring the first problem's structure.\n\nFinal token \"80 grams.\" ends the combined total for the second problem's larger container; the next tokens must state the combined heat energy calculation, e.g., \"The total heat energy released was 80 + 24 = 104 watts.\"\nFinal token \"80 points.\" closes the larger container's heat energy statement, immediately requiring the combined total heat energy for both containers.\nFinal token \"problems.\" ends the third problem's individual results, so the next line states the combined total heat energy spent for both containers.\nFinal token \"problems.\" concludes the individual."
+  ],
+  "input_sha256": "e5411a33fca5f53adaac676e20efb2a616a87649e3e03f551246e1b21ba5b149",
+  "values": [
+    {
+      "quote": "4\u00d7(5+4)",
+      "value": "36"
+    },
+    {
+      "quote": "4\u00d75\u00d71",
+      "value": "20"
+    },
+    {
+      "quote": "4\u00d71\u00d75",
+      "value": "20"
+    },
+    {
+      "quote": "(4\u00d75+1\u00d74)\u00d74",
+      "value": "96"
+    },
+    {
+      "quote": "5 boxes",
+      "value": "5"
+    },
+    {
+      "quote": "10 lbs",
+      "value": "10"
+    },
+    {
+      "quote": "(5*4 + 1*4) \u00d7 4",
+      "value": "96"
+    },
+    {
+      "quote": "2.",
+      "value": "2"
+    },
+    {
+      "quote": "4 hours",
+      "value": "4"
+    },
+    {
+      "quote": "16 watts",
+      "value": "16"
+    },
+    {
+      "quote": "4 machines",
+      "value": "4"
+    },
+    {
+      "quote": "1 watt",
+      "value": "1"
+    },
+    {
+      "quote": "16 units",
+      "value": "16"
+    },
+    {
+      "quote": "3 times 16",
+      "value": "48"
+    },
+    {
+      "quote": "48.",
+      "value": "48"
+    },
+    {
+      "quote": "20 watts",
+      "value": "20"
+    },
+    {
+      "quote": "40 total",
+      "value": "40"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "80 grams.",
+      "value": "80"
+    },
+    {
+      "quote": "104",
+      "value": "104"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the final value of expressions where necessary.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\\u00D7(5+4)\",\"value\":36},{\"quote\":\"4\\u00D75\\u00D71\",\"value\":20},{\"quote\":\"4\\u00D71\\u00D75\",\"value\":20},{\"quote\":\"(4\\u00D75+1\\u00D74)\\u00D74\",\"value\":96},{\"quote\":\"5 boxes\",\"value\":5},{\"quote\":\"10 lbs\",\"value\":10},{\"quote\":\"(5*4 + 1*4) \\u00D7 4\",\"value\":96},{\"quote\":\"2.\",\"value\":2},{\"quote\":\"4 hours\",\"value\":4},{\"quote\":\"16 watts\",\"value\":16},{\"quote\":\"4 machines\",\"value\":4},{\"quote\":\"1 watt\",\"value\":1},{\"quote\":\"16 units\",\"value\":16},{\"quote\":\"3 times 16\",\"value\":48},{\"quote\":\"48.\",\"value\":48},{\"quote\":\"20 watts\",\"value\":20},{\"quote\":\"40 total\",\"value\":40},{\"quote\":\"80\",\"value\":80},{\"quote\":\"24\",\"value\":24},{\"quote\":\"80 grams.\",\"value\":80},{\"quote\":\"104\",\"value\":104}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the final value of expressions where necessary.\"}",
+  "prompt_sha256": "0fc8210d870c140869bc9063c87145decb998114adf429edbf04f771a13714cb"
+}

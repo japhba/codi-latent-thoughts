@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5087",
+  "kind": "donor",
+  "descriptions": [
+    "Financial data pattern: article lists specific statistics with dollar amounts, percentages, and dates, establishing a template of precise financial figures.\n\nContinuation of financial data series: the text has been listing revenue figures with specific dollar amounts and time periods; the incomplete sentence promises a complete financial value.\n\nFinal token \"and is estimated to be $1,200,000 and is estimated to be\" \u2014 mid-sentence repetition of a parallel structure, immediately requiring a second monetary figure or financial metric to complete the clause.\n\"and is estimated to be\" demands a specific dollar amount or price figure next.\n\"and is estimated to be\" is an incomplete predicate requiring a numerical value (likely a dollar amount or percentage) to follow immediately.\n\"and is estimated to be\" is a dangling predicate awaiting its complement, strongly constraining the next token to a currency symbol or number.",
+    "Structured film metadata format: each field follows \"Label: Value\" pattern, establishing strong continuation expectations.\n\nProduct description momentum: the synopsis is mid-sentence describing cast/crew details, with \"13 is\" beginning a list of production credits or cast names.\n\nFinal token \"is\" opens a relative clause or predicate describing the film's production details \u2014 likely continuing with a number or descriptor (e.g., \"13 is a...\" or \"1 is a...\"), constrained to factual film description language.\n\"12 is 1 is\" suggests a typo mid-phrase, but the product description genre expects a product code, cast count, or production detail to follow immediately.\n\"16 is 13 is\" appears mid-sentence, likely a garbled fragment; the model expects a number or descriptor completing a film attribute phrase.\n\"1 is a\" ends the sequence, requiring a noun.",
+    "Structured e-commerce product listing pattern: each category header is followed by a list of filterable attributes (e.g., \"Brand,\" \"Color,\" \"Size,\" \"Material\").\n\nThe page is mid-list, having shown \"Brand\" and \"Color\" sections; \"Size\" and \"Material\" sections are expected next to complete the standard filter menu.\n\nFinal token \"Available\" closes a product availability notice, immediately followed by a new section header or product listing, likely continuing the catalog navigation pattern.\n\"Available\" ends a sentence fragment listing filter categories, suggesting the next tokens continue with another category label or product grid.\n\"Available\" is the final token, part of a navigation/filter menu structure, immediately expecting either a period/punctuation or the next filter category label.\n\"Available\" closes a repeated phrase \"filter by category\" \u2014 the next token likely begins a new section header or product listing.",
+    "Structured table/list pattern: pipe-delimited rows with part numbers, descriptions, and prices, established by the two prior rows.\n\nStructured table continuation: the \"Part # | Description | Price\" format has been consistent, and the \"Month Year\" header row signals a new section listing dates.\n\nFinal token \"||\" closes a table cell in the \"Month Year\" header row, immediately expecting the next cell's content \u2014 likely a pipe-delimited cell with a date range or value.\n\"||\" is a table cell delimiter, so the next token must be another pipe character or the next column's content.\n\"|\" closes the current row, so the next token is almost certainly a newline followed by another row beginning with \"|\" and a new date or category.\n\"|\" is the final token, closing the second row of the \"Month Year\" section, immediately constraining what follows to be a new.",
+    "Structured table pattern: pipe-delimited rows with date, pipe, and dollar amount are repeating consistently, establishing strong continuation expectation.\n\nStructured data sequence: the \"Last 10 Prices Added\" section lists dates in descending order; the current row for \"May 20, 2019\" is incomplete, requiring a closing pipe and amount.\n\nFinal token \"$100|\" is mid-row in the table, immediately requiring the closing pipe `|` to complete the cell, then likely another row with an earlier date and a new dollar amount.\n\"||$100|\" is the final incomplete cell, demanding `|` next to close the row.\n\"||$100|\" is the final token sequence, part of the pipe-delimited table cell, requiring `|` to close the cell and row.",
+    "Structured table pattern: pipe-delimited rows with date, time, and amount fields repeating consistently throughout.\n\nFinancial data table continuation: the sequence lists dates with pipe-delimited values; the final row \"||\" is incomplete, requiring a closing pipe and dollar amount.\n\nThe final token \"||\" is a table cell delimiter mid-row, immediately requiring a closing pipe \"|\" followed by a currency amount like \"$0.00\" or similar, then a closing pipe to complete the row.\n\"||\" is the last token, part of the last data row's amount field, requiring a numeric value and closing pipe.\n\"||$0.00|\" is the expected completion, mirroring the previous row's structure exactly.\n\"||\" is the final token, opening the amount cell of the last row, constrained to be followed by a dollar figure and closing pipe."
+  ],
+  "input_sha256": "a3ba5ca301877eabb1a5e8b0f3e05f503804137467a14148ae64df4eb7c1c779",
+  "values": [
+    {
+      "quote": "$1,200,000",
+      "value": "1200000"
+    },
+    {
+      "quote": "13 is",
+      "value": "13"
+    },
+    {
+      "quote": "12 is 1 is",
+      "value": "12"
+    },
+    {
+      "quote": "12 is 1 is",
+      "value": "1"
+    },
+    {
+      "quote": "16 is 13 is",
+      "value": "16"
+    },
+    {
+      "quote": "16 is 13 is",
+      "value": "13"
+    },
+    {
+      "quote": "1 is a",
+      "value": "1"
+    },
+    {
+      "quote": "$100|",
+      "value": "100"
+    },
+    {
+      "quote": "May 20, 2019",
+      "value": "20"
+    },
+    {
+      "quote": "May 20, 2019",
+      "value": "2019"
+    },
+    {
+      "quote": "$0.00",
+      "value": "0"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency amounts from the provided descriptions, including values within garbled fragments and table examples.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,200,000\",\"value\":1200000},{\"quote\":\"13 is\",\"value\":13},{\"quote\":\"12 is 1 is\",\"value\":12},{\"quote\":\"12 is 1 is\",\"value\":1},{\"quote\":\"16 is 13 is\",\"value\":16},{\"quote\":\"16 is 13 is\",\"value\":13},{\"quote\":\"1 is a\",\"value\":1},{\"quote\":\"$100|\",\"value\":100},{\"quote\":\"May 20, 2019\",\"value\":20},{\"quote\":\"May 20, 2019\",\"value\":2019},{\"quote\":\"$0.00\",\"value\":0}],\"justification\":\"Extracted explicit numeric literals and currency amounts from the provided descriptions, including values within garbled fragments and table examples.\"}",
+  "prompt_sha256": "5d77343e49566b4491b711d946a682741f735ddfe43a0d306b3c20666a7ffcaf"
+}

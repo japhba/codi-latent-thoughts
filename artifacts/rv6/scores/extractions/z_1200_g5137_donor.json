@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5137",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text lists country rankings with specific numbers (e.g., \"1st in the world,\" \"2nd in the world\"), establishing a continuation pattern of country-year data.\n\nDomain-specific formatting: sports performance data with precise figures (e.g., \"1999,\" \"2019,\" \"2020\") signals more country-year entries or numerical continuation.\n\nFinal token \"is\" opens a predicate completing the sentence about the US's 2020 ranking, immediately requiring a dollar figure or numeric value (e.g., \"is 5\" or a specific number like \"2,000\"), likely followed by a unit or comparative phrase continuing the country ranking context.",
+    "Character description pattern: the text is mid-sentence describing a film's characters, having just introduced \"a couple of them\" with traits listed, now elaborating on each.\n\nList/continuation momentum: the review is building a profile of the film's qualities, with personal opinions and character analysis alternating, suggesting more character traits or film details follow.\n\nFinal token \"500,\" ends a clause about the wife's age, part of a comparative observation (\"500 was 500, 55 was 500\"), implying the next tokens will complete the thought about the 55-year-old's character \u2014 likely a contrasting or complementary emotional quality \u2014 \"500 was 53\" or a continuation of the friendship/relationship analysis.",
+    "Instructional recipe format with numbered steps and tips, establishing a pattern of practical cooking advice with specific ingredient guidance.\n\nThe text is mid-sentence completing a list of tips about ingredient preparation; the pattern of \"if X, do Y\" conditional advice continues, with the final sentence about heat reduction still needing completion.\n\nFinal token \"3\" is part of an interrupted numeric value (\"3,000 seconds\" or similar), mid-clause after \"30 seconds,\" likely continuing with \"00 seconds\" or a food item like \"300 tips\" or completing \"3.00 seconds\" \u2014 most likely continuing the heat-reduction tip with \"30 seconds\" or transitioning to a new instruction about the 30 seconds of dish time, then likely a recipe tip or ingredient list.",
+    "Instructional listicle format with numbered tips and recipe steps, establishing a pattern of practical cooking advice with specific details.\n\nThe text is mid-sentence describing romantic pairing suggestions, with \"The recipe is a great way to...\" implying continuation of the food pairing guidance with specific dish recommendations and tips.\n\nFinal token \"200\" is part of an interrupted numerical value (\"600 to 200\"), likely completing a time duration or distance measurement (e.g., \"600 to 100 minutes\"), immediately followed by \"minutes\" or similar unit completing the \"1,000 tips\" advice, then continuing with \"400 to 150 minutes\" \u2014 the sentence about romantic pairing is still open and expects completion of the thought about the 200-minute time range.",
+    "Statistical/argumentative pattern: article presents study findings with expert quotes, now transitioning to policy implications and recommendations, expecting continuation of expert analysis.\n\nLegal/safety advisory context: the piece argues against dangerous behaviors, citing research; the next content likely elaborates on specific safety recommendations or study conclusions supporting this claim.\n\nFinal token \"200\" ends a specific citation (\"200 per cent\"), part of a sentence explaining the study's scope; \"200\" is mid-clause, likely continuing with \"to 200,000\" or completing a statistic about expert recommendations; \"200\" here refers to the 200,000 readership; the sentence requires completion of the advisory point about the 200,045 readership statistic.",
+    "Structured legal/educational guide format with numbered sections and bullet points, establishing a pattern of explaining rules with practical examples and guidance.\n\nThe text is building toward completing a detailed analytical point about visual aids, having introduced the rule and its practical application; the next section likely continues with elaboration on interpretation or transitions to a new numbered point.\n\nFinal token \"2,000:5\" is a citation reference mid-sentence, completing \"5,009 guidelines... 29 guidelines... 2,003 guidelines... 7.5 million guidelines,\" and the sentence about the 30th rule is now complete; \"The standard is 40 people\" signals a concluding evaluative statement; the next tokens will likely continue with guidance on applying this rule or introduce a new analytical point."
+  ],
+  "input_sha256": "225c3a8ec714124b271905ddb405b0831c2588d87343710fc8ae43ebe4093bb4",
+  "values": [
+    {
+      "quote": "500 was 500",
+      "value": "500"
+    },
+    {
+      "quote": "55 was 500",
+      "value": "55"
+    },
+    {
+      "quote": "500 was 53",
+      "value": "53"
+    },
+    {
+      "quote": "30 seconds",
+      "value": "30"
+    },
+    {
+      "quote": "600 to 200",
+      "value": "600"
+    },
+    {
+      "quote": "600 to 200",
+      "value": "200"
+    },
+    {
+      "quote": "600 to 100 minutes",
+      "value": "100"
+    },
+    {
+      "quote": "1,000 tips",
+      "value": "1000"
+    },
+    {
+      "quote": "400 to 150 minutes",
+      "value": "400"
+    },
+    {
+      "quote": "400 to 150 minutes",
+      "value": "150"
+    },
+    {
+      "quote": "200 per cent",
+      "value": "200"
+    },
+    {
+      "quote": "200,000 readership",
+      "value": "200000"
+    },
+    {
+      "quote": "200,045 readership",
+      "value": "200045"
+    },
+    {
+      "quote": "5,009 guidelines",
+      "value": "5009"
+    },
+    {
+      "quote": "29 guidelines",
+      "value": "29"
+    },
+    {
+      "quote": "2,003 guidelines",
+      "value": "2003"
+    },
+    {
+      "quote": "7.5 million guidelines",
+      "value": "7500000"
+    },
+    {
+      "quote": "The standard is 40 people",
+      "value": "40"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out values from the provided descriptions, including large numbers with commas and decimal values like 7.5 million.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"500 was 500\",\"value\":500},{\"quote\":\"55 was 500\",\"value\":55},{\"quote\":\"500 was 53\",\"value\":53},{\"quote\":\"30 seconds\",\"value\":30},{\"quote\":\"600 to 200\",\"value\":600},{\"quote\":\"600 to 200\",\"value\":200},{\"quote\":\"600 to 100 minutes\",\"value\":100},{\"quote\":\"1,000 tips\",\"value\":1000},{\"quote\":\"400 to 150 minutes\",\"value\":400},{\"quote\":\"400 to 150 minutes\",\"value\":150},{\"quote\":\"200 per cent\",\"value\":200},{\"quote\":\"200,000 readership\",\"value\":200000},{\"quote\":\"200,045 readership\",\"value\":200045},{\"quote\":\"5,009 guidelines\",\"value\":5009},{\"quote\":\"29 guidelines\",\"value\":29},{\"quote\":\"2,003 guidelines\",\"value\":2003},{\"quote\":\"7.5 million guidelines\",\"value\":7500000},{\"quote\":\"The standard is 40 people\",\"value\":40}],\"justification\":\"Extracted explicit numeric literals and spelled-out values from the provided descriptions, including large numbers with commas and decimal values like 7.5 million.\"}",
+  "prompt_sha256": "758ba65ca87bff343d1002b23e6ab7598aa02bb2d5dec383c75cc9f4f76074e1"
+}

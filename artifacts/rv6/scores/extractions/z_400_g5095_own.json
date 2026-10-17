@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5095",
+  "kind": "own",
+  "descriptions": [
+    "Statistical report pattern: each metric follows a structured format with specific numerical values, percentages, and comparisons (e.g., \"1.59 million,\" \"1.5 million,\" \"1.4 million\").\n\nContinuation of the \"per game\" rate data: the sentence is mid-clause reporting a specific numerical value for the rate, requiring a dollar figure to complete the statistic.\n\nFinal token \"is\" opens a predicate completing \"the rate is,\" immediately requiring a specific numerical value (likely a decimal number in millions, e.g., \"0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Product review/spec sheet format with structured sections (specs, synopsis, technical details) signals continuation of technical film description prose.\n\nThe review is mid-sentence describing technical quality and performance, building toward a comparative or evaluative conclusion about the film's visual/technical merits.\n\nFinal token \"is\" opens a predicate clause mid-sentence (\"The best quality of the film is\"), requiring a noun phrase or adjective completing the quality assessment, likely referencing audio, visual, or technical performance.",
+    "Product listing page pattern: structured e-commerce content with specs, pricing, and product details following a consistent template throughout.\n\nContinuation of \"price and availability\" section: the page is mid-sentence describing product specifications, with pricing details and availability information expected to follow.\n\nFinal token \"available\" ends an incomplete clause (\"highest quality and best price available\"), immediately requiring a prepositional phrase or relative clause completing the thought, likely \"for\" or \"in\" followed by a location or product qualifier.",
+    "Structured table/list pattern: page follows consistent price data format with pipe-delimited rows and labeled sections, continuing with price data entries.\n\nE-commerce product listing page for auto parts, presenting structured price information for a specific part (2004 Toyota Tacoma), with sections covering shipping, pricing, and availability.\n\nFinal token \"Available\" ends a price range header (\"Price Available\"), immediately expecting a price range value or table row listing specific price figures, likely in the format \"X to Y\" or a dollar amount.",
+    "Structured data table pattern: each row follows \"Month Year: $X.XX\" format, establishing strong repetition constraints for price data.\n\nFinancial data page template: structured sections (price, chart, table, historical data) suggest remaining fields like \"Total\" or \"Average\" price data follows.\n\nFinal token \"and/or $1,080.00\" is mid-sentence within a \"Price and/or Value\" data field, immediately requiring completion of the dollar amount or a closing phrase like \"in the year\" or \"in 2023.\"",
+    "Structured data table pattern: each row follows \"Month Year Price\" format, establishing strong repetition constraints for price data.\n\nFinancial data page template: structured sections (price, chart, table, historical data) suggest remaining fields like dollar amounts, year ranges, and dollar values are expected to complete the data block.\n\nFinal token \"and/or $1,000,000\" is mid-sentence within a dollar range table entry, immediately requiring a closing value or continuation of the price range (e.g., \"and $1,000,000\" or a specific dollar figure completing the \"Price\" column)."
+  ],
+  "input_sha256": "3f36afca67d28763e26a3adb05307bab1508f9f971d61808e8cc2ba2551f6e48",
+  "values": [
+    {
+      "quote": "1.59 million",
+      "value": "1.59"
+    },
+    {
+      "quote": "1.5 million",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.4 million",
+      "value": "1.4"
+    },
+    {
+      "quote": "$1,080.00",
+      "value": "1080"
+    },
+    {
+      "quote": "$1,000,000",
+      "value": "1000000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, converting them to standard JSON numbers while preserving the exact quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.59 million\",\"value\":1.59},{\"quote\":\"1.5 million\",\"value\":1.5},{\"quote\":\"1.4 million\",\"value\":1.4},{\"quote\":\"$1,080.00\",\"value\":1080.0},{\"quote\":\"$1,000,000\",\"value\":1000000.0}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, converting them to standard JSON numbers while preserving the exact quote.\"}",
+  "prompt_sha256": "d505f023ba0e5921c3434369ed8e6f1570d13939b5dec377b70df1d312c8b152"
+}

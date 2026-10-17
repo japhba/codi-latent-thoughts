@@ -1,0 +1,153 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5300",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: the arithmetic operation 150 + 8% tax = $165.\n\nThe word problem structure demands a specific dollar amount as the solution, likely formatted as a decimal number (e.g., \"$165\").\n\nThe final token \"is $\" opens a price expression requiring an immediate numerical value, specifically \"$165\" or \"$165.00\" to complete the arithmetic result of the stated calculation.\n150 + 8% = $165 total cost.\nThe next token must be a number representing the computed price.\n15 + 8% = 165.00, so the immediate next tokens must be \"165\" or \"165.00.\"\n$15 + 7.5% tax = $165.00, completing the sentence.",
+    "Math word problem format: step-by-step word problem with structured solution, expecting arithmetic calculation.\n\nThe word problem requires computing tax amount: $850 \u00d7 8% = $8.50, so the next tokens must state this multiplication result.\n\nFinal token \"has\" begins the arithmetic expression completing the tax calculation sentence, immediately requiring the numeric result \"8% of $850 = $8.50\" or \"8% tax = $8.50 added.\"\n\"has\" introduces the tax amount, expecting \"$8.50\" or \"8% of $15\" to follow.\n$15 \u00d7 8% = $1.20 tax, so the next tokens must state this specific dollar figure before continuing to state the total price.\n$8.50 added to $150.\n$8% of $15 = $1..",
+    "Word problem arithmetic solution format: step-by-step arithmetic operation requiring a numerical answer, following \"8% tax\" calculation.\n\nThe word problem establishes a specific arithmetic operation: $88 \u00d7 8% = $7.20, so the next tokens must state this result explicitly.\n\nThe final token \"$12\" is the numerical result of the tax calculation (8% of $88), immediately expecting continuation such as \".00\" or \"to complete the tax amount, so the total cost is $90.\"\nFinal token \"$12\" is the partial arithmetic result, immediately requiring \".00\" or \"to complete the tax fee.\"\n$8 \u00d7 8 = $12, so the next tokens must state this as the added tax amount before stating the total price paid.\n$85 + 8% = $90.\n$12 is the tax amount, so.",
+    "Word problem format with arithmetic operation: a structured math problem requiring a numerical answer, expecting \"$8.40\" or similar.\n\nThe word problem establishes a tax calculation: 8% of $8.40 = $0.84, so the next tokens must state the tax amount and likely \"total cost\" or \"price paid.\"\n\nFinal token \"$p\" is the variable placeholder completing \"8 p\", immediately requiring the decimal continuation \"0.84\" or \"the tax\" to complete the arithmetic statement about the 8% fee.\nFinal token \"8 p\" is mid-sentence, completing the tax amount phrase; next tokens must be \"the tax\" or \"added\" to finish the sentence.\n$12 x 8% = $0.84, so the immediate next text must state this result: \"The tax is $8.40.\"\n$1.",
+    "Math word problem format: a word problem is followed by a worked solution, expecting a numerical answer with arithmetic steps.\n\nThe arithmetic operation requires completing the calculation: $10 + 10% tax = $11, so the solution must state the result.\n\nThe final token \"s. 9 points. 4 s.\" ends the tax amount statement (\"$4.80 added\"), immediately expecting the arithmetic conclusion: \"The cost of the shirt is $11.\"\nFinal token \"s. 84 points.\" is the solution's first step, expecting the final computed answer on a new line.\nFinal token \"14 points.\" completes the 10% fee calculation, immediately requiring the arithmetic result: \"$11.\"\n$4. s. 8% of $14 = $0.84 added to $100 = $109 total price.",
+    "Word problem format signals a worked solution is being provided, expecting a numerical answer after the calculation.\n\nThe arithmetic operation requires a specific dollar amount: $40 + 10% tax = $44, so the next tokens must state the result.\n\nThe final token \"problem.\" closes the prompt phrase \"The tax is 10% of the original price.\" \u2014 immediately expecting the solution answer, likely \"The cost of the shirt is $44\" or similar direct numerical response.\nFinal token \"problem.\" ends the instruction prompt, immediately constraining the next tokens to be the solution: \"$44\" or \"The total paid is $44.\"\n$4. The 4% fee calculation is complete; the next line must state the arithmetic result: $40 + 10% = $44.\n$8 fee added to $40 = $49 total."
+  ],
+  "input_sha256": "dc9b01a9e6ea182e0813c1590d3b381155dbeab8c44618ed07c74eb4ef0c1061",
+  "values": [
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "8%",
+      "value": "8"
+    },
+    {
+      "quote": "$165",
+      "value": "165"
+    },
+    {
+      "quote": "$165.00",
+      "value": "165"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "7.5%",
+      "value": "7.5"
+    },
+    {
+      "quote": "$850",
+      "value": "850"
+    },
+    {
+      "quote": "$8.50",
+      "value": "8.5"
+    },
+    {
+      "quote": "$1.20",
+      "value": "1.2"
+    },
+    {
+      "quote": "$88",
+      "value": "88"
+    },
+    {
+      "quote": "$7.20",
+      "value": "7.2"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$90",
+      "value": "90"
+    },
+    {
+      "quote": "$8",
+      "value": "8"
+    },
+    {
+      "quote": "$85",
+      "value": "85"
+    },
+    {
+      "quote": "$8.40",
+      "value": "8.4"
+    },
+    {
+      "quote": "$0.84",
+      "value": "0.84"
+    },
+    {
+      "quote": "$1.",
+      "value": "1"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "$11",
+      "value": "11"
+    },
+    {
+      "quote": "9 points",
+      "value": "9"
+    },
+    {
+      "quote": "4 s.",
+      "value": "4"
+    },
+    {
+      "quote": "$4.80",
+      "value": "4.8"
+    },
+    {
+      "quote": "84 points",
+      "value": "84"
+    },
+    {
+      "quote": "14 points",
+      "value": "14"
+    },
+    {
+      "quote": "$14",
+      "value": "14"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    },
+    {
+      "quote": "$109",
+      "value": "109"
+    },
+    {
+      "quote": "$40",
+      "value": "40"
+    },
+    {
+      "quote": "$44",
+      "value": "44"
+    },
+    {
+      "quote": "4%",
+      "value": "4"
+    },
+    {
+      "quote": "$49",
+      "value": "49"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values expressed as literals, percentages, or currency amounts from the provided descriptions, ensuring each value is mapped to its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"150\",\"value\":150},{\"quote\":\"8%\",\"value\":8},{\"quote\":\"$165\",\"value\":165},{\"quote\":\"$165.00\",\"value\":165},{\"quote\":\"15\",\"value\":15},{\"quote\":\"7.5%\",\"value\":7.5},{\"quote\":\"$850\",\"value\":850},{\"quote\":\"$8.50\",\"value\":8.5},{\"quote\":\"$1.20\",\"value\":1.2},{\"quote\":\"$88\",\"value\":88},{\"quote\":\"$7.20\",\"value\":7.2},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$90\",\"value\":90},{\"quote\":\"$8\",\"value\":8},{\"quote\":\"$85\",\"value\":85},{\"quote\":\"$8.40\",\"value\":8.4},{\"quote\":\"$0.84\",\"value\":0.84},{\"quote\":\"$1.\",\"value\":1},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"$11\",\"value\":11},{\"quote\":\"9 points\",\"value\":9},{\"quote\":\"4 s.\",\"value\":4},{\"quote\":\"$4.80\",\"value\":4.8},{\"quote\":\"84 points\",\"value\":84},{\"quote\":\"14 points\",\"value\":14},{\"quote\":\"$14\",\"value\":14},{\"quote\":\"$100\",\"value\":100},{\"quote\":\"$109\",\"value\":109},{\"quote\":\"$40\",\"value\":40},{\"quote\":\"$44\",\"value\":44},{\"quote\":\"4%\",\"value\":4},{\"quote\":\"$49\",\"value\":49}],\"justification\":\"Extracted all distinct numeric values expressed as literals, percentages, or currency amounts from the provided descriptions, ensuring each value is mapped to its shortest sufficient quote.\"}",
+  "prompt_sha256": "d5368251093ed3d7e2e7ac4c45a7855eda093c02f7b33ae4a277b084a53079c5"
+}

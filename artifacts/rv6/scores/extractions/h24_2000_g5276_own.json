@@ -1,0 +1,133 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5276",
+  "kind": "own",
+  "descriptions": [
+    "Step-by-step math word problem format requires completing the final answer: \"24 people remain.\"\n\nThe structured solution pattern (total \u2212 fraction \u2212 fraction = remaining) demands the remaining count: (240 \u2212 2/3 + 1/5 + 2/5).\n\nFinal token \"The remaining people are:\" is a prompt/question header in the solution walkthrough, immediately requiring the numerical answer \"24 people\" to complete the solution.\n(240 \u2212 (2/3+2/5)\u00d760 = 24).\n(240 \u2212 2/5 + 1/3 + 2/3) = 24 people outside remaining categories.\n\n(240 \u2212 (2/5+2/3)\u00d7(240/3)) = (240 \u2212 2/3+1/5)\u00d7(30.",
+    "Step-by-step math word problem solution in progress, requiring calculation of fractions of 240 students (1/5 + 2/5).\n\nThe solution structure demands listing each category: 1/5 of 240 = 48, then 2/5 of remaining students, then subtracting totals.\n\nFinal token \"has\" introduces the first calculated category (240 students), immediately requiring the numerical result \"48 people\" for the fraction 1/5 of 240, followed by remaining categories.\n240 + 240 = 480 students, then subtraction of these figures.\n240 students are broken into parts: 1/5th (240) + 2/5th (remaining), requiring specific numerical values next.\n240/5 = 54 teachers, 240/9.",
+    "Step-by-step math word problem solution format requires continuing the arithmetic calculation: 240 students total, 1/5th are teachers = 48, then 48 + remaining fraction.\n\nThe word problem structure demands a complete solution walkthrough showing each step: 1/5 of 240 = 48 people, then 48 + 3 times 240 = 840 people.\n\nFinal token \"4\" is the start of the number \"48\" (1/5 of 240), immediately requiring \"8\" to complete the count of teacher seats, followed by the remaining 840 students calculation.\n48 people are teachers, 3/5 of 240 are students remaining.\n240 \u00d7 1/5 = 48, then 48 + 4 times 240 =.",
+    "Math word problem solution in progress: step-by-step arithmetic breakdown of 360 students, requiring completion of the calculation.\n\nThe solution is listing student categories: 1/5th are musicians (48), so remaining students (312) must be accounted for across science and other subjects.\n\nFinal token \"48\" is the count of musicians (1/6th of 360), immediately requiring the next category: \"and 312 students are in other activities\" or similar phrasing continuing the arithmetic breakdown.\n48 is the first computed value in a list, requiring the remaining count (312 + 1/5th) to follow.\n48 students in music section, then 1/5th in science, leaving 288 remaining students to be named.\n48 is mid-sentence listing excluded students, requiring \"and 28.",
+    "Math word problem solution in progress: arithmetic calculation requires completing 240 \u00d7 2/3 = 160 people assigned to second category.\n\nStep-by-step solution format established: each step shows calculation, so the next tokens must show the computed result (160) and remaining people.\n\nFinal token \"p\" begins the number \"240\" completing the second arithmetic step (240 \u00d7 2/3), immediately requiring \"240\" to follow, then the remaining people calculation.\n240 + 240 + remaining people = 160.\n(240 \u00d7 2/3) = 160, completing the second category count before subtracting to find the remaining 24 people.\n240\u00d7(2/3) = 160 people assigned to \"other categories,\" leaving 24 people un.",
+    "Word problem solution format: structured math problem walkthrough with part (a) and part (b) following a consistent pattern of calculation and explanation.\n\nSecond problem mirrors first: total (160) minus two groups (40+2/3=160), so remaining people count is expected next.\n\nThe final token \"16\" is the beginning of \"160\" completing the second calculation (2/3 \u00d7 80), immediately requiring \"0 people\" to finish the arithmetic step before stating the remaining people.\nFinal token \"16\" is mid-number, part of \"160 people assigned to other activities,\" completing the second problem's large group count before identifying the remaining 20 people.\n160 + 40 = 200 minus 80 + 20 = remaining count.\n\nFinal token \"16\" is the completed \"1."
+  ],
+  "input_sha256": "5df45aab68c07118a9407cab4ac3754b44278f54b75c5946c112fcf45dc8b9c0",
+  "values": [
+    {
+      "quote": "24 people remain.",
+      "value": "24"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "1/5",
+      "value": "0.2"
+    },
+    {
+      "quote": "2/5",
+      "value": "0.4"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "1/3",
+      "value": "0.333333"
+    },
+    {
+      "quote": "240/3",
+      "value": "80"
+    },
+    {
+      "quote": "30.",
+      "value": "30"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "480",
+      "value": "480"
+    },
+    {
+      "quote": "240/5",
+      "value": "48"
+    },
+    {
+      "quote": "54",
+      "value": "54"
+    },
+    {
+      "quote": "240/9.",
+      "value": "26.6667"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "840",
+      "value": "840"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "312",
+      "value": "312"
+    },
+    {
+      "quote": "1/6th",
+      "value": "0.166667"
+    },
+    {
+      "quote": "288",
+      "value": "288"
+    },
+    {
+      "quote": "28.",
+      "value": "28"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"24 people remain.\",\"value\":24},{\"quote\":\"240\",\"value\":240},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"1/5\",\"value\":0.2},{\"quote\":\"2/5\",\"value\":0.4},{\"quote\":\"60\",\"value\":60},{\"quote\":\"1/3\",\"value\":0.3333333333333333},{\"quote\":\"240/3\",\"value\":80},{\"quote\":\"30.\",\"value\":30},{\"quote\":\"48\",\"value\":48},{\"quote\":\"480\",\"value\":480},{\"quote\":\"240/5\",\"value\":48},{\"quote\":\"54\",\"value\":54},{\"quote\":\"240/9.\",\"value\":26.666666666666668},{\"quote\":\"3\",\"value\":3},{\"quote\":\"840\",\"value\":840},{\"quote\":\"4\",\"value\":4},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"360\",\"value\":360},{\"quote\":\"312\",\"value\":312},{\"quote\":\"1/6th\",\"value\":0.16666666666666666},{\"quote\":\"288\",\"value\":288},{\"quote\":\"28.\",\"value\":28},{\"quote\":\"160\",\"value\":160},{\"quote\":\"40\",\"value\":40},{\"quote\":\"20\",\"value\":20},{\"quote\":\"200\",\"value\":200},{\"quote\":\"1.\",\"value\":1}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "945107ab969a4d1d5366dfcbff04e4dd8fb719d6387a492f2303993e300e5fe2"
+}

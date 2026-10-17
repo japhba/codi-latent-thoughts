@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 2800,
+  "uid": "g5060",
+  "kind": "own",
+  "descriptions": [
+    "Statistical comparison pattern: article consistently pairs current figures with prior-year equivalents (e.g., \"$1.5 billion in 2019... down from $1.6 billion in 2018\"), establishing a template for price data.\n\nFinancial data continuation: the sentence is mid-clause reporting a specific price figure for the 2019 Ford F-150, requiring a dollar amount to complete the comparison.\n\nFinal token \"is\" opens a predicate requiring a price value (likely \"around $1.5 billion\" or similar), completing the established \"is [amount]\" pattern used repeatedly throughout.\n\"and is is\" suggests a formatting artifact; the next token must be a numeric price figure continuing the F-150's price comparison.\n\"and is is\" appears to be a copy-paste artifact, but the product listing format demands a numeric dollar amount immediately.",
+    "Product review format with structured sections (title, description, bullet points) signals continuation of feature highlights or a concluding summary statement.\n\nThe review is mid-sentence describing the product's specifications and selling points, with a pattern of listing technical features and benefits (\"waterproof,\" \"anti-fog,\" \"lightweight\").\n\nFinal token \"500\" ends an incomplete sentence (\"is 500\"), likely part of a price or measurement claim (e.g., \"500g\"), requiring a unit or continuation of the numeric specification.\n\"5 is 500\" suggests a product listing error; the next tokens likely continue with a product name, price, or spec detail.\n\"16 is 60\" or similar garbled text suggests copy-paste artifact; the review's closing recommendation or rating is imminent.\n\"25.6\" price/spec pattern suggests performance specs or availability follow.",
+    "Structured e-commerce product page pattern: alternating sections (description, reviews, related items) with consistent formatting throughout.\n\nThe page is mid-way through a \"Related Best Sellers\" section, listing product names with truncated descriptions ending in \"...\" suggesting more items follow.\n\nFinal token \"available\" ends a truncated product listing (\"The BestSeller is available\"), part of a navigation/filter UI element, immediately expecting continuation of the part number filter UI or additional product listings.\n\"available\" likely closes a filter prompt, with more navigation elements or price/availability details following.\n\"available\" is the final token of a truncated e-commerce filter UI string, suggesting the next tokens continue the part number search interface or list additional filter options.\n\"available\" closes a table cell in a price/availability filter context, with more product entries or navigation elements expected next.\n\"available\" is price table cell text, and \"available\" closes a.",
+    "Structured e-commerce product listing pattern: repeated sections (description, reviews, shipping, policies) suggest continuation of the shipping/returns table or pricing details.\n\nStructured table/list momentum: the page has consistently used formatted product attributes (shipping, returns, policies), and the final section \"Shipping & Returns\" is mid-list, implying more bullet-pointed options follow.\n\nFinal token \"available\" ends an incomplete sentence (\"available\"), part of a price/availability clause, immediately requiring a price figure, currency symbol, or continuation like \"available at\" or \"available in your region.\"\n\"available\" is a dangling adjective mid-sentence, demanding a completing noun phrase or table row.\n\"available\" is part of a product price display pattern, likely followed by a part number, price, or part name.\n\"available\" closes a product listing line, with immediate expectation of a price, table cell, or new product entry.",
+    "Structured e-commerce product listing pattern: each section follows \"Title \u2192 description \u2192 details\" format, cycling through filter categories.\n\nThe page is systematically listing filter categories (Brand, Type, Material, Size, Color) with consistent formatting: category name, colon, then product listings with names and descriptions.\n\nFinal token \"available\" ends a truncated sentence (\"available\") within the \"Size\" filter section, immediately expecting price or availability details, then likely more size options or the next filter category header.\n\"available\" is mid-sentence, likely part of a table or price display, with more size options or a new filter category row expected next.\n\"available\" closes a table cell pattern seen earlier (\"In stock available\"), suggesting continuation of pricing/product table rows.\n\"available\" is part of an incomplete product listing table row, with price or part number details immediately expected.\n\"available\" is the final token, part.",
+    "Structured e-commerce product listing pattern: repeated sections (description, reviews, shipping, related products) follow predictable retail page conventions.\n\nStructured table/list continuation: the \"Related Best Sellers\" section has begun with a product listing table, and the \"Related Best Sellers\" section mirrors the price filter UI pattern, suggesting more product entries or filter options follow.\n\nFinal token \"available\" ends an incomplete sentence (\"available\"), part of a price filter UI element, immediately expecting a closing punctuation or continuation like \"available\" completing the availability status phrase.\n\"available\" is likely a typo for \"available\" \u2014 the table/list pattern suggests price or availability details follow.\n\"available\" closes a product listing row, with more product entries or table rows expected next.\n\"available\" is the final token, part of a price-status descriptor in a parts table, immediately constraining next tokens to punctuation or a new product row.\n\"available."
+  ],
+  "input_sha256": "6118c92db0d7de9489985440e7cb909ed140d9fb91c5e8d5028d07932f3b791c",
+  "values": [
+    {
+      "quote": "$1.5 billion",
+      "value": "1500000000"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "$1.6 billion",
+      "value": "1600000000"
+    },
+    {
+      "quote": "2018",
+      "value": "2018"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "25.6",
+      "value": "25.6"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, including large currency values expressed with 'billion' and decimal figures, while excluding dates and years as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\n  \"values\": [\n    {\n      \"quote\": \"$1.5 billion\",\n      \"value\": 1500000000\n    },\n    {\n      \"quote\": \"2019\",\n      \"value\": 2019\n    },\n    {\n      \"quote\": \"$1.6 billion\",\n      \"value\": 1600000000\n    },\n    {\n      \"quote\": \"2018\",\n      \"value\": 2018\n    },\n    {\n      \"quote\": \"500\",\n      \"value\": 500\n    },\n    {\n      \"quote\": \"5\",\n      \"value\": 5\n    },\n    {\n      \"quote\": \"16\",\n      \"value\": 16\n    },\n    {\n      \"quote\": \"60\",\n      \"value\": 60\n    },\n    {\n      \"quote\": \"25.6\",\n      \"value\": 25.6\n    }\n  ],\n  \"justification\": \"Extracted explicit numeric literals, including large currency values expressed with 'billion' and decimal figures, while excluding dates and years as per instructions.\"\n}",
+  "prompt_sha256": "ab66be989efcfa99ff0db272589fe2afc15869b5357462bac1017730b720e2d4"
+}

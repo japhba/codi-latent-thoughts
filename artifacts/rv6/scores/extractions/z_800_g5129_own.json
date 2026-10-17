@@ -1,0 +1,129 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5129",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: the text is presenting hazard ratios with confidence intervals, e.g., \"HR = 1.99, 95% CI: 1.08\u20133.34,\" establishing a template for reporting remaining findings.\n\nDomain-specific reporting structure: academic/technical article presenting quantitative hazard analysis, with each finding followed by specific numeric values and statistical comparisons.\n\nFinal token \"is\" opens a predicate completing \"The hazard of being struck by a train is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.5\" or similar) consistent with the established reporting pattern.",
+    "Character analysis narrative momentum: the text is recounting the film's emotional arc, moving from family dynamics to personal relationships, building toward a specific scene or reflection.\n\nFilm review genre conventions: plot summary with character descriptions, now transitioning to thematic commentary on emotional depth and family, expecting continuation of the romantic/emotional thread.\n\nFinal token \"700 was 667\" is mid-sentence (\"700 was 276 was 600\"), a garbled repetition suggesting the next tokens complete the interrupted clause about the mother's emotional state or the scene's emotional impact.",
+    "Practical cooking/food blog tone with spiritual reflection, blending personal anecdote with biblical references and recipe framing throughout.\n\nNarrative momentum: the author is mid-example, illustrating emotional/physical reactions to the movie scene, building toward a concrete lesson or transition into practical cooking advice or a specific memory.\n\nFinal token \"6\" is part of \"6\" beginning a list or continuation of \"6 minutes\" or \"60 minutes\" \u2014 mid-sentence after \"6,\" likely completing \"60 minutes\" or \"6 minutes of joy,\" continuing the sensory/emotional food metaphor with a specific memory or feeling.",
+    "Narrative momentum of a book review/summary: the text is recounting the author's personal reflection on the film, blending spiritual and personal themes, with examples of specific memories and experiences.\n\nPractical advice pattern: the text has shifted into a listicle-style discussion of spiritual practices and movie examples, now transitioning to a specific film example (The Revenant) with its emotional impact on the author.\n\nFinal token \"60\" is mid-sentence (\"120 minutes...60\"), part of \"150 minutes...60 minutes\" or \"60,000 miles\" \u2014 a specific memory statistic completing \"100 minutes of the movie, 60 minutes of the Revenant\" or similar, requiring continuation of the time/quantity phrase.",
+    "Narrative momentum: article is providing expert advice and statistics, now transitioning to a specific anecdote about the phone call incident and its legal implications.\n\nPractical/informational pattern: article alternates between general statistics and real-world examples; the phone call anecdote serves as a concrete illustration of the \"90% of incidents\" statistic, suggesting a concluding recommendation or call-to-action follows.\n\nFinal token \"800\" is mid-sentence (\"400,000... 500,000... 200,000... 800\"), completing a statistic about phone call frequency; the next token continues this numeric pattern or closes the sentence with a unit like \"per day\" or \"per hour.\"",
+    "Legal Q&A format with structured analysis: question posed, answer begun, now elaborating on liability and procedural implications of the case.\n\nPractical legal reasoning momentum: the text is walking through the specific scenario (100 people, 10-minute warning, 100 feet) to explain the legal basis, with the answer expected to continue with consequences or actionable advice.\n\nFinal token \"10,000\" ends \"10,400 per minute, about 80 per second, about 10,000 feet per minute\" \u2014 \"40 per second\" is the truncated figure, and the sentence is mid-clause, so the next tokens complete the legal threshold (e.g., \"per minute, making it safe to walk\")."
+  ],
+  "input_sha256": "1d92c61e54cf01c5935f233fcf42723880ca23e0c8b5e303a3155860a17ef2bb",
+  "values": [
+    {
+      "quote": "HR = 1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08",
+      "value": "1.08"
+    },
+    {
+      "quote": "3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "667",
+      "value": "667"
+    },
+    {
+      "quote": "276",
+      "value": "276"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "60 minutes",
+      "value": "60"
+    },
+    {
+      "quote": "120 minutes",
+      "value": "120"
+    },
+    {
+      "quote": "150 minutes",
+      "value": "150"
+    },
+    {
+      "quote": "60,000",
+      "value": "60000"
+    },
+    {
+      "quote": "100 minutes",
+      "value": "100"
+    },
+    {
+      "quote": "90%",
+      "value": "90"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    },
+    {
+      "quote": "500,000",
+      "value": "500000"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "800",
+      "value": "800"
+    },
+    {
+      "quote": "100 people",
+      "value": "100"
+    },
+    {
+      "quote": "10-minute",
+      "value": "10"
+    },
+    {
+      "quote": "100 feet",
+      "value": "100"
+    },
+    {
+      "quote": "10,400",
+      "value": "10400"
+    },
+    {
+      "quote": "80 per second",
+      "value": "80"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "40 per second",
+      "value": "40"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and quantities from the provided descriptions, ensuring each value is mapped to its specific textual context.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR = 1.99\",\"value\":1.99},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.08\",\"value\":1.08},{\"quote\":\"3.34\",\"value\":3.34},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"700\",\"value\":700},{\"quote\":\"667\",\"value\":667},{\"quote\":\"276\",\"value\":276},{\"quote\":\"600\",\"value\":600},{\"quote\":\"6\",\"value\":6},{\"quote\":\"60 minutes\",\"value\":60},{\"quote\":\"120 minutes\",\"value\":120},{\"quote\":\"150 minutes\",\"value\":150},{\"quote\":\"60,000\",\"value\":60000},{\"quote\":\"100 minutes\",\"value\":100},{\"quote\":\"90%\",\"value\":90},{\"quote\":\"400,000\",\"value\":400000},{\"quote\":\"500,000\",\"value\":500000},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"800\",\"value\":800},{\"quote\":\"100 people\",\"value\":100},{\"quote\":\"10-minute\",\"value\":10},{\"quote\":\"100 feet\",\"value\":100},{\"quote\":\"10,400\",\"value\":10400},{\"quote\":\"80 per second\",\"value\":80},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"40 per second\",\"value\":40}],\"justification\":\"Extracted explicit numeric literals, percentages, and quantities from the provided descriptions, ensuring each value is mapped to its specific textual context.\"}",
+  "prompt_sha256": "ee3634551e0aefb1c488950701d1c65eb53dde63ac3aa285d05f7881b7d907e8"
+}

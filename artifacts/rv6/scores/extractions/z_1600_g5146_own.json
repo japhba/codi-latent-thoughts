@@ -1,0 +1,101 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5146",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with specific percentages, establishing a template of city name, country, and numeric value.\n\nContinuation of the data series: after listing cities with percentages, the text now transitions to a formal citation/source block with precise numerical claims, requiring consistent factual, data-driven language.\n\nFinal token \"is\" opens a predicate clause mid-sentence within the hazard rating description, immediately requiring a numerical value or comparative descriptor (e.g., \"2 is\" or a specific figure) to complete the hazard rating statement.\n\"2 is\" likely precedes a numerical value or descriptive qualifier completing the sentence.\n\"2 is\" ends the sequence mid-predicate, strongly constraining the next token to a number, adjective, or continuation of the comparative statistical description.\n\"2 is\" is the final token, part of a sentence about the city's seismic activity, expecting a.",
+    "Character description pattern: film review lists cast members with actor names, roles, and brief descriptions, establishing a consistent format.\n\nContinuation of the list structure: each character entry follows \"[Name] as [role] [description]\" pattern; the list is mid-entry for \"The Governor,\" requiring completion of his scene description.\n\nFinal token \"25,\" is mid-sentence within a numerical/statistical description of the Governor's filmography or political context, immediately requiring continuation of the number or clause (e.g., \"25, 250\" or a year).\n\"25,\" likely continues a numerical sequence or scene description referencing the film's historical/political setting.\n\"213 was 25,\" \u2014 mid-sentence numerical fragment suggesting a specific number or time reference completing a factual observation about the film's themes or runtime.\n\n\"237\" is 35 seconds.",
+    "Q&A format pattern: each question is followed by a detailed answer, establishing strong structural continuation expectations.\n\nThe text is mid-answer to the Bible study question, providing specific biblical statistics and historical context about the book's content.\n\nFinal token \"5\" is part of an incomplete numerical value (\"about 0.5\"), likely continuing a decimal figure (e.g., \"0.5\" or \"5.0\") describing the author's age or a statistic, immediately requiring digits or a unit to complete the number.\n\"0.5\" or \"5.0\" percentage or decimal follows, likely continuing the medical/health statistics context.\n\"about 0.5\" appears mid-sentence, suggesting a fractional quantity (500 pages, 0.5 years) is being listed, with more numerical or biographical details expected next.\n\"0.5\" is truncated mid-number.",
+    "Statistical/numerical pattern: article presents a series of statistics and facts about the book, building toward completing the medical/epidemiological data point.\n\nContinuation of the book's explanatory content: the text is mid-sentence explaining the author's research, so specific historical or scientific claims about the statistic are expected next.\n\nFinal token \"400,000\" is a repeated numerical figure (appearing twice), part of an incomplete sentence stating the population estimate; the next tokens must complete the statistic or pivot to contextualize it (e.g., \"100,000 times\" or a percentage).\n\"about 3,000 per 100,000 people\" or similar quantified medical framing is immediately expected to complete the \"about 400,000 100,000\" figure.",
+    "Structured Bible study format with numbered questions and bullet points signals continuation of theological analysis, likely expanding on the legal/clinical distinction between \"law\" and \"religion.\"\n\nThe answer section has begun, providing scholarly commentary on the biblical text; the pattern established requires completing the legal analysis with specific scriptural references and doctrinal distinctions.\n\nThe final token \"1.400\" is a decimal number mid-sentence, part of a statistical/legal citation (\"about 1.400 per 300\"), immediately requiring continuation of the legal standard or case reference number.\n\"400 per 3.5 about 1.400\" is incomplete \u2014 \"300\" or similar numerical completion is expected, followed by the section heading \"343.400\" or further case analysis.\n\"533.0 people\" / \"2.9 per.\"",
+    "Statistical list pattern: BLS data presented as bullet points with percentages, establishing a structured enumeration of BLS survey statistics.\n\nContinuation of BLS survey methodology explanation: the text is mid-sentence explaining how BLS uses BLS data, with a specific percentage breakdown already given, suggesting more percentage-based categories or a concluding interpretive statement follows.\n\nFinal token \"69%\" closes a specific percentage reference within a structured list of BLS survey questions; the next tokens likely continue with additional percentage findings or a new question category, possibly starting with \"69%\" or a new sentence.\n\"69% of respondents\" ends the sequence, likely followed by a period or further statistical breakdown of the 69% figure or transition to the next BLS question category.\n\"69% of respondents\" is the final token sequence, completing a specific statistical finding that may prompt a follow-up sentence."
+  ],
+  "input_sha256": "75bdf7b46a1973b546d33d6a69c32097fbc5bac6a19dda714d7401bf1d53be65",
+  "values": [
+    {
+      "quote": "2 is",
+      "value": "2"
+    },
+    {
+      "quote": "25,",
+      "value": "25"
+    },
+    {
+      "quote": "213 was 25,",
+      "value": "213"
+    },
+    {
+      "quote": "\"237\" is 35 seconds.",
+      "value": "237"
+    },
+    {
+      "quote": "\"237\" is 35 seconds.",
+      "value": "35"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "5.0",
+      "value": "5"
+    },
+    {
+      "quote": "500 pages",
+      "value": "500"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    },
+    {
+      "quote": "3,000 per 100,000 people",
+      "value": "3000"
+    },
+    {
+      "quote": "3,000 per 100,000 people",
+      "value": "100000"
+    },
+    {
+      "quote": "1.400",
+      "value": "1.4"
+    },
+    {
+      "quote": "about 1.400 per 300",
+      "value": "300"
+    },
+    {
+      "quote": "400 per 3.5",
+      "value": "400"
+    },
+    {
+      "quote": "400 per 3.5",
+      "value": "3.5"
+    },
+    {
+      "quote": "343.400",
+      "value": "343.4"
+    },
+    {
+      "quote": "533.0 people",
+      "value": "533"
+    },
+    {
+      "quote": "2.9 per.",
+      "value": "2.9"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and decimal values from the provided descriptions, ensuring each value is mapped to its specific source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2 is\",\"value\":2},{\"quote\":\"25,\",\"value\":25},{\"quote\":\"213 was 25,\",\"value\":213},{\"quote\":\"\\\"237\\\" is 35 seconds.\",\"value\":237},{\"quote\":\"\\\"237\\\" is 35 seconds.\",\"value\":35},{\"quote\":\"5\",\"value\":5},{\"quote\":\"0.5\",\"value\":0.5},{\"quote\":\"5.0\",\"value\":5},{\"quote\":\"500 pages\",\"value\":500},{\"quote\":\"400,000\",\"value\":400000},{\"quote\":\"3,000 per 100,000 people\",\"value\":3000},{\"quote\":\"3,000 per 100,000 people\",\"value\":100000},{\"quote\":\"1.400\",\"value\":1.4},{\"quote\":\"about 1.400 per 300\",\"value\":300},{\"quote\":\"400 per 3.5\",\"value\":400},{\"quote\":\"400 per 3.5\",\"value\":3.5},{\"quote\":\"343.400\",\"value\":343.4},{\"quote\":\"533.0 people\",\"value\":533},{\"quote\":\"2.9 per.\",\"value\":2.9},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and decimal values from the provided descriptions, ensuring each value is mapped to its specific source quote.\"}",
+  "prompt_sha256": "d831b1749932eb9e9739e280a4f6f9ba45ef99083b24a9df21fa4a0427362388"
+}

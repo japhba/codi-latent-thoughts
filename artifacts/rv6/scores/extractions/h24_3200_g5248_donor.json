@@ -1,0 +1,81 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5248",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: 3 times 6\u00d74 = 72\u00d76, so the answer must be 72\u00d73\u00d74.\n\nThe structured arithmetic problem demands a specific numerical answer, likely \"720\" or \"720 \u00d7 6 = 4320.\"\n\nFinal token \"is\" opens a predicate requiring a numerical value (the total sum of the three multiplication factors), immediately constraining the next token to be a number.\n3\u00d76\u00d740 = 720, so \"720\" or \"720 \u00d7 3 + 6 + 1 = third multiple.\"\n3\u00d74\u00d760\u00d73 = 720\u00d73 = 2160 times the second number.\n6\u00d740 + 3\u00d76\u00d73 + 1\u00d73 = cumulative sum.",
+    "Math problem-solving context: arithmetic operation requires completing the multiplication \"3 times 60 = 180,\" so the next token is the numerical result.\n\nWord problem walkthrough pattern: step-by-step arithmetic progression expects the second number (60) to be stated next, then the third multiplication step.\n\nFinal token \"has\" introduces the result of the second arithmetic operation, immediately requiring the numerical answer \"180\" (3 \u00d7 60 = 180).\nThe next token must be the integer \"180,\" completing the arithmetic statement before continuing with the next problem step.\n3 \u00d7 60 = 180, so \"180 students in the second school.\"\nThe second school's count is the immediate next expected value.\n60 students.\nThen triple the third number.\nThen triple 3\u00d760.\n60 \u00d7 3 = 18.",
+    "Math word problem walkthrough requiring arithmetic continuation: 3 times 60 = 180, so the next step is completing the multiplication.\n\n Word problem solution format: step-by-step arithmetic reasoning with arithmetic operations, expecting the next calculation (3\u00d760=180).\n\nThe final token \"18\" is the beginning of the second arithmetic expression \"3\u00d760,\" immediately requiring \"0\" to complete \"180,\" followed by explanation of the second operation (adding three times 180).\nThe next tokens must complete \"180\" and then continue the solution chain.\nThe second room's count is 180 flowers, so the next step involves multiplying that number by 3.\n3 \u00d7 60 = 180, so the second room's count before adding three times.\n60 is the first room's count, establishing the arithmetic chain.",
+    "Math word problem walkthrough requiring arithmetic continuation: 60 \u00d7 3 = 180, then 3 times 180 = 540.\n\nStep-by-step solution format established: arithmetic operations shown sequentially, expecting next multiplication step.\n\nThe final token \"180\" is the second arithmetic operation in a word problem walkthrough, immediately requiring the next step \u2014 likely \"books in the second room\" or a multiplication expression like \"3 \u00d7 60 = 180 apples in the second room.\"\nFinal token \"180\" is a numerical result mid-calculation, part of the second room count, expecting \"apples\" or a continuation like \"and 3 \u00d7 180 = 540 books in the third room.\"\n180 = 3 times 60, so the next tokens complete this arithmetic chain.\nThere are 1.",
+    "Math word problem solving context requires arithmetic continuation: 4 times 180 = 720.\n\nThe pattern \"4 \u00d7 180 = 720\" establishes a multiplication chain, expecting the next step to complete the arithmetic.\n\nThe final token \"p\" begins the third arithmetic operation in the sequence, immediately requiring the numeric result \"720\" to complete the multiplication expression \"4 \u00d7 180 = 720.\"\nThe final digit \"p\" is the start of the number \"720,\" constrained to be followed by \"720\" completing the third category count.\n180 \u00d7 4 = 720 blue balls, so the next tokens must be \"720\" completing the multiplication result.\nThe third number in the sequence.\n18\u00d73\u00d74=720.\nThe next tokens must be the total.",
+    "Math word problem walkthrough pattern: each problem states a number, then asks to calculate it.\n\nThe third problem follows the same arithmetic operation structure \u2014 \"6 \u00d7 12 = 720\" \u2014 expecting the answer \"720.\"\n\nThe final token \"720.\" is the multiplication result of 6\u00d7120, completing the third arithmetic problem; the next token is almost certainly \"720\" or a line break followed by the word problem's answer prompt.\nFinal token \"720\" is the large number completing \"6 times 120,\" immediately expecting the digit \"720\" to complete the final answer.\nFinal token \"720.\" ends the third multiplication expression \"6\u00d7120\u00d772=720,\" completing the third problem's answer.\n720 is the total count of the third number.\n720."
+  ],
+  "input_sha256": "881dd950a06a2faf6f12cab59df59f73424783f5e720c6489c27925a00db227e",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "720",
+      "value": "720"
+    },
+    {
+      "quote": "4320",
+      "value": "4320"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "2160",
+      "value": "2160"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "540",
+      "value": "540"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"6\",\"value\":6},{\"quote\":\"4\",\"value\":4},{\"quote\":\"72\",\"value\":72},{\"quote\":\"720\",\"value\":720},{\"quote\":\"4320\",\"value\":4320},{\"quote\":\"40\",\"value\":40},{\"quote\":\"1\",\"value\":1},{\"quote\":\"60\",\"value\":60},{\"quote\":\"2160\",\"value\":2160},{\"quote\":\"180\",\"value\":180},{\"quote\":\"18\",\"value\":18},{\"quote\":\"540\",\"value\":540},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"12\",\"value\":12}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "5d809cdd382dcebcc9f2c37eccfa83d9c03284d85d9c2935c8b1f3f85f4d29bb"
+}

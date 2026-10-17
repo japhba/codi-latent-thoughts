@@ -1,0 +1,161 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5036",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring arithmetic completion: total weekly sales calculation combining two product lines (original + double).\n\nThe problem structure demands a specific numerical answer: combining two times 250 + original 250 = 500 units, so total weekly sales must be calculated as (25+75) \u00d7 2 = 750.\n\nFinal token \"Total sales will be\" opens a declarative statement requiring an integer answer, constrained by the arithmetic: (25+75)\u00d77 days = 750 total weekly units combining both product lines: (2\u00d775) + original 250 = 750\u00d74 = 7500.\nThe next token must be a number representing the combined weekly sales figure derived from doubling 25 + original.",
+    "Math word problem solution structure: arithmetic setup requires completing the total daily sales calculation (25 + twice 25 = 75).\n\nThe problem explicitly states \"total daily sales = two times 25 + original 25,\" so the next tokens must state \"75\" (25 + twice 25) to establish the equation before solving for total sales.\n\nFinal token \"has\" begins the arithmetic result clause, immediately requiring the total number of items sold: \"250 + half that is 75\" or \"250 + twice 25 = 75\" to confirm the combined total of 250 + half of 250 = 500, then multiplied by $15.",
+    "Math word problem solution in progress: total daily capacity calculation requires combining original 25 + double of original 25 = 75 cars.\n\nThe solution structure demands arithmetic completion: \"original + twice = 25 + twice 25 = 75\" to establish total daily passengers before multiplying by 30 days.\n\nFinal token \"7\" begins the number 75, the combined total of two lots (25 + twice 25), immediately constraining next tokens to complete \"75\" as part of the arithmetic setup showing total daily passengers (75) for the next step: total total = 75 \u00d7 30 days, then annual total = 250 cars.",
+    "Math word problem solution format: structured step-by-step arithmetic progression, establishing total daily customers by combining morning/afternoon counts.\n\nThe problem setup requires completing the arithmetic: \"morning + afternoon = 50 customers\" for each day, then multiplying by 30 days to find total weekly total.\n\nFinal token \"75\" is the computed sum of twice 50 customers (morning + afternoon), completing the combined daily total for each day (75 customers), immediately requiring \"customers\" or \"per day\" to confirm the intermediate step before continuing to total weekly: \"75 customers total per day\" or \"75 customers each day \u00d7 2 = 150 customers total for the week.\"",
+    "Word problem solution format: structured step-by-step arithmetic, following \"First...Then...\" pattern requiring completion of daily/total calculations.\n\nThe arithmetic sequence establishes: Monday + Tuesday = 75 + 50 = 125 patients, so total weekly = 2 \u00d7 75 = 150 patients, then multiplied by 7 days.\n\nFinal token \"p\" is the start of \"puppies\" (or \"per day\"), completing the sentence \"75 patients each day in a day hospital = 75 + twice 50 = 125 patients a day\" \u2014 the next tokens must finish this sentence before continuing to calculate total weekly total for the full week: \"per day\" or \"each day\" leading to \"125 \u00d7 7 = 840.\"",
+    "Word problem pattern: each problem follows \"total daily sales \u2192 per-day breakdown \u2192 total weekly calculation\" structure, establishing strong template for the next problem.\n\nThe second problem mirrors the first's setup: \"7 days a week, 25 + 26 = 51 eggs\" \u2014 the same arithmetic problem now requires the same calculation: 7 \u00d7 256 = 1792 eggs per week.\n\nFinal token \"eggs.\" closes the daily problem statement (\"7 + 256 eggs a day\"), immediately requiring the next sentence to state the weekly total problem: \"The total number of eggs sold in a week is 7 \u00d7 256 = 1792\" followed by a question about total eggs sold across 7 days."
+  ],
+  "input_sha256": "567878601ec35868d1445c160073413bb9803248fdc835686e2e618589603ee2",
+  "values": [
+    {
+      "quote": "two times 250",
+      "value": "500"
+    },
+    {
+      "quote": "original 250",
+      "value": "250"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "(25+75) \u00d7 2 = 750",
+      "value": "200"
+    },
+    {
+      "quote": "(25+75) \u00d7 2 = 750",
+      "value": "750"
+    },
+    {
+      "quote": "(25+75)\u00d77 days = 750",
+      "value": "700"
+    },
+    {
+      "quote": "(25+75)\u00d77 days = 750",
+      "value": "750"
+    },
+    {
+      "quote": "(2\u00d775) + original 250 = 750\u00d74 = 7500",
+      "value": "150"
+    },
+    {
+      "quote": "(2\u00d775) + original 250 = 750\u00d74 = 7500",
+      "value": "400"
+    },
+    {
+      "quote": "(2\u00d775) + original 250 = 750\u00d74 = 7500",
+      "value": "3000"
+    },
+    {
+      "quote": "(2\u00d775) + original 250 = 750\u00d74 = 7500",
+      "value": "7500"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "twice 25 = 75",
+      "value": "50"
+    },
+    {
+      "quote": "twice 25 = 75",
+      "value": "75"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "250 + half that is 75",
+      "value": "125"
+    },
+    {
+      "quote": "250 + half that is 75",
+      "value": "375"
+    },
+    {
+      "quote": "250 + twice 25 = 75",
+      "value": "300"
+    },
+    {
+      "quote": "250 + half of 250 = 500",
+      "value": "125"
+    },
+    {
+      "quote": "250 + half of 250 = 500",
+      "value": "375"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "75 \u00d7 30 days",
+      "value": "2250"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "twice 50",
+      "value": "100"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "75 + 50 = 125",
+      "value": "125"
+    },
+    {
+      "quote": "2 \u00d7 75 = 150",
+      "value": "150"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "125 \u00d7 7 = 840",
+      "value": "875"
+    },
+    {
+      "quote": "125 \u00d7 7 = 840",
+      "value": "840"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "25 + 26 = 51",
+      "value": "51"
+    },
+    {
+      "quote": "256",
+      "value": "256"
+    },
+    {
+      "quote": "7 \u00d7 256 = 1792",
+      "value": "1792"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers (twice, half), and calculated values from arithmetic expressions provided within single descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"two times 250\",\"value\":500},{\"quote\":\"original 250\",\"value\":250},{\"quote\":\"500\",\"value\":500},{\"quote\":\"(25+75) \\u00D7 2 = 750\",\"value\":200},{\"quote\":\"(25+75) \\u00D7 2 = 750\",\"value\":750},{\"quote\":\"(25+75)\\u00D77 days = 750\",\"value\":700},{\"quote\":\"(25+75)\\u00D77 days = 750\",\"value\":750},{\"quote\":\"(2\\u00D775) + original 250 = 750\\u00D74 = 7500\",\"value\":150},{\"quote\":\"(2\\u00D775) + original 250 = 750\\u00D74 = 7500\",\"value\":400},{\"quote\":\"(2\\u00D775) + original 250 = 750\\u00D74 = 7500\",\"value\":3000},{\"quote\":\"(2\\u00D775) + original 250 = 750\\u00D74 = 7500\",\"value\":7500},{\"quote\":\"25\",\"value\":25},{\"quote\":\"twice 25 = 75\",\"value\":50},{\"quote\":\"twice 25 = 75\",\"value\":75},{\"quote\":\"75\",\"value\":75},{\"quote\":\"250 + half that is 75\",\"value\":125},{\"quote\":\"250 + half that is 75\",\"value\":375},{\"quote\":\"250 + twice 25 = 75\",\"value\":300},{\"quote\":\"250 + half of 250 = 500\",\"value\":125},{\"quote\":\"250 + half of 250 = 500\",\"value\":375},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"30\",\"value\":30},{\"quote\":\"75 \\u00D7 30 days\",\"value\":2250},{\"quote\":\"50\",\"value\":50},{\"quote\":\"twice 50\",\"value\":100},{\"quote\":\"150\",\"value\":150},{\"quote\":\"75 + 50 = 125\",\"value\":125},{\"quote\":\"2 \\u00D7 75 = 150\",\"value\":150},{\"quote\":\"7\",\"value\":7},{\"quote\":\"125 \\u00D7 7 = 840\",\"value\":875},{\"quote\":\"125 \\u00D7 7 = 840\",\"value\":840},{\"quote\":\"26\",\"value\":26},{\"quote\":\"25 + 26 = 51\",\"value\":51},{\"quote\":\"256\",\"value\":256},{\"quote\":\"7 \\u00D7 256 = 1792\",\"value\":1792}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers (twice, half), and calculated values from arithmetic expressions provided within single descriptions.\"}",
+  "prompt_sha256": "6395106f4451fabc8797dc4182dc19c13d7fc4faa90e00d5907e1d933ca0f64d"
+}

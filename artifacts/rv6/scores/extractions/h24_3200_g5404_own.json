@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5404",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 25 \u00d7 12 = 300 kg.\n\nThe word problem structure demands a calculation answer, specifically the arithmetic result of 25 + 15 = 40 items.\n\nThe final token \"is\" opens a numerical answer clause, immediately requiring the integer \"300\" (25 + 15 = 40 \u00d7 15 = daily consumption).\n25 + 15 = 45 \u00d7 12 = 540 kg per person, so the answer must be 300 kg.\n(25 + 15) \u00d7 6 = 300.\n(25 + 15) \u00d7 1.5 = 45 \u00d7 6 = 270 kg total.\nThe solution requires the calculated quantity.\n25 \u00d7 12.",
+    "Math word problem format requires arithmetic calculation: 25 + 15 = 40, so the solution must state \"40.\"\n\nThe word problem setup demands a solution walkthrough showing the arithmetic step-by-step, likely \"25 + 15 = 40 units per table.\"\n\nThe final token \"has\" introduces the arithmetic result clause, immediately requiring a numerical answer (\"40\") followed by explanation of total units needed for 25 tables.\n25 + 15 = 40, so the next tokens must state \"45\" or \"40\" as the per-table consumption figure before stating total weekly usage.\n25 + 15 = 40, completing the arithmetic expression.\n25 + 15 = 45 pounds per table, so the next tokens will state the total needed.\n25 + 15 = 45.",
+    "Math word problem setup requiring arithmetic completion: 25 + 15 = 45.\n\n Word problem format expects word problem solving steps: arithmetic operation shown, numerical result expected next.\n\nThe final token \"4\" is the beginning of the arithmetic result \"45,\" immediately requiring \"5\" to complete the sum \"25 + 15 = 45 grams per day,\" likely followed by \"grams\" and then a question asking for total grams or total days worked.\n25 + 15 = 45, so the next tokens must complete this number and the question prompt.\n25 + 15 = 45.\nThe answer is 45, so the next tokens will state the total per-day weight before asking for multiplication by 25 days.\n25 + 15 = 45 grams.\n25+15=45 grams.",
+    "Math word problem format: word problem setup requires arithmetic completion, expecting \"mg\" or \"grams\" to complete the arithmetic expression \"25 + 15 = 40.\"\n\nThe solution follows a structured arithmetic pattern: 15 + 25 = 40 milligrams per bottle, so the next step is stating the total per-bottle weight.\n\nFinal token \"40\" is the arithmetic result of 25+15, immediately requiring the unit \"mg\" or \"grams\" to complete the expression \"40 milligrams,\" followed by a sentence stating total per-bottle weight.\nFinal token \"40\" is the computed sum mid-sentence, demanding the unit label next.\nThe problem demands a multiplication answer: 40 milligrams \u00d7 10 minutes = 400 milligrams needed.\n25 + 15 = 40 milligrams.",
+    "Math word problem format: arithmetic word problem requiring arithmetic completion, expecting a numerical answer.\n\nThe solution structure demands a multiplication result showing 15+20=40, confirming the total per serving calculation.\n\nThe final token \"p\" is the unit abbreviation \"per serving,\" ending the arithmetic expression \"40+15=45 grams,\" immediately requiring the word \"er serving\" to complete the unit phrase, likely followed by a period or further solution steps.\nFinal token \"40p\" is mid-word, part of \"40 grams needed per serving,\" requiring \"er serving\" to complete the calculation result.\n40+15=400 milligrams total per serving for 15 total operations.\n40+15=400 per serving total, then likely \"per serving\" or \"for each operation.\"\n40+15=400.",
+    "Math word problem format: word problem followed by arithmetic calculation, expecting a numerical answer.\n\nThe arithmetic operation \"16 + 14 = 30\" is the expected calculation, with the answer \"30\" representing total pages per day.\n\nThe final token \"s.\" ends the problem statement \"16 + 14 = 30 pounds,\" immediately requiring the multiplication expression or the computed result \"30 \u00d7 6.3 = 180 minutes needed to complete the calculation.\"\nFinal token \"46.9 stones.\" ends the problem setup, so the next tokens must present the arithmetic expression or solution steps.\nFinal token \"stones.\" completes the per-page sum \"16 + 14 = 31.5,\" requiring the multiplication \"\u00d7 6.3 = 180 minutes\" to follow.\n63 + 14 = 77."
+  ],
+  "input_sha256": "e1426ada3bbaac7f975ccce7adde26021213f3698738f263bda65540574d9233",
+  "values": [
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "540",
+      "value": "540"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "6.3",
+      "value": "6.3"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "46.9",
+      "value": "46.9"
+    },
+    {
+      "quote": "31.5",
+      "value": "31.5"
+    },
+    {
+      "quote": "63",
+      "value": "63"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated within the provided descriptions, including integers and decimals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25\",\"value\":25},{\"quote\":\"12\",\"value\":12},{\"quote\":\"300\",\"value\":300},{\"quote\":\"15\",\"value\":15},{\"quote\":\"40\",\"value\":40},{\"quote\":\"45\",\"value\":45},{\"quote\":\"540\",\"value\":540},{\"quote\":\"6\",\"value\":6},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"270\",\"value\":270},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"400\",\"value\":400},{\"quote\":\"20\",\"value\":20},{\"quote\":\"16\",\"value\":16},{\"quote\":\"14\",\"value\":14},{\"quote\":\"30\",\"value\":30},{\"quote\":\"6.3\",\"value\":6.3},{\"quote\":\"180\",\"value\":180},{\"quote\":\"46.9\",\"value\":46.9},{\"quote\":\"31.5\",\"value\":31.5},{\"quote\":\"63\",\"value\":63},{\"quote\":\"77\",\"value\":77}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated within the provided descriptions, including integers and decimals.\"}",
+  "prompt_sha256": "95224900d258eba5b02b23f1e8b8ae58d30b79586bc1b1674867d6487e098797"
+}

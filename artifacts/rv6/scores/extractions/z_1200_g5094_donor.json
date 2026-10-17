@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5094",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical/numerical pattern: the text consistently pairs city names with specific numeric data (e.g., \"1999,\" \"2019,\" \"2020\"), so a country or percentage follows.\n\nContinuation of the descriptive sentence about hazard ratings: the paragraph is mid-sentence listing city-specific findings, with more cities and their numeric hazard scores expected to follow.\n\nFinal token \"is\" opens a predicate completing the sentence about London's hazard rating, immediately requiring a numeric value or comparative descriptor (e.g., \"5 times higher than...\") to complete the factual claim.",
+    "Character relationship narrative momentum: the text is detailing the family backstory, establishing context for the romantic plot involving the sister-in-law's situation.\n\nThe blog's analytical pattern: introducing each character's role, then explaining their emotional state or situation \u2014 the sister-in-law's conflict with the narrator's marriage is being built up, with financial details and backstory expected.\n\nFinal token \"600,\" ends a sentence fragment mid-clause (\"600 was 600, 600 was 600\"), suggesting a typo/continuation; the next tokens will complete the interrupted description of the narrator's 1666 hours, likely \"1266 hours\" or a similar number continuing the interrupted \"600 was 600\" pattern, then explaining the relationship timeline.",
+    "Reflective Christian devotional/recipe blog tone, blending personal narrative with recipe instructions, now deep in the analytical section explaining emotional response to the dish.\n\nThe recipe's thematic content (love, sharing, sensory pleasure) is being developed through the cooking process, with the author building toward a spiritual insight about emotional reactions to ingredients.\n\nFinal token \"30\" is mid-sentence in a list of emotional reactions (\"30\"), part of \"30 to 30,\" suggesting continuation of the romantic scenario; \"3\" begins a new clause explaining the 15-30 multiplication effect; \"5\" completes \"30,\" and the next tokens must finish the mathematical/romantic calculation \u2014 \"30 to 15 to 30\" \u2014 before elaborating on the romantic scenario's emotional impact.",
+    "Q&A format with expert responses: the text follows a pattern of personal anecdotes answering questions, with the current answer mid-development, requiring continuation of the psychological/behavioral explanation.\n\nNarrative momentum toward practical advice: the article has been building toward concrete examples of how childhood trauma shapes adult relationships; the expert is now illustrating this with specific memory details.\n\nFinal token \"40\" is mid-sentence, completing \"60 years old\" or similar age reference, part of a calculation (\"10 times 15, so 40\"), immediately requiring the completion of the romantic advice statistic \u2014 likely \"30\" or a continuation of the 20,000 memory calculation, e.g., \"150 experiences\" or \"40 friends\" \u2014 constrained to complete the arithmetic example about the friend's wedding.",
+    "Statistical/numerical continuation: the article builds toward revealing the fraud's scale, with the personal injury claim count establishing severity; the argumentative momentum demands completing the moral/legal consequence.\n\nNarrative momentum toward completing the fraud's impact: the study's findings are being explained, with the doctor's confession framing the psychological harm; next expected content is the legal or health consequences of the statistic.\n\nFinal token \"180,000,043\" is mid-sentence, completing a calculation about per-person fraud rates; \"1,430,037,430 per day\" is the per-person figure, and the sentence requires continuation explaining the 230,043% statistic's human cost \u2014 likely \"per year\" or a percentage \u2014 followed by a personal health disclosure scenario.",
+    "Legal analysis pattern: the text is systematically explaining the court's reasoning, moving from procedural facts to theological interpretation, building toward a conclusion about the legal standard.\n\nThe argument is mid-development, having established the theological basis for the case; the next step is applying this to the specific factual scenario (the 15-minute prayer), with the analysis of the 200 observations expected to continue.\n\nFinal token \"150:100\" ends a sentence fragment stating the prayer count; \"7,500 observations\" is the logical continuation, completing the 300 per-minute calculation; \"150 per minute\" is the immediate next phrase, followed by analysis of the 345 per minute threshold."
+  ],
+  "input_sha256": "c88c3e40d1b742bcd2a57f2cc768c241e09a31b7246578a242ade9af86c350d2",
+  "values": [
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "1666 hours",
+      "value": "1666"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "15-30",
+      "value": "15"
+    },
+    {
+      "quote": "15-30",
+      "value": "30"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "30 to 15 to 30",
+      "value": "30"
+    },
+    {
+      "quote": "30 to 15 to 30",
+      "value": "15"
+    },
+    {
+      "quote": "60 years old",
+      "value": "60"
+    },
+    {
+      "quote": "10 times 15, so 40",
+      "value": "10"
+    },
+    {
+      "quote": "10 times 15, so 40",
+      "value": "15"
+    },
+    {
+      "quote": "10 times 15, so 40",
+      "value": "40"
+    },
+    {
+      "quote": "20,000 memory",
+      "value": "20000"
+    },
+    {
+      "quote": "180,000,043",
+      "value": "180000043"
+    },
+    {
+      "quote": "1,430,037,430 per day",
+      "value": "1430037430"
+    },
+    {
+      "quote": "230,043%",
+      "value": "230043"
+    },
+    {
+      "quote": "15-minute prayer",
+      "value": "15"
+    },
+    {
+      "quote": "200 observations",
+      "value": "200"
+    },
+    {
+      "quote": "150:100",
+      "value": "150"
+    },
+    {
+      "quote": "150:100",
+      "value": "100"
+    },
+    {
+      "quote": "7,500 observations",
+      "value": "7500"
+    },
+    {
+      "quote": "300 per-minute",
+      "value": "300"
+    },
+    {
+      "quote": "150 per minute",
+      "value": "150"
+    },
+    {
+      "quote": "345 per minute",
+      "value": "345"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, including those within arithmetic expressions and percentages, from the provided descriptions while maintaining exact quotes.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"600\",\"value\":600},{\"quote\":\"1666 hours\",\"value\":1666},{\"quote\":\"30\",\"value\":30},{\"quote\":\"3\",\"value\":3},{\"quote\":\"15-30\",\"value\":15},{\"quote\":\"15-30\",\"value\":30},{\"quote\":\"5\",\"value\":5},{\"quote\":\"30 to 15 to 30\",\"value\":30},{\"quote\":\"30 to 15 to 30\",\"value\":15},{\"quote\":\"60 years old\",\"value\":60},{\"quote\":\"10 times 15, so 40\",\"value\":10},{\"quote\":\"10 times 15, so 40\",\"value\":15},{\"quote\":\"10 times 15, so 40\",\"value\":40},{\"quote\":\"20,000 memory\",\"value\":20000},{\"quote\":\"180,000,043\",\"value\":180000043},{\"quote\":\"1,430,037,430 per day\",\"value\":1430037430},{\"quote\":\"230,043%\",\"value\":230043},{\"quote\":\"15-minute prayer\",\"value\":15},{\"quote\":\"200 observations\",\"value\":200},{\"quote\":\"150:100\",\"value\":150},{\"quote\":\"150:100\",\"value\":100},{\"quote\":\"7,500 observations\",\"value\":7500},{\"quote\":\"300 per-minute\",\"value\":300},{\"quote\":\"150 per minute\",\"value\":150},{\"quote\":\"345 per minute\",\"value\":345}],\"justification\":\"Extracted all explicit numeric literals, including those within arithmetic expressions and percentages, from the provided descriptions while maintaining exact quotes.\"}",
+  "prompt_sha256": "7ca34f83e2c932a3968d0e6a09fe20fae7ea4bd58b8ee7ffd299c2087b1f993e"
+}

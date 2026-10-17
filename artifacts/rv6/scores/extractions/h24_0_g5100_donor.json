@@ -1,0 +1,65 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5100",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format: a structured problem is being solved step-by-step, with a numerical answer expected next.\n\nThe problem requires dividing 15 by 3, so the answer is 5, and the solution will likely show the arithmetic work.\n\n\"The answer is\" is an incomplete declarative sentence mid-solution, immediately requiring a number (likely \"5\") followed by explanation of the division process.\n</explanation>",
+    "Math word problem format: a question has been posed and now requires a solution, expecting step-by-step arithmetic reasoning.\n\nThe problem involves division: 120 \u00f7 15 = 8, so the answer is 8, and the solution must show this calculation.\n\n\"Answer:\" is a label/header that immediately precedes the solution text, constraining the next tokens to be a direct numerical answer or explanatory sentence like \"8\" or \"The number of trips is 8.\"\n</explanation>",
+    "Math word problem format: a question has been posed and answered, following a structured Q&A pattern with a solution expected next.\n\nThe problem requires a division calculation: 120 \u00f7 15 = 8, so the answer is 8, and the solution steps (dividing 120 by 15) are expected to follow.\n\nFinal token \"8\" is the answer to the division problem, immediately constraining what follows to be the solution/explanation, likely starting with \"The\" or \"Since\" or a step-by-step arithmetic breakdown.\n</explanation>",
+    "Math word problem format: a question has been posed and now requires a solution answer, following standard problem-solving structure.\n\nThe problem involves a division calculation (150 \u00f7 25 = 6), so the answer must be a specific number, likely followed by explanation or steps.\n\nFinal token \"answ\" is a label/heading for the answer section, immediately constraining what follows to be the actual answer value (e.g., \"6\") or a formatted solution response.\n</explanation>",
+    "Math word problem format: a structured problem with given values (distance 40 km, time 5 hours) requiring a solution answer.\n\nThe problem follows a classic arithmetic problem template: distance = speed \u00d7 time, so the solution involves dividing 40 by 5.\n\nFinal token \"Solved by\" is a solution-header label in a math problem template, immediately requiring the worked solution steps or the numerical answer (e.g., \"40 \u00f7 5 = 8 km/h\").\n</explanation>",
+    "Math word problem format: a structured problem with given values (distance 40 km, time 5 hours) and a question, expecting a solution answer.\n\nThe question asks for speed, so the solution must use the formula v = d/t, with d=40 and t=5.\n\nFinal token \"SOLUTION\" is a section header in a math problem template, immediately requiring a worked solution beginning with the formula or direct calculation, e.g., \"v = 40 / 5 = 8 km/h.\"\n</explanation>"
+  ],
+  "input_sha256": "9d3e6eab03d6712998cd9718e734b8903af3224da196b042e38589725cf59309",
+  "values": [
+    {
+      "quote": "dividing 15 by 3",
+      "value": "15"
+    },
+    {
+      "quote": "dividing 15 by 3",
+      "value": "3"
+    },
+    {
+      "quote": "the answer is 5",
+      "value": "5"
+    },
+    {
+      "quote": "120 \u00f7 15 = 8",
+      "value": "120"
+    },
+    {
+      "quote": "120 \u00f7 15 = 8",
+      "value": "15"
+    },
+    {
+      "quote": "120 \u00f7 15 = 8",
+      "value": "8"
+    },
+    {
+      "quote": "150 \u00f7 25 = 6",
+      "value": "150"
+    },
+    {
+      "quote": "150 \u00f7 25 = 6",
+      "value": "25"
+    },
+    {
+      "quote": "150 \u00f7 25 = 6",
+      "value": "6"
+    },
+    {
+      "quote": "distance 40 km",
+      "value": "40"
+    },
+    {
+      "quote": "time 5 hours",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and results of arithmetic expressions (like 15/3=5, 120/15=8, 150/25=6) found within the provided descriptions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"dividing 15 by 3\",\"value\":15},{\"quote\":\"dividing 15 by 3\",\"value\":3},{\"quote\":\"the answer is 5\",\"value\":5},{\"quote\":\"120 \u00f7 15 = 8\",\"value\":120},{\"quote\":\"120 \u00f7 15 = 8\",\"value\":15},{\"quote\":\"120 \u00f7 15 = 8\",\"value\":8},{\"quote\":\"150 \u00f7 25 = 6\",\"value\":150},{\"quote\":\"150 \u00f7 25 = 6\",\"value\":25},{\"quote\":\"150 \u00f7 25 = 6\",\"value\":6},{\"quote\":\"distance 40 km\",\"value\":40},{\"quote\":\"time 5 hours\",\"value\":5}],\"justification\":\"Extracted explicit numeric literals and results of arithmetic expressions (like 15/3=5, 120/15=8, 150/25=6) found within the provided descriptions.\"}",
+  "prompt_sha256": "7a4c2f96a827afd1bb570b69beb0fb8ad4b3d0dce42589785e1792fc9557d686"
+}

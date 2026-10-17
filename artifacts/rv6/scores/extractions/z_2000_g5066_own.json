@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5066",
+  "kind": "own",
+  "descriptions": [
+    "Financial data pattern: article lists specific statistics (prices, volumes, percentages) for each stock, establishing a template of data points.\n\nList continuation: the article has been systematically presenting financial metrics for each stock; the incomplete sentence about \"total sales volume\" for the second stock requires completion with a specific dollar figure.\n\nFinal token \"and $100,000\" is mid-sentence, part of a financial data list for the second stock; the next token must continue with another price figure or complete the sales volume statistic (e.g., \"and $100,000\" suggests a truncated number like \"$100,000\" or a new figure follows).\n\"and $12,000\" or similar price figure completing the financial data series.\n\"and $12,000\" or a new dollar amount completing the sales volume statistic.",
+    "Structured product listing format with labeled fields (Publisher, Country of Publication, etc.) signals continuation of metadata entries.\n\nFilm review/description genre with cast and crew details being enumerated \u2014 the review is mid-sentence listing production credits and cast.\n\nFinal token \"7,\" is mid-sentence within a cast/crew list (\"starring,\" \"directed by,\" \"produced by\"), immediately expecting continuation of the film's production details, likely more cast members or a concluding evaluative statement.\n\"7,\" suggests a truncated list or rating number, with product details or additional credits expected next.\n\"7,\" likely continues a product code or rating, with \"7,\" completing a numeric reference or title.\n\"7,\" film title \"7,\" product code \"8,\" \u2014 the \"7,\" film title \"5,\" book title \"7,\" suggests a list of credits; \"8,\" visual book follows.\n\"5.",
+    "Structured e-commerce product listing pattern: each category follows \"Shop [Category] at [Brand]\" then a brief description, repeating consistently.\n\nThe page is mid-list, having covered \"Shop Men's T-Shirts\" and \"Shop Women's T-Shirts\" \u2014 a third category or continuation of the women's section is expected next.\n\nFinal token \"best\" ends an incomplete sentence (\"best\"), part of a product category description for women's clothing, immediately requiring a noun or adjective completing the phrase, likely \"best\" followed by a product category or brand name.\n\"best\" is a truncated word/phrase mid-sentence, suggesting navigation links or category listings follow.\n\"available\" or a store name completes the e-commerce category header pattern.\n\"best\" is a truncated word in a product category navigation list, likely completing as \"best\" or a store name, with the category page link or product category.",
+    "Structured e-commerce table/list pattern: the text follows a consistent format of part numbers, descriptions, and part numbers in a table.\n\nPart number catalog continuation: the table lists filterable parts with part numbers, descriptions, and categories \u2014 more entries are expected following the established pipe-delimited table structure.\n\nFinal token \"Part\" closes a table cell in a parts filter list; the immediate next tokens must continue the table with another part number, category label, or closing pipe delimiter.\n\"Part\" ends a product category label \"Part Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts.",
+    "Structured table/list pattern: pipe-delimited parts table with part numbers, descriptions, and part numbers repeating consistently.\n\nThe table has established a clear two-column format: part number, then part name/description, alternating between the two columns.\n\nFinal token \"Part|\" closes a table row mid-table, immediately requiring the next row to begin with a new pipe-delimited entry, likely another \"|Part|\" row continuing the parts table with a new part number.\n\"Part|\" closes the second table row, so the next token must open a new table row with \"|\" followed by a part number.\n\"Part|\" is the closing cell of the second table row, and the immediate constraint is a new pipe-delimited row beginning with \"|\" and a new part number.\n\"||\" table structure is complete; the next token must be \"|\" to open a new table row.\n\"Price|\" table was just opened, so the next.",
+    "Structured table/list pattern: pipe-delimited rows with part numbers, descriptions, and table numbers repeat consistently throughout.\n\nThe table lists pipe-delimited rows with part numbers, descriptions, and table numbers; the pattern strongly predicts another pipe-delimited row continuing the table.\n\nFinal token \"||\" closes a table cell in the pipe-delimited format, immediately requiring a closing pipe \"|\" to complete the cell, then likely another table row with a new part number and pipe-delimited columns.\n\"||\" is mid-row, requiring \"|\" to close the cell, then a new row or end of table.\n\"|\" closes the price table cell, so the next token is almost certainly \"|\" followed by a new table row.\n\"||\" is the final token, part of a pipe-delimited table cell, immediately requiring \"|\" to close it.\n\"||\" table structure is complete; the immediate next token is \"|\"."
+  ],
+  "input_sha256": "e57ae4b8c8b2f7cff108044e9ca923de43cdde745572e54d2870ebd560b4224c",
+  "values": [
+    {
+      "quote": "$100,000",
+      "value": "100000"
+    },
+    {
+      "quote": "$12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "7,",
+      "value": "7"
+    },
+    {
+      "quote": "8,",
+      "value": "8"
+    },
+    {
+      "quote": "5,",
+      "value": "5"
+    },
+    {
+      "quote": "5.",
+      "value": "5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found within the descriptions, including dollar amounts and single digits used in lists or ratings.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$100,000\",\"value\":100000},{\"quote\":\"$12,000\",\"value\":12000},{\"quote\":\"7,\",\"value\":7},{\"quote\":\"8,\",\"value\":8},{\"quote\":\"5,\",\"value\":5},{\"quote\":\"5.\",\"value\":5}],\"justification\":\"Extracted explicit numeric literals found within the descriptions, including dollar amounts and single digits used in lists or ratings.\"}",
+  "prompt_sha256": "bfdfceb2ce2a08887eef3b6f32e4940054ba981cefca08241ec358938915d2f7"
+}

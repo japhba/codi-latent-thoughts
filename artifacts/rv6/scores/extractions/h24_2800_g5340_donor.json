@@ -1,0 +1,113 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5340",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 350 \u2212 150 \u2212 100 \u2212 50 \u2212 150 = 50 books remaining.\n\nThe word problem structure demands a specific arithmetic conclusion, with the remaining count being the difference between total books and known books.\n\nFinal token \"are\" completes the question \"How many books are left free?\" \u2014 immediately requires a number (likely \"50\") representing the free remaining inventory.\n350 \u2212 150 \u2212 50 \u2212 100 \u2212 45 \u2212 45 = 50 pages.\nAnswer: 50 pages.\n(50 pages).\n(50) small number of spare pages.\n(50) free pages available.\n(350 \u2212 150 \u2212 45 \u2212 100 \u2212 60) = minimal.",
+    "Word problem solution in progress: arithmetic setup requires completing the total cost calculation (150+100+50=400).\n\nThe structured solution format demands showing the arithmetic step-by-step, likely \"150+100+50=400 kg used.\"\n\nFinal token \"have\" completes \"She has,\" immediately requiring the numerical result of the total (400 kg) before proceeding to find remaining change or remaining eggs.\n150+100+55=405 kg total, so the next tokens state this total before computing remaining eggs.\n150+100+5=405 miles, completing the consumption figure before stating the remaining 55 miles to subtract.\n150+100+5=405 miles, then the remaining change calculation.",
+    "Word problem setup requires completing the arithmetic: 150+100+50=300 books total, confirming the answer.\n\nThe calculation is mid-completion: 150+100+50=300 books must be stated, then the remaining books (300 minus 100) to find remaining categories.\n\nFinal token \"3\" begins the number \"300,\" representing the total books (150+100+50=300), immediately requiring \"00\" to complete the numeric value before explaining the constraint that books must equal 350.\n150+100+50 categories = 300 books, confirming the answer is 0 books sold.\nTotal books sold must equal 350 minus remaining categories.\n(50+100+7.",
+    "Word problem solution format: arithmetic calculation in progress, showing step-by-step arithmetic with numbers.\n\nThe total books (150 + 100 + 50 = 300) must be completed, then the remaining books (10) must be stated to find the remaining 10 books.\n\nFinal token \"30\" is the beginning of the total sum \"300,\" completing the arithmetic result of 150+100+50=300 books used, immediately requiring \"0\" to complete the number, then likely \"books\" and a concluding statement about the remaining 10 spare books.\n300 pounds remaining.\n300 books total needed to complete the equation.\nShe has 300 books used, leaving 10 spare books free.\n300 = 100+50+60 sub.",
+    "Word problem solution format: step-by-step arithmetic walkthrough with arithmetic operations, expecting a concluding answer.\n\nThe arithmetic expression \"150 + 100 + 150 = 350\" is being completed, requiring the total count of 300 items used.\n\nFinal token \"300\" is the computed result of the sum, immediately expecting the word \"stones\" or punctuation, then the remaining answer: \"stones needed\" or \"left over stones.\"\nFinal token \"300\" is the total used (150+100+30), completing the arithmetic statement before stating the remaining spare count.\n300 books total.\nShe has 300 books, so the remaining difference (50 books) must follow.\nShe uses 300 books total for books + toys + flowers = 300 + 50 +.",
+    "Word problem word problem format: structured Q&A with arithmetic operations, expecting a numerical answer after setup.\n\nThe problem establishes a simple arithmetic calculation: 11\u00d74 + 14 + 15 = 115 total used, leaving 10 remaining.\n\nFinal token \"s.\" ends the problem statement listing the used total (85 + 14 + 15 = 104 grams), immediately expecting the solution steps or answer: \"She had 10 grams remaining unused.\"\nFinal token \"s.\" is the problem's closing line, immediately requiring the arithmetic conclusion or remaining difference calculation.\nFinal token \"c.\" begins the answer section, expecting \"She had 0 grams left to give away.\"\n straightforward arithmetic completion: 85 \u2212 104 = negative, but contextually the remaining difference is 0 grams spent.\nShe used 80 grams for."
+  ],
+  "input_sha256": "3ab7d16c2fa36d96b3de3336fac81face8db532258bdc373d9fe94ade81edbac",
+  "values": [
+    {
+      "quote": "350",
+      "value": "350"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "405",
+      "value": "405"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "85",
+      "value": "85"
+    },
+    {
+      "quote": "104",
+      "value": "104"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of explicit arithmetic expressions found within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"350\",\"value\":350},{\"quote\":\"150\",\"value\":150},{\"quote\":\"100\",\"value\":100},{\"quote\":\"50\",\"value\":50},{\"quote\":\"45\",\"value\":45},{\"quote\":\"60\",\"value\":60},{\"quote\":\"400\",\"value\":400},{\"quote\":\"55\",\"value\":55},{\"quote\":\"405\",\"value\":405},{\"quote\":\"5\",\"value\":5},{\"quote\":\"300\",\"value\":300},{\"quote\":\"7\",\"value\":7},{\"quote\":\"10\",\"value\":10},{\"quote\":\"30\",\"value\":30},{\"quote\":\"11\",\"value\":11},{\"quote\":\"4\",\"value\":4},{\"quote\":\"14\",\"value\":14},{\"quote\":\"15\",\"value\":15},{\"quote\":\"115\",\"value\":115},{\"quote\":\"85\",\"value\":85},{\"quote\":\"104\",\"value\":104},{\"quote\":\"0\",\"value\":0},{\"quote\":\"80\",\"value\":80}],\"justification\":\"Extracted all distinct numeric literals and results of explicit arithmetic expressions found within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "9dd88dadde5f536fdb0c246dfe004a8b351ab2333b50abb2f344d7b91a559653"
+}

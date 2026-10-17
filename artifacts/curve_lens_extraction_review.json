@@ -1,0 +1,59 @@
+{
+  "scope": "Gold-independent audit of token meanings; applied uniformly across methods and cohorts. Raw extractions are preserved.",
+  "corrections": {
+    "_five": {
+      "values": [],
+      "reason": "Programming identifier, excluded by the extraction criterion."
+    },
+    "_four": {
+      "values": [],
+      "reason": "Programming identifier, excluded by the extraction criterion."
+    },
+    "_ten": {
+      "values": [],
+      "reason": "Programming identifier, excluded by the extraction criterion."
+    },
+    "teen": {
+      "values": [],
+      "reason": "Incomplete number-word suffix or a vague age category; does not explicitly express ten."
+    },
+    "sixth": {
+      "values": [],
+      "reason": "Ordinal word, excluded by the extraction criterion."
+    },
+    "\u4e8c\u697c": {
+      "values": [],
+      "reason": "Second-floor ordinal, excluded by the extraction criterion."
+    },
+    "\u4e00\u4e2a\u661f\u671f": {
+      "values": [
+        "1"
+      ],
+      "reason": "One week explicitly expresses one; seven would require unit conversion."
+    },
+    "\u4e09\u5206": {
+      "values": [
+        "3"
+      ],
+      "reason": "Three minutes/points expresses three; one-third requires \u4e09\u5206\u4e4b\u4e00."
+    },
+    "\u4e94\u516d": {
+      "values": [
+        "5",
+        "6"
+      ],
+      "reason": "Five or six expresses the two named alternatives; fifty-six would require \u4e94\u5341\u516d."
+    },
+    "nue": {
+      "values": [],
+      "reason": "Truncated fragment, not the complete Spanish cardinal nueve or German neun."
+    },
+    "\u4e00\u4e8c": {
+      "values": [
+        "1",
+        "2"
+      ],
+      "reason": "Names one and two; twelve would require \u5341\u4e8c."
+    }
+  }
+}

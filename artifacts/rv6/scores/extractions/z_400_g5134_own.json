@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5134",
+  "kind": "own",
+  "descriptions": [
+    "Statistical data pattern: structured sports statistics report with consistent numerical formatting (percentages, dollar amounts, rankings) throughout.\n\nContinuation of a specific dollar figure: the sentence is mid-statistic, reporting a year-over-year comparison of total points scored, requiring a specific dollar amount to complete the comparison.\n\nFinal token \"is\" opens a predicate completing \"total points scored is,\" immediately requiring a dollar figure (likely in millions, e.g., \"$X million\") to finish the comparative clause.",
+    "Product listing format with structured metadata fields (Cast, Director, Release Date) followed by promotional description \u2014 continuation follows standard film spec/review template.\n\nThe description is mid-sentence detailing film quality and technical specs, building toward a complete product description covering cast, crew, and release details.\n\nFinal token \"is\" opens a predicate clause mid-sentence (\"The quality of the film is\"), immediately requiring a descriptive adjective or noun phrase like \"excellent\" or \"high\" to complete the quality assessment.",
+    "E-commerce parts catalog listing pattern: structured product category pages with consistent \"Part Name + Part Number + Part Description\" format throughout.\n\nList continuation momentum: the page is enumerating related parts and categories; the \"Related Parts\" section has begun with \"Part Name\" and \"Part Number\" fields, implying more product entries follow.\n\nFinal token \"Available\" ends a section header \"Part Name: Available\" \u2014 immediately expects a list of part names, part numbers, and descriptions continuing the parts catalog pattern.",
+    "Structured table pattern: pipe-delimited rows with price ranges, part numbers, and shipping info repeating consistently throughout.\n\nE-commerce price table continuation: the table lists shipping costs and price ranges for parts, with the final row showing \"Price Range\" and \"Price\" columns requiring corresponding values.\n\nFinal token \"\u2013$199.99\" is mid-row in the table, part of a price range entry; the next token must complete the table row with a closing pipe delimiter and likely a price value or additional column data.",
+    "Structured table pattern: pipe-delimited rows with part numbers, prices, and part names repeating consistently throughout the table.\n\nE-commerce parts table continuation: the table lists shipping costs, part names, and prices for auto parts; the \"Price\" column is partially complete, expecting a dollar amount and closing pipe.\n\nFinal token \"\u2013$18.00|\u2013$18.00|\" closes a table row mid-entry; the next token must continue the table with a new row beginning with \"|\", likely another part number and price entry.",
+    "Structured table pattern: pipe-delimited rows with price ranges, dates, and columns repeating consistently throughout the table.\n\nThe table lists shipping costs by price range and date, with the final row showing \"$10.00 - $19.99\" and a date range, implying a corresponding price value or closing table cell follows.\n\nFinal token \"$-&- $\" is mid-cell in a table row, part of a price range expression; the immediate next token must complete the dollar amount or continue the table cell with a closing pipe or additional data."
+  ],
+  "input_sha256": "fea1f77706e8b6a8472e892e17741b934a2e18512c50a2576e11b74727731a58",
+  "values": [
+    {
+      "quote": "$199.99",
+      "value": "199.99"
+    },
+    {
+      "quote": "$18.00",
+      "value": "18"
+    },
+    {
+      "quote": "$10.00",
+      "value": "10"
+    },
+    {
+      "quote": "$19.99",
+      "value": "19.99"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found within the descriptions, specifically dollar amounts formatted as decimals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$199.99\",\"value\":199.99},{\"quote\":\"$18.00\",\"value\":18.0},{\"quote\":\"$10.00\",\"value\":10.0},{\"quote\":\"$19.99\",\"value\":19.99}],\"justification\":\"Extracted explicit numeric literals found within the descriptions, specifically dollar amounts formatted as decimals.\"}",
+  "prompt_sha256": "4bc02c60955ab4f7d585b209bb3430d76e39d05b53a1555ae32b9d525888f38b"
+}

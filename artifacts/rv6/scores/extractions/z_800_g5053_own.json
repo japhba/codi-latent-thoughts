@@ -1,0 +1,45 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5053",
+  "kind": "own",
+  "descriptions": [
+    "Statistical data pattern: financial figures presented in sequence (total value, daily average, monthly average), establishing a rhythm of specific dollar amounts with comparisons.\n\nNarrative momentum of ranking/comparison: the text consistently pairs statistics with context (e.g., \"highest daily average,\" \"highest monthly average\"), suggesting another comparative figure or ranking follows.\n\nFinal token \"is $12,000 and is $19,000 is $19,000\" \u2014 mid-sentence, mid-statistic, likely a typo for \"$12,000 and is $19,000,\" immediately requiring a dollar amount or continuation of the financial data clause.",
+    "Product listing format with structured metadata fields (Cast, Director, Release Date) followed by a descriptive paragraph \u2014 continuation follows promotional film description conventions.\n\nThe description is mid-sentence detailing cast/crew credentials, building toward completing the film's synopsis and likely transitioning to product details, availability, or a call-to-action.\n\nFinal token \"is 202 is 202 is 202 is 202 is 202 is 202 is 202 is 202 \u2014 garbled repetition of \"is\" mid-sentence, suggesting the next tokens complete a product description phrase about the film's qualities or production details.",
+    "E-commerce parts catalog listing format, with consistent navigation/category structure and product listing patterns throughout.\n\nThe page is mid-way through a parts catalog section listing \"New & Used Parts\" with a table of categories, now transitioning to a parts listing grid with part names and categories.\n\nFinal token \"Available\" ends a truncated navigation breadcrumb \"New & Available Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts Parts",
+    "Structured table pattern: pipe-delimited rows listing part numbers, descriptions, and prices, with consistent formatting throughout the table.\n\nE-commerce/parts catalog genre: the page lists shipping, returns, and table data for a specific part, following a predictable template of inventory information.\n\nFinal token \"||$15.00|\" closes a table cell mid-row; the pattern of \"||\" delimiters and the table structure strongly constrain the next token to be a closing pipe \"|\" or a new row beginning with \"|\".",
+    "Structured table pattern: pipe-delimited rows listing part numbers, descriptions, and table rows, establishing a consistent format for parts listings.\n\nE-commerce/automotive parts catalog genre: the page lists shipping info, part numbers, and table rows for a specific vehicle, with the table showing part numbers and shipping costs.\n\nFinal token \"$10.00|\" closes a table cell in a pipe-delimited row showing \"Part # 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Structured table pattern: pipe-delimited rows listing part numbers, shipping dates, and table rows, establishing a consistent format for the table.\n\nE-commerce/automotive parts catalog genre: the text follows a predictable template of shipping info, part listings, and customer tables, with the table mid-completion.\n\nFinal token \"$100|\" closes a price cell in a table row; the pattern of pipe-delimited rows continues, so the next token is almost certainly another pipe \"|\" followed by a new table row with a date and price."
+  ],
+  "input_sha256": "49e962aaa505adf6dcfdd8d9bbbe4b44e5d3f6379506537f3524896f3eb2ac33",
+  "values": [
+    {
+      "quote": "$12,000",
+      "value": "12000"
+    },
+    {
+      "quote": "$19,000",
+      "value": "19000"
+    },
+    {
+      "quote": "202",
+      "value": "202"
+    },
+    {
+      "quote": "$15.00",
+      "value": "15"
+    },
+    {
+      "quote": "$10.00",
+      "value": "10"
+    },
+    {
+      "quote": "$100",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency amounts from the provided descriptions, excluding identifiers like part numbers and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$12,000\",\"value\":12000},{\"quote\":\"$19,000\",\"value\":19000},{\"quote\":\"202\",\"value\":202},{\"quote\":\"$15.00\",\"value\":15},{\"quote\":\"$10.00\",\"value\":10},{\"quote\":\"$100\",\"value\":100}],\"justification\":\"Extracted explicit numeric literals and currency amounts from the provided descriptions, excluding identifiers like part numbers and years.\"}",
+  "prompt_sha256": "558e6710ee3d2982ba3c9da5e689be8f93b0bcaf12e0d5602c60d458da308d35"
+}

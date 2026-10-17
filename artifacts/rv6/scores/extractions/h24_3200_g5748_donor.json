@@ -1,0 +1,69 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5748",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup requiring arithmetic completion: 4 + 2 = 6 boxes, so total is 6 \u00d7 12 = 72.\n\nThe word problem structure demands a numerical answer, specifically \"72\" (the total order).\n\nFinal token \"is\" opens a predicate completing the question \"How many boxes will be ordered?\" \u2014 immediately requires a number (likely \"72\") representing the new combined order quantity.\n(4 + 2) \u00d7 12 = 72, so the answer must be 72.\n4 + 2 = 6 people \u00d7 12 = doubled, confirming the arithmetic.\n(4 + 2) \u00d7 18 = original two boxes.\n(2 + 3) = 5 boxes purchased.\nThe 2 extra boxes added.\n(4 + 2) \u00d7 12 / 3 = 72.",
+    "Math word problem solution in progress: arithmetic word problem requiring arithmetic completion, expecting \"4 \u00d7 12 = 48\" or similar.\n\nThe solution structure demands showing the arithmetic step-by-step, with the total of 48 before adding the remaining 2 new books.\n\nFinal token \"has\" opens a clause completing the arithmetic expression \"4 \u00d7 12,\" immediately requiring the numerical result \"48 total chips\" or \"48 chips in the first set.\"\nThere are 4 \u00d7 12 = 48 books, so the next tokens must state this total before introducing the addition of the second set.\n4 \u00d7 12 = 48, so the next tokens describe adding two additional sets.\nThey have 48 total books initially, then adding 2 more sets.\n4 \u00d7 12 = 48 chips in the first four sets before adding 2.",
+    "Math word problem setup requiring arithmetic completion: \"4 books \u00d7 12\" demands the multiplication result \"48.\"\n\n Word problem solution structure: arithmetic operation shown, expecting the arithmetic result and then explanation of adding the four new books to total.\n\nThe final token \"4\" begins the arithmetic result of \"4 \u00d7 12,\" immediately requiring \"8\" to complete \"48,\" followed by explanation of adding two more sets.\nThere are 4 sets \u00d7 12 chips = 48 total chips, so the next tokens must complete this multiplication and likely introduce the new calculation.\nThe first arithmetic step \"4 \u00d7 12 = 48\" is mid-expression, requiring \"8 chips\" or similar to complete the equation before adding 2 additional sets.\n4 \u00d7 12 = original total for all four sets.\nfour sets \u00d7 12 = 48, then adding.",
+    "Math word problem walkthrough requiring arithmetic completion: 6\u00d712=72 total, then adding 4 new sets.\n\nThe solution follows a step-by-step arithmetic explanation pattern, expecting the arithmetic result and then the solution narrative.\n\nThe final token \"48\" is the arithmetic result of \"6 \u00d7 8,\" mid-sentence in a solution walkthrough, immediately requiring the word \"stars\" or \"pieces\" to complete the quantity, followed by explanation of adding the second set.\nShe has 48 stars in total initial sets, so the next tokens will state \"stars in the first set\" or similar phrasing before introducing the new addition.\nWe have 48\" \u2014 completing the multiplication result \"48 stars in 3 boxes.\"\n3 \u00d7 16 = 48, so the next tokens must state the total added: \"stars in the new sets\" plus 2 additional.",
+    "Math word problem solving pattern: arithmetic operation requires completing the multiplication expression \"2 boxes \u00d7 12 = 24.\"\n\nThe solution structure demands showing the arithmetic step-by-step, with the final answer \"24 total.\"\n\nThe last token \"p\" begins the word \"pieces,\" continuing the sentence \"adding 2 more sets of 12 pieces,\" which must complete with \"24\" to match the total of the second calculation.\nFinal token \"p\" is mid-word, part of \"24,\" completing the arithmetic expression showing the added second set.\nThere are 2 sets \u00d7 12 = 24 new items added to the existing 2 sets.\n2 \u00d7 12 = total of 24 small items added.\nThe answer \"24\" confirms two additional sets.\ntwo new sets of 12.\nThe final token \"p\" begins the numeric result of.",
+    "Math word problem walkthrough pattern: each problem states a calculation, then provides the arithmetic answer.\n\nThe second problem mirrors the first's structure \u2014 a word problem about total eggs (48) and a partial answer (24) \u2014 expecting a numerical answer or confirmation.\n\nThe final token \"24\" is the arithmetic result of the multiplication expression \"6 \u00d7 4,\" completing the second half of the calculation; the next tokens likely show the answer statement, e.g., \"The total number of eggs added is 48.\"\nFinal token \"24\" ends the small-number arithmetic, immediately expecting a closing statement like \"The total is 48 eggs added in the second half.\"\nFinal token \"24.\" ends the small-number addition expression \"6 \u00d7 4 = 24 eggs added in the added half,\" completing the arithmetic answer.\n24 is the final token, representing the added eggs."
+  ],
+  "input_sha256": "27b8d7c38942e38eaf329b2d353e41e74594119addd4925c77e6364431983eff",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 4+2=6, 6x12=72, 4x12=48, 2x12=24, 3x16=48, 6x4=24) explicitly stated in the text, avoiding years, ordinals, and unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"6\",\"value\":6},{\"quote\":\"12\",\"value\":12},{\"quote\":\"72\",\"value\":72},{\"quote\":\"18\",\"value\":18},{\"quote\":\"3\",\"value\":3},{\"quote\":\"5\",\"value\":5},{\"quote\":\"48\",\"value\":48},{\"quote\":\"8\",\"value\":8},{\"quote\":\"16\",\"value\":16},{\"quote\":\"24\",\"value\":24}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 4+2=6, 6x12=72, 4x12=48, 2x12=24, 3x16=48, 6x4=24) explicitly stated in the text, avoiding years, ordinals, and unit conversions.\"}",
+  "prompt_sha256": "5c1034b20ed485ed5e47988ebf6154b5e8ea22edc875a16a9cd5013534b1b467"
+}

@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5412",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total 50 books minus sum of 150+200+350 pages demands a specific numerical answer.\n\nThe problem explicitly asks for \"amount of free space remaining,\" so the answer must be a number representing books available (500 \u2212 150 \u2212 200 \u2212 350 = 50).\n\nFinal token \"The amount of books is the\" introduces a declarative statement requiring an immediate integer (likely \"50\") as the numerical answer to the total remaining free space calculation, completing the arithmetic conclusion: 500 \u2212 (150+200+40) = 50 pages, confirming the answer must be \"50\" to complete the logical conclusion.",
+    "Math word problem setup requiring arithmetic completion: summing 15+8+10=25, so the next tokens must state \"250\" as the total cost.\n\nThe problem structure demands a solution: total cost calculation (150+80+100) must be completed before asking how many dollars remain or how many units.\n\nFinal token \"had\" is part of \"They had 15+80+100=250,\" requiring the arithmetic sum of the three items (100+150+50) to complete the sentence, immediately followed by \"250 dollars\" or similar phrasing to state the total cost before finding remaining money.",
+    "Math word problem requiring arithmetic completion: total books = 150+100+50=350, so the next tokens must sum these figures.\n\nThe problem structure demands a logical conclusion: total books needed = 150+100+50=350 books, then books remaining after bookseller inventory.\n\nFinal token \"3\" begins the number \"350\" (the sum of 100+150+50), completing the arithmetic statement \"Total number of books = 350\" \u2014 the next tokens must be \"50\" to complete this total, likely followed by explanation of remaining books or a question about bookseller inventory capacity.",
+    "Word problem solution format: structured arithmetic problem requiring arithmetic summing of 150+100+150=300 books total.\n\nThe problem explicitly states total books used (200+100+150), so the next step must state the remaining books available: 400 books minus 300 books, then find the remaining 100 books.\n\nFinal token \"30\" is the beginning of \"300\" (the sum of 100+150+200), completing the arithmetic statement \"300 books total used,\" immediately requiring \"0\" to complete the number, then confirming remaining books: \"There are 10 books remaining\" or similar conclusion.",
+    "Word problem format: arithmetic word problem with setup, operation, and solution structure \u2014 solution requires completing the arithmetic statement.\n\nThe problem has established three quantities (150 + 200 + 300 = 500), so the next step must state total used and then find remaining books, following the pattern \"She has 300 books total.\"\n\nFinal token \"300\" is the sum of all three items in the arithmetic expression \"150 + 200 + 300,\" completing the total books used; the sentence requires \"books\" or \"to use up\" to close the arithmetic, then the remaining books calculation: \"She has 450 books left\" or similar phrasing confirming the answer.",
+    "Word problem format established: first problem solved, now a second problem begins with identical arithmetic structure (summing 25 + 15 = 40, then subtraction remaining).\n\nThe problem follows a strict template: state total, then state consumed, then ask for remaining \u2014 the next tokens must state the remaining amount (400 - 250 = 150) and then ask \"How many eggs were left?\"\n\nFinal token \"puppies.\" ends the consumption statement \"They ate 25 + 155 = 400 eggs.\" \u2014 the next tokens must state the remaining eggs: \"They had 400 eggs remaining\" or similar phrasing completing the problem setup before stating the remaining total."
+  ],
+  "input_sha256": "338d79e504ef4f7c5830ed94189c7a8da5017a2f197d1fa158d2d68de2f60d3a",
+  "values": [
+    {
+      "quote": "total 50 books",
+      "value": "50"
+    },
+    {
+      "quote": "150+200+350 pages",
+      "value": "150"
+    },
+    {
+      "quote": "150+200+350 pages",
+      "value": "200"
+    },
+    {
+      "quote": "150+200+350 pages",
+      "value": "350"
+    },
+    {
+      "quote": "500 \u2212 150 \u2212 200 \u2212 350 = 50",
+      "value": "500"
+    },
+    {
+      "quote": "500 \u2212 (150+200+40) = 50 pages",
+      "value": "40"
+    },
+    {
+      "quote": "summing 15+8+10=25",
+      "value": "15"
+    },
+    {
+      "quote": "summing 15+8+10=25",
+      "value": "8"
+    },
+    {
+      "quote": "summing 15+8+10=25",
+      "value": "10"
+    },
+    {
+      "quote": "summing 15+8+10=25",
+      "value": "25"
+    },
+    {
+      "quote": "state \"250\" as the total cost",
+      "value": "250"
+    },
+    {
+      "quote": "total cost calculation (150+80+100)",
+      "value": "80"
+    },
+    {
+      "quote": "total cost calculation (150+80+100)",
+      "value": "100"
+    },
+    {
+      "quote": "arithmetic sum of the three items (100+150+50)",
+      "value": "50"
+    },
+    {
+      "quote": "total books = 150+100+50=350",
+      "value": "350"
+    },
+    {
+      "quote": "Final token \"3\" begins the number \"350\"",
+      "value": "3"
+    },
+    {
+      "quote": "summing of 150+100+150=300 books total",
+      "value": "300"
+    },
+    {
+      "quote": "total books used (200+100+150)",
+      "value": "200"
+    },
+    {
+      "quote": "400 books minus 300 books",
+      "value": "400"
+    },
+    {
+      "quote": "Final token \"30\" is the beginning of \"300\"",
+      "value": "30"
+    },
+    {
+      "quote": "immediately requiring \"0\" to complete the number",
+      "value": "0"
+    },
+    {
+      "quote": "\"There are 10 books remaining\"",
+      "value": "10"
+    },
+    {
+      "quote": "150 + 200 + 300 = 500",
+      "value": "500"
+    },
+    {
+      "quote": "\"She has 450 books left\"",
+      "value": "450"
+    },
+    {
+      "quote": "summing 25 + 15 = 40",
+      "value": "40"
+    },
+    {
+      "quote": "They ate 25 + 155 = 400 eggs.",
+      "value": "155"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is mapped to its specific source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"total 50 books\",\"value\":50},{\"quote\":\"150+200+350 pages\",\"value\":150},{\"quote\":\"150+200+350 pages\",\"value\":200},{\"quote\":\"150+200+350 pages\",\"value\":350},{\"quote\":\"500 \\u2212 150 \\u2212 200 \\u2212 350 = 50\",\"value\":500},{\"quote\":\"500 \\u2212 (150+200+40) = 50 pages\",\"value\":40},{\"quote\":\"summing 15+8+10=25\",\"value\":15},{\"quote\":\"summing 15+8+10=25\",\"value\":8},{\"quote\":\"summing 15+8+10=25\",\"value\":10},{\"quote\":\"summing 15+8+10=25\",\"value\":25},{\"quote\":\"state \\\"250\\\" as the total cost\",\"value\":250},{\"quote\":\"total cost calculation (150+80+100)\",\"value\":80},{\"quote\":\"total cost calculation (150+80+100)\",\"value\":100},{\"quote\":\"arithmetic sum of the three items (100+150+50)\",\"value\":50},{\"quote\":\"total books = 150+100+50=350\",\"value\":350},{\"quote\":\"Final token \\\"3\\\" begins the number \\\"350\\\"\",\"value\":3},{\"quote\":\"summing of 150+100+150=300 books total\",\"value\":300},{\"quote\":\"total books used (200+100+150)\",\"value\":200},{\"quote\":\"400 books minus 300 books\",\"value\":400},{\"quote\":\"Final token \\\"30\\\" is the beginning of \\\"300\\\"\",\"value\":30},{\"quote\":\"immediately requiring \\\"0\\\" to complete the number\",\"value\":0},{\"quote\":\"\\\"There are 10 books remaining\\\"\",\"value\":10},{\"quote\":\"150 + 200 + 300 = 500\",\"value\":500},{\"quote\":\"\\\"She has 450 books left\\\"\",\"value\":450},{\"quote\":\"summing 25 + 15 = 40\",\"value\":40},{\"quote\":\"They ate 25 + 155 = 400 eggs.\",\"value\":155}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each value is mapped to its specific source quote.\"}",
+  "prompt_sha256": "c6c7c1a90fd139ab31745cc24751cffc6984d053c58f255d1a7b032a4c5226d8"
+}

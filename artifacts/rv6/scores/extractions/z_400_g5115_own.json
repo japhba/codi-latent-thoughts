@@ -1,0 +1,33 @@
+{
+  "src": "z",
+  "step": 400,
+  "uid": "g5115",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: hazard ratios with confidence intervals and p-values are being reported, following established format seen in prior sentences.\n\nMathematical/technical continuation: the hazard ratio for \"first year of ownership\" is being stated, requiring a specific numerical value (likely a decimal hazard ratio like \"1.23\") consistent with the hazard reduction narrative.\n\nFinal token \"is\" opens a predicate completing the hazard ratio statement for the first year of ownership, immediately requiring a numerical hazard ratio value (e.g., \"1.23\") followed by confidence interval and p-value.",
+    "Narrative relationship history being recounted in a personal essay/analysis, establishing emotional context for a romantic backstory involving a past love interest.\n\nThe text is building toward explaining the emotional connection between the couple's past relationship and the current marriage, with the marriage's emotional weight as the central narrative thread.\n\nFinal token \"was\" opens a past-tense clause describing the relationship's emotional state or circumstances \u2014 the next word must complete this predicate, likely a past-tense verb or adjective describing the relationship's nature (e.g., \"a,\" \"a,\" \"a,\" \"a\").",
+    "Romantic personal essay structure: the text follows a structured love letter format, moving from personal reflection to literary analysis to personal narrative, now returning to emotional relationship content.\n\nNarrative momentum of the \"first date\" section: the author is recounting a sequence of feelings and experiences, building toward describing the emotional response to the first date and the romantic partner.\n\nFinal token \"3\" is mid-sentence (\"feeling a little 3\"), part of an incomplete emotional descriptor \u2014 the next token must complete this feeling/feeling phrase, likely \"feeling\" or a number continuing the romantic sentiment.",
+    "Personal narrative/reflective essay pattern: author shares a book's personal story, now illustrating the \"relationship advice\" theme with a concrete anecdote about marriage and divorce.\n\nThe list structure of the book's personal examples (marriage, divorce, family) signals the author is now elaborating on the first example \u2014 the marriage \u2014 with a specific memory about a friend's wedding and the author's emotional reaction.\n\nFinal token \"60\" ends an incomplete sentence (\"I would say this is a 60\"), requiring a noun completing the phrase \u2014 almost certainly \"years\" or \"years of marriage\" \u2014 continuing the personal reflection on the friend's wedding experience.",
+    "Narrative momentum: legal/medical anecdote building toward a legal liability revelation \u2014 the anecdote establishes a pattern of medical negligence, now connecting to the legal case being discussed.\n\nArgumentative structure: the article is explaining how the anecdote illustrates the legal liability of medical professionals for drug-related deaths, with the anecdote serving as evidence for the opening claim.\n\nFinal token \"408,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,00",
+    "Legal case analysis format: structured case summary with procedural facts, procedural history, and legal holding \u2014 now moving to detailed factual narrative of the court's reasoning.\n\nNarrative momentum of the holding's legal reasoning: the court has stated the procedural facts and is now explaining the legal analysis, with the conviction finding and its basis being elaborated.\n\nFinal token \"600,000 was 30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "input_sha256": "d5d98cd2a65b88ab3dabf5baa9f1683fd63d38bd4b526cbdd9c4835a8db3342e",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "600,000",
+      "value": "600000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found in the descriptions, including '3', '60', and '600,000'. The extremely long sequences of zeros were excluded as they were truncated/incomplete strings rather than valid numeric literals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"60\",\"value\":60},{\"quote\":\"600,000\",\"value\":600000}],\"justification\":\"Extracted explicit numeric literals found in the descriptions, including '3', '60', and '600,000'. The extremely long sequences of zeros were excluded as they were truncated/incomplete strings rather than valid numeric literals.\"}",
+  "prompt_sha256": "45eb480ff1f4125a824d4051421111450d984e7b52b71066e68a2256b803c790"
+}

@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5208",
+  "kind": "donor",
+  "descriptions": [
+    "Physics problem setup requiring a numerical answer: the question asks for maximum number of possible pairs, demanding a specific integer answer.\n\nThe solution involves equating total score (72) with the constraint that 72 = 2 \u00d7 60 \u00d7 3/3, so the answer must be 12.\n\nFinal token \"is\" opens the answer reveal, immediately requiring a number (likely \"12\") followed by explanation of the solution steps.\n720 / (21 + 3 \u00d7 60) = maximum possible pairs.\n(72 / 45) = 12 / 21 = ratio, confirming the answer.\n72 / (90 \u00d7 3) = number of days the man can last.\n(72 / 90) / (60 + 2 \u00d7 3) = half the man's total score divided by.",
+    "Math problem-solving context: solution requires counting total digits (720) and dividing by 2-digit numbers to find valid combinations.\n\nThe solution structure demands a specific numerical answer: 720 total digits = 720/2 = 360, so the answer must be 360.\n\nFinal token \"has\" opens a clause stating the number of digits in the smaller half, immediately requiring \"360\" or \"720 blue numbers\" to complete the arithmetic setup explaining the constraint.\n720 is the total number of digits, so half of it is 360, so \"360 blue numbers available.\"\nThe sentence must complete with \"720 / 2 = 360 pairs possible\" before stating how many distinct numbers can be formed.\n720 is split into two equal parts, establishing the limiting condition for valid.",
+    "Math word problem solution in progress: algebraic setup requires completing the total number equation (2x + 120 = 600).\n\nThe solution follows a structured arithmetic reasoning pattern, requiring the arithmetic conclusion: 600 divided by 2 = 300 red balls, confirming half of total.\n\nFinal token \"3\" begins the number \"360\" (or \"300\"), part of the equation \"There are 360 total red balls,\" requiring the digits completing the half of 720 total value.\nThe constraint is completing \"360\" describing available red balls per category.\n120 \u00d7 2 = available red balls, confirming the maximum possible number of pairs.\n(360) / 2 = 180, completing the mathematical condition for equality.\nEach ball counts toward 120 + 60.",
+    "Math word problem solution in progress: part (a) requires counting total coins, part (b) asks for maximum number of coins.\n\nThe solution is explaining the constraint that 360 coins = 180 red + 180 blue, so the number of coins per color must be calculated.\n\nFinal token \"36\" is the beginning of \"360\" (half of 720), mid-number, requiring immediate completion as \"0\" to form \"360,\" followed by explanation of how many combinations of red and blue coins are possible.\nThere are 360 tokens of each color available, establishing the mathematical constraint for the solution.\n360 / 2 = half of 720 tokens, so the number of available tokens for each color must be stated next.\nWe can form 360 / 2 = 180.",
+    "Mathematical solution walkthrough: step-by-step algebra showing how 360 \u00f7 15 = 24, establishing the number of blue chips.\n\nThe solution requires completing the arithmetic expression: 360 \u00d7 3 = total chips available, then dividing by 15 to find maximum possible.\n\nFinal token \"360p\" is mid-expression showing the total available material (360 \u00d7 3 = 1080 chips), immediately requiring the division result \"1080 / 3 = 360 small chips per chip.\"\nFinal token \"360\" is part of the computed quantity expression showing how many chips can be made from available material.\n360 / 15 = 360 / 3 = 12 times 15 chips per chip, so the next tokens complete this multiplication showing the maximum number of.",
+    "Math word problem walkthrough pattern: each answer shows calculation steps, ending with a numerical result.\n\nThe final answer \"126 eggs\" has been stated, and the solution is concluding with the division result showing maximum capacity.\n\nThe last token \"12 p.3. 27.\" is mid-sentence showing the computed integer result of 144 \u00f7 12 = 12 boxes, immediately requiring the closing digit(s) and likely a period or sentence-ending punctuation.\nFinal token \"36. 15.\" is the division result, completing the calculation of how many boxes can be made per day.\nFinal token \"13. 27.\" is the answer to the integer division, confirming \"15 eggs per box\" as the limiting factor.\nFinal token \"p.36.\" concludes the answer, confirming the maximum possible number of eggs per day.\n12."
+  ],
+  "input_sha256": "d118dab54c3c937b5b8765323d2f1b937a7da12093e75f2f46a17a904ed20f43",
+  "values": [
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "3/3",
+      "value": "1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "720",
+      "value": "720"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "1080",
+      "value": "1080"
+    },
+    {
+      "quote": "126",
+      "value": "126"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding duplicates and non-numeric identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"72\",\"value\":72},{\"quote\":\"2\",\"value\":2},{\"quote\":\"60\",\"value\":60},{\"quote\":\"3\",\"value\":3},{\"quote\":\"3/3\",\"value\":1},{\"quote\":\"12\",\"value\":12},{\"quote\":\"720\",\"value\":720},{\"quote\":\"21\",\"value\":21},{\"quote\":\"90\",\"value\":90},{\"quote\":\"360\",\"value\":360},{\"quote\":\"600\",\"value\":600},{\"quote\":\"300\",\"value\":300},{\"quote\":\"120\",\"value\":120},{\"quote\":\"180\",\"value\":180},{\"quote\":\"15\",\"value\":15},{\"quote\":\"24\",\"value\":24},{\"quote\":\"1080\",\"value\":1080},{\"quote\":\"126\",\"value\":126},{\"quote\":\"144\",\"value\":144},{\"quote\":\"27\",\"value\":27},{\"quote\":\"13\",\"value\":13}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding duplicates and non-numeric identifiers.\"}",
+  "prompt_sha256": "5403603a9f8aa9c051b142d37b1c51f67f9a9c1d26ed34a5a3da1c668a8a25fc"
+}

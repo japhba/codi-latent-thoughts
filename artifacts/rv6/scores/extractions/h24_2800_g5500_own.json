@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5500",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem setup requiring a numerical answer: equation 130x + 100y = $1300 must be solved for y.\n\nThe problem structure demands a specific integer solution, likely a small number (since 1300/10 = 130 tickets, implying y = 100 difference).\n\nFinal token \"is\" completes \"The number of cheap tickets is,\" directly requiring a numerical answer (likely \"100\") representing the unknown quantity of cheap tickets.\n1300 - 150*10 = 100 cheaper tickets, so the next token is the number of cheap tickets.\n(1300 - 150*10 price ratio).\n(100 tickets missing from equation).\n solve for y = (300/10) - (150x/1.",
+    "Mathematical problem-solving pattern: systematic elimination of answer choices with arithmetic reasoning, now computing expected value.\n\nThe expected value calculation requires completing the arithmetic expression: 15 people \u00d7 $10 each = $150 total score, then subtracting partial scores from remaining customers.\n\nFinal token \"have\" begins a clause explaining the maximum possible score from 150 customers, immediately requiring a dollar amount or numerical value (likely \"$150\" or \"15 \u00d7 $10\") representing the full points from the 150 customers who paid.\n150 points from all customers \u00d7 $10 for the first 10 customers, before accounting for the remaining customers' reduced scores.\n$15 \u00d7 $10 = $150 partial points from the 15 customers who score full marks.\nThen subtracting the remaining customers' lower scores (each \u00d7 $.",
+    "Math problem-solving walkthrough in progress: systematic elimination of answer choices using expected value calculation.\n\nThe solution is computing expected score: 100 students \u00d7 $10 each = $1000, then comparing to remaining answer options.\n\nFinal token \"15\" begins the arithmetic result of 10 men \u00d7 $15 score threshold, immediately requiring completion of this number (likely \"1500\" or \"150\") representing the maximum possible score from the 100 students who scored above $100.\nFor men scoring above $150, the remaining points must be calculated.\nFirst, compute 150 from 10\u00d7$15 for the top-scoring category before solving for women's points.\n1500 points from men scoring $10 each, then subtracting remaining students' scores to find the unknown number.\n(1.",
+    "Math problem-solving walkthrough in progress: solving x + 3x = $1500 using ticket pricing logic.\n\nThe solution is mid-calculation, having established that 100 tickets \u00d7 $10 = $1000 total revenue minus the 10 adults \u00d7 $15 base price, implying the remaining equation.\n\nFinal token \"150\" is the computed value of 100\u00d7$15, part of a logical equation showing inconsistency; next tokens will likely continue with \"so\" or a conjunction explaining the remaining unknown constraint.\nFinal token \"1500\" ends a partial arithmetic statement showing the total from adults alone exceeds $1500, immediately requiring a conclusion like \"so the remaining tickets must account for the difference.\"\n$1500 minus 3x = $1000 for children, setting up the equation to.",
+    "Math problem-solving walkthrough: solving for total number using revenue equation, showing step-by-step algebraic reasoning.\n\nThe equation setup requires completing the profit calculation: ($1300 total \u2212 $1200 original = $100 difference), then solving for n.\n\nFinal token \"p\" is mid-expression showing the profit value ($1300 \u2212 $150\u00d710 = $300), immediately requiring the numeric result \"$300\" or the algebraic continuation showing the unknown n.\n(1300 \u2212 150\u00d7100 = $300 difference, so solving for n = $100/100 = small number).\n(300 excess revenue from 1300 \u2212 1500 \u2212 $1200 = $300 error).\n\nFinal token \"p\" begins the.",
+    "Step-by-step math tutorial pattern: each example follows \"equation \u2192 solve \u2192 interpret\" structure, with worked examples shown sequentially.\n\nThe second example mirrors the first's format: equation setup, solving, and interpretation \u2014 the final step requires solving for the unknown variable (number of tickets).\n\nFinal token \"80.\" ends the equation showing the difference ($500 \u2212 $80x = $0), immediately requiring the next logical step: solving for x, likely \"Therefore, x = 100 / $10 = small number of tickets.\"\nFinal token \"0. 80.\" closes the remainder calculation showing the zero remainder constraint.\nFinal token \"300.\" ends the explanation of the second equation's constraint ($800 \u2212 $10x = $0 for free tickets).\n solve for x = 100 / $10 difference, yielding the small-number."
+  ],
+  "input_sha256": "652b3ee923ea8a9bfcb78538d610b8beddea1ba0d47bbba1cf83fdedd5de5154",
+  "values": [
+    {
+      "quote": "130x",
+      "value": "130"
+    },
+    {
+      "quote": "100y",
+      "value": "100"
+    },
+    {
+      "quote": "$1300",
+      "value": "1300"
+    },
+    {
+      "quote": "1300/10",
+      "value": "10"
+    },
+    {
+      "quote": "150*10",
+      "value": "150"
+    },
+    {
+      "quote": "300/10",
+      "value": "30"
+    },
+    {
+      "quote": "150x/1",
+      "value": "1"
+    },
+    {
+      "quote": "15 people",
+      "value": "15"
+    },
+    {
+      "quote": "100 students",
+      "value": "100"
+    },
+    {
+      "quote": "1000",
+      "value": "1000"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "3x",
+      "value": "3"
+    },
+    {
+      "quote": "$1200",
+      "value": "1200"
+    },
+    {
+      "quote": "$500",
+      "value": "500"
+    },
+    {
+      "quote": "$80x",
+      "value": "80"
+    },
+    {
+      "quote": "$0",
+      "value": "0"
+    },
+    {
+      "quote": "$800",
+      "value": "800"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic operands from the provided descriptions, including currency values and coefficients, while avoiding dates or unit conversions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"130x\",\"value\":130},{\"quote\":\"100y\",\"value\":100},{\"quote\":\"$1300\",\"value\":1300},{\"quote\":\"1300/10\",\"value\":10},{\"quote\":\"150*10\",\"value\":150},{\"quote\":\"300/10\",\"value\":30},{\"quote\":\"150x/1\",\"value\":1},{\"quote\":\"15 people\",\"value\":15},{\"quote\":\"100 students\",\"value\":100},{\"quote\":\"1000\",\"value\":1000},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"3x\",\"value\":3},{\"quote\":\"$1200\",\"value\":1200},{\"quote\":\"$500\",\"value\":500},{\"quote\":\"$80x\",\"value\":80},{\"quote\":\"$0\",\"value\":0},{\"quote\":\"$800\",\"value\":800}],\"justification\":\"Extracted explicit numeric literals and arithmetic operands from the provided descriptions, including currency values and coefficients, while avoiding dates or unit conversions.\"}",
+  "prompt_sha256": "d518bbd1e24fb1f11be2567d769f484da9413ea4e23e52d822cbc66af5ca48f6"
+}

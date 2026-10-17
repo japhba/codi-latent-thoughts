@@ -1,0 +1,109 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5104",
+  "kind": "own",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with percentages, establishing a clear continuation format (city name + percentage).\n\nNumerical data completion: the sentence lists cities with specific percentages, and \"New York City\" has been named but its percentage value is missing \u2014 the pattern demands a numeric value like \"5%\" or similar.\n\nFinal token \"around\" is a hedging adverb mid-sentence, immediately requiring a specific numerical percentage figure (e.g., \"5%\" or \"6%\") to complete the statistical claim about New York City's data availability.\n\"around 55%\" earlier suggests a similar percentage follows.\n\"around 85%\" earlier was stated \u2014 the model must resolve the table's \"58%\" figure, likely completing the hazard rating table row.\n\"55%\" or similar numeric value is the immediate next token.\n\"85%\" visual artifact: the table lists.",
+    "Review structure momentum: the text is mid-sentence completing a character analysis of the husband, expecting continuation of his traits/behavior.\n\nArgumentative pattern: the review systematically evaluates each character's role, so the husband's assessment will likely contrast with the wife's critique.\n\nFinal token \"4,\" is mid-sentence within a list or clause (\"4,\" likely enumerating the husband's flaws or relationships), immediately requiring continuation of the enumeration or a concluding evaluative statement about his character.\n\"4,\" signals a list or numbered point, with \"5\" or further numbered observations expected next.\n\"4,\" \"5,\" film analysis pattern established earlier suggests \"0\" or a contrasting clause follows \"4,\" completing the political opinion \"30 was 4,\" \u2014 the character label \"8\" relationship rating \"6\" plot point \"20\" conflict rating.\n\"4,\" \"30 was 5\".",
+    "Review structure momentum: article systematically covers book sections, now mid-analysis of the second section's argument about the book's content.\n\nTheological/analytical register: formal book review tone with evaluative commentary, expecting continued discussion of the book's themes and arguments.\n\nFinal token \"10\" is part of an incomplete enumeration (\"10 images\" or similar count), directly continuing the sentence \"it contains about 10 images\" \u2014 the next token must complete this numerical or descriptive phrase, likely \"images\" or a related visual/numerical claim.\n\"12\" or \"20\" theological images expected to follow \"about 20,\" completing the comparative statistical observation about the film's imagery.\n\"10\" theological images \"8\" visual images \"2\" biblical images \u2014 \"20\" seconds per image argument is the analytical conclusion being stated.\n\"14\" is \"2\".",
+    "Argumentative momentum: article has built toward presenting the book's thesis, now delivering statistical evidence and book summary.\n\nBook review genre conventions: after introducing the book's premise and statistics, the next expected content is elaboration of the book's argument or further data points.\n\nFinal token \"20\" completes \"about 20 percent,\" part of a statistical claim about the book's audience; the next tokens will likely continue with additional statistics, a contrasting figure, or a pivot explaining the book's significance.\n\"20 percent\" signals a concluding numerical statement, likely followed by \"percent\" or a clause explaining its implications.\n\"400,000 people\" religious context frames the news report's framing; \"10.4 percent\" moral statistic \"20,000\" media coverage \"40,000\" personal\" \u2014 the \"5.4 percent\" religious.",
+    "Argumentative momentum: article critiques the book's religious framing, building toward a concluding evaluative statement about the book's content.\n\nNews article citation pattern: the text has been summarizing the book's claims and now transitions to editorial commentary, expecting a summary of legal/religious distinctions.\n\nFinal token \"2\" ends a sentence fragment stating the book's legal distinction between \"religious\" and \"religious-political\" acts; the next tokens will likely complete or extend this analytical point, possibly with a citation or further qualification.\n\"2\" is a truncated number or footnote reference, immediately expecting either a period, further qualification, or continuation of the legal analysis.\n\"20\" or \"20%\" likely follows \"4 about 8 per cent\" \u2014 completing the statistical finding \"20 about 40\" or similar rating.\n\"2048 days\" spiritual penalty framework \"12 about 8.",
+    "Statistical survey pattern: percentages and survey data presented sequentially, establishing expectation for continued statistical findings or methodology details.\n\nLegal/statistical survey structure: the text follows a formal survey report format, with questions posed and results being systematically presented, suggesting more percentage breakdowns or interpretation follow.\n\nFinal token \"6%\" ends a percentage statement about survey responses, part of a structured list of survey findings; the next tokens will likely continue with additional percentage breakdowns or a concluding interpretive statement about the survey's implications.\n\"6%\" closes a percentage clause mid-sentence or at sentence end, immediately expecting either a period/punctuation completing the statistic, or continuation with another percentage category.\n\"6%\" likely concludes a question about survey responses, with the next tokens being either a period, further percentage data, or a transitional phrase introducing another finding.\n\"6%\" is the final token, completing a percentage statement about survey responses; it."
+  ],
+  "input_sha256": "13228586b51c20bffab861bfb6897ddeef1db1757897537d8b62f7be9491e92c",
+  "values": [
+    {
+      "quote": "55%",
+      "value": "55"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "58%",
+      "value": "58"
+    },
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    },
+    {
+      "quote": "4,",
+      "value": "4"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "400,000",
+      "value": "400000"
+    },
+    {
+      "quote": "10.4",
+      "value": "10.4"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "40,000",
+      "value": "40000"
+    },
+    {
+      "quote": "5.4",
+      "value": "5.4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2048",
+      "value": "2048"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, and cardinal numbers explicitly mentioned in the descriptions, including those within quotes or as part of statistical patterns.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"55%\",\"value\":55},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"58%\",\"value\":58},{\"quote\":\"5%\",\"value\":5},{\"quote\":\"6%\",\"value\":6},{\"quote\":\"4,\",\"value\":4},{\"quote\":\"30\",\"value\":30},{\"quote\":\"8\",\"value\":8},{\"quote\":\"6\",\"value\":6},{\"quote\":\"20\",\"value\":20},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"12\",\"value\":12},{\"quote\":\"2\",\"value\":2},{\"quote\":\"14\",\"value\":14},{\"quote\":\"400,000\",\"value\":400000},{\"quote\":\"10.4\",\"value\":10.4},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"40,000\",\"value\":40000},{\"quote\":\"5.4\",\"value\":5.4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"2048\",\"value\":2048}],\"justification\":\"Extracted all distinct numeric literals, percentages, and cardinal numbers explicitly mentioned in the descriptions, including those within quotes or as part of statistical patterns.\"}",
+  "prompt_sha256": "3371eb9eab0eb63edef97730c3300b7b91a13086958922712b659a94791a4ec0"
+}

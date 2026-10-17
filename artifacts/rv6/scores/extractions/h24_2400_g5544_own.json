@@ -1,0 +1,69 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5544",
+  "kind": "own",
+  "descriptions": [
+    "Word problem format signals a numerical answer is expected, likely a specific integer representing total eggs.\n\nThe problem establishes a word problem context requiring arithmetic: 7 days \u00d7 18 eggs/day, so the answer must be 7 \u00d7 18 = 126 eggs.\n\n\"The total number of eggs for the week is\" is an incomplete declarative sentence acting as a prompt/answer header, immediately requiring a numerical value (likely \"126\") as the next token.\n\"The weekly total is\" demands a direct numerical response.\n\"7 days \u00d7 18 eggs = 126 eggs.\"\n straightforward arithmetic answer expected next.\n\"The weekly total is 126 eggs.\"\n straightforward numerical completion.\n7 days \u00d7 17 eggs = daily total, so the next tokens will state \"126 eggs.\"\n17 eggs a day.\nThe immediate next token should be the number \"1.",
+    "Math word problem format expects a direct numerical answer, likely \"72\" or \"72 hours\" based on the arithmetic.\n\nThe word problem establishes a simple arithmetic operation (7 days \u00d7 6 eggs), so the solution will be straightforward.\n\n\"The total number of eggs for the week is is\" is a garbled/typo repetition of the problem statement, immediately preceding the expected solution answer, likely \"72\" or \"The weekly total is 72.\"\nFinal token \"is\" begins the solution statement, expecting a direct numerical result or calculation phrase like \"7 \u00d7 6 = 84 eggs.\"\n\"The number of eggs for a week is\" demands a predicate completing the arithmetic statement.\n straightforward answer expected next.\n\"7 days \u00d7 6 = 84 eggs daily\" or similar phrasing.\n straightforward solution to the multiplication problem.\nThe total is 18 eggs \u00d7 daily rate.",
+    "Math word problem format expects a direct numerical answer, likely \"144\" or \"144 miles\" completing the arithmetic.\n\nThe problem establishes a pattern of arithmetic reasoning: weekly distance \u00d7 total distance, suggesting a simple multiplication solution.\n\n\"Answer\\n\\n\\n\\nAnswer\\nans:Answer\" is a structured template artifact (likely a math-solving platform), immediately expecting the solution text or direct answer: \"144 miles over 7 days\" or \"The number of eggs is...\"\nFinal token \"Answer\\nans:Answer\" is a repeated label/field delimiter, expecting the actual answer content next.\n\"ans:1\" or \"The weekly total is 1\" is expected immediately.\n straightforward response expected.\n\"ans:1\" or \"144\" completing the solution field.\nTotal: 7 days \u00d7 1 continuous multiplication.\nThe answer is 144.",
+    "Math word problem format requires a numerical answer: \"7 weeks \u00d7 12 eggs = total eggs.\"\n\nThe problem establishes a word problem with a specific arithmetic solution expected, likely involving multiplication (7 days \u00d7 weekly rate).\n\nThe final token \"answerg\" is a garbled placeholder/placeholder text (likely \"answer\"), immediately preceding the actual solution text, which should be a direct numerical answer like \"84\" or \"84 eggs.\"\nFinal token \"answerg\" is a corrupted placeholder, suggesting the next tokens will be the actual solution explanation or the number \"84\" itself.\n\"answerg\" begins a structured answer section, likely continuing with \"84 eggs in a week\" or \"84 = 7 weeks \u00d7 1 week = total.\"\n weekly total = 7 \u00d7 12 = 84, so the next tokens should state this calculation.",
+    "Math word problem format: a word problem is followed by a solution/answer section, expecting a numerical answer (7 weeks \u00d7 12 eggs = total).\n\nThe arithmetic context requires the solution to be 84 eggs, so the next tokens will likely state the total or explain the calculation.\n\n\"answergiven\" is a garbled placeholder/label (likely \"answer\" or \"answergen\"), immediately expecting the actual answer text, e.g., \"84 eggs per week\" or \"The weekly total is 84.\"\nFinal token \"answergiven\" is a corrupted label preceding the solution content, constraining next tokens to be a direct numerical answer.\n7 days \u00d7 weekly rate = 84 eggs.\nA week = 7 days, so the next tokens will state \"84\" or \"84 eggs.\"\nThe standard arithmetic solution pattern demands a complete sentence.",
+    "Math word problem format: a word problem is followed by a numerical answer, expecting a specific integer (7 days \u00d7 8 eggs = 56 eggs).\n\nThe problem establishes a weekly arithmetic calculation, so the answer must be \"56\" representing the total eggs over 7 days.\n\n\"answergivenenius\" is a placeholder/template tag indicating the answer follows immediately; next tokens should be the numerical answer, likely \"56\" or \"The total is 56 eggs per week.\"\nFinal token \"answergivenius\" is a site/template label preceding the actual answer text.\n\"7 days\" or \"56 eggs\" is the expected continuation.\nThe immediate next tokens should state the weekly total.\n7 + weekly rate = 56.\n8 weeks \u00d7 7 = 56.\nThe answer is 56, so the next tokens will likely state this directly."
+  ],
+  "input_sha256": "07f58772bfb57b227b7947b6288969b5718b3397c29bd534eee1c9a1cab919c0",
+  "values": [
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "126",
+      "value": "126"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "84",
+      "value": "84"
+    },
+    {
+      "quote": "144",
+      "value": "144"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique exact quote found in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7\",\"value\":7},{\"quote\":\"18\",\"value\":18},{\"quote\":\"126\",\"value\":126},{\"quote\":\"17\",\"value\":17},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"72\",\"value\":72},{\"quote\":\"6\",\"value\":6},{\"quote\":\"84\",\"value\":84},{\"quote\":\"144\",\"value\":144},{\"quote\":\"12\",\"value\":12},{\"quote\":\"8\",\"value\":8},{\"quote\":\"56\",\"value\":56}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique exact quote found in the text.\"}",
+  "prompt_sha256": "0a785c33b76527f0e70719d7a0f5d469913dadc8b4f0201f3f0464fcdf3f3255"
+}

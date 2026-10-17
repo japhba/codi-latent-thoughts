@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5061",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: the text is presenting hazard ratios with confidence intervals, e.g., \"HR=1.99, 95% CI: 1.08-3.34,\" establishing a template for reporting findings.\n\nAcademic/journalistic reporting style: formal citation of study results with specific numerical data, requiring consistent presentation of hazard ratios and their associated findings.\n\nFinal token \"is\" opens a predicate completing \"The hazard of being in a crash is,\" directly requiring a numerical hazard ratio value (likely a decimal number such as \"1.99\" or similar) to follow immediately.",
+    "Narrative momentum of historical/political backstory: the plot summary is recounting the film's plot, and the sentence is mid-explanation of the family's motivation and the revelation's impact.\n\nCharacter and thematic context: the text is explaining the family's backstory and the film's moral, with the father's revelation about the plot driving the narrative forward.\n\nFinal token \"130 was 180\" is mid-sentence (\"150 was 123 was 24 was 180\"), a garbled repetition suggesting OCR/typo errors; the next tokens must complete the clause explaining what \"140 was\" \u2014 likely \"the\" or a number continuing the plot's historical revelation.",
+    "Q&A advice format with expert responses: pattern of question followed by practical relationship advice, now mid-example narrative requiring continuation of personal marriage tips.\n\nPractical list momentum: the text has been building a series of concrete examples (dating advice, marriage advice, now personal marriage story), suggesting more specific dating/relationship advice follows.\n\nFinal token \"13\" is part of \"13 years\" or \"12 years\" \u2014 a specific number mid-sentence (\"13 years of dating\"), immediately requiring completion of the time reference, likely \"13 years\" or \"12 years,\" followed by advice about marriage duration and personal health issues.",
+    "Narrative momentum toward a moral/lesson conclusion: the anecdote about the doctor's advice is being used to illustrate real-world application of the anecdote's advice, shifting from personal to professional context.\n\nPractical advice structure: the text has been building toward a cautionary example, and the medical anecdote serves as a concrete illustration of the \"do not share\" principle, with the doctor's story now requiring a concluding moral statement.\n\nFinal token \"10,000 people, 6000 was 60 people, so 80,000 was 100 people\" \u2014 this statistic mid-sentence (\"40,000 people, so 1500 people\") sets up the anecdote's conclusion, likely \"so I reported it\" or similar action completing the liability scenario.",
+    "Legal case analysis format: question posed, then answer explaining reasoning \u2014 the analysis is mid-explanation of the legal reasoning.\n\nNarrative momentum: the factual scenario has been established; the legal consequence (liability for negligence) is being elaborated, with the practical implication of the 10,000 guests now expected.\n\nFinal token \"10,000 people were 120 feet away, the police found 60 people were 20 feet away \u2014 1,800 feet total \u2014 10,000 guests \u2014 the sentence ends with \"140 people were present,\" completing the factual setup, immediately requiring the legal consequence clause (e.g., \"and the police were justified in their action\").",
+    "Statistical/analytical pattern: article presents BLS data with percentages and findings, expecting continued statistical interpretation of survey results.\n\nLegal/epidemiological domain with structured argument: the text is explaining methodology and findings of the survey, with expert commentary and data points supporting the \"90% of workers\" claim.\n\nFinal token \"69%\" ends a sentence fragment mid-thought (\"69% of the 90%...69% of the time...69% of the time...69% of the time\"), part of a statistical breakdown; next tokens likely continue with a specific percentage or transition to another data point or concluding interpretation."
+  ],
+  "input_sha256": "e8b30a84db3b1f807774480b1863cfa13ef69c2d8c4c77fad5495bef9a3f6dfa",
+  "values": [
+    {
+      "quote": "HR=1.99",
+      "value": "1.99"
+    },
+    {
+      "quote": "95% CI",
+      "value": "95"
+    },
+    {
+      "quote": "1.08-3.34",
+      "value": "1.08"
+    },
+    {
+      "quote": "1.08-3.34",
+      "value": "3.34"
+    },
+    {
+      "quote": "150 was 123",
+      "value": "150"
+    },
+    {
+      "quote": "150 was 123",
+      "value": "123"
+    },
+    {
+      "quote": "24 was 180",
+      "value": "24"
+    },
+    {
+      "quote": "24 was 180",
+      "value": "180"
+    },
+    {
+      "quote": "130 was 180",
+      "value": "130"
+    },
+    {
+      "quote": "140 was",
+      "value": "140"
+    },
+    {
+      "quote": "13 years",
+      "value": "13"
+    },
+    {
+      "quote": "12 years",
+      "value": "12"
+    },
+    {
+      "quote": "10,000 people",
+      "value": "10000"
+    },
+    {
+      "quote": "6000 was 60 people",
+      "value": "6000"
+    },
+    {
+      "quote": "6000 was 60 people",
+      "value": "60"
+    },
+    {
+      "quote": "80,000 was 100 people",
+      "value": "80000"
+    },
+    {
+      "quote": "80,000 was 100 people",
+      "value": "100"
+    },
+    {
+      "quote": "40,000 people",
+      "value": "40000"
+    },
+    {
+      "quote": "1500 people",
+      "value": "1500"
+    },
+    {
+      "quote": "120 feet away",
+      "value": "120"
+    },
+    {
+      "quote": "20 feet away",
+      "value": "20"
+    },
+    {
+      "quote": "1,800 feet total",
+      "value": "1800"
+    },
+    {
+      "quote": "140 people were present",
+      "value": "140"
+    },
+    {
+      "quote": "90% of workers",
+      "value": "90"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each value is mapped to its specific source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR=1.99\",\"value\":1.99},{\"quote\":\"95% CI\",\"value\":95},{\"quote\":\"1.08-3.34\",\"value\":1.08},{\"quote\":\"1.08-3.34\",\"value\":3.34},{\"quote\":\"150 was 123\",\"value\":150},{\"quote\":\"150 was 123\",\"value\":123},{\"quote\":\"24 was 180\",\"value\":24},{\"quote\":\"24 was 180\",\"value\":180},{\"quote\":\"130 was 180\",\"value\":130},{\"quote\":\"140 was\",\"value\":140},{\"quote\":\"13 years\",\"value\":13},{\"quote\":\"12 years\",\"value\":12},{\"quote\":\"10,000 people\",\"value\":10000},{\"quote\":\"6000 was 60 people\",\"value\":6000},{\"quote\":\"6000 was 60 people\",\"value\":60},{\"quote\":\"80,000 was 100 people\",\"value\":80000},{\"quote\":\"80,000 was 100 people\",\"value\":100},{\"quote\":\"40,000 people\",\"value\":40000},{\"quote\":\"1500 people\",\"value\":1500},{\"quote\":\"120 feet away\",\"value\":120},{\"quote\":\"20 feet away\",\"value\":20},{\"quote\":\"1,800 feet total\",\"value\":1800},{\"quote\":\"140 people were present\",\"value\":140},{\"quote\":\"90% of workers\",\"value\":90},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each value is mapped to its specific source quote.\"}",
+  "prompt_sha256": "c0238960061143e7d07faf7d36427aac9c7d835c3748b471e7585bad8e815ef5"
+}

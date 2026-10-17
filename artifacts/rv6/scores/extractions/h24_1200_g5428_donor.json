@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5428",
+  "kind": "donor",
+  "descriptions": [
+    "Word problem setup requires a numerical answer: \"7 days \u00d7 18 fish = 126 total fish produced.\"\n\nThe word problem format demands a direct numerical answer, likely formatted as a number (e.g., \"126\") followed by explanation.\n\n\"The total is\" is an incomplete declarative sentence acting as a prompt for the answer, immediately constraining the next token to be a number or numerical expression representing the weekly total.\n7 \u00d7 14 = 98, but the problem asks for total fish over 7 days, so the answer must be \"126.\"\n7 \u00d7 14 days = 98 fish, so the next token is almost certainly \"126\" or \"126 fish.\"\n7 \u00d7 18 per day.\nThe answer is expected next.\n7 \u00d7 18 = 126.",
+    "Math word problem setup requiring a simple arithmetic calculation, likely involving multiplication (7 days \u00d7 150 dollars).\n\nThe problem follows a word problem format: context established (\"7 days,\" \"150 dollars\"), now expecting the solution or calculation.\n\n\"The total is is\" is a grammatically awkward, redundant construction mid-sentence, immediately constraining the next token to be a number or calculation expression (e.g., \"7 \u00d7 150\" or \"simply\").\nThe final token \"is\" begins the solution statement, expecting a direct numerical answer or explanation like \"7 \u00d7 20 = 140\" or \"140 days.\"\nThe model must complete this sentence with the arithmetic result.\nThe simple arithmetic solution for 7 days \u00d7 a weekly rate is expected next.\nThe model must provide the straightforward multiplication answer.\nThe model must state the total cost calculation.",
+    "Math word problem format requires a numerical answer following the question prompt, likely a simple arithmetic calculation.\n\nThe problem establishes a weekly arithmetic pattern: \"7 days \u00d7 30 weeks = 210 miles\" or similar, so the answer will be a specific number.\n\n\"Answer:ANS:Answer\\nAnswerans\" is a template/placeholder pattern, immediately expecting a direct numerical response like \"2100\" or \"The answer is...\" or a worked solution explanation.\nThe next tokens should provide the actual answer content.\nThe model must generate a solution walkthrough or direct calculation for 7 days \u00d7 14 days \u00d7 100.\nThe prompt \"How many miles\" demands a numeric answer, likely starting with \"210\" or a sentence explaining multiplication logic.",
+    "Math word problem format requires a numerical answer following the question setup, likely \"720 miles\" or similar.\n\nThe problem establishes a weekly arithmetic pattern: 7 days \u00d7 30 days = 210 miles, so the solution involves multiplication (7 days \u00d7 500 miles).\n\n\"answerg\" is a misspelled prompt word, signaling the model should immediately provide the solution answer, likely starting with \"The total number of miles is...\" or a direct numerical response.\nThe next tokens must be the actual answer content.\nThe model must now generate the solution steps or direct answer to the 7-day weekly multiplication problem.\nThe immediate constraint is a numeric answer to 7 weeks \u00d7 5 days = 35 days, likely formatted as a sentence or calculation.\nThe answer is expected to be a number (e.g., \"3500 miles over a week\").",
+    "Math word problem format requires a numerical answer following the question setup, likely \"720 miles\" or similar.\n\nThe problem establishes a weekly total (7 days \u00d7 30 miles = 210 miles) and asks for a multi-week total, so the solution must use multiplication (7 days \u00d7 5 days \u00d7 100 miles).\n\nThe final token \"answergiven\" is a prompt/label indicating a structured answer is expected next, constraining the next tokens to be a direct numerical response, likely starting with \"The total distance is\" or a number.\nThe immediate next content should state the weekly or daily multiplication result.\nThe pattern demands a complete answer to the 7-day weekly calculation.\n7 days \u00d7 5 days = 35 days, so the answer involves multiplication of 35 \u00d7 100 or a general formula for weekly totals.",
+    "Math word problem format requires a numerical answer following the question setup, likely \"720 miles\" or similar.\n\nThe problem establishes a weekly total (7 days \u00d7 30 miles = 210 miles) and asks for a multi-week total, so the answer must address 7 days \u00d7 5 days = 35 days.\n\nThe final token \"answergivenius\" is a prompt/label indicating a structured answer is expected next, constraining the next tokens to be a direct numerical response, likely \"The total distance is 2100 miles\" or similar declarative statement.\nThe model must provide the calculated weekly/annual mileage sum.\n7 days \u00d7 500 miles = 3500 miles over a week, so the answer will state this specific number."
+  ],
+  "input_sha256": "daacb0a90c4b45003b3ce57f0d2e3adae80fd1fa64377e6b981b39cb493a370e",
+  "values": [
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "18 fish",
+      "value": "18"
+    },
+    {
+      "quote": "126 total fish",
+      "value": "126"
+    },
+    {
+      "quote": "7 \u00d7 14 = 98",
+      "value": "14"
+    },
+    {
+      "quote": "7 \u00d7 14 = 98",
+      "value": "98"
+    },
+    {
+      "quote": "150 dollars",
+      "value": "150"
+    },
+    {
+      "quote": "7 \u00d7 20 = 140",
+      "value": "20"
+    },
+    {
+      "quote": "7 \u00d7 20 = 140",
+      "value": "140"
+    },
+    {
+      "quote": "30 weeks",
+      "value": "30"
+    },
+    {
+      "quote": "210 miles",
+      "value": "210"
+    },
+    {
+      "quote": "2100",
+      "value": "2100"
+    },
+    {
+      "quote": "7 days \u00d7 14 days \u00d7 100",
+      "value": "100"
+    },
+    {
+      "quote": "720 miles",
+      "value": "720"
+    },
+    {
+      "quote": "30 days",
+      "value": "30"
+    },
+    {
+      "quote": "500 miles",
+      "value": "500"
+    },
+    {
+      "quote": "7 weeks \u00d7 5 days = 35 days",
+      "value": "5"
+    },
+    {
+      "quote": "7 weeks \u00d7 5 days = 35 days",
+      "value": "35"
+    },
+    {
+      "quote": "3500 miles",
+      "value": "3500"
+    },
+    {
+      "quote": "30 miles",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned in the descriptions, including operands and results of arithmetic expressions provided in the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"18 fish\",\"value\":18},{\"quote\":\"126 total fish\",\"value\":126},{\"quote\":\"7 \\u0026times; 14 = 98\",\"value\":14},{\"quote\":\"7 \\u0026times; 14 = 98\",\"value\":98},{\"quote\":\"150 dollars\",\"value\":150},{\"quote\":\"7 \\u0026times; 20 = 140\",\"value\":20},{\"quote\":\"7 \\u0026times; 20 = 140\",\"value\":140},{\"quote\":\"30 weeks\",\"value\":30},{\"quote\":\"210 miles\",\"value\":210},{\"quote\":\"2100\",\"value\":2100},{\"quote\":\"7 days \\u0026times; 14 days \\u0026times; 100\",\"value\":100},{\"quote\":\"720 miles\",\"value\":720},{\"quote\":\"30 days\",\"value\":30},{\"quote\":\"500 miles\",\"value\":500},{\"quote\":\"7 weeks \\u0026times; 5 days = 35 days\",\"value\":5},{\"quote\":\"7 weeks \\u0026times; 5 days = 35 days\",\"value\":35},{\"quote\":\"3500 miles\",\"value\":3500},{\"quote\":\"30 miles\",\"value\":30}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned in the descriptions, including operands and results of arithmetic expressions provided in the text.\"}",
+  "prompt_sha256": "e79a890722a9c8c475fe83f62bc164e78ba594c40719d76107792ea12edba1a9"
+}

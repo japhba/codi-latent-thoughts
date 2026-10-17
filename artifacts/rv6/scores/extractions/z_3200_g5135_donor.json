@@ -1,0 +1,57 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5135",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article consistently presents paired statistics (total + average), so a dollar figure or percentage follows \"is the average.\"\n\nComparative structure momentum: the sentence contrasts U.S. spending on travel against other countries, implying a specific country or region name completes the comparison.\n\nFinal token \"the\" opens a noun phrase completing \"average amount of money...is the [country/region]\" \u2014 a specific proper noun (likely a country name) is immediately required to close this factual financial comparison sentence.\n\"the average amount of money...is the\" demands a dollar amount or country name next.\n\"the is $1,000\" or similar monetary figure is the expected continuation.\n\"the average is $1,068\" or similar budget figure is mid-sentence, requiring product/price details or a new sentence about travel spending.\n\"and is the\" financial breakdown table or budget.",
+    "Structured list pattern: each entry follows \"Title (Year) / runtime / genres / description\" format, repeating consistently throughout.\n\nThe text is mid-sentence in a movie description for \"The Young Victoria,\" following the established template of listing cast, crew, and product details.\n\nFinal token \"is 1\" begins a numeric value (likely \"1950s\" or a year like \"1950s\" or a product count), constrained to complete a factual film metadata field within the \"The Young Victoria\" entry's description.\n\"15 is 1\" suggests a truncated list or numbered item, immediately expecting continuation of the product/numbering pattern.\n\"155\" or a numbered list item follows, completing the store count or a ranked entry.\n\"65 is 1\" dating site or similar credit line is \"71\" \u2014 the product listing format \"1.",
+    "Structured list pattern: each category follows \"Title: description\" format, with \"Shop by Category\" and \"Shop by Type\" sections already completed, suggesting another category or navigation element follows.\n\nE-commerce product listing context: the page systematically lists navigation options, categories, and subcategories for a women's fashion e-commerce site.\n\nFinal token \"Available\" ends a truncated product listing description (\"Shop by Type: Available\"), likely part of a navigation breadcrumb or category label, expecting continuation such as a product count, filter description, or new category entry.\n\"Available\" is mid-phrase, likely part of a table or list of product types.\n\"Available\" is a truncated word/label, immediately expecting either a product count, a category name, or a new navigation element.\n\"Available\" is the final token, part of a breadcrumb or table label, expecting \"Available\" to be followed by a product listing.",
+    "Structured list pattern: each entry follows \"Part Name\" then \"Description\" format, repeating consistently throughout the table.\n\nThe text is mid-table, listing product entries with pipe-delimited fields; the pattern requires a product description to follow the part name.\n\nFinal token \"Part\" ends an incomplete product title \"Cable Kit for 1996 Toyota Tacoma Front Lowering Link Cable Kit\" \u2014 the table structure demands a closing pipe \"|\" followed by a product description sentence.\n\"Front Lowering Link Cable Kit\" is the table cell content, so the next token is almost certainly \"|\" to close the cell, then a new product row or table continuation.\n\"Front Lowering Link Cable Kit\" is the product name cell, immediately requiring \"|\" to close the table row.\n\"Front Lowering Link Cable Kit\" table row is open, requiring the closing pipe and then a new product listing row.\n\"Front Lower.",
+    "Structured list pattern: the text is mid-table, listing pipe-delimited rows with part numbers, descriptions, and counts, following a consistent format like \"|Part #||Description||Count|\".\n\nThe table has established a repeating pattern of pipe-delimited entries, each containing a product name, table number, and count, suggesting more rows or a closing pipe character follows.\n\nFinal token \"1|\" closes a table cell in the pipe-delimited product table; the next token is almost certainly \"|\" to close the row, followed by another \"|Part #||...\" row or end of table.\n\"1|\" is the closing cell of a pipe-delimited product table row, immediately requiring \"|\" to close it.\n\"1|\" is the table row's final cell, and the surrounding product listing pattern suggests another \"|Part #||...\" row or table end follows.\n\"1|\" closes the table row, and the pipe character signals.",
+    "Structured table/list pattern: pipe-delimited rows with label-value pairs, established by \"Number of Pages\" and \"Number of Pages Range\" entries, suggesting more rows follow.\n\nThe table lists pipe-delimited fields with consistent formatting; the pattern of label-value pairs continues, with product details like page count, dimensions, or format expected next.\n\nFinal token \" Range||\" closes a table cell in a pipe-delimited row, immediately requiring the closing pipe \"|\" followed by a new table row or section header continuing the pipe-delimited format.\n\"||\" is the closing delimiter of the current cell, so the next token must be \"|\" to close the row, then likely another product table row or new section header.\n\"||\" is the table cell delimiter, requiring \"|\" to close the cell, then a price or pipe-delimited cell value.\n\"||\" table structure is mid-sequence, with the pipe character."
+  ],
+  "input_sha256": "14d61e4e2ba59a9f36229b15534105946c0db4f9aff23a1e35a6d13bde7c468f",
+  "values": [
+    {
+      "quote": "$1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "$1,068",
+      "value": "1068"
+    },
+    {
+      "quote": "is 1",
+      "value": "1"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "71",
+      "value": "71"
+    },
+    {
+      "quote": "1996",
+      "value": "1996"
+    },
+    {
+      "quote": "1|",
+      "value": "1"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and currency values from the provided descriptions, including those within quotes or as part of truncated list patterns.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"$1,000\",\"value\":1000},{\"quote\":\"$1,068\",\"value\":1068},{\"quote\":\"is 1\",\"value\":1},{\"quote\":\"15\",\"value\":15},{\"quote\":\"155\",\"value\":155},{\"quote\":\"65\",\"value\":65},{\"quote\":\"71\",\"value\":71},{\"quote\":\"1996\",\"value\":1996},{\"quote\":\"1|\",\"value\":1}],\"justification\":\"Extracted explicit numeric literals and currency values from the provided descriptions, including those within quotes or as part of truncated list patterns.\"}",
+  "prompt_sha256": "a41828c953ee1ef2f3452950c7d190132dd887489813c314affc6cc53f6ced69"
+}

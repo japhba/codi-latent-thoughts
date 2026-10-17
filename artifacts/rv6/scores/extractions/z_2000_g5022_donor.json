@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 2000,
+  "uid": "g5022",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents city-by-city data with percentages, establishing a template of \"city name + percentage + raw count\" that must continue.\n\nNumerical data completion: the sentence lists cities with percentages and raw counts; the pattern requires completing the final city's data (percentage and raw count for the last city).\n\nFinal token \"5%\" is mid-sentence, completing a percentage value for a city's hazard rating; the immediate next tokens must be the raw count (e.g., \"5%\" followed by a number like \"55\" or similar), then likely a period or continuation of the statistical summary.\n\"58%\" hazard rating result just stated, so the next token completes the numeric value or transitions to a concluding statement about the dataset.\n\"58%\" hazard rating result is mid-sentence, requiring a numeric percentage value or decimal to complete the probability figure.\n\"85%\".",
+    "Character relationship summary pattern: the text is listing traits of each character in a structured, formulaic style, suggesting continuation of this enumeration.\n\nNarrative momentum toward romantic advice: the review has shifted to direct reader address (\"you should\"), building toward actionable relationship tips or warnings about the show's dynamics.\n\nFinal token \"600,\" ends a numerical list of character traits mid-enumeration; the comma signals continuation of the list, likely adding more numbers or a concluding clause about the relationship dynamic.\n\"600,\" implies a larger number or a contrasting \"600, 600\" repetition, suggesting the next tokens complete a phrase like \"600, 600\" or \"60 minutes\" \u2014 likely \"60 65 minutes\" or similar rating continuation.\n\"600,\" emotional reaction \"6 hours\" scene reference \"4 6 hours\" relationship.",
+    "Instructional listicle format with numbered tips and bullet points guides continuation of practical advice about ingredient substitution.\n\nThe sentence ending mid-thought (\"15 minutes\" or similar) signals a specific quantity or duration recommendation is being completed, likely followed by additional ingredient substitution tips or a closing summary.\n\nFinal token \"15\" is part of an incomplete numerical phrase (\"15 minutes\" or \"150 minutes\"), requiring immediate completion of that measurement before the sentence concludes.\n\"15\" likely continues as \"150 minutes\" or a product recommendation, constrained to a number completing the ingredient substitution instruction.\n\"150\" food/recipe website style with spiritual wellness framing suggests practical cooking tips follow.\n\"150\" visual content \"155\" or \"15 minutes\" prayer \u2014 \"120 minutes\" paired with \"15\" suggests a paired list of paired tips or ingredient.",
+    "Article structure: listicle format with bold headers introducing each point; a new section \"The importance of...\" is mid-explanation, requiring elaboration on why social media is harmful.\n\nArgumentative momentum: the piece builds toward practical advice, with statistics and expert quotes supporting the thesis; a concluding recommendation or summary is expected.\n\nFinal token \"60\" ends an incomplete sentence (\"60 percent of the time...60\"), likely continuing with a noun phrase like \"percent of the time\" or a list of examples completing the enumerated argument.\n\"60\" likely continues a parallel structure (\"60 percent of the time...60\"), suggesting spiritual/religious framing of the listicle's practical takeaways.\n\"200\" food items \"150\" images \"60\" arguments \u2014 the \"200 per image\" statistic \"50 per argument\" dietary advice mirrors the article's.",
+    "Statistical argument building toward a conclusion: article presents data (1 in 10 Americans, 20% increase) to support a broader claim about social media's negative effects.\n\nArgumentative momentum: the piece has systematically built toward a call-to-action or summary statement, likely urging readers to reconsider social media use.\n\nFinal token \"200,000\" ends a calculation (\"200,000 per day\"), part of a concluding analytical sentence; next tokens will likely complete the article's final recommendation or statistic, possibly contrasting media's influence with the article's own 200,000-per-day framing.\n\"200,000 per day\" signals a ranked comparison or ranked list of harmful statistics is imminent.\n\"241 per day\" moral weight framing \"14,802 per day\" article rating suggests a product recommendation or.",
+    "Theological analysis pattern: each section poses a question then answers it, establishing expectation for continued explanation of practical implications.\n\nArgumentative momentum: the text has systematically built toward actionable advice, with the final section heading promising a structured list of practical considerations for Christian women.\n\nFinal token \"100%\" closes a sentence explaining the rule's applicability, immediately preceding the expected enumeration of practical considerations (e.g., \"First,\" \"Second,\" or a numbered list of theological/practical factors).\n\"100%\" ends a declarative statement summarizing the rule's applicability, signaling the next tokens will introduce the analytical framework or list promised by the section heading.\n\"2,000\" film\" theological reflection\" is 8.45 points; the rule's practical application \"1004\" is 2,585 \u2014 the biblical text \"First, 52 meeting\"."
+  ],
+  "input_sha256": "ccedafc496d1d5479ba92b675b734ea75972f4a09e93531c23472637f49f287d",
+  "values": [
+    {
+      "quote": "5%",
+      "value": "5"
+    },
+    {
+      "quote": "58%",
+      "value": "58"
+    },
+    {
+      "quote": "85%",
+      "value": "85"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "6 hours",
+      "value": "6"
+    },
+    {
+      "quote": "4 6 hours",
+      "value": "4"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "155",
+      "value": "155"
+    },
+    {
+      "quote": "120 minutes",
+      "value": "120"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "50 per argument",
+      "value": "50"
+    },
+    {
+      "quote": "1 in 10",
+      "value": "1"
+    },
+    {
+      "quote": "1 in 10",
+      "value": "10"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "241 per day",
+      "value": "241"
+    },
+    {
+      "quote": "14,802 per day",
+      "value": "14802"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "8.45 points",
+      "value": "8.45"
+    },
+    {
+      "quote": "1004",
+      "value": "1004"
+    },
+    {
+      "quote": "2,585",
+      "value": "2585"
+    },
+    {
+      "quote": "52 meeting",
+      "value": "52"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5%\",\"value\":5},{\"quote\":\"58%\",\"value\":58},{\"quote\":\"85%\",\"value\":85},{\"quote\":\"600\",\"value\":600},{\"quote\":\"6 hours\",\"value\":6},{\"quote\":\"4 6 hours\",\"value\":4},{\"quote\":\"15\",\"value\":15},{\"quote\":\"150\",\"value\":150},{\"quote\":\"155\",\"value\":155},{\"quote\":\"120 minutes\",\"value\":120},{\"quote\":\"60\",\"value\":60},{\"quote\":\"200\",\"value\":200},{\"quote\":\"50 per argument\",\"value\":50},{\"quote\":\"1 in 10\",\"value\":1},{\"quote\":\"1 in 10\",\"value\":10},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"241 per day\",\"value\":241},{\"quote\":\"14,802 per day\",\"value\":14802},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"8.45 points\",\"value\":8.45},{\"quote\":\"1004\",\"value\":1004},{\"quote\":\"2,585\",\"value\":2585},{\"quote\":\"52 meeting\",\"value\":52}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "8c36e1ac6e4678c31dc7486513f678fc074721c8a1a6a762f2b65deed0d67557"
+}

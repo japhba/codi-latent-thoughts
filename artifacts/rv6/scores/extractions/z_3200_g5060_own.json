@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5060",
+  "kind": "own",
+  "descriptions": [
+    "Financial comparison pattern: article systematically lists price differences between two products, establishing a rhythm of \"X is more than Y\" comparisons.\n\nStructured list continuation: the sentence enumerates specific price comparisons (100g, 200g, 500g) and is mid-sentence listing additional product comparisons, implying more items or a concluding clause follows.\n\nFinal token \"is\" opens a predicate clause mid-sentence, requiring a price figure or comparative statement (e.g., \"still more than...\" or a specific dollar amount) to complete the financial comparison.\n\"available is\" \u2014 likely a typo for \"available is\" or the start of a new clause, immediately requiring a price or descriptive phrase.\n\"still more than\" or similar comparative completion expected next.\n\"still available is\" \u2014 the sentence structure demands a dollar amount or quantity completing the budget comparison.\n\"still available is\" \u2014.",
+    "Product listing format with bullet-pointed feature descriptions, establishing a pattern of spec details and selling points for a retail item.\n\nThe text is mid-sentence completing a product description for the \"100% Cotton\" item, following the established pattern of listing material, origin, and quality details.\n\nFinal token \"5\" is part of an incomplete number (\"500\" or similar), mid-sentence describing the product's size/weight, requiring immediate numeric continuation to complete the measurement or specification.\n\"6 is 5\" or a price/weight figure completing the product description sentence.\n\"58\" or a product name follows.\n\"68\" or a rating/price detail completing the sentence about the product's specifications.\n\"56 available\" or similar \u2014 the truncated \"159 is 6\" pattern suggests a list of product attributes or a promotional claim follows \"available\" relationship rating.",
+    "Structured list pattern: each product entry follows \"Name, Brand, gender, age range, description\" format, suggesting continuation of this e-commerce catalog style.\n\nThe text is mid-sentence in a product listing section, having just introduced \"The following is a list of the products that are available\" \u2014 a table or enumerated product list is expected next.\n\nFinal token \"available\" closes a setup clause (\"available\"), immediately requiring a colon or line break followed by a structured list of product names, likely formatted as bullet points or table rows.\n\"Available\" is the final word of a product availability notice, acting as a section header; next tokens should be a product listing or navigation element.\n\"Available\" is part of an incomplete e-commerce product table/list, with \"Available\" likely followed by a price, table, or product grid.\n\"Available\" is a truncated navigation label \"Available\" table/list, with.",
+    "Structured list pattern: each product entry follows a template \u2014 description, then \"Price: \u00a3X.XX\" \u2014 establishing strong repetition momentum.\n\nE-commerce product listing format: the page systematically lists all 10 items with consistent fields (name, description, price), implying remaining entries or table rows follow.\n\nFinal token \"available\" ends a table cell mid-sentence (\"available\"), part of a product table row; the next token must close this cell with \"|\" and likely continue with additional table rows or product details.\n\"available\" is the final word of an incomplete table cell, requiring \"|\" to close it, then likely more product rows or a closing table element.\n\"Available\" is the last token, mid-cell in a product table row, immediately requiring \"|\" to close the cell.\n\"Available\" price table syntax or product listing continuation follows.\n\"Available\" is the final token, part of a price table.",
+    "Structured list pattern: each product entry follows \"Name, description, truncated with ellipsis\" format, establishing strong repetition.\n\nE-commerce product listing context: the text is a search results page for \"Calvin Klein Luxe Unsolid,\" showing related items with consistent formatting including product names, descriptions, and truncated previews.\n\nFinal token \"available\" ends a truncated product description for \"Calvin Klein Luxe Unsolid,\" mid-sentence, immediately expecting continuation of the table/list pattern \u2014 likely more product listings or a closing table row.\n\"Available\" is part of a truncated table cell, suggesting the next tokens continue the table structure or pricing/availability details.\n\"Available\" is a table cell value, likely followed by more product rows or a price display.\n\"Available\" is the final token, part of a product table row, immediately expecting table markup, a price, or a new product row.\n\"Available.",
+    "Structured list pattern: each product entry follows a template \u2014 description, then \"Price: \u00a3X.XX\" \u2014 establishing strong repetition momentum.\n\nE-commerce product listing format: the page systematically lists all 10 items with consistent fields (name, description, price), implying remaining entries or table rows follow.\n\nFinal token \"available\" ends a table cell mid-sentence (\"available\"), part of a product availability table row, immediately expecting a closing pipe \"|\" or continuation of the table structure with additional product details.\n\"available\" is the final word of an incomplete product listing cell, likely followed by \"|\" or a newline continuing the table format.\n\"Available\" is the last token, part of a product availability table row, expecting a closing delimiter or product name continuation.\n\"Available\" is a table cell value, and the next token is almost certainly \"|\" to close the cell, or price/product details.\n\"Available\"."
+  ],
+  "input_sha256": "42e6ae4a27f72a3eb40a2d8bc22b5e3e555b83ef7affe4cc2168132ce32486a6",
+  "values": [
+    {
+      "quote": "100g",
+      "value": "100"
+    },
+    {
+      "quote": "200g",
+      "value": "200"
+    },
+    {
+      "quote": "500g",
+      "value": "500"
+    },
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "58",
+      "value": "58"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "159",
+      "value": "159"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including weights (100g, 200g, 500g), percentages (100%), and standalone integers (5, 58, 68, 159, 6, 10) found within the text fragments.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100g\",\"value\":100},{\"quote\":\"200g\",\"value\":200},{\"quote\":\"500g\",\"value\":500},{\"quote\":\"100%\",\"value\":100},{\"quote\":\"5\",\"value\":5},{\"quote\":\"58\",\"value\":58},{\"quote\":\"68\",\"value\":68},{\"quote\":\"159\",\"value\":159},{\"quote\":\"6\",\"value\":6},{\"quote\":\"10\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including weights (100g, 200g, 500g), percentages (100%), and standalone integers (5, 58, 68, 159, 6, 10) found within the text fragments.\"}",
+  "prompt_sha256": "bb84d84abfc735b43b36b38ad278d6176460e105975b1bd736283c291372d4cc"
+}

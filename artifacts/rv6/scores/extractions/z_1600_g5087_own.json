@@ -1,0 +1,105 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5087",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: article presents study findings with specific percentages, now detailing methodology and data sources, expecting continued numerical results.\n\nAcademic citation structure: the text is mid-sentence describing a specific finding about the 2016 dataset, with a list of visualizations (\" maps, tables, and charts\") already completed, suggesting continuation of the analytical summary.\n\nFinal token \"is\" opens a predicate clause completing the sentence about the 2016 dataset's findings \u2014 immediately expects a descriptive adjective or noun phrase characterizing the dataset's properties or conclusions.\n\"2 is is\" suggests a typo mid-sentence; the model must continue the interrupted predicate describing the film's classification or significance.\n\"2 is is\" likely precedes a rating or descriptor like \"likely\" or a numerical finding, constrained by the preceding \"likely to be\" framing.\n\"2 is\" ends the sequence mid.",
+    "Continuation of a specific historical/analytical point about the article's content, requiring elaboration on the \"12 pages\" detail and its cultural significance.\n\nThe listicle format and expert commentary pattern suggests more specific examples or quotes from the book are expected, maintaining the reflective, educational tone.\n\nFinal token \"12,\" is mid-sentence, part of a numerical reference (\"about 12,\") likely continuing with a specific age or time period (e.g., \"12 pages\" or \"12 143 pages\"), completing the historical observation about the image's age.\n\"12 123 was about 123\" or similar numerical continuation of the personal anecdote about the 12-year-old's memory, requiring \"143\" or a similar number completing the scene.\n\"12 123 was about 123.\"",
+    "Book review format established: summary of content expected, continuing the historical narrative about the book's themes and revelations.\n\nTheological/religious framing dominates: the text is explaining the book's premise about Jesus's identity, with the author's research findings being elaborated.\n\nFinal token \"3\" is mid-sentence, completing \"300 people\" or similar statistic \u2014 the number \"3\" begins a specific count or descriptor of the group, immediately requiring continuation of that numerical or descriptive phrase.\n\"3 0 0 people\" or \"3.0 3 0 0\" pattern suggests a revealing disclosure about the group's identity, likely completing \"3 3 0 0\" or similar numerical revelation about the 3.5% statistic.\n\"3 50 people\" or similar fraud-related disclosure is the immediate expectation, completing the medical/social fraud context.\n\"3 0.\"",
+    "News article reporting factual details about a book, following a structured summary format with historical background and plot synopsis.\n\nThe text is mid-sentence completing a statistical finding about the book's content, establishing a pattern of presenting evidence and historical context about the 1946 study.\n\nFinal token \"30,000 about 40 percent of the book's content was about 30,000\" \u2014 this is a numerical repetition error mid-sentence, and the next tokens must complete the factual finding, likely continuing with \"percent of the film\" or similar correction/clarification of the statistical error.\n\"about 400 people\" or similar crime-related detail completing theforensics finding \"30,000 about 6.3 percent of the film\" \u2014 the legal/forensic narrative demands continuation of the 5400 case count.",
+    "Structured Bible study format with numbered questions and case studies, establishing a pattern of presenting legal/religious case studies with scripture references.\n\nThe text is mid-sentence completing a historical/legal analysis of the 1999 case, with academic/legal register and citation style (author, title, page).\n\nFinal token \"12.\" ends a numerical statistic (\"about 12\"), part of a factual legal finding; next tokens will likely continue the statistic or elaborate on the percentage \"about 12.3\" or transition to the historical/legal context of the 12-year case.\n\"about 12.3 about 12\" suggests a transcription error mid-number, but the sentence continues with \"1.4 people\" or similar numerical completion of the statistical finding.\n\"30 about 12\" is mid-sentence, likely continuing with \"26\" or a percentage figure completing.",
+    "Structured list pattern: statistical data presented as bullet points with percentages, establishing a formal legal/statistical reference format throughout.\n\nContinuation of analytical commentary: the text has been systematically explaining BLS survey methodology, now transitioning to interpretive notes about specific questions and their statistical findings.\n\nFinal token \"69%\" closes a specific question reference (\"69% of respondents\"), immediately expecting continuation of the interpretive note\u2014likely another percentage, a new question, or a transitional phrase like \"The remaining questions...\" or \"The next question...\"\n\"69% of respondents\" ends a sentence mid-analysis, suggesting the next tokens will introduce another percentage or sub-question from the survey.\n\"69% of 69%\" or a new section header follows the statistical interpretation pattern established.\n\"69% of 69%\" is a typo mid-sentence, but the surrounding context expects a closing punctuation or continuation."
+  ],
+  "input_sha256": "a906b574ad7f2f1eabc91da3a2b70437661eb347a61143799b77a37b7f69face",
+  "values": [
+    {
+      "quote": "12 pages",
+      "value": "12"
+    },
+    {
+      "quote": "12 143 pages",
+      "value": "12"
+    },
+    {
+      "quote": "12 143 pages",
+      "value": "143"
+    },
+    {
+      "quote": "12 123 was about 123",
+      "value": "12"
+    },
+    {
+      "quote": "12 123 was about 123",
+      "value": "123"
+    },
+    {
+      "quote": "300 people",
+      "value": "300"
+    },
+    {
+      "quote": "3.5% statistic",
+      "value": "3.5"
+    },
+    {
+      "quote": "3 50 people",
+      "value": "3"
+    },
+    {
+      "quote": "3 50 people",
+      "value": "50"
+    },
+    {
+      "quote": "30,000",
+      "value": "30000"
+    },
+    {
+      "quote": "40 percent",
+      "value": "40"
+    },
+    {
+      "quote": "400 people",
+      "value": "400"
+    },
+    {
+      "quote": "6.3 percent",
+      "value": "6.3"
+    },
+    {
+      "quote": "5400 case count",
+      "value": "5400"
+    },
+    {
+      "quote": "1999 case",
+      "value": "1999"
+    },
+    {
+      "quote": "12.3",
+      "value": "12.3"
+    },
+    {
+      "quote": "1.4 people",
+      "value": "1.4"
+    },
+    {
+      "quote": "30 about 12",
+      "value": "30"
+    },
+    {
+      "quote": "30 about 12",
+      "value": "12"
+    },
+    {
+      "quote": "26",
+      "value": "26"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, ensuring each value is mapped to its specific textual context.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"12 pages\",\"value\":12},{\"quote\":\"12 143 pages\",\"value\":12},{\"quote\":\"12 143 pages\",\"value\":143},{\"quote\":\"12 123 was about 123\",\"value\":12},{\"quote\":\"12 123 was about 123\",\"value\":123},{\"quote\":\"300 people\",\"value\":300},{\"quote\":\"3.5% statistic\",\"value\":3.5},{\"quote\":\"3 50 people\",\"value\":3},{\"quote\":\"3 50 people\",\"value\":50},{\"quote\":\"30,000\",\"value\":30000},{\"quote\":\"40 percent\",\"value\":40},{\"quote\":\"400 people\",\"value\":400},{\"quote\":\"6.3 percent\",\"value\":6.3},{\"quote\":\"5400 case count\",\"value\":5400},{\"quote\":\"1999 case\",\"value\":1999},{\"quote\":\"12.3\",\"value\":12.3},{\"quote\":\"1.4 people\",\"value\":1.4},{\"quote\":\"30 about 12\",\"value\":30},{\"quote\":\"30 about 12\",\"value\":12},{\"quote\":\"26\",\"value\":26},{\"quote\":\"69%\",\"value\":69}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and percentages from the provided descriptions, ensuring each value is mapped to its specific textual context.\"}",
+  "prompt_sha256": "012cb630f642719b095dec8471be9b14416ee96d867d640b0819789306fc87e5"
+}

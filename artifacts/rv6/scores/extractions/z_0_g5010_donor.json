@@ -1,0 +1,41 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5010",
+  "kind": "donor",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence ending mid-statistic (\"10.5% of the 1,000 male players\") is completing a specific numerical finding about the 10% threshold, requiring the remaining percentage or comparative figure to finish the data point.\n\nThe final token \"10.\" is a truncated decimal number mid-sentence, part of a statistical comparison; the immediate next token must be a digit (likely \"5\" or \"0\") completing the percentage figure.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the husband's reaction, building toward a conclusion about the film's emotional impact on him.\n\nCharacter relationship dynamic: the husband's \"cold\" personality is being contrasted with his emotional response to the film, suggesting a \"but\" or reversal is coming.\n\nFinal token \"was\" opens a past-tense predicate clause describing the husband's emotional state or reaction \u2014 likely a specific adjective or verb phrase like \"moved,\" \"moved to cry,\" or \"moved by the story.\"\n</explanation>",
+    "Narrative momentum: the article is recounting the sequence of events leading to the fatal crash, building toward the collision itself.\n\nChronological/causal chain: the story has been tracing events step-by-step (driving \u2192 phone distraction \u2192 crash), and the final sentence is mid-description of the crash sequence, requiring completion of the collision details.\n\nFinal token \"17\" is a number mid-sentence (\"formed a 17\"), part of a measurement phrase describing the vehicle formation (likely \"17-foot\" or similar), immediately requiring a unit of measurement or hyphenated continuation.\n</explanation>",
+    "Narrative momentum: the text is recounting a specific incident (the 2013 phone call) that led to the policy change, building toward explaining what happened next.\n\nCausal chain expectation: the 2013 call is being described as the catalyst for the policy shift, so the next tokens must explain the outcome or consequences of that call.\n\nFinal token \"about 50\" is mid-sentence, quantifying the number of people who called the office; the immediate next token must complete this number (e.g., \"500\" or \"50,000\") or continue the sentence describing the call's impact.\n</explanation>",
+    "The article follows a news report structure, presenting a legal case with facts, quotes, and now a detailed legal analysis of the \"unlawful act\" charge.\n\nThe legal analysis is mid-explanation, having established the statutory definition of \"unlawful act\" and now applying it to the specific facts of the case \u2014 the next tokens must complete the legal reasoning about why the act constitutes an unlawful act.\n\nThe final token \"2014,\" ends a clause stating the act occurred in 2014, immediately requiring continuation of the legal analysis \u2014 likely explaining the act's legality or the court's reasoning for finding it actionable.\n</explanation>",
+    "Narrative momentum: a news story about a police officer's death is being recounted chronologically, with the sequence of events unfolding toward the officer's final moments.\n\nCausal chain of events: the officer \"realized he was going to die\" sets up the next expected detail \u2014 what he did or said in response to this realization.\n\nFinal token \"die\" ends a subordinate clause (\"when he realized he was going to die\"), requiring continuation of the sentence describing the officer's subsequent actions or words, likely \"and\" or a comma introducing what he did next.\n</explanation>"
+  ],
+  "input_sha256": "8f73d781d7e672295d228177a1f6bf4f1f90bef90d39216afed60810a4c766e1",
+  "values": [
+    {
+      "quote": "10.5%",
+      "value": "10.5"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "10%",
+      "value": "10"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, excluding dates/years (2013, 2014) and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5%\",\"value\":10.5},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"10%\",\"value\":10},{\"quote\":\"17\",\"value\":17},{\"quote\":\"50\",\"value\":50}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, excluding dates/years (2013, 2014) and ordinals as per instructions.\"}",
+  "prompt_sha256": "fbe770261fdbf93d0ee222d110a6b933ff79ec0df3d10824fb36e04a41fef63c"
+}

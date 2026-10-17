@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5036",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring numerical completion: total combined sales = 25 + original daily sales = 25*2 + base.\n\nThe solution structure demands a specific integer answer, likely \"750\" (25*7 + original 25*3).\n\nFinal token \"is\" opens a predicate requiring a numerical value (the total weekly sales figure), completing the sentence \"The total number of units sold is [number].\"\n(25*7*2 + 25*7*1).\n\n(25+original) twice 7 days = 750 combined weekly units.\n(25*2+7*1)\u00d725*3 = 750*2+25*7.\n\n(25+7 times 3) = 25*2+original 25*3 doubled, yielding 75.",
+    "Math word problem solution format: step-by-step algebraic reasoning requires completing the total count calculation (25 + 2x = 55).\n\nThe solution is mid-sentence, requiring the arithmetic result: 25 + 2 times 25 = 75 total tickets sold.\n\nFinal token \"has\" opens the solution's equation statement, immediately requiring \"75 tickets per week\" or \"25 + 25*2 = 75 combined total.\"\n25 + 2 times 25 = 75 total tickets, completing the equation setup before stating total weekly sales.\n25*2 + original 25 = 75 combined tickets over 25 days.\n\nFinal token \"has\" begins the solution sentence, requiring the total sum \"75 tickets\" to complete the equation before stating monthly cost calculation.\n25 + 2x = .",
+    "Math word problem solution format: step-by-step arithmetic walkthrough requiring completion of the total count calculation.\n\nThe word problem requires computing total daily visitors: 25 + twice 25 = 75, so the solution must show 75 combined.\n\nFinal token \"7\" begins the number 75 (25 + 2 times 25), completing the arithmetic expression \"25 + 25 = 75 people total per day,\" immediately followed by \"5 people total\" or similar phrasing.\n25 + 2\u00d725 = 75 combined total, then total weekly sum.\n\nFinal token \"7\" is the start of \"75,\" completing the combined daily count before continuing to total weekly calculation.\n25 + 2 times 25 = 75 visitors total combined.\n\nTotal visitors = 25 + 25 doubled = 7.",
+    "Math word problem solution format: step-by-step arithmetic reasoning, requiring completion of the total daily count calculation.\n\nThe pattern established shows: morning count + evening count = total, so \"75 customers\" must be completed, then \"per day\" or \"total.\"\n\nFinal token \"75\" is the computed sum of 50+25 customers combined, mid-sentence, immediately requiring \"customers\" or \"per day\" to complete the sentence before continuing to weekly totals.\n75 customers total for two days (morning + evening).\nFinal token \"75\" is the arithmetic result completing the combined daily figure, requiring \"customers\" and then weekly totals for both days.\n75 customers on each day, so \"per day\" or \"total customers\" follows.\n75 customers = 2\u00d735 + 25 = 75 customers in combined daily operations before continuing to.",
+    "Step-by-step math word problem solution format, requiring arithmetic continuation: 75 + 50 = 125 total daily sales.\n\nThe structured solution pattern requires completing the arithmetic calculation and then summing total daily sales across all days.\n\nFinal token \"p\" is the truncated word \"per day,\" completing the phrase \"75 + twice 50 = 125 customers per day\" \u2014 immediately requires \"er day\" to close the sentence before proceeding to total weekly sales calculation.\nFinal token \"p\" is mid-word, part of \"per day,\" completing the daily total before summing two restaurants' combined weekend totals.\n76 customers total for lunch and dinner combined.\n76 customers = 2\u00d77 + 50 = 126 customers daily, then 7 days \u00d7 total.\n\nFinal token \"p\" begins \"per day,\" completing the sentence about lunch.",
+    "Word problem solution format: structured math problem with two parts, now transitioning to the second calculation requiring total daily sales.\n\nThe pattern established requires: total sales = 175 + 115 = 300 students, then total weekly sales calculation.\n\nFinal token \"s.\" ends the problem statement introducing the combined daily sales figure (75 + 17 = 92), immediately requiring the next sentence to state \"92 students total per day\" before proceeding to weekly total.\nFinal token \"75 students.\" ends the problem setup sentence, requiring the next line to state the weekly total calculation.\nFinal token \"s.\" closes the problem's setup sentence about per-day sales (75 + 3 = 92), immediately requiring the weekly total: \"92 \u00d7 7 days = 641 sold.\"\nFinal token \"students.\" ends the problem's intermediate."
+  ],
+  "input_sha256": "68517cfa3fdc8f125ca05ebe4004640c371421c542cd5ff46066c0cb2a875320",
+  "values": [
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "750",
+      "value": "750"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "76",
+      "value": "76"
+    },
+    {
+      "quote": "126",
+      "value": "126"
+    },
+    {
+      "quote": "175",
+      "value": "175"
+    },
+    {
+      "quote": "115",
+      "value": "115"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    },
+    {
+      "quote": "92",
+      "value": "92"
+    },
+    {
+      "quote": "641",
+      "value": "641"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique exact quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25\",\"value\":25},{\"quote\":\"2\",\"value\":2},{\"quote\":\"750\",\"value\":750},{\"quote\":\"7\",\"value\":7},{\"quote\":\"3\",\"value\":3},{\"quote\":\"75\",\"value\":75},{\"quote\":\"55\",\"value\":55},{\"quote\":\"50\",\"value\":50},{\"quote\":\"125\",\"value\":125},{\"quote\":\"76\",\"value\":76},{\"quote\":\"126\",\"value\":126},{\"quote\":\"175\",\"value\":175},{\"quote\":\"115\",\"value\":115},{\"quote\":\"300\",\"value\":300},{\"quote\":\"17\",\"value\":17},{\"quote\":\"92\",\"value\":92},{\"quote\":\"641\",\"value\":641}],\"justification\":\"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique exact quote.\"}",
+  "prompt_sha256": "b5c86a0965f362aafa185366fb312356d026669f024b06b91fd4b78593393e0f"
+}

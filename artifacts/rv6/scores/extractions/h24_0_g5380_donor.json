@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5380",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem setup requiring a numerical answer: total distributed = 110,000 \u00f7 25 = 4,400.\n\nThe problem follows a classic arithmetic word problem format, with a question already posed, demanding a direct numerical answer.\n\nThe final token \"is\" completes the question \"How many books will be distributed to each student?\" \u2014 the immediate next token must be the numerical answer, almost certainly \"4,400\" (110,000 \u00f7 25).\n</explanation>",
+    "Math word problem solution in progress: calculating remaining seats after 1/4th sold, requiring 25 \u00d7 4 = 10 seats sold, leaving 15 seats.\n\nStep-by-step worked solution format established, with each step showing arithmetic operations and intermediate results.\n\nFinal token \"leaving\" introduces the remainder calculation \u2014 next tokens must state the remaining seats: \"15 seats\" or \"15 seats available,\" completing the arithmetic expression.\n</explanation>",
+    "Mathematical problem-solving context: calculating remaining sectors after removing 25% from each of 8 sectors, requiring arithmetic completion.\n\nThe solution is mid-calculation, having established 8 sectors \u00d7 25% = 200\u00b0, now computing remaining sectors' angles (8 \u00d7 45\u00b0 = 360\u00b0).\n\nFinal token \"4\" is the start of the number \"45\" (45\u00b0 per sector), immediately requiring \"5\" to complete \"45,\" followed by \"\u00b0\" and then the arithmetic result \"45 \u00d7 8 = 360\u00b0.\"\n</explanation>",
+    "Math word problem solution format: step-by-step arithmetic explanation with arithmetic operations shown explicitly.\n\nThe solution is mid-calculation, having established total distributed (360) and now computing remaining distributed (360 \u2212 45 = 315), so the next tokens must complete this arithmetic result and likely state the remaining distributed count.\n\nFinal token \"45\" is the dividend in a subtraction expression \"360 \u2212 45,\" immediately requiring the arithmetic result \"315\" followed by explanation of what 315 represents (remaining distributed).\n</explanation>",
+    "Math word problem solution format: step-by-step arithmetic walkthrough with labeled stages (e.g., \"Number of homes,\" \"Number of rooms,\" \"Number of TVs\").\n\nThe pattern establishes a repeating structure: label \u2192 calculation \u2192 result, with each stage building on the previous numerical value.\n\nFinal token \"4\" is the beginning of a number (likely \"40\" or \"400\") completing the multiplication \"10 rooms \u00d7 4,\" immediately requiring the remaining digit(s) to finish the arithmetic result.\n</explanation>",
+    "Mathematical problem-solving pattern: each problem follows a structured format \u2014 setup, calculation, answer \u2014 establishing strong continuation expectations.\n\nThe second problem mirrors the first's structure: setup \u2192 calculation \u2192 answer, so the next tokens must provide the arithmetic result (10 \u00d7 3 = 30) and then the final answer.\n\nFinal token \"30.\" ends the multiplication expression \"10 \u00d7 3 = 30,\" immediately requiring the answer statement, likely \"The total number of eggs is 30\" or similar concluding sentence.\n</explanation>"
+  ],
+  "input_sha256": "cd3efc5746fea587a11a120404461173360b38fd7eb75d01ee9b0a345b0b1e29",
+  "values": [
+    {
+      "quote": "110,000",
+      "value": "110000"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "4,400",
+      "value": "4400"
+    },
+    {
+      "quote": "1/4th",
+      "value": "0.25"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "25%",
+      "value": "25"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "200\u00b0",
+      "value": "200"
+    },
+    {
+      "quote": "45\u00b0",
+      "value": "45"
+    },
+    {
+      "quote": "360\u00b0",
+      "value": "360"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "315",
+      "value": "315"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "30.",
+      "value": "30"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each value is mapped to its specific source quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"110,000\",\"value\":110000},{\"quote\":\"25\",\"value\":25},{\"quote\":\"4,400\",\"value\":4400},{\"quote\":\"1/4th\",\"value\":0.25},{\"quote\":\"10\",\"value\":10},{\"quote\":\"4\",\"value\":4},{\"quote\":\"15\",\"value\":15},{\"quote\":\"25%\",\"value\":25},{\"quote\":\"8\",\"value\":8},{\"quote\":\"200\u00b0\",\"value\":200},{\"quote\":\"45\u00b0\",\"value\":45},{\"quote\":\"360\u00b0\",\"value\":360},{\"quote\":\"360\",\"value\":360},{\"quote\":\"45\",\"value\":45},{\"quote\":\"315\",\"value\":315},{\"quote\":\"10\",\"value\":10},{\"quote\":\"30.\",\"value\":30},{\"quote\":\"3\",\"value\":3}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each value is mapped to its specific source quote.\"}",
+  "prompt_sha256": "e0d984ab6fe8ccf8162f1f86b8cf07673f9b79bcb1f176901731f7944b423b05"
+}

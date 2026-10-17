@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5044",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation context: the text requires computing total weekly earnings (6 days \u00d7 $12 = $72) minus the final day's reduced amount.\n\nThe answer must be a specific dollar amount representing the reduced total earnings, likely \"$60\" or similar, completing the arithmetic.\n\nFinal token \"are\" opens a predicate requiring a numerical value (e.g., \"60\" or \"6 \u00d7 12 - 6 free\"), completing the sentence about the calculated total earnings after six of ten weeks.\n6 days \u00d7 $12 minus the last week's free period.\n6 - 1 reduced day = 5 complete days \u00d7 $12 = $60, so the next token is almost certainly a number representing the calculated total payment.\n considering the six days \u00d7 12 minus the last one half-day discount.\n6 - 1 half-day = reduced total.",
+    "Mathematical word problem solution in progress: calculating total weekly sessions by subtracting free days from 6 total.\n\nThe solution is mid-sentence explaining how to count sessions, requiring completion of the arithmetic reasoning about 6 days minus two half days free.\n\nFinal token \"have\" begins a clause stating the reduced number of sessions (e.g., \"6 - 2 half sessions\"), immediately requiring a number or quantity describing the modified sessions count.\n6 cars will be driven for 6 weeks, but two weeks are half sessions reduced, so next tokens must specify the arithmetic result like \"6 - 2 free sessions = 4 sessions \u00d7 $10 = $40.\"\n6 - two half-week sessions during free days, completing the calculation of total paid sessions.\n6 cars \u00d7 1 hour each, minus two free days, equals 4 sessions remaining.\n6 - 2 half sessions = 4.",
+    "Mathematical calculation in progress: explaining how to compute total hours worked, with 6 days \u00d7 half-day exception.\n\nThe explanation follows a step-by-step arithmetic reasoning pattern, building toward the final answer of 8 hours.\n\nFinal token \"4\" is mid-sentence completing \"you have 4,\" requiring the noun phrase describing the remaining days/hours (e.g., \"4 full days\" or \"4.5 days\") that account for the half-day exceptions reduced from 6 total days.\nFinal token \"4\" is the start of a numeric result describing the adjusted work count after accounting for half days on two days.\n\n6 - two half days = 4 complete days, so the next tokens must complete this arithmetic conclusion, likely \"days\" or \"full days of work remaining.\"\n10 total days minus 2 half days \u00d7 reduced work hours.\nyou have 1 + 1.",
+    "Mathematical problem-solving walkthrough: step-by-step calculation of hours worked, showing arithmetic reasoning toward a conclusion.\n\nThe equation \"6 days \u00d7 1 - half days = 3\" establishes the total, and the narrative is now resolving the fractional calculation to confirm total hours worked.\n\nFinal token \"1.5p\" is mid-sentence completing \"6 - half days = 1.5p\", immediately requiring continuation of the arithmetic conclusion, likely \"hours\" or a statement about total energy consumption cost.\nFinal token \"5.2p\" is part of explaining the adjusted half-day count, expecting completion like \"hours of work\" or \"full days\" to finish the calculation.\n6 + partial days reduced by half, completing the equation showing total work hours remaining.\n6.5p hours of work done during partial days.\n1.5 + 6 half days = completing the expression, likely \".",
+    "Mathematical problem-solving pattern: step-by-step calculation showing how to compute total pages worked, now resolving the fractional case.\n\nThe explanation follows a structured worked example format, having shown total pages and now computing the final answer (6.5 \u00d7 1 = 6.5).\n\nFinal token \"p.6s.4p.7n\" is mid-sentence completing the expression \"6.5 - 2 full + 4 partial days = 6.5\", immediately requiring the conclusion of the arithmetic result, likely \"6.5 \u00d7 1 = 6.5\" or stating the cost calculation.\nFinal token \"p.7n\" is a garbled placeholder mid-sentence, indicating the next tokens will state the computed cost or conclude the solution.\nFinal token \"4n\" completes the count of working days, leading to the multiplication result showing total charge.\nFinal token \".",
+    "Structured math word problem pattern: each problem follows \"question \u2192 calculation \u2192 answer\" format, with consistent arithmetic steps shown.\n\nThe second problem requires completing the calculation: 4 days \u00d7 (total minus full days) = remaining hours, then computing earnings.\n\nFinal token \"problems.\" closes the problem statement identifying the remaining hours worked (5 + 3 = 8 less, so 5 + partial hours).\n\nFinal token \"problems.\" ends the worked example's concluding statement, immediately expecting the computed answer line, e.g., \"The amount earned is $X.XX.\"\nFinal token \"problem.\" closes the worked example's summary identifying the reduced hours worked, so the next tokens should state the earnings calculation result.\nFinal token \"problem.\" ends the reduced-hour expression showing 5 + 3/4 fraction of remaining hours \u00d7 1 dollar rate.\nFinal token \"problem.\" signals the answer line follows,."
+  ],
+  "input_sha256": "a617b87c9e7e9bdaf1d1807da3644a1cdf10c8c213e26e08af2891fc7e75e798",
+  "values": [
+    {
+      "quote": "6 days",
+      "value": "6"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "$72",
+      "value": "72"
+    },
+    {
+      "quote": "$60",
+      "value": "60"
+    },
+    {
+      "quote": "5 complete days",
+      "value": "5"
+    },
+    {
+      "quote": "ten weeks",
+      "value": "10"
+    },
+    {
+      "quote": "two half days",
+      "value": "2"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "$40",
+      "value": "40"
+    },
+    {
+      "quote": "4 sessions",
+      "value": "4"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "8 hours",
+      "value": "8"
+    },
+    {
+      "quote": "4.5 days",
+      "value": "4.5"
+    },
+    {
+      "quote": "1 + 1",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "1.5p",
+      "value": "1.5"
+    },
+    {
+      "quote": "5.2p",
+      "value": "5.2"
+    },
+    {
+      "quote": "6.5p",
+      "value": "6.5"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"6 days\",\"value\":6},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"$72\",\"value\":72},{\"quote\":\"$60\",\"value\":60},{\"quote\":\"5 complete days\",\"value\":5},{\"quote\":\"ten weeks\",\"value\":10},{\"quote\":\"two half days\",\"value\":2},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"$40\",\"value\":40},{\"quote\":\"4 sessions\",\"value\":4},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"8 hours\",\"value\":8},{\"quote\":\"4.5 days\",\"value\":4.5},{\"quote\":\"1 + 1\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"1.5p\",\"value\":1.5},{\"quote\":\"5.2p\",\"value\":5.2},{\"quote\":\"6.5p\",\"value\":6.5},{\"quote\":\"3/4\",\"value\":0.75}],\"justification\":\"Extracted explicit numeric literals, spelled-out numbers, and arithmetic results from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "322b7c7ac0d38fbe394d2a8bbe8d3ba32da797039e9adebca5f79c8da007230f"
+}

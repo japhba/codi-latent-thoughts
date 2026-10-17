@@ -1,0 +1,101 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5162",
+  "kind": "own",
+  "descriptions": [
+    "Statistical reporting pattern: article presents hazard hazard results with specific hazard ratios and confidence intervals, e.g., \"HR = 1.09, 95% CI: 0.99\u20131.21.\"\n\nDomain-specific continuation: academic/technical report style consistently pairs hazard findings with precise numerical data, including hazard ratios and confidence intervals.\n\nFinal token \"is\" opens a predicate completing \"The hazard of being struck by a train is,\" requiring an immediate numerical hazard ratio value (likely a decimal number such as \"1.09\" or similar) to follow.",
+    "Narrative momentum of relationship backstory: the text is recounting the author's personal history with the family, building toward explaining the conflict and resolution.\n\nCharacter arc and plot structure: the text has established the secret marriage, the divorce, and the new relationship \u2014 now detailing the backstory of the secret marriage's emotional impact, suggesting continuation of this confessional, first-person narrative.\n\nFinal token \"300 was 300 was\" (likely a typo mid-sentence) is part of \"300 was 150 was 300\" \u2014 a mid-sentence fragment introducing the secret marriage's status, immediately requiring completion of the clause explaining what \"150\" (the relationship) was or represented.",
+    "Practical dating advice article with instructional tone, shifting from general tips to a specific recipe/scene example, now transitioning to personal narrative anecdote about romantic moments.\n\nThe narrative momentum moves from actionable steps to emotional/romantic scenarios, with the kitchen scene and memory of first date establishing a pattern of sensory, experiential examples.\n\nFinal token \"9\" is mid-sentence (\"90 minutes\" implied), part of \"99\" or \"9\" \u2014 likely completing \"99\" or \"9\" as part of \"90 minutes\" or \"9\" as a number, continuing the emotional payoff of the romantic phone call scene.",
+    "Practical advice article structure: expert quotes and examples follow a pattern of posing questions then providing actionable spiritual guidance, with real-life scenarios illustrating the advice.\n\nNarrative momentum toward completing the biblical example: the marriage example introduced a concrete scenario, and the text is now transitioning to a new illustrative example about church teaching, continuing the pattern of practical application.\n\nFinal token \"60\" is mid-sentence (\"60 minutes...60 minutes...30 minutes...60\"), completing \"60\" as part of \"60 tips\" or \"60 minutes\" \u2014 the sentence \"you would have 30 minutes of advice\" is being elaborated, and \"60\" likely continues with a time-based or practical example.",
+    "News article structure: legal warning article following inverted pyramid, with practical advice and liability implications already stated, now concluding with a summary statement.\n\nNarrative momentum toward completing the statistical/legal argument: the article has been building toward a warning about public liability, and the anecdote about the incident serves as evidence; a concluding legal or safety takeaway is expected.\n\nFinal token \"20,000 people, 2,000 people were affected by the 20,000 minutes of video, was 10,000 people\" \u2014 mid-sentence, \"20,000\" is the start of a liability statistic, likely continuing with \"people\" or a legal consequence clause.",
+    "Legal analysis format: case rule stated, now applying it to specific facts with structured reasoning and citation.\n\nProcedural/argumentative momentum: the analysis has covered the rule and its basis; the narrative now moves to applying the rule to the specific facts of the case, with \"10 minutes\" and \"1988\" establishing the scenario.\n\nFinal token \"12 was 1096\" ends a sentence fragment \"1988 meeting was 12 minutes...18 people were present. The church was 6.9 miles away. The church was 15 minutes away\" \u2014 \"1490\" is the rule, and the next tokens will continue explaining the reasoning or procedural steps."
+  ],
+  "input_sha256": "6722a9cc73de776ad28b2945683879501fe494d915b10f487687579442f8691c",
+  "values": [
+    {
+      "quote": "1.09",
+      "value": "1.09"
+    },
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "0.99",
+      "value": "0.99"
+    },
+    {
+      "quote": "1.21",
+      "value": "1.21"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "99",
+      "value": "99"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "2,000",
+      "value": "2000"
+    },
+    {
+      "quote": "10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "1096",
+      "value": "1096"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "6.9",
+      "value": "6.9"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "1490",
+      "value": "1490"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including those within quoted fragments and statistical examples.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.09\",\"value\":1.09},{\"quote\":\"95%\",\"value\":95},{\"quote\":\"0.99\",\"value\":0.99},{\"quote\":\"1.21\",\"value\":1.21},{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"99\",\"value\":99},{\"quote\":\"9\",\"value\":9},{\"quote\":\"60\",\"value\":60},{\"quote\":\"30\",\"value\":30},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"2,000\",\"value\":2000},{\"quote\":\"10,000\",\"value\":10000},{\"quote\":\"10\",\"value\":10},{\"quote\":\"12\",\"value\":12},{\"quote\":\"1096\",\"value\":1096},{\"quote\":\"18\",\"value\":18},{\"quote\":\"6.9\",\"value\":6.9},{\"quote\":\"15\",\"value\":15},{\"quote\":\"1490\",\"value\":1490}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including those within quoted fragments and statistical examples.\"}",
+  "prompt_sha256": "438f221af7d7d032b219637496334b5f35dad5b7b66dc27f72e4672bedd7b496"
+}

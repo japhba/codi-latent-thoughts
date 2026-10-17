@@ -1,0 +1,89 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5612",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 6 + 2x + 6 = total count.\n\nThe arithmetic setup (6\u00d72 + original 7 + 1) strongly constrains the answer to be 13.\n\nThe final token \"Total to be:\" is a colon introducing the solution expression, immediately requiring a number (likely \"13\") representing the combined total items (6\u00d72 + 7 + 1).\n6\u00d72 + 7 + 1 = 13, so the next token must be the integer answer.\n6\u00d72 + 6 + 3 + 1.\n6\u00d72 + 6 + 7 = 13 total items expected.\n6+2\u00d76+7=13, completing the arithmetic sum.\n6+2\u00d76+7=13, so the answer is 13.",
+    "Word problem setup requiring arithmetic completion: 2x dogs = twice 6, so \"12 dogs\" must follow immediately.\n\nThe word problem structure demands a total count calculation: 2 \u00d7 6 = 12 dogs, then adding the existing 4 cats and 10 cats.\n\nFinal token \"have\" is mid-sentence in the problem statement, directly requiring the numerical answer \"12\" (the second type of dogs purchased), completing the multiplication expression \"2 times 6 red dogs.\"\nThe sentence must continue with \"12 red dogs\" before listing total dogs plus the existing 4 cats.\n2 \u00d7 6 = 12, establishing the second quantity in the problem setup before solving for x.\n6 \u00d7 2 = 12, so the next tokens must state \"12 dogs\" as the second category.\n2 times 6 dogs in the problem.",
+    "Word problem solution format: arithmetic setup requires completing the total flower count calculation (red + blue + yellow = 8).\n\nThe problem establishes a pattern of listing flower types with quantities: \"she has 6 blue flowers\" and \"twice as many roses\" signals the next step: \"12 roses\" completing the multiplication.\n\nFinal token \"12\" is the number of roses purchased (2\u00d76), mid-sentence, immediately requiring the noun \"roses\" to complete the clause, then likely \"and 5 daffodils\" to add to existing flowers.\nFinal token \"12\" is the result of multiplication 2\u00d74, part of explaining the second flower category before summing all types.\n12 blue roses, then adding daffodils (5 already given) to total 14.",
+    "Word problem solution format: step-by-step arithmetic walkthrough requires completing the multiplication and then adding all flower types.\n\nThe problem established 12 total flowers: blue (12) and red (twice), so blue calculation must be completed before adding yellow flowers.\n\nFinal token \"p\" is the start of \"apples,\" completing the sentence \"I have 2 \u00d7 12 = 24 red apples\" \u2014 the next tokens must finish this sentence, likely \"apples\" followed by the total count (12 + 5 + existing blue).\nThe solution is mid-sentence listing flower quantities, so \"apples\" and then adding yellow apples (5) is expected next.\n2 times 6 = 12 red apples, then adding 10 total \u2014 the solution must resolve to 14 total flowers.\n2x6 blue apples, then 10 yellow apples.",
+    "Math word problem format: arithmetic calculation expected, combining eggs counts (2 dozen + 3 eggs + 4 eggs = 14 total).\n\nThe problem structure requires a numerical answer: \"2 times 6 eggs = 12 eggs in the second basket\" sets up the total count calculation.\n\nFinal token \"p. 12 eggs. p. 2 v. basket. 14 eggs. 2 times 6 + 1 basket = 14 total\" \u2014 the sentence is mid-completion, immediately requiring the addition of the known basket count (likely \"plus\" or \"+\" followed by the other basket's eggs).\nFinal token \"v. 12 stones. p.\" signals a structured answer format listing total items, so next tokens must state the combined total eggs plus the known 5 + 11.",
+    "Math word problem format: structured arithmetic problem requiring a numerical answer, following \"There are X eggs\" setup pattern.\n\nThe problem has established a pattern of listing items (eggs + 3 times balls = 3 + 2 times eggs), so the next step must sum total items: 2 boxes \u00d7 3 + 5 = 11 items.\n\nFinal token \"problem.\" closes the second step's instruction (\"Add 3 times the number of eggs to the problem\"), immediately requiring the final question prompt, likely \"How many total items do you have?\" or similar.\nFinal token \"problem.\" ends the arithmetic setup sentence, constraining next tokens to be the question asking for total count plus other items (e.g., \"How many total items do you have?\").\n3 boxes + 5 + 4 = 14 total items, so the next tokens must state adding the."
+  ],
+  "input_sha256": "62f19a1b9839dbbfc2ce7515923d15eef261bfcd5d4735227e3fdc83351e4c37",
+  "values": [
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "6\u00d72",
+      "value": "12"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "2\u00d74",
+      "value": "8"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "dozen",
+      "value": "12"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out cardinal numbers (dozen), and arithmetic expressions (6x2, 2x4) from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"6\", \"value\": 6}, {\"quote\": \"2\", \"value\": 2}, {\"quote\": \"7\", \"value\": 7}, {\"quote\": \"1\", \"value\": 1}, {\"quote\": \"13\", \"value\": 13}, {\"quote\": \"6\\u0026#215;2\", \"value\": 12}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"4\", \"value\": 4}, {\"quote\": \"10\", \"value\": 10}, {\"quote\": \"8\", \"value\": 8}, {\"quote\": \"5\", \"value\": 5}, {\"quote\": \"2\\u0026#215;4\", \"value\": 8}, {\"quote\": \"14\", \"value\": 14}, {\"quote\": \"24\", \"value\": 24}, {\"quote\": \"dozen\", \"value\": 12}, {\"quote\": \"11\", \"value\": 11}], \"justification\": \"Extracted explicit numeric literals, spelled-out cardinal numbers (dozen), and arithmetic expressions (6x2, 2x4) from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "bd7a59a3f08bc70bafd5a3cddc86057bc3c9d3329adf59665cbc3cff872ccf26"
+}

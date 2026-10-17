@@ -1,0 +1,49 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5138",
+  "kind": "own",
+  "descriptions": [
+    "Statistical results pattern: each finding reports a specific numerical value (e.g., \"1.5 times,\" \"1.6 times,\" \"1.7 times\"), so a precise percentage or multiplier follows.\n\nNarrative momentum: the sentence is mid-clause reporting the magnitude of the effect on \"total number of trips,\" requiring a quantified conclusion consistent with prior findings.\n\nFinal token \"1.\" opens a decimal number mid-sentence, directly continuing the pattern of specific numeric results; the next token must be digits completing a decimal multiplier (e.g., \"5\" or \"6\").\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the husband's reaction, building toward a positive conclusion about the film's emotional impact.\n\nRepetition/continuation pattern: the review consistently pairs observations with enthusiastic affirmations (\"I loved,\" \"I was so glad\"), suggesting continued praise or elaboration follows.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, requiring a complement \u2014 likely an adjective or verb phrase describing the husband's emotional state, e.g., \"moved,\" \"overwhelmed,\" or \"blown away.\"\n</explanation>",
+    "The text is a Q&A advice column (likely a newspaper advice column) where an expert responds to a reader's question, following a structured format of question then expert answer.\n\nThe expert is mid-sentence answering the reader's question about whether to call the doctor, having just acknowledged the reader's concern and begun listing reasons to call \u2014 \"First, it's a good idea to call the doctor if you have any questions\" signals an enumerated list of reasons is underway.\n\nThe final token \"10\" is the start of a number (likely \"10 times\" or \"10 reasons\"), mid-sentence, requiring immediate continuation of that numeric quantity or a list of reasons.\n</explanation>",
+    "The article follows a structured health/wellness format with numbered sections, now transitioning to a concluding summary paragraph that restates the study's key finding.\n\nThe summary is recapping the study's core finding \u2014 \"30 percent of those who reported hearing loss\" \u2014 and will likely continue with the study's conclusion about the 10% hearing-impaired group, mirroring the article's opening framing.\n\nThe final token \"30\" is mid-sentence in the summary, directly restating the 30% statistic; the next tokens must complete this clause, likely \"percent of those who reported hearing loss\" or similar phrasing.\n</explanation>",
+    "The text follows a biblical parable retelling pattern, systematically mapping the narrative to modern equivalents (ten virgins\u2192smart phones, lamps\u2192flashlights, oil\u2192charging cables), now transitioning to a direct modern application question.\n\nThe rhetorical question \"What do you do with the ten who have no phones?\" signals a practical moral/spiritual lesson is being drawn, expecting a direct answer or elaboration about the ten without phones.\n\nThe final sentence begins answering the question with \"You would expect to find the ten without phones,\" establishing a declarative statement that will likely continue with a moral conclusion or call to action.\n</explanation>",
+    "The article follows a structured news report format, systematically presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe narrative momentum requires completing the full picture of the study's findings \u2014 the sentence ending mid-thought on \"the study found that the majority of the 1,000 participants who reported being in the car during the crash were more likely to have a seatbelt violation\" signals a concluding clause or additional finding is expected.\n\nThe final token \"violation\" ends an incomplete sentence mid-clause, requiring grammatical completion \u2014 likely a period or continuation specifying the violation rate/percentage, e.g., \"violation, with X% of drivers...\"\n</explanation>"
+  ],
+  "input_sha256": "6e79a014a6f5e679659f729499547a3dee8ae12b1209defeeddd437b8e6aad1d",
+  "values": [
+    {
+      "quote": "1.5 times",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.6 times",
+      "value": "1.6"
+    },
+    {
+      "quote": "1.7 times",
+      "value": "1.7"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "30 percent",
+      "value": "30"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including multipliers, percentages, and counts.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1.5 times\",\"value\":1.5},{\"quote\":\"1.6 times\",\"value\":1.6},{\"quote\":\"1.7 times\",\"value\":1.7},{\"quote\":\"10\",\"value\":10},{\"quote\":\"30\",\"value\":30},{\"quote\":\"30 percent\",\"value\":30},{\"quote\":\"1,000\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals and spelled-out numbers from the provided descriptions, including multipliers, percentages, and counts.\"}",
+  "prompt_sha256": "b8b1b885f0355b846854b04678851680b5afec9cbffded005fb31e85ad0655ff"
+}

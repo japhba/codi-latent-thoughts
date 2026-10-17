@@ -1,0 +1,149 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5027",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results pattern: the text is listing hazard ratios with confidence intervals, following a structured format of \"HR, X.XX; 95% CI, X.XX-X.XX.\"\n\nContinuation of the study results section: after presenting the first HR value, the model expects additional numerical results (e.g., second HR, or a second time period's data).\n\nThe final token \"is\" opens a predicate clause mid-sentence, immediately requiring a numerical value or descriptive phrase completing the first result's value, likely a decimal number or percentage.\n\"2 is\" suggests a formatting artifact; the next token should be a numeric value or punctuation continuing the results list.\n\"2 is\" ends abruptly, likely part of a sentence describing the first HR's magnitude or significance, expecting a number or descriptor immediately following.\n\"2 is\" is the final token sequence, part of a results statement.",
+    "Plot summary continuation: the text is mid-sentence describing film details, requiring completion of the historical/political analysis of the film's themes.\n\nList/enumeration pattern: the summary has been cataloguing political elements (Stalin, Roosevelt, Nazi Germany), suggesting further elaboration of the film's specific plot mechanics or historical context.\n\nFinal token \"67,\" is a mid-sentence numerical figure (likely \"67,000\" or similar), part of a factual description of the Soviet statistic, immediately requiring continuation of the number or a descriptive clause completing the factual claim.\n\"67,\" demands a completing number or noun phrase describing the Soviet political apparatus's scale.\n\"650 was 7, 323\" is a garbled numerical sequence mid-sentence, likely corrupted text; the next tokens must complete the interrupted factual description of the film's political apparatus.\n\"1.\"",
+    "Narrative momentum: article summarizing plot of \"Theology of the Century,\" now detailing the book's content and revelations.\n\nContinuation of factual reporting pattern: the text is mid-sentence explaining the book's political commentary, requiring completion of the factual claim about the book's content.\n\nFinal token \"4\" is mid-sentence, part of a statistic (\"about 5\"), immediately requiring a number completing \"4\" or continuing the fraction \"5\" \u2014 likely \"4\" completing \"5\" or \"40 percent\" or similar numerical revelation about the historical fraud.\n\"4 5\" or \"10 percent\" completing the political irony statistic about the 7 people's fraud.\n\"4 9\" or \"5\" completing \"10\" \u2014 the sentence is mid-clause revealing the religious/political implication of the 4.0 percent statistic.\n\"7 5 people.\"",
+    "Plot summary continuation: the text is mid-sentence describing the news report's content, requiring completion of the factual account of the film's revelation.\n\nHistorical/factual narrative momentum: the text is detailing the film's production and political context, expecting continuation of the factual reporting on the 2015 church conference.\n\nFinal token \"5.0 percent\" is a numerical statistic mid-sentence, part of a factual claim about the film's percentage; the next tokens must complete this statistic or elaborate on the percentage finding, likely continuing with \"percent\" or a related explanatory clause.\n\"5,000 about 500,000 5.3 percent\" is garbled/malformed text, suggesting corrupted or OCR-corrupted content; the model expects continuation of the corrupted numerical revelation about the conspiracy.\n\n\"355,000 about 5.5.\"",
+    "Legal news article structure: factual reporting of a criminal case, establishing facts before detailing the verdict's implications.\n\nThe narrative momentum requires completing the description of the religious organization's fraud scheme, with specific legal charges and case details expected next.\n\nFinal token \"5\" is mid-sentence within a statistical/legal finding (\"about 5,000\"), part of a numerical pattern describing the fraud's scale; the next tokens must complete this statistic or continue describing the 54% fraud finding.\n\"5.4 about 530\" or similar numerical continuation completing the historical comparison of the 36% fraud rate.\n\"4,000 39 people 56.5 about 39\" \u2014 mid-sentence describing the visual evidence count, immediately requiring completion of the medical/forensic evidence description and case outcome.\n\"5.3 about 400\".\"",
+    "Structured Bible study format with numbered questions and bullet points signals continuation of legal/analytical commentary on the rule.\n\nThe answer section has begun, providing a formal legal analysis of the cited rule, with the pattern of citing scripture then explaining its meaning expected to continue.\n\nThe final token \"6%\" ends a statistical citation mid-sentence, immediately requiring completion of the percentage reference and likely continuation of the bullet-point list of practical application notes or additional statistical findings.\n\"6.5%\" or similar percentage likely follows, completing the interrupted numerical reference.\n\"69% of the 69% of the 6.5%\" pattern suggests the next tokens complete the percentage breakdown or transition to the next analytical point.\n\"69% of 29.5%\" scene\" ends the scene description, immediately preceding the procedural guidance or case law notes.\n\"6%\" closes the percentage answer to the first question."
+  ],
+  "input_sha256": "5482e6b86e59a270f8a0fd2d76f7227a40f6116f635113da5f7165903cfdb676",
+  "values": [
+    {
+      "quote": "95%",
+      "value": "95"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "67,",
+      "value": "67"
+    },
+    {
+      "quote": "650",
+      "value": "650"
+    },
+    {
+      "quote": "7, 323",
+      "value": "7323"
+    },
+    {
+      "quote": "1.",
+      "value": "1"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10 percent",
+      "value": "10"
+    },
+    {
+      "quote": "7 people",
+      "value": "7"
+    },
+    {
+      "quote": "4 9",
+      "value": "49"
+    },
+    {
+      "quote": "4.0 percent",
+      "value": "4"
+    },
+    {
+      "quote": "7 5 people",
+      "value": "75"
+    },
+    {
+      "quote": "5.0 percent",
+      "value": "5"
+    },
+    {
+      "quote": "5,000",
+      "value": "5000"
+    },
+    {
+      "quote": "500,000",
+      "value": "500000"
+    },
+    {
+      "quote": "5.3 percent",
+      "value": "5.3"
+    },
+    {
+      "quote": "355,000",
+      "value": "355000"
+    },
+    {
+      "quote": "5.5",
+      "value": "5.5"
+    },
+    {
+      "quote": "54%",
+      "value": "54"
+    },
+    {
+      "quote": "5.4",
+      "value": "5.4"
+    },
+    {
+      "quote": "530",
+      "value": "530"
+    },
+    {
+      "quote": "36%",
+      "value": "36"
+    },
+    {
+      "quote": "4,000",
+      "value": "4000"
+    },
+    {
+      "quote": "39 people",
+      "value": "39"
+    },
+    {
+      "quote": "56.5",
+      "value": "56.5"
+    },
+    {
+      "quote": "5.3",
+      "value": "5.3"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    },
+    {
+      "quote": "6.5%",
+      "value": "6.5"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "29.5%",
+      "value": "29.5"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and formatted numbers from the provided descriptions, treating percentages as their numeric value and preserving exact quotes.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"95%\",\"value\":95},{\"quote\":\"2\",\"value\":2},{\"quote\":\"67,\",\"value\":67},{\"quote\":\"650\",\"value\":650},{\"quote\":\"7, 323\",\"value\":7323},{\"quote\":\"1.\",\"value\":1},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10 percent\",\"value\":10},{\"quote\":\"7 people\",\"value\":7},{\"quote\":\"4 9\",\"value\":49},{\"quote\":\"4.0 percent\",\"value\":4},{\"quote\":\"7 5 people\",\"value\":75},{\"quote\":\"5.0 percent\",\"value\":5},{\"quote\":\"5,000\",\"value\":5000},{\"quote\":\"500,000\",\"value\":500000},{\"quote\":\"5.3 percent\",\"value\":5.3},{\"quote\":\"355,000\",\"value\":355000},{\"quote\":\"5.5\",\"value\":5.5},{\"quote\":\"54%\",\"value\":54},{\"quote\":\"5.4\",\"value\":5.4},{\"quote\":\"530\",\"value\":530},{\"quote\":\"36%\",\"value\":36},{\"quote\":\"4,000\",\"value\":4000},{\"quote\":\"39 people\",\"value\":39},{\"quote\":\"56.5\",\"value\":56.5},{\"quote\":\"5.3\",\"value\":5.3},{\"quote\":\"400\",\"value\":400},{\"quote\":\"6%\",\"value\":6},{\"quote\":\"6.5%\",\"value\":6.5},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"29.5%\",\"value\":29.5}],\"justification\":\"Extracted explicit numeric literals, percentages, and formatted numbers from the provided descriptions, treating percentages as their numeric value and preserving exact quotes.\"}",
+  "prompt_sha256": "5cc86bc372030f80138a1f111afd55b3d29b4abfaedf7f5277503d850892083d"
+}

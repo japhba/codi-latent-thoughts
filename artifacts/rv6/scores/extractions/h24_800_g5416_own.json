@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5416",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total weekly earnings minus fixed costs (75+35=105) must be calculated.\n\nThe problem follows a standard arithmetic word problem format: \"Total available = (75-25) + (75-35)\" or similar, expecting a specific numerical answer.\n\nFinal token \"is $\" opens a dollar amount answer, requiring an integer representing weekly available money: (75-25)\u00d74 = $105, as 75\u221235=40, so the remaining weekly capacity must be computed: 75\u2212$35 each = $105, so the answer is \"$105\" derived from 75+40 minus $15 each.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough requiring arithmetic completion (35 - $75 = $250 remaining).\n\nThe problem setup establishes a two-part calculation: weekly savings amount must be calculated by subtracting $35 from $75, then applying 25% savings to find remaining weekly spending.\n\nFinal token \"has\" begins the arithmetic expression showing the weekly savings calculation for the first part: \"loses $35 a week on the remaining $70\" or similar, requiring a specific dollar amount like \"35 \u00d7 2\" or \"70 - $35\" to describe the weekly expenditure remaining: $35 \u00d7 2 = $70 spent on food, leaving $150 for the second category (clothes).",
+    "Math word problem solution in progress: part (a) requires arithmetic calculation showing savings from removing two weekly prices (35-20=70).\n\nThe solution structure demands showing the arithmetic expression: (35 - half of 35) \u00d7 2 weeks = $70 saved, then applying remaining weekly savings to find total savings.\n\nFinal token \"7\" begins the arithmetic expression \"$7\" as part of the weekly difference calculation (35 - 15) \u00d7 2 = $70, likely continuing as \"70\" or \"70 per week\" showing the total savings formula: 35 \u00d7 2 = 70, then half of remaining weekly savings (20) for the second person.",
+    "Math word problem solution format: structured step-by-step explanation with labeled sections (\"First, identify the problem...\") expects continued arithmetic reasoning.\n\nThe solution is mid-calculation, having established total weekly spending (two weeks \u00d7 $35 each) and now computing remaining balance \u2014 the arithmetic expression \"$70 spent on two weeks \u00d7 $35\" must be completed, leading to the remaining amount.\n\nFinal token \"$70\" is the computed result of two weeks \u00d7 $35 decrease, part of a sentence explaining the arithmetic reasoning; next tokens must complete this clause, likely \"in total\" or \"for two weeks\" to show the remaining balance calculation: total savings remaining after spending two weeks on books and two weeks on supplies.",
+    "Math word problem format requires step-by-step arithmetic solution, following \"First, calculate...\" structure with arithmetic operations.\n\nThe problem establishes two weekly spending calculations: two weeks \u00d7 $35 each = $70, so the next tokens must complete the arithmetic expression showing \"$70\" or \"$35 + $35\" to show the remaining balance after two weeks.\n\nFinal token \"p\" begins \"$70\" (the arithmetic expression \"$75\" or \"$35 \u00d7 2\"), completing the weekly total spent calculation mid-number, immediately requiring \"35\" to form \"$70\" representing the two-week total spent, then explaining the remaining balance after the second week's half amount ($70) to find the original amount remaining.",
+    "Math word problem pattern: each problem follows identical structure (problem statement \u2192 calculation \u2192 answer), establishing strong template for the second problem's solution.\n\nThe second problem mirrors the first's structure: two weekly earnings ($70 each) must be doubled, so the next tokens must state the total weekly amount ($70 \u00d7 7) and then state the remaining amount after two weeks ($500).\n\nFinal token \"70.\" ends the second week's arithmetic setup mid-calculation, immediately requiring the next step: \"$700 for two weeks = $700\" to complete the arithmetic before stating the remaining amount for the full week calculation.\nThe final token \"70.\" closes the second week's sum, so the next tokens must state the corresponding problem for the full week: \"$500 for two weeks = $700.\""
+  ],
+  "input_sha256": "6be480d45619995bc10b8fac61eb89b6e164990ec757850f75cd24d730aea051",
+  "values": [
+    {
+      "quote": "75+35=105",
+      "value": "75"
+    },
+    {
+      "quote": "75+35=105",
+      "value": "35"
+    },
+    {
+      "quote": "75+35=105",
+      "value": "105"
+    },
+    {
+      "quote": "(75-25)",
+      "value": "75"
+    },
+    {
+      "quote": "(75-25)",
+      "value": "25"
+    },
+    {
+      "quote": "(75-35)",
+      "value": "35"
+    },
+    {
+      "quote": "(75-25)\u00d74 = $105",
+      "value": "4"
+    },
+    {
+      "quote": "75\u221235=40",
+      "value": "40"
+    },
+    {
+      "quote": "75\u2212$35 each = $105",
+      "value": "35"
+    },
+    {
+      "quote": "75+40 minus $15 each",
+      "value": "15"
+    },
+    {
+      "quote": "35 - $75 = $250 remaining",
+      "value": "250"
+    },
+    {
+      "quote": "25% savings",
+      "value": "25"
+    },
+    {
+      "quote": "loses $35 a week on the remaining $70",
+      "value": "70"
+    },
+    {
+      "quote": "35 \u00d7 2",
+      "value": "2"
+    },
+    {
+      "quote": "70 - $35",
+      "value": "70"
+    },
+    {
+      "quote": "$35 \u00d7 2 = $70 spent on food",
+      "value": "70"
+    },
+    {
+      "quote": "leaving $150 for the second category",
+      "value": "150"
+    },
+    {
+      "quote": "35-20=70",
+      "value": "20"
+    },
+    {
+      "quote": "(35 - half of 35) \u00d7 2 weeks = $70 saved",
+      "value": "0.5"
+    },
+    {
+      "quote": "(35 - 15) \u00d7 2 = $70",
+      "value": "15"
+    },
+    {
+      "quote": "$70 spent on two weeks \u00d7 $35",
+      "value": "2"
+    },
+    {
+      "quote": "$35 + $35",
+      "value": "35"
+    },
+    {
+      "quote": "$75",
+      "value": "75"
+    },
+    {
+      "quote": "$70 \u00d7 7",
+      "value": "7"
+    },
+    {
+      "quote": "$500",
+      "value": "500"
+    },
+    {
+      "quote": "$700 for two weeks = $700",
+      "value": "700"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, arithmetic operands, and calculated results from the provided descriptions, including percentages as numerals and 'half' as 0.5.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"75+35=105\",\"value\":75},{\"quote\":\"75+35=105\",\"value\":35},{\"quote\":\"75+35=105\",\"value\":105},{\"quote\":\"(75-25)\",\"value\":75},{\"quote\":\"(75-25)\",\"value\":25},{\"quote\":\"(75-35)\",\"value\":35},{\"quote\":\"(75-25)\\u00D74 = $105\",\"value\":4},{\"quote\":\"75\\u221235=40\",\"value\":40},{\"quote\":\"75\\u2212$35 each = $105\",\"value\":35},{\"quote\":\"75+40 minus $15 each\",\"value\":15},{\"quote\":\"35 - $75 = $250 remaining\",\"value\":250},{\"quote\":\"25% savings\",\"value\":25},{\"quote\":\"loses $35 a week on the remaining $70\",\"value\":70},{\"quote\":\"35 \\u00D7 2\",\"value\":2},{\"quote\":\"70 - $35\",\"value\":70},{\"quote\":\"$35 \\u00D7 2 = $70 spent on food\",\"value\":70},{\"quote\":\"leaving $150 for the second category\",\"value\":150},{\"quote\":\"35-20=70\",\"value\":20},{\"quote\":\"(35 - half of 35) \\u00D7 2 weeks = $70 saved\",\"value\":0.5},{\"quote\":\"(35 - 15) \\u00D7 2 = $70\",\"value\":15},{\"quote\":\"$70 spent on two weeks \\u00D7 $35\",\"value\":2},{\"quote\":\"$35 + $35\",\"value\":35},{\"quote\":\"$75\",\"value\":75},{\"quote\":\"$70 \\u00D7 7\",\"value\":7},{\"quote\":\"$500\",\"value\":500},{\"quote\":\"$700 for two weeks = $700\",\"value\":700}],\"justification\":\"Extracted all explicit numeric literals, arithmetic operands, and calculated results from the provided descriptions, including percentages as numerals and 'half' as 0.5.\"}",
+  "prompt_sha256": "4bc0bbb4ea3f3e447ed9f3fbe07dfef1524a931d2807fec0fa58e8a8bb90f70d"
+}

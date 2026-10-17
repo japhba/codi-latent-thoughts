@@ -1,0 +1,65 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5082",
+  "kind": "donor",
+  "descriptions": [
+    "The article follows a structured sports journalism format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence is mid-completion, presenting a specific numerical finding about the 100-meter line crossing time \u2014 the pattern established earlier (\"1.5 seconds,\" \"1.6 seconds\") strongly predicts a precise decimal figure will follow.\n\nFinal token \"was\" opens a predicate requiring a specific time measurement (e.g., \"1.5 seconds\" or similar), completing the clause about the 100-meter line crossing time, consistent with the article's repeated pattern of citing exact numerical values.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically detailing the mother's situation after her husband's death, requiring continuation of that story beat.\n\nRepetition/continuation pattern: the review has been summarizing plot points sequentially (\"The story begins...\"), suggesting the next clause continues describing what happens to the mother or her circumstances.\n\nFinal token \"was\" opens a past-tense predicate clause mid-sentence, immediately requiring a verb complement or adjective describing the mother's state or situation (e.g., \"left alone,\" \"forced to,\" \"struggling\").\n</explanation>",
+    "Narrative momentum: the text is mid-sentence recounting a specific memory triggered by the song, building toward completing the thought about \"six\" (likely \"six songs\" or similar count).\n\nRepetition/continuation pattern: the passage repeatedly references songs and their emotional impact, suggesting the next tokens will name or describe those songs.\n\nFinal token \"six\" is an incomplete numerical phrase mid-sentence, directly requiring a noun (e.g., \"songs,\" \"tracks\") to complete the clause about songs that \"triggered memories.\"\n</explanation>",
+    "Numbered list structure: \"10 Ways to Stay Grounded\" promises 10 items; item 1 is mid-sentence, requiring completion of the thought about the 30-year-old woman's situation.\n\nNarrative momentum: the anecdote about the woman's 30-year marriage is being used as an illustrative example to introduce the first grounding technique, so practical advice or a specific grounding method is expected next.\n\nFinal token \"60\" ends an incomplete clause (\"she is now 60\"), immediately requiring a noun (e.g., \"years old\") or continuation describing her situation before transitioning to the grounding technique.\n</explanation>",
+    "The article follows a news report structure: incident summary, then detailed narrative, now concluding with a factual summary sentence restating key facts.\n\nThe sentence is mid-completion, having stated the victim count (\"one other person\") and now expected to continue with additional context about the shooting circumstances, location, or official statements.\n\nFinal token \"2014\" closes a parenthetical date reference within the concluding summary sentence, immediately requiring continuation of the sentence \u2014 likely a period or further clause elaborating on the shooting's circumstances or aftermath.\n</explanation>",
+    "Narrative momentum: the author is mid-explanation of why they chose this story, having just stated \"I thought it was a good story to share\" \u2014 elaboration or justification expected next.\n\nRepetition/continuation pattern: the text follows a structured blog-post format with labeled sections (\"The Story,\" \"The Author's Choice\"), suggesting another labeled section or concluding remarks may follow.\n\nFinal token \"12\" ends a sentence fragment explaining the author's reasoning for selecting this story; the next tokens will likely continue with a conjunction or new sentence elaborating on the story's merits or the author's personal connection to it.\n</explanation>"
+  ],
+  "input_sha256": "64937644d774ede6de89be587c89790689f0e123fb72c2ccb9b48048fe51764d",
+  "values": [
+    {
+      "quote": "100-meter",
+      "value": "100"
+    },
+    {
+      "quote": "1.5 seconds",
+      "value": "1.5"
+    },
+    {
+      "quote": "1.6 seconds",
+      "value": "1.6"
+    },
+    {
+      "quote": "six",
+      "value": "6"
+    },
+    {
+      "quote": "10 Ways",
+      "value": "10"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "30-year-old",
+      "value": "30"
+    },
+    {
+      "quote": "30-year marriage",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "one",
+      "value": "1"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, excluding dates (2014) and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100-meter\",\"value\":100},{\"quote\":\"1.5 seconds\",\"value\":1.5},{\"quote\":\"1.6 seconds\",\"value\":1.6},{\"quote\":\"six\",\"value\":6},{\"quote\":\"10 Ways\",\"value\":10},{\"quote\":\"1\",\"value\":1},{\"quote\":\"30-year-old\",\"value\":30},{\"quote\":\"30-year marriage\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"one\",\"value\":1},{\"quote\":\"12\",\"value\":12}],\"justification\":\"Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, excluding dates (2014) and ordinals as per instructions.\"}",
+  "prompt_sha256": "5ae7828fce5b13e13a4afcd4c4fff387203b0a1bf018797b4d9f8d7fa0756e4c"
+}

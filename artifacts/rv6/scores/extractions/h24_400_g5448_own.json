@@ -1,0 +1,129 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5448",
+  "kind": "own",
+  "descriptions": [
+    "Math problem requiring calculation of remaining tokens: 10\u00d7(1/4) = 25 tokens lost, so the answer must be 100\u00d7(1/4) = 25 tokens left.\n\nThe question explicitly asks for the remainder after removing 3/4 of 10\u00d71.5 tokens, constraining the answer to 25 (10\u00d71.5/4).\n\nFinal token \"be\" closes the question asking for the remainder count; the immediate next token must be the numeric answer \"25\" representing the 1/4th of 180 tokens remaining per chip, completing the arithmetic calculation.",
+    "Math word problem solution in progress: calculating remaining quarter circles after 3/4 sold, requiring 1/4 of 18 = 4.5 remaining.\n\nThe solution follows a structured step-by-step format: total circles (18) \u00d7 3/4 sold = 4.5 remaining, then calculating expected earnings (remaining \u00d7 $0.25).\n\nFinal token \"had\" introduces the remaining quarter circles (18 \u00d7 1/4 = 4.5) that the customer owned before the sale, immediately constraining the next tokens to be \"1.5\" (the remainder: 18 \u2212 3/4 \u00d7 4.5).",
+    "Math word problem solution in progress: calculating remaining pizza per person after 3/4 of 80 is removed, requiring 1/4 of 80 = 20 inches.\n\nThe arithmetic setup demands completing the calculation: 80 \u00d7 (1/4) = 20, so the answer must state each person receives 20 square inches.\n\nFinal token \"4\" begins the number \"40\" (the remaining per-slice amount after 3/4 of 80), immediately constrained to complete as \"40\" representing the 1/4 of 80 remaining per slice, followed by explanation of the total remaining pizza per person.",
+    "Math word problem solution format: step-by-step arithmetic explanation with numerical answers, showing calculations for each bag's remaining chips after removing 3/4 of 150.\n\nThe solution is mid-calculation: 80 \u00d7 6 = 50 chips lost per bag, so the answer must state \"45 chips per bag\" and then sum to total remaining chips across all bags.\n\nFinal token \"45\" is the computed remainder per bag (150 \u00d7 (1/4) = 45), immediately requiring the word \"chips\" or \"per bag\" to complete the sentence stating the per-bag loss, followed by the total remaining calculation (4 \u00d7 45 = 180).",
+    "Math word problem solution format: step-by-step arithmetic explanation with formula application, showing how to calculate remaining seats after each table's 1/4th loss.\n\nThe calculation is mid-completion: 80 \u00d7 1.5 = 12 seats removed per table, so the next step must state the total removed per table (12) and then sum to find remaining seats: 80 \u00d7 (1 \u2212 3/4) = 20 seats.\n\nFinal token \"p\" is the start of \"per table\" or \"per seat,\" completing the expression \"14.5 \u00d7 80 \u00d7 3/4p\" \u2014 immediately expects \"er table\" or \"er seat\" to complete the per-table loss calculation.",
+    "Math word problem template pattern: each problem follows identical structure \u2014 setup, calculation, answer \u2014 now completing the final answer with total count calculation.\n\nThe calculation result must be stated: 40% of 150 = 60 cars, so the answer is 60 \u00d7 15 = 900 cars removed, mirroring the first problem's structure (\"90 cars removed\").\n\nFinal token \"cars.90 cars.\" ends the per-car calculation formula listing 15% and 20% counts; the next tokens must state the total removed: \"The total number of cars removed is 90 \u00d7 15 = 135.\""
+  ],
+  "input_sha256": "d4147b5c727518fe5897b7c0958ee37b66ba6c6c25af4df8559cce886d683810",
+  "values": [
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "3/4",
+      "value": "0.75"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "4.5",
+      "value": "4.5"
+    },
+    {
+      "quote": "$0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "14.5",
+      "value": "14.5"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "900",
+      "value": "900"
+    },
+    {
+      "quote": "90",
+      "value": "90"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each unique value/quote pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10\",\"value\":10},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"3/4\",\"value\":0.75},{\"quote\":\"1.5\",\"value\":1.5},{\"quote\":\"180\",\"value\":180},{\"quote\":\"18\",\"value\":18},{\"quote\":\"4.5\",\"value\":4.5},{\"quote\":\"$0.25\",\"value\":0.25},{\"quote\":\"80\",\"value\":80},{\"quote\":\"20\",\"value\":20},{\"quote\":\"4\",\"value\":4},{\"quote\":\"40\",\"value\":40},{\"quote\":\"150\",\"value\":150},{\"quote\":\"6\",\"value\":6},{\"quote\":\"50\",\"value\":50},{\"quote\":\"45\",\"value\":45},{\"quote\":\"12\",\"value\":12},{\"quote\":\"1\",\"value\":1},{\"quote\":\"14.5\",\"value\":14.5},{\"quote\":\"40\",\"value\":40},{\"quote\":\"60\",\"value\":60},{\"quote\":\"15\",\"value\":15},{\"quote\":\"900\",\"value\":900},{\"quote\":\"90\",\"value\":90},{\"quote\":\"135\",\"value\":135}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic results from the provided descriptions, ensuring each unique value/quote pair is represented once.\"}",
+  "prompt_sha256": "c6d2289b6d1cee361f3b3c699a607936058811aa47316c66cf1925ffc56b32c4"
+}

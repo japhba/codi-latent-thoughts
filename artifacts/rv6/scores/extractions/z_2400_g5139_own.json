@@ -1,0 +1,113 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5139",
+  "kind": "own",
+  "descriptions": [
+    "Structured list pattern: city rankings with numeric counts and percentages, e.g., \"3rd most populated city, with 33.5% of the population.\"\n\nStatistical data continuation: the table lists city rankings with numeric values; the pattern requires completing the numeric value for the current city's rank percentage.\n\nFinal token \"3rd\" is mid-sentence within a numeric ranking statement, immediately requiring a continuation of the statistic, likely a percentage figure or descriptor completing the city's ranking position.\n\"3rd\" is part of an interrupted numeric ranking phrase, demanding a number or descriptor like \"most populated city\" or a table row entry.\n\"53rd\" or similar numeric value is expected next.\n\"3rd\" numeric data or table row format follows the established hazard ranking pattern.\n\"60 is 3rd\" or numeric table data follows immediately.\n\"53rd\" numeric value or.",
+    "Character introduction pattern: each cast member gets a descriptive paragraph; the list of characters is being systematically completed.\n\nFilm synopsis/credits format: structured cast listing with character names, actor names, and brief descriptions, establishing a consistent template.\n\nFinal token \"30,\" is mid-sentence within a character description, part of an age or numerical detail about the mother; the next tokens must complete this number or phrase, likely continuing with a larger number or descriptive clause about her character.\n\"30\" is incomplete, suggesting \"30\" is actually \"40\" or a larger number, or the sentence continues with relationship/role context.\n\"100\" or similar rating descriptor or narrative continuation is expected next.\n\"30\" \"100\" or character-specific \"41\" \u2014 the \"310\" or \"41\" \"75\" instruction \"30\" suggests.",
+    "Instructional list pattern: numbered steps and bullet points guide recipe content, with descriptive visual guidance expected.\n\nReview/description genre: food review format with ingredient highlights, serving suggestions, and nutritional commentary throughout.\n\nFinal token \"4\" is mid-sentence within a measurement or quantity description (\"about 4\"), immediately requiring a unit of measurement or continuation of a numeric quantity, likely \"4 inches\" or similar serving size specification.\n\"4\" likely continues a visual description or nutritional stat.\n\"45\" or similar number completing a larger figure, or a unit like \"4 inches\" or \"45 seconds\" \u2014 the sentence is mid-clause describing visual media or serving instructions.\n\"4\" \"5\" or review rating context suggests \"47\" or \"45 seconds\" or similar technical cooking timing detail follows.\n\"310\" scene \"7.4 minutes\" media reference or cultural comparison.",
+    "List continuation pattern: numbered/bulleted article recommendations with titles and descriptions, suggesting more list items or elaboration follow.\n\nContent domain: book review/listicle format covering \"best books on social anxiety,\" implying further ranked recommendations or editorial commentary will follow.\n\nFinal token \"65\" ends a sentence fragment listing magazine titles; it is part of an ongoing enumeration of recommended publications, so the next tokens will likely continue with more magazine names or a closing phrase completing the list.\n\"65\" is a truncated number or list item, immediately expecting either more titles, punctuation, or a category label.\n\"65\" likely continues as \"65\" completing a count or transitions to another category/list item.\n\"65\" \"65\" or food-related content \"65\" instructional images \"65\" book recommendations \u2014 the \"317\" rating or publication metadata \"75\" cultural references.",
+    "News article reporting statistical ranking data, establishing a pattern of citing sources and rankings with specific numbers.\n\nStructured enumeration of media outlet rankings and coverage counts, with each outlet's ranking and view count provided sequentially.\n\nFinal token \"20,000\" ends a sentence fragment listing outlet rankings; the next tokens will likely continue with additional ranking context, a period closing the sentence, or transition to another outlet's coverage statistics.\n\"20,000\" is a numeric ranking figure mid-sentence, suggesting the sentence continues with further ranking details or editorial commentary.\n\"20,007 people\" or similar media outlet count or a new outlet entry follows.\n\"207,43\" or similar video metadata suggests structured data format; the \"25,041\" safety rating or news outlet analysis \"29,7\" suggests analytical content follows \"10,2 people.",
+    "Structured directory/listing format: each entry follows \"Covers [topic]. [Description]\" pattern, suggesting continuation of this template.\n\nLegal document listing pattern: entries describe resources, forms, and case types, implying more categorized links or procedural details follow.\n\nFinal token \"75\" ends a sentence fragment listing case types (\"75\"), likely part of a larger enumeration or page number, with immediate expectation of either more case types, a period closing the sentence, or a new directory entry beginning.\n\"75\" appears to be a truncated page number or list item, suggesting continuation of numbered items or a new category header follows.\n\"75\" \"77\" or instructional formatting expected next.\n\"75 minutes\" or similar time reference completing the procedural note \"770 75\" \u2014 \"77\" suggests a reference code or citation, and \"327\" legal citation or."
+  ],
+  "input_sha256": "4e2c25aa048f20caf7b554d929fdf3d069c526ff30b9f5bacb345e5b347b88fd",
+  "values": [
+    {
+      "quote": "33.5%",
+      "value": "33.5"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    },
+    {
+      "quote": "310",
+      "value": "310"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "7.4",
+      "value": "7.4"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "317",
+      "value": "317"
+    },
+    {
+      "quote": "20,000",
+      "value": "20000"
+    },
+    {
+      "quote": "20,007",
+      "value": "20007"
+    },
+    {
+      "quote": "207,43",
+      "value": "20743"
+    },
+    {
+      "quote": "25,041",
+      "value": "25041"
+    },
+    {
+      "quote": "29,7",
+      "value": "297"
+    },
+    {
+      "quote": "10,2",
+      "value": "102"
+    },
+    {
+      "quote": "77",
+      "value": "77"
+    },
+    {
+      "quote": "770",
+      "value": "770"
+    },
+    {
+      "quote": "327",
+      "value": "327"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and multi-digit numbers from the provided descriptions, treating comma-separated digits as single values and decimals as fractions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"33.5%\",\"value\":33.5},{\"quote\":\"60\",\"value\":60},{\"quote\":\"30\",\"value\":30},{\"quote\":\"100\",\"value\":100},{\"quote\":\"41\",\"value\":41},{\"quote\":\"75\",\"value\":75},{\"quote\":\"310\",\"value\":310},{\"quote\":\"4\",\"value\":4},{\"quote\":\"45\",\"value\":45},{\"quote\":\"5\",\"value\":5},{\"quote\":\"47\",\"value\":47},{\"quote\":\"7.4\",\"value\":7.4},{\"quote\":\"65\",\"value\":65},{\"quote\":\"317\",\"value\":317},{\"quote\":\"20,000\",\"value\":20000},{\"quote\":\"20,007\",\"value\":20007},{\"quote\":\"207,43\",\"value\":20743},{\"quote\":\"25,041\",\"value\":25041},{\"quote\":\"29,7\",\"value\":29.7},{\"quote\":\"10,2\",\"value\":10.2},{\"quote\":\"77\",\"value\":77},{\"quote\":\"770\",\"value\":770},{\"quote\":\"327\",\"value\":327}],\"justification\":\"Extracted explicit numeric literals, percentages, and multi-digit numbers from the provided descriptions, treating comma-separated digits as single values and decimals as fractions.\"}",
+  "prompt_sha256": "d5d4aa9e50abd30bd48c701fdb2528e991657da8a46de573fdc5e1ce3bdd0d32"
+}

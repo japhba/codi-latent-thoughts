@@ -1,0 +1,93 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5138",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical results reporting pattern: study findings presented with specific hazard ratios, confidence intervals, and p-values, establishing expectation for continued quantitative results.\n\nMedical/epidemiological study structure: the text follows a results-then-discussion format, with findings about \"all-cause mortality\" just stated, implying additional outcome categories (e.g., cardiovascular, stroke) will follow.\n\nFinal token \"is\" opens a predicate completing the sentence about \"all-cause mortality,\" requiring an immediate numerical finding \u2014 likely a hazard ratio or odds ratio with associated confidence interval, mirroring the earlier \"HR, 1.19\" pattern.",
+    "Narrative momentum of emotional scene-setting: the author is recounting a romantic backstory, and the scene is mid-action, building toward describing the couple's emotional reaction or dialogue.\n\nCharacter relationship dynamics: the text has been detailing the couple's history and the scene's emotional weight, suggesting continuation of plot summary or personal reflection on the scene's significance.\n\nFinal token \"242 was 200\" is a mid-sentence fragment (\"242 was 242 was 200\"), suggesting a typo/autocorrect artifact; the next tokens must complete the interrupted narrative about the phone number, likely continuing \"242 was 200\" or resuming the romantic scene description.",
+    "Narrative momentum of personal testimony: author recounting a romantic/spiritual journey, now transitioning to practical advice, with anecdote about the wedding dress serving as a concrete example.\n\nFirst-person memoir style with reflective, conversational tone \u2014 the story of the wedding dress and emotional vulnerability signals a shift toward memory-based lessons about timing and vulnerability in dating.\n\nFinal token \"4\" is mid-sentence (\"48 days later...4\"), part of a time reference (\"49 days later\" or \"4 months later\"), immediately requiring a number continuation or time unit completing the \"8 days later...4\" sequence.",
+    "Q&A format with expert advice structure: each question is followed by a detailed answer, establishing a pattern of theological/health guidance with personal anecdotes.\n\nThe religious professional's answer is mid-sentence, addressing the specific question about women's health and church leadership, with professional experience and practical advice expected to follow.\n\nFinal token \"88\" is part of \"68\" (68 years) or \"68 years old\" \u2014 \"68\" is the start of \"88\" (likely \"68\" or \"68 years\"), completing \"68 years of marriage\" or \"68 years of advice,\" requiring continuation of the professional's personal experience narrative.",
+    "Narrative momentum: article recounting a news story, building toward legal/ethical implications of the fraud, with factual details accumulating toward a conclusion.\n\nStatistical/factual pattern: article has been presenting specific numbers (\"12 people,\" \"200 people,\" \"2012,\" \"2013\") and crime context, suggesting continuation of investigative or legal framing.\n\nFinal token \"20 people, was about 1,200 people, only 20 people, was about 20 people\" \u2014 mid-sentence, \"only 20 people\" signals the sentence is completing a contrast clause, likely continuing with \"who were arrested\" or similar, resolving the fraud's victim count.",
+    "Legal case narrative structure: factual case summary following procedural history, now reaching the legal analysis/decision section explaining the ruling's basis.\n\nThe factual background has been established (complaint, dismissal, appeal, denial), and the narrative now transitions to the legal reasoning \u2014 the church's appeal grounds and the court's reasoning for affirming the dismissal.\n\nFinal token \"140 was 6.04 minutes from the 1.40 was 128 people were 40 miles away \u2014 \"10.8 was 0.4 miles away\" \u2014 completing the factual error (\"140 people were 6.04 miles away\"), now the case analysis of the church's grounds and the court's reasoning must follow."
+  ],
+  "input_sha256": "de567a2a69e8958cef6eda7c86611ca2890d3159a08cb9f39bedaaf0d5fe2d86",
+  "values": [
+    {
+      "quote": "HR, 1.19",
+      "value": "1.19"
+    },
+    {
+      "quote": "242 was 200",
+      "value": "242"
+    },
+    {
+      "quote": "242 was 200",
+      "value": "200"
+    },
+    {
+      "quote": "48 days later",
+      "value": "48"
+    },
+    {
+      "quote": "48 days later...4",
+      "value": "4"
+    },
+    {
+      "quote": "88",
+      "value": "88"
+    },
+    {
+      "quote": "68",
+      "value": "68"
+    },
+    {
+      "quote": "12 people",
+      "value": "12"
+    },
+    {
+      "quote": "200 people",
+      "value": "200"
+    },
+    {
+      "quote": "20 people",
+      "value": "20"
+    },
+    {
+      "quote": "1,200 people",
+      "value": "1200"
+    },
+    {
+      "quote": "140 was 6.04 minutes",
+      "value": "140"
+    },
+    {
+      "quote": "6.04 minutes",
+      "value": "6.04"
+    },
+    {
+      "quote": "1.40 was 128 people",
+      "value": "1.4"
+    },
+    {
+      "quote": "128 people",
+      "value": "128"
+    },
+    {
+      "quote": "40 miles away",
+      "value": "40"
+    },
+    {
+      "quote": "10.8 was 0.4 miles away",
+      "value": "10.8"
+    },
+    {
+      "quote": "0.4 miles away",
+      "value": "0.4"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic components from the provided descriptions, excluding dates, years, and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"HR, 1.19\",\"value\":1.19},{\"quote\":\"242 was 200\",\"value\":242},{\"quote\":\"242 was 200\",\"value\":200},{\"quote\":\"48 days later\",\"value\":48},{\"quote\":\"48 days later...4\",\"value\":4},{\"quote\":\"88\",\"value\":88},{\"quote\":\"68\",\"value\":68},{\"quote\":\"12 people\",\"value\":12},{\"quote\":\"200 people\",\"value\":200},{\"quote\":\"20 people\",\"value\":20},{\"quote\":\"1,200 people\",\"value\":1200},{\"quote\":\"140 was 6.04 minutes\",\"value\":140},{\"quote\":\"6.04 minutes\",\"value\":6.04},{\"quote\":\"1.40 was 128 people\",\"value\":1.4},{\"quote\":\"128 people\",\"value\":128},{\"quote\":\"40 miles away\",\"value\":40},{\"quote\":\"10.8 was 0.4 miles away\",\"value\":10.8},{\"quote\":\"0.4 miles away\",\"value\":0.4}],\"justification\":\"Extracted explicit numeric literals and arithmetic components from the provided descriptions, excluding dates, years, and ordinals as per instructions.\"}",
+  "prompt_sha256": "c4c69599224e5ac79fa975afcec5ee1a367105c8ff3d04660a6f89da2e68240f"
+}

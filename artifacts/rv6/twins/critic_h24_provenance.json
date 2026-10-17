@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "config.json": "0386fa9d63450ba5a7c813f1a78cc4318811937e68de28eb873846e390ec5de8",
+    "model-00001-of-00003.safetensors": "57ca79db5bcc0c2c6b459cfafb4c2c9b3b3e1a412edf33f926a7c58cf861ee39",
+    "model-00002-of-00003.safetensors": "d9abbe8952badcae0116bf7bcd5c88e7a1e0b50069e3ff26bc566567874be75b",
+    "model-00003-of-00003.safetensors": "bc35dbca2cb46e01e3fb2021b35e01be79fbc9d26e05f3e7392bc5183b3c6f26",
+    "value_head.safetensors": "0a382e05eacf0940bf37850ddebb996f8bd6afd3389543ccf5e4adcf5ef83874"
+  },
+  "critic_template": "Summary of the following text: <text>{explanation}</text> <summary>",
+  "anchor": "last real token; right padding",
+  "backbone_output": "raw truncated residual, final norm removed",
+  "head_dtype": "float32",
+  "direction_only": true,
+  "norm": "true receiver vector norm for own, edited, sham and donor conditions"
+}

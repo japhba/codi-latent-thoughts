@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5492",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question setup, likely \"$30\" or similar.\n\nThe word problem structure demands a multiplication: 30 days \u00d7 2 eggs \u00d7 $5 = $300 total cost, so the next token must be the computed dollar amount.\n\nFinal token \"is\" completes the question prompt \"How much money will she spend?\" \u2014 immediately requires a specific numerical answer (30 \u00d7 2 \u00d7 5 = $300) representing the total cost of eggs purchased.\n30 \u00d7 5 \u00d7 $2 = $750 eggs, but context suggests eggs cost $1 each, so the answer is $300.\n5 \u00d7 3 = $15 daily food cost, confirming 30 \u00d7 2 \u00d7 $5 = $750 total spent over 30 days.\n2 \u00d7 30 \u00d7 5.",
+    "Step-by-step math tutorial format requires continuing the worked example with arithmetic operations and calculations.\n\nThe word problem requires computing total eggs: 5 eggs \u00d7 $2 each = $10 daily, then total cost over 30 days.\n\nFinal token \"have\" begins a sentence explaining the multiplication logic, immediately requiring a number or quantity (e.g., \"5 \u00d7 $2 eggs per day\") to complete the arithmetic explanation of the first step.\nShe has 5 eggs \u00d7 $2 = $10 eggs to eat daily before calculating total revenue.\n5 \u00d7 $2 eggs = $10 cost per day, establishing the intermediate step before computing total earnings.\nShe pays $5 \u00d7 $2 eggs daily, so the next tokens will state the calculated cost or introduce the multiplication by 30 weeks.\n5 \u00d7 $1 eggs = eggs used per day, then total eggs \u00d7 $50 revenue.\nEach.",
+    "Step-by-step math problem walkthrough format, with each step showing a calculation and its result, establishing a clear continuation pattern.\n\nWord problem solution in progress: calculating total cost of bread for 5 loaves \u00d7 $2 each, expecting arithmetic result and then weekly/total cost.\n\nFinal token \"10\" is the arithmetic result of 5 \u00d7 $2 per bread, mid-sentence explaining the per-day cost; next tokens must complete this sentence, likely \"dollars\" or \"per day\" before proceeding to total weekly expenditure.\nShe uses 10 dollars daily.\"\nShe uses 5 loaves \u00d7 $2 bread = $10 cost per day, then multiplies by 7 days to get $70 total.\nFirst, computing per loaf bread cost: 5 \u00d7 $2 = $10 budget for bread ingredients.\nThen, total weekly cost.\n10 \u00d7 $2 = $.",
+    "Word problem solution format: step-by-step arithmetic walkthrough with labeled calculations, expecting continued arithmetic reasoning.\n\nThe structured solution is mid-computation, having established 10 breads \u00d7 $2 each, now requiring the total daily cost (10 \u00d7 $2 = $20) before proceeding to monthly/total cost.\n\nFinal token \"$10p\" ends the cost-per-bread calculation ($1 per bread \u00d7 $5), immediately expecting the sentence to close and continue with the monthly total cost: \"She uses $150 total.\"\nFinal token \"10p\" is the computed result of 10 \u00d7 $3, completing the sentence before stating the next step.\nShe uses $15 daily for bread ingredients.\"\n$10p\" ends the per-day cost statement, immediately requiring a period or continuation explaining the monthly total cost.\n$15 per day\" or similar closing statement.",
+    "Math word problem solution format: structured word problem followed by step-by-step arithmetic calculation, expecting numerical result.\n\nThe word problem requires computing total cost: 10 miles \u00d7 $15 = $150 daily, then total cost over 30 days.\n\nFinal token \"s. 10 miles per day.\" ends the per-day calculation sentence, immediately expecting the arithmetic result \"$150\" or the next step: \"Therefore, the total cost is $1500.\"\nFinal token \"pounds.\" ends the per-day earnings statement ($10 \u00d7 $4.50 = $45), immediately expecting the computed answer \"$450\" or the next arithmetic step.\nFinal token \"s.\" is a formatting artifact mid-calculation, immediately preceding the multiplication result \"$450.\"\n105 \u00d7 $4 = $45 per day, then summing.",
+    "Word problem walkthrough format: structured solution with arithmetic steps, expecting a numerical answer (total cost = 15 \u00d7 $4 = $600).\n\nThe pattern established requires completing the arithmetic expression and providing the computed result, mirroring the worked example above.\n\nFinal token \"problem.\" closes the per-day cost calculation sentence (\"Each day, the cost is 10 \u00d7 $4 = $40\"), immediately expecting the next step: total cost over 30 days.\nFinal token \"problem.\" ends the problem statement, so the next tokens must present the computed answer or transition to solving it.\nFinal token \"problem.\" closes the arithmetic expression setup, immediately requiring the total cost calculation: \"$40 \u00d7 30 = $1200.\"\n$11 \u00d7 $5 = $55 per day \u00d7 monthly cost, then summing to $1200 total expenditure."
+  ],
+  "input_sha256": "9dfb5cbc19c784ada2abd011d44f6b58b4aa145798a208143770d684ac318709",
+  "values": [
+    {
+      "quote": "30 days",
+      "value": "30"
+    },
+    {
+      "quote": "2 eggs",
+      "value": "2"
+    },
+    {
+      "quote": "$5",
+      "value": "5"
+    },
+    {
+      "quote": "$300",
+      "value": "300"
+    },
+    {
+      "quote": "$750",
+      "value": "750"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$10",
+      "value": "10"
+    },
+    {
+      "quote": "$50",
+      "value": "50"
+    },
+    {
+      "quote": "7 days",
+      "value": "7"
+    },
+    {
+      "quote": "$70",
+      "value": "70"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "$1 per bread",
+      "value": "1"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "$3",
+      "value": "3"
+    },
+    {
+      "quote": "$1500",
+      "value": "1500"
+    },
+    {
+      "quote": "$4.50",
+      "value": "4.5"
+    },
+    {
+      "quote": "$45",
+      "value": "45"
+    },
+    {
+      "quote": "$450",
+      "value": "450"
+    },
+    {
+      "quote": "105",
+      "value": "105"
+    },
+    {
+      "quote": "$4",
+      "value": "4"
+    },
+    {
+      "quote": "$600",
+      "value": "600"
+    },
+    {
+      "quote": "$40",
+      "value": "40"
+    },
+    {
+      "quote": "$1200",
+      "value": "1200"
+    },
+    {
+      "quote": "$11",
+      "value": "11"
+    },
+    {
+      "quote": "$55",
+      "value": "55"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values explicitly mentioned in the descriptions, including those within arithmetic expressions and currency formats, while avoiding ordinals and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30 days\",\"value\":30},{\"quote\":\"2 eggs\",\"value\":2},{\"quote\":\"$5\",\"value\":5},{\"quote\":\"$300\",\"value\":300},{\"quote\":\"$750\",\"value\":750},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$10\",\"value\":10},{\"quote\":\"$50\",\"value\":50},{\"quote\":\"7 days\",\"value\":7},{\"quote\":\"$70\",\"value\":70},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"$1 per bread\",\"value\":1},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"$3\",\"value\":3},{\"quote\":\"$1500\",\"value\":1500},{\"quote\":\"$4.50\",\"value\":4.5},{\"quote\":\"$45\",\"value\":45},{\"quote\":\"$450\",\"value\":450},{\"quote\":\"105\",\"value\":105},{\"quote\":\"$4\",\"value\":4},{\"quote\":\"$600\",\"value\":600},{\"quote\":\"$40\",\"value\":40},{\"quote\":\"$1200\",\"value\":1200},{\"quote\":\"$11\",\"value\":11},{\"quote\":\"$55\",\"value\":55}],\"justification\":\"Extracted all distinct numeric values explicitly mentioned in the descriptions, including those within arithmetic expressions and currency formats, while avoiding ordinals and years.\"}",
+  "prompt_sha256": "c2882e3c7adfd4ba2e7cc3bedd7d66eb67528f166c998b10993cb5426e4b3709"
+}

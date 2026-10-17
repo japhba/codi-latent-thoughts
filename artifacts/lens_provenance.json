@@ -1,0 +1,21 @@
+{
+  "activation_sha256": "da6b62f833a8a8e98907e14983eb3aa78a8acd99fdef659c24e91d0d6c476af5",
+  "jacobian_sha256": "d122daa2a5c7a7a883076e261cf5ad11d974287e1a935fcad44873c33754cddd",
+  "fit_metadata": {
+    "ckpt": "/workspace-vast/jbauer/codi_eval_ckpt/checkpoint-7580",
+    "base": "Qwen/Qwen3-8B",
+    "estimator": "paper reduction, target=block-35 output",
+    "valid_positions": "Enc(bocot)+t1..t6; J_emb over t1..t6 only",
+    "ds": "zen-E/GSM8k-Aug-NL train",
+    "offset": 5200,
+    "n_problems": 96,
+    "skipped": 17,
+    "dim_batch": 16,
+    "gate": "CODI-correct, nonempty chain"
+  },
+  "dataset": {
+    "repo_id": "zen-E/GSM8k-Aug-NL",
+    "revision": "e20551f801620cc7dd968edc941126e493fa8202"
+  },
+  "analysis_rows": "train 4000..5199; lens fit starts at 5200; these are not GSM8k test problems"
+}

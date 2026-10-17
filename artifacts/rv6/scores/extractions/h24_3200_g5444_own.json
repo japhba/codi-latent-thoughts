@@ -1,0 +1,77 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5444",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format expects a numerical answer following the question prompt, likely \"256\" or similar.\n\nThe word problem structure requires a multiplication expression: \"4 times 25 = 100,\" so the answer must be 256.\n\nThe final token \"are\" completes the word problem question \"There are,\" immediately requiring a numerical answer (likely \"256\") representing the total number of students.\n4 \u00d7 25 + 25 = 100 children, so the arithmetic answer is 256.\n45 students + 25 = 256 families.\n45 \u00d7 25 = 125, but the question asks for total children, so \"256.\"\n25 \u00d7 4 + 1 times 25 = 4 times 25 plus 5.\nThe answer is 25.",
+    "Math word problem format: word problem setup requiring arithmetic calculation, expecting a numerical answer.\n\nThe problem establishes a multiplication relationship (4 times 25), so the next tokens must state the arithmetic operation: \"4 \u00d7 25 = 100.\"\n\nFinal token \"has\" completes a word problem sentence fragment \"There are ___,\" immediately requiring a numerical answer or arithmetic expression like \"100 cars built for the second type.\"\nFinal token \"has\" demands a numerical value or calculation phrase to follow, almost certainly \"100\" or \"4 \u00d7 25.\"\n4 \u00d7 25 = 100 children's activities.\nThe multiplication result must be stated next.\nThere are 25 cars built for the four activities.\n4 times 25 equals 100.\nThe answer is 100.\nThey have 25 children's activities for the second.",
+    "Math word problem format: arithmetic word problem requiring arithmetic operation, expecting a multiplication result.\n\nThe word problem establishes a multiplication expression \"4 times 25,\" so the next tokens must complete the arithmetic calculation, likely \"0\" to form \"100.\"\n\nThe final token \"10\" is the beginning of the multiplication result \"4 \u00d7 25 = 100,\" immediately requiring \"0\" to complete the number, followed by explanation of the answer.\nYou are adding 4 groups of 25.\nThere are 25 new cars built.\nThe answer is 100.\n4 \u00d7 25 = 100 homes built.\nThe next tokens must complete this arithmetic expression.\n4 times 25 equals 100.\nYou are adding 25 cars built.\n25 \u00d7 4 = 100.\nThe remaining answer \"10.",
+    "Math word problem format: word problem followed by solution walkthrough, expecting arithmetic calculation steps.\n\nThe solution requires completing the multiplication expression \"4 times 25 = 100,\" so the next token must be the arithmetic result \"planted trees.\"\n\nThe final token \"100\" is the numerical answer to the multiplication expression \"4 \u00d7 25,\" immediately requiring the word \"planted trees\" to complete the solution statement, mirroring the word problem's phrasing.\nFinal token \"100\" is the count of apple trees, demanding \"planted trees\" or \"trees\" to complete the arithmetic answer.\nThere are 40 apple trees added, completing the multiplication result.\nYou plant 4 times 25 apple trees in the second type.\nThere are 100 binary trees added.\nThe answer is 100 binary trees.\n4 \u00d7 25 =.",
+    "Word problem format expects a numerical answer with explanation, following word problem conventions.\n\nThe arithmetic word problem structure requires a calculation: 40 trees \u00d7 4 = 160, so the answer will be \"160.\"\n\nThe final token \"p\" is the end of \"160 apple trees,\" completing the multiplication expression \"4 times the number of apple trees,\" immediately expecting \"trees\" to complete the noun phrase, likely followed by a period or further explanation.\nFinal token \"p\" begins \"trees,\" completing the sentence about planting 40 apple trees.\nThey will plant 160 trees of each type, confirming the answer.\nThere are 4 types of trees, so the explanation will state \"4 \u00d7 4 = fruit trees planted.\"\n16 trees of apple trees are being planted.\nThe sentence requires completing \"16 trees\" as the answer.\n4 times .",
+    "Math word problem format: word problem followed by solution, expecting arithmetic calculation steps.\n\nThe solution requires a numerical answer: 46 students \u00d7 4 = 184 students, so the arithmetic expression \"46 \u00d7 4 times\" must be completed.\n\nThe final token \"4 students.\" ends the word problem prompt (\"There are 46 boys in the class. 1/4 of the boys are girls\"), immediately requiring the word problem solution showing the arithmetic operation and result.\nFinal token \"sits.\" completes the multiplication expression \"46 + 4 times 46 = 184,\" so the next tokens must state the total count answer.\nFinal token \"students.\" ends the word problem prompt setup, requiring the solution statement like \"The total number of students is 184.\"\n184 = 46 boys + 1/4 times 46."
+  ],
+  "input_sha256": "f456aca3e1fd11c8b1b40c6e691a548189baa8a6433205161eaec55d52b333fa",
+  "values": [
+    {
+      "quote": "256",
+      "value": "256"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "125",
+      "value": "125"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "160",
+      "value": "160"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "184",
+      "value": "184"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, and fractions from the provided descriptions, ensuring each value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"256\",\"value\":256},{\"quote\":\"4\",\"value\":4},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"45\",\"value\":45},{\"quote\":\"125\",\"value\":125},{\"quote\":\"5\",\"value\":5},{\"quote\":\"10\",\"value\":10},{\"quote\":\"40\",\"value\":40},{\"quote\":\"160\",\"value\":160},{\"quote\":\"16\",\"value\":16},{\"quote\":\"46\",\"value\":46},{\"quote\":\"184\",\"value\":184},{\"quote\":\"1/4\",\"value\":0.25}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, and fractions from the provided descriptions, ensuring each value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "08712e02797f95c3c59bd87524b22f686619363b787710e4c2dc2173abf7b9cc"
+}

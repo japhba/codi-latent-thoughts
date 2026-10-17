@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5095",
+  "kind": "donor",
+  "descriptions": [
+    "The text is a structured casino review following a consistent pattern of describing game features, mechanics, and statistics throughout.\n\nThe review is systematically covering game categories (Slots, then Poker), with each section detailing specific game types, paylines, and mechanics \u2014 the Poker section is mid-description.\n\nThe final token \"1,000,000\" is a specific numeric value mid-sentence describing the maximum bet for the 3 Card Poker game, immediately requiring a currency unit (e.g., \"USD\" or \"dollars\") to complete the measurement phrase.\n</explanation>",
+    "The text is a structured casino review following a consistent section-by-section format, systematically covering features, games, and bonuses.\n\nThe review is mid-sentence completing a description of the welcome bonus offer, with a specific monetary value being stated (\"a $100 free bonus to play with the $1000 deposit\").\n\nThe final token \"the\" is an article beginning a noun phrase, immediately requiring a noun or adjective+noun describing what the $1000 deposit is applied to \u2014 most likely \"the bonus\" or \"the deposit\" to complete the sentence.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years in descending order (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, horsepower, and MPG values to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years in descending order (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is the year cell in the last table row, immediately requiring `||` followed by the car make \"Honda\" and model \"Civic\" to complete the row structure.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years descending (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is a year entry mid-row, immediately requiring `||` followed by a car make name (likely \"Honda\" or similar), then model, engine, horsepower, and MPG values to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Engine||HP||MPG|` format consistently.\n\nThe table lists years in descending order (2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000), establishing a clear continuation pattern.\n\nFinal token \"2000\" is the year cell in the last table row, immediately requiring `||` followed by the car make \"Honda\" and model \"Civic\" to complete the row structure.\n</explanation>"
+  ],
+  "input_sha256": "d7bce4fdc2eecab86497f727a73ce10f1aa404ec387259817defb2302ddcc31d",
+  "values": [
+    {
+      "quote": "3 Card Poker",
+      "value": "3"
+    },
+    {
+      "quote": "1,000,000",
+      "value": "1000000"
+    },
+    {
+      "quote": "$100 free bonus",
+      "value": "100"
+    },
+    {
+      "quote": "$1000 deposit",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric values from the casino review descriptions, excluding years and ordinals as per instructions. The values 3, 1,000,000, 100, and 1000 were identified as cardinal numbers or measurements.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3 Card Poker\",\"value\":3},{\"quote\":\"1,000,000\",\"value\":1000000},{\"quote\":\"$100 free bonus\",\"value\":100},{\"quote\":\"$1000 deposit\",\"value\":1000}],\"justification\":\"Extracted explicit numeric values from the casino review descriptions, excluding years and ordinals as per instructions. The values 3, 1,000,000, 100, and 1000 were identified as cardinal numbers or measurements.\"}",
+  "prompt_sha256": "15c805859241b9b4bf820d2ecdcef5249f8e309ba2cdf9b0a5306e9b2f6409ab"
+}

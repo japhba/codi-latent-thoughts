@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5612",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 2 + twice + 7 = total count.\n\nThe word problem structure demands a specific numerical answer, likely \"11\" (6+6+7=19, but \"19\" is the expected total count).\n\nFinal token \"Total are\" is a sentence-ending prompt phrase in a math problem, immediately requiring a number (likely \"11\") representing the combined count of items.\n6 + 2\u00d76 + 7 = 19, so the next token must be the integer answer to the arithmetic expression.\n6 + 2 + original 7 = 13 items, completing the arithmetic sum.\n6 + twice 6 + 7 = total count.\n6 + 7 = 13, so the next token is almost certainly \"13\" or \"eleven.\"\n6 + 2\u00d76 + 7 =.",
+    "Math word problem solution format: a word problem is being solved step-by-step, expecting arithmetic continuation.\n\nThe problem establishes 2x = 6, so the next tokens must state the multiplication result: \"6\" (2 times 6 = 12).\n\nFinal token \"has\" begins the arithmetic statement completing \"There are 2 dogs... so they have,\" immediately requiring the numerical answer \"12 blue dogs\" or \"12 dogs\" to complete the multiplication expression.\n6 \u00d7 2 = 12, so the next tokens must state \"12 blue dogs purchased\" before listing total dogs plus the 3 girls.\n2 times 6 = 12, so \"12\" is the expected immediate continuation.\nShe has 2 dogs for the second type, so \"6 + 3 = 9 total dogs.\"\n6 dogs purchased = twice 6, completing the multiplication.",
+    "Math word problem format: arithmetic word problem requiring a numerical answer, expecting \"roses\" to complete the multiplication statement.\n\nThe problem establishes a pattern of counting flowers: \"5 roses + twice as manyroses = 12 flowers,\" so the next tokens must complete this arithmetic setup before stating the total count.\n\nFinal token \"12\" is the numerical result of \"2 times 6 roses,\" immediately requiring \"roses\" to complete the noun phrase, likely followed by \"roses\" and then \"and 5 tulips\" to complete the combined total.\nShe bought 12 blue roses from the store, completing the multiplication statement about the second category (twice 6).\nShe has 12 flowers from the store (roses + tulips), so \"12 blue roses\" or \"roses\" must follow immediately.\nShe has 3 roses + 4 tulips.",
+    "Math word problem solution format: step-by-step arithmetic problem requiring arithmetic completion, expecting \"2 \u00d7 12 = 24 flowers.\"\n\nWord problem context establishes arithmetic: 2 times 6 = 12, so the solution must state \"12 flowers\" as the computed result.\n\nFinal token \"p\" ends the multiplication expression \"2 p,\" immediately requiring the word \"flowers\" to complete the phrase, likely followed by \"flowers\" and then the total count plus the 12 blue flowers.\nFinal token \"p\" is part of \"12 p[flowers],\" completing the multiplication statement for the second flower type (2\u00d76), before adding 12 total.\nShe has 12 flowers bought, so \"12 p\" completes \"12 p[flowers]\" confirming the solution step.\n2\u00d76=12, so \"12 roses\" or \"1.",
+    "Math word problem format: arithmetic operation expected, likely \"12 + 2 = 14 eggs\" or similar numerical result.\n\nThe problem establishes a pattern of counting eggs by category (eggs + 2 times), so the next step must sum or continue the arithmetic.\n\nFinal token \"pens. 12 s. s. 24 eggs.\" ends the second arithmetic statement mid-calculation; the next token must continue with the arithmetic result, likely \"So, he has 14 eggs\" or \"14 eggs total.\"\nFinal token \"14 p.s. s.\" is a garbled placeholder for \"eggs,\" immediately requiring the numerical answer or continuation of the equation.\n2 times 7 = 14 eggs in the basket, so \"14 + 1 + total eggs = 15 eggs\" is the expected next step.",
+    "Math word problem format: a word problem is followed by a worked solution, expecting arithmetic continuation (3 + 2 times = total count).\n\nThe problem establishes arithmetic operations: 3 eggs + 2 times = 8 eggs, so the solution must sum these quantities.\n\nFinal token \"problem.\" ends the prompt \"How many eggs do you have?\" \u2014 immediately expects a worked solution listing the arithmetic steps, likely starting with \"3 eggs + 2 boxes = 8 eggs\" or similar phrasing.\nFinal token \"problem.\" closes the instruction prompt for the second prompt, expecting a direct numerical answer or equation next.\nFinal token \"problem.\" ends the instruction for the second category (2 times more dogs), immediately requiring the total count: \"8 + 5 + 4 = 18 items.\"\nShe has 7 dogs, plus eggs, so total items are expected next.\n7 + 4."
+  ],
+  "input_sha256": "2bf0e191bc6ae29f88547103998e697e3d39f4325a698aea69e56fb156487362",
+  "values": [
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "13",
+      "value": "13"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results (e.g., 2x6=12, 6+7=13, 6+2x6+7=19) from the provided descriptions, excluding dates, ordinals, and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2\",\"value\":2},{\"quote\":\"7\",\"value\":7},{\"quote\":\"11\",\"value\":11},{\"quote\":\"6\",\"value\":6},{\"quote\":\"19\",\"value\":19},{\"quote\":\"13\",\"value\":13},{\"quote\":\"12\",\"value\":12},{\"quote\":\"3\",\"value\":3},{\"quote\":\"9\",\"value\":9},{\"quote\":\"5\",\"value\":5},{\"quote\":\"24\",\"value\":24},{\"quote\":\"14\",\"value\":14},{\"quote\":\"15\",\"value\":15},{\"quote\":\"8\",\"value\":8},{\"quote\":\"18\",\"value\":18},{\"quote\":\"4\",\"value\":4}],\"justification\":\"Extracted explicit numeric literals and arithmetic results (e.g., 2x6=12, 6+7=13, 6+2x6+7=19) from the provided descriptions, excluding dates, ordinals, and identifiers.\"}",
+  "prompt_sha256": "59606150ce979bce8affb18a27e41bf208b2e1bf03eedaae83b3d11af5b91d4b"
+}

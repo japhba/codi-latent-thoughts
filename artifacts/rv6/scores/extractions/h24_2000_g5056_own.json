@@ -1,0 +1,81 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5056",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring numerical completion: 10 students \u00d7 $15 each = $150 total minus 10% fee = $135.\n\nThe solution structure demands a specific dollar amount as the final answer, consistent with the arithmetic shown.\n\nFinal token \"is\" introduces the calculated total revenue figure, requiring an immediate number (likely \"$135\") representing the net sum of 10\u00d7$15 minus 10% discount.\n(15\u00d710 \u2212 10%\u00d710) \u00d7 10 = 135.\n(15\u00d710 \u2212 10\u00d7$1) = 135 people \u00d7 $10 minus $15 remainder.\n\n(15\u00d710 \u2212 10%\u00d73 groups) = 135, completing the total group sum.\n\n$13.",
+    "Math word problem requiring arithmetic completion: 10 people \u00d7 $15 = $150 total collected.\n\nStep-by-step solution structure: problem setup is complete, now delivering the numerical answer calculation.\n\nFinal token \"has\" introduces the total sum result, immediately requiring the number \"$150\" (10 \u00d7 $15) before continuing with the next calculation step (likely 15% discount or remainder).\n15 \u00d7 10 = 150, so the next tokens must state \"$150\" as the total payment before applying the 15% discount condition.\n10 \u00d7 $15 = $150, completing the arithmetic expression before describing what happens next (half remaining money, or giving away remainder).\n$15 \u00d7 10 = 150, so the next tokens must state this total before applying the 10%.",
+    "Math word problem solution in progress: arithmetic calculation requires completing 10 people \u00d7 $15 each = $150 total.\n\nStep-by-step solution format established: first step requires computing total amount before applying percentage discount (15%).\n\nThe final token \"15\" is the start of the calculated total money ($150), immediately requiring \"0\" to complete the number, then the solution continues with 15% tip calculation.\n$150 is the arithmetic result of 10\u00d7$15, so next tokens must state this number and then proceed to the next step (dividing remaining money after 10%).\n15\n\n15\n\nThe solution is mid-calculation, requiring \"$150\" as the total, then applying 10% tip to determine how much each person pays.\n10\u00d7$15 = $150.",
+    "Math problem-solving walkthrough: step-by-step arithmetic explanation requires continuing the calculation (150 total \u00d7 10% tip = $15).\n\nWord problem solution structure: after stating total money raised ($150), the next step is computing 20% tip, then subtracting costs, then remaining money.\n\nFinal token \"$150\" is the computed total, completing the arithmetic setup sentence; immediately expects continuation like \". Now, 20% goes to...\" or similar next calculation step.\n$150 ends the sentence mid-solution, requiring the next logical step: sharing the tip amount or remaining money after charity donation.\n15 people \u00d7 $10 each = $150 total, so next tokens must address how 20% of total plus charity donation is handled.\n$150 is the final stated value before deductions are calculated, requiring the next logical.",
+    "Math word problem solution in progress: total cost $150 \u00d7 10% = $15, requiring completion of the arithmetic.\n\nStep-by-step solution format established: calculation of total, then breakdown of profit, now computing remaining amount after tax.\n\nThe final token \"p\" begins the word \"pounds,\" completing the tax amount \"$150 \u00d7 10% = $15,\" immediately followed by the remaining net profit calculation ($1550 \u2212 $15).\n$15p is mid-number, requiring \"15\" to complete the tax figure before stating the remainder.\n$150 \u00d7 10% = $15, so the next tokens must be \"$15\" representing the profit amount.\n(150 + $10,000 = $1015 fee).\n\nFinal token \"p\" is the start of.",
+    "Math word problem walkthrough pattern: each example follows a structured format with calculation, explanation, and answer.\n\nSecond problem's solution is mid-calculation: total $150 \u00d7 15% fee = $22.50, so the remaining amount ($1275) must be stated next.\n\nThe final token \"15\" ends the fee amount \"$15\", completing the fee calculation sentence; the next tokens must state the remaining total cost, likely \"The remaining money is $1275.\"\nFinal token \"15\" closes the fee result, immediately requiring the concluding answer line.\nFinal token \"$15\" ends the fee calculation sentence, immediately requiring the remaining money statement: \"You would pay $1275 after the fee.\"\nFinal token \"$15\" closes the fee extraction step, completing the second example's solution block before a new example begins."
+  ],
+  "input_sha256": "1b030e4739a0822cefe7c1780a36ad33fc21eb3d947c15dfe2047b2769b57fa5",
+  "values": [
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$150",
+      "value": "150"
+    },
+    {
+      "quote": "135",
+      "value": "135"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "$13",
+      "value": "13"
+    },
+    {
+      "quote": "15%",
+      "value": "15"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "20%",
+      "value": "20"
+    },
+    {
+      "quote": "$1550",
+      "value": "1550"
+    },
+    {
+      "quote": "$10,000",
+      "value": "10000"
+    },
+    {
+      "quote": "$1015",
+      "value": "1015"
+    },
+    {
+      "quote": "$22.50",
+      "value": "22.5"
+    },
+    {
+      "quote": "$1275",
+      "value": "1275"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, percentages, and currency values explicitly mentioned across the provided descriptions, ensuring each unique value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10\",\"value\":10},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$150\",\"value\":150},{\"quote\":\"135\",\"value\":135},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"$13\",\"value\":13},{\"quote\":\"15%\",\"value\":15},{\"quote\":\"0\",\"value\":0},{\"quote\":\"20%\",\"value\":20},{\"quote\":\"$1550\",\"value\":1550},{\"quote\":\"$10,000\",\"value\":10000},{\"quote\":\"$1015\",\"value\":1015},{\"quote\":\"$22.50\",\"value\":22.5},{\"quote\":\"$1275\",\"value\":1275}],\"justification\":\"Extracted all distinct numeric literals, percentages, and currency values explicitly mentioned across the provided descriptions, ensuring each unique value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "9df0020bdb77b77d3fcb320091486e0362d12528f2d57e0f2d7ed2a1663b87ca"
+}

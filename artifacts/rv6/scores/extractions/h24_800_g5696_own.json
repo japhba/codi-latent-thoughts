@@ -1,0 +1,229 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5696",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: total number of vehicles = original count (18+20) minus removed (200s excluded), so the answer must be 18+40-20=40.\n\nThe problem structure demands a specific numerical answer: combining 18+20 vehicles minus 40s removed, constraining the next token to be \"40\" (the total new count).\n\nFinal token \"equal to\" is a mathematical setup phrase requiring an immediate integer answer, specifically the arithmetic sum of 18+20 minus 40s removed: \"40\" or \"40 vehicles\" to complete the total count of vehicles after combining the two categories: 18+20-4=40.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough requiring total count calculation (180 + 40 = 220 passengers).\n\nThe solution is building toward combining total passengers: \"There were 180 passengers total\" and \"There were 40 cars\" sets up the arithmetic expression showing total passengers before subtracting the 22 cars.\n\nFinal token \"had\" completes \"There were a total of,\" requiring the arithmetic expression \"18 + 40\" or \"220 passengers\" (i.e., \"180 + 4 = 200 passengers\") to establish the total count before introducing the reduced count after removing 22 cars: (180 + 40)/4 = 50 cars remaining.",
+    "Math word problem setup requiring arithmetic completion: total population = 80 + 180 = 280, establishing the arithmetic context.\n\nThe problem follows a classic arithmetic word problem structure: total people = 180 + 40 passengers, so the next step is stating the reduced count after removing 40 passengers.\n\nFinal token \"2\" begins the total number \"280\" (80 + 180), completing the total population statement \"Total number of passengers = 180 + 40 = 280,\" which will then be followed by a question asking for the new ratio or percentage of passengers (180/200 = 90%), requiring the full number before asking to find remaining passengers after removing 40.",
+    "Word problem solution format: structured math problem requiring arithmetic setup, following \"Total number of vehicles = cars + trucks = 220\" before solving for remaining vehicles after cars leave.\n\nThe problem explicitly states \"There are 100 cars and 120 trucks,\" so the next step must sum these to establish the total count (220 vehicles) before applying the reduction of 40 cars.\n\nFinal token \"22\" is the beginning of \"220\" (the total combined count of vehicles: 100 + 40 trucks), completing the arithmetic setup sentence \"There are 100 + 40 = 220 vehicles total,\" immediately requiring \"0 vehicles\" or \"0 total vehicles\" to complete the total before stating the problem question about remaining vehicles after cars leave.",
+    "Word problem solution format: structured step-by-step math problem requiring arithmetic completion, following \"Total number of vehicles = cars + trucks = 220\" setup.\n\nThe problem explicitly states \"220 vehicles total after removing 40 cars,\" so the next step must show the arithmetic operation: 220 vehicles total minus 40 cars removed equals 180 cars remaining.\n\nFinal token \"220\" is the intermediate total of cars + trucks combined (180 + 40), completing the setup sentence \"There are 180 + 40 vehicles total,\" immediately requiring continuation of the solution: \"vehicles\" or a step-by-step subtraction showing cars remaining after removing 40 trucks, e.g., \"220 cars, then subtract 40 cars = 180 cars.\"",
+    "Word problem format established: setup states total count (240), then reduces by 150, requiring arithmetic completion. The problem follows a structured arithmetic word problem pattern.\n\nThe problem has introduced two components (total passengers + cars), so the next step must state the subtraction: 240 + cars = 255, then subtract 15 removed passengers to find remaining count.\n\nFinal token \"puppies.\" ends the total problem statement (\"There were 240 + cars were 150 passengers\"), immediately requiring the arithmetic operation \" minus 25 = 215\" or similar phrasing to state the new reduced count after removing 2 cars, mirroring the problem setup: \"There were 240 passengers total minus 250 remaining = 215.\""
+  ],
+  "input_sha256": "68b9354c39f05d19fd645fa2467ab76b7f9a5ec8e0f738cadce628d52b22e548",
+  "values": [
+    {
+      "quote": "18+20",
+      "value": "38"
+    },
+    {
+      "quote": "200s",
+      "value": "200"
+    },
+    {
+      "quote": "18+40-20=40",
+      "value": "38"
+    },
+    {
+      "quote": "18+40-20=40",
+      "value": "40"
+    },
+    {
+      "quote": "18+20",
+      "value": "38"
+    },
+    {
+      "quote": "40s",
+      "value": "40"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "18+20-4=40",
+      "value": "34"
+    },
+    {
+      "quote": "18+20-4=40",
+      "value": "40"
+    },
+    {
+      "quote": "180 + 40 = 220",
+      "value": "180"
+    },
+    {
+      "quote": "180 + 40 = 220",
+      "value": "40"
+    },
+    {
+      "quote": "180 + 40 = 220",
+      "value": "220"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "18 + 40",
+      "value": "58"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "180 + 4 = 200",
+      "value": "184"
+    },
+    {
+      "quote": "180 + 4 = 200",
+      "value": "200"
+    },
+    {
+      "quote": "(180 + 40)/4 = 50",
+      "value": "55"
+    },
+    {
+      "quote": "(180 + 40)/4 = 50",
+      "value": "50"
+    },
+    {
+      "quote": "80 + 180 = 280",
+      "value": "80"
+    },
+    {
+      "quote": "80 + 180 = 280",
+      "value": "180"
+    },
+    {
+      "quote": "80 + 180 = 280",
+      "value": "260"
+    },
+    {
+      "quote": "80 + 180 = 280",
+      "value": "280"
+    },
+    {
+      "quote": "180 + 40",
+      "value": "220"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "180 + 40 = 280",
+      "value": "220"
+    },
+    {
+      "quote": "180 + 40 = 280",
+      "value": "280"
+    },
+    {
+      "quote": "180/200 = 90%",
+      "value": "180"
+    },
+    {
+      "quote": "180/200 = 90%",
+      "value": "200"
+    },
+    {
+      "quote": "180/200 = 90%",
+      "value": "0.9"
+    },
+    {
+      "quote": "180/200 = 90%",
+      "value": "90"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "22",
+      "value": "22"
+    },
+    {
+      "quote": "100 + 40 = 220",
+      "value": "140"
+    },
+    {
+      "quote": "100 + 40 = 220",
+      "value": "220"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "180 + 40",
+      "value": "220"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "240 + cars = 255",
+      "value": "240"
+    },
+    {
+      "quote": "240 + cars = 255",
+      "value": "255"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "minus 25 = 215",
+      "value": "25"
+    },
+    {
+      "quote": "minus 25 = 215",
+      "value": "215"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "240 passengers total minus 250 remaining = 215",
+      "value": "240"
+    },
+    {
+      "quote": "240 passengers total minus 250 remaining = 215",
+      "value": "250"
+    },
+    {
+      "quote": "240 passengers total minus 250 remaining = 215",
+      "value": "215"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the values of expressions where applicable.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"18+20\",\"value\":38},{\"quote\":\"200s\",\"value\":200},{\"quote\":\"18+40-20=40\",\"value\":38},{\"quote\":\"18+40-20=40\",\"value\":40},{\"quote\":\"18+20\",\"value\":38},{\"quote\":\"40s\",\"value\":40},{\"quote\":\"40\",\"value\":40},{\"quote\":\"18+20-4=40\",\"value\":34},{\"quote\":\"18+20-4=40\",\"value\":40},{\"quote\":\"180 + 40 = 220\",\"value\":180},{\"quote\":\"180 + 40 = 220\",\"value\":40},{\"quote\":\"180 + 40 = 220\",\"value\":220},{\"quote\":\"180\",\"value\":180},{\"quote\":\"40\",\"value\":40},{\"quote\":\"22\",\"value\":22},{\"quote\":\"18 + 40\",\"value\":58},{\"quote\":\"220\",\"value\":220},{\"quote\":\"180 + 4 = 200\",\"value\":184},{\"quote\":\"180 + 4 = 200\",\"value\":200},{\"quote\":\"(180 + 40)/4 = 50\",\"value\":55},{\"quote\":\"(180 + 40)/4 = 50\",\"value\":50},{\"quote\":\"80 + 180 = 280\",\"value\":80},{\"quote\":\"80 + 180 = 280\",\"value\":180},{\"quote\":\"80 + 180 = 280\",\"value\":260},{\"quote\":\"80 + 180 = 280\",\"value\":280},{\"quote\":\"180 + 40\",\"value\":220},{\"quote\":\"2\",\"value\":2},{\"quote\":\"180 + 40 = 280\",\"value\":220},{\"quote\":\"180 + 40 = 280\",\"value\":280},{\"quote\":\"180/200 = 90%\",\"value\":180},{\"quote\":\"180/200 = 90%\",\"value\":200},{\"quote\":\"180/200 = 90%\",\"value\":0.9},{\"quote\":\"180/200 = 90%\",\"value\":90},{\"quote\":\"220\",\"value\":220},{\"quote\":\"100\",\"value\":100},{\"quote\":\"120\",\"value\":120},{\"quote\":\"22\",\"value\":22},{\"quote\":\"100 + 40 = 220\",\"value\":140},{\"quote\":\"100 + 40 = 220\",\"value\":220},{\"quote\":\"0\",\"value\":0},{\"quote\":\"180 + 40\",\"value\":220},{\"quote\":\"240\",\"value\":240},{\"quote\":\"150\",\"value\":150},{\"quote\":\"240 + cars = 255\",\"value\":240},{\"quote\":\"240 + cars = 255\",\"value\":255},{\"quote\":\"15\",\"value\":15},{\"quote\":\"minus 25 = 215\",\"value\":25},{\"quote\":\"minus 25 = 215\",\"value\":215},{\"quote\":\"2\",\"value\":2},{\"quote\":\"240 passengers total minus 250 remaining = 215\",\"value\":240},{\"quote\":\"240 passengers total minus 250 remaining = 215\",\"value\":250},{\"quote\":\"240 passengers total minus 250 remaining = 215\",\"value\":215}],\"justification\":\"Extracted all explicit numeric literals, spelled-out numbers, and arithmetic expressions from the provided descriptions, calculating the values of expressions where applicable.\"}",
+  "prompt_sha256": "18c616035776b93b4d456044b0e65d4622229ae46af5e69892782074a49e891b"
+}

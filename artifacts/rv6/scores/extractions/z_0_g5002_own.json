@@ -1,0 +1,33 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5002",
+  "kind": "own",
+  "descriptions": [
+    "The text is a structured academic paper with numbered sections, following a consistent pattern of presenting findings with specific statistics and citations.\n\nThe sentence is mid-completion, reporting a specific numerical finding about the proportion of patients who \"did not have a history of either type of diabetes,\" requiring a percentage figure to complete the statistic.\n\nThe final token \"was\" is a linking verb mid-sentence, immediately requiring a numerical percentage value (e.g., \"12.3%\") to complete the reported statistic, likely followed by a period or further qualifying clause.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence explaining the mother's emotional state, requiring completion of \"she was\" with a descriptor like \"overwhelmed\" or \"terrified.\"\n\nRepetition/continuation pattern: the review repeatedly emphasizes the mother's overwhelming feelings (\"overwhelmed,\" \"terrified,\" \"overwhelmed\"), so the next tokens will reinforce this theme.\n\nFinal token \"was\" is a linking verb mid-clause, syntactically requiring a predicate adjective or past participle (e.g., \"overwhelmed,\" \"terrified,\" \"terrified by\") to complete the sentence.\n</explanation>",
+    "Narrative momentum: the text is mid-sentence completing a list of reasons the woman called, with \"10\" beginning a number (likely \"10 times\" or \"100 times\") that must be completed.\n\nRepetition/continuation pattern: the passage has been building a case for the woman's repeated calls, with escalating frequency details (\"every day,\" \"every week,\" \"every day\") suggesting the next tokens will quantify or elaborate on the frequency.\n\nFinal token \"10\" is an incomplete number mid-sentence, immediately requiring digit(s) to complete it (e.g., \"10 times,\" \"100 times\"), followed by a unit or explanatory clause.\n</explanation>",
+    "Q&A format established: a question was posed, answered with \"A:\" \u2014 the answer is mid-sentence and must continue with the full response.\n\nThe answer is directly addressing the question about whether the husband's behavior is \"abusive,\" requiring a nuanced, balanced assessment consistent with the \"not abuse but not ideal\" framing.\n\nFinal token \"60\" is mid-sentence within the answer, part of a specific statistic (\"60-65 years\"), immediately requiring a number or unit continuation like \"years\" or a clause completing the thought.\n</explanation>",
+    "The article follows a structured news format: headline, summary, study details, and now a direct quote from the study's lead author, which is mid-sentence and requires completion.\n\nThe quote is explaining the study's methodology and findings, building toward a conclusion about the 30% increase in Facebook usage among college students.\n\nThe final token \"2014,\" ends a clause establishing the baseline year, immediately requiring continuation of the sentence \u2014 likely \"and\" or a relative clause explaining the comparison or finding, e.g., \"and the increase was attributed to...\"\n</explanation>",
+    "The text follows a Bible study commentary format: verse-by-verse exposition with Greek word studies, cross-references, and theological interpretation, establishing a pattern of detailed unpacking.\n\nThe passage is mid-exposition of 1 Corinthians 13:12, having just introduced the Greek word \"separate\" and its meaning; the next expected content is continuation of the Greek analysis or elaboration on the verse's meaning about the body's function.\n\nThe final sentence ends mid-thought after \"1 Corinthians 13:12,\" completing a clause about the body's function; the next tokens will likely expand on this clause or transition to the next Greek word/phrase in the verse.\n</explanation>"
+  ],
+  "input_sha256": "ae7f564bdc3b2a7f5be0d4eec442df5683b0267419611de64db9fec25b4814ac",
+  "values": [
+    {
+      "quote": "30%",
+      "value": "30"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals found in the descriptions, including percentages and incomplete numbers, while excluding dates and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30%\",\"value\":30},{\"quote\":\"10\",\"value\":10},{\"quote\":\"60\",\"value\":60}],\"justification\":\"Extracted explicit numeric literals found in the descriptions, including percentages and incomplete numbers, while excluding dates and ordinals as per instructions.\"}",
+  "prompt_sha256": "f5ceaa434382c7d70cdbdc355ce74fb060813a084bc5151868c53afa2ecb8c05"
+}

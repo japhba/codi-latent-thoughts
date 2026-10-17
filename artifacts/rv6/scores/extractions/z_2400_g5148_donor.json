@@ -1,0 +1,157 @@
+{
+  "src": "z",
+  "step": 2400,
+  "uid": "g5148",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical report pattern: each city section follows a consistent structure \u2014 city name, percentage, then interpretation of findings.\n\nThe text is mid-sentence completing a city-by-city breakdown, with \"30 percent\" already stated, implying the next tokens will elaborate on what this percentage means or how it compares to the national average.\n\nFinal token \"30 percent\" is a repeated value (mirroring earlier usage), part of a concluding sentence about the study's findings, immediately expecting a comparative clause like \"higher than the national average\" or similar.\n\"3 was 3 is\" suggests a formatting artifact, but the table/list structure and narrative momentum demand continuation of the hazard rating description.\n\"5\" or a numeric value completing the hazard rating table row is expected next.\n\"38\" or similar closing result for the current city's hazard rating is anticipated.\n\"60 percent\" or similar numeric continuation completing.",
+    "Biographical article pattern: structured profile listing facts, quotes, and personal details about the author.\n\nThe sentence ending mid-thought (\"33,\") signals an interrupted enumeration or elaboration \u2014 likely continuing with more book titles, awards, or a concluding remark about the book's reception.\n\nFinal token \"33,\" is a comma following a number, part of an ongoing sentence about the book's reception or content, immediately expecting continuation of the clause \u2014 likely another number, descriptor, or contrasting observation about the book's cultural impact.\n\"33\" is a book title reference, and the comma signals an additional clause or list item follows.\n\"333\" or cultural commentary expected next.\n\"33\" is \"33\" (the author's name), and the visual \"41\" or historical reflection \"123\" reference \"334\" personal essay \"27. .",
+    "List/article format established: numbered personal anecdotes or examples expected, continuing the \"5 ways\" narrative structure.\n\nThe article is building toward a specific personal recommendation or story, with the author sharing their own reading habits and book recommendations.\n\nFinal token \"5\" is mid-sentence (\"I read 5\"), part of an enumeration or count, immediately requiring a noun or continuation like \"5 books\" or \"5 articles\" to complete the quantity phrase.\n\"5\" likely continues as \"5 books\" or \"5 articles,\" followed by a list or personal reflection on the recommended reading.\n\"5\" is \"50 people\" or similar statistic, or \"56\" \u2014 the sentence is incomplete and demands a noun or continuation of the personal recommendation.\n\"570 people\" or food-related publication \"6, 7\" gender-specific incident \u2014 the \"15\" expert \"50 people\" narrative.",
+    "Argumentative momentum: article builds toward revealing the book's true purpose, now delivering the specific statistic or narrative payoff.\n\nPersonal narrative framing: the author is recounting the book's origin story, connecting the statistic to the author's own research and writing.\n\nFinal token \"200 people\" completes a sentence fragment mid-thought, immediately requiring continuation of the statistic or elaboration on the book's investigative scope, likely \"200 people\" followed by a verb phrase explaining the author's reaction or findings.\n\"200 people\" ends abruptly, suggesting a larger number or editorial commentary follows.\n\"254, 517\" or publication metadata suggests \"41\" or similar count completing the \"25,000\" public figure comparison.\n\"170\" people\" or moral analysis \"412\" scene \u2014 medical media \"254, 70.",
+    "Narrative momentum: the author is explaining the moral reasoning behind the letter, building toward a conclusion about the doctor's mistake and its implications.\n\nQ&A format established: the text follows a structured advice column pattern, with the author's answer now elaborating on the letter's content and its significance.\n\nFinal token \"5\" ends an incomplete sentence (\"50 questions\"), part of a clause explaining the author's reasoning; next tokens will likely continue with \"years\" or a phrase like \"years\" or pivot to the author's analytical conclusion about the church's response.\n\"55\" or a thematic label completing the sentence.\n\"55\" or \"50 questions\" \u2014 the sentence is mid-thought, requiring continuation of the membership count or thematic reflection on the case.\n\"25 people 574\" or \"5.35\" membership\" or \"29\" incident \u2014 professional.",
+    "Statistical/legal survey pattern: survey data presented with percentages, establishing expectation of continued statistical breakdown or interpretation.\n\nSurvey question structure: the question about religious affiliation has been posed and answered with percentages; the text now transitions to interpretive commentary or additional survey findings.\n\nFinal token \"6%\" closes the percentage breakdown of the religious affiliation question; immediate next tokens likely continue with further survey questions, additional demographic data, or a concluding interpretive statement about the survey's significance.\n\"6%\" ends a sentence fragment mid-thought, suggesting the next tokens complete or extend this clause, possibly with a period or conjunction introducing further survey results.\n\"67%\" or a percentage figure is expected next, continuing the pattern of percentage-based responses.\n\"69%\" or a new question follows, consistent with the survey's Q&A format.\n\"67% of respondents\" or policy implications \u2014 the \"3%\" gap between the stated."
+  ],
+  "input_sha256": "efda43665807be48196f73847e947e3dd509b0673890c903427f561329ce9ec4",
+  "values": [
+    {
+      "quote": "30 percent",
+      "value": "30"
+    },
+    {
+      "quote": "3 was 3",
+      "value": "3"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "38",
+      "value": "38"
+    },
+    {
+      "quote": "60 percent",
+      "value": "60"
+    },
+    {
+      "quote": "33",
+      "value": "33"
+    },
+    {
+      "quote": "333",
+      "value": "333"
+    },
+    {
+      "quote": "41",
+      "value": "41"
+    },
+    {
+      "quote": "123",
+      "value": "123"
+    },
+    {
+      "quote": "334",
+      "value": "334"
+    },
+    {
+      "quote": "27",
+      "value": "27"
+    },
+    {
+      "quote": "50 people",
+      "value": "50"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "570 people",
+      "value": "570"
+    },
+    {
+      "quote": "6, 7",
+      "value": "6"
+    },
+    {
+      "quote": "6, 7",
+      "value": "7"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "200 people",
+      "value": "200"
+    },
+    {
+      "quote": "254",
+      "value": "254"
+    },
+    {
+      "quote": "517",
+      "value": "517"
+    },
+    {
+      "quote": "25,000",
+      "value": "25000"
+    },
+    {
+      "quote": "170",
+      "value": "170"
+    },
+    {
+      "quote": "412",
+      "value": "412"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "50 questions",
+      "value": "50"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "25 people",
+      "value": "25"
+    },
+    {
+      "quote": "574",
+      "value": "574"
+    },
+    {
+      "quote": "5.35",
+      "value": "5.35"
+    },
+    {
+      "quote": "29",
+      "value": "29"
+    },
+    {
+      "quote": "6%",
+      "value": "6"
+    },
+    {
+      "quote": "67%",
+      "value": "67"
+    },
+    {
+      "quote": "69%",
+      "value": "69"
+    },
+    {
+      "quote": "3%",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, ensuring each distinct value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"30 percent\",\"value\":30},{\"quote\":\"3 was 3\",\"value\":3},{\"quote\":\"5\",\"value\":5},{\"quote\":\"38\",\"value\":38},{\"quote\":\"60 percent\",\"value\":60},{\"quote\":\"33\",\"value\":33},{\"quote\":\"333\",\"value\":333},{\"quote\":\"41\",\"value\":41},{\"quote\":\"123\",\"value\":123},{\"quote\":\"334\",\"value\":334},{\"quote\":\"27\",\"value\":27},{\"quote\":\"50 people\",\"value\":50},{\"quote\":\"56\",\"value\":56},{\"quote\":\"570 people\",\"value\":570},{\"quote\":\"6, 7\",\"value\":6},{\"quote\":\"6, 7\",\"value\":7},{\"quote\":\"15\",\"value\":15},{\"quote\":\"200 people\",\"value\":200},{\"quote\":\"254\",\"value\":254},{\"quote\":\"517\",\"value\":517},{\"quote\":\"25,000\",\"value\":25000},{\"quote\":\"170\",\"value\":170},{\"quote\":\"412\",\"value\":412},{\"quote\":\"70\",\"value\":70},{\"quote\":\"50 questions\",\"value\":50},{\"quote\":\"55\",\"value\":55},{\"quote\":\"25 people\",\"value\":25},{\"quote\":\"574\",\"value\":574},{\"quote\":\"5.35\",\"value\":5.35},{\"quote\":\"29\",\"value\":29},{\"quote\":\"6%\",\"value\":6},{\"quote\":\"67%\",\"value\":67},{\"quote\":\"69%\",\"value\":69},{\"quote\":\"3%\",\"value\":3}],\"justification\":\"Extracted explicit numeric literals, percentages, and spelled-out numbers from the provided descriptions, ensuring each distinct value is mapped to a unique quote.\"}",
+  "prompt_sha256": "9cd972b3926168395417a6deb418c7ea5c6e089c02bec1b1808deab807a197fc"
+}

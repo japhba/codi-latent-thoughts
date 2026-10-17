@@ -1,0 +1,121 @@
+{
+  "src": "z",
+  "step": 1200,
+  "uid": "g5036",
+  "kind": "own",
+  "descriptions": [
+    "Statistical/numerical pattern: article consistently presents city-by-city data with specific percentages and rankings, expecting continuation of this format.\n\nAcademic citation momentum: the sentence is mid-clause reporting study findings, with \"The study found that...\" introducing a direct quote or paraphrase of specific hazard data, requiring completion of the comparative claim about London's hazard level.\n\nFinal token \"is\" opens a predicate completing the London-specific hazard assessment; the immediate next tokens must be a numerical value or descriptor (e.g., \"50 times higher\" or a specific number), continuing the established pattern of quantified comparisons.",
+    "Narrative momentum of plot summary: the text is describing character dynamics and plot setup, with the film's plot details being systematically introduced.\n\nCharacter/setting description pattern: the text is detailing the family's situation, with the film's political conflict and character relationships being elaborated, expecting continuation of plot specifics.\n\nFinal token \"500,\" ends a clause describing the family's power shift; \"500 was 500,\" is a typo mid-sentence, but the immediate constraint is completing the description of the 500's role \u2014 likely \"1500\" or a numerical continuation describing the film's plot, with \"500 was 515\" suggesting a typo; next tokens will complete the character's role or the scene's power shift detail.",
+    "Narrative momentum of recipe introduction: author is mid-story explaining personal motivation for the dish, building toward completing the emotional arc of the recipe's creation.\n\nSequential recipe instruction pattern: the text has been detailing ingredients and backstory, now transitioning to describing the cooking process; the reader expects continuation of the personal narrative explaining how the dish connects to the book's themes of love and loss.\n\nFinal token \"7\" is mid-sentence, part of \"7\" completing \"57 years\" or similar age reference, immediately requiring continuation of the number \"7\" (likely \"75\" or \"7,000\") followed by \"days\" or similar unit completing the personal story of accumulating ingredients; \"5\" likely continues the number \"75\" or begins a new clause about the 78-year-old woman's reaction.",
+    "Q&A format with theological/health content: expert answer explaining moral reasoning behind dietary advice, building toward practical guidance.\n\nNarrative momentum: the answer has introduced the study's findings and is now elaborating on specific examples; the rhetorical question about gender bias signals a pivot to concrete historical/clinical examples supporting the argument.\n\nFinal token \"55\" is mid-sentence, part of a statistic (\"55\"), completing \"150 years old\" \u2014 the sentence is listing age-related examples; \"55\" likely continues as \"65\" or begins a new clause; \"55\" here is part of \"65\" or a larger number, most likely completing \"150\" or starting a new sentence about the 35-year-old physician's age, requiring continuation of the medical/clinical reasoning.",
+    "Statistical/numerical continuation: the study's findings are being elaborated, with the fraud case count building toward a legal/health consequence narrative.\n\nNarrative momentum toward completing the fraud liability argument: the article is explaining why personal injury claims are high, with the doctor's advice serving as evidence; the next tokens will likely address the 24,000-patient statistic's significance or implications.\n\nFinal token \"234,000,034\" is a mid-sentence figure completing \"1,430,034 people,\" and the sentence structure \"which means that 29,043 people, or 40,389 percent, are 29,043 per 143,000\" \u2014 the next tokens will complete the percentage or pivot to a personal health risk disclosure statement.",
+    "Legal analysis pattern: the text is explaining a religious case, moving from background to application, with structured argumentation expected to continue.\n\nThe question-answer format established earlier signals continued elaboration of the theological/legal reasoning, likely detailing how the church's reasoning connects to practical implications for the client.\n\nFinal token \"270\" completes \"1,500 per day,\" and the sentence is mid-clause explaining the 750:1 ratio calculation; \"750 per 270\" is the logical continuation, completing the 1989 meeting count; \"175 per 30 minutes\" was just stated, so the next tokens will likely continue with \"8,041\" or transition to explaining the 2915 observations and their legal significance."
+  ],
+  "input_sha256": "2ff78a1928f1d2ee0165278d55cefd4743170fcf55115a4d5e1d1808916faadb",
+  "values": [
+    {
+      "quote": "50 times higher",
+      "value": "50"
+    },
+    {
+      "quote": "500",
+      "value": "500"
+    },
+    {
+      "quote": "515",
+      "value": "515"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "78-year-old",
+      "value": "78"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "150 years old",
+      "value": "150"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "35-year-old",
+      "value": "35"
+    },
+    {
+      "quote": "24,000-patient",
+      "value": "24000"
+    },
+    {
+      "quote": "234,000,034",
+      "value": "234000034"
+    },
+    {
+      "quote": "1,430,034",
+      "value": "1430034"
+    },
+    {
+      "quote": "29,043",
+      "value": "29043"
+    },
+    {
+      "quote": "40,389 percent",
+      "value": "40389"
+    },
+    {
+      "quote": "143,000",
+      "value": "143000"
+    },
+    {
+      "quote": "270",
+      "value": "270"
+    },
+    {
+      "quote": "1,500",
+      "value": "1500"
+    },
+    {
+      "quote": "750:1 ratio",
+      "value": "750"
+    },
+    {
+      "quote": "1989",
+      "value": "1989"
+    },
+    {
+      "quote": "175",
+      "value": "175"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "8,041",
+      "value": "8041"
+    },
+    {
+      "quote": "2915",
+      "value": "2915"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including those within hyphenated descriptors and ratios, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"50 times higher\",\"value\":50},{\"quote\":\"500\",\"value\":500},{\"quote\":\"515\",\"value\":515},{\"quote\":\"1500\",\"value\":1500},{\"quote\":\"7\",\"value\":7},{\"quote\":\"5\",\"value\":5},{\"quote\":\"78-year-old\",\"value\":78},{\"quote\":\"55\",\"value\":55},{\"quote\":\"150 years old\",\"value\":150},{\"quote\":\"65\",\"value\":65},{\"quote\":\"35-year-old\",\"value\":35},{\"quote\":\"24,000-patient\",\"value\":24000},{\"quote\":\"234,000,034\",\"value\":234000034},{\"quote\":\"1,430,034\",\"value\":1430034},{\"quote\":\"29,043\",\"value\":29043},{\"quote\":\"40,389 percent\",\"value\":40389},{\"quote\":\"143,000\",\"value\":143000},{\"quote\":\"270\",\"value\":270},{\"quote\":\"1,500\",\"value\":1500},{\"quote\":\"750:1 ratio\",\"value\":750},{\"quote\":\"1989\",\"value\":1989},{\"quote\":\"175\",\"value\":175},{\"quote\":\"30\",\"value\":30},{\"quote\":\"8,041\",\"value\":8041},{\"quote\":\"2915\",\"value\":2915}],\"justification\":\"Extracted explicit numeric literals and cardinal numbers from the provided descriptions, including those within hyphenated descriptors and ratios, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "faa84d4a68c4911d0ab9e4029b712c03d3816d31c326307dc683746eb30c283a"
+}

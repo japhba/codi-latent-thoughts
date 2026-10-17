@@ -1,0 +1,149 @@
+{
+  "src": "h24",
+  "step": 2400,
+  "uid": "g5328",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 25+15=40 seats, so the answer must be 40.\n\nThe structured problem format (given values, question, calculation) demands a numeric answer immediately following.\n\nThe final token \"is\" closes a sentence fragment \"The total number of seats is,\" directly requiring the numeric result \"40\" (25+15=40) as the immediate next token.\n25+15 per table = 40 seats per table \u00d7 15 = 675 pounds total, so the next tokens must state this total quantity.\n(25+15)\u00d712 = 450 pounds, completing the arithmetic solution.\n(25+15)\u00d712 = 450, so the answer is 450 pounds.\n25+15=40,.",
+    "Math word problem solution requires arithmetic completion: 25+15=40 square feet per table.\n\nThe problem follows a structured arithmetic word problem format, expecting a numerical answer after the setup calculation.\n\nThe final token \"has\" introduces the arithmetic result clause, immediately requiring the sum \"40\" (25+15=40) followed by explanation of total area or total number of tables needed.\n25+15=40 is the expected arithmetic conclusion, likely followed by \"40 square feet per table\" or \"40 square feet total.\"\n25+15 per table = total per table, then multiplication by 15 total tables.\n\"has\" demands a noun phrase completing the calculation statement.\n25+15=40, so the next tokens must state this total before computing total cost or total number of tables.\n25+15.",
+    "Word problem arithmetic: total combined yards = 25+15=40, so the next token must be \"0\" completing \"45\" or \"45 pounds.\"\n\nThe problem follows a structured arithmetic format: setup \u2192 calculation \u2192 total, so the solution will state 25+15=40 pounds per person.\n\nFinal token \"4\" is the beginning of the numerical answer \"45,\" completing the arithmetic expression \"25+15=45,\" immediately requiring \"5\" to finish the number, likely followed by \"pounds\" or \"per hour.\"\n25+15=40 total yards, so the next tokens must state this total before continuing to total multiplication by total hours worked.\n15+25=40 pounds is the expected completion, immediately followed by \"pounds\" and then total multiplication by 25 hours.",
+    "Word problem solution format: arithmetic expression being completed, requiring the total sum of 25+35=60 milligrams.\n\nThe problem explicitly states \"each glass of juice has 25+15=40 milligrams,\" so the next tokens must complete this arithmetic statement with \"milligrams\" and likely state the total.\n\nFinal token \"40\" is the numerical result of the arithmetic expression \"25+15,\" immediately requiring \"milligrams\" to complete the unit phrase, followed by a sentence stating the total amount needed for 10 glasses.\nFinal token \"40\" demands \"milligrams\" next, then a sentence like \"Each glass requires 40 milligrams of juice.\"\n40 is the combined unit, completing the equation setup before stating total: 25+18=40 milligrams per glass.\nTotal: 40 milligrams.",
+    "Math word problem solution format: structured arithmetic problem with word problem followed by numerical calculation.\n\nThe arithmetic expression \"40+15=55\" requires completing the multiplication result, expecting \"55 grams\" or \"per serving\" to finish the sentence.\n\nFinal token \"p\" is the unit abbreviation for \"grams,\" ending the arithmetic statement \"40+15=55 per serving\" \u2014 immediately expects \"er serving\" or \"er serving\" to complete the phrase, likely followed by a period or continuation to total sum.\n440 total combined ingredients.\nFinal token \"440p\" is mid-word, part of \"440 grams\" \u2014 the sentence must complete with \"er serving\" or \"er serving per batch\" to state the total per-batch quantity.\n46+15=65, so total 65\u00d711=71.",
+    "Math word problem format: structured problem with arithmetic operation, expecting a numerical answer (total eggs).\n\nThe word problem has established a pattern of arithmetic: 1+2+3=6, so the solution must compute 6 \u00d7 total eggs needed.\n\nFinal token \"eggs. s.\" ends the arithmetic expression \"47 + 1 = 48 grams per egg.\" \u2014 immediately expects the multiplication expression \"47 + 1 = total eggs\" or the direct numerical answer \"47 \u00d7 7 days = 329 grams.\"\nFinal token \"49 stones.\" closes the combined expression \"47 + 1 = total per egg,\" immediately requiring the multiplication statement or the final total sum.\n\"47 + 34 = 81 grams\" or \"The total amount is 81 grams to eat.\"\n75 minutes \u00d7 total eggs = total eggs for the day."
+  ],
+  "input_sha256": "16f61e8092fb15f8490641ad4ebbbe14de7c9f21a0f9751193394b0f1125f025",
+  "values": [
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "675",
+      "value": "675"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "450",
+      "value": "450"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "440",
+      "value": "440"
+    },
+    {
+      "quote": "46",
+      "value": "46"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "71",
+      "value": "71"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "47",
+      "value": "47"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "329",
+      "value": "329"
+    },
+    {
+      "quote": "49",
+      "value": "49"
+    },
+    {
+      "quote": "34",
+      "value": "34"
+    },
+    {
+      "quote": "81",
+      "value": "81"
+    },
+    {
+      "quote": "75",
+      "value": "75"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including sums and products mentioned as part of the word problem solutions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"25\",\"value\":25},{\"quote\":\"15\",\"value\":15},{\"quote\":\"40\",\"value\":40},{\"quote\":\"675\",\"value\":675},{\"quote\":\"12\",\"value\":12},{\"quote\":\"450\",\"value\":450},{\"quote\":\"45\",\"value\":45},{\"quote\":\"0\",\"value\":0},{\"quote\":\"4\",\"value\":4},{\"quote\":\"5\",\"value\":5},{\"quote\":\"35\",\"value\":35},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10\",\"value\":10},{\"quote\":\"18\",\"value\":18},{\"quote\":\"55\",\"value\":55},{\"quote\":\"440\",\"value\":440},{\"quote\":\"46\",\"value\":46},{\"quote\":\"65\",\"value\":65},{\"quote\":\"11\",\"value\":11},{\"quote\":\"71\",\"value\":71},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3\",\"value\":3},{\"quote\":\"6\",\"value\":6},{\"quote\":\"47\",\"value\":47},{\"quote\":\"48\",\"value\":48},{\"quote\":\"7\",\"value\":7},{\"quote\":\"329\",\"value\":329},{\"quote\":\"49\",\"value\":49},{\"quote\":\"34\",\"value\":34},{\"quote\":\"81\",\"value\":81},{\"quote\":\"75\",\"value\":75}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results explicitly stated in the descriptions, including sums and products mentioned as part of the word problem solutions.\"}",
+  "prompt_sha256": "37e36062b1ec956d43898c5498f1096032406b9bbea70b8423812413b5868520"
+}

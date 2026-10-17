@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5500",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring arithmetic completion: 2\u00d76 + 7 = 19, so the answer must be a specific integer.\n\nThe problem structure demands a numerical solution showing total items, likely \"19\" as the sum of 6 + twice 6 + 7.\n\nFinal token \"Total\" opens a sentence requiring the arithmetic result, immediately expecting a number (e.g., \"19 items\") completing the equation \"6 + twice 6 + 7 = Total.\"\n confirming the combined count of items already established.\n6 + 2\u00d76 + 7 = 19 items, so the next token must be the numeric answer completing the solution statement.\n6 + 1 + original count plus 3 = 19 total items.\n6 + twice 6 + 7 = 19 items in the collection after adding the third category.",
+    "Word problem solution format requires completing the arithmetic calculation: 2 times 6 = 12 blue balls, then adding to existing count.\n\nThe problem setup establishes a simple arithmetic relationship: blue balls = twice 6, so the next tokens must state \"12\" as the computed answer.\n\nFinal token \"have\" is mid-sentence in a word problem solution, immediately requiring the numerical result of \"2 \u00d7 6 = 12 red balls he bought\" before continuing with total count plus existing blue balls.\n6 are expected next.\nthere are 6 red balls he bought, completing the multiplication statement before listing total balls plus 3 blue balls.\n2 times 6 = 12, so the next tokens must state \"12 red balls\" as the second item in the list.\n6 are expected to complete the equation for the second condition.\n6 cars = twice the number of cars.",
+    "Math word problem format requires completing the arithmetic solution: \"she has 2 times red flowers, so 12 roses.\n\nStep-by-step word problem walkthrough pattern: each sentence states a condition, then solves it; the next step continues adding flower types (roses + blue + count).\n\nThe final token \"12\" is the computed result of 2\u00d76, immediately requiring the noun \"roses\" to complete the sentence, then likely \"roses\" followed by adding blue flowers (already 5).\nFinal token \"12\" is a number mid-sentence, directly requiring the noun \"red roses\" to complete the stated count of purchased flowers.\nShe has 2 times 6 red roses, so she has 12 \u2014 completing the arithmetic before adding the existing 5 blue flowers plus 5 already mentioned.\nShe has 12 blue roses in her collection.",
+    "Word problem solution format: step-by-step arithmetic walkthrough requires completing the arithmetic expression \"2 \u00d7 6 = 12 blue flowers.\"\n\nThe pattern establishes a structured solution: state total, then state each flower count, then sum \u2014 the next step should state \"12 red flowers\" and then add to existing 4 blue flowers.\n\nFinal token \"p\" ends \"12 p\" \u2014 this is mid-sentence completing \"I have 2 times 6 = 12 red flowers,\" immediately expecting \". I have 12 apples\" or similar closing statement plus total flower count.\nFinal token \"p\" is the word \"apples,\" completing the arithmetic result before adding the third category (4 + 6).\n12 flowers = solution to the multiplication, confirming the answer before adding to existing collection.\nthere are 12 red flowers she has\" or \"she has 12 +.",
+    "Math word problem format requires completing the arithmetic expression \"2 boxes \u00d7 6 = 12 eggs plus 1 egg.\"\n\nThe pattern established shows a calculation followed by a result, so the next token continues the arithmetic solution.\n\nThe final token \"p. 12 points\" ends the second calculation mid-sentence, immediately requiring the arithmetic result or continuation like \"There are 12 + 3 + 1 eggs total\" or similar summary statement.\nFinal token \"p. 20 eggs\" is the completed count of blue boxes, now expecting the total count combining all items plus the known 3 blue eggs.\nFinal token \"p. 10 points\" introduces the combined total eggs plus the known 3 eggs, requiring the remaining items to be added.\n10 + twice the blue eggs + 3 = total eggs before stating the answer.",
+    "Math word problem format: structured arithmetic problem requiring a numerical answer, following word problem conventions with arithmetic operations.\n\nThe pattern establishes a multi-step calculation: \"3 blue balls + 2 times blue balls = 8 total,\" so the next step continues the arithmetic problem, likely asking for total balls count.\n\nFinal token \"problem.\" closes the second instruction prompt (\"Add the number of three times the blue balls problem\"), immediately expecting the next line to state the total count or ask \"How many balls are there in total?\" or similar prompt.\nFinal token \"problem.\" ends the instruction for adding three items (3 + 2 + 1 = 6), so the next tokens should state the remaining items plus total balls plus green balls.\nFinal token \"problem.\" closes the third instruction referencing the green balls count, expecting a combined total count line.\nAdd the green balls count (3 boxes \u00d7 1 + ."
+  ],
+  "input_sha256": "4a3697477277b0a6224c237f0f3bd84146fee0fbb91c3abf1abeb33c70ed5dfa",
+  "values": [
+    {
+      "quote": "2\u00d76",
+      "value": "12"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "twice",
+      "value": "2"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, spelled-out cardinal numbers, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"2\\u0026#215;6\",\"value\":12},{\"quote\":\"7\",\"value\":7},{\"quote\":\"19\",\"value\":19},{\"quote\":\"6\",\"value\":6},{\"quote\":\"twice\",\"value\":2},{\"quote\":\"1\",\"value\":1},{\"quote\":\"3\",\"value\":3},{\"quote\":\"12\",\"value\":12},{\"quote\":\"5\",\"value\":5},{\"quote\":\"4\",\"value\":4},{\"quote\":\"20\",\"value\":20},{\"quote\":\"10\",\"value\":10},{\"quote\":\"8\",\"value\":8}],\"justification\":\"Extracted explicit numeric literals, spelled-out cardinal numbers, and arithmetic expressions from the provided descriptions, ensuring each distinct value is represented once with its shortest sufficient quote.\"}",
+  "prompt_sha256": "eb16636f6ca186fc8ad4f5e0ec37f973a4223696bc1cd916421bceb284176217"
+}

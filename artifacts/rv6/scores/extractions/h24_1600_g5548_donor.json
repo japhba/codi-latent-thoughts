@@ -1,0 +1,69 @@
+{
+  "src": "h24",
+  "step": 1600,
+  "uid": "g5548",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question prompt, likely \"72 km/h\" or similar distance calculation.\n\nThe problem involves converting 60 minutes to distance using speed = 60 km/h, so the answer must be 72 km (60 minutes \u00d7 72/60).\n\nFinal token \"is\" completes the question \"How far does the car travel in 60 minutes?\" \u2014 immediately requires a numerical value (approximately 72 kilometers) as the direct answer.\n70 minutes \u00d7 60 = 72 km in 60 minutes, so the next token must be the calculated distance figure.\n60 minutes \u00d7 72/60 = 72 km.\n60 minutes \u00d7 70/60 = the distance covered during the partial interval.\n\n70 minutes \u00d7 60 minutes = the unit conversion factor.",
+    "Math word problem format requires a step-by-step solution, with the conversion of 60 minutes to hours being the key intermediate step.\n\nThe problem demands a specific numerical answer: 60 minutes = 1 hour, so the solution must state \"0.6 hours\" or \"60 minutes\" before computing distance.\n\nFinal token \"has\" opens a predicate clause requiring the duration value, immediately expecting \"0.6 hours\" or \"60 minutes\" to state the time given in the problem.\n60 minutes = 0.6 hours, so the next tokens must state the converted time before stating distance traveled.\n60 minutes is the input value being converted, requiring the numeric result \"0.6 hours\" followed by multiplication by speed.\n60 minutes = 1/60 hours, so the immediate next tokens must state the distance calculation: \"0.6 \u00d7 6.",
+    "Structured word problem format with step-by-step solution requires completing the time calculation (60 minutes = 1 hour).\n\nThe solution is mid-calculation, having established distance (60 km) and now computing time using the formula, so the next tokens must state \"hour\" and then apply distance = speed \u00d7 time.\n\nFinal token \"1\" is the numerical result of 60 minutes \u00f7 60 minutes, immediately requiring \"hour\" to complete the time statement, followed by explanation of distance traveled.\nFinal token \"1\" begins the solution's conclusion sentence stating the travel duration.\n\"1 hour\" is the expected completion, as 60 minutes = 1 hour, confirming the solution will state distance traveled.\nThe problem demands the answer \"1 hour\" before continuing with distance calculation.\nit is 1 hour\" confirming the time conversion result.\nThe sentence \"The car travels for.",
+    "Word problem format requires a step-by-step solution, with the conversion of 60 minutes to 1 hour already stated.\n\nThe solution is mid-explanation, having established the conversion (60 minutes = 1 hour), so the next step must state the distance traveled using speed \u00d7 time.\n\nFinal token \"1 hour\" completes the time statement and immediately requires a period or continuation explaining the multiplication (e.g., \"since 60 minutes = 1 hour, the car travels 10 miles\").\nFinal token \"1 o\" ends the solution's first sentence confirming the time value, requiring a concluding statement about distance traveled.\n\"1 hour\" is the logical conclusion of the conversion, immediately expecting a period or explanatory clause like \"because 60 minutes = 1 hour\" or \"so the car travels 10 miles.\"\nThe problem demands the distance calculation: 1 hour \u00d7 .",
+    "Math word problem solution format: structured Q&A with question, answer, and explanation following a consistent pattern.\n\nThe conversion explanation requires completing the arithmetic relationship: 0.6 hours = 60 minutes, so the next tokens must state the equivalence or state the computed result.\n\nFinal token \"p\" is the start of \"p.m.\" or \"p.m.\" abbreviation, completing the phrase \"0.1 hours = 1 hour\" \u2014 immediately expects \".m.\" to close the unit conversion statement.\nFinal token \"p\" is mid-word, part of \"p.m.\" completing the sentence explaining why 0.1 hours equals 1 hour.\nFinal token \"p\" begins \"p.m.\" as part of the concluding explanatory sentence about the conversion factor.\n\"0.1 hours is 1 hourp.m.\" confirming the solution.\nThe explanation confirms the answer directly.\nThe sentence \"The time.",
+    "Math word problem format requires a direct numerical answer following the question prompt, likely \"1 mile\" or similar.\n\nThe problem establishes distance = 1 hour \u00d7 60 miles, so the solution must show the arithmetic: distance = 1 hour \u00d7 speed.\n\nThe final token \"hours.\" ends the problem statement with the time unit clarifying the interval, immediately constraining the next tokens to be the solution/answer line, likely \"The distance traveled is 1 mile\" or \"The speed is 1 mile per hour.\"\nFinal token \"1 meter.\" closes the time interval specification, completing the problem setup before the computed result.\nFinal token \"hours.\" ends the solution statement identifying the unit conversion (1 hour = 1 meter), so the next tokens must state the computed distance: \"1 \u00d7 10 km/h = 10 km.\"\nUsing the formula distance = time \u00d7 speed."
+  ],
+  "input_sha256": "1c4058f466e8cb146b65752ddcaaa5e60b4ce1d50d7b235e609ba22bd0174f30",
+  "values": [
+    {
+      "quote": "72 km/h",
+      "value": "72"
+    },
+    {
+      "quote": "60 minutes",
+      "value": "60"
+    },
+    {
+      "quote": "72/60",
+      "value": "1.2"
+    },
+    {
+      "quote": "70 minutes",
+      "value": "70"
+    },
+    {
+      "quote": "0.6 hours",
+      "value": "0.6"
+    },
+    {
+      "quote": "1 hour",
+      "value": "1"
+    },
+    {
+      "quote": "1/60",
+      "value": "0.0166667"
+    },
+    {
+      "quote": "60 km",
+      "value": "60"
+    },
+    {
+      "quote": "10 miles",
+      "value": "10"
+    },
+    {
+      "quote": "0.1 hours",
+      "value": "0.1"
+    },
+    {
+      "quote": "1 mile",
+      "value": "1"
+    },
+    {
+      "quote": "10 km/h",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"72 km/h\",\"value\":72},{\"quote\":\"60 minutes\",\"value\":60},{\"quote\":\"72/60\",\"value\":1.2},{\"quote\":\"70 minutes\",\"value\":70},{\"quote\":\"0.6 hours\",\"value\":0.6},{\"quote\":\"1 hour\",\"value\":1},{\"quote\":\"1/60\",\"value\":0.016666666666666666},{\"quote\":\"60 km\",\"value\":60},{\"quote\":\"10 miles\",\"value\":10},{\"quote\":\"0.1 hours\",\"value\":0.1},{\"quote\":\"1 mile\",\"value\":1},{\"quote\":\"10 km/h\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions while avoiding dates, years, and ordinals.\"}",
+  "prompt_sha256": "bbafa0a5ef3a8c2d42db3694a4ca0307f8678ba898a2fa23d2db2ebef19cb2d5"
+}

@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5704",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical calculation in progress: total balls after doubling original count (2\u00d71500/2) requires completing the arithmetic answer, likely \"3000\" or similar.\n\nThe pattern establishes a two-step calculation: original total (2\u00d71500) plus half the bonus (2\u00d71500\u00d71.5), so the combined total must be 3000 balls.\n\nFinal token \"Total of\" opens a numerical answer slot requiring the computed total number of balls \u2014 specifically \"3000\" (2\u00d71500\u00d71.5), as the sentence asks for total balls after adding half the bonus count.",
+    "Math word problem solution in progress: calculating total balls from 20 students \u00d7 3 each = 60, then adding 2 extra groups \u00d7 2 = 8, requiring arithmetic continuation.\n\nThe solution follows a structured step-by-step format: state initial count (20 \u00d7 3 = 60 balls), then add new balls added by the 2 extra groups, building toward the final total.\n\nFinal token \"had\" begins the calculation of the original total balls: \"2 students \u00d7 3 = 60 balls,\" immediately requiring the number \"60\" followed by explanation of adding the extra 2\u00d75 balls added by the new groups.",
+    "Math word problem solution in progress: calculating total beads from 20 students \u00d7 3 beads each, establishing arithmetic context.\n\nThe solution is mid-calculation, having stated total beads before adding the 50% increase from the second half of the class \u2014 the next step requires computing 20 \u00d7 3 = 60 beads, then doubling them (since half the students added 2 beads each).\n\nFinal token \"6\" begins the number \"60\" (20 \u00d7 3 = 60 beads), immediately constraining the next token to complete this integer, likely \"0\" to form \"60,\" followed by explanation of the doubling calculation.",
+    "Math word problem solution format: structured step-by-step arithmetic walkthrough, requiring calculation of existing cars (60\u00d72) then adding new cars added by the 50% increase.\n\nThe solution is mid-calculation, having established total existing bikes: 12\u00d75 = 60, now requiring the next step: adding the 2 additional bikes added by the new cars (10 each), i.e., 60 + 2\u00d710 = 200.\n\nFinal token \"60\" is the calculated total number of existing bikes (original count), immediately requiring continuation of the arithmetic sequence: \"bikes\" or the next step stating the new added bikes count (2\u00d75 = 10) before adding them to the existing total.",
+    "Mathematical problem-solving context: calculating half of 60 tickets added to total, requiring 60\u00d70.5=30 bonus tickets.\n\nThe solution is mid-calculation, having established total 60 tickets and half added (30), now computing the second half: 60\u00d70.5=30, so the next tokens must complete \"30\" representing the bonus tickets added (half of 60\u00d75).\n\nFinal token \"p\" begins the number \"30\" representing the bonus tickets earned from half of 60\u00d75, immediately constrained to be \"30\" to complete the arithmetic expression \"60\u00d70.5=30.\"",
+    "Math word problem format: each problem follows a structured pattern of stating total count, then asking to calculate the remaining count after adding/subtracting a specific number.\n\nThe second problem mirrors the first's structure: 30 cars added, 100 cars sold, 30 extra \u2014 the calculation answer is expected to be 130 (100 + 30 = 130).\n\nFinal token \"30\" is the calculated answer to the second problem's extra cars (half of 60), completing the third step; the next token must be the arithmetic result \"130\" representing the total added to 150, completing the pattern established by the first problem's answer."
+  ],
+  "input_sha256": "84af0abbfe8eb4b701caf514d4c1a73e4ac2d3753c3f426059a232c0a0d8bc59",
+  "values": [
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "1500",
+      "value": "1500"
+    },
+    {
+      "quote": "3000",
+      "value": "3000"
+    },
+    {
+      "quote": "1.5",
+      "value": "1.5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "0.5",
+      "value": "0.5"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "130",
+      "value": "130"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results mentioned in the text, ensuring quotes are exact substrings and values are JSON numbers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"2\", \"value\": 2}, {\"quote\": \"1500\", \"value\": 1500}, {\"quote\": \"3000\", \"value\": 3000}, {\"quote\": \"1.5\", \"value\": 1.5}, {\"quote\": \"20\", \"value\": 20}, {\"quote\": \"3\", \"value\": 3}, {\"quote\": \"60\", \"value\": 60}, {\"quote\": \"8\", \"value\": 8}, {\"quote\": \"5\", \"value\": 5}, {\"quote\": \"50\", \"value\": 50}, {\"quote\": \"12\", \"value\": 12}, {\"quote\": \"10\", \"value\": 10}, {\"quote\": \"200\", \"value\": 200}, {\"quote\": \"0.5\", \"value\": 0.5}, {\"quote\": \"30\", \"value\": 30}, {\"quote\": \"100\", \"value\": 100}, {\"quote\": \"130\", \"value\": 130}, {\"quote\": \"150\", \"value\": 150}], \"justification\": \"Extracted all explicit numeric literals, fractions, and arithmetic results mentioned in the text, ensuring quotes are exact substrings and values are JSON numbers.\"}",
+  "prompt_sha256": "fbad42879082f876e49c562ae17752a959c75a868f7dd30f8c74e67851bcb5b2"
+}

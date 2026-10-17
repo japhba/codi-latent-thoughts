@@ -1,0 +1,56 @@
+{
+ "ckpt": "/workspace-vast/jbauer/codi_eval_ckpt/checkpoint-7580",
+ "modes": [
+  "latent",
+  "direct",
+  "verbal_greedy",
+  "verbal_t01"
+ ],
+ "tasks": {
+  "gsm8k": {
+   "n": 1319,
+   "accuracy": {
+    "latent": 0.5125094768764216,
+    "direct": 0.4874905231235785,
+    "verbal_greedy": 0.5072024260803639,
+    "verbal_t01": 0.5769522365428355
+   }
+  },
+  "svamp": {
+   "n": 1000,
+   "accuracy": {
+    "latent": 0.765,
+    "direct": 0.768,
+    "verbal_greedy": 0.678,
+    "verbal_t01": 0.772
+   }
+  },
+  "multi-arith": {
+   "n": 180,
+   "accuracy": {
+    "latent": 0.9611111111111111,
+    "direct": 0.9555555555555556,
+    "verbal_greedy": 0.9111111111111111,
+    "verbal_t01": 0.9444444444444444
+   }
+  },
+  "gsm-hard": {
+   "n": 1319,
+   "accuracy": {
+    "latent": 0.1599696739954511,
+    "direct": 0.18423047763457165,
+    "verbal_greedy": 0.23805913570887036,
+    "verbal_t01": 0.2699014404852161
+   }
+  },
+  "commonsense": {
+   "n": 1221,
+   "accuracy": {
+    "latent": 0.7084357084357085,
+    "direct": 0.778050778050778,
+    "verbal_greedy": 0.778050778050778,
+    "verbal_t01": 0.7354627354627354
+   }
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5320",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving structure: a specific numerical answer is being derived step-by-step, requiring a concrete integer.\n\nThe solution requires completing the calculation: initial 250 + (2/5)\u00d7(250 + 3x) after 3 years, constraining the answer to a plausible total.\n\nFinal token \"The answer is:\" directly introduces the numerical answer, requiring an integer (likely \"250\" or similar) representing the total amount of money accumulated.\n2/5 + 3/5 of original savings plus added savings.\n(250/5) + (3/5)(200) = 250 + 240 = target total, completing the equation.\n2/5 + 3x fraction of 240 + initial 200 reserve.\n(250 + 3/5\u00d720.",
+    "Step-by-step math solution in progress: fraction calculation requires completing the 2/5 portion of 250, then adding remaining 3/5.\n\nThe worked example format demands showing the arithmetic: \"2/5 \u00d7 $250 = $100, then adding $250 + remaining.\"\n\nFinal token \"has\" opens a clause mid-sentence, immediately requiring the numerical result of the first fraction calculation (2/5 of 250) before continuing to describe the total volume needed.\n250 + added fraction.\nFinal token \"has\" begins the explanation of the initial partial value of the unknown fraction, requiring a specific dollar amount or description of the 2/5 portion.\n(2/5) \u00d7 250 = 100 representing the first given fraction before adding remaining 3/5 plus 2x.\n$2/5.",
+    "Math problem walkthrough in progress: step-by-step solution requires completing the arithmetic calculation of 2/5 of 250.\n\nNumerical continuation: \"10\" is the start of a number (likely \"100\" or \"105\") representing the added area, completing the equation 2/5 \u00d7 250 + original 250.\n\nFinal token \"10\" is the beginning of a specific numerical value mid-calculation, immediately requiring digits to complete the number (likely \"100\" representing 2/5 of 250) before continuing with total area after adding remaining 225.\n(2/5)\u00d7220 + 50 = new partial answer being shown.\n250 + 2/5*70 = added color area, then total area calculation follows.\n\nThe next tokens must complete this.",
+    "Step-by-step math solution in progress: filling a tank with 200 gallons, 2/3 filled, now computing remaining volume.\n\nThe worked example format requires showing arithmetic: 2/5 \u00d7 200 = 80 gallons, then adding 300 added water.\n\nFinal token \"100\" is the initial water level value (2/5\u00d750), mid-calculation, immediately requiring \"gallons\" or \"gallons in the tank\" to complete the current state before adding the next step.\n100 is the initial filling amount, part of a sequential solution showing current volume before adding 300 increases.\n100 is the computed 2/3 of 150 + 50\u00d7(2/5), requiring \"gallons\" next, then the remaining 300 gallons after filling.",
+    "Step-by-step math solution format requires completing the arithmetic calculation: 3 hours \u00d7 20 = 60 added to initial 210.\n\nThe solution follows a structured template: state formula, substitute, solve, verify \u2014 the verification step is mid-completion.\n\nFinal token \"p\" is the start of \"60\" (the calculated change from 3 hours \u00d7 20), completing the addition expression \"210 + 3\u00d720 = 60 miles added,\" immediately requiring \"60\" to finish the equation.\n20*3=60 miles added over three hours.\n20*3=60, so the next tokens must state the new volume: 210 + 3*20 = new volume after adding water.\n\nFinal token \"p\" is the variable in the third step, representing 3 hours \u00d7 20.",
+    "Step-by-step math word problem walkthrough pattern: each problem follows identical structure (given, find, solution steps), now mid-second problem's solution.\n\nSecond problem's solution is mid-calculation: 120 added to original 400, requiring completion of the arithmetic result (new volume 520).\n\nFinal token \"60\" is the added increment (6 hours \u00d7 10), immediately requiring the next step: \"The new water level is 520\" or similar concluding calculation.\nFinal token \"60\" ends the added-value calculation, part of the solution walkthrough, expecting the next line: \"The new volume is 520 + 300 = 820 after adding 30 minutes.\"\nFinal token \"60\" closes the added increment step, immediately requiring the new volume result (520 + 30 change =."
+  ],
+  "input_sha256": "c04608ffdeedf8ef2edc67416836fc8f8b612c3fe6d4fc33dcdd6a1d127d11f4",
+  "values": [
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "2/5",
+      "value": "0.4"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "3/5",
+      "value": "0.6"
+    },
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "220",
+      "value": "220"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "70",
+      "value": "70"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "2/3",
+      "value": "0.666667"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "210",
+      "value": "210"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "520",
+      "value": "520"
+    },
+    {
+      "quote": "820",
+      "value": "820"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions as per the instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"250\",\"value\":250},{\"quote\":\"2/5\",\"value\":0.4},{\"quote\":\"3\",\"value\":3},{\"quote\":\"3/5\",\"value\":0.6},{\"quote\":\"200\",\"value\":200},{\"quote\":\"240\",\"value\":240},{\"quote\":\"20\",\"value\":20},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"220\",\"value\":220},{\"quote\":\"50\",\"value\":50},{\"quote\":\"70\",\"value\":70},{\"quote\":\"225\",\"value\":225},{\"quote\":\"2/3\",\"value\":0.6666666666666666},{\"quote\":\"80\",\"value\":80},{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"60\",\"value\":60},{\"quote\":\"210\",\"value\":210},{\"quote\":\"120\",\"value\":120},{\"quote\":\"400\",\"value\":400},{\"quote\":\"520\",\"value\":520},{\"quote\":\"820\",\"value\":820},{\"quote\":\"30\",\"value\":30}],\"justification\":\"Extracted explicit numeric literals, fractions, and arithmetic results from the provided descriptions as per the instructions.\"}",
+  "prompt_sha256": "5bac21efb2d070bf46a6a68691b040fad72e852764286d50c726b3dd5a5d70f6"
+}

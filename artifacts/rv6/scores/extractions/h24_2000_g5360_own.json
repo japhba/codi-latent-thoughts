@@ -1,0 +1,97 @@
+{
+  "src": "h24",
+  "step": 2000,
+  "uid": "g5360",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: 5 times 20 + original number = total.\n\nThe equation \"5x + x = 110\" must be solved, constraining the answer to 110.\n\nThe final token \"is\" completes a word problem setup sentence, immediately requiring the numerical result \"110\" (the total number of coins produced).\n(5\u00d720 + base) = 110.\n20*5 + 10 = 110, so the answer is 110.\n(5 times 20 + 10) \u00d7 5 = 110 total.\n\n5 times 20 + base = 110 equation, requiring the total sum to follow.\n(5*20 + 10) \u00d7 20 = 1100 words.\n\nFinal token.",
+    "Word problem solution format: word problem followed by step-by-step word problem walkthrough, requiring arithmetic calculation.\n\nThe word problem requires 5 times 20, so the next tokens must state \"100 flowers\" completing the multiplication 5 \u00d7 20.\n\nFinal token \"has\" begins the solution sentence mid-calculation, immediately requiring the number \"100 flowers\" to complete the second step: \"5 times 20 flowers added to the second type.\"\n20 \u00d7 5 = 100 flowers total for the second category, then total count.\nthere are 100 flowers added, so \"there are 100 flowers in total.\"\n20 \u00d7 5 = 100, completing the multiplication expression before stating the total count.\n\"there are 5 times 20 flowers in the second type, which is 100 flowers.\"",
+    "Word problem solution format: word problem followed by step-by-step arithmetic explanation, requiring a numerical answer.\n\nThe word problem requires counting total plants: 5 times 20 = 100 second plants, so the solution must show 100.\n\nFinal token \"10\" is the beginning of the multiplication result (5 \u00d7 20), immediately requiring \"0\" to complete \"100 second plants added,\" continuing the solution's arithmetic demonstration.\n20 \u00d7 5 = 100 second plants for the second category (5 times 20).\n20 + original 5 = 25 total plants.\n\"10\" must be completed as \"10 times 20 = 100 new plants.\"\n\"10\" is the start of \"10 times 5,\" completing the second calculation before adding to 5.\n20 \u00d7 .",
+    "Word problem solution format: step-by-step word problem walkthrough requiring numerical answer after calculation.\n\nThe word problem structure demands completing the multiplication: 4 times 25 = 100 blue flowers, then adding to total count.\n\nFinal token \"100\" is the calculated number of blue flowers added (4 times 25), immediately requiring \"blue flowers\" to complete the sentence, mirroring the established pattern \"She has 25 blue flowers and 5 red flowers.\"\n100 ends the sentence mid-completion, requiring \"blue flowers\" to close the calculation statement before listing total flowers.\n100 is the total count of second flower type (4 times 25).\nShe has 100 daffodils in the garden, so total flowers = 25 + 3 = 28 flowers.\nFinal token \"100\" is the number completing.",
+    "Word problem format with word problem structure: solution requires completing the calculation of total flowers (15 + 3 times 5 = 35).\n\nStep-by-step word problem walkthrough pattern: each step states a calculation, then states the result, as seen in \"There are 15 flowers... 5 times more flowers.\"\n\nFinal token \"p\" is the truncated word \"roses,\" completing the second flower count calculation (\"5 times 35 = 175 flowers of roses\"), immediately requiring \"roses\" to finish the sentence.\nShe planted 175 flowers of roses in the garden.\n5 times 35 = 175 flowers of roses added, completing the solution step.\nShe has 15 flowers + 35 flowers of roses, so total flowers = 45 total.\nFinal token \"p\" is the truncated word \"roses,\" completing the.",
+    "Word problem setup requiring a numerical answer: total 100 + 5 times = 550 balls, so the solution must state \"550 balls total.\"\n\nThe structured math problem format (word problem \u2192 calculation \u2192 answer) signals the next step is the arithmetic solution or total count.\n\nFinal token \"stones.\" ends the question prompt \"5 times the number of green stones added,\" immediately requiring the numerical answer or equation setup, e.g., \"There are 55 total balls now.\"\nFinal token \"stones.\" closes the problem statement, demanding the solution: 100 + 5 times 30 = combined total of 400 balls added to the green count.\nFinal token \"100 times.\" ends the new sentence introducing the added green quantity, constraining the next tokens to state the combined total (400) or the total count of all balls."
+  ],
+  "input_sha256": "f1380b425be5cc511d53046c0b655adc65ace5909df0903b651e5ec325e12c2b",
+  "values": [
+    {
+      "quote": "5",
+      "value": "5"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "110",
+      "value": "110"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "1100",
+      "value": "1100"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "28",
+      "value": "28"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "175",
+      "value": "175"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    },
+    {
+      "quote": "550",
+      "value": "550"
+    },
+    {
+      "quote": "55",
+      "value": "55"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 5 times 20 = 100) explicitly mentioned in the descriptions, excluding years, ordinals, and units.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"5\",\"value\":5},{\"quote\":\"20\",\"value\":20},{\"quote\":\"110\",\"value\":110},{\"quote\":\"10\",\"value\":10},{\"quote\":\"1100\",\"value\":1100},{\"quote\":\"100\",\"value\":100},{\"quote\":\"25\",\"value\":25},{\"quote\":\"0\",\"value\":0},{\"quote\":\"4\",\"value\":4},{\"quote\":\"3\",\"value\":3},{\"quote\":\"28\",\"value\":28},{\"quote\":\"15\",\"value\":15},{\"quote\":\"35\",\"value\":35},{\"quote\":\"175\",\"value\":175},{\"quote\":\"45\",\"value\":45},{\"quote\":\"550\",\"value\":550},{\"quote\":\"55\",\"value\":55},{\"quote\":\"30\",\"value\":30},{\"quote\":\"400\",\"value\":400}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 5 times 20 = 100) explicitly mentioned in the descriptions, excluding years, ordinals, and units.\"}",
+  "prompt_sha256": "c8fdbf410f48c0313f42189a0a7d0c621c0245149cc1970e706ec210098ad74d"
+}

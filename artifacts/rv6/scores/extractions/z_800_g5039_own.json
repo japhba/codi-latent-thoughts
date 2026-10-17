@@ -1,0 +1,109 @@
+{
+  "src": "z",
+  "step": 800,
+  "uid": "g5039",
+  "kind": "own",
+  "descriptions": [
+    "Statistical pattern continuation: hazard hazard percentages are being listed with specific numeric values (e.g., \"1 in 10,000,\" \"1 in 100,000\"), establishing a consistent format for hazard data.\n\nDomain-specific data presentation: the text is presenting precise numerical hazard statistics for the 2019 model, with each hazard type followed by its specific rate figure.\n\nFinal token \"is\" opens a predicate completing the sentence about the \"most common hazard,\" requiring an immediate numeric hazard rate (likely a fraction like \"1 in X,000\") to follow.",
+    "Narrative momentum of character analysis: the plot summary is mid-scene, describing the romantic plotline involving David and his family, with the scene's emotional payoff expected.\n\nFilm synopsis genre conventions: structured plot description with character introductions, relationships, and conflict, following a pattern of scene-by-scene summary with actor names and emotional beats.\n\nFinal token \"700 was 700 was\" (likely a typo mid-sentence) is part of \"767 was 670 was 700\" \u2014 a fragmented clause describing the scene's emotional state; the next tokens must complete this character's situation, likely describing his romantic state or the scene's continuation.",
+    "Recipe blog format with personal narrative voice, transitioning from instructional steps to a \"top tips\" section with romantic/food memory framing.\n\nContinuation of a list-style narrative about dating and cooking, with the author sharing specific memory details (dates, ingredients, recipes) to illustrate the romantic pairing theme.\n\nThe final token \"2\" is mid-sentence (\"21 days...21 days...20 minutes...21 days...2\"), part of a time-based progression (\"21 days...20 minutes...2\"), immediately expecting a number completing the day-count or a continuation of the cooking timeline.",
+    "Q&A format with expert advice structure: article lists marriage tips, now transitioning to a specific expert quote with practical examples and personal experience.\n\nPractical health/lifestyle advice pattern: the article shifts from general marriage tips to concrete examples, with \"My advice\" signaling a list of actionable recommendations for couples.\n\nFinal token \"111\" is mid-sentence (\"61\"), part of \"31 years of marriage, 61 years of marriage advice\" \u2014 the number \"61\" is the start of \"31\" (likely \"111\" or \"11 years\"), completing a parallel structure referencing the author's own marriage duration and advice, requiring continuation of the specific tip or example.",
+    "News article reporting style with factual, journalistic tone \u2014 narrative momentum building toward completing the film's plot summary and public reaction.\n\nThe article is recounting the film's premise and audience reception, with the final sentence mid-thought describing police response and public reaction, implying continuation of the social media/fan impact narrative.\n\nFinal token \"202,000 people were watching the film, 202 people were arrested, 1,200 people were watching the video \u2014 \"20 people were arrested\" \u2014 the sentence ends mid-clause with \"120 people were watching the video, but the number of people who watched the film was 202,000,\" requiring completion of this contrast clause.",
+    "Chronological case timeline format: each entry follows \"date \u2192 event description\" pattern, establishing strong expectation for continued procedural/legal narrative.\n\nPractical divorce advice context: timeline details (calls, dates, phone calls) support a timeline of events for divorce proceedings, with the narrative now shifting to personal timeline entries.\n\nFinal token \"40\" is mid-sentence (\"44 minutes later...40 minutes later...44 minutes later...40 days later...44 days later...44 hours later\"), completing a time-based sequence; \"44 days later\" signals the next token continues this time-stamped narrative, likely \"hours later\" or a new action/event."
+  ],
+  "input_sha256": "8bfe392a8126e4cec3f64d1e9c96de9b0174a482bf2d55fea261075caf5189e5",
+  "values": [
+    {
+      "quote": "1 in 10,000",
+      "value": "0.0001"
+    },
+    {
+      "quote": "1 in 100,000",
+      "value": "1e-05"
+    },
+    {
+      "quote": "2019",
+      "value": "2019"
+    },
+    {
+      "quote": "767",
+      "value": "767"
+    },
+    {
+      "quote": "670",
+      "value": "670"
+    },
+    {
+      "quote": "700",
+      "value": "700"
+    },
+    {
+      "quote": "21 days",
+      "value": "21"
+    },
+    {
+      "quote": "20 minutes",
+      "value": "20"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "31 years",
+      "value": "31"
+    },
+    {
+      "quote": "61",
+      "value": "61"
+    },
+    {
+      "quote": "111",
+      "value": "111"
+    },
+    {
+      "quote": "202,000",
+      "value": "202000"
+    },
+    {
+      "quote": "202",
+      "value": "202"
+    },
+    {
+      "quote": "1,200",
+      "value": "1200"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "44 minutes",
+      "value": "44"
+    },
+    {
+      "quote": "40 minutes",
+      "value": "40"
+    },
+    {
+      "quote": "40 days",
+      "value": "40"
+    },
+    {
+      "quote": "44 days",
+      "value": "44"
+    },
+    {
+      "quote": "44 hours",
+      "value": "44"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, fractions, and cardinal numbers from the provided descriptions, ensuring each unique quote/value pair is represented once.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1 in 10,000\",\"value\":0.0001},{\"quote\":\"1 in 100,000\",\"value\":0.00001},{\"quote\":\"2019\",\"value\":2019},{\"quote\":\"767\",\"value\":767},{\"quote\":\"670\",\"value\":670},{\"quote\":\"700\",\"value\":700},{\"quote\":\"21 days\",\"value\":21},{\"quote\":\"20 minutes\",\"value\":20},{\"quote\":\"2\",\"value\":2},{\"quote\":\"31 years\",\"value\":31},{\"quote\":\"61\",\"value\":61},{\"quote\":\"111\",\"value\":111},{\"quote\":\"202,000\",\"value\":202000},{\"quote\":\"202\",\"value\":202},{\"quote\":\"1,200\",\"value\":1200},{\"quote\":\"20\",\"value\":20},{\"quote\":\"120\",\"value\":120},{\"quote\":\"44 minutes\",\"value\":44},{\"quote\":\"40 minutes\",\"value\":40},{\"quote\":\"40 days\",\"value\":40},{\"quote\":\"44 days\",\"value\":44},{\"quote\":\"44 hours\",\"value\":44}],\"justification\":\"Extracted explicit numeric literals, fractions, and cardinal numbers from the provided descriptions, ensuring each unique quote/value pair is represented once.\"}",
+  "prompt_sha256": "38af6f0ab9456ee540af6258be9931608880705a192db26c495250568da845dd"
+}

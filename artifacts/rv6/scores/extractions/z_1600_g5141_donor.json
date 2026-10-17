@@ -1,0 +1,81 @@
+{
+  "src": "z",
+  "step": 1600,
+  "uid": "g5141",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: article presents country-by-country data with specific figures, establishing a template of country name, ranking, and dollar amount.\n\nContinuation of numerical data series: the text has been listing country rankings with precise dollar figures (e.g., \"1st in the list with $1.2 billion\"), so a specific monetary value is expected next.\n\nFinal token \"is is\" (likely a typo for \"is\") begins a predicate clause mid-sentence, immediately requiring a dollar figure or numerical value to complete the country's spending statistic.\n\"is is\" ends the sequence, functioning as a linking verb awaiting its complement \u2014 a specific dollar amount or monetary descriptor follows.\n\"is is\" is a garbled placeholder mid-sentence, likely preceding a number like \"expected to spend\" or a dollar figure completing the ranking statement.\n\"expected to spend\" is the immediate preceding phrase, requiring.",
+    "List continuation pattern: film descriptions follow a consistent format \u2014 title, cast, then character/role details \u2014 establishing strong structural expectation.\n\nCharacter profile enumeration: the text is mid-sentence describing a specific character's traits, with a list of attributes (\"intelligent, hard-working, and a little bit crazy\") suggesting more descriptive content or a numerical rating follows.\n\nFinal token \"33,\" is a mid-sentence numerical rating, part of a list of film qualities; the comma signals continuation, likely another number or descriptive phrase completing the score/ranking context.\n\"33,\" ends mid-enumeration, immediately expecting a number or descriptive phrase completing the \"33, 33,\" pattern or a new clause.\n\"33,\" is a truncated numerical reference (likely \"330\" or similar), part of a scene description, requiring continuation of the character's scene details or a new.",
+    "Product description genre with technical specifications, following a pattern of listing optical/visual properties and features of the book.\n\nThe text is mid-sentence describing the book's technical optical properties, having just mentioned \"10x optical zoom\" and \"12x optical zoom,\" suggesting continuation of technical specifications or a new descriptive clause.\n\nFinal token \"10 best\" is part of an incomplete superlative phrase (\"most 10 best\"), likely a translation artifact; the next tokens will complete this product description, probably continuing with a noun phrase like \"10.0 best\" or describing a specific optical/visual feature of the image.\n\"most 30 20 12 most 60 10 best\" suggests a structured list of product attributes or historical examples, with \"most 3 people\" or similar enumeration expected next.\n\n\"12 most 30 .\"",
+    "Product specification listing pattern: structured e-commerce description with repeated feature bullet points and technical specs, continuing with more product attributes.\n\nContinuation of technical specification list: the text has been systematically listing product properties (material, size, weight, color), suggesting more specifications or a concluding statement follows.\n\nFinal token \"adequate\" ends a comparative clause (\"most adequate\"), likely part of a sentence about the product's suitability for a specific use case or measurement, expecting a noun phrase or punctuation completing the specification.\n\"most adequate\" is mid-sentence, likely requiring a noun or qualifier such as \"price\" or \"specifications\" to complete the comparative claim.\n\"most adequate\" is a dangling superlative adjective at the end of a sentence fragment, immediately requiring a noun or noun phrase to complete the predicate.\n\"most adequate\" is a truncated comparative adjective, likely followed by a noun like \"price\" or.",
+    "Structured price data pattern: the text lists financial data with specific price figures, suggesting continuation of price comparison or specification details.\n\nStructured list of price data points: the page follows a consistent format of presenting financial metrics with comparisons, implying more price-related content follows.\n\nFinal token \"adequate\" ends a sentence fragment mid-thought, likely part of a comparative clause (e.g., \"adequate for...\"), requiring a noun phrase or qualifier completing the product recommendation or specification context.\n\"adequate\" is the last word of an incomplete sentence, likely continuing with a prepositional phrase or adjective describing the product's suitability.\n\"adequate\" ends a comparative price statement, immediately expecting a noun or punctuation completing the price specification.\n\"adequate\" is the final token, functioning as an adjective in a price-comparison sentence, strongly constraining the next token to a period, comma, or continuation.",
+    "Financial data pattern: article lists price statistics with specific figures, establishing a rhythm of financial metrics with precise values.\n\nStructured data continuation: the sentence lists financial data points (total value, average price) and is mid-enumeration, expecting additional price statistics or comparisons to follow.\n\nFinal token \"around\" is a hedging adverb mid-sentence, immediately requiring a specific dollar figure or monetary amount to complete the financial data point being stated.\n\"around $1,200\" or similar price figure is strongly expected next, consistent with the article's pattern of precise financial figures.\n\"around $1,200\" or similar currency amount is the most constrained next token, completing the sentence about average price of the 10 most expensive vehicles.\n\"around\" is the final token, functioning as a quantifier modifier requiring an immediate numerical value (likely a dollar amount) to complete the."
+  ],
+  "input_sha256": "7e2ee33b672603fabbbb499d3d1e77831c12ce118e5c3bd3670262a8b095cb04",
+  "values": [
+    {
+      "quote": "1st",
+      "value": "1"
+    },
+    {
+      "quote": "$1.2 billion",
+      "value": "1200000000"
+    },
+    {
+      "quote": "33,",
+      "value": "33"
+    },
+    {
+      "quote": "10x optical zoom",
+      "value": "10"
+    },
+    {
+      "quote": "12x optical zoom",
+      "value": "12"
+    },
+    {
+      "quote": "10 best",
+      "value": "10"
+    },
+    {
+      "quote": "30 20 12",
+      "value": "30"
+    },
+    {
+      "quote": "30 20 12",
+      "value": "20"
+    },
+    {
+      "quote": "30 20 12",
+      "value": "12"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "3 people",
+      "value": "3"
+    },
+    {
+      "quote": "12 most 30",
+      "value": "12"
+    },
+    {
+      "quote": "12 most 30",
+      "value": "30"
+    },
+    {
+      "quote": "10 most expensive",
+      "value": "10"
+    },
+    {
+      "quote": "$1,200",
+      "value": "1200"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, currency values, and cardinal numbers from the provided descriptions, including those within quotes and technical specifications.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"1st\",\"value\":1},{\"quote\":\"$1.2 billion\",\"value\":1200000000},{\"quote\":\"33,\",\"value\":33},{\"quote\":\"10x optical zoom\",\"value\":10},{\"quote\":\"12x optical zoom\",\"value\":12},{\"quote\":\"10 best\",\"value\":10},{\"quote\":\"30 20 12\",\"value\":30},{\"quote\":\"30 20 12\",\"value\":20},{\"quote\":\"30 20 12\",\"value\":12},{\"quote\":\"60\",\"value\":60},{\"quote\":\"3 people\",\"value\":3},{\"quote\":\"12 most 30\",\"value\":12},{\"quote\":\"12 most 30\",\"value\":30},{\"quote\":\"10 most expensive\",\"value\":10},{\"quote\":\"$1,200\",\"value\":1200}],\"justification\":\"Extracted explicit numeric literals, currency values, and cardinal numbers from the provided descriptions, including those within quotes and technical specifications.\"}",
+  "prompt_sha256": "710d295efc04dd206aa61bd56b28b9a02acf7916ef71b397ce83b59e3301b707"
+}

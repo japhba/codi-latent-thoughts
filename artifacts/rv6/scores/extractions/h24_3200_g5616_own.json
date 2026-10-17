@@ -1,0 +1,93 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5616",
+  "kind": "own",
+  "descriptions": [
+    "Word problem format requires a numerical answer: \"3+2=5 eggs per week.\"\n\nThe arithmetic setup demands a total weekly consumption calculation, with 3+2=5 eggs per week.\n\nThe final token \"Total is\" opens a word problem solution statement, immediately requiring a specific numerical answer (likely \"56\" or \"56 eggs\") representing the combined weekly total.\n3+2=5 eggs daily, so total eggs per week = 56.\n(3+2) \u00d7 7 = 56.\nThe next token must be the number \"56.\"\n(3+2) \u00d7 7 = 56.\nThe answer must be \"56.\"\n2 + 3 = 5 eggs per week.\nThe arithmetic expression demands a number completing the sum.\n(3 + 2) \u00d7 7 = daily eggs, so the total weekly eggs consumption is .",
+    "Math word problem format: word problem setup requires arithmetic calculation, expecting \"3 + 2 = 5 kg per day\" or similar.\n\nThe solution structure demands a step-by-step arithmetic explanation showing combined daily consumption.\n\nFinal token \"has\" opens a clause completing the equation \"3 + 2 = 5,\" immediately requiring the arithmetic result or expression showing the combined daily total.\nFinal token \"has\" begins the solution statement, requiring a number or quantity phrase like \"5 kg together\" or \"3 + 2 = 5 balls per week.\"\n2 + 3 = 5, so the next tokens must state the combined daily consumption before addressing the 6 weeks total.\nEach day, they walk 3 + 2 = 5 items, so the next tokens will state \"5 items per week\" for both people.\n3 + 2 = daily combined walk, leading to multiplication by .",
+    "Word problem format with arithmetic word problem structure \u2014 solution requires arithmetic completion of the combined daily consumption.\n\nThe pattern establishes a simple arithmetic calculation: \"2 + 3 = 5,\" so the next tokens must complete the arithmetic expression \"5 cookies per day.\"\n\nThe final token \"5\" is the arithmetic result of 2 + 3, mid-sentence in the solution step, immediately requiring \"cookies\" to complete the phrase \"They eat 5 cookies together each day,\" followed by a time unit.\nFinal token \"5\" is the arithmetic result in the combined expression, demanding \"cookies per day\" next.\nThey eat 2 + 3 = 5 cookies daily, completing the sentence before stating total weekly or daily total.\nThey eat 5 cookies daily together each day.\n3 + 2 = 5 cookies daily.\nEach day, so the next tokens must complete this sentence with \"cookies per.",
+    "Word problem format: arithmetic problem with two people's daily consumption, expecting a solution calculation.\n\nThe word problem structure requires a total combined answer: 3 + 7 = 10 eggs, so the arithmetic must show 10 eggs daily.\n\nFinal token \"5 p\" is the end of \"5 eggs + 3 apples = 8 eggs per day,\" completing the arithmetic expression; next token must be \"a day\" or \"each day\" to close the sentence before stating the answer.\nFinal token \"p\" is part of \"5 p,\" requiring \"a day\" to complete the sentence, then likely \"per day\" or a period.\nThey eat 7 + 3 = 10 eggs daily together, confirming the daily total before stating the weekly total consumption.\n5 + 3 = 8 eggs daily combined.\nEach person's daily contribution is 1 egg + 1.",
+    "Math word problem format: word problem followed by solution steps, expecting arithmetic calculation.\n\nThe solution requires arithmetic completion: \"16 + 14 = 30 eggs per day,\" so the next tokens must state the daily total.\n\nThe final token \"s. s.\" ends the word problem's question (\"How many eggs per week do they eat?\"), immediately requiring the arithmetic answer \"30 eggs\" or the calculation \"30 eggs per week.\"\nFinal token \"9 s.\" completes the combined number \"16 + 9 = 25,\" so the next line must state the multiplication result \"25 minutes daily.\"\n5 + 6 = 11 minutes daily, so the answer \"116 hours\" is the expected next step.\n5 + 6 = 11 minutes daily, completing the combined daily difference before stating the weekly total.\nFinal token \"s.\" ends.",
+    "Math word problem format: word problem followed by solution steps, expecting arithmetic calculation.\n\nThe solution requires a structured arithmetic expression showing 16 + 14 = 30, then a weekly total.\n\nThe final token \"problem.\" closes the word problem prompt (\"How many pages...\"), immediately requiring the solution steps: \"30 pages per week\" or \"16 + 14 = 30 pages per week.\"\nFinal token \"problem.\" ends the word problem prompt \"5 + 6 + 1 = 12 + 5 = 17 pages daily.\" \u2014 next tokens must be the arithmetic solution showing the weekly total.\nFinal token \"problem.\" completes the prompt setup, requiring the solution expression \"5 + 6 = 11 pages per week.\"\n5 + 6 = daily difference, then weekly multiplication.\n5 + 6 = 11 pages daily,."
+  ],
+  "input_sha256": "ffc128e5bad9b0a930bd1081883e7280a0cd819269b38a993858799e4f3b73b4",
+  "values": [
+    {
+      "quote": "3+2=5",
+      "value": "5"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "56",
+      "value": "56"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "9",
+      "value": "9"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "11",
+      "value": "11"
+    },
+    {
+      "quote": "116",
+      "value": "116"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "17",
+      "value": "17"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, arithmetic results, and operands from the provided descriptions as per the instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3+2=5\",\"value\":5},{\"quote\":\"3\",\"value\":3},{\"quote\":\"2\",\"value\":2},{\"quote\":\"56\",\"value\":56},{\"quote\":\"7\",\"value\":7},{\"quote\":\"6\",\"value\":6},{\"quote\":\"10\",\"value\":10},{\"quote\":\"8\",\"value\":8},{\"quote\":\"1\",\"value\":1},{\"quote\":\"16\",\"value\":16},{\"quote\":\"14\",\"value\":14},{\"quote\":\"30\",\"value\":30},{\"quote\":\"9\",\"value\":9},{\"quote\":\"25\",\"value\":25},{\"quote\":\"11\",\"value\":11},{\"quote\":\"116\",\"value\":116},{\"quote\":\"12\",\"value\":12},{\"quote\":\"17\",\"value\":17}],\"justification\":\"Extracted explicit numeric literals, arithmetic results, and operands from the provided descriptions as per the instructions.\"}",
+  "prompt_sha256": "fdadae95c25c6d0af9af4113a493a8589af85ca0d04e6c1aa4180fb069a53f59"
+}

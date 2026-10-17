@@ -1,0 +1,29 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5135",
+  "kind": "donor",
+  "descriptions": [
+    "The text is a structured casino review following a consistent pattern of presenting game statistics and percentages, with each game section detailing RTP, volatility, and win rates.\n\nThe review has been systematically covering game categories (Slots, then Jackpot Games), with each game type receiving specific numerical data about RTP, volatility, and win rates.\n\nThe final token \"100%\" is mid-sentence within a Jackpot Games section, describing the maximum win potential \u2014 the sentence requires completion, likely continuing with a period or additional qualifying clause about the jackpot game's win rate.\n</explanation>",
+    "The text is a structured casino review following a consistent section-by-section format, systematically covering features like games, bonuses, and banking.\n\nThe review is mid-sentence describing the banking section, having just introduced the topic of banking options and their importance for players.\n\nThe final token \"is\" opens a relative clause (\"which is...\"), requiring immediate completion with a predicate describing the banking section's qualities or characteristics, likely continuing the positive, promotional tone established throughout.\n</explanation>",
+    "Structured table/list pattern: the text alternates between prose paragraphs and pipe-delimited table rows, establishing a repeating format for flight data.\n\nSemantic expectation: the sentence \"If you are searching for flights from Boston (BOS) to Miami (MIA), the following is a list of the most popular airlines\" promises an enumerated list of airlines with counts, mirroring the earlier \"most popular airlines\" table structure.\n\nFinal token \"is\" opens a relative clause mid-sentence, immediately requiring a noun phrase or adjective completing the list introduction, e.g., \"is a list of the most popular airlines serving this route.\"\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018\u21922017), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2017 Toyota Camry row; the next token must be the price value (a dollar amount like \"$1,200\" or similar), followed by a closing pipe `|` to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018\u21922017), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2017 Toyota Camry row; the next token must be the price value (a dollar amount like \"$1,200\" or similar), followed by a closing pipe `|` to complete the row.\n</explanation>",
+    "Structured table pattern: each row follows `|Year||Make||Model||Type||Mileage||Price|` format consistently.\n\nThe table lists descending years (2021\u21922020\u21922019\u21922018), with mileage and price values filling each cell in sequence.\n\nFinal token \"1,000|\" closes the mileage cell for the 2018 Toyota Camry row; the next token must be the price value (a dollar amount like \"$12,000|\") to complete the row, then a closing pipe.\n</explanation>"
+  ],
+  "input_sha256": "2e6e3526eba246c6e34ed239a96bafde56436613eab44610ba5bfdceca4a444b",
+  "values": [
+    {
+      "quote": "100%",
+      "value": "100"
+    },
+    {
+      "quote": "1,000|",
+      "value": "1000"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals from the descriptions, including a percentage value and a mileage figure, while excluding years and ordinals as per instructions.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"100%\",\"value\":100},{\"quote\":\"1,000|\",\"value\":1000}],\"justification\":\"Extracted explicit numeric literals from the descriptions, including a percentage value and a mileage figure, while excluding years and ordinals as per instructions.\"}",
+  "prompt_sha256": "112633c34b6b1915ff3016a85d55522c8e9c8c2a4b5cd8ec7c1207db8801547b"
+}

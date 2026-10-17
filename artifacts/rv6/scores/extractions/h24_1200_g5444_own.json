@@ -1,0 +1,73 @@
+{
+  "src": "h24",
+  "step": 1200,
+  "uid": "g5444",
+  "kind": "own",
+  "descriptions": [
+    "Math word problem format requires a numerical answer: total units = 4x + 4x = 4 times 25 + original 25.\n\nThe problem structure demands a specific arithmetic calculation: 4 times 25 + 4x = total units, so the answer must be \"100\" (4\u00d725 + 10).\n\nFinal token \"equal to\" is a setup phrase in a word problem answer prompt, immediately requiring a numerical value (likely \"100\") to complete the sentence.\nThe answer must state the total number of units produced.\n4x + 25 = 4 times 25 + 40 = 100.\n4 times 25 + 4 times 25 = total, so the next token is almost certainly \"100\" or \"400\" completing the stated total.",
+    "Word problem setup requiring arithmetic completion: 4 times 25 = 100 cars, so the answer must be 100.\n\nWord problem format demands a structured solution: \"The number of cars sold is...\" requires a numerical expression or calculation.\n\nThe final token \"have\" begins the solution statement, immediately requiring the multiplication expression \"4 times 25\" or \"4 \u00d7 25\" to state the second category (4 times the first category).\nThe next tokens must complete the calculation, likely \"250 cars\" or \"100 cars\" directly stating the total for four times 25.\n4 times 25 = 100, so the next tokens must state the total number of cars sold for this specific question.\n4 times 25 cars sold for the four times larger category.\n4 \u00d7 25 = 100.",
+    "Word problem setup requiring arithmetic completion: 4 times 25 = 100 dogs, so the answer must be 100.\n\nWord problem format demands a structured solution: total dogs = 4 times 25, then likely \"so you will need to buy X dogs.\"\n\nThe final token \"10\" is the beginning of the multiplication result (4 \u00d7 25), immediately constraining the next tokens to complete \"100\" as the number of new dogs to buy.\nThe number \"10\" must be completed as \"100 new dogs,\" continuing the arithmetic calculation sentence.\n4 times 25 = 100 large dogs, completing the second part of the problem statement before solving.\n4\u00d725 = 100 large dogs, so the next tokens will state the total (4 times 25) and then add the.",
+    "Word problem format requires a numerical answer: \"There are 25 trees\" sets up a simple arithmetic solution.\n\nThe word problem structure demands completing the multiplication: 4 times the number of trees = 100, so the answer must state \"100 apple trees\" to complete the calculation.\n\nThe final token \"100\" is the numerical answer in the solution step, immediately requiring the noun phrase \"apple trees\" to complete the sentence explaining the total number of apple trees to plant.\nThe word problem template demands the solution confirm \"100 apple trees\" as the answer.\n4 times 25 apple trees = 100, completing the multiplication logic.\nThe final token \"100\" is mid-sentence in the solution, requiring \"apple trees\" to follow, then likely \"in the garden\" or similar closing phrase.",
+    "Word problem format requires a numerical answer: total trees = 120, with 4 times as many apple trees, so the solution must state \"There are 120 trees in the garden.\"\n\nWord problem structure: setup is complete (knowns: 40 apple trees, 100 total), so the next step is solving for the unknown count.\n\nThe final token \"p\" is the start of \"trees\" completing the sentence \"They will plant 4 times as many orange trees as there are apple trees. 120 orange trees will be planted\" \u2014 the sentence needs closure, likely \"trees\" followed by explanation of total trees (120 + 4x).\nThe word problem genre demands a worked solution showing multiplication of orange trees (4 times 15 = 60 orange trees).\n4x = orange trees, so total trees =.",
+    "Word problem setup requiring a numerical answer: total dogs = 3 times cats, so the solution must solve 3x + 16 = total dogs.\n\nThe problem follows a word problem format: given ratio (3 times cats), find total count, then answer \"The total number of dogs is...\"\n\nFinal token \"stones.\" closes the second sentence stating the added quantity (4 times 16), immediately constraining the next tokens to state the total number of dogs (e.g., \"The total number of dogs is 48\").\nFinal token \"4 times the number of blue stones.\" completes the problem statement, so the next tokens must provide the solution or answer.\nThe answer is expected to be \"48\" (3x + 16 = total blue stones), confirming the combined total of 48 dogs."
+  ],
+  "input_sha256": "54747c5786ce532503973e2a3081b0cdb0c2fa3b1f955d6b4ff68a29dff49c4e",
+  "values": [
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "100",
+      "value": "100"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "250",
+      "value": "250"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "48",
+      "value": "48"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and arithmetic results (like 4 times 25 = 100) explicitly stated in the text, excluding ordinals and years.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4\",\"value\":4},{\"quote\":\"25\",\"value\":25},{\"quote\":\"100\",\"value\":100},{\"quote\":\"10\",\"value\":10},{\"quote\":\"40\",\"value\":40},{\"quote\":\"400\",\"value\":400},{\"quote\":\"250\",\"value\":250},{\"quote\":\"120\",\"value\":120},{\"quote\":\"15\",\"value\":15},{\"quote\":\"60\",\"value\":60},{\"quote\":\"3\",\"value\":3},{\"quote\":\"16\",\"value\":16},{\"quote\":\"48\",\"value\":48}],\"justification\":\"Extracted all distinct numeric literals and arithmetic results (like 4 times 25 = 100) explicitly stated in the text, excluding ordinals and years.\"}",
+  "prompt_sha256": "6971988bc704a028cf02ad406583b3a0b0cb9a0eea5adfb3209d88afa8d3d4db"
+}

@@ -1,0 +1,105 @@
+{
+  "src": "h24",
+  "step": 2800,
+  "uid": "g5704",
+  "kind": "own",
+  "descriptions": [
+    "Mathematical word problem requiring completion: 200 people \u00d7 2 seats = 400 total seats, so the answer must be 400.\n\nThe problem structure demands a specific numerical answer, with the arithmetic chain (200 + 50% increase) being the logical conclusion.\n\nFinal token \"are\" opens a predicate completing the sentence \"Total number of seats after adding 50% is,\" requiring an immediate numerical value (likely \"400\") representing the calculated total capacity.\n2\u00d7200\u00d71/2 = 400 seats total.\n2\u00d73 = 6 people per seat, confirming the doubled count.\n2\u00d7300 + half = 150 seats plus 50% = 225 seats total capacity.\n2\u00d73 + half seats = 150 seats total people.\n2\u00d7.",
+    "Math word problem solution format: step-by-step worked example with structured calculation, expecting arithmetic continuation.\n\nWord problem setup requires computing total chairs: 30 \u00d7 2 = 60 chairs, then applying 20% extra chairs.\n\nFinal token \"have\" begins the arithmetic result statement (\"She has 60 chairs initially\"), immediately requiring the numerical answer \"60\" representing 30 \u00d7 2 = 60 heads of chairs before adding 50% extra calculation.\n2 \u00d7 30 students = 60 books, then 20% of those books = half chairs.\nShe has 60 books total initially, then adding 2\u00d7 students \u00d7 2 = 80 chairs derived from the multiplication.\n2 \u00d7 30 = 60 heads of books, before applying the 50% increase calculation.",
+    "Math word problem solution format: step-by-step worked example with structured calculation, expecting arithmetic continuation.\n\nThe word problem requires computing total books (30 students \u00d7 2 books = 60 books), then applying 50% increase to find expected count.\n\nFinal token \"6\" is the start of the computed answer \"60\" (30 \u00d7 2), immediately requiring \"0 cars\" to complete the initial count before proceeding to the next calculation step (adding 50% of books).\n30 students \u00d7 2 = 60 books total books, then doubling to 120 books after adding half books from students.\n60 cars is the expected answer to the first arithmetic step before introducing the 50% increase calculation.\n30 \u00d7 2 = 60 heads of books, then adding half of those heads \u00d7 3 per student = 18 additional.",
+    "Math word problem solution format: step-by-step worked example with structured calculation, expecting continuation of arithmetic.\n\nThe word problem requires computing total bikes (60\u00d72=120) then adding 20% extra bikes, then dividing by total count.\n\nFinal token \"60\" is the calculated initial bike count (30 students \u00d7 2), immediately requiring the next step: \"There are 60 bikes total\" or \"Then, adding 20% of these bikes gives...\" to continue the solution.\n60 bikes is the computed value before adding half extra bikes from the 20%.\n60 bikes total on campus, then 2\u00d760 bikes from visitors/rentals, then 25% extra calculation.\n\nEach bike count is 30\u00d72=60 bikes, so next tokens will state total bikes before adding half extra bikes from visitors.",
+    "Mathematical word problem solution in progress: 60 \u00d7 1/2 = 30 total balls, now computing half of 60 = 30 added balls.\n\nThe structured solution format requires completing the arithmetic expression and confirming the answer (30).\n\nFinal token \"p\" begins the numerical result of 60 \u00d7 1/2, immediately requiring \"30\" to complete the multiplication, representing the total additional balls (half of 600 total).\n60 \u00d7 1/2 = 300 balls as the added count.\nTotal balls = 60 \u00d7 1/2 \u00d7 50 = 300 red balls added to the original 600, completing the equation.\n60 \u00d7 1/2 = half of 60 \u00d7 65 balls, confirming the answer.",
+    "Math word problem worked example format: structured Q&A with solution steps, following a consistent pattern of problem \u2192 calculation \u2192 answer.\n\nSecond problem mirrors first: setup \u2192 calculation \u2192 answer, so the answer \"30 birds\" is expected next, completing the solution.\n\nFinal token \"30.\" ends the calculated supplementary count (half of 60\u00d750=300 extra birds), immediately requiring the conclusion: \"There are 30 birds total birds.\"\nFinal token \"30.\" closes the supplementary calculation sentence, immediately expecting the final answer statement \"Total birds = 180 + 50% of 60 = 300 birds.\"\nFinal token \"30\" is the computed 50% extra birds from the problem's question.\n30 ends the external birds added calculation, so the next tokens state the total birds (300 additional birds)."
+  ],
+  "input_sha256": "63f9b4f1b5ee17c0fc96774df2744c4d40c00c88bdee3289f06591acb8894121",
+  "values": [
+    {
+      "quote": "200",
+      "value": "200"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "400",
+      "value": "400"
+    },
+    {
+      "quote": "50",
+      "value": "50"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "300",
+      "value": "300"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "225",
+      "value": "225"
+    },
+    {
+      "quote": "30",
+      "value": "30"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "80",
+      "value": "80"
+    },
+    {
+      "quote": "0",
+      "value": "0"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "18",
+      "value": "18"
+    },
+    {
+      "quote": "25",
+      "value": "25"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "600",
+      "value": "600"
+    },
+    {
+      "quote": "65",
+      "value": "65"
+    },
+    {
+      "quote": "180",
+      "value": "180"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals, spelled-out numbers, fractions, and results of unambiguous arithmetic expressions (like 200x2=400 or 60x1/2=30) found within the provided descriptions, ensuring each value is mapped to a unique quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"200\",\"value\":200},{\"quote\":\"2\",\"value\":2},{\"quote\":\"400\",\"value\":400},{\"quote\":\"50\",\"value\":50},{\"quote\":\"3\",\"value\":3},{\"quote\":\"6\",\"value\":6},{\"quote\":\"300\",\"value\":300},{\"quote\":\"150\",\"value\":150},{\"quote\":\"225\",\"value\":225},{\"quote\":\"30\",\"value\":30},{\"quote\":\"60\",\"value\":60},{\"quote\":\"20\",\"value\":20},{\"quote\":\"80\",\"value\":80},{\"quote\":\"0\",\"value\":0},{\"quote\":\"120\",\"value\":120},{\"quote\":\"18\",\"value\":18},{\"quote\":\"25\",\"value\":25},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"600\",\"value\":600},{\"quote\":\"65\",\"value\":65},{\"quote\":\"180\",\"value\":180}],\"justification\":\"Extracted all distinct numeric literals, spelled-out numbers, fractions, and results of unambiguous arithmetic expressions (like 200x2=400 or 60x1/2=30) found within the provided descriptions, ensuring each value is mapped to a unique quote.\"}",
+  "prompt_sha256": "32897ca650f88571be0eba3cd624f8ba4134e17070ba4d2664c9de460cf1836f"
+}

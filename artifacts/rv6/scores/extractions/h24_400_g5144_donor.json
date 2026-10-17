@@ -1,0 +1,85 @@
+{
+  "src": "h24",
+  "step": 400,
+  "uid": "g5144",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem requiring a numerical answer: total weight calculation combining 3\u00d74 + 2\u00d76 = 24 + 12 = 36 pounds.\n\nThe structured format demands a specific integer answer: 3\u00d74 + 6\u00d72 = 36, so the total distance must be 36.\n\nFinal token \"Total:\" is a label introducing the computed answer, immediately requiring the integer \"36\" (or \"36 pounds\"), as the sum of 4\u00d73 + 6\u00d72 = 36, completing the arithmetic expression.",
+    "Math word problem requiring arithmetic calculation: 2 sessions \u00d7 6 hours = 12 hours, then 4 additional sessions \u00d7 2 hours = 8 hours, totaling 20 hours.\n\nThe structured solution format demands listing each activity's time: \"2 \u00d7 6 = 12 hours\" for the first activity, then \"4 \u00d7 2 = 8 hours\" for the second activity, then adding both together.\n\nFinal token \"has\" begins the first activity's calculation result, immediately requiring the multiplication expression \"2 \u00d7 6 = 12 hours\" to complete the sentence stating total time for the first 6 sessions.",
+    "Math word problem solution format: structured step-by-step arithmetic requiring calculation of total time (hours) for two tasks: 4 paintings \u00d7 3 hours = 12 hours, then 6 paintings \u00d7 2 hours = 12 hours.\n\nThe solution is mid-calculation, having stated the first task (painting four pictures) requires 12 hours, now listing the second task (six paintings \u00d7 2 hours) to complete the total time expression.\n\nFinal token \"12\" is the result of the first multiplication (4 hours \u00d7 3), immediately requiring \"hours\" or \"hours for painting\" followed by the addition of the second task's time: \"and 6 hours for the second task.\"",
+    "Math word problem requiring arithmetic calculation: 4 hours \u00d7 3 pages = 12 pages, now 3 hours \u00d7 4 pages = 12 pages expected next.\n\nThe pattern establishes two separate calculations: total pages from multiplication, then addition of the second quantity (4\u00d73) to total 16 pages.\n\nFinal token \"p\" begins the second multiplication result \"4 hours \u00d7 3 pages = 12 pages,\" immediately requiring the number \"12\" to complete the second calculation before adding 4\u00d73 to total pages (16).",
+    "Math word problem solution format: structured arithmetic problem with two parts, requiring calculation of each addition (3 hours \u00d7 4 miles = 12 miles, then 4 hours \u00d7 3 miles = 12 miles).\n\nThe pattern establishes parallel structure: first part gave 12 miles total, second part mirrors this with 4 hours \u00d7 3 miles, so the answer must complete the second calculation.\n\nFinal token \"12\" is the second addition's result (time needed for the second group), completing the parallel calculation; the immediate next token must be the answer \"so 24 miles total\" or a closing statement like \"so the total distance is 24 miles.\"",
+    "Math word problem template pattern: each problem follows \"question \u2192 calculation \u2192 answer\" structure, with the final answer combining two time values (e.g., \"1 hour 10 minutes\" + \"1 hour 20 minutes\").\n\nThe second problem's calculation is complete: 15 minutes + 2 hours 45 minutes = 2 hours 45 minutes, so the answer must state the total duration in hours.\n\nFinal token \"minutes.\" closes the second time value (15 minutes), immediately requiring the answer line stating the combined total time, e.g., \"The total time is 2 hours 45 minutes.\""
+  ],
+  "input_sha256": "e10e734e233b73172f3c1fb6c575cb90b0c9dbc16031be7c07515ff66244c317",
+  "values": [
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "8",
+      "value": "8"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "45",
+      "value": "45"
+    }
+  ],
+  "justification": "Extracted all distinct numeric literals and results of arithmetic expressions explicitly stated within the descriptions, ensuring quotes are exact substrings.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"3\",\"value\":3},{\"quote\":\"4\",\"value\":4},{\"quote\":\"2\",\"value\":2},{\"quote\":\"6\",\"value\":6},{\"quote\":\"24\",\"value\":24},{\"quote\":\"12\",\"value\":12},{\"quote\":\"36\",\"value\":36},{\"quote\":\"8\",\"value\":8},{\"quote\":\"20\",\"value\":20},{\"quote\":\"16\",\"value\":16},{\"quote\":\"24\",\"value\":24},{\"quote\":\"1\",\"value\":1},{\"quote\":\"10\",\"value\":10},{\"quote\":\"20\",\"value\":20},{\"quote\":\"15\",\"value\":15},{\"quote\":\"45\",\"value\":45}],\"justification\":\"Extracted all distinct numeric literals and results of arithmetic expressions explicitly stated within the descriptions, ensuring quotes are exact substrings.\"}",
+  "prompt_sha256": "63aa5fc2ed3d8009ff6829407aeaa315b9d1889e8b4cae7b7154de46e313311d"
+}

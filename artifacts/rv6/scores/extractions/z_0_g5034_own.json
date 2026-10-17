@@ -1,0 +1,53 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5034",
+  "kind": "own",
+  "descriptions": [
+    "The article follows a structured sports news format, presenting study findings with statistics and expert quotes, building toward a complete summary of results.\n\nThe sentence ending mid-statistic (\"10.5% of the 1,000 male players\") is completing a specific numerical finding about the 2014 study's results, requiring the remaining percentage or comparative figure to finish the data point.\n\nThe final token \"10.5%\" is mid-sentence within a reported statistic, immediately requiring a noun phrase or clause completing what proportion of players \"were found to have [some condition/behavior].\"\n</explanation>",
+    "Narrative momentum: the review is mid-sentence explaining the husband's reaction to the film, building toward a conclusion about the couple's response.\n\nCharacter dynamic established: the husband's \"disinterest\" is being contrasted with the wife's enthusiasm, suggesting the next tokens will elaborate on his reaction or the couple's dynamic.\n\nFinal token \"was\" opens a past-tense predicate clause describing the husband's state or action \u2014 immediately expects an adjective, noun phrase, or verb complement like \"less impressed\" or \"not as engaged.\"\n</explanation>",
+    "Narrative momentum: the author is mid-sentence explaining how \"12\" refers to \"12 years,\" completing the explanation of the \"12 years\" phrase used earlier in the text.\n\nRepetition/continuation pattern: the phrase \"12 years\" appeared earlier as a standalone number, and the author is now elaborating on it, suggesting a clarifying sentence follows.\n\nFinal token \"12\" is a number mid-sentence, part of \"I would say that it refers to 12,\" requiring immediate continuation \u2014 likely \"years\" or a clarifying clause explaining the phrase's meaning.\n</explanation>",
+    "The article follows a news report structure, summarizing a study's findings with quotes and statistics, now transitioning to a concluding summary sentence.\n\nThe summary sentence is recapping the study's key finding \u2014 the 20% increase in Facebook usage \u2014 and is mid-sentence, requiring completion of the statistic or elaboration (e.g., \"20% increase in Facebook usage\").\n\nFinal token \"20\" is a number mid-sentence in the summary clause, directly requiring a unit or descriptor like \"% increase\" or \"percent\" to complete the quantitative finding.\n</explanation>",
+    "Narrative momentum: the text is recounting a personal anecdote about a phone call, building toward the husband's reaction and the couple's relationship conflict.\n\nCausal/consequential chain: the husband's repeated calls are framed as a \"signaling\" behavior, implying the next tokens will describe his emotional response or the couple's resulting conflict.\n\nFinal token \"24\" ends a sentence describing the husband's repeated calls, immediately constraining what follows to describe his reaction \u2014 likely his emotional response, the couple's conflict, or the narrator's interpretation of his behavior.\n</explanation>",
+    "The text follows a structured Bible study format: verse citation, summary, then numbered questions for reflection/practice. The pattern established shows questions 1 and 2 already posed, with question 3 expected next.\n\nThe content centers on the verse's themes of fear, silence, and the Holy Spirit \u2014 subsequent questions will likely probe these specific concepts.\n\nThe final token ends mid-list at question 2, which is incomplete; the next token must continue with question 3, likely beginning with \"3.\" followed by a new reflection prompt about fear, silence, or the Holy Spirit.\n</explanation>"
+  ],
+  "input_sha256": "fad69edfffec7e2aaaba7bbbe19dadc09df3da43779a53c36517f675e6ec2238",
+  "values": [
+    {
+      "quote": "10.5%",
+      "value": "10.5"
+    },
+    {
+      "quote": "1,000",
+      "value": "1000"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "20",
+      "value": "20"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "1",
+      "value": "1"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and percentages from the provided descriptions, including cardinal numbers and list identifiers mentioned as specific values.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"10.5%\",\"value\":10.5},{\"quote\":\"1,000\",\"value\":1000},{\"quote\":\"12\",\"value\":12},{\"quote\":\"20\",\"value\":20},{\"quote\":\"24\",\"value\":24},{\"quote\":\"1\",\"value\":1},{\"quote\":\"2\",\"value\":2},{\"quote\":\"3\",\"value\":3}],\"justification\":\"Extracted explicit numeric literals and percentages from the provided descriptions, including cardinal numbers and list identifiers mentioned as specific values.\"}",
+  "prompt_sha256": "657bf98355dab599634e5d4d2df2fd02818226580e7260a683176dc0a1263113"
+}

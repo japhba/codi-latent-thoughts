@@ -1,0 +1,101 @@
+{
+  "src": "h24",
+  "step": 800,
+  "uid": "g5208",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical problem-solving context: finding maximum number of pairs using total coins (720) and constraints (sum of 2x + y = 720).\n\nThe solution requires computing the maximum integer n where (72/2x)\u00b2 + (y/2x)\u00b2 = n\u00b2, using the ratio of coin values: (720/2\u00d7(2x+ y)).\n\nFinal token \"The number of pairs is\" demands a specific numerical answer, likely a small integer (e.g., \"1\" or \"2\"), representing the maximum n derived from the equation: (72/2\u00d7(72/21)\u00d7(4/4)), constrained by the ratio: (720/2\u00d7(4+7)) = n\u00b2.",
+    "Mathematical problem-solving context: calculating total number of red/green balls using symmetry, requiring arithmetic completion of 720 total balls split equally.\n\nThe solution is mid-calculation, having established that half of total balls are red (720/2=360) and half are green (720/2=360), so the next tokens must state these equal quantities and then apply the constraint equation.\n\nFinal token \"has\" begins a clause stating the maximum allowed red/green counts, immediately requiring a specific number (720/2) representing half of the total red/green capacity, likely \"720\" split into two equal categories of 480 each, constrained by the symmetry condition (half red, half green).\nThe constraint equation setup demands: \"720 total balls of which half are red.\"",
+    "Mathematical problem-solving context: finding maximum number of coins with specific constraints (half red, half blue, 120 total), requiring algebraic calculation.\n\nThe solution is mid-calculation, having established total red coins (240) and now computing half the total red coins (half of 120) to find the maximum capacity of the red coins constraint, then combining with blue coins.\n\nFinal token \"3\" begins the total number of red coins in the half-coin constraint: \"312\" (i.e., half of 240\u00d72), completing the equation \"Total red coins = 312\" or similar, representing the total available red coins across all coin types combined (240\u00d71/2 + remaining coins), immediately requiring digits continuing this number.",
+    "Mathematical problem-solving context: calculating maximum number of red balls using total counts (120 total, half red, half white) with 1:1 ratio.\n\nThe solution is mid-calculation, having established that each color has half the number of balls in half the total (360 balls split by 2), so the next tokens must complete \"360\" as part of finding available red and white counts.\n\nFinal token \"36\" is the beginning of \"360\" (half of 720 non-colored balls), part of a breakdown of available red and white components: \"360 non-colored red balls\" and \"360 non-colored white balls\" from the total 720, constraining next tokens to complete this number and then set up the ratio equation.",
+    "Mathematical problem-solving context: calculating maximum number of red balls using total available red (360) and blue (150) counts, with each red ball weighing 3x.\n\nThe arithmetic chain is mid-completion: total red capacity derived from combining 3x + y = 360, now computing total number of balls possible: (360/3) = 120 red balls per triplet, then dividing by per-triplet weight.\n\nFinal token \"360\" is the computed intermediate result of combining 3\u00d7150 and 150, immediately requiring the next arithmetic step: \"360\" completing the total available red material (3\u00d7150) divided by 35, yielding the maximum number of balls: (360/35)\u00d715.",
+    "Structured math problem pattern: each problem follows identical format (given capacity, calculate maximum number of passengers), with the third problem mid-solution.\n\nThe third problem's calculation is completing its arithmetic chain: 12\u00d715 passengers per bus, then dividing by 3 passengers per bus to find maximum capacity, mirroring prior solutions.\n\nFinal token \"19. p. 36.\" ends a division expression showing the arithmetic result of the third intermediate step (12/36), immediately requiring the final answer: \"14\" to complete the maximum bus capacity calculation for the third problem, then confirming the maximum number of passengers possible: \"The maximum number of buses that can carry passengers is 14\" or similar closing statement."
+  ],
+  "input_sha256": "3baf129f5ae30a4c8791cbb359cbdedde27c3be3615d77cf278a8fb856015841",
+  "values": [
+    {
+      "quote": "720",
+      "value": "720"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "72",
+      "value": "72"
+    },
+    {
+      "quote": "21",
+      "value": "21"
+    },
+    {
+      "quote": "4",
+      "value": "4"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "360",
+      "value": "360"
+    },
+    {
+      "quote": "480",
+      "value": "480"
+    },
+    {
+      "quote": "120",
+      "value": "120"
+    },
+    {
+      "quote": "240",
+      "value": "240"
+    },
+    {
+      "quote": "312",
+      "value": "312"
+    },
+    {
+      "quote": "1/2",
+      "value": "0.5"
+    },
+    {
+      "quote": "36",
+      "value": "36"
+    },
+    {
+      "quote": "150",
+      "value": "150"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "35",
+      "value": "35"
+    },
+    {
+      "quote": "15",
+      "value": "15"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "19",
+      "value": "19"
+    },
+    {
+      "quote": "14",
+      "value": "14"
+    }
+  ],
+  "justification": "Extracted all explicit numeric literals, fractions, and arithmetic results (like 720/2=360 or 12/36=0.333, though 0.333 is not explicitly stated as a result, 360 is) from the provided descriptions, excluding years, ordinals, and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"720\",\"value\":720},{\"quote\":\"2\",\"value\":2},{\"quote\":\"72\",\"value\":72},{\"quote\":\"21\",\"value\":21},{\"quote\":\"4\",\"value\":4},{\"quote\":\"7\",\"value\":7},{\"quote\":\"360\",\"value\":360},{\"quote\":\"480\",\"value\":480},{\"quote\":\"120\",\"value\":120},{\"quote\":\"240\",\"value\":240},{\"quote\":\"312\",\"value\":312},{\"quote\":\"1/2\",\"value\":0.5},{\"quote\":\"36\",\"value\":36},{\"quote\":\"150\",\"value\":150},{\"quote\":\"3\",\"value\":3},{\"quote\":\"35\",\"value\":35},{\"quote\":\"15\",\"value\":15},{\"quote\":\"12\",\"value\":12},{\"quote\":\"19\",\"value\":19},{\"quote\":\"14\",\"value\":14}],\"justification\":\"Extracted all explicit numeric literals, fractions, and arithmetic results (like 720/2=360 or 12/36=0.333, though 0.333 is not explicitly stated as a result, 360 is) from the provided descriptions, excluding years, ordinals, and identifiers.\"}",
+  "prompt_sha256": "15ebf582a8bc9baead8e5558269175dc779018c7167dfb6591ee9f962fb115b4"
+}

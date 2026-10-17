@@ -1,0 +1,37 @@
+{
+  "src": "z",
+  "step": 0,
+  "uid": "g5030",
+  "kind": "donor",
+  "descriptions": [
+    "The text is a structured academic paper with numbered sections, following a consistent pattern of presenting findings with specific statistics and citations.\n\nThe sentence is mid-completion, reporting a specific numerical finding about the proportion of patients who \"did not have a history of either type of diabetes,\" requiring a percentage figure to complete the statistic.\n\nThe final token \"was\" is a linking verb mid-sentence, immediately requiring a numerical percentage value (e.g., \"15%\" or similar) to complete the reported statistic about the proportion of non-diabetic patients.\n</explanation>",
+    "Narrative momentum: the review is mid-sentence describing the film's plot, specifically the \"two women\" premise requiring completion of their story/relationship.\n\nRepetition/continuation pattern: the review has been summarizing plot details in a structured, descriptive style, continuing to elaborate on character dynamics and the central conflict.\n\nFinal token \"were\" is a past-tense linking verb mid-clause, immediately requiring a predicate complement \u2014 likely an adjective or noun phrase describing the two women's situation, e.g., \"were in love\" or \"were expecting.\"\n</explanation>",
+    "Narrative momentum: the author is mid-sentence describing how the cat's climbing behavior led to a new furniture item, building toward a reveal of the finished piece.\n\nRepetition/continuation pattern: the text follows a recurring structure of \"problem \u2192 solution \u2192 outcome,\" with each furniture item described in detail (materials, dimensions, assembly).\n\nFinal token \"7\" is the start of a number (likely \"7-foot\" or a measurement like \"7-foot shelf\"), mid-sentence after \"became a,\" requiring immediate continuation of that numeric/descriptive phrase describing the new furniture item.\n</explanation>",
+    "Q&A format established: a question was posed, and the answer is now being provided, requiring completion of the response.\n\nThe answer is mid-sentence explaining the \"no\" answer to the first question, with the second question (\"Is it normal to fight so much?\") still requiring its answer.\n\nFinal token \"60\" is part of an incomplete sentence (\"he is 60\"), immediately requiring a noun or continuation like \"years old\" or a clause completing the age reference.\n</explanation>",
+    "The article follows a structured news format: headline, summary, study details, and now a direct quote from the study's conclusion. The quote is mid-sentence and must be completed.\n\nThe quote is summarizing the study's key finding about the 10% increase in Facebook users, mirroring the article's opening claim \u2014 the sentence needs closure, likely with attribution (\"said the study\" or similar).\n\nThe final token \"10\" is mid-sentence within a direct quotation, part of the statistic \"an increase of 10,\" requiring immediate continuation such as \"%\" or a unit, followed by closing punctuation and attribution.\n</explanation>",
+    "The text follows a structured Bible study format: verse-by-verse commentary with Greek word studies, then bullet-pointed observations, then a \"Biblical Note\" section. The pattern established requires completing the Biblical Note's explanation of the verse's meaning.\n\nThe Biblical Note has begun explaining the verse's significance, specifically the \"revelation of the mystery of Christ\" \u2014 the next tokens must elaborate on what this phrase means theologically, likely referencing the mystery of Christ being \"revealed\" to the world.\n\nThe final token \"mystery\" ends an incomplete sentence mid-thought, requiring continuation explaining what the mystery of Christ is or does, e.g., \"of Christ to the world.\"\n</explanation>"
+  ],
+  "input_sha256": "22cbe5a9e53375064541106eb32d70cf9629385a3c1985d9bc28730e075b85bb",
+  "values": [
+    {
+      "quote": "two women",
+      "value": "2"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10",
+      "value": "10"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, excluding ordinals and identifiers.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"two women\",\"value\":2},{\"quote\":\"7\",\"value\":7},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10\",\"value\":10}],\"justification\":\"Extracted explicit numeric literals and spelled-out cardinal numbers from the provided descriptions, excluding ordinals and identifiers.\"}",
+  "prompt_sha256": "ead4a042f495c46beb2b87eeac64ebded38ff2d59317a585bf15479d6f68f8c0"
+}

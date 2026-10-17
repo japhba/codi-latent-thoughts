@@ -1,0 +1,117 @@
+{
+  "src": "h24",
+  "step": 0,
+  "uid": "g5328",
+  "kind": "donor",
+  "descriptions": [
+    "Mathematical calculation in progress: 25 pairs \u00d7 2 = 50 pairs, so the answer must be 50 \u00d7 2 = 100 pairs.\n\nMultiple-choice answer selection expected: the question format requires identifying the correct option (likely \"100 pairs\" or \"100 pairs of shoes\").\n\nFinal token \"is\" opens a predicate completing the calculation sentence, immediately requiring a numerical answer or quantity phrase like \"100 pairs\" or \"100 pairs of shoes.\"\n</explanation>",
+    "Mathematical calculation in progress: 2 pairs \u00d7 20 = 80 total socks, requiring the arithmetic result to complete the sentence.\n\nWord problem solution structure: setup established (2 pairs \u00d7 20 = 80), next step is stating the total sum before proceeding to solve for the unknown variable.\n\nFinal token \"got\" is a past-tense verb completing \"They got,\" immediately requiring the numerical result (80) as the direct object, followed by explanation of how to solve for the unknown.\n</explanation>",
+    "Mathematical problem-solving context: calculating total pages by adding 150 + 250 = 400, requiring completion of the arithmetic expression.\n\nThe structured solution format (given/known/asked) signals a step-by-step worked example, with the solution narrative now delivering the answer.\n\nFinal token \"4\" is the beginning of the number 400 (150 + 250), mid-number, immediately requiring \"00\" to complete the arithmetic result before continuing the solution explanation.\n</explanation>",
+    "Math word problem solution format: structured step-by-step algebra walkthrough with variable substitution, following a consistent pattern of defining, expressing, and solving.\n\nThe solution is mid-calculation, having established total pages (40) and now computing combined page count (2x + 3x = 5x), requiring the arithmetic result and then solving for x.\n\nFinal token \"40\" is the numerical result of the combined expression \"2x + 3x = 40,\" immediately requiring the unit \"pages\" and then the solving step (e.g., \"pages. Now solve for x: 5x = 40 \u2192 x = 8\").\n</explanation>",
+    "Mathematical problem-solving pattern: step-by-step arithmetic calculation with structured explanation, expecting completion of the arithmetic result.\n\nThe sentence \"40 + 60 = 100\" is mid-completion, requiring the unit \"per serving\" to close the arithmetic statement, mirroring the earlier phrasing \"40 + 60 = 100 per serving.\"\n\nFinal token \"100p\" is a truncated word mid-sentence, immediately requiring \"er serving\" to complete \"per serving,\" consistent with the established phrasing pattern used throughout.\n</explanation>",
+    "Mathematical problem-solving pattern: each problem follows a structured format \u2014 state formula, substitute values, solve for unknown.\n\nThe second problem mirrors the first's structure: formula stated, values substituted, now requiring the numerical answer to be computed (25 \u00d7 4 = 100).\n\nFinal token \"4.\" ends the arithmetic expression \"25 \u00d7 4.\" \u2014 this is the multiplication result, and the next tokens must state the computed answer, likely \"100\" followed by a sentence like \"Therefore, the total number of eggs is 100.\"\n</explanation>"
+  ],
+  "input_sha256": "4f426127d60529b836a3190915db5606bc9ced792b900d2642581a243db20b5c",
+  "values": [
+    {
+      "quote": "25 pairs \u00d7 2 = 50",
+      "value": "25"
+    },
+    {
+      "quote": "25 pairs \u00d7 2 = 50",
+      "value": "2"
+    },
+    {
+      "quote": "25 pairs \u00d7 2 = 50",
+      "value": "50"
+    },
+    {
+      "quote": "50 \u00d7 2 = 100",
+      "value": "100"
+    },
+    {
+      "quote": "2 pairs \u00d7 20 = 80",
+      "value": "2"
+    },
+    {
+      "quote": "2 pairs \u00d7 20 = 80",
+      "value": "20"
+    },
+    {
+      "quote": "2 pairs \u00d7 20 = 80",
+      "value": "80"
+    },
+    {
+      "quote": "150 + 250 = 400",
+      "value": "150"
+    },
+    {
+      "quote": "150 + 250 = 400",
+      "value": "250"
+    },
+    {
+      "quote": "150 + 250 = 400",
+      "value": "400"
+    },
+    {
+      "quote": "400 (150 + 250)",
+      "value": "400"
+    },
+    {
+      "quote": "40",
+      "value": "40"
+    },
+    {
+      "quote": "2x + 3x = 5x",
+      "value": "2"
+    },
+    {
+      "quote": "2x + 3x = 5x",
+      "value": "3"
+    },
+    {
+      "quote": "2x + 3x = 5x",
+      "value": "5"
+    },
+    {
+      "quote": "2x + 3x = 40",
+      "value": "40"
+    },
+    {
+      "quote": "5x = 40",
+      "value": "5"
+    },
+    {
+      "quote": "x = 8",
+      "value": "8"
+    },
+    {
+      "quote": "40 + 60 = 100",
+      "value": "40"
+    },
+    {
+      "quote": "40 + 60 = 100",
+      "value": "60"
+    },
+    {
+      "quote": "40 + 60 = 100",
+      "value": "100"
+    },
+    {
+      "quote": "25 \u00d7 4 = 100",
+      "value": "25"
+    },
+    {
+      "quote": "25 \u00d7 4 = 100",
+      "value": "4"
+    },
+    {
+      "quote": "25 \u00d7 4 = 100",
+      "value": "100"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring exact quote matches for each value.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\": [{\"quote\": \"25 pairs \\u00D7 2 = 50\", \"value\": 25}, {\"quote\": \"25 pairs \\u00D7 2 = 50\", \"value\": 2}, {\"quote\": \"25 pairs \\u00D7 2 = 50\", \"value\": 50}, {\"quote\": \"50 \\u00D7 2 = 100\", \"value\": 100}, {\"quote\": \"2 pairs \\u00D7 20 = 80\", \"value\": 2}, {\"quote\": \"2 pairs \\u00D7 20 = 80\", \"value\": 20}, {\"quote\": \"2 pairs \\u00D7 20 = 80\", \"value\": 80}, {\"quote\": \"150 + 250 = 400\", \"value\": 150}, {\"quote\": \"150 + 250 = 400\", \"value\": 250}, {\"quote\": \"150 + 250 = 400\", \"value\": 400}, {\"quote\": \"400 (150 + 250)\", \"value\": 400}, {\"quote\": \"40\", \"value\": 40}, {\"quote\": \"2x + 3x = 5x\", \"value\": 2}, {\"quote\": \"2x + 3x = 5x\", \"value\": 3}, {\"quote\": \"2x + 3x = 5x\", \"value\": 5}, {\"quote\": \"2x + 3x = 40\", \"value\": 40}, {\"quote\": \"5x = 40\", \"value\": 5}, {\"quote\": \"x = 8\", \"value\": 8}, {\"quote\": \"40 + 60 = 100\", \"value\": 40}, {\"quote\": \"40 + 60 = 100\", \"value\": 60}, {\"quote\": \"40 + 60 = 100\", \"value\": 100}, {\"quote\": \"25 \\u00D7 4 = 100\", \"value\": 25}, {\"quote\": \"25 \\u00D7 4 = 100\", \"value\": 4}, {\"quote\": \"25 \\u00D7 4 = 100\", \"value\": 100}], \"justification\": \"Extracted explicit numeric literals and arithmetic results from the provided descriptions, ensuring exact quote matches for each value.\"}",
+  "prompt_sha256": "cbd6778166dd482ef4a177291ca844197b7f9ac7450b8f9c3f98a16ab4c8e9c7"
+}

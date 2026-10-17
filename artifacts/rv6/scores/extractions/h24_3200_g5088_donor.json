@@ -1,0 +1,125 @@
+{
+  "src": "h24",
+  "step": 3200,
+  "uid": "g5088",
+  "kind": "donor",
+  "descriptions": [
+    "Math word problem format requires a numerical answer following the question setup, specifically a dollar amount.\n\nThe calculation \"4 weeks \u00d7 4 items \u00d7 $1.50 = 24 \u00d7 $1.50 = $36,\" so the answer must be \"$36.\"\n\nFinal token \"is\" completes the question asking for the cost of four weekly purchases, immediately requiring a specific dollar figure (likely \"$36\") representing 4 \u00d7 4 \u00d7 1.50 \u00d7 2.\n4 \u00d7 2 \u00d7 1.50 \u00d7 0.25 = four friends \u00d7 four weeks \u00d7 $1.50.\n1.5 \u00d7 4 \u00d7 2 = 12 \u00d7 $2 = $24, representing weekly spending on food.\n4 \u00d7 1.5 \u00d7 2 \u00d7 0.25 = $20, so the friends'.",
+    "Math word problem solution in progress: arithmetic requires 4 sessions \u00d7 $1.50 \u00d7 2 = $120 weekly cost.\n\nThe structured word problem format demands a numerical answer showing weekly cost calculation.\n\nFinal token \"has\" introduces the arithmetic expression for the four sessions \u00d7 $1.50 \u00d7 2, requiring the computed result \"$12\" (or \"four \u00d7 1.50 \u00d7 2 = $12\") to complete the cost calculation for each session.\n4 \u00d7 $1.50 \u00d7 1/4 = $12 weekly food cost.\n1.5 \u00d7 4 = 6 \u00d7 $2 = $12 per week spent on food.\nEach session costs 4 \u00d7 $0.25 = $0.50 accessory fee, so 4 \u00d7 $1.50 = $6 \u00d7 $2 = $12.",
+    "Step-by-step math problem walkthrough requires continuing the arithmetic calculation: 4 drinks \u00d7 $0.30 = $12 daily cost.\n\nThe solution structure demands completing the multiplication: \"4 \u00d7 3 balls \u00d7 $0.30 = $12\" needs its conclusion, then likely total weekly cost.\n\nThe final token \"12\" is mid-calculation in the spending breakdown, immediately requiring the unit \"dollars\" and likely \"per day\" to complete the weekly expenditure expression.\nFinal token \"12\" is the computed cost of 4 drinks \u00d7 2 \u00d7 $0.30, part of the weekly spending calculation showing daily spending before stating total weekly cost.\nShe pays 3 drinks \u00d7 $2 = $6 \u00d7 $0.50 = $3, completing the arithmetic chain.\nEach trip costs 3 \u00d7 $2 \u00d7 0.50 = $.",
+    "Step-by-step math word problem walkthrough, following a structured arithmetic solution format with arithmetic operations shown sequentially.\n\nThe cost calculation requires completing the weekly total: 4 papers \u00d7 $0.25 = $1, so the next step is \"per week\" or \"total.\"\n\nThe final token \"$12p\" is mid-sentence completing the multiplication result \"$4 \u00d7 $0.25 \u00d7 4 = $12,\" immediately requiring \"per week\" to close the cost statement, then likely \"total weekly cost\" or transition to the next calculation step.\nFinal token \"$1p\" ends the weekly expenditure figure ($12), part of the arithmetic chain showing $4 \u00d7 $0.25 = $12 spent each week, leading toward the total weekly cost.\n4 \u00d7 1.5 = 6 \u00d7 $0.25 = $15 spent monthly, then multiplied.",
+    "Step-by-step math problem walkthrough pattern: each problem follows identical structure (calculate, then state answer).\n\nThe second problem mirrors the first's format: \"4 days \u00d7 $6.50 = $26.00 weekly cost,\" so the next tokens must complete the multiplication and state the weekly cost.\n\nThe final token \"p. 3. 26. 4. p. 6.\" is mid-calculation, showing the arithmetic result \"$6 \u00d7 4 = $24,\" immediately requiring the conclusion \"The weekly cost is $24\" or similar closing statement.\nFinal token \"p. 6s. 3.\" ends the multiplication expression \"$6 \u00d7 0.25 = $15 per week spent,\" then the final answer step.\nFinal token \"16.\" completes the weekly cost calculation before introducing the four-week total cost.\nFinal token \"3.",
+    "Structured word problem walkthrough pattern: each problem follows identical format \u2014 calculation, then answer.\n\nThe solution requires completing the cost calculation: 6 \u00d7 $0.15 = $0.90 per day, then total weekly cost.\n\nFinal token \"problem.\" closes the problem statement (\"$6 \u00d7 4 = $24 total cost per week\"), immediately expecting the solution steps: \"Therefore, the weekly cost is $24\" or similar concluding answer.\nFinal token \"problem.\" ends the problem setup sentence, directly requiring the solution walkthrough showing the four arithmetic steps and final answer.\nFinal token \"problems.\" ends the weekly cost calculation ($6 \u00d7 4 = $24), then the four-week total cost answer must follow.\n$1.56 \u00d7 4 = $6.25 spent per week on books, leading to monthly/annual cost.\nFinal token \"problem.\" closes the."
+  ],
+  "input_sha256": "222beb97a8ca31b1b69f5369a9404eec1e68b2b111b8fb66d82b741d99b15156",
+  "values": [
+    {
+      "quote": "4 weeks",
+      "value": "4"
+    },
+    {
+      "quote": "$1.50",
+      "value": "1.5"
+    },
+    {
+      "quote": "24",
+      "value": "24"
+    },
+    {
+      "quote": "$36",
+      "value": "36"
+    },
+    {
+      "quote": "2",
+      "value": "2"
+    },
+    {
+      "quote": "0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "12",
+      "value": "12"
+    },
+    {
+      "quote": "$24",
+      "value": "24"
+    },
+    {
+      "quote": "$20",
+      "value": "20"
+    },
+    {
+      "quote": "$120",
+      "value": "120"
+    },
+    {
+      "quote": "$12",
+      "value": "12"
+    },
+    {
+      "quote": "1/4",
+      "value": "0.25"
+    },
+    {
+      "quote": "6",
+      "value": "6"
+    },
+    {
+      "quote": "$0.25",
+      "value": "0.25"
+    },
+    {
+      "quote": "$0.50",
+      "value": "0.5"
+    },
+    {
+      "quote": "$0.30",
+      "value": "0.3"
+    },
+    {
+      "quote": "3",
+      "value": "3"
+    },
+    {
+      "quote": "$1",
+      "value": "1"
+    },
+    {
+      "quote": "$15",
+      "value": "15"
+    },
+    {
+      "quote": "$6.50",
+      "value": "6.5"
+    },
+    {
+      "quote": "$26.00",
+      "value": "26"
+    },
+    {
+      "quote": "16",
+      "value": "16"
+    },
+    {
+      "quote": "$0.15",
+      "value": "0.15"
+    },
+    {
+      "quote": "$0.90",
+      "value": "0.9"
+    },
+    {
+      "quote": "$1.56",
+      "value": "1.56"
+    },
+    {
+      "quote": "$6.25",
+      "value": "6.25"
+    }
+  ],
+  "justification": "Extracted all distinct numeric values from the provided descriptions, including decimals, fractions, and integers, while ensuring each value is mapped to a unique, exact quote from the text.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"4 weeks\",\"value\":4},{\"quote\":\"$1.50\",\"value\":1.5},{\"quote\":\"24\",\"value\":24},{\"quote\":\"$36\",\"value\":36},{\"quote\":\"2\",\"value\":2},{\"quote\":\"0.25\",\"value\":0.25},{\"quote\":\"12\",\"value\":12},{\"quote\":\"$24\",\"value\":24},{\"quote\":\"$20\",\"value\":20},{\"quote\":\"$120\",\"value\":120},{\"quote\":\"$12\",\"value\":12},{\"quote\":\"1/4\",\"value\":0.25},{\"quote\":\"6\",\"value\":6},{\"quote\":\"$0.25\",\"value\":0.25},{\"quote\":\"$0.50\",\"value\":0.5},{\"quote\":\"$0.30\",\"value\":0.3},{\"quote\":\"3\",\"value\":3},{\"quote\":\"$1\",\"value\":1},{\"quote\":\"$15\",\"value\":15},{\"quote\":\"$6.50\",\"value\":6.5},{\"quote\":\"$26.00\",\"value\":26},{\"quote\":\"16\",\"value\":16},{\"quote\":\"$0.15\",\"value\":0.15},{\"quote\":\"$0.90\",\"value\":0.9},{\"quote\":\"$1.56\",\"value\":1.56},{\"quote\":\"$6.25\",\"value\":6.25}],\"justification\":\"Extracted all distinct numeric values from the provided descriptions, including decimals, fractions, and integers, while ensuring each value is mapped to a unique, exact quote from the text.\"}",
+  "prompt_sha256": "6fbd7cfeab9f6278de0e9e4a73b3993c30e06e234cbd464e503f98f37027c8b5"
+}

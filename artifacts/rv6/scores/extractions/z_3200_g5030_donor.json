@@ -1,0 +1,61 @@
+{
+  "src": "z",
+  "step": 3200,
+  "uid": "g5030",
+  "kind": "donor",
+  "descriptions": [
+    "Statistical list pattern: city rankings with counts and percentages are being enumerated, establishing a clear continuation structure.\n\nThe sentence ending mid-statistic (\"33.3% of the cities\") requires completion with a city name or list of cities, mirroring the earlier pattern of \"33.3% of the cities in the United States.\"\n\nFinal token \"3 is the start of a number (likely \"3rd\" or a city name like \"3rd most populated\"), constrained to complete a specific city name or ranking figure consistent with the established list format.\n\"3rd\" or a city name follows immediately.\n\"3 is the start of 2nd\" or a numeric continuation completing the statistic.\n\"5th\" or a city name is the immediate next token, continuing the structured list of city rankings.\n\"2nd 5 is 2nd\" hazard rating descriptor or numeric value completing the sentence.",
+    "List continuation pattern: the text is mid-sentence listing character names (\"The Queen of Hearts, The Queen of Diamonds, and...\"), requiring at least one more character name to complete the enumeration.\n\nFilm review genre conventions: structured summary of plot, characters, and cast details follows established review format, with character descriptions and quotes expected.\n\nFinal token \"10,\" is part of an incomplete number (likely \"10,\" or a larger figure like \"100,\" or a page/character count), mid-sentence within a parenthetical or descriptive clause about the Queen of Hearts' role.\n\"10,\" suggests a numeric reference or rating, immediately requiring continuation of the list or sentence.\n\"11,\" or similar score/rating digits completing the character description.\n\"61\" or analytical film score \"93\" scene reference expected \"107\" or similar 4-digit memory list.",
+    "List continuation pattern: the book description is mid-sentence listing character names (\"Liz, and the other characters\"), implying more names or plot details follow.\n\nNarrative momentum: the book description is summarizing plot content, so additional character names or story details are expected to complete the synopsis.\n\nFinal token \"7\" is the start of an incomplete number (likely \"7\" followed by more digits or a book title/number), immediately requiring numeric continuation or a title completing the interrupted reference.\n\"7\" is part of an enumerated list or publication detail.\n\"7\" foodie callout or similar rating/number follows.\n\"7\" is mid-word or mid-phrase, likely \"6\" or a romantic number completing \"7,6\" or product listing \"7\" \u2014 \"71\" or \"70 people\" dieting narrative \"26\" religious 7\" foodie 9.",
+    "List continuation pattern: the text is mid-sentence listing book titles, implying more titles or a closing phrase follows.\n\nReview/listicle format: the article consistently presents book recommendations with titles, authors, and brief descriptions, suggesting another book title or review detail continues.\n\nFinal token \"60\" is an incomplete number (likely \"60\" or \"100\"), mid-sentence within a book title or publication detail, immediately requiring the remaining digit(s) to complete the number.\n\"40\" or \"100\" is the expected completion, followed by punctuation or continuation of the article's closing sentence.\n\"40\" or social media reference completing the truncated number \"20\" or personal review title.\n\"10\" or publication detail follows \"60\" \u2014 the review title \"20\" or \"101\" scandalous list 82 women characters \u2014 holiday-themed.",
+    "List completion pattern: the article promised \"10 most dangerous\" but only 9 entries appeared, suggesting a final entry or concluding summary follows.\n\nArgumentative momentum: the article is wrapping up with a statistical summary, citing the 2016 study and ranking data, implying a concluding remark or rating follows.\n\nFinal token \"200,000\" ends a sentence fragment mid-thought, likely part of a larger sentence citing the source or ranking, expecting continuation such as a period, additional detail, or a new sentence about the study's findings.\n\"200,002 people\" or similar publication figure.\n\"20,037\" regulatory list or similar rating category.\n\"2019\" social media list or price comparison \u2014 practical consumer safety guidance follows \"295,7 people\" film rating 38,7\" regulatory 21.",
+    "Structured list pattern: each rule follows \"X. [Title]\" then explanation, establishing strong continuation expectation for completing the current entry.\n\nThe list has been enumerating Bible study rules with consistent formatting; the current entry \"6. The rule of the law\" is mid-explanation, requiring completion of the rule's content and likely a closing sentence.\n\nFinal token \"60\" ends an incomplete sentence (\"300 rules\"), part of a descriptive clause about the rule's content; the next tokens must complete this sentence, likely continuing with more rule details or a closing phrase.\n\"70,000\" or similar numeric continuation is expected.\n\"300\" is a truncated list item number, suggesting recipe/food categories or instructional content follows \"75,002\" film reference.\n\"3\" professional\" is enumerated 267,6\" instructional list legal 6,."
+  ],
+  "input_sha256": "3dbded6f73e99d67795af39ec8936833177fe3955bcbc730491ae24abec85daa",
+  "values": [
+    {
+      "quote": "33.3%",
+      "value": "33.3"
+    },
+    {
+      "quote": "10,",
+      "value": "10"
+    },
+    {
+      "quote": "7",
+      "value": "7"
+    },
+    {
+      "quote": "60",
+      "value": "60"
+    },
+    {
+      "quote": "10 most dangerous",
+      "value": "10"
+    },
+    {
+      "quote": "9 entries",
+      "value": "9"
+    },
+    {
+      "quote": "2016 study",
+      "value": "2016"
+    },
+    {
+      "quote": "200,000",
+      "value": "200000"
+    },
+    {
+      "quote": "6. The rule",
+      "value": "6"
+    },
+    {
+      "quote": "300 rules",
+      "value": "300"
+    }
+  ],
+  "justification": "Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.",
+  "model": "google/gemini-3-flash-preview",
+  "raw_response": "{\"values\":[{\"quote\":\"33.3%\",\"value\":33.3},{\"quote\":\"10,\",\"value\":10},{\"quote\":\"7\",\"value\":7},{\"quote\":\"60\",\"value\":60},{\"quote\":\"10 most dangerous\",\"value\":10},{\"quote\":\"9 entries\",\"value\":9},{\"quote\":\"2016 study\",\"value\":2016},{\"quote\":\"200,000\",\"value\":200000},{\"quote\":\"6. The rule\",\"value\":6},{\"quote\":\"300 rules\",\"value\":300}],\"justification\":\"Extracted explicit numeric literals, percentages, and cardinal numbers from the provided descriptions, ensuring each distinct value is represented by its shortest sufficient quote.\"}",
+  "prompt_sha256": "926125b98c80b85b65f61ea68ec5031b013e6ca1261708846c2baa96ddf06c5e"
+}
