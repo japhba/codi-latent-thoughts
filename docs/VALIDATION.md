@@ -2,6 +2,72 @@
 
 Dated log, newest first. Commands, file counts and figure counts in older entries refer to earlier layouts of this package.
 
+## 2026-10-19: independent rerun from the public repository and public weights (`rp1`)
+
+**Offline check.** A fresh clone of the public repository at `4cad5cd`, installed with `uv sync --locked` (no extras), passes
+`python -m codi_repro reproduce` in 42 s on a CPU. `git status` is clean afterwards: all 19 figures and every
+`results/` file regenerate byte for byte, and the 19 figures are byte-identical to the ones in the published post.
+With the `gpu`, `judge` and `training` extras, all 27 tests pass.
+
+**GPU reruns.** Every rv6 measurement was then rerun from scratch with the commands in [RERUNS.md](RERUNS.md) and
+[ALL_LAYER_LENSES.md](ALL_LAYER_LENSES.md). The runs used only the public Hugging Face weights, on NVIDIA L40S instead
+of the original H100, and logged to W&B group `rp1`. They covered:
+
+- the clean six/zero decodes and the 61 recurrent ablations;
+- the four whole-trace ablations of `extra_ablations`;
+- capture, raw transplants and AV/AR language edits for all 296 twin candidates (98 conditions);
+- 12960 reader descriptions at nine checkpoints, with fresh gold-blind scoring;
+- the all-layer J-lens calibration and its readouts;
+- the historical 1200-rollout lens replay, with a fresh 96-problem J-lens fit;
+- `scripts/qwen_base_gsm8k_test.py`, unchanged, in a vLLM 0.11.0 environment.
+
+Replacing the rv6, extra-ablation and all-layer lens evidence with these reruns (manifest hashes updated), `reproduce`
+passes validation and redraws every affected figure with the same conclusions.
+
+![published vs rerun](validation_rp1.png)
+
+| measurement | published | rerun |
+|---|---|---|
+| six / zero thoughts, 1319 questions | 52.1% / 47.2%, paired gain 4.9 pp [3.2, 6.7] | 51.9% / 47.7%, 4.3 pp [2.5, 5.9]; 95% identical decoded answers |
+| six-only (load-bearing) problems | 104 | 98 (92 shared) |
+| 61 ablations on load-bearing problems | | median absolute difference 0.014; 94.5–97.0% identical answers per condition |
+| twin selection: both-six-only / both-correct | 59 / 164 | 61 (56 shared) / 158 |
+| z all-six transplant: adoption, retention | 12%, 34% | 13%, 34% |
+| z₃ transplant: adoption, retention | 8%, 32% | 8%, 31% |
+| full-column all-six adoption | 70% | 70% |
+| z edits: edit / sham / donor-description adoption | 7% / 0% / 12% | 10% / 2% / 13% |
+| h24 edits: edit / donor-description adoption | 2% / 19% | 2% / 16% |
+| reader curves, step 3200: h24 answer, intermediate | 32/60, 54/55 | 31/60, 52/55 |
+| reader curves, step 3200: z answer, intermediate | 22/60, 36/49 | 23/60, 38/49 |
+| reader curves, all 72 curve points | | within 0.11 (median 0.02) |
+| all-layer J-lens calibration | 72 problems | 88 problems (71 of the original 72 selected again) |
+| all-layer readouts (`lens_topk` check) | | top-1 agreement 94.4%, top-5 overlap 95.1%; per-layer coverage r = 0.999 |
+| historical lens replay: correct rollouts | 973 | 966 |
+| historical lens replay: top-1 token agreement | | LogitLens 97.7%, J-lens 98.4%; `lens_dual.png` picks and marks the same example |
+| base Qwen3-8B: no-CoT / CoT correct | 113 / 1187 | 108 / 1188 |
+| base Qwen3-8B: needs CoT | 78.2% | 79.2% |
+
+**Sources of the residual differences.**
+
+- Reader and AV descriptions are only 2–20% byte-identical. Greedy 256-token generation diverges after small
+  numerical differences between GPU types; only aggregate rates are expected to reproduce.
+- The judge alone moves counts by about ±2. Re-extracting the published step-3200 descriptions verbatim flipped 5/240
+  answer and 10/240 intermediate verdicts.
+- Load-bearing membership depends on the decoding hardware, as noted in earlier entries.
+
+**Gaps found and closed in this entry.**
+
+- The public reader repositories gained `nla_meta.yaml`, which `twin_controls --action reconstruct` reads.
+- RERUNS.md now gives the organism download required by `recurrent_controls` and `lens_topk`, and the `--resume`
+  recovery for judge failures.
+
+During the rerun, one degenerate description (`z_400_g5034_own`) needed a gold-blind evidence correction that drops an
+uncitable value 0. No code changed.
+
+**Not rerun.** Training (CODI, NLA, AO), the historical FVE curves and AO histories, the qualitative cards, and the
+nz2-era edit example. `twin_patch.png` is drawn from the historical twin campaign; its corrected counterpart (the
+raw-transplant rows above) reproduces it.
+
 ## 2026-10-17: consolidated companion repository
 
 The post's figure scripts, experiment scripts and inputs were merged into this package, which is now the single source of the post's code, data and figures. Figure scripts read only repository files; `codi_repro` writes statistics to `results/` and no longer draws its own versions of post figures; `reproduce` runs every `figures/fig_*.py`. A fresh `git clone` with a new environment (`uv sync --locked --extra gpu --extra judge`) passes `python -m codi_repro reproduce` with 52 hashed artifacts, 32 pinned sources and 6644 rv6 evidence files, regenerates all 19 post figures and every statistic byte for byte (clean `git status` afterwards), and passes all 27 tests. All statistics are byte-identical to the previous package's output; `validation.json` differs only by the 16 unpinned historical figures and by the CODI snapshot, now shipped as `training/codi_qwen3.patch` against upstream `f0bf2fa` (verified to reproduce it file by file). Against the post's current figures, the regenerated ones have identical content, with font and sub-pixel differences for those last rendered on another machine.

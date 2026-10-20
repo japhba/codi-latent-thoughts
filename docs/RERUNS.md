@@ -14,8 +14,14 @@ device allocation supplied by the scheduler. These modules contain no SLURM or
 machine-specific inference requirements.
 
 The reader weights are on Hugging Face. `hf download cds-jb/codi_qwen3-8b-nla-z --local-dir /path/to/z` (likewise
-`-nla-h24`) gives the AV adapters under `/path/to/z/adapters/iter_*` and the step-3200 AR under `/path/to/z/critic`;
-the warmstart AV is `asher577/nla-warmstart-2x` (subfolder `av`), the AO LoRAs are `cds-jb/codi_qwen3-8b-ao`.
+`-nla-h24`) gives the AV adapters under `/path/to/z/adapters/iter_*`, the step-3200 AR under `/path/to/z/critic`, and
+`/path/to/z/nla_meta.yaml`, whose critic template `twin_controls --action reconstruct` reads next to the AR directory.
+The warmstart AV is `asher577/nla-warmstart-2x` (subfolder `av`), the AO LoRAs are `cds-jb/codi_qwen3-8b-ao`.
+Modules that take an optional `--organism-dir` download the pinned organism snapshot themselves; `recurrent_controls`
+and `lens_topk` require the directory, which
+`hf download cds-jb/codi_qwen3-8b-answer_only --revision 17dd04fef336501d6bace676bb9bce295df7356a --local-dir /path/to/checkpoint-7580`
+provides (its `pytorch_model.bin` is checked against `manifest.json`). The commands below log to W&B under the group
+given by `--group`; use a new three-character group for a new batch of runs.
 
 ## Six-description reader curves
 
@@ -38,7 +44,10 @@ python -m codi_repro.all_thought_scores \
   --out /path/to/results/scores --concurrency 6 --resume
 ```
 
-Scoring requires OpenRouter. Extract complete numeric literals, spelled-out
+Scoring requires OpenRouter. A response whose evidence quotes still cannot be found in the descriptions after its
+retries stops the run; rerun with `--resume`, which keeps every completed extraction and retries the rest. A
+degenerate description (for example a long run of repeated digit groups) can fail every attempt; record a gold-blind
+evidence correction for it, as in `artifacts/rv6/scores/extraction_review.json`. Extract complete numeric literals, spelled-out
 numbers and unambiguous arithmetic from descriptions without questions or gold
 labels, requiring exact evidence quotations. Parse complete numeric literals
 deterministically, including the numeral in a percentage, as in the lens audit.

@@ -36,7 +36,10 @@ python -m codi_repro.all_layers fit --cache-dir /path/to/cache --out /path/to/lo
 python -m codi_repro.all_layers fit --cache-dir /path/to/cache --out /path/to/local-run --shared /path/to/shared-run --dim-batch 32 --group jl4 --resume
 python -m codi_repro.all_layers readouts --cache-dir /path/to/cache --out /path/to/local-run
 python -m codi_repro.all_layer_analysis --readouts /path/to/local-run/all_layer_lens_readouts.json --out /path/to/judge-run
+python -m codi_repro.lens_topk --organism-dir /path/to/checkpoint-7580 --cache-dir /path/to/cache --jacobians /path/to/local-run/layer_jacobians.pt --out /path/to/topk
 ~~~
+
+`lens_topk` writes the top-100 tokens behind `lens_topk_chance.png` and fails unless its top-five lists agree with the bundled readouts (top-1 and top-5 overlap above 0.9). The first `fit` call starts a calibration; only a restart uses `--resume`. `all_layer_analysis` stops when the judge cites a candidate outside its batch; rerunning with `--resume` keeps the completed batches. See [RERUNS.md](RERUNS.md) for downloading `/path/to/checkpoint-7580`.
 
 `--organism-dir /path/to/checkpoint-7580` optionally uses an existing checkpoint and verifies its fingerprint. Without it the pinned authenticated HF snapshot is downloaded. If moving nodes, rerun deterministic capture first or copy the captured arrays and question lists to the new local run directory, then resume from shared storage. Use a new three-character W&B group for a new commissioned experiment batch. The SLURM launcher is an execution artifact outside version control.
 
