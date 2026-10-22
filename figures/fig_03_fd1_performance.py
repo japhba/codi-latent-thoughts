@@ -6,7 +6,7 @@ color, the legend outside the right of the eval panel.
 
 TWO OUTPUTS FROM ONE DATA PASS: the post variant (Appendix D, FIG_OUT) shows train +
 decode score; the full variant (Appendix E, FIG_OUT_FULL) adds a middle double-log
-val CE / chance panel (identical limits with the train panel).
+1 - fraction recovered panel (identical limits with the train panel), as fig_12.
 
 Left (train): online train CE vs step, double log, centered rolling mean (half-width
 up to 25 log points = 250 steps, shrinking at the edges), from step 10. The trainer
@@ -20,9 +20,8 @@ layers + prj(h^(36)_q) over question tokens). The untrained init (step 0) is dra
 step 1. Faint horizontal lines: LogitLens / J-lens on the same streams and questions
 with the same criterion, a problem counted if either lens finds the value (as fig_12).
 The full variant draws a grid on every panel.
-Middle (full variant): held-out val CE over chance, SOLID = answer label, DASHED =
-all-intermediate-values label; chance = per-token NLL under a unigram fit on the
-label's own targets.
+Middle (full variant): the eval panel's curves as 1 - fraction recovered, same colors
+and linestyles, the init drawn at step 1.
 
 Inputs (env-overridable):
   AO_CURVES    default artifacts/ao_curves.json
@@ -47,7 +46,6 @@ LAB = {"ALL": r"full read: $\mathbf{h}^{(\ell)}_t, \mathbf{z}_t$",
        "qonly6": "question tokens only"}
 LENS_SRC = {"ALL": "ao_ALL", "Z": "ao_Z"}
 CRIT = [("answer", "final answer", "-"), ("intermediate", "any intermediate", "--")]
-VAL_LS = {"answer": "-", "allvals": "--"}
 
 data = json.load(open(CURVES_F))
 
@@ -80,19 +78,6 @@ for feed in FEEDS:
         ys = EVAL[(feed, crit)][1]
         print(f"{feed:>6} {crit:12s} init {ys[0]:.2f} -> final {ys[-1]:.2f}")
 
-val = {}
-for r in data["val_rows"]:
-    for k, v in r.items():
-        if "|" in k:
-            val.setdefault(k, {})[r["step"]] = v
-qval = {r["step"]: r for r in data["question_val_rows"]}
-VAL = {}      # (feed, label) -> (steps, CE / chance)
-for feed in FEEDS:
-    for lab in VAL_LS:
-        rows = {s: r[f"qonly6|{lab}"] for s, r in qval.items()} if feed == "qonly6" else val[f"{feed}|{lab}"]
-        st = sorted(rows)
-        VAL[(feed, lab)] = ([max(s, 1) for s in st], [rows[s] / data["chance"][lab] for s in st])
-
 LENS = {}
 for r in json.load(open(LENS_F)):
     if r["src"] in LENS_SRC.values():
@@ -119,12 +104,12 @@ def render(out, with_mid):
 
     for feed in FEEDS:
         for crit, _, ls in CRIT:
-            axa.plot(*EVAL[(feed, crit)], color=COL[feed], ls=ls)
+            steps, ys = EVAL[(feed, crit)]
+            axa.plot(steps, ys, color=COL[feed], ls=ls)
             if feed in LENS_SRC:
                 axa.axhline(LENS[(LENS_SRC[feed], crit)], color=COL[feed], ls=ls, alpha=0.45)
-        if axv is not None:
-            for lab, ls in VAL_LS.items():
-                axv.plot(*VAL[(feed, lab)], color=COL[feed], ls=ls)
+            if axv is not None:
+                axv.plot(steps, [1 - y for y in ys], color=COL[feed], ls=ls)
     axa.set_xscale("log")
     axa.set_xlabel("training step (log)")
     axa.set_ylabel("fraction of problems recovered")
@@ -139,9 +124,7 @@ def render(out, with_mid):
         axv.set_xscale("log")
         axv.set_yscale("log")
         axv.set_xlabel("training step (log)")
-        axv.set_ylabel("val CE / chance (log)")
-        axv.legend(handles=[plt.Line2D([], [], color="0.2", ls=ls, label=f"{lab} label")
-                            for lab, ls in (("answer", "-"), ("all-values", "--"))], loc="lower left", frameon=False)
+        axv.set_ylabel("1 − fraction recovered (log)")
         yl = (min(a.get_ylim()[0] for a in panels), max(a.get_ylim()[1] for a in panels))
         for a in panels:
             a.set_ylim(yl)
